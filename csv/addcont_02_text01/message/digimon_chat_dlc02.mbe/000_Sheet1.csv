@@ -1,0 +1,69 @@
+string2 0,string 1,string 2,string 3
+bango_001_0_char_BANCHOGOLEMON,char_BANCHOGOLEMON,Я проснулся. И лучше иметь железную волю!,
+bango_001_1_replay,char_PLAYER_M,У меня железная воля.,
+bango_001_1_reaction_char_BANCHOGOLEMON,char_BANCHOGOLEMON,"Тогда примите меры. Подтолкните свое тело, свой разум,
+и твоя душа до предела, чтобы стать сильнее!",
+bango_001_2_replay,char_PLAYER_M,Что вы подразумеваете под словом «воля»?,
+bango_001_2_reaction_char_BANCHOGOLEMON,char_BANCHOGOLEMON,"Подниматься и бороться за свои убеждения,
+не дожидаясь, пока битва придет к тебе.",
+bango_001_3_replay,char_PLAYER_M,"Я думаю, что моя воля довольно слаба.",
+bango_001_3_reaction_char_BANCHOGOLEMON,char_BANCHOGOLEMON,"Молодец, что ты это знаешь. Никакого стыда.
+Но теперь тебе нужно работать, чтобы стать сильнее!",
+bango_001_4_replay,char_PLAYER_M,Я хочу иметь железную волю.,
+bango_001_4_reaction_char_BANCHOGOLEMON,char_BANCHOGOLEMON,"Хорошо сказано. Даже у меня есть работа.
+Давайте вместе станем сильнее!",
+banst_001_0_char_BANCHOSTINGMON,char_BANCHOSTINGMON,"Я приложил много усилий, чтобы стать сильнее.
+Компромисс – это не вариант.",
+banst_001_1_replay,char_PLAYER_M,"Эй, все тоже усердно работают.",
+banst_001_1_reaction_char_BANCHOSTINGMON,char_BANCHOSTINGMON,"Не сравнивайте мои усилия с усилиями других.
+Никто никогда не сможет быть таким, как я.",
+banst_001_2_replay,char_PLAYER_M,Там много сильных дигимонов.,
+banst_001_2_reaction_char_BANCHOSTINGMON,char_BANCHOSTINGMON,"Но для большинства это просто врожденная сила.
+Мой титул «Банчо» был заработан тяжелым трудом.",
+banst_001_3_replay,char_PLAYER_M,Повезло тебе.,
+banst_001_3_reaction_char_BANCHOSTINGMON,char_BANCHOSTINGMON,"Это должна быть лесть?
+Знаете, чтобы перечислить все мои великие дела, потребовались бы дни.",
+banst_001_4_replay,char_PLAYER_M,"Я хочу быть таким, как ты.",
+banst_001_4_reaction_char_BANCHOSTINGMON,char_BANCHOSTINGMON,"Если вы действительно это имеете в виду, то выразите свои действия словами.
+Не ждите, что достигните моего уровня, приложив лишь немного усилий.",
+banlili_001_0_char_BANCHOLILIMON,char_BANCHOLILIMON,"Серьезной ошибкой является думать, что быть сильным
+значит, тебе все сойдет с рук!",
+banlili_001_1_replay,char_PLAYER_M,Но сильным обычно это сходит с рук.,
+banlili_001_1_reaction_char_BANCHOLILIMON,char_BANCHOLILIMON,"Я научу любого, кто совершит эту ошибку
+ошибка их пути! Даже ты.",
+banlili_001_2_replay,char_PLAYER_M,Я хочу быть одновременно сильным и справедливым.,
+banlili_001_2_reaction_char_BANCHOLILIMON,char_BANCHOLILIMON,"Если бы все дигимоны думали так же, как вы.
+Многие из нас нуждаются в спасении.",
+banlili_001_3_replay,char_PLAYER_M,"Это неправильно, но люди до сих пор это делают.",
+banlili_001_3_reaction_char_BANCHOLILIMON,char_BANCHOLILIMON,"Точно. Вот почему я должен всегда защищать кротких,
+даже если мне придется делать это одному.",
+banlili_001_4_replay,char_PLAYER_M,Мы этого не потерпим!,
+banlili_001_4_reaction_char_BANCHOLILIMON,char_BANCHOLILIMON,"Примите это убеждение.
+И знай, что я всегда буду сражаться, чтобы защитить слабых!",
+omem_001_0_char_OMEGAMON:MERCIFUL MODE,,"Есть такие, для которых единственная форма спасения
+это быстрое и милосердное поражение.",
+omem_001_1_replay,char_PLAYER_M,Я понимаю.,
+omem_001_1_reaction_char_OMEGAMON:MERCIFUL MODE,,"Это моя форма милосердия. Я благодарен за ваше
+понимание без вмешательства.",
+omem_001_2_replay,char_PLAYER_M,"Довольно безжалостно, вам не кажется?",
+omem_001_2_reaction_char_OMEGAMON:MERCIFUL MODE,,"Поражение – спасение для таких существ.
+Я бы вряд ли назвал это безжалостностью.",
+omem_001_3_replay,char_PLAYER_M,Нет ли другого пути?,
+omem_001_3_reaction_char_OMEGAMON:MERCIFUL MODE,,"Нет, так я сужу.
+Если у вас есть другой путь, я оставлю суд вам.",
+omem_001_4_replay,char_PLAYER_M,Я хотел бы помочь.,
+omem_001_4_reaction_char_OMEGAMON:MERCIFUL MODE,,"Боюсь, это невозможно.
+Все, что вам нужно сделать, это посмотреть мою работу.",
+banma_001_0_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Приходи ко мне, если у тебя когда-нибудь возникнут проблемы.",
+banma_001_1_replay,char_PLAYER_M,Мне нужна твоя помощь прямо сейчас.,
+banma_001_1_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Ладно, если у тебя возникнут проблемы, я и все остальные.
+Альянс Мамемон раздавит это!",
+banma_001_2_replay,char_PLAYER_M,Проблема? Как что?,
+banma_001_2_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Типа... что угодно! Что бы ни!
+Просто скажи слово, и я в деле.",
+banma_001_3_replay,char_PLAYER_M,Вы уже делаете более чем достаточно.,
+banma_001_3_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Рад это слышать. Цифровой мир — сумасшедшее место,
+но я вернул тебя.",
+banma_001_4_replay,char_PLAYER_M,Я бы не хотел тебя беспокоить.,
+banma_001_4_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Эй, не нужно быть таким формальным.
+Забота друг о друге — это часть дружбы.",

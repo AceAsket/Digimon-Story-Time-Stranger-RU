@@ -8,10 +8,20 @@ $ErrorActionPreference = "Stop"
 
 $ModName = "Digimon Story Time Stranger RU"
 $PayloadDir = Join-Path $PSScriptRoot "payload"
-$PayloadFiles = @(
+$RequiredPayloadFiles = @(
     "app_text01.dx11.mvgl",
     "patch_text01.dx11.mvgl"
 )
+$OptionalPayloadFiles = @(
+    "addcont_01_text01.dx11.mvgl",
+    "addcont_02_text01.dx11.mvgl",
+    "addcont_03_text01.dx11.mvgl",
+    "addcont_05_text01.dx11.mvgl",
+    "addcont_07_text01.dx11.mvgl",
+    "addcont_12_text01.dx11.mvgl",
+    "addcont_17_text01.dx11.mvgl"
+)
+$PayloadFiles = $RequiredPayloadFiles + $OptionalPayloadFiles
 
 function Write-Info([string]$Message) {
     Write-Host "[DSTS-RU] $Message"
@@ -111,7 +121,8 @@ function Read-GameDir {
 function Find-TargetFile {
     param(
         [string]$Root,
-        [string]$FileName
+        [string]$FileName,
+        [switch]$Optional
     )
 
     $matches = Get-ChildItem -LiteralPath $Root -Recurse -File -Filter $FileName -ErrorAction SilentlyContinue |
@@ -121,6 +132,9 @@ function Find-TargetFile {
         } |
         Sort-Object FullName
     if ($matches.Count -eq 0) {
+        if ($Optional) {
+            return $null
+        }
         throw "Не найден файл $FileName внутри $Root. Укажите корневую папку игры, где уже есть этот файл."
     }
     if ($matches.Count -gt 1) {
@@ -139,10 +153,16 @@ function Install-Mod {
         throw "Не найдена папка payload рядом с установщиком: $PayloadDir"
     }
 
-    foreach ($file in $PayloadFiles) {
+    foreach ($file in $RequiredPayloadFiles) {
         $payloadFile = Join-Path $PayloadDir $file
         if (-not (Test-Path -LiteralPath $payloadFile)) {
             throw "Не найден файл payload: $payloadFile"
+        }
+    }
+    foreach ($file in $OptionalPayloadFiles) {
+        $payloadFile = Join-Path $PayloadDir $file
+        if (-not (Test-Path -LiteralPath $payloadFile)) {
+            Write-Info "Опциональный payload отсутствует, пропуск: $file"
         }
     }
 
@@ -159,7 +179,17 @@ function Install-Mod {
     }
 
     foreach ($file in $PayloadFiles) {
-        $target = Find-TargetFile -Root $Root -FileName $file
+        $payloadFile = Join-Path $PayloadDir $file
+        $optional = $OptionalPayloadFiles -contains $file
+        if ($optional -and -not (Test-Path -LiteralPath $payloadFile)) {
+            continue
+        }
+
+        $target = Find-TargetFile -Root $Root -FileName $file -Optional:$optional
+        if (-not $target) {
+            Write-Info "Опциональный файл не найден в игре, пропуск: $file"
+            continue
+        }
         $relative = Get-RelativePathCompat -BasePath $Root -ChildPath $target
         $backupFile = Join-Path $backupDir $relative
         New-Item -ItemType Directory -Force -Path (Split-Path -Parent $backupFile) | Out-Null
@@ -168,7 +198,7 @@ function Install-Mod {
         Copy-Item -LiteralPath $target -Destination $backupFile -Force
 
         Write-Info "Установка: $relative"
-        Copy-Item -LiteralPath (Join-Path $PayloadDir $file) -Destination $target -Force
+        Copy-Item -LiteralPath $payloadFile -Destination $target -Force
 
         $manifest.files += [ordered]@{
             relative_path = $relative

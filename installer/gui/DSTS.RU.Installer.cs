@@ -289,11 +289,24 @@ namespace DstsRuInstaller
 
     internal sealed class InstallerCore
     {
-        private static readonly string[] PayloadFiles = new[]
+        private static readonly string[] RequiredPayloadFiles = new[]
         {
             "app_text01.dx11.mvgl",
             "patch_text01.dx11.mvgl"
         };
+
+        private static readonly string[] OptionalPayloadFiles = new[]
+        {
+            "addcont_01_text01.dx11.mvgl",
+            "addcont_02_text01.dx11.mvgl",
+            "addcont_03_text01.dx11.mvgl",
+            "addcont_05_text01.dx11.mvgl",
+            "addcont_07_text01.dx11.mvgl",
+            "addcont_12_text01.dx11.mvgl",
+            "addcont_17_text01.dx11.mvgl"
+        };
+
+        private static readonly string[] PayloadFiles = RequiredPayloadFiles.Concat(OptionalPayloadFiles).ToArray();
 
         public readonly string BaseDir;
         public readonly string PayloadDir;
@@ -329,7 +342,7 @@ namespace DstsRuInstaller
         public void ValidateGameDir(string root)
         {
             string fullRoot = Path.GetFullPath(root);
-            foreach (string file in PayloadFiles)
+            foreach (string file in RequiredPayloadFiles)
             {
                 FindTargetFile(fullRoot, file);
             }
@@ -347,7 +360,19 @@ namespace DstsRuInstaller
             List<ManifestEntry> entries = new List<ManifestEntry>();
             foreach (string file in PayloadFiles)
             {
-                string target = FindTargetFile(fullRoot, file);
+                bool optional = OptionalPayloadFiles.Contains(file);
+                string payloadFile = Path.Combine(PayloadDir, file);
+                if (optional && !File.Exists(payloadFile))
+                {
+                    continue;
+                }
+
+                string target = FindTargetFile(fullRoot, file, optional);
+                if (target == null)
+                {
+                    Log(log, "Опциональный файл не найден в игре, пропуск: " + file);
+                    continue;
+                }
                 string relative = GetRelativePath(fullRoot, target);
                 string backupFile = Path.Combine(backupDir, relative);
                 Directory.CreateDirectory(Path.GetDirectoryName(backupFile));
@@ -356,7 +381,7 @@ namespace DstsRuInstaller
                 File.Copy(target, backupFile, true);
 
                 Log(log, "Установка: " + relative);
-                File.Copy(Path.Combine(PayloadDir, file), target, true);
+                File.Copy(payloadFile, target, true);
 
                 entries.Add(new ManifestEntry(relative, backupFile));
             }
@@ -408,7 +433,7 @@ namespace DstsRuInstaller
                 throw new InvalidOperationException("Не найдена папка payload рядом с установщиком: " + PayloadDir);
             }
 
-            foreach (string file in PayloadFiles)
+            foreach (string file in RequiredPayloadFiles)
             {
                 string payloadFile = Path.Combine(PayloadDir, file);
                 if (!File.Exists(payloadFile))
@@ -418,7 +443,7 @@ namespace DstsRuInstaller
             }
         }
 
-        private string FindTargetFile(string root, string fileName)
+        private string FindTargetFile(string root, string fileName, bool optional = false)
         {
             List<string> matches = EnumerateFilesSafe(root, fileName)
                 .Select(f => f.FullName)
@@ -428,6 +453,10 @@ namespace DstsRuInstaller
 
             if (matches.Count == 0)
             {
+                if (optional)
+                {
+                    return null;
+                }
                 throw new InvalidOperationException("Не найден файл " + fileName + " внутри " + root + ". Укажите корневую папку игры.");
             }
 
