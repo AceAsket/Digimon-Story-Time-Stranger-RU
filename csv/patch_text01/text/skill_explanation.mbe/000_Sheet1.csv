@@ -1,0 +1,349 @@
+string2 0,string 1
+11016,[Цель: все враги] Наносит тяжелый урон. Всегда попадает.
+11017,[Цель: все враги] Наносит серьезный урон. Всегда попадает.
+11018,"[Target: All enemies]
+Deals moderate damage. Always hits.
+Applies {is28}{image(ui_icon_btlStatus_011)} Reverse."
+11019,[Цель: 1 враг] Наносит огромный урон. Всегда попадает.
+11020,"[Target: All allies]
+Moderately recovers HP.
+Applies {is28}{image(ui_icon_btlStatus_040)} Status Abnormality Immunity and {is28}{image(ui_icon_btlStatus_041)} Stat Debuff
+Immunity."
+11021,[Цель: 1 союзник] Полностью восстанавливает HP и SP. Перегревает до 200% от максимального HP и SP цели.
+11022,"[Target: All allies]
+Revives from KO and slightly recovers HP.
+Applies {is28}{image(ui_icon_btlStatus_042)} Guts (survive at 1 HP when taking fatal damage)."
+11023,[Цель: Все союзники] Повышение на 50% до ATK / DEF / INT / SPI / SPD на 2 хода.
+11024,[Цель: все враги] Наносит незначительный урон. Всегда попадает. Снижение на 25% до ATK / DEF / INT / SPI на 4 хода.
+11025,[Цель: Все союзники] 50% повышение уровня ATK / DEF / INT / SPI / SPD на 3 хода. Сводит к нулю физический / магический урон на 1 ход.
+20391,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_010)} Dark magic attack at power 30 or 120.
+Increased damage to targets with Holy Trait."
+20441,"[Target: 1 enemy]
+Either performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 110,
+or 100% chance of 10% reduction to SPD for 3 turns."
+21782,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait."
+24511,[Цель: 1 враг] Крадет все изменения характеристик.
+27375,"[Target: 1 enemy] Performs phys. attack of random power/element/effect:
+ - Pwr. 110 {is28}{image(ui_icon_skill_006)} Steel; Incr. dmg. to Mineral Trait; Nullifies unfav. compat.
+ - Pwr. 100 {is28}{image(ui_icon_skill_000)} Null; Incr. dmg. to Weapon Trait; 20% CRT Rate.
+ - Pwr. 105 {is28}{image(ui_icon_skill_005)} Electricity; Incr. dmg. to Amphibian Trait."
+31011,[Цель: 1 союзник] Умеренно восстанавливает здоровье.
+31012,[Цель: 1 союзник] Значительно восстанавливает здоровье.
+31021,[Цель: Все союзники] Немного восстанавливает здоровье.
+31022,[Цель: Все союзники] Умеренно восстанавливает здоровье.
+31031,[Цель: 1 союзник] Восстанавливается после нокаута и умеренно восстанавливает здоровье.
+31032,[Цель: 1 союзник] Восстанавливается после нокаута и значительно восстанавливает здоровье.
+31061,"[Target: 1 ally]
+Removes status abnormalities, {is28}{image(ui_icon_btlStatus_012)} Injury, & {is28}{image(ui_icon_btlStatus_013)} Disease."
+80027,[Цель: 1 союзник] Восстанавливается после нокаута и умеренно восстанавливает здоровье.
+80028,[Цель: 1 союзник] Восстанавливается после нокаута и значительно восстанавливает здоровье.
+80029,[Цель: Все союзники] Восстанавливается после нокаута и немного восстанавливает здоровье.
+80030,[Цель: Все союзники] Восстанавливается после нокаута и умеренно восстанавливает здоровье.
+27493,"Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical.
+Upon receiving a physical attack, counters with a
+{is28}{image(ui_icon_skill_001)} Fire physical attack at power 105.
+Increased damage to targets with Humanoid Trait."
+27496,"Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a physical attack,
+counters with a {is28}{image(ui_icon_skill_001)} Fire physical attack at power 250. Nullifies
+unfavorable compatibility. 20% reduction to DEF for 3 turns.
+Increased damage to targets with Humanoid Trait."
+34041,[Цель: 1 враг] Удаляет статусные усиления.
+27383,"Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a
+physical attack, counters with a {is28}{image(ui_icon_skill_000)} Null magic attack
+at power 115. Negates unfavorable compatibility.
+Increased damage to targets with Mythical Trait."
+31041,[Цель: 1 союзник] Удаляет аномалии состояния.
+21282,"[Target: All allies]
+100% chance of 20% reduction to physical/magic
+damage taken for 2 turns. 100% chance of {is28}{image(ui_icon_skill_006)} Steel
+resistance boost for 2 turns."
+27772,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_009)} Light physical attack at power 105. 100%
+chance of 20% reduction to all user's stats for 3 turns.
+Increased damage to targets with Immortal Trait."
+27521,"[Target: 1 enemy]
+Deals 1% HP damage x 5 hits.
+100% chance of 20% reduction to SPI for 3 turns.
+30% chance to apply {is28}{image(ui_icon_btlStatus_002)} Confusion."
+27342,[Цель: Пользователь] 100% шанс свести к нулю физический / магический урон.
+27291,"[Target: All enemies]
+100% chance of 10% reduction to SPI for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_003)} Paralysis."
+31042,"[Target: 1 ally]
+Removes {is28}{image(ui_icon_btlStatus_012)} Injury & {is28}{image(ui_icon_btlStatus_013)} Disease."
+26991,[Цель: 1 враг] Наносит 20% урона HP. На 20% увеличивает ATK пользователя на 3 хода.
+25901,"[Target: 1 enemy]
+100% chance of 10% reduction to DEF/SPI for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_000)} Poison."
+24551,[Цель: 1 враг] Наносит 15% урона HP.
+31051,[Цель: 1 союзник] Снимает статические дебаффы.
+23981,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_000)} Null magic attack at power 60.
+Removes all stat changes. 
+20% chance to apply {is28}{image(ui_icon_btlStatus_004)} Sleep."
+23801,"[Target: 1 enemy]
+Deals 5% HP damage.
+100% chance of 10% reduction to ATK for 3 turns.
+70% chance to apply {is28}{image(ui_icon_btlStatus_002)} Confusion."
+23382,"[Target: All enemies] Performs {is28}{image(ui_icon_skill_000)} Null magic attack at
+power 80. 50% chance to apply {is28}{image(ui_icon_btlStatus_008)} Immobilization.
+70% chance of 20% reduction to DEF for 3 turns.
+Increased damage to targets with Holy Trait."
+23281,[Цель: все враги] Наносит 20% урона HP. Всегда попадает.
+23152,"[Target: All enemies] Performs {is28}{image(ui_icon_skill_009)} Light magic attack
+at power 140. Consumes all SP. Causes KO from attack 
+recoil. The lower the user's SP, the lower the damage.
+Increased damage to targets with Deity Trait."
+23121,[Цель: 1 враг] 100% шанс снижения на 30% до SPD на 3 хода. 60% шанс применить Обездвиживание в следующий ход.
+22401,"[Target: 1 enemy]
+80% chance of 30% reduction to ACU for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_000)} Poison."
+22322,[Цель: все враги] 100% вероятность снижения SPI на 30% и ACU на 10% на 3 хода.
+22261,"[Target: 1 enemy]
+100% chance of 20% reduction to SPD 
+& applying {is28}{image(ui_icon_btlStatus_003)} Paralysis for 3 turns."
+22221,"[Target: All enemies]
+100% chance of 10% reduction to SPI for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_010)} Crystallization."
+21941,"[Target: All enemies] Performs {is28}{image(ui_icon_skill_006)} Steel physical attack 
+at power 35 x 4 hits. The lower the user's SP, the lower 
+the damage. Consumes all SP. Immobilized next turn.
+Increased damage to targets with Machine Trait."
+21881,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_003)} Plant physical attack 
+at power 85. Recovers HP/SP equal to 10% of damage.
+100% chance to apply {is28}{image(ui_icon_skill_003)} Plant Resistance Down.
+Increased damage to targets with Deity Trait."
+21863,"Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical.
+Upon receiving a physical attack, counters with an
+{is28}{image(ui_icon_skill_005)} Electricity magic attack at power 90."
+21852,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_010)} Dark physical attack
+at power 70. If target is {is28}{image(ui_icon_type_020)} Data: Increased damage.
+100% chance to apply {is28}{image(ui_icon_skill_010)} Dark Resistance Down.
+Increased damage to targets with Angel Trait."
+21832,"[Target: User]
+Applies {is28}{image(ui_icon_btlStatus_048)} Taunting.
+100% chance of 30% boost to EVA for 1 turn."
+21703,"Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical.
+Upon receiving a physical attack, counters against
+all enemies with a {is28}{image(ui_icon_skill_010)} Dark physical attack at power 105.
+Increased damage to targets with Unknown Trait."
+21271,"[Target: All enemies]
+100% chance of 50% reduction to ATK/INT for 1 turn.
+Applies {is28}{image(ui_icon_btlStatus_048)} Taunting to user."
+21172,"[Target: All allies]
+Applies {is28}{image(ui_icon_btlStatus_040)} Status Abnormality Immunity.
+Removes status abnormalities."
+20591,"[Target: All enemies]
+100% chance of 10% reduction to SPI for 3 turns.
+60% chance to apply {is28}{image(ui_icon_btlStatus_003)} Paralysis.
+20% chance to apply {is28}{image(ui_icon_btlStatus_008)} Immobilization."
+20472,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack
+at power 80. 70% chance of 20% reduction to INT.
+70% chance to apply {is28}{image(ui_icon_btlStatus_010)} Crystallization.
+Increased damage to targets with Unknown Trait."
+20462,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_010)} Dark magic attack at
+power 80. 100% chance to apply {is28}{image(ui_icon_btlStatus_010)} Crystallization.
+70% chance of 20% reduction to ATK/DEF/INT/SPI.
+If target's HP is 50% or higher: Increased damage."
+20131,"[Target: 1 enemy]
+Deals 15% HP damage.
+50% chance to apply {is28}{image(ui_icon_btlStatus_012)} Injury."
+20051,"[Target: All enemies]
+100% chance of 10% reduction to DEF for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_003)} Paralysis."
+80043,"Текст описания предмета, использованного для выхода из истории DLC."
+80042,"Ультракомпактный генератор электромагнитной сети, полученный от доктора Симмонса."
+80031,[Цель: 1 союзник] Увеличивает ATK на 20% на 3 хода.
+80032,[Цель: 1 союзник] Увеличивает ЗАЩИТУ на 20% на 3 хода.
+80033,[Цель: 1 союзник] Увеличивает INT на 20% на 3 хода.
+80034,[Цель: 1 союзник] Увеличивает SPI на 20% на 3 хода.
+80035,[Цель: 1 союзник] Увеличивает SPD на 20% на 3 хода.
+80036,[Цель: 1 союзник] Увеличивает ACU на 20% на 3 хода.
+80037,[Цель: 1 союзник] Увеличивает EVA на 20% на 3 хода.
+80038,[Цель: 1 союзник] Увеличивает скорость ЭЛТ на 20% на 3 хода.
+80039,[Цель: 1 союзник] Повышает все характеристики на 20% за 3 хода.
+80040,[Цель: 1 союзник] Увеличивает скорость ACU / EVA / CRT на 20% на 3 хода.
+25841,"[Target: 1 enemy] 
+Deals 15% HP damage.
+100% chance to apply {is28}{image(ui_icon_btlStatus_012)} Injury."
+25921,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_003)} Plant physical attack at power 60.
+If target is affected by {is28}{image(ui_icon_btlStatus_000)} Poison/{is28}{image(ui_icon_btlStatus_005)} Deadly Poison/{is28}{image(ui_icon_btlStatus_004)} Sleep/
+{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: 25% chance to apply Instant Death.
+Increased damage to targets with Insectoid Trait."
+23751,[Цель: 1 враг] Наносит 5% урона HP. 100% вероятность снижения уровня защиты на 15% на 3 хода.
+23131,"[Target: 1 enemy]
+Deals 1% HP damage x 5 hits.
+100% chance of 10% reduction to SPI for 3 turns.
+60% chance to apply {is28}{image(ui_icon_btlStatus_000)} Poison."
+21131,[Цель: все враги] Наносит 2% урона HP за 3 попадания. 100% вероятность снижения SPI на 15% за 3 хода.
+20701,[Цель: 1 враг] Наносит 5% урона HP. 100% вероятность снижения SPI на 25% на 3 хода.
+20691,[Цель: все враги] Наносит 2% урона HP за 3 попадания. 100% шанс снижения на 10% до INT / SPI на 3 хода.
+26171,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_006)} Steel physical attack at
+power 35 x 3 hits. Nullifies unfavorable compatibility.
+Receives 20% HP damage from attack recoil.
+Increased damage to targets with Weapon Trait."
+26791,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 20 x 2 hits.
+{d0}Increased damage to targets with Immortal Trait."
+26051,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_004)} Water physical attack at power 35 x 2 hits.
+If target is affected by {is28}{image(ui_icon_btlStatus_002)} Confusion/{is28}{image(ui_icon_btlStatus_007)} Chaos: 25% chance
+to apply Instant Death."
+24512,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_005)} Electricity magic attack at power 90.
+The greater the user's stat buffs, the greater the damage.
+Increased damage to targets with Alien Trait."
+24191,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_009)} Light physical attack at power 95. {d0}
+Increased damage to targets with Unknown Trait."
+24192,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_009)} Light physical attack at power 80.
+Increased damage to targets with Unknown Trait."
+26811,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_006)} Steel physical attack at power 70.
+Acts first next round. {d0}
+Increased damage to targets with Beast Trait."
+26761,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 35 x 2 hits.
+{d0}Increased damage to targets with Immortal Trait."
+24211,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_009)} Light magic attack at power 85.
+If target is {is28}{image(ui_icon_type_040)} Virus: 75% chance of 15% reduction to ATK/INT
+for 3 turns. Increased damage to targets with Immortal Trait."
+21031,"[Target: 1 enemy] 
+Performs {is28}{image(ui_icon_skill_004)} Water physical attack at power 45.
+If target is affected by {is28}{image(ui_icon_btlStatus_002)} Confusion/{is28}{image(ui_icon_btlStatus_007)} Chaos:
+25% chance to apply Instant Death."
+26801,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_009)} Light physical attack at power 75.
+{d0}Increased damage to targets with Evil Trait."
+26042,"[Target: All enemies] Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at
+power 20 x 4 hits. If target is affected by status
+abnormalities or {is28}{image(ui_icon_btlStatus_012)} Injury/{is28}{image(ui_icon_btlStatus_013)} Disease: Increased
+damage. Increased damage to targets with Fire Trait."
+23991,"[Target: 1 enemy] 
+Performs {is28}{image(ui_icon_skill_004)} Water magic attack at power 60.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber:
+Increased damage."
+22231,"[Target: All enemies] 
+Performs {is28}{image(ui_icon_skill_010)} Dark physical attack at power 45.
+20% chance to apply {is28}{image(ui_icon_btlStatus_010)} Crystallization. {d0}
+Increased damage to targets with Beast Trait."
+22241,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_010)} Dark physical attack at power 85.
+Nullifies unfavorable compatibility. {d0}
+Increased damage to targets with Beast Trait."
+21761,"[Target: All enemies] 
+Performs {is28}{image(ui_icon_skill_003)} Plant physical attack at power 55.
+10% chance to apply Instant Death. {d0}
+Increased damage to targets with Insectoid Trait."
+21762,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_001)} Fire magic attack at power 55.
+100% chance to apply {is28}{image(ui_icon_skill_001)} Fire Resistance Down. {d0}
+Increased damage to targets with Vegetation Trait."
+21891,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_003)} Plant magic attack at power 70.
+25% chance to apply {is28}{image(ui_icon_btlStatus_005)} Deadly Poison. {d0}
+Increased damage to targets with Beast Trait."
+21301,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_004)} Water physical attack at power 60.
+If target is affected by {is28}{image(ui_icon_btlStatus_002)} Confusion/{is28}{image(ui_icon_btlStatus_007)} Chaos: 25% chance
+to apply Instant Death."
+27332,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Humanoid Trait."
+27381,"[Target: All enemies] Performs {is28}{image(ui_icon_skill_001)} Fire physical attack
+at power 115. 100% chance to apply 30% reduction to
+user's DEF for 3 turns. Immobilized next turn.
+Increased damage to targets with Evil Trait."
+27391,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_009)} Light magic attack at power 55.
+If target has already acted: Increased damage. {d0}
+Increased damage to targets with Machine Trait."
+27431,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_008)} Earth physical attack at power 90. 
+If target has yet to act: 25% CRT Rate. {d0}
+Increased damage to targets with Bird Trait."
+23761,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_000)} Null magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Amphibian Trait."
+20751,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_004)} Water physical attack at power 90.
+Always hits. If target has yet to act: Increased damage.
+Increased damage to targets with Aquatic Trait."
+20492,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 90. 
+If target's Generation is greater than user's: Increased damage.
+Increased damage to targets with Humanoid Trait."
+26781,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_006)} Steel physical attack at power 25 x 3 hits.
+10% CRT Rate. {d0}
+Increased damage to targets with Machine Trait."
+24652,"[Target: 1 enemy] 
+Performs {is28}{image(ui_icon_skill_006)} Steel physical attack at power 135.
+20% CRT Rate. Receives 10% HP damage from attack recoil.
+Increased damage to targets with Bird Trait."
+21741,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 90.
+The greater the user's stat buffs, the greater the damage.
+Increased damage to targets with Beast Trait."
+21682,"[Target: All enemies] 
+Performs {is28}{image(ui_icon_skill_005)} Electricity physical attack at power 55.
+If target's Generation is lesser than user's: Increased damage.
+Increased damage to targets with Evil Trait."
+21691,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_005)} Electricity physical attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_003)} Paralysis/{is28}{image(ui_icon_btlStatus_008)} Immobilization:
+Increased damage. Increased damage to targets with Evil Trait."
+20372,"[Target: All enemies] Performs {is28}{image(ui_icon_skill_004)} Water physical
+attack at power 55. If target is affected by reduction
+to DEF: 20% chance to apply Instant Death.
+Increased damage to targets with Unknown Trait."
+22353,"Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical.
+Upon receiving a physical attack, counters with a
+{is28}{image(ui_icon_skill_000)} Null physical attack at power 85."
+21721,[Цель: 1 враг] Наносит фиксированный урон мощностью 10 х 3 попадания. 100% вероятность снижения на 30% до ATK / INT на 3 хода. Удаляет статусные усиления.
+20261,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_006)} Steel physical attack at power 80.
+Acts first next round."
+24161,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_009)} Light physical attack at power 90.
+Acts first next round.
+Increased damage to targets with Knight Trait."
+27671,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_004)} Water physical attack at power 90.
+100% chance to apply {is28}{image(ui_icon_btlStatus_004)} Sleep to user.
+Increased damage to targets with Humanoid Trait."
+20281,"[Target: All enemies]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 60.
+100% chance of 20% reduction to user's Max HP for 3 turns.
+Increased damage to targets with Mineral Trait."
+27762,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 110.
+75% chance of 10% reduction to user's DEF/SPI for 3 turns.
+Increased damage to targets with Ice Trait."
+20802,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. 100% chance of 20% reduction to DEF for
+3 turns. 50% chance to apply {is28}{image(ui_icon_btlStatus_012)} Injury.
+Increased damage to targets with Unknown Trait."
+26001,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 85. 50% chance to apply {is28}{image(ui_icon_btlStatus_005)} Deadly Poison.
+50% chance to apply {is28}{image(ui_icon_btlStatus_010)} Crystallization. Increased
+damage to targets with Unknown Trait."
+20362,"[Target: 1 enemy]
+100% chance of 30% reduction to SPI for 3 turns.
+80% chance to apply {is28}{image(ui_icon_btlStatus_007)} Chaos."
+27331,"[Target: 1 enemy]
+100% chance of 30% reduction to SPD for 3 turns.
+80% chance to apply {is28}{image(ui_icon_btlStatus_009)} Deep Slumber."
+22321,"[Target: All enemies]
+100% chance of 10% reduction to DEF for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_002)} Confusion."
+21681,"[Target: 1 enemy]
+100% chance of reduction to {is28}{image(ui_icon_skill_005)} Electricity resistance/30% reduction to DEF for 3 turn(s)."

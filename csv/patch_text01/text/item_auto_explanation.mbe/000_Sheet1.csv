@@ -1,0 +1,102 @@
+string2 0,string 1
+1,Расходные материалы
+2,Оборудование
+3,Сельскохозяйственные Товары
+4,Ключевые пункты
+5,Карты
+6,/Оборудование
+7,/Товар для обмена
+8,/Товар для фермы
+9,/ Для использования в Дигиферма
+10,Боевое / Полевое Применение
+11,Боевое Применение
+12,Использование в полевых условиях
+13,"
+Recovers HP by {d0}."
+14,"
+Recovers SP by {d0}."
+15,EXP +{d0}
+16,Bond +{d0}
+17,Переход от основы к основанию * Неиспользуемый
+18,Деформация ко входу в подземелье * Неиспользуемый
+19,"
+Recovers HP by {d0}%."
+20,"
+Recovers SP by {d0}%."
+21,"Changes personality to ""{d0}"" *Unused"
+22,
+23,
+24,
+25,
+26,Extends level limit by {d0}
+27,Extends stat limit by {d0}
+28,
+29,
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,Increases HP boost from training by {d0}
+39,Increases SP boost from training by {d0}
+40,Increases ATK boost from training by {d0}
+41,Increases DEF boost from training by {d0}
+42,Increases INT boost from training by {d0}
+43,Increases SPI boost from training by {d0}
+44,Increases SPD boost from training by {d0}
+45,
+46,
+47,Редкость:
+48,★
+49,{d0} +{d1}.
+50,{d0} -{d1}.
+51,{d0} +{d1}%.
+52,{d0} -{d1}%.
+53,{d0}
+54,{d0}-Element Power
+55,Nullifies {d0}.
+56,Boosts {d0} resistance.
+57,SP cost of {d0} element skills -{d1}%
+58,Boosts EXP gained by {d0}.
+59,Boosts Bond gained by {d0}.
+60,Boosts item drop rate by {d0}%.
+61,Boosts money obtained by {d0}%.
+62,Recovers HP by {d0}% at the start of each turn.
+63,Recovers SP by {d0}% at the start of each turn.
+64,Recovers HP by {d0}% upon victory in battle.
+65,Recovers SP by {d0}% upon victory in battle.
+66,Boosts effects of HP recovery by {d0}% when in battle.
+67,Boosts effects of SP recovery by {d0}% when in battle.
+68,Reduces damage taken by {d0}% when Guarding.
+69,{d0}% chance to negate all damage when Guarding.
+70,Recovers HP equal to {d0}% of damage dealt when Attacking.
+71,Recovers SP equal to {d0}% of damage dealt when Attacking.
+72,Gives {d0} chance to apply {d1} when Attacking.
+73,Атака наносит магический урон.
+74,Атака наносит урон от скорости.
+75,"Attacks have a {d0}% chance of hitting
+{d1} times"
+76,SP cost -{d0}%
+77,"Skill SP cost {d1}%, damage +{d0}%"
+78,"Consumes {d0}% of SP to negate all
+damage"
+79,"{d0}% of physical damage is converted
+to SP"
+80,"{d0}% of magic damage is converted to
+SP"
+81,Nullifies incoming damage less than {d0}% of Max HP.
+82,Boosts CRT damage by {d0}%.
+83,Break special effect +{d0}%
+84,Elemental weakness damage +{d0}%
+85,Cross Art damage +{d0}%
+86,Attack Rush damage +{d0}%
+87,Rush Gauge default value +{d0}%
+88,"Boosts enhancement effect by {d0}% during
+break."
+89,Damage from {d0} Attribute -{d1}%
+90,Applies {d1} to user at start of battle.
+91,　
+92,/

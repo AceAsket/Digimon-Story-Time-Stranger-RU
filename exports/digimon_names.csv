@@ -1,0 +1,571 @@
+﻿#,id,english_name,russian_name
+1,char_EX-TYRANOMON,ExTyrannomon,ЭксТиранномон
+2,char_LUNAMON,Lunamon,Лунамон
+3,char_LEKISMON,Lekismon,Лекисмон
+4,char_CRESCEMON,Crescemon,Крескемон
+5,char_GOLEMON,Golemon,Големон
+6,char_SKULLSATAMON,SkullSatamon,СкулСатамон
+7,char_HAGURUMON,Hagurumon,Хагурумон
+8,char_MERAMON,Meramon,Мерамон
+9,char_AIRDRAMON,Airdramon,Аирдрамон
+10,char_GARURUMON,Garurumon,Гарурумон
+11,char_BAKEMON,Bakemon,Бакемон
+12,char_STARMON,Starmon,Стармон
+13,char_AQUILAMON,Aquilamon,Аквиламон
+14,char_STRIKEDRAMON,Strikedramon,Страйкдрамон
+15,char_MINOTAURMON,Minotarumon,Минотарумон
+16,char_DORUGORAMON,Dorugoramon,Доругорамон
+17,char_TYUMON,Chuumon,Чуумон
+18,char_WHAMON,Whamon,Вамон
+19,char_DINOBEEMON,Dinobeemon,Динобимон
+20,char_MARINEANGEMON,MarineAngemon,Маринангемон
+21,char_RAPTORDRAMON,Raptordramon,Раптордрамон
+22,char_GRADEMON,Grademon,Градемон
+23,char_WARGREYMON,WarGreymon,ВарГреймон
+24,char_BIGMAMEMON,BigMamemon,БигМамемон
+25,char_SANGLOUPMON,Sangloupmon,Санглупмон
+26,char_MATADRMON,Matadormon,Матадормон
+27,char_GRANDDRACUMON,GranDracmon,ГрандДракмон
+28,char_TRICERAMON,Triceramon,Трицерамон
+29,char_LILITHMON,Lilithmon,Лилитмон
+30,char_BEELZEBUMON,Beelzemon,Вельземон
+31,char_BARBAMON,Barbamon,Барбамон
+32,char_BARBAMON_BIG,Barbamon,Барбамон
+33,char_LEVIAMON,Leviamon,Левиамон
+34,char_LEVIAMON_BIG,Leviamon,Левиамон
+35,char_DEMON,Creepymon,Крипимон
+36,char_DEMON_BIG,Creepymon,Крипимон
+37,char_LUCEMON_FM,Lucemon CM,Люцемон СМ
+38,char_BELPHEMON_RM,Belphemon RM,Бельфемон РМ
+39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон РМ
+40,char_PANDAMON,Pandamon,Пандамон
+41,char_FUNBEEMON,FunBeemon,ФанБиимон
+42,char_BLACKTAILMON,BlackGatomon,БлэкГатомон
+43,char_CATCHMAMEMON,CatchMamemon,КатчМамаемон
+44,char_CHRONOMON,Chronomon HM,"Хрономон , ХМ"
+45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон DM
+46,char_MEGIDRAMON,Megidramon,Мегидрамон
+47,char_MEGIDRAMON_BIG,Megidramon,Мегидрамон
+48,char_GODDRAMON,Goldramon,Голдрамон
+49,char_BANCHOLEOMON,BanchoLeomon,БанхоЛеомон
+50,char_AGUMON,Agumon,Агумон
+51,char_GAWAPPAMON,Gawappamon,Гаваппамон
+52,char_KAMEMON,Kamemon,Камемон
+53,char_KUDAMON,Kudamon,Кудамон
+54,char_GEOGREYMON,GeoGreymon,ГеоГреймон
+55,char_GAOMON,Gaomon,Гаомон
+56,char_LALAMON,Lalamon,Лаламон
+57,char_ROSEMON,Rosemon,Роузмон
+58,char_SUNFLOWMON,Sunflowmon,Санфлоумон
+59,char_VOLCAMON,Volcanomon,Волканомон
+60,char_PILEVOLCAMON,PileVolcanomon,ПилеВолканомон
+61,char_MONZAEMON,Monzaemon,Монзаэмон
+62,char_GAOGAMON,Gaogamon,Гаогамон
+63,char_PLATINUMNUMEMON,PlatinumNumemon,ПлатинаНумемон
+64,char_NUMEMON,Numemon,Нумемон
+65,char_RIZEGREYMON,RizeGreymon,РайзГреймон
+66,char_LEOMON,Leomon,Леомон
+67,char_LILAMON,Lilamon,Лиламон
+68,char_MACHGAOGAMON,MachGaogamon,Мачгаогамон
+69,char_NEPTUNEMON,Neptunemon,Нептунемон
+70,char_SHAWUJINMON,Shaujinmon,Шауджинмон
+71,char_REPPAMON,Reppamon,Реппамон
+72,char_GROWMON,Growlmon,Гроулмон
+73,char_SUPERSTARMON,SuperStarmon,СуперСтармон
+74,char_MERCURYMON,Merukimon,Мерукимон
+75,char_IMPMON,Impmon,Импмон
+76,char_HIPPOGRIFFOMON,HippoGryphonmon,ГиппоГрифонмон
+77,char_GRIFFOMON,Gryphonmon,Грифонмон
+78,char_TYILINMON,Chirinmon,Чиринмон
+79,char_VAMDEMON,Myotismon,Миотизмон
+80,char_SLEIPMON,Kentaurosmon,Кентауросмон
+81,char_SLEIPMON_BIG,Kentaurosmon,Кентауросмон
+82,char_ANGEMON,Angemon,Ангемон
+83,char_OMEGAMON,Omnimon,Омнимон
+84,char_GUILMON,Guilmon,Гильмон
+85,char_STINGMON,Stingmon,Стингмон
+86,char_TAILMON,Gatomon,Гатомон
+87,char_DEVIMON,Devimon,Девимон
+88,char_SHINEGREYMON,ShineGreymon,ШайнГреймон
+89,char_SHINEGREYMON_BIG,ShineGreymon,ШайнГреймон
+90,char_MIRAGEGAOGAMON,MirageGaogamon,МиражГаогамон
+91,char_PATAMON,Patamon,Патамон
+92,char_PICODEVIMON,DemiDevimon,ДемиДевимон
+93,char_JUMBOGAMEMON,JumboGamemon,ДжамбоГамемон
+94,char_WENDIMON,Wendigomon,Вендигомон
+95,char_HOLYANGEMON,MagnaAngemon,МагнаАнгемон
+96,char_TURUIEMON,Turuiemon,Туруйемон
+97,char_GANIMON,Crabmon,Крабмон
+98,char_SUSANOOMON,Susanomon,Сусаномон
+99,char_DUKEMON_CM,Gallantmon CM,Галантмон СМ
+100,char_ARMAGEMON,Armageddemon,Армагеддемон
+101,char_LADYDEVIMON,LadyDevimon,ЛедиДэвимон
+102,char_GOBURIMON,Goblimon,Гоблимон
+103,char_DORUMON,Dorumon,Дорумон
+104,char_GOLDNUMEMON,GoldNumemon,ГолдНумемон
+105,char_V-MON,Veemon,Веемон
+106,char_BAOHUCKMON,BaoHuckmon,Баохакмон
+107,char_SAVIORHUCKMON,SaviorHuckmon,СэйворХакмон
+108,char_VALDURMON,Varodurumon,Вародурумон
+109,char_CHAOSMONVALDURARM,Chaosmon: Valdur Arm,Хаосмон: Рука Валдура
+110,char_DUKEMON,Gallantmon,Галантмон
+111,char_DUKEMON_BIG,Gallantmon,Галантмон
+112,char_KINGETEMON,KingEtemon,КингЕтемон
+113,char_TYRANTKABUTERIMON,TyrantKabuterimon,ТирантКабутеримон
+114,char_TYRANTKABUTERIMON_BIG,TyrantKabuterimon,ТирантКабутеримон
+115,char_DAGOMON,Dragomon,Драгомон
+116,char_COELAMON,Coelamon,Селамон
+117,char_MEGASEADRAMON,MegaSeadramon,МегаСидрамон
+118,char_WARUSEADRAMON,WaruSeadramon,ВарСидрамон
+119,char_MEGAGROWLMON,WarGrowlmon,ВарГроулмон
+120,char_METALGARURUMON,MetalGarurumon,МеталлГарурумон
+121,char_CORONAMON,Coronamon,Коронамон
+122,char_FIRAMON,Firamon,Фирамон
+123,char_FLAREMON,Flaremon,Флэремон
+124,char_LIGHDRAMON,Lighdramon,Лайдрамон
+125,char_WEREGARURUMON,WereGarurumon,ВэрГарурумон
+126,char_HOLSMON,Halsemon,Халсемон
+127,char_SHURIMON,Shurimon,Шуримон
+128,char_DIGMON,Digmon,Дигмон
+129,char_SABMARIMON,Submarimon,Субмаримон
+130,char_PEGASMON,Pegasusmon,Пегасмон
+131,char_NEFERTIMON,Nefertimon,Нефертимон
+132,char_ANGEWOMON,Angewomon,Ангевомон
+133,char_OROCHIMON,Orochimon,Орочимон
+134,char_CHAOSDUKEMON,ChaosGallantmon,ХаосГаллантмон
+135,char_GABUMON,Gabumon,Габумон
+136,char_RANAMON,Lanamon,Ланамон
+137,char_CALAMARAMON,Calmaramon,Кальмарамон
+138,char_CALAMARAMON_ADD,Calmaramon (Mantle),Кальмарамон (Мантия)
+139,char_JUPITERMON,Jupitermon,Юпитермон
+140,char_JUPITERMON_WRATHMODE,Jupitermon WM,Юпитермон WM
+141,char_JUPITERMON_WRATHMODE_SUB,Jupitermon: Wrath Mode,Юпитермон: Режим Гнева
+142,char_JUNOMON,Junomon,Юномон
+143,char_JUNOMON_HYSTERICMODE,Junomon HM,"Юномон , ХМ"
+144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон ХМ (Копья)
+145,char_VENUSMON,Venusmon,Венусмон
+146,char_APOLLOMON,Apollomon,Аполломон
+147,char_APOLLOMON_ADD,Apollomon (Flame Sphere),Аполломон (Огненная Сфера)
+148,char_MARSMON,Marsmon,Марсмон
+149,char_CERESMON,Ceresmon,Церемон
+150,char_BLUEMERAMON,BlueMeramon,Блюмерамон
+151,char_VULCANUSMON,Vulcanusmon,Вулканусмон
+152,char_VULCANUSMON_BIG,Vulcanusmon,Вулканусмон
+153,char_VULCANUSMON_GUEST_BIG,Vulcanusmon,Вулканусмон
+154,char_BACCHUSMON,Bacchusmon,Вакхусмон
+155,char_PLUTOMON,Plutomon,Плутомон
+156,char_MERVAMON,Mervamon,Мервамон
+157,char_AEGIOMON,Aegiomon,Эгиомон
+158,char_AEGIOMON_PLAIN_CLOTHES,Aegiomon (Street Clothes),Эгиомон (Уличная Одежда)
+159,char_AEGIOMON_NO_CAP,Aegiomon (Hatless Street Clothes),Эгиомон (Уличная Одежда без головного убора)
+160,char_AEGIOCHUSMON,Aegiochusmon,Эгиохусмон
+161,char_AEGIOCHUSMON_DARK,Aegiochusmon: Dark,Эгиохусмон: Темный
+162,char_AEGIOCHUSMON_HOLLY,Aegiochusmon: Holy,Эгиохусмон: Святой
+163,char_AEGIOCHUSMON_BLUE,Aegiochusmon: Blue,Эгиохусмон: Синий
+164,char_AEGIOCHUSMON_GREEN,Aegiochusmon: Green,Эгиохусмон: Зеленый
+165,char_CERESMON_MEDIUM,Ceresmon Medium,Сересмон Медиум
+166,char_RYUDAMON,Ryudamon,Рюдамон
+167,char_GINRYUMON,Ginryumon,Джинрюмон
+168,char_HISYARYUMON,Hisyaryumon,Хисьярюмон
+169,char_OURYUMON,Ouryumon,Оурюмон
+170,char_GUNDRAMON,Gundramon,Гундрамон
+171,char_GUNDRAMON_BIG,Gundramon,Гундрамон
+172,char_BEELSTARMON,BeelStarmon,ВельСтармон
+173,char_PUKUMON,Pukumon,Пукумон
+174,char_CROSSMON,Eaglemon,Иглемон
+175,char_LOCOMON,Locomon,Локомон
+176,char_ARCHNEMON,Arukenimon,Арукенимон
+177,char_DRACOMON,Dracomon,Дракомон
+178,char_COREDRAMON_GR,Coredramon (Green),Коредрамон (Зеленый)
+179,char_WINGDRAMON,Wingdramon,Вингдрамон
+180,char_GROUNDRAMON,Groundramon,Граундрамон
+181,char_SLAYERDRAMON,Slayerdramon,Убийца Драмон
+182,char_BREAKDRAMON,Breakdramon,Брейкдрамон
+183,char_BREAKDRAMON_BIG,Breakdramon,Брейкдрамон
+184,char_EXAMON,Examon,Экзамон
+185,char_EXAMON_SMALL,Examon,Экзамон
+186,char_EXAMON_BIG,Examon,Экзамон
+187,char_DARKSUPERSTARMON,DarkSuperStarmon,ДаркСуперСтармон
+188,char_COREDRAMON_BL,Coredramon (Blue),Коредрамон (Синий)
+189,char_KOTEMON,Kotemon,Котемон
+190,char_MUSYAMON,Musyamon,Мусьямон
+191,char_DOBERMON,Dobermon,Добермон
+192,char_CERBERUMON,Cerberusmon,Церберусмон
+193,char_CERBERUMON_WEREWOLFMODE,Cerberusmon WM,Церберусмон ВМ
+194,char_ZANBAMON,Zanbamon,Занбамон
+195,char_ZANBAMON_BIG,Zanbamon,Занбамон
+196,char_MUMMYMON,Mummymon,Мумимон
+197,char_PHARAOHMON,Pharaohmon,Фараомон
+198,char_PHARAOHMON_BIG,Pharaohmon,Фараомон
+199,char_DELTAMON,Deltamon,Дельтамон
+200,char_CHIMAIRAMON,Kimeramon,Кимерамон
+201,char_MILLENNIUMON,Millenniummon,Милениуммон
+202,char_MILLENNIUMON_BIG,Millenniummon,Милениуммон
+203,char_BAKUMON,Tapirmon,Тапирмон
+204,char_SIRENMON,Sirenmon,Сиренмон
+205,char_BELIALVAMDEMON,MaloMyotismon,Маломиотизмон
+206,char_BEARMON,Bearmon,Бирмон
+207,char_GRYZMON,Grizzlymon,Гризлимон
+208,char_ASTAMON,Astamon,Астамон
+209,char_SKULLBALUCHIMON,SkullBaluchimon,СкаллБалучимон
+210,char_OCTMON,Octomon,Октомон
+211,char_CHOROMON,Choromon,Хоромон
+212,char_CAPROMON,Kapurimon,Капуримон
+213,char_MEGADRAMON,Megadramon,Мегадрамон
+214,char_METALGREYMON,MetalGreymon,МеталГреймон
+215,char_TENTOMON,Tentomon,Тентомон
+216,char_KABUTERIMON,Kabuterimon,Кабутеримон
+217,char_ATLURKABUTERIMON,MegaKabuterimon,МегаКабутеримон
+218,char_HERCULESKABUTERIMON,HerculesKabuterimon,ГеркулесКабутеримон
+219,char_HERCULESKABUTERIMON_BIG,HerculesKabuterimon,ГеркулесКабутеримон
+220,char_PIYOMON,Biyomon,Бийомон
+221,char_BIRDRAMON,Birdramon,Бирдрамон
+222,char_GARUDAMON,Garudamon,Гарудамон
+223,char_HOUOUMON,Phoenixmon,Фениксмон
+224,char_ETEMON,Etemon,Этемон
+225,char_METALETEMON,MetalEtemon,МеталлЭтемон
+226,char_SUKAMON,Sukamon,Сукамон
+227,char_VEGIMON,Vegiemon,Вегиемон
+228,char_SERAPHIMON,Seraphimon,Серафимон
+229,char_DODOMON,Dodomon,Додомон
+230,char_BOTAMON,Botamon,Ботамон
+231,char_POYOMON,Poyomon,Поймон
+232,char_WANYAMON,Wanyamon,Ваньямон
+233,char_KOROMON,Koromon,Коромон
+234,char_TOKOMON,Tokomon,Токомон
+235,char_GREYMON,Greymon,Греймон
+236,char_APOCLYMON,Apocalymon,Апокалимон
+237,char_ANCIENTWISETMON,AncientWisemon,ЭншиентВайсмон
+238,char_GUARDROMON,Guardromon,Гвардромон
+239,char_ANDROMON,Andromon,Андромон
+240,char_GOMAMON,Gomamon,Гомамон
+241,char_IKKAKUMON,Ikkakumon,Иккакумон
+242,char_ZUDOMON,Zudomon,Зудомон
+243,char_VIKEMON,Vikemon,Викемон
+244,char_SEADRAMON,Seadramon,Сидрамон
+245,char_PALMON,Palmon,Пальмон
+246,char_TOGEMON,Togemon,Тогемон
+247,char_EXSAON_BOSS,Examon (Boss),Экзамон (Босс)
+248,char_LILLYMON,Lillymon,Лиллимон
+249,char_PLOTMON,Salamon,Саламон
+250,char_TYRANNOMON,Tyrannomon,Тиранномон
+251,char_METALTYRANNOMON,MetalTyrannomon,МеталлТиранномон
+252,char_XV-MON,ExVeemon,ЭксВиимон
+253,char_KUWAGAMON,Kuwagamon,Кувагамон
+254,char_SHELLMON,Shellmon,Шелмон
+255,char_MONOCHROMON,Monochromon,Монохромон
+256,char_YUKIDARUMON,Frigimon,Фригимон
+257,char_MOJYAMON,Mojyamon,Моджьямон
+258,char_CENTALMON,Centarumon,Центарумон
+259,char_DRIMOGEMON,Drimogemon,Дримогемон
+260,char_DIGITAMAMON,Digitamamon,Дигитамамон
+261,char_NANIMON,Nanimon,Нанимон
+262,char_TONOSAMAGEKOMON,ShogunGekomon,СёгунГекомон
+263,char_WIZARDMON,Wizardmon,Визардмон
+264,char_DELUMON,Deramon,Дерамон
+265,char_JYUREIMON,Cherrymon,Черимон
+266,char_JYUREIMON_BIG,Cherrymon,Черимон
+267,char_GERBEMON,Garbagemon,Гарбэджмон
+268,char_MAGNAMON,Magnamon,Магнамон
+269,char_MAGNAMON_BIG,Magnamon,Магнамон
+270,char_RUSTTYRANOMON,RustTyrannomon,РастТиранномон
+271,char_MUGENDRAMON,Machinedramon,Машиндрамон
+272,char_MUGENDRAMON_BIG,Machinedramon,Машиндрамон
+273,char_BUBBMON,Pabumon,Пабумон
+274,char_MOCHIMON,Motimon,Мотимон
+275,char_BETAMON,Betamon,Бетамон
+276,char_LUCEMON,Lucemon,Люцемон
+277,char_RENAMON,Renamon,Ренамон
+278,char_WORMMON,Wormmon,Ворммон
+279,char_WOODMON,Woodmon,Вудмон
+280,char_ORGEMON,Ogremon,Огремон
+281,char_KYUBIMON,Kyubimon,Кюбимон
+282,char_DORUGAMON,Dorugamon,Доругамон
+283,char_V-DRAMON,Veedramon,Ведрамон
+284,char_CLOCKMON,Clockmon,Клокмон
+285,char_GEKOMON,Gekomon,Гекомон
+286,char_AEROVEEDRAMON,AeroVeedramon,АэроВидрамон
+287,char_OKUWAMON,Okuwamon,Окувамон
+288,char_GIGADRAMON,Gigadramon,Гигадрамон
+289,char_GRAPLEOMON,GrapLeomon,ГрапЛеомон
+290,char_SKULLGREYMON,SkullGreymon,СкулГреймон
+291,char_SKULLGREYMON_BIG,SkullGreymon,СкулГреймон
+292,char_TAOMON,Taomon,Таомон
+293,char_DEATHMERAMON,SkullMeramon,СкулМерамон
+294,char_DORUGREYMON,DoruGreymon,ДоруГреймон
+295,char_PAILDRAMON,Paildramon,Пайлдрамон
+296,char_PANJYAMON,IceLeomon,АйсЛеомон
+297,char_PICKLEMON,Piximon,Пиксимон
+298,char_VADEMON,Vademon,Вадемон
+299,char_MAMEMON,Mamemon,Мамемон
+300,char_METALMAMEMON,MetalMamemon,МеталМамемон
+301,char_PARROTMON,Parrotmon,Пэрэтмон
+302,char_ALPHAMON,Alphamon,Альфамон
+303,char_ALPHAMON_BIG,Alphamon,Альфамон
+304,char_ULFORCEVDRAMON,UlforceVeedramon,АльфорсВидрамон
+305,char_ULFORCEVDRAMON_BIG,UlforceVeedramon,АльфорсВидрамон
+306,char_IMPERIALDRAMON_FM,Imperialdramon FM,Империалдрамон FM
+307,char_IMPERIALDRAMON_PM,Imperialdramon PM,Империалдрамон FM
+308,char_OPHANIMON,Ophanimon,Офанимон
+309,char_CHAOSDRAMON,Chaosdramon,Хаосдрамон
+310,char_GRANKUWAGAMON,GranKuwagamon,ГранКувагамон
+311,char_GRANKUWAGAMON_BIG,GranKuwagamon,ГранКувагамон
+312,char_SABERLEOMON,SaberLeomon,СаберЛеомон
+313,char_SAKUYAMON,Sakuyamon,Сакуямон
+314,char_HIANDROMON,HiAndromon,ХиАндромон
+315,char_PIEDMON,Piedmon,Пьемонт
+316,char_PINOCHIMON,Puppetmon,Пуппетмон
+317,char_PRINCEMAMEMON,PrinceMamemon,ПринцМамемон
+318,char_BOLTMON,Boltmon,Болтмон
+319,char_METALSEADRAMON,MetalSeadramon,МеталСидрамон
+320,char_LUCEMON_SM,Lucemon SM,Люцемон СМ
+321,char_LUCEMON_SM_BIG,Lucemon SM,Люцемон СМ
+322,char_PUNIMON,Punimon,Пунимон
+323,char_TUNOMON,Tsunomon,Цуномон
+324,char_BELPHEMON_SM,Belphemon SM,Бельфемон СМ
+325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон СМ
+326,char_TITAMON,Titamon,Титамон
+327,char_TITAMON_BIG,Titamon,Титамон
+328,char_TITAMON_2,Titamon (Berserk),Титамон (Берсерк)
+329,char_TITAMON_ADD,Titamon (Berserk) (Twin Blades),Титамон (Берсерк) (Двойные Клинки)
+330,char_TITAMON_TWIN BLADE,Titamon (Twin Blades),Титамон (Двойные лезвия)
+331,char_PLESIOMON,Plesiomon,Плезиомон
+332,char_EBEMON,Ebemon,Эбемон
+333,char_CYCLONEMON,Cyclonemon,Циклонемон
+334,char_HOLYDRAMON,Magnadramon,Магнадрамон
+335,char_WASPMON,Waspmon,Осмон
+336,char_KARATUKINUMEMON,ShellNumemon,ШеллНумемон
+337,char_REVOLMON,Deputymon,Депутимон
+338,char_DRACUMON,Dracmon,Дракомон
+339,char_MONODRAMON,Monodramon,Монодрамон
+340,char_SKULLMAMMON,SkullMammothmon,СкулМаммонмон
+341,char_BLIMPMON,Blimpmon,Блимпмон
+342,char_MASTERBLIMPMON,MasterBlimpmon,МастерБлимпмон
+343,char_DORIMON,Dorimon,Доримон
+344,char_DINOHUMON,Dinohyumon,Диногьюмон
+345,char_LOADERLIOMON,LoaderLeomon,ЛоудерЛеомон
+346,char_JEWELBEEMON,JewelBeemon,Джуэлбимон
+347,char_AGUMON_KIZUNA,Agumon (Bond of Bravery),Агумон (Узы Храбрости)
+348,char_GABUMON_KIZUNA,Gabumon (Bond of Friendship),Габумон (Узы дружбы)
+349,char_GREATGRYZMON,GreatGrizzlymon,ГрейтГриззлимон
+350,char_CHARISMON,Callismon,Каллисон
+351,char_CHARISMON_LAST,Callismon,Каллисон
+352,char_UNDEADPLUTOMON,ZombiePlutomon,ЗомбиПлутомон
+353,char_PYOCOMON,Yokomon,Йокомон
+354,char_TANEMON,Tanemon,Танемон
+355,char_PUKAMON,Bukamon,Букамон
+356,char_NYAROMON,Nyaromon,Няромон
+357,char_YUNIMON,Unimon,Унимон
+358,char_ELECMON,Elecmon,Элекмон
+359,char_PAGUMON,Pagumon,Пагумон
+360,char_GAZIMON,Gazimon,Газимон
+361,char_HYOKOMON,Hyokomon,Хекомон
+362,char_BURAIMON,Buraimon,Бураймон
+363,char_BUTEN,Butenmon,Бутенмон
+364,char_NANOMON,Datamon,Датамон
+365,char_SHAMAMON,Shamamon,Шамамон
+366,char_SNOWGOBURIMON,SnowGoblimon,СноуГоблимон
+367,char_FUGAMON,Fugamon,Фугамон
+368,char_HYOUGAMON,Hyogamon,Хиогамон
+369,char_OTAMAMON,Otamamon,Отамамон
+370,char_FANTOMON,Phantomon,Фантомон
+371,char_FLYMON,Flymon,Флимон
+372,char_MAMMON,Mammothmon,Мамонтомон
+373,char_MAMMON_BIG,Mammothmon,Мамонтомон
+374,char_RAREMON,Raremon,Редмон
+375,char_DOKUGUMON,Dokugumon,Докугумон
+376,char_GIZAMON,Gizamon,Гизамон
+377,char_GOTTSUMON,Gotsumon,Готсумон
+378,char_PUMPMON,Pumpkinmon,Памкинмон
+379,char_SNIMON,Snimon,Снимон
+380,char_TUSKMON,Tuskmon,Таскмон
+381,char_VENOMMYOTISMON,VenomMyotismon,ВеномМиотисмон
+382,char_VENOMMYOTISMON_BIG,VenomMyotismon,ВеномМиотисмон
+383,char_WITCHMON,Witchmon,Витчмон
+384,char_WITCHMON_ADD,Witchmon (Left Arm),Витчмон (Левая Рука)
+385,char_MISTYMON,Mistymon,Мистимон
+386,char_MEDIEVALDUKEMON,MedievalGallantmon,МедивалГаллантмон
+387,char_GRACENOVAMON,GraceNovamon,Грейсеновамон
+388,char_GRACENOVAMON_SUB,GraceNovamon,Грейсеновамон
+389,char_GRACENOVAMON_BIG,GraceNovamon,Грейсеновамон
+390,char_ANOMALOCARIMON,Scorpiomon,Скорпиомон
+391,char_ANOMALOCARIMON_BIG,Scorpiomon,Скорпиомон
+392,char_HANGYOMON,Divermon,Дивермон
+393,char_HANGYOMON_SCAR,Divermon,Дивермон
+394,char_HANGYOMON_SCARF,Divermon,Дивермон
+395,char_MUSHMON,Mushroomon,Машрумон
+396,char_KOKUWAMON,Kokuwamon,Кокувамон
+397,char_KIWIMON,Kiwimon,Кивимон
+398,char_FLORAMON,Floramon,Флорамон
+399,char_CLAVISANGEMON,ClavisAngemon,КлависАнгемон
+400,char_CLAVISANGEMON_BIG,ClavisAngemon,КлависАнгемон
+401,char_SLASHANGEMON,SlashAngemon,СлэшАнгемон
+402,char_MECHANORIMON,Mekanorimon,Меканоримон
+403,char_MAGNAKIDMON,MagnaKidmon,МагнаКидмон
+404,char_AVENGEKIDMON,AvengeKidmon,АвенжКидмон
+405,char_TANKMON,Tankmon,Танкмон
+406,char_PENMON,Penmon,Пенмон
+407,char_MUCHOMON,Muchomon,Мучомон
+408,char_KERAMON,Keramon,Керамон
+409,char_INFERMON,Infermon,Инфермон
+410,char_INFERMON_BIG,Infermon,Инфермон
+411,char_KURAMON,Kuramon,Курамон
+412,char_KURISARIMON,Kurisarimon,Курисаримон
+413,char_TSUMEMON,Tsumemon,Цумемон
+414,char_DIABOROMON,Diaboromon,Диаборомон
+415,char_ALDAMON,Aldamon,Алдамон
+416,char_BEOWOLFMON,Beowolfmon,Беовульфмон
+417,char_MAGNAGARURUMON_SEPARATION,MagnaGarurumon (Detached),МагнаГарурумон (Открепленный)
+418,char_AGNIMON,Agunimon,Агунимон
+419,char_KAISERGREYMON,EmperorGreymon,ИмпериорГреймон
+420,char_MAGNAGARURUMON,MagnaGarurumon,МагнаГарурумон
+421,char_VRITRAMON,BurningGreymon,БёрнингГреймон
+422,char_WOLFMON,Lobomon,Лобомон
+423,char_GARUMMON,KendoGarurumon,КендоГарурумон
+424,char_SHOUTMON,Shoutmon,Шаутмон
+425,char_OMEGASHOUTMON,OmniShoutmon,ОмниШаутмон
+426,char_HACKMON,Huckmon,Хакмон
+427,char_GANKOOMON,Gankoomon,Ганкумон
+428,char_ZUBAMON,Zubamon,Зубамон
+429,char_ZUBAEAGERMON,ZubaEagermon,Зубагермон
+430,char_DURAMON,Duramon,Дюрамон
+431,char_DURANDAMON,Durandamon,Дюрандамон
+432,char_TERRIERMON,Terriermon,Терьермон
+433,char_PECKMON,Peckmon,Пекмон
+434,char_LOADKNIGHTMON,LordKnightmon,ЛордНайтмон
+435,char_LOADKNIGHTMON_BIG,LordKnightmon,ЛордНайтмон
+436,char_GROUNDLOCOMON,GroundLocomon,ГраундЛокомон
+437,char_FALCOMON,Falcomon,Фалькомон
+438,char_HAWKMON,Hawkmon,Хокмон
+439,char_ARMADILLOMON,Armadillomon,Армадилломон
+440,char_TOYAGUMON,ToyAgumon,Тойагумон
+441,char_TOYAGUMON_BIG,ToyAgumon,Тойагумон
+442,char_SHAKOMON,Syakomon,Сякомон
+443,char_GARGOMON,Gargomon,Гаргомон
+444,char_ANKYLOMON,Ankylomon,Анкиломон
+445,char_FLAMEDRAMON,Flamedramon,Флэймдрамон
+446,char_KNIGHTMON,Knightmon,Найтмон
+447,char_CYBERDRAMON,Cyberdramon,Кибердрамон
+448,char_SILPHYMON,Silphymon,Сильфимон
+449,char_YATAGARAMON,Crowmon,Кромон
+450,char_RAPIDMON,Rapidmon,Рэпидмон
+451,char_SHAKKOUMON,Shakkoumon,Шаккумон
+452,char_BRAKIMON,Brachiomon,Брахиомон
+453,char_ULTIMATEBRAKIMON,UltimateBrachiomon,УльтимаБрачиомон
+454,char_WISEMON,Wisemon,Вайзмон
+455,char_CANNONBEEMON,CannonBeemon,КэнонБиимон
+456,char_SOLARMON,Solarmon,Солармон
+457,char_GEREMON,Geremon,Геремон
+458,char_ICEDEVIMON,IceDevimon,АйсДевимон
+459,char_ANTYLAMON,Antylamon,Антиламон
+460,char_IMPERIALDRAMON_DM,Imperialdramon DM,Империалдрамон ДМ
+461,char_DIANAMON,Dianamon,Дайанамон
+462,char_DIANAMON_BIG,Dianamon,Дайанамон
+463,char_CRANIAMON,Craniamon,Краниамон
+464,char_CRANIAMON_BIG,Craniamon,Краниамон
+465,char_KERPYMON_GOOD,Cherubimon (Good),Керубимон (Добрый)
+466,char_JUSTIMON,Justimon,Джастимон
+467,char_DYNASMON,Dynasmon,Династмон
+468,char_DYNASMON_BIG,Dynasmon,Династмон
+469,char_DUFTMON,Leopardmon,Леопардмон
+470,char_DUFTMON_BIG,Leopardmon,Леопардмон
+471,char_RAVEMON,Ravemon,Равемон
+472,char_SAINTGALGOMON,MegaGargomon,МегаГаргомон
+473,char_SAINTGALGOMON_BIG,MegaGargomon,МегаГаргомон
+474,char_LOTOSMON,Lotosmon,Лотосмон
+475,char_DUFTMON_LM,Leopardmon LM,Леопардмон ЛМ
+476,char_GAIOMON,Gaiomon,Гайомон
+477,char_TIGERVESPAMON,TigerVespamon,ТигерВеспамон
+478,char_MINERVAMON,Minervamon,Минервамон
+479,char_MASTEMON,Mastemon,Мастемон
+480,char_JESMON,Jesmon,Джесмон
+481,char_JESMON_BIG,Jesmon,Джесмон
+482,char_LOPMON,Lopmon,Лопмон
+483,char_RAPIDMON_ARMOR,Rapidmon (Armor),Рапидмон (Броня)
+484,char_RAPIDMON_ARMOR_BIG,Rapidmon (Armor),Рапидмон (Броня)
+485,char_PLATINUM_SCUMON,PlatinumSukamon,ПлатинаСукамон
+486,char_BLACKKINGNUMEMON,BlackKingNumemon,БлэкКингНумемон
+487,char_KUZUHAMON,Kuzuhamon,Кузухамон
+488,char_SOCERIMON,Sorcermon,Сорсеримон
+489,char_INSEKIMON,Meteormon,Метеормон
+490,char_OMEGAMON_ZWART,Omnimon Zwart,Омнимон Цварт
+491,char_ICEMON,Icemon,Айсмон
+492,char_TUCHIDARUMON,MudFrigimon,МудФригимон
+493,char_GUARDROMON_GL,Guardromon (Gold),Гардромон (Золотой)
+494,char_ALPHAMON_OURYUKEN,Alphamon: Ouryuken,Альфамон: Оурюкен
+495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Бахусмон ДМ
+496,char_TANKDRAMON,Tankdramon,Танкдрамон
+497,char_DARKDRAMON,Darkdramon,Даркдрамон
+498,char_CHAOSMON,Chaosmon,Хаосмон
+499,char_VALKYRIMON,Valkyrimon,Валькиримон
+500,char_KERPYMON_BAD,Cherubimon (Black),Керубимон (Чёрный)
+501,char_BEELZEMON_BM,Beelzemon BM,Вельземон БМ
+502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельземон БМ
+503,char_SHINEGREYMON_BM,ShineGreymon BM,ШайнГреймон БМ
+504,char_MIRAGEGAOGAMON_BM,MirageGaogamon BM,МиражГаогамон БМ
+505,char_RAVEMON_BM,Ravemon BM,Равемон БМ
+506,char_ROSEMON_BM,Rosemon BM,Роузмон БМ
+507,char_VULCANUS_LIGHTARM,Right Arm,Правая Рука
+508,char_VULCANUS_LEFTARM,Left Arm,Левая Рука
+509,char_CHRONOMONROBO_COMPLETE,Giant Slayer,Гигант Слейер
+510,char_CHRONOMON_BOSS_EVENT,Chronomon,Хрономон
+511,char_CHRONOMON_BOSS,Chronomon,Хрономон
+512,char_CHRONOMON_BOSS_WING,Chronomon (Wings),Хрономон (Крылья)
+513,char_CHRONOMON_BOSS_ADD_RIGHTWING,Chronomon (R. Muzzle),Хрономон (П. Морда)
+514,char_CHRONOMON_BOSS_ADD_LEFTWING,Chronomon (L. Muzzle),Хрономон (Л. Морда)
+515,char_CHRONOMON_BOSS_LEFTARM,Chronomon (Left Arm),Хрономон (Левая рука)
+516,char_CHRONOMON_BOSS_CORE,Chronomon (Core),Хрономон (Ядро)
+517,char_CHRONOMON_BOSS_RIGHTWING,Chronomon (Right Wing),Хрономон (Правое крыло)
+518,char_CHRONOMON_BOSS_LEFTWING,Chronomon (Left Wing),Хрономон (Левое крыло)
+519,char_CHRONOMON_BOSS_LEFTARM1,Chronomon (Error A),Хрономон (Ошибка A)
+520,char_CHRONOMON_BOSS_LEFTARM2,Chronomon (Error B),Хрономон (Ошибка B)
+521,char_CHRONOMON_BOSS_LEFTARM3,Chronomon (Error C),Хрономон (Ошибка C)
+522,char_CHRONOMON_BOSS_LEFTARM4,Chronomon (Error D),Хрономон (Ошибка D)
+523,char_CHRONOMON_BOSS_LEFTARM5,Chronomon (Error E),Хрономон (Ошибка E)
+524,char_CHRONOMON_BOSS_LEFTARM6,Chronomon (Error F),Хрономон (Ошибка F)
+525,char_BLACKSHADOW,Dark Shadow,Темная Тень
+526,char_SHARKMON_BOSS,Sharkmon,Шаркмон
+527,char_SHARKMON_BOSS_ADD,Sharkmon (Jasper),Шаркмон (Джаспер)
+528,char_SHARKMON,Sharkmon,Шаркмон
+529,char_SKULLSEADRAMON,SkullSeadramon,СкулСидрамон
+530,char_SKULLSEADRAMON_BOSS,SkullSeadramon,СкулСидрамон
+531,char_SKULLSEADRAMON_ADD,SkullSeadramon (Core),СкулСидрамон (Ядро)
+532,char_RAREMON_BIG,Raremon,Рэармон
+533,char_CYCLONEMON_BIG,Cyclonemon,Циклонемон
+534,char_GREYMON_BIG_BL,Greymon (Blue),Греймон (Синий)
+535,char_GREYMON_BIG_BL_ADD,Greymon (Blue) (Head Shell),Греймон (Синий) (Головной убор)
+536,char_SKULLBALUCHIMON_TITAMON,Titamon + SkullBaluchimon,Титамон + СкаллБалучимон
+537,char_SKULLBALUCHIMON_TITAMON_BIG,Titamon + SkullBaluchimon,Титамон + СкаллБалучимон
+538,char_UNDEADPLUTOMON_BOSS,ZombiePlutomon,ЗомбиПлутомон
+539,char_UNDEADPLUTOMON_BOSS_ADD1,ZombiePlutomon (Right Shoulder),ЗомбиПлутомон (Правое плечо)
+540,char_UNDEADPLUTOMON_BOSS_ADD2,ZombiePlutomon (Left Shoulder),ЗомбиПлутомон (Левое плечо)
+541,char_UNDEADPLUTOMON_BOSS_ADD3,ZombiePlutomon (Right Hip),ЗомбиПлутомон (Правое бедро)
+542,char_UNDEADPLUTOMON_BOSS_ADD4,ZombiePlutomon (Left Hip),ЗомбиПлутомон (Левое бедро)
+543,char_CHARISMON_ADD,Callismon (Gun),Каллисмон (Пистолет)
+544,char_DIANAMON_ADD,Dianamon & the Goodnight Sisters,Дайанамон и сестры Гуднайт
+545,char_LOCOMON_EVENT,Locomon (Event),Локомон (Событие)
+546,char_ULTIMATEBRAKIMON_BIG,UltimateBrachiomon,УльтимаБрачиомон
+547,char_ENBARRMON,Enbarrmon,Энбаррмон
+548,char_ENBARRMON_BIG,Enbarrmon,Энбаррмон
+549,char_ENBARRMON_CRANIAMON,Craniamon + Enbarrmon,Краниамон + Энбаррмон
+550,char_ENBARRMON_CRANIAMON_E,Craniamon + Enbarrmon,Краниамон + Энбаррмон
+551,char_BLIMPMON_RAMP,Blimpmon (Trap),Блимпмон (Ловушка)
+552,char_MASTERBLIMPMON_RAMP,MasterBlimpmon (Trap),МастерБлимпмон (Ловушка)
+553,char_PARROTMON_BIG,Parrotmon,Пэрэтмон
+554,char_PARROTMON_BIG_ADD,Parrotmon (Crested),Пэрэтмон (Гребень)
+555,char_VULCANUSMON_ADD,Vulcanusmon,Вулканусмон
+556,char_METALGREYMON_BIG_BL,MetalGreymon (Blue),МеталлГреймон (Синий)
+557,char_WHAMON_BIG,Whamon,Вамон
+558,char_NEPTUNEMON_BIG,Neptunemon,Нептунемон
+559,char_MERCURYMON_BIG,Merukimon,Мерукимон
+560,char_OMEGAMON_BIG,Omnimon,Омнимон
+561,char_APOLLOMON_BIG,Apollomon,Аполломон
+562,char_CERESMON_BIG,Ceresmon,Церемон
+563,char_PLUTOMON_BIG,Plutomon,Плутомон
+564,char_JUPITERMON_BIG,Jupitermon,Юпитермон
+565,char_JUPITERMON_WRATHMODE_BIG,Jupitermon WM,Юпитермон WM
+566,char_KUWAGAMON_BIG,Kuwagamon,Кувагамон
+567,char_UKKOMON,Ukkomon,Уккомон
+568,char_ORGEMON_BOSS,Ogremon,Огремон
+569,char_FUGAMON_BOSS,Fugamon,Фугамон
+570,char_HYOUGAMON_BOSS,Hyogamon,Хиогамон

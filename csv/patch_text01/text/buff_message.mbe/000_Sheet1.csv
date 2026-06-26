@@ -1,0 +1,292 @@
+string2 0,string 1
+1,{d0} был нокаутирован!
+2,{d0} умер мгновенно!
+3,{d0} был {is28}{image(ui_icon_btlStatus_000)} Отравлен!
+4,
+5,{d0} был {is28}{image(ui_icon_btlStatus_002)} Сбит с толку!
+6,{d0} был {is28}{image(ui_icon_btlStatus_003)} Парализован!
+7,{d0} упал в {is28}{image(ui_icon_btlStatus_004)} Сон!
+8,{d0} поражен {is28}{image(ui_icon_btlStatus_005)} Смертельной Отравой!
+9,
+10,Разум {d0} пребывает в {is28}{image(ui_icon_btlStatus_007)} Хаосе!
+11,{d0} был {is28}{image(ui_icon_btlStatus_008)} Обездвижен!
+12,{d0} провалился в {is28}{image(ui_icon_btlStatus_009)} Глубокий Сон!
+13,{d0} был {is28}{image(ui_icon_btlStatus_010)} Кристаллизован и не может использовать навыки!
+14,совместимость {d0} была изменена {is28}{image(ui_icon_btlStatus_011)} наоборот!
+15,Восстановление HP {d0}а {fc9HP recovery} было увеличено!
+16,Восстановление HP {d0}а {fc9HP recovery} было уменьшено!
+17,Восстановление SP {d0}а {fc9SP recovery} было увеличено!
+18,Восстановление SP {d0}а {fc9SP recovery} было уменьшено!
+19,Максимум HP {d0}а {is28}{image(ui_icon_btlStatus_032)} {fc9Max HP} был увеличен!
+20,Максимум SP {d0}а {is28}{image(ui_icon_btlStatus_034)} {fc9Max SP} был увеличен!
+21,Туман Жнеца: {d0}а {is28}{image(ui_icon_btlStatus_033)} {fc9Max HP} был уменьшен!
+22,{fc9Max SP} {d0}а {is28}{image(ui_icon_btlStatus_035)} был уменьшен!
+23,{fc9HP} {d0}а {is28}{image(ui_icon_btlStatus_014)} теперь восстанавливается каждый ход!
+24,{fc9SP} {d0}а {is28}{image(ui_icon_btlStatus_015)} теперь восстанавливается каждый ход!
+25,{fc9ATK} {d0}а {is28}{image(ui_icon_btlStatus_016)} был увеличен!
+26,{fc9DEF} {d0}а {is28}{image(ui_icon_btlStatus_018)} был увеличен!
+27,{fc9INT} {d0}а {is28}{image(ui_icon_btlStatus_020)} был увеличен!
+28,{fc9SPI} {d0}а {is28}{image(ui_icon_btlStatus_022)} был увеличен!
+29,{fc9SPD} {d0}а {is28}{image(ui_icon_btlStatus_024)} был увеличен!
+30,{fc9ACU} {d0}а {is28}{image(ui_icon_btlStatus_026)} был увеличен!
+31,{fc9EVA} {d0}а {is28}{image(ui_icon_btlStatus_028)} был увеличен!
+32,{fc9CRT Rate} {d0}а {is28}{image(ui_icon_btlStatus_030)} был увеличен!
+33,{fc9ATK} {d0}а {is28}{image(ui_icon_btlStatus_017)} был уменьшен!
+34,{fc9DEF} {d0}а {is28}{image(ui_icon_btlStatus_019)} был уменьшен!
+35,{fc9INT} {d0}а {is28}{image(ui_icon_btlStatus_021)} был уменьшен!
+36,{fc9SPI} {d0}а {is28}{image(ui_icon_btlStatus_023)} был уменьшен!
+37,{fc9SPD} {d0}а {is28}{image(ui_icon_btlStatus_025)} был уменьшен!
+38,{fc9ACU} {d0}а {is28}{image(ui_icon_btlStatus_027)} был уменьшен!
+39,{fc9EVA} {d0}а {is28}{image(ui_icon_btlStatus_029)} был уменьшен!
+40,{fc9CRT Rate} {d0}а {is28}{image(ui_icon_btlStatus_031)} был уменьшен!
+41,{fc9Null resistance} {d0}а {is28}{image(ui_icon_btlStatus_059)} был увеличен!
+42,{fc9Fire resistance} {d0}а {is28}{image(ui_icon_btlStatus_049)} был увеличен!
+43,{fc9Ice resistance} {d0}а {is28}{image(ui_icon_btlStatus_052)} был увеличен!
+44,{fc9Plant resistance} {d0}а {is28}{image(ui_icon_btlStatus_051)} был увеличен!
+45,{fc9Water resistance} {d0}а {is28}{image(ui_icon_btlStatus_050)} был увеличен!
+46,{fc9Electricity resistance} {d0}а {is28}{image(ui_icon_btlStatus_053)} был увеличен!
+47,{fc9Steel resistance} {d0}а {is28}{image(ui_icon_btlStatus_056)} был увеличен!
+48,{fc9Wind resistance} {d0}а {is28}{image(ui_icon_btlStatus_055)} был увеличен!
+49,{fc9Earth resistance} {d0}а {is28}{image(ui_icon_btlStatus_054)} был увеличен!
+50,{fc9Light resistance} {d0}а {is28}{image(ui_icon_btlStatus_057)} был увеличен!
+51,{fc9Dark resistance} {d0}а {is28}{image(ui_icon_btlStatus_058)} был увеличен!
+52,{fc9Null resistance} {d0}а {is28}{image(ui_icon_btlStatus_059)} был увеличен!
+53,
+54,
+55,
+56,
+57,
+58,
+59,
+60,
+61,
+62,
+63,{is28}{image(ui_icon_btlStatus_070)} {fc9Null resistance} {d0}а был уменьшен!
+64,{is28}{image(ui_icon_btlStatus_060)} {fc9Fire resistance} {d0}а был уменьшен!
+65,{is28}{image(ui_icon_btlStatus_063)} {fc9Ice resistance} {d0}а был уменьшен!
+66,{is28}{image(ui_icon_btlStatus_062)} {fc9Plant resistance} {d0}а был уменьшен!
+67,{is28}{image(ui_icon_btlStatus_061)} {fc9Water resistance} {d0}а был уменьшен!
+68,{is28}{image(ui_icon_btlStatus_064)} {fc9Electricity resistance} {d0}а был уменьшен!
+69,{is28}{image(ui_icon_btlStatus_067)} {fc9Steel resistance} {d0}а был уменьшен!
+70,{is28}{image(ui_icon_btlStatus_066)} {fc9Wind resistance} {d0}а был уменьшен!
+71,{is28}{image(ui_icon_btlStatus_065)} {fc9Earth resistance} {d0}а был уменьшен!
+72,{is28}{image(ui_icon_btlStatus_068)} {fc9Light resistance} {d0}а был уменьшен!
+73,{is28}{image(ui_icon_btlStatus_069)} {fc9Dark resistance} {d0}а был уменьшен!
+74,{is28}{image(ui_icon_btlStatus_070)} {fc9Null resistance} {d0}а был уменьшен!
+75,
+76,
+77,
+78,
+79,
+80,
+81,
+82,
+83,
+84,
+85,{d0} готов к {is28}{image(ui_icon_btlStatus_036)} Отражению физических атак!
+86,{d0} готов к {is28}{image(ui_icon_btlStatus_037)} Отражению магических атак!
+87,{d0} получил {is28}{image(ui_icon_btlStatus_038)} Барьер отражающий физические атаки!
+88,{d0} получил {is28}{image(ui_icon_btlStatus_039)} Барьер отражающий магические атаки!
+89,{d0} is no longer affected by {is28}{image(ui_icon_btlStatus_040)} Status Abnormalities!
+90,{d0} is no longer affected by {is28}{image(ui_icon_btlStatus_041)} Stat Debuffs!
+91,{d0} has gained {is28}{image(ui_icon_btlStatus_042)} One-Time KO Protection!
+92,{d0} raised their {is28}{image(ui_icon_btlStatus_043)} Guard!
+93,{is28}{image(ui_icon_btlStatus_044)} Physical damage taken by {d0} has been boosted!
+94,{d0} has gained a {is28}{image(ui_icon_btlStatus_044)} Barrier that reduces physical damage!
+95,{is28}{image(ui_icon_btlStatus_045)} Magic damage taken by {d0} has been boosted!
+96,{d0} has gained a {is28}{image(ui_icon_btlStatus_045)} Barrier that reduces magic damage!
+97,{is28}{image(ui_icon_btlStatus_044)} Physical damage dealt by {d0} has been boosted!
+98,{is28}{image(ui_icon_btlStatus_044)} Physical damage dealt by {d0} has been reduced!
+99,{is28}{image(ui_icon_btlStatus_045)} Magic damage dealt by {d0} has been boosted!
+100,{is28}{image(ui_icon_btlStatus_045)} Magic damage dealt by {d0} has been reduced!
+101,{d0}'s {is28}{image(ui_icon_btlStatus_046)} Physical attack power has been boosted!
+102,{d0}'s {is28}{image(ui_icon_btlStatus_047)} Magic attack power has been boosted!
+103,{d0} has {is28}{image(ui_icon_btlStatus_048)} Taunted the enemy!
+105,{d0} has been thrown off-balance by the recoil of the skill and cannot move!
+106,{d0} will act first in the next round!
+107,{d0} will act last in the next round!
+108,{d0} can now act multiple times per round!
+109,{d0} can now take multiple actions at once!
+110,
+111,
+112,{d0}'s stat buffs have been removed!
+113,{d0}'s stat debuffs have been removed!
+114,"{d0} has been cured of {is28}{image(ui_icon_btlStatus_000)} Poison, {is28}{image(ui_icon_btlStatus_002)} Confusion, {is28}{image(ui_icon_btlStatus_003)} Paralysis, and {is28}{image(ui_icon_btlStatus_004)} Sleep!"
+115,{d0} has been cured of special status abnormalities!
+116,{d0} has been cured of all status abnormalities!
+117,
+118,{d0} has been {is28}{image(ui_icon_btlStatus_012)} Injured and cannot recover HP!
+119,{d0} is {is28}{image(ui_icon_btlStatus_013)} Diseased and cannot recover SP!
+120,{d0} cannot move after having their charge blocked!
+124,Обратный отсчет до смерти...
+125,Обратный отсчет до смерти...
+126,{d0} has lost motivation!
+132,{d0} is shaking with fear...
+133,CP больше нельзя получить!
+10003,{d0} has been cured of {is28}{image(ui_icon_btlStatus_000)} Poison!
+10005,{d0} has been cured of {is28}{image(ui_icon_btlStatus_002)} Confusion!
+10006,{d0} has been cured of {is28}{image(ui_icon_btlStatus_003)} Paralysis!
+10007,{d0} has been cured of {is28}{image(ui_icon_btlStatus_004)} Sleep!
+10008,{d0} has been cured of {is28}{image(ui_icon_btlStatus_005)} Deadly Poison!
+10010,{d0} has been cured of {is28}{image(ui_icon_btlStatus_007)} Chaos!
+10011,{d0} has been cured of {is28}{image(ui_icon_btlStatus_008)} Immobilization!
+10012,{d0} has been cured of {is28}{image(ui_icon_btlStatus_009)} Deep Slumber!
+10013,{d0} has been cured of {is28}{image(ui_icon_btlStatus_010)} Crystallization!
+10014,{d0}'s compatibilities are no longer {is28}{image(ui_icon_btlStatus_011)} Reversed!
+10015,{d0} has been cured of {is28}{image(ui_icon_btlStatus_012)} Injury!
+10016,{d0} has been cured of {is28}{image(ui_icon_btlStatus_013)} Disease!
+100001,{d0} have been KO'd!
+100002,{d0} have died instantly!
+100003,{d0} have been {is28}{image(ui_icon_btlStatus_000)} Poisoned!
+100004,
+100005,{d0} have become {is28}{image(ui_icon_btlStatus_002)} Confused!
+100006,{d0} have been {is28}{image(ui_icon_btlStatus_003)} Paralyzed!
+100007,{d0} have fallen {is28}{image(ui_icon_btlStatus_004)} Asleep!
+100008,{d0} have been afflicted with {is28}{image(ui_icon_btlStatus_005)} Deadly Poison!
+100009,
+100010,{d0}' minds are in {is28}{image(ui_icon_btlStatus_007)} Chaos!
+100011,{d0} have been {is28}{image(ui_icon_btlStatus_008)} Immobilized!
+100012,{d0} have fallen into {is28}{image(ui_icon_btlStatus_009)} Deep Slumber!
+100013,{d0} have been {is28}{image(ui_icon_btlStatus_010)} Crystallized and cannot use skills!
+100014,{d0}' compatibilities have been {is28}{image(ui_icon_btlStatus_011)} Reversed!
+100015,{d0}' {fc9HP recovery} has been boosted!
+100016,{d0}' {fc9HP recovery} has been reduced!
+100017,{d0}' {fc9SP recovery} has been boosted!
+100018,{d0}' {fc9SP recovery} has been reduced!
+100019,{d0}' {is28}{image(ui_icon_btlStatus_032)} {fc9Max HP} has been boosted!
+100020,{d0}' {is28}{image(ui_icon_btlStatus_034)} {fc9Max SP} has been boosted!
+100021,Reaper's Mist: {d0}' {is28}{image(ui_icon_btlStatus_033)} {fc9Max HP} has been reduced!
+100022,{d0}' {is28}{image(ui_icon_btlStatus_035)} {fc9Max SP} has been reduced!
+100023,{d0}' {is28}{image(ui_icon_btlStatus_014)} {fc9HP} now recovers with every turn!
+100024,{d0}' {is28}{image(ui_icon_btlStatus_015)} {fc9SP} now recovers with every turn!
+100025,{d0}' {is28}{image(ui_icon_btlStatus_016)} {fc9ATK} has been boosted!
+100026,{d0}' {is28}{image(ui_icon_btlStatus_018)} {fc9DEF} has been boosted!
+100027,{d0}' {is28}{image(ui_icon_btlStatus_020)} {fc9INT} has been boosted!
+100028,{d0}' {is28}{image(ui_icon_btlStatus_022)} {fc9SPI} has been boosted!
+100029,{d0}' {is28}{image(ui_icon_btlStatus_024)} {fc9SPD} has been boosted!
+100030,{d0}' {is28}{image(ui_icon_btlStatus_026)} {fc9ACU} has been boosted!
+100031,{d0}' {is28}{image(ui_icon_btlStatus_028)} {fc9EVA} has been boosted!
+100032,{d0}' {is28}{image(ui_icon_btlStatus_030)} {fc9CRT Rate} has been boosted!
+100033,{d0}' {is28}{image(ui_icon_btlStatus_017)} {fc9ATK} has been reduced!
+100034,{d0}' {is28}{image(ui_icon_btlStatus_019)} {fc9DEF} has been reduced!
+100035,{d0}' {is28}{image(ui_icon_btlStatus_021)} {fc9INT} has been reduced!
+100036,{d0}' {is28}{image(ui_icon_btlStatus_023)} {fc9SPI} has been reduced!
+100037,{d0}' {is28}{image(ui_icon_btlStatus_025)} {fc9SPD} has been reduced!
+100038,{d0}' {is28}{image(ui_icon_btlStatus_027)} {fc9ACU} has been reduced!
+100039,{d0}' {is28}{image(ui_icon_btlStatus_029)} {fc9EVA} has been reduced!
+100040,{d0}' {is28}{image(ui_icon_btlStatus_031)} {fc9CRT Rate} has been reduced!
+100041,{d0}' {is28}{image(ui_icon_btlStatus_059)} {fc9Null resistance} has been boosted!
+100042,{d0}' {is28}{image(ui_icon_btlStatus_049)} {fc9Fire resistance} has been boosted!
+100043,{d0}' {is28}{image(ui_icon_btlStatus_052)} {fc9Ice resistance} has been boosted!
+100044,{d0}' {is28}{image(ui_icon_btlStatus_051)} {fc9Plant resistance} has been boosted!
+100045,{d0}' {is28}{image(ui_icon_btlStatus_050)} {fc9Water resistance} has been boosted!
+100046,{d0}' {is28}{image(ui_icon_btlStatus_053)} {fc9Electricity resistance} has been boosted!
+100047,{d0}' {is28}{image(ui_icon_btlStatus_056)} {fc9Steel resistance} has been boosted!
+100048,{d0}' {is28}{image(ui_icon_btlStatus_055)} {fc9Wind resistance} has been boosted!
+100049,{d0}' {is28}{image(ui_icon_btlStatus_054)} {fc9Earth resistance} has been boosted!
+100050,{d0}' {is28}{image(ui_icon_btlStatus_057)} {fc9Light resistance} has been boosted!
+100051,{d0}' {is28}{image(ui_icon_btlStatus_058)} {fc9Dark resistance} has been boosted!
+100052,{d0}' {is28}{image(ui_icon_btlStatus_059)} {fc9Null resistance} has been boosted!
+100053,
+100054,
+100055,
+100056,
+100057,
+100058,
+100059,
+100060,
+100061,
+100062,
+100063,{d0}' {is28}{image(ui_icon_btlStatus_070)} {fc9Null resistance} has been reduced!
+100064,{d0}' {is28}{image(ui_icon_btlStatus_060)} {fc9Fire resistance} has been reduced!
+100065,{d0}' {is28}{image(ui_icon_btlStatus_063)} {fc9Ice resistance} has been reduced!
+100066,{d0}' {is28}{image(ui_icon_btlStatus_062)} {fc9Plant resistance} has been reduced!
+100067,{d0}' {is28}{image(ui_icon_btlStatus_061)} {fc9Water resistance} has been reduced!
+100068,{d0}' {is28}{image(ui_icon_btlStatus_064)} {fc9Electricity resistance} has been reduced!
+100069,{d0}' {is28}{image(ui_icon_btlStatus_067)} {fc9Steel resistance} has been reduced!
+100070,{d0}' {is28}{image(ui_icon_btlStatus_066)} {fc9Wind resistance} has been reduced!
+100071,{d0}' {is28}{image(ui_icon_btlStatus_065)} {fc9Earth resistance} has been reduced!
+100072,{d0}' {is28}{image(ui_icon_btlStatus_068)} {fc9Light resistance} has been reduced!
+100073,{d0}' {is28}{image(ui_icon_btlStatus_069)} {fc9Dark resistance} has been reduced!
+100074,{d0}' {is28}{image(ui_icon_btlStatus_070)} {fc9Null resistance} has been reduced!
+100075,
+100076,
+100077,
+100078,
+100079,
+100080,
+100081,
+100082,
+100083,
+100084,
+100085,{d0} are ready to {is28}{image(ui_icon_btlStatus_036)} Counter physical attacks!
+100086,{d0} are ready to {is28}{image(ui_icon_btlStatus_037)} Counter magic attacks!
+100087,{d0} have gained a {is28}{image(ui_icon_btlStatus_038)} Barrier that reflects physical attacks!
+100088,{d0} have gained a {is28}{image(ui_icon_btlStatus_039)} Barrier that reflects magic attacks!
+100089,{d0} are no longer affected by {is28}{image(ui_icon_btlStatus_040)} Status Abnormalities!
+100090,{d0} are no longer affected by {is28}{image(ui_icon_btlStatus_041)} Stat Debuffs!
+100091,{d0} have gained {is28}{image(ui_icon_btlStatus_042)} One-Time KO Protection!
+100092,{d0} raised their {is28}{image(ui_icon_btlStatus_043)} Guard!
+100093,{d0}' {is28}{image(ui_icon_btlStatus_044)} Physical damage taken has been boosted!
+100094,{d0} have gained a {is28}{image(ui_icon_btlStatus_044)} Barrier that reduces physical damage!
+100095,{d0}' {is28}{image(ui_icon_btlStatus_045)} Magic damage taken has been boosted!
+100096,{d0} have gained a {is28}{image(ui_icon_btlStatus_045)} Barrier that reduces magic damage!
+100097,{d0}' {is28}{image(ui_icon_btlStatus_044)} Physical damage dealt has been boosted!
+100098,{d0}' {is28}{image(ui_icon_btlStatus_044)} Physical damage dealt has been reduced!
+100099,{d0}' {is28}{image(ui_icon_btlStatus_045)} Magic damage dealt has been boosted!
+100100,{d0}' {is28}{image(ui_icon_btlStatus_045)} Magic damage dealt has been reduced!
+100101,{d0}' {is28}{image(ui_icon_btlStatus_046)} Physical attack power has been boosted!
+100102,{d0}' {is28}{image(ui_icon_btlStatus_047)} Magic attack power has been boosted!
+100103,{d0} have {is28}{image(ui_icon_btlStatus_048)} Taunted the enemy!
+100105,{d0} have been thrown off-balance by the recoil of the skill and cannot move!
+100106,{d0} will act first in the next round!
+100107,{d0} will act last in the next round!
+100108,{d0} can now act multiple times per round!
+100109,{d0} can now take multiple actions at once!
+100110,
+100111,
+100112,{d0}' stat buffs have been removed!
+100113,{d0}' stat debuffs have been removed!
+100114,"{d0} have been cured of {is28}{image(ui_icon_btlStatus_000)} Poison, {is28}{image(ui_icon_btlStatus_002)} Confusion, {is28}{image(ui_icon_btlStatus_003)} Paralysis, and {is28}{image(ui_icon_btlStatus_004)} Sleep!"
+100115,{d0} have been cured of special status abnormalities!
+100116,{d0} have been cured of all status abnormalities!
+100117,
+100118,{d0} have been {is28}{image(ui_icon_btlStatus_012)} Injured and cannot recover HP!
+100119,{d0} have become {is28}{image(ui_icon_btlStatus_013)} Diseased and cannot recover SP!
+100120,{d0} cannot move after having their charge blocked!
+100124,Обратный отсчет до смерти...
+100125,Обратный отсчет до смерти...
+100126,{d0} have lost motivation!
+100132,{d0} are shaking with fear...
+100133,CP больше нельзя получить!
+110003,{d0} have been cured of {is28}{image(ui_icon_btlStatus_000)} Poison!
+110005,{d0} have been cured of {is28}{image(ui_icon_btlStatus_002)} Confusion!
+110006,{d0} have been cured of {is28}{image(ui_icon_btlStatus_003)} Paralysis!
+110007,{d0} have been cured of {is28}{image(ui_icon_btlStatus_004)} Sleep!
+110008,{d0} have been cured of {is28}{image(ui_icon_btlStatus_005)} Deadly Poison!
+110010,{d0} have been cured of {is28}{image(ui_icon_btlStatus_007)} Chaos!
+110011,{d0} have been cured of {is28}{image(ui_icon_btlStatus_008)} Immobilization!
+110012,{d0} have been cured of {is28}{image(ui_icon_btlStatus_009)} Deep Slumber!
+110013,{d0} have been cured of {is28}{image(ui_icon_btlStatus_010)} Crystallization!
+110014,{d0}' compatibilities are no longer {is28}{image(ui_icon_btlStatus_011)} Reversed!
+200001,{d0}'s stats have been boosted!
+200002,{d0}'s stats have been reduced!
+200003,{d0}'s elemental resistances have all been boosted!
+200004,{d0} has gained a barrier that reduces physical and magic damage!
+200005,{d0}'s stats have all been boosted!
+200006,{d0}'s stats have all been reduced!
+200007,{d0}'s elemental resistances have been boosted!
+200008,{d0}'s elemental resistances have been reduced!
+200009,"{d0}'s stats have all been boosted, and incoming physical/magic damage will be reduced!"
+200010,{d0} is now affected by status abnormalities!
+300001,{d0}' stats have been boosted!
+300002,{d0}' stats have been reduced!
+300003,{d0}' elemental resistances have all been boosted!
+300004,{d0} have gained a barrier that reduces physical and magic damage!
+300005,{d0}' stats have all been boosted!
+300006,{d0}' stats have all been reduced!
+300007,{d0}' elemental resistances have been boosted!
+300008,{d0}' elemental resistances have been reduced!
+300009,"{d0}' stats have all been boosted, and incoming physical/magic damage will be reduced!"
+300010,{d0} are now affected by status abnormalities!
+20281,{d0}'s {is28}{image(ui_icon_btlStatus_033)} {fc9Max HP} has been reduced!

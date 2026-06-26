@@ -1,0 +1,330 @@
+string2 0,string 1
+1000,Перезаписать сохранённые данные?
+1001,Загрузить эти сохранённые данные?
+1002,"Удалить эти данные сохранения?
+
+{fc2Примечание: это действие невозможно отменить.}"
+1003,
+1004,"Вернуться к главному экрану?
+
+{fc2Примечание: все несохранённые данные будут утеряны.}"
+1005,
+1100,
+1101,
+1200,
+1201,{fc7Эволюционировать} в {d0}?
+1202,Слить с {d0} и выполнить ДНК-дигиволюцию?
+1203,"{fc2Дедигиволюционировать} в {d0}?
+
+{fc15Подсказка: этот дигимон станет слабее, и его нельзя будет сразу вернуть
+в предыдущее состояние. Будьте осторожны при выполнении этого действия.}"
+1204,"Выполнить смену режима для {d0}?
+
+Хотите продолжить?"
+1205,
+1206,"Конвертировать {fc9{d0}}?
+
+{fc15Подсказка: чем ближе уровень сканирования к 200%,
+тем выше будут макс. ОЗ и Талант этого дигимона.}"
+1207,
+1208,
+1209,
+1210,"Продолжить дедигиволюцию ДНК? Совокупные характеристики будут
+разделены поровну между первичным и вторичным Дигимонами.
+Экипировка, Личность и определенные характеристики будут унаследованы
+только основным Дигимоном."
+1211,Изменить режим {d0}?
+1300,"Изучить следующий навык?
+
+{fc9 {d0}}"
+1400,
+1501,
+1502,
+1700,
+1900,Вернуться на базу?
+2200,
+2201,
+2300,
+2400,
+2401,
+2600,
+2601,
+2602,
+2603,
+2604,
+2700,
+2701,
+2702,
+2900,
+2901,
+2902,
+2903,
+2904,
+2950,
+2951,
+2952,
+2953,
+3000,
+3001,Выйти из Дигифермы?
+3002,
+3003,
+3004,
+3500,
+3501,
+3502,
+3503,
+3504,
+5001,
+5055,Вы хотите сохранить?
+5071,Сесть на дирижабль и взлететь?
+7000,Передать порошок Призрачного коралла Шеллмону?
+10000,ДА
+10001,НЕТ
+10004,Перекрестное Искусство
+10005,Бросок в атаку
+20001,
+20002,
+20003,
+20004,
+20005,Отменить изменение имени и вернуться к предыдущему экрану?
+20010,
+20100,Восстановить настройки по умолчанию для {fc9 {d0}}?
+20101,"Эта настройка дублируется другими элементами управления.
+Применить эту настройку к выбранной кнопке?"
+20102,"Настройки графики применены. Сохранить эти параметры?
+
+Автоматический возврат к предыдущим настройкам через {d0} секунд, если
+действие не подтверждено.
+{fc9Примечание: некоторые изменения вступят в силу после перезапуска игры.}"
+yesno_quest_0010,"{fc9 {d0} }
+
+Хотите просмотреть детали задания?"
+yesno_reinforcement_0010,"Это действие использует выбранного дигимона как материал
+для усиления базового дигимона. {fc9Дигимон-материал будет утрачен}
+и не может быть восстановлен.
+
+Хотите продолжить?"
+yesno_reinforcement_0020,"{fc2ВНИМАНИЕ!
+Среди выбранных дигимонов есть участники боя/резерва.}
+
+Это действие использует выбранных дигимонов как материалы
+для усиления базового дигимона. {fc9Дигимоны-материалы будут утрачены}
+и не могут быть восстановлены.
+
+Хотите продолжить?"
+yesno_reinforcement_0030,"Снаряжение, экипированное на дигимоне-материале,
+превысит вашу максимальную вместимость инвентаря.
+
+{fc2Это снаряжение будет утрачено}, если вы продолжите синтез.
+
+Хотите продолжить?"
+yesno_conversion_0010,"Это действие конвертирует выбранного дигимона в:
+{is28}{image(ui_icon_item_075)}{fc9 {d0}}
+{fc9Конвертированный дигимон будет утрачен} и не может быть восстановлен.
+
+Хотите продолжить?"
+yesno_conversion_0020,"{fc2ВНИМАНИЕ!
+Среди выбранных дигимонов есть участники боя/резерва.}
+
+Это действие конвертирует выбранных дигимонов в:
+{is28}{image(ui_icon_item_075)}{fc9 {d0}}
+{fc9Конвертированные дигимоны будут утрачены}
+и не могут быть восстановлены.
+
+Хотите продолжить?"
+yesno_conversion_0030,"Снаряжение, экипированное на выбранных дигимонах,
+превысит вашу максимальную вместимость инвентаря.
+
+{fc2Это снаряжение будет утрачено}, если вы продолжите конвертацию.
+
+Вы хотите продолжить?"
+yesno_shop_0010,Купить {fc9{d0} x{d1}}?
+yesno_shop_0020,Продать {fc9{d0} x{d1}}?
+yesno_shop_0030,Создать {fc9{d0} x{d1}}?
+yesno_shop_0040,Разобрать {fc9{d0} x{d1}}?
+yesno_shop_0050,"Указанные ниже материалы превысят вашу максимальную вместимость
+инвентаря. {fc2Часть, превышающая лимит, будет утрачена}.
+
+Вы хотите продолжить?"
+yesno_hazamagate_0010,"Вернетесь в реальный мир? Это перенесет вас в мир,
+где проиходит ваша Основная Миссия."
+yesno_hazamagate_0020,Переместиться к ближайшему входу в Промежуточный Театр?
+yesno_digimoncard_battle_0010,"Хотите {fc9сдаться} в матче?
+
+{fc15Совет: выиграйте хотя бы один раунд, чтобы получить карту даже
+при поражении в матче.
+Примечание: при сдаче вы не получите карты.}"
+yesno_digimoncard_battle_0020,Подтвердите свой выбор?
+yesno_digimoncard_battle_0030,"Вы можете получить ещё {fc9 {n0}} карт(у).
+Подтвердить выбор?"
+yesno_gameover_0010,"Понизить сложность до {fc9{d0}} и повторить бой?
+
+{fc8*Повтор с полным восстановлением ОЗ и ОС.
+*Сложность останется пониженной после завершения боя.
+Вы можете вернуть предыдущий уровень сложности в настройках.}"
+yesno_gameover_0020,"Повторить бой в режиме неуязвимости?
+
+{fc9*Враги не будут наносить урон, а вы не будете тратить ОС.
+*Повтор с полным восстановлением ОЗ и ОС.
+*Режим неуязвимости действует только для этого боя.}"
+yesno_gameover_0030,"Это сбросит ваш прогресс в дополнительном эпизоде и вернёт вас в
+лобби.
+Хотите продолжить?"
+yesno_gameover_0040,"Любой несохранённый прогресс будет потерян.
+{fc9Существующие данные сохранения полной версии
+будут перезаписаны.}"
+yesno_hazama_d_0010,Выйти из этого испытания? Весь прогресс во Внешнем подземелье будет потерян.
+yesno_hazama_dl_0010,"Отправиться во Внешнее подземелье
+{fc9{d0}}?"
+yesno_arena_0010,Сразиться с {fc9Командой {d0}}?
+yesno_arena_0020,"Сразиться с {fc9Командой {d0}}?
+
+Примечание: вы уже побеждали этого соперника,
+поэтому получите меньше наград."
+yesno_digifarm_0010,Вернуть {fc9{d0}} в Бокс?
+yesno_digifarm_0020,Перенести этого Дигимона на Дигиферму?
+yesno_digifarm_0030,
+yesno_digifarm_0040,"Этот Дигимон все еще находится в процессе обучения.
+Потратить иены на быстрое завершение?"
+yesno_digifarm_0050,"Этот Дигимон все еще находится в процессе обучения.
+Хотите отменить его обучение?"
+yesno_digifarm_0060,
+yesno_kizunaskill_0010,Разблокировать {fc9{d0}}?
+yesno_title_0010,Выйти из игры?
+yesno_title_0020,"Наследовать следующие данные и начать игру сначала?
+
+{fc9Уровни сканирования дигимонов
+Навыки агента
+Очки аномалий
+Предметы (кроме ключевых)
+Деньги
+Карты}"
+yesno_title_0030,"Начать игру с этим именем и внешностью?
+
+{fc9Примечание: вы сможете изменить имя и внешность позже.}"
+yesno_systemmenu_0010,"Хотите выйти из игры?
+
+{fc2Примечание: все несохранённые данные будут утеряны.}"
+yesno_dlc_0010,"{pf(You must {fc9purchase an add-on} in order to
+play this Outer Dungeon.
+
+Go to PlayStation®Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/You must {fc9purchase an add-on} in order to
+play this Outer Dungeon.
+
+Go to Microsoft Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
+play this Outer Dungeon.
+
+Go to Nintendo eShop?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
+play this Outer Dungeon.
+
+Go to the Online Store?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.})}"
+yesno_dlc_0020,"{pf(You must {fc9purchase an add-on} in order to
+wear this costume.
+
+Go to PlayStation®Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/You must {fc9purchase an add-on} in order to
+wear this costume.
+
+Go to Microsoft Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
+wear this costume.
+
+Go to Nintendo eShop?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
+wear this costume.
+
+Go to the Online Store?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.})}"
+yesno_dlc_0030,"{pf(You must {fc9purchase an add-on} in order to
+select this music.
+
+Go to PlayStation®Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/You must {fc9purchase an add-on} in order to
+select this music.
+
+Go to Microsoft Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
+select this music.
+
+Go to Nintendo eShop?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
+select this music.
+
+Go to the Online Store?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.})}"
+yesno_dlc_0040,"{pf(Go to PlayStation®Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/Go to Microsoft Store?
+
+{fc9Note: Purchased add-ons will not be activated
+until you return to the title screen.}/Go to Nintendo eShop?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.}/Go to the Online Store?
+
+{fc9Note: Purchased downloadable content will not be activated
+until you return to the title screen.})}"
+yesno_digimonselect_0010,Выбрать {fc9{d0}} дигимоном-партнёром?
+yesno_unequip_0010,"Снять все диски навыков и снаряжение
+с дигимонов в ящике и на ферме?
+
+{fc9Примечание: с защищённых дигимонов
+диски навыков и снаряжение не снимаются.}"
+yesno_language_0010,"Для смены языка интерфейса игра будет сохранена,
+и вы вернётесь на главный экран.
+Продолжить?
+
+{fc9Имена протагониста и дигимонов останутся
+на предыдущем языке. Кроме того, из-за смены
+шрифтов эти имена могут отображаться
+некорректно. (Их можно изменить позже.)}"
+yesno_language_0020,"Для смены языка интерфейса игра будет сохранена,
+и вы вернётесь на главный экран.
+Продолжить?
+
+{fc9Имена протагониста и дигимонов останутся
+на предыдущем языке. (Их можно изменить позже.)}"
+yesno_language_0030,"Чтобы изменить язык отображения игры, ваши настройки будут
+сохранены, и игра запустится повторно.
+
+Хотите продолжить?"
+yesno_giveup_0010,Отказаться от этой битвы?
+yesno_taransfer_0010,"Обнаружены данные сохранения из демо-версии.
+Импортировать их и начать новую игру?
+
+{fc9Существующие данные сохранения полной версии
+будут перезаписаны.}"
+yesno_demo_0010,"Это завершит демо-версию без сохранения ваших данных.
+
+Хотите продолжить?
+Примечание: сохранённые данные из демо-версии можно
+импортировать в полную версию игры."

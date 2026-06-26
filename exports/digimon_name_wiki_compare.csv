@@ -1,0 +1,571 @@
+﻿#,id,english_name,local_russian_name,wiki_page,wiki_russian_name,status,matched_by,matched_candidate,wiki_url
+1,char_EX-TYRANOMON,ExTyrannomon,ЭксТиранномон,Ex-Tyranomon,Экс-Тираномон,different,candidate,Ex-Tyranomon,https://digimon.fandom.com/ru/wiki/Ex-Tyranomon
+2,char_LUNAMON,Lunamon,Лунамон,Lunamon,Лунамон,ok,candidate,Lunamon,https://digimon.fandom.com/ru/wiki/Lunamon
+3,char_LEKISMON,Lekismon,Лекисмон,Lekismon,Лексимон,different,candidate,Lekismon,https://digimon.fandom.com/ru/wiki/Lekismon
+4,char_CRESCEMON,Crescemon,Крескемон,,,no_wiki_match,,,
+5,char_GOLEMON,Golemon,Големон,Golemon,Големон,ok,candidate,Golemon,https://digimon.fandom.com/ru/wiki/Golemon
+6,char_SKULLSATAMON,SkullSatamon,СкулСатамон,Skull Satamon,Скалл Сатамон,different,candidate,SkullSatamon,https://digimon.fandom.com/ru/wiki/Skull_Satamon
+7,char_HAGURUMON,Hagurumon,Хагурумон,Hagurumon,Хагурумон,ok,candidate,Hagurumon,https://digimon.fandom.com/ru/wiki/Hagurumon
+8,char_MERAMON,Meramon,Мерамон,Meramon,Мерамон,ok,candidate,Meramon,https://digimon.fandom.com/ru/wiki/Meramon
+9,char_AIRDRAMON,Airdramon,Аирдрамон,Airdramon,Эйрдрамон,different,candidate,Airdramon,https://digimon.fandom.com/ru/wiki/Airdramon
+10,char_GARURUMON,Garurumon,Гарурумон,Garurumon,Гарурумон,ok,candidate,Garurumon,https://digimon.fandom.com/ru/wiki/Garurumon
+11,char_BAKEMON,Bakemon,Бакемон,Bakemon,Бакэмон,different,candidate,Bakemon,https://digimon.fandom.com/ru/wiki/Bakemon
+12,char_STARMON,Starmon,Стармон,Starmon,Стармон,ok,candidate,Starmon,https://digimon.fandom.com/ru/wiki/Starmon
+13,char_AQUILAMON,Aquilamon,Аквиламон,Aquilamon,Аквиламон,ok,candidate,Aquilamon,https://digimon.fandom.com/ru/wiki/Aquilamon
+14,char_STRIKEDRAMON,Strikedramon,Страйкдрамон,Strikedramon,Страйкдрамон,ok,candidate,Strikedramon,https://digimon.fandom.com/ru/wiki/Strikedramon
+15,char_MINOTAURMON,Minotarumon,Минотарумон,,,no_wiki_match,,,
+16,char_DORUGORAMON,Dorugoramon,Доругорамон,DORUgoramon,ДОРУгорамон,punct_case_or_yo,candidate,Dorugoramon,https://digimon.fandom.com/ru/wiki/DORUgoramon
+17,char_TYUMON,Chuumon,Чуумон,Tyumon,Тюмон,different,candidate,Tyumon,https://digimon.fandom.com/ru/wiki/Tyumon
+18,char_WHAMON,Whamon,Вамон,Whamon,Уэмон,different,candidate,Whamon,https://digimon.fandom.com/ru/wiki/Whamon
+19,char_DINOBEEMON,Dinobeemon,Динобимон,Dinobeemon,Динобимон,ok,candidate,Dinobeemon,https://digimon.fandom.com/ru/wiki/Dinobeemon
+20,char_MARINEANGEMON,MarineAngemon,Маринангемон,,,no_wiki_match,,,
+21,char_RAPTORDRAMON,Raptordramon,Раптордрамон,Raptordramon,Раптордрамон,ok,candidate,Raptordramon,https://digimon.fandom.com/ru/wiki/Raptordramon
+22,char_GRADEMON,Grademon,Градемон,,,no_wiki_match,,,
+23,char_WARGREYMON,WarGreymon,ВарГреймон,War Greymon,Вор Греймон,different,candidate,WarGreymon,https://digimon.fandom.com/ru/wiki/War_Greymon
+24,char_BIGMAMEMON,BigMamemon,БигМамемон,Big Mamemon,Биг Мамемон,punct_case_or_yo,candidate,BigMamemon,https://digimon.fandom.com/ru/wiki/Big_Mamemon
+25,char_SANGLOUPMON,Sangloupmon,Санглупмон,Sangloupmon,Сулюпмон,different,candidate,Sangloupmon,https://digimon.fandom.com/ru/wiki/Sangloupmon
+26,char_MATADRMON,Matadormon,Матадормон,,,no_wiki_match,,,
+27,char_GRANDDRACUMON,GranDracmon,ГрандДракмон,Grand Dracumon,Гранд Дракумон,different,candidate,Granddracumon,https://digimon.fandom.com/ru/wiki/Grand_Dracumon
+28,char_TRICERAMON,Triceramon,Трицерамон,Triceramon,Трицерамон,ok,candidate,Triceramon,https://digimon.fandom.com/ru/wiki/Triceramon
+29,char_LILITHMON,Lilithmon,Лилитмон,,,no_wiki_match,,,
+30,char_BEELZEBUMON,Beelzemon,Вельземон,Beelzebumon,Вельзевумон,different,candidate,Beelzebumon,https://digimon.fandom.com/ru/wiki/Beelzebumon
+31,char_BARBAMON,Barbamon,Барбамон,Barbamon,Барбамон,ok,candidate,Barbamon,https://digimon.fandom.com/ru/wiki/Barbamon
+32,char_BARBAMON_BIG,Barbamon,Барбамон,Barbamon,Барбамон,ok,candidate,Barbamon,https://digimon.fandom.com/ru/wiki/Barbamon
+33,char_LEVIAMON,Leviamon,Левиамон,Leviamon,Левиамон,ok,candidate,Leviamon,https://digimon.fandom.com/ru/wiki/Leviamon
+34,char_LEVIAMON_BIG,Leviamon,Левиамон,Leviamon,Левиамон,ok,candidate,Leviamon,https://digimon.fandom.com/ru/wiki/Leviamon
+35,char_DEMON,Creepymon,Крипимон,Demon,Демон,different,candidate,Demon,https://digimon.fandom.com/ru/wiki/Demon
+36,char_DEMON_BIG,Creepymon,Крипимон,Demon,Демон,different,candidate,Demon,https://digimon.fandom.com/ru/wiki/Demon
+37,char_LUCEMON_FM,Lucemon CM,Люцемон СМ,Lucemon: Falldown Mode,Люцимон: Падший режим,different,candidate,Lucemon Falldown Mode,https://digimon.fandom.com/ru/wiki/Lucemon%3A_Falldown_Mode
+38,char_BELPHEMON_RM,Belphemon RM,Бельфемон РМ,,,no_wiki_match,,,
+39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон РМ,,,no_wiki_match,,,
+40,char_PANDAMON,Pandamon,Пандамон,Pandamon,Пандамон,ok,candidate,Pandamon,https://digimon.fandom.com/ru/wiki/Pandamon
+41,char_FUNBEEMON,FunBeemon,ФанБиимон,Funbeemon,Фанбимон,different,candidate,FunBeemon,https://digimon.fandom.com/ru/wiki/Funbeemon
+42,char_BLACKTAILMON,BlackGatomon,БлэкГатомон,Black Tailmon,Блэк Теилмон,different,candidate,Black Tailmon,https://digimon.fandom.com/ru/wiki/Black_Tailmon
+43,char_CATCHMAMEMON,CatchMamemon,КатчМамаемон,,,no_wiki_match,,,
+44,char_CHRONOMON,Chronomon HM,"Хрономон , ХМ",,,no_wiki_match,,,
+45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон DM,,,no_wiki_match,,,
+46,char_MEGIDRAMON,Megidramon,Мегидрамон,Megidramon,Мегидрамон,ok,candidate,Megidramon,https://digimon.fandom.com/ru/wiki/Megidramon
+47,char_MEGIDRAMON_BIG,Megidramon,Мегидрамон,Megidramon,Мегидрамон,ok,candidate,Megidramon,https://digimon.fandom.com/ru/wiki/Megidramon
+48,char_GODDRAMON,Goldramon,Голдрамон,Goddramon,Годдрамон,different,candidate,Goddramon,https://digimon.fandom.com/ru/wiki/Goddramon
+49,char_BANCHOLEOMON,BanchoLeomon,БанхоЛеомон,,,no_wiki_match,,,
+50,char_AGUMON,Agumon,Агумон,Agumon,Агумон,ok,candidate,Agumon,https://digimon.fandom.com/ru/wiki/Agumon
+51,char_GAWAPPAMON,Gawappamon,Гаваппамон,Gawappamon,Гаваппамон,ok,candidate,Gawappamon,https://digimon.fandom.com/ru/wiki/Gawappamon
+52,char_KAMEMON,Kamemon,Камемон,Kamemon,Камемон,ok,candidate,Kamemon,https://digimon.fandom.com/ru/wiki/Kamemon
+53,char_KUDAMON,Kudamon,Кудамон,Kudamon,Кудамон,ok,candidate,Kudamon,https://digimon.fandom.com/ru/wiki/Kudamon
+54,char_GEOGREYMON,GeoGreymon,ГеоГреймон,Geo Greymon,Гео Греймон,punct_case_or_yo,candidate,GeoGreymon,https://digimon.fandom.com/ru/wiki/Geo_Greymon
+55,char_GAOMON,Gaomon,Гаомон,Gaomon,Гаомон,ok,candidate,Gaomon,https://digimon.fandom.com/ru/wiki/Gaomon
+56,char_LALAMON,Lalamon,Лаламон,Lalamon,Лаламон,ok,candidate,Lalamon,https://digimon.fandom.com/ru/wiki/Lalamon
+57,char_ROSEMON,Rosemon,Роузмон,Rosemon,Роузмон,ok,candidate,Rosemon,https://digimon.fandom.com/ru/wiki/Rosemon
+58,char_SUNFLOWMON,Sunflowmon,Санфлоумон,Sunflowmon,Санфлаумон,different,candidate,Sunflowmon,https://digimon.fandom.com/ru/wiki/Sunflowmon
+59,char_VOLCAMON,Volcanomon,Волканомон,,,no_wiki_match,,,
+60,char_PILEVOLCAMON,PileVolcanomon,ПилеВолканомон,,,no_wiki_match,,,
+61,char_MONZAEMON,Monzaemon,Монзаэмон,Monzaemon,Мондзаэмон,different,candidate,Monzaemon,https://digimon.fandom.com/ru/wiki/Monzaemon
+62,char_GAOGAMON,Gaogamon,Гаогамон,Gaogamon,Гаогамон,ok,candidate,Gaogamon,https://digimon.fandom.com/ru/wiki/Gaogamon
+63,char_PLATINUMNUMEMON,PlatinumNumemon,ПлатинаНумемон,,,no_wiki_match,,,
+64,char_NUMEMON,Numemon,Нумемон,Numemon,Нумемон,ok,candidate,Numemon,https://digimon.fandom.com/ru/wiki/Numemon
+65,char_RIZEGREYMON,RizeGreymon,РайзГреймон,Rize Greymon,Райз Греймон,punct_case_or_yo,candidate,RizeGreymon,https://digimon.fandom.com/ru/wiki/Rize_Greymon
+66,char_LEOMON,Leomon,Леомон,Leomon,Леомон,ok,candidate,Leomon,https://digimon.fandom.com/ru/wiki/Leomon
+67,char_LILAMON,Lilamon,Лиламон,Lilamon,Лиламон,ok,candidate,Lilamon,https://digimon.fandom.com/ru/wiki/Lilamon
+68,char_MACHGAOGAMON,MachGaogamon,Мачгаогамон,Mach Gaogamon,Мах Гаогамон,different,candidate,MachGaogamon,https://digimon.fandom.com/ru/wiki/Mach_Gaogamon
+69,char_NEPTUNEMON,Neptunemon,Нептунемон,Neptunemon,Нептунмон,different,candidate,Neptunemon,https://digimon.fandom.com/ru/wiki/Neptunemon
+70,char_SHAWUJINMON,Shaujinmon,Шауджинмон,,,no_wiki_match,,,
+71,char_REPPAMON,Reppamon,Реппамон,Reppamon,Реппамон,ok,candidate,Reppamon,https://digimon.fandom.com/ru/wiki/Reppamon
+72,char_GROWMON,Growlmon,Гроулмон,Growmon,Граумон,different,candidate,Growmon,https://digimon.fandom.com/ru/wiki/Growmon
+73,char_SUPERSTARMON,SuperStarmon,СуперСтармон,Superstarmon,Суперстармон,punct_case_or_yo,candidate,SuperStarmon,https://digimon.fandom.com/ru/wiki/Superstarmon
+74,char_MERCURYMON,Merukimon,Мерукимон,,,no_wiki_match,,,
+75,char_IMPMON,Impmon,Импмон,Impmon,Импмон,ok,candidate,Impmon,https://digimon.fandom.com/ru/wiki/Impmon
+76,char_HIPPOGRIFFOMON,HippoGryphonmon,ГиппоГрифонмон,Hippogriffomon,Гиппогрифомон,different,candidate,Hippogriffomon,https://digimon.fandom.com/ru/wiki/Hippogriffomon
+77,char_GRIFFOMON,Gryphonmon,Грифонмон,Griffomon,Гриффомон,different,candidate,Griffomon,https://digimon.fandom.com/ru/wiki/Griffomon
+78,char_TYILINMON,Chirinmon,Чиринмон,Tyilinmon,Цилиньмон,different,candidate,Tyilinmon,https://digimon.fandom.com/ru/wiki/Tyilinmon
+79,char_VAMDEMON,Myotismon,Миотизмон,Vamdemon,Вамдемон,different,candidate,Vamdemon,https://digimon.fandom.com/ru/wiki/Vamdemon
+80,char_SLEIPMON,Kentaurosmon,Кентауросмон,Sleipmon,Слейпмон,different,candidate,Sleipmon,https://digimon.fandom.com/ru/wiki/Sleipmon
+81,char_SLEIPMON_BIG,Kentaurosmon,Кентауросмон,Sleipmon,Слейпмон,different,candidate,Sleipmon,https://digimon.fandom.com/ru/wiki/Sleipmon
+82,char_ANGEMON,Angemon,Ангемон,Angemon,Ангемон,ok,candidate,Angemon,https://digimon.fandom.com/ru/wiki/Angemon
+83,char_OMEGAMON,Omnimon,Омнимон,Omegamon,Омегамон,different,candidate,Omegamon,https://digimon.fandom.com/ru/wiki/Omegamon
+84,char_GUILMON,Guilmon,Гильмон,Guilmon,Гилмон,different,candidate,Guilmon,https://digimon.fandom.com/ru/wiki/Guilmon
+85,char_STINGMON,Stingmon,Стингмон,Stingmon,Стингмон,ok,candidate,Stingmon,https://digimon.fandom.com/ru/wiki/Stingmon
+86,char_TAILMON,Gatomon,Гатомон,Tailmon,Тейлмон,different,candidate,Tailmon,https://digimon.fandom.com/ru/wiki/Tailmon
+87,char_DEVIMON,Devimon,Девимон,Devimon,Девимон,ok,candidate,Devimon,https://digimon.fandom.com/ru/wiki/Devimon
+88,char_SHINEGREYMON,ShineGreymon,ШайнГреймон,Shine Greymon,Шайн Греймон,punct_case_or_yo,candidate,ShineGreymon,https://digimon.fandom.com/ru/wiki/Shine_Greymon
+89,char_SHINEGREYMON_BIG,ShineGreymon,ШайнГреймон,Shine Greymon,Шайн Греймон,punct_case_or_yo,candidate,ShineGreymon,https://digimon.fandom.com/ru/wiki/Shine_Greymon
+90,char_MIRAGEGAOGAMON,MirageGaogamon,МиражГаогамон,Mirage Gaogamon,Мираж Гаогамон,punct_case_or_yo,candidate,MirageGaogamon,https://digimon.fandom.com/ru/wiki/Mirage_Gaogamon
+91,char_PATAMON,Patamon,Патамон,Patamon,Патамон,ok,candidate,Patamon,https://digimon.fandom.com/ru/wiki/Patamon
+92,char_PICODEVIMON,DemiDevimon,ДемиДевимон,Pico Devimon,Пико Девимон,different,candidate,Pico Devimon,https://digimon.fandom.com/ru/wiki/Pico_Devimon
+93,char_JUMBOGAMEMON,JumboGamemon,ДжамбоГамемон,,,no_wiki_match,,,
+94,char_WENDIMON,Wendigomon,Вендигомон,Wendimon,Вендимон,different,candidate,Wendimon,https://digimon.fandom.com/ru/wiki/Wendimon
+95,char_HOLYANGEMON,MagnaAngemon,МагнаАнгемон,Holy Angemon,Холи Ангемон,different,candidate,Holy Angemon,https://digimon.fandom.com/ru/wiki/Holy_Angemon
+96,char_TURUIEMON,Turuiemon,Туруйемон,,,no_wiki_match,,,
+97,char_GANIMON,Crabmon,Крабмон,Ganimon,Ганимон,different,candidate,Ganimon,https://digimon.fandom.com/ru/wiki/Ganimon
+98,char_SUSANOOMON,Susanomon,Сусаномон,Susanoomon,Сусаноомон,different,candidate,Susanoomon,https://digimon.fandom.com/ru/wiki/Susanoomon
+99,char_DUKEMON_CM,Gallantmon CM,Галантмон СМ,,,no_wiki_match,,,
+100,char_ARMAGEMON,Armageddemon,Армагеддемон,Armagemon,Армагемон,different,candidate,Armagemon,https://digimon.fandom.com/ru/wiki/Armagemon
+101,char_LADYDEVIMON,LadyDevimon,ЛедиДэвимон,Lady Devimon,Леди Девимон,different,candidate,LadyDevimon,https://digimon.fandom.com/ru/wiki/Lady_Devimon
+102,char_GOBURIMON,Goblimon,Гоблимон,Goburimon,Гобуримон,different,candidate,Goburimon,https://digimon.fandom.com/ru/wiki/Goburimon
+103,char_DORUMON,Dorumon,Дорумон,DORUmon,Дорумон,ok,candidate,Dorumon,https://digimon.fandom.com/ru/wiki/DORUmon
+104,char_GOLDNUMEMON,GoldNumemon,ГолдНумемон,,,no_wiki_match,,,
+105,char_V-MON,Veemon,Веемон,V-mon,Ви-мон,different,candidate,V-mon,https://digimon.fandom.com/ru/wiki/V-mon
+106,char_BAOHUCKMON,BaoHuckmon,Баохакмон,Bao Huckmon,Бао Хакмон,punct_case_or_yo,candidate,BaoHuckmon,https://digimon.fandom.com/ru/wiki/Bao_Huckmon
+107,char_SAVIORHUCKMON,SaviorHuckmon,СэйворХакмон,Savior Huckmon,Сэйвиор Хакмон,different,candidate,SaviorHuckmon,https://digimon.fandom.com/ru/wiki/Savior_Huckmon
+108,char_VALDURMON,Varodurumon,Вародурумон,Valdurmon,Вальдурмон,different,candidate,Valdurmon,https://digimon.fandom.com/ru/wiki/Valdurmon
+109,char_CHAOSMONVALDURARM,Chaosmon: Valdur Arm,Хаосмон: Рука Валдура,,,no_wiki_match,,,
+110,char_DUKEMON,Gallantmon,Галантмон,Dukemon,Дюкмон,different,candidate,Dukemon,https://digimon.fandom.com/ru/wiki/Dukemon
+111,char_DUKEMON_BIG,Gallantmon,Галантмон,Dukemon,Дюкмон,different,candidate,Dukemon,https://digimon.fandom.com/ru/wiki/Dukemon
+112,char_KINGETEMON,KingEtemon,КингЕтемон,,,no_wiki_match,,,
+113,char_TYRANTKABUTERIMON,TyrantKabuterimon,ТирантКабутеримон,Tyrant Kabuterimon,Тиран Кабутеримон,different,candidate,TyrantKabuterimon,https://digimon.fandom.com/ru/wiki/Tyrant_Kabuterimon
+114,char_TYRANTKABUTERIMON_BIG,TyrantKabuterimon,ТирантКабутеримон,Tyrant Kabuterimon,Тиран Кабутеримон,different,candidate,TyrantKabuterimon,https://digimon.fandom.com/ru/wiki/Tyrant_Kabuterimon
+115,char_DAGOMON,Dragomon,Драгомон,Dagomon,Дагомон,different,candidate,Dagomon,https://digimon.fandom.com/ru/wiki/Dagomon
+116,char_COELAMON,Coelamon,Селамон,Coelamon,Целамон,different,candidate,Coelamon,https://digimon.fandom.com/ru/wiki/Coelamon
+117,char_MEGASEADRAMON,MegaSeadramon,МегаСидрамон,Mega Seadramon,Мега Сидрамон,punct_case_or_yo,candidate,MegaSeadramon,https://digimon.fandom.com/ru/wiki/Mega_Seadramon
+118,char_WARUSEADRAMON,WaruSeadramon,ВарСидрамон,,,no_wiki_match,,,
+119,char_MEGAGROWLMON,WarGrowlmon,ВарГроулмон,,,no_wiki_match,,,
+120,char_METALGARURUMON,MetalGarurumon,МеталлГарурумон,Metal Garurumon,Метал Гарурумон,different,candidate,MetalGarurumon,https://digimon.fandom.com/ru/wiki/Metal_Garurumon
+121,char_CORONAMON,Coronamon,Коронамон,Coronamon,Коронамон,ok,candidate,Coronamon,https://digimon.fandom.com/ru/wiki/Coronamon
+122,char_FIRAMON,Firamon,Фирамон,,,no_wiki_match,,,
+123,char_FLAREMON,Flaremon,Флэремон,,,no_wiki_match,,,
+124,char_LIGHDRAMON,Lighdramon,Лайдрамон,Lighdramon,Лайдрамон,ok,candidate,Lighdramon,https://digimon.fandom.com/ru/wiki/Lighdramon
+125,char_WEREGARURUMON,WereGarurumon,ВэрГарурумон,Were Garurumon,ВерГарурумон,different,candidate,WereGarurumon,https://digimon.fandom.com/ru/wiki/Were_Garurumon
+126,char_HOLSMON,Halsemon,Халсемон,Holsmon,Холсмон,different,candidate,Holsmon,https://digimon.fandom.com/ru/wiki/Holsmon
+127,char_SHURIMON,Shurimon,Шуримон,Shurimon,Сюримон,different,candidate,Shurimon,https://digimon.fandom.com/ru/wiki/Shurimon
+128,char_DIGMON,Digmon,Дигмон,,,no_wiki_match,,,
+129,char_SABMARIMON,Submarimon,Субмаримон,Submarimon,Субмаримон,ok,candidate,Submarimon,https://digimon.fandom.com/ru/wiki/Submarimon
+130,char_PEGASMON,Pegasusmon,Пегасмон,Pegasmon,Пегасмон,ok,candidate,Pegasmon,https://digimon.fandom.com/ru/wiki/Pegasmon
+131,char_NEFERTIMON,Nefertimon,Нефертимон,Nefertimon,Нефертимон,ok,candidate,Nefertimon,https://digimon.fandom.com/ru/wiki/Nefertimon
+132,char_ANGEWOMON,Angewomon,Ангевомон,Angewomon,Ангевумон,different,candidate,Angewomon,https://digimon.fandom.com/ru/wiki/Angewomon
+133,char_OROCHIMON,Orochimon,Орочимон,Orochimon,Оротимон,different,candidate,Orochimon,https://digimon.fandom.com/ru/wiki/Orochimon
+134,char_CHAOSDUKEMON,ChaosGallantmon,ХаосГаллантмон,,,no_wiki_match,,,
+135,char_GABUMON,Gabumon,Габумон,Gabumon,Габумон,ok,candidate,Gabumon,https://digimon.fandom.com/ru/wiki/Gabumon
+136,char_RANAMON,Lanamon,Ланамон,Ranamon,Ранамон,different,candidate,Ranamon,https://digimon.fandom.com/ru/wiki/Ranamon
+137,char_CALAMARAMON,Calmaramon,Кальмарамон,,,no_wiki_match,,,
+138,char_CALAMARAMON_ADD,Calmaramon (Mantle),Кальмарамон (Мантия),,,no_wiki_match,,,
+139,char_JUPITERMON,Jupitermon,Юпитермон,Jupitermon,Юпитермон,ok,candidate,Jupitermon,https://digimon.fandom.com/ru/wiki/Jupitermon
+140,char_JUPITERMON_WRATHMODE,Jupitermon WM,Юпитермон WM,Jupitermon: Wrath Mode,Юпитермон: Режим гнева,different,candidate,Jupitermon Wrath Mode,https://digimon.fandom.com/ru/wiki/Jupitermon%3A_Wrath_Mode
+141,char_JUPITERMON_WRATHMODE_SUB,Jupitermon: Wrath Mode,Юпитермон: Режим Гнева,Jupitermon: Wrath Mode,Юпитермон: Режим гнева,punct_case_or_yo,candidate,Jupitermon: Wrath Mode,https://digimon.fandom.com/ru/wiki/Jupitermon%3A_Wrath_Mode
+142,char_JUNOMON,Junomon,Юномон,,,no_wiki_match,,,
+143,char_JUNOMON_HYSTERICMODE,Junomon HM,"Юномон , ХМ",,,no_wiki_match,,,
+144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон ХМ (Копья),,,no_wiki_match,,,
+145,char_VENUSMON,Venusmon,Венусмон,Venusmon,Венусмон,ok,candidate,Venusmon,https://digimon.fandom.com/ru/wiki/Venusmon
+146,char_APOLLOMON,Apollomon,Аполломон,Apollomon,Аполломон,ok,candidate,Apollomon,https://digimon.fandom.com/ru/wiki/Apollomon
+147,char_APOLLOMON_ADD,Apollomon (Flame Sphere),Аполломон (Огненная Сфера),Apollomon,Аполломон,different,candidate,Apollomon,https://digimon.fandom.com/ru/wiki/Apollomon
+148,char_MARSMON,Marsmon,Марсмон,Marsmon,Марсмон,ok,candidate,Marsmon,https://digimon.fandom.com/ru/wiki/Marsmon
+149,char_CERESMON,Ceresmon,Церемон,,,no_wiki_match,,,
+150,char_BLUEMERAMON,BlueMeramon,Блюмерамон,Blue Meramon,Блю Мерамон,punct_case_or_yo,candidate,BlueMeramon,https://digimon.fandom.com/ru/wiki/Blue_Meramon
+151,char_VULCANUSMON,Vulcanusmon,Вулканусмон,,,no_wiki_match,,,
+152,char_VULCANUSMON_BIG,Vulcanusmon,Вулканусмон,,,no_wiki_match,,,
+153,char_VULCANUSMON_GUEST_BIG,Vulcanusmon,Вулканусмон,,,no_wiki_match,,,
+154,char_BACCHUSMON,Bacchusmon,Вакхусмон,Bacchusmon,Вакхмон,different,candidate,Bacchusmon,https://digimon.fandom.com/ru/wiki/Bacchusmon
+155,char_PLUTOMON,Plutomon,Плутомон,Plutomon,Плутомон,ok,candidate,Plutomon,https://digimon.fandom.com/ru/wiki/Plutomon
+156,char_MERVAMON,Mervamon,Мервамон,,,no_wiki_match,,,
+157,char_AEGIOMON,Aegiomon,Эгиомон,Aegiomon,Эгиомон,ok,candidate,Aegiomon,https://digimon.fandom.com/ru/wiki/Aegiomon
+158,char_AEGIOMON_PLAIN_CLOTHES,Aegiomon (Street Clothes),Эгиомон (Уличная Одежда),Aegiomon,Эгиомон,different,candidate,Aegiomon,https://digimon.fandom.com/ru/wiki/Aegiomon
+159,char_AEGIOMON_NO_CAP,Aegiomon (Hatless Street Clothes),Эгиомон (Уличная Одежда без головного убора),Aegiomon,Эгиомон,different,candidate,Aegiomon,https://digimon.fandom.com/ru/wiki/Aegiomon
+160,char_AEGIOCHUSMON,Aegiochusmon,Эгиохусмон,Aegiochusmon,Эгиохмон,different,candidate,Aegiochusmon,https://digimon.fandom.com/ru/wiki/Aegiochusmon
+161,char_AEGIOCHUSMON_DARK,Aegiochusmon: Dark,Эгиохусмон: Темный,Aegiochusmon: Dark,Эгиохмон: Тёмный,different,candidate,Aegiochusmon: Dark,https://digimon.fandom.com/ru/wiki/Aegiochusmon%3A_Dark
+162,char_AEGIOCHUSMON_HOLLY,Aegiochusmon: Holy,Эгиохусмон: Святой,Aegiochusmon: Holy,Эгиохмон: Святой,different,candidate,Aegiochusmon: Holy,https://digimon.fandom.com/ru/wiki/Aegiochusmon%3A_Holy
+163,char_AEGIOCHUSMON_BLUE,Aegiochusmon: Blue,Эгиохусмон: Синий,Aegiochusmon: Blue,Эгиохмон: Синий,different,candidate,Aegiochusmon: Blue,https://digimon.fandom.com/ru/wiki/Aegiochusmon%3A_Blue
+164,char_AEGIOCHUSMON_GREEN,Aegiochusmon: Green,Эгиохусмон: Зеленый,Aegiochusmon: Green,Эгиохмон: Зелёный,different,candidate,Aegiochusmon: Green,https://digimon.fandom.com/ru/wiki/Aegiochusmon%3A_Green
+165,char_CERESMON_MEDIUM,Ceresmon Medium,Сересмон Медиум,,,no_wiki_match,,,
+166,char_RYUDAMON,Ryudamon,Рюдамон,Ryudamon,Рюдамон,ok,candidate,Ryudamon,https://digimon.fandom.com/ru/wiki/Ryudamon
+167,char_GINRYUMON,Ginryumon,Джинрюмон,,,no_wiki_match,,,
+168,char_HISYARYUMON,Hisyaryumon,Хисьярюмон,,,no_wiki_match,,,
+169,char_OURYUMON,Ouryumon,Оурюмон,,,no_wiki_match,,,
+170,char_GUNDRAMON,Gundramon,Гундрамон,Gundramon,Гандрамон,different,candidate,Gundramon,https://digimon.fandom.com/ru/wiki/Gundramon
+171,char_GUNDRAMON_BIG,Gundramon,Гундрамон,Gundramon,Гандрамон,different,candidate,Gundramon,https://digimon.fandom.com/ru/wiki/Gundramon
+172,char_BEELSTARMON,BeelStarmon,ВельСтармон,Beel Starmon,Вель Стармон,punct_case_or_yo,candidate,BeelStarmon,https://digimon.fandom.com/ru/wiki/Beel_Starmon
+173,char_PUKUMON,Pukumon,Пукумон,Pukumon,Пукумон,ok,candidate,Pukumon,https://digimon.fandom.com/ru/wiki/Pukumon
+174,char_CROSSMON,Eaglemon,Иглемон,Crossmon,Кроссмон,different,candidate,Crossmon,https://digimon.fandom.com/ru/wiki/Crossmon
+175,char_LOCOMON,Locomon,Локомон,Locomon,Локомон,ok,candidate,Locomon,https://digimon.fandom.com/ru/wiki/Locomon
+176,char_ARCHNEMON,Arukenimon,Арукенимон,,,no_wiki_match,,,
+177,char_DRACOMON,Dracomon,Дракомон,Dracomon,Дракомон,ok,candidate,Dracomon,https://digimon.fandom.com/ru/wiki/Dracomon
+178,char_COREDRAMON_GR,Coredramon (Green),Коредрамон (Зеленый),Coredramon (Green),Кордрамон (Зелёный),different,candidate,Coredramon (Green),https://digimon.fandom.com/ru/wiki/Coredramon_%28Green%29
+179,char_WINGDRAMON,Wingdramon,Вингдрамон,Wingdramon,Вингдрамон,ok,candidate,Wingdramon,https://digimon.fandom.com/ru/wiki/Wingdramon
+180,char_GROUNDRAMON,Groundramon,Граундрамон,Groundramon,Граундрамон,ok,candidate,Groundramon,https://digimon.fandom.com/ru/wiki/Groundramon
+181,char_SLAYERDRAMON,Slayerdramon,Убийца Драмон,Slayerdramon,Слейердрамон,different,candidate,Slayerdramon,https://digimon.fandom.com/ru/wiki/Slayerdramon
+182,char_BREAKDRAMON,Breakdramon,Брейкдрамон,Breakdramon,Брейкдрамон,ok,candidate,Breakdramon,https://digimon.fandom.com/ru/wiki/Breakdramon
+183,char_BREAKDRAMON_BIG,Breakdramon,Брейкдрамон,Breakdramon,Брейкдрамон,ok,candidate,Breakdramon,https://digimon.fandom.com/ru/wiki/Breakdramon
+184,char_EXAMON,Examon,Экзамон,Examon,Эксамон,different,candidate,Examon,https://digimon.fandom.com/ru/wiki/Examon
+185,char_EXAMON_SMALL,Examon,Экзамон,Examon,Эксамон,different,candidate,Examon,https://digimon.fandom.com/ru/wiki/Examon
+186,char_EXAMON_BIG,Examon,Экзамон,Examon,Эксамон,different,candidate,Examon,https://digimon.fandom.com/ru/wiki/Examon
+187,char_DARKSUPERSTARMON,DarkSuperStarmon,ДаркСуперСтармон,Dark Superstarmon,Дарк Суперстармон,punct_case_or_yo,candidate,DarkSuperStarmon,https://digimon.fandom.com/ru/wiki/Dark_Superstarmon
+188,char_COREDRAMON_BL,Coredramon (Blue),Коредрамон (Синий),Coredramon (Blue),Кордрамон (Синий),different,candidate,Coredramon (Blue),https://digimon.fandom.com/ru/wiki/Coredramon_%28Blue%29
+189,char_KOTEMON,Kotemon,Котемон,Kotemon,Котэмон,different,candidate,Kotemon,https://digimon.fandom.com/ru/wiki/Kotemon
+190,char_MUSYAMON,Musyamon,Мусьямон,Musyamon,Мусямон,different,candidate,Musyamon,https://digimon.fandom.com/ru/wiki/Musyamon
+191,char_DOBERMON,Dobermon,Добермон,Dobermon,Добермон,ok,candidate,Dobermon,https://digimon.fandom.com/ru/wiki/Dobermon
+192,char_CERBERUMON,Cerberusmon,Церберусмон,Cerberumon,Церберумон,different,candidate,Cerberumon,https://digimon.fandom.com/ru/wiki/Cerberumon
+193,char_CERBERUMON_WEREWOLFMODE,Cerberusmon WM,Церберусмон ВМ,Cerberumon: Werewolf Mode,Церберумон: режим оборотня,different,candidate,Cerberumon Werewolfmode,https://digimon.fandom.com/ru/wiki/Cerberumon%3A_Werewolf_Mode
+194,char_ZANBAMON,Zanbamon,Занбамон,Zanbamon,Дзанбамон,different,candidate,Zanbamon,https://digimon.fandom.com/ru/wiki/Zanbamon
+195,char_ZANBAMON_BIG,Zanbamon,Занбамон,Zanbamon,Дзанбамон,different,candidate,Zanbamon,https://digimon.fandom.com/ru/wiki/Zanbamon
+196,char_MUMMYMON,Mummymon,Мумимон,Mummymon,Мумимон,ok,candidate,Mummymon,https://digimon.fandom.com/ru/wiki/Mummymon
+197,char_PHARAOHMON,Pharaohmon,Фараомон,,,no_wiki_match,,,
+198,char_PHARAOHMON_BIG,Pharaohmon,Фараомон,,,no_wiki_match,,,
+199,char_DELTAMON,Deltamon,Дельтамон,Deltamon,Дельтамон,ok,candidate,Deltamon,https://digimon.fandom.com/ru/wiki/Deltamon
+200,char_CHIMAIRAMON,Kimeramon,Кимерамон,Chimairamon,Химерамон,different,candidate,Chimairamon,https://digimon.fandom.com/ru/wiki/Chimairamon
+201,char_MILLENNIUMON,Millenniummon,Милениуммон,Millenniumon,Милленниумон,different,candidate,Millenniumon,https://digimon.fandom.com/ru/wiki/Millenniumon
+202,char_MILLENNIUMON_BIG,Millenniummon,Милениуммон,Millenniumon,Милленниумон,different,candidate,Millenniumon,https://digimon.fandom.com/ru/wiki/Millenniumon
+203,char_BAKUMON,Tapirmon,Тапирмон,Bakumon,Бакумон,different,candidate,Bakumon,https://digimon.fandom.com/ru/wiki/Bakumon
+204,char_SIRENMON,Sirenmon,Сиренмон,,,no_wiki_match,,,
+205,char_BELIALVAMDEMON,MaloMyotismon,Маломиотизмон,,,no_wiki_match,,,
+206,char_BEARMON,Bearmon,Бирмон,Bearmon,Бермон,different,candidate,Bearmon,https://digimon.fandom.com/ru/wiki/Bearmon
+207,char_GRYZMON,Grizzlymon,Гризлимон,Gryzmon,Гризмон,different,candidate,Gryzmon,https://digimon.fandom.com/ru/wiki/Gryzmon
+208,char_ASTAMON,Astamon,Астамон,Astamon,Астамон,ok,candidate,Astamon,https://digimon.fandom.com/ru/wiki/Astamon
+209,char_SKULLBALUCHIMON,SkullBaluchimon,СкаллБалучимон,Skull Baluchimon,Скалл Балухимон,different,candidate,SkullBaluchimon,https://digimon.fandom.com/ru/wiki/Skull_Baluchimon
+210,char_OCTMON,Octomon,Октомон,,,no_wiki_match,,,
+211,char_CHOROMON,Choromon,Хоромон,Choromon,Торомон,different,candidate,Choromon,https://digimon.fandom.com/ru/wiki/Choromon
+212,char_CAPROMON,Kapurimon,Капуримон,,,no_wiki_match,,,
+213,char_MEGADRAMON,Megadramon,Мегадрамон,Megadramon,Мегадрамон,ok,candidate,Megadramon,https://digimon.fandom.com/ru/wiki/Megadramon
+214,char_METALGREYMON,MetalGreymon,МеталГреймон,Metal Greymon,Металл Греймон,different,candidate,MetalGreymon,https://digimon.fandom.com/ru/wiki/Metal_Greymon
+215,char_TENTOMON,Tentomon,Тентомон,Tentomon,Тентомон,ok,candidate,Tentomon,https://digimon.fandom.com/ru/wiki/Tentomon
+216,char_KABUTERIMON,Kabuterimon,Кабутеримон,Kabuterimon,Кабутеримон,ok,candidate,Kabuterimon,https://digimon.fandom.com/ru/wiki/Kabuterimon
+217,char_ATLURKABUTERIMON,MegaKabuterimon,МегаКабутеримон,,,no_wiki_match,,,
+218,char_HERCULESKABUTERIMON,HerculesKabuterimon,ГеркулесКабутеримон,,,no_wiki_match,,,
+219,char_HERCULESKABUTERIMON_BIG,HerculesKabuterimon,ГеркулесКабутеримон,,,no_wiki_match,,,
+220,char_PIYOMON,Biyomon,Бийомон,Piyomon,Пиёмон,different,candidate,Piyomon,https://digimon.fandom.com/ru/wiki/Piyomon
+221,char_BIRDRAMON,Birdramon,Бирдрамон,Birdramon,Бёрдрамон,different,candidate,Birdramon,https://digimon.fandom.com/ru/wiki/Birdramon
+222,char_GARUDAMON,Garudamon,Гарудамон,Garudamon,Гарудамон,ok,candidate,Garudamon,https://digimon.fandom.com/ru/wiki/Garudamon
+223,char_HOUOUMON,Phoenixmon,Фениксмон,,,no_wiki_match,,,
+224,char_ETEMON,Etemon,Этемон,Etemon,Этемон,ok,candidate,Etemon,https://digimon.fandom.com/ru/wiki/Etemon
+225,char_METALETEMON,MetalEtemon,МеталлЭтемон,Metal Etemon,Металл Этемон,punct_case_or_yo,candidate,MetalEtemon,https://digimon.fandom.com/ru/wiki/Metal_Etemon
+226,char_SUKAMON,Sukamon,Сукамон,,,no_wiki_match,,,
+227,char_VEGIMON,Vegiemon,Вегиемон,Vegimon,Вегимон,different,candidate,Vegimon,https://digimon.fandom.com/ru/wiki/Vegimon
+228,char_SERAPHIMON,Seraphimon,Серафимон,Seraphimon,Серафимон,ok,candidate,Seraphimon,https://digimon.fandom.com/ru/wiki/Seraphimon
+229,char_DODOMON,Dodomon,Додомон,Dodomon,Додомон,ok,candidate,Dodomon,https://digimon.fandom.com/ru/wiki/Dodomon
+230,char_BOTAMON,Botamon,Ботамон,Botamon,Ботамон,ok,candidate,Botamon,https://digimon.fandom.com/ru/wiki/Botamon
+231,char_POYOMON,Poyomon,Поймон,Poyomon,Поёмон,different,candidate,Poyomon,https://digimon.fandom.com/ru/wiki/Poyomon
+232,char_WANYAMON,Wanyamon,Ваньямон,Wanyamon,Ванямон,different,candidate,Wanyamon,https://digimon.fandom.com/ru/wiki/Wanyamon
+233,char_KOROMON,Koromon,Коромон,Koromon,Коромон,ok,candidate,Koromon,https://digimon.fandom.com/ru/wiki/Koromon
+234,char_TOKOMON,Tokomon,Токомон,Tokomon,Токомон,ok,candidate,Tokomon,https://digimon.fandom.com/ru/wiki/Tokomon
+235,char_GREYMON,Greymon,Греймон,Greymon,Греймон,ok,candidate,Greymon,https://digimon.fandom.com/ru/wiki/Greymon
+236,char_APOCLYMON,Apocalymon,Апокалимон,Apocalymon,Апокалимон,ok,candidate,Apocalymon,https://digimon.fandom.com/ru/wiki/Apocalymon
+237,char_ANCIENTWISETMON,AncientWisemon,ЭншиентВайсмон,Ancient Wisemon,Древний Вайзмон,different,candidate,AncientWisemon,https://digimon.fandom.com/ru/wiki/Ancient_Wisemon
+238,char_GUARDROMON,Guardromon,Гвардромон,Guardromon,Гардромон,different,candidate,Guardromon,https://digimon.fandom.com/ru/wiki/Guardromon
+239,char_ANDROMON,Andromon,Андромон,Andromon,Андромон,ok,candidate,Andromon,https://digimon.fandom.com/ru/wiki/Andromon
+240,char_GOMAMON,Gomamon,Гомамон,Gomamon,Гомамон,ok,candidate,Gomamon,https://digimon.fandom.com/ru/wiki/Gomamon
+241,char_IKKAKUMON,Ikkakumon,Иккакумон,Ikkakumon,Иккакумон,ok,candidate,Ikkakumon,https://digimon.fandom.com/ru/wiki/Ikkakumon
+242,char_ZUDOMON,Zudomon,Зудомон,Zudomon,Зудомон,ok,candidate,Zudomon,https://digimon.fandom.com/ru/wiki/Zudomon
+243,char_VIKEMON,Vikemon,Викемон,,,no_wiki_match,,,
+244,char_SEADRAMON,Seadramon,Сидрамон,Seadramon,Сидрамон,ok,candidate,Seadramon,https://digimon.fandom.com/ru/wiki/Seadramon
+245,char_PALMON,Palmon,Пальмон,Palmon,Пальмон,ok,candidate,Palmon,https://digimon.fandom.com/ru/wiki/Palmon
+246,char_TOGEMON,Togemon,Тогемон,Togemon,Тогэмон,different,candidate,Togemon,https://digimon.fandom.com/ru/wiki/Togemon
+247,char_EXSAON_BOSS,Examon (Boss),Экзамон (Босс),Examon,Эксамон,different,candidate,Examon,https://digimon.fandom.com/ru/wiki/Examon
+248,char_LILLYMON,Lillymon,Лиллимон,,,no_wiki_match,,,
+249,char_PLOTMON,Salamon,Саламон,Plotmon,Плотмон,different,candidate,Plotmon,https://digimon.fandom.com/ru/wiki/Plotmon
+250,char_TYRANNOMON,Tyrannomon,Тиранномон,,,no_wiki_match,,,
+251,char_METALTYRANNOMON,MetalTyrannomon,МеталлТиранномон,,,no_wiki_match,,,
+252,char_XV-MON,ExVeemon,ЭксВиимон,XV-mon,ИксВи-мон,different,candidate,Xv-Mon,https://digimon.fandom.com/ru/wiki/XV-mon
+253,char_KUWAGAMON,Kuwagamon,Кувагамон,Kuwagamon,Кувагамон,ok,candidate,Kuwagamon,https://digimon.fandom.com/ru/wiki/Kuwagamon
+254,char_SHELLMON,Shellmon,Шелмон,Shellmon,Шеллмон,different,candidate,Shellmon,https://digimon.fandom.com/ru/wiki/Shellmon
+255,char_MONOCHROMON,Monochromon,Монохромон,Monochromon,Монохромон,ok,candidate,Monochromon,https://digimon.fandom.com/ru/wiki/Monochromon
+256,char_YUKIDARUMON,Frigimon,Фригимон,Yukidarumon,Юкидарумон,different,candidate,Yukidarumon,https://digimon.fandom.com/ru/wiki/Yukidarumon
+257,char_MOJYAMON,Mojyamon,Моджьямон,,,no_wiki_match,,,
+258,char_CENTALMON,Centarumon,Центарумон,Centalmon,Кенталмон,different,candidate,Centalmon,https://digimon.fandom.com/ru/wiki/Centalmon
+259,char_DRIMOGEMON,Drimogemon,Дримогемон,,,no_wiki_match,,,
+260,char_DIGITAMAMON,Digitamamon,Дигитамамон,Digitamamon,Дигитамамон,ok,candidate,Digitamamon,https://digimon.fandom.com/ru/wiki/Digitamamon
+261,char_NANIMON,Nanimon,Нанимон,Nanimon,Нанимон,ok,candidate,Nanimon,https://digimon.fandom.com/ru/wiki/Nanimon
+262,char_TONOSAMAGEKOMON,ShogunGekomon,СёгунГекомон,Tonosama Gekomon,Тоносама Гэкомон,different,candidate,Tonosamagekomon,https://digimon.fandom.com/ru/wiki/Tonosama_Gekomon
+263,char_WIZARDMON,Wizardmon,Визардмон,,,no_wiki_match,,,
+264,char_DELUMON,Deramon,Дерамон,Delumon,Делюмон,different,candidate,Delumon,https://digimon.fandom.com/ru/wiki/Delumon
+265,char_JYUREIMON,Cherrymon,Черимон,,,no_wiki_match,,,
+266,char_JYUREIMON_BIG,Cherrymon,Черимон,,,no_wiki_match,,,
+267,char_GERBEMON,Garbagemon,Гарбэджмон,Gerbemon,Гербемон,different,candidate,Gerbemon,https://digimon.fandom.com/ru/wiki/Gerbemon
+268,char_MAGNAMON,Magnamon,Магнамон,Magnamon,Магнамон,ok,candidate,Magnamon,https://digimon.fandom.com/ru/wiki/Magnamon
+269,char_MAGNAMON_BIG,Magnamon,Магнамон,Magnamon,Магнамон,ok,candidate,Magnamon,https://digimon.fandom.com/ru/wiki/Magnamon
+270,char_RUSTTYRANOMON,RustTyrannomon,РастТиранномон,,,no_wiki_match,,,
+271,char_MUGENDRAMON,Machinedramon,Машиндрамон,Mugendramon,Мугендрамон,different,candidate,Mugendramon,https://digimon.fandom.com/ru/wiki/Mugendramon
+272,char_MUGENDRAMON_BIG,Machinedramon,Машиндрамон,Mugendramon,Мугендрамон,different,candidate,Mugendramon,https://digimon.fandom.com/ru/wiki/Mugendramon
+273,char_BUBBMON,Pabumon,Пабумон,Bubbmon,Баббмон,different,candidate,Bubbmon,https://digimon.fandom.com/ru/wiki/Bubbmon
+274,char_MOCHIMON,Motimon,Мотимон,Mochimon,Мотимон,ok,candidate,Mochimon,https://digimon.fandom.com/ru/wiki/Mochimon
+275,char_BETAMON,Betamon,Бетамон,Betamon,Бэтамон,different,candidate,Betamon,https://digimon.fandom.com/ru/wiki/Betamon
+276,char_LUCEMON,Lucemon,Люцемон,Lucemon,Люцимон,different,candidate,Lucemon,https://digimon.fandom.com/ru/wiki/Lucemon
+277,char_RENAMON,Renamon,Ренамон,Renamon,Ренамон,ok,candidate,Renamon,https://digimon.fandom.com/ru/wiki/Renamon
+278,char_WORMMON,Wormmon,Ворммон,Wormmon,Ворммон,ok,candidate,Wormmon,https://digimon.fandom.com/ru/wiki/Wormmon
+279,char_WOODMON,Woodmon,Вудмон,Woodmon,Вудмон,ok,candidate,Woodmon,https://digimon.fandom.com/ru/wiki/Woodmon
+280,char_ORGEMON,Ogremon,Огремон,Orgemon,Оргмон,different,candidate,Orgemon,https://digimon.fandom.com/ru/wiki/Orgemon
+281,char_KYUBIMON,Kyubimon,Кюбимон,Kyubimon,Кьюбимон,different,candidate,Kyubimon,https://digimon.fandom.com/ru/wiki/Kyubimon
+282,char_DORUGAMON,Dorugamon,Доругамон,DORUgamon,ДОРУгамон,punct_case_or_yo,candidate,Dorugamon,https://digimon.fandom.com/ru/wiki/DORUgamon
+283,char_V-DRAMON,Veedramon,Ведрамон,V-dramon,Ви-драмон,different,candidate,V-Dramon,https://digimon.fandom.com/ru/wiki/V-dramon
+284,char_CLOCKMON,Clockmon,Клокмон,Clockmon,Клокмон,ok,candidate,Clockmon,https://digimon.fandom.com/ru/wiki/Clockmon
+285,char_GEKOMON,Gekomon,Гекомон,Gekomon,Гэкомон,different,candidate,Gekomon,https://digimon.fandom.com/ru/wiki/Gekomon
+286,char_AEROVEEDRAMON,AeroVeedramon,АэроВидрамон,,,no_wiki_match,,,
+287,char_OKUWAMON,Okuwamon,Окувамон,,,no_wiki_match,,,
+288,char_GIGADRAMON,Gigadramon,Гигадрамон,Gigadramon,Гигадрамон,ok,candidate,Gigadramon,https://digimon.fandom.com/ru/wiki/Gigadramon
+289,char_GRAPLEOMON,GrapLeomon,ГрапЛеомон,,,no_wiki_match,,,
+290,char_SKULLGREYMON,SkullGreymon,СкулГреймон,Skull Greymon,Скалл Греймон,different,candidate,SkullGreymon,https://digimon.fandom.com/ru/wiki/Skull_Greymon
+291,char_SKULLGREYMON_BIG,SkullGreymon,СкулГреймон,Skull Greymon,Скалл Греймон,different,candidate,SkullGreymon,https://digimon.fandom.com/ru/wiki/Skull_Greymon
+292,char_TAOMON,Taomon,Таомон,,,no_wiki_match,,,
+293,char_DEATHMERAMON,SkullMeramon,СкулМерамон,Death Meramon,Дес Мерамон,different,candidate,Deathmeramon,https://digimon.fandom.com/ru/wiki/Death_Meramon
+294,char_DORUGREYMON,DoruGreymon,ДоруГреймон,,,no_wiki_match,,,
+295,char_PAILDRAMON,Paildramon,Пайлдрамон,Paildramon,Пейлдрамон,different,candidate,Paildramon,https://digimon.fandom.com/ru/wiki/Paildramon
+296,char_PANJYAMON,IceLeomon,АйсЛеомон,,,no_wiki_match,,,
+297,char_PICKLEMON,Piximon,Пиксимон,,,no_wiki_match,,,
+298,char_VADEMON,Vademon,Вадемон,Vademon,Вейдмон,different,candidate,Vademon,https://digimon.fandom.com/ru/wiki/Vademon
+299,char_MAMEMON,Mamemon,Мамемон,Mamemon,Мамемон,ok,candidate,Mamemon,https://digimon.fandom.com/ru/wiki/Mamemon
+300,char_METALMAMEMON,MetalMamemon,МеталМамемон,Metal Mamemon,Металл Мамемон,different,candidate,MetalMamemon,https://digimon.fandom.com/ru/wiki/Metal_Mamemon
+301,char_PARROTMON,Parrotmon,Пэрэтмон,Parrotmon,Пэрротмон,different,candidate,Parrotmon,https://digimon.fandom.com/ru/wiki/Parrotmon
+302,char_ALPHAMON,Alphamon,Альфамон,Alphamon,Альфамон,ok,candidate,Alphamon,https://digimon.fandom.com/ru/wiki/Alphamon
+303,char_ALPHAMON_BIG,Alphamon,Альфамон,Alphamon,Альфамон,ok,candidate,Alphamon,https://digimon.fandom.com/ru/wiki/Alphamon
+304,char_ULFORCEVDRAMON,UlforceVeedramon,АльфорсВидрамон,Ulforce V-dramon,Алфорс Ви-драмон,different,candidate,Ulforcevdramon,https://digimon.fandom.com/ru/wiki/Ulforce_V-dramon
+305,char_ULFORCEVDRAMON_BIG,UlforceVeedramon,АльфорсВидрамон,Ulforce V-dramon,Алфорс Ви-драмон,different,candidate,Ulforcevdramon,https://digimon.fandom.com/ru/wiki/Ulforce_V-dramon
+306,char_IMPERIALDRAMON_FM,Imperialdramon FM,Империалдрамон FM,,,no_wiki_match,,,
+307,char_IMPERIALDRAMON_PM,Imperialdramon PM,Империалдрамон FM,,,no_wiki_match,,,
+308,char_OPHANIMON,Ophanimon,Офанимон,,,no_wiki_match,,,
+309,char_CHAOSDRAMON,Chaosdramon,Хаосдрамон,Chaosdramon,Хаосдрамон,ok,candidate,Chaosdramon,https://digimon.fandom.com/ru/wiki/Chaosdramon
+310,char_GRANKUWAGAMON,GranKuwagamon,ГранКувагамон,,,no_wiki_match,,,
+311,char_GRANKUWAGAMON_BIG,GranKuwagamon,ГранКувагамон,,,no_wiki_match,,,
+312,char_SABERLEOMON,SaberLeomon,СаберЛеомон,Saber Leomon,Сэйбер Леомон,different,candidate,SaberLeomon,https://digimon.fandom.com/ru/wiki/Saber_Leomon
+313,char_SAKUYAMON,Sakuyamon,Сакуямон,Sakuyamon,Сакуямон,ok,candidate,Sakuyamon,https://digimon.fandom.com/ru/wiki/Sakuyamon
+314,char_HIANDROMON,HiAndromon,ХиАндромон,,,no_wiki_match,,,
+315,char_PIEDMON,Piedmon,Пьемонт,,,no_wiki_match,,,
+316,char_PINOCHIMON,Puppetmon,Пуппетмон,Pinochimon,Пиноккимон,different,candidate,Pinochimon,https://digimon.fandom.com/ru/wiki/Pinochimon
+317,char_PRINCEMAMEMON,PrinceMamemon,ПринцМамемон,,,no_wiki_match,,,
+318,char_BOLTMON,Boltmon,Болтмон,Boltmon,Болтмон,ok,candidate,Boltmon,https://digimon.fandom.com/ru/wiki/Boltmon
+319,char_METALSEADRAMON,MetalSeadramon,МеталСидрамон,Metal Seadramon,Металл Сидрамон,different,candidate,MetalSeadramon,https://digimon.fandom.com/ru/wiki/Metal_Seadramon
+320,char_LUCEMON_SM,Lucemon SM,Люцемон СМ,,,no_wiki_match,,,
+321,char_LUCEMON_SM_BIG,Lucemon SM,Люцемон СМ,,,no_wiki_match,,,
+322,char_PUNIMON,Punimon,Пунимон,Punimon,Пунимон,ok,candidate,Punimon,https://digimon.fandom.com/ru/wiki/Punimon
+323,char_TUNOMON,Tsunomon,Цуномон,Tunomon,Цуномон,ok,candidate,Tunomon,https://digimon.fandom.com/ru/wiki/Tunomon
+324,char_BELPHEMON_SM,Belphemon SM,Бельфемон СМ,,,no_wiki_match,,,
+325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон СМ,,,no_wiki_match,,,
+326,char_TITAMON,Titamon,Титамон,Titamon,Титамон,ok,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
+327,char_TITAMON_BIG,Titamon,Титамон,Titamon,Титамон,ok,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
+328,char_TITAMON_2,Titamon (Berserk),Титамон (Берсерк),Titamon,Титамон,different,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
+329,char_TITAMON_ADD,Titamon (Berserk) (Twin Blades),Титамон (Берсерк) (Двойные Клинки),Titamon,Титамон,different,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
+330,char_TITAMON_TWIN BLADE,Titamon (Twin Blades),Титамон (Двойные лезвия),Titamon,Титамон,different,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
+331,char_PLESIOMON,Plesiomon,Плезиомон,Plesiomon,Плезиомон,ok,candidate,Plesiomon,https://digimon.fandom.com/ru/wiki/Plesiomon
+332,char_EBEMON,Ebemon,Эбемон,,,no_wiki_match,,,
+333,char_CYCLONEMON,Cyclonemon,Циклонемон,,,no_wiki_match,,,
+334,char_HOLYDRAMON,Magnadramon,Магнадрамон,Holydramon,Холидрамон,different,candidate,Holydramon,https://digimon.fandom.com/ru/wiki/Holydramon
+335,char_WASPMON,Waspmon,Осмон,Waspmon,Васпмон,different,candidate,Waspmon,https://digimon.fandom.com/ru/wiki/Waspmon
+336,char_KARATUKINUMEMON,ShellNumemon,ШеллНумемон,,,no_wiki_match,,,
+337,char_REVOLMON,Deputymon,Депутимон,Revolmon,Револьмон,different,candidate,Revolmon,https://digimon.fandom.com/ru/wiki/Revolmon
+338,char_DRACUMON,Dracmon,Дракомон,Dracumon,Дракумон,different,candidate,Dracumon,https://digimon.fandom.com/ru/wiki/Dracumon
+339,char_MONODRAMON,Monodramon,Монодрамон,Monodramon,Монодрамон,ok,candidate,Monodramon,https://digimon.fandom.com/ru/wiki/Monodramon
+340,char_SKULLMAMMON,SkullMammothmon,СкулМаммонмон,,,no_wiki_match,,,
+341,char_BLIMPMON,Blimpmon,Блимпмон,,,no_wiki_match,,,
+342,char_MASTERBLIMPMON,MasterBlimpmon,МастерБлимпмон,,,no_wiki_match,,,
+343,char_DORIMON,Dorimon,Доримон,Dorimon,Доримон,ok,candidate,Dorimon,https://digimon.fandom.com/ru/wiki/Dorimon
+344,char_DINOHUMON,Dinohyumon,Диногьюмон,Dinohumon,Динохьюмон,different,candidate,Dinohumon,https://digimon.fandom.com/ru/wiki/Dinohumon
+345,char_LOADERLIOMON,LoaderLeomon,ЛоудерЛеомон,Loader Liomon,Лоадер Лиомон,different,candidate,Loaderliomon,https://digimon.fandom.com/ru/wiki/Loader_Liomon
+346,char_JEWELBEEMON,JewelBeemon,Джуэлбимон,Jewelbeemon,Джуэлбимон,ok,candidate,JewelBeemon,https://digimon.fandom.com/ru/wiki/Jewelbeemon
+347,char_AGUMON_KIZUNA,Agumon (Bond of Bravery),Агумон (Узы Храбрости),Agumon,Агумон,different,candidate,Agumon,https://digimon.fandom.com/ru/wiki/Agumon
+348,char_GABUMON_KIZUNA,Gabumon (Bond of Friendship),Габумон (Узы дружбы),Gabumon,Габумон,different,candidate,Gabumon,https://digimon.fandom.com/ru/wiki/Gabumon
+349,char_GREATGRYZMON,GreatGrizzlymon,ГрейтГриззлимон,,,no_wiki_match,,,
+350,char_CHARISMON,Callismon,Каллисон,Callismon,Каллисмон,different,candidate,Callismon,https://digimon.fandom.com/ru/wiki/Callismon
+351,char_CHARISMON_LAST,Callismon,Каллисон,Callismon,Каллисмон,different,candidate,Callismon,https://digimon.fandom.com/ru/wiki/Callismon
+352,char_UNDEADPLUTOMON,ZombiePlutomon,ЗомбиПлутомон,,,no_wiki_match,,,
+353,char_PYOCOMON,Yokomon,Йокомон,Pyocomon,Пьёкомон,different,candidate,Pyocomon,https://digimon.fandom.com/ru/wiki/Pyocomon
+354,char_TANEMON,Tanemon,Танемон,Tanemon,Танэмон,different,candidate,Tanemon,https://digimon.fandom.com/ru/wiki/Tanemon
+355,char_PUKAMON,Bukamon,Букамон,Pukamon,Пукамон,different,candidate,Pukamon,https://digimon.fandom.com/ru/wiki/Pukamon
+356,char_NYAROMON,Nyaromon,Няромон,Nyaromon,Няромон,ok,candidate,Nyaromon,https://digimon.fandom.com/ru/wiki/Nyaromon
+357,char_YUNIMON,Unimon,Унимон,Unimon,Юнимон,different,candidate,Unimon,https://digimon.fandom.com/ru/wiki/Unimon
+358,char_ELECMON,Elecmon,Элекмон,Elecmon,Элекмон,ok,candidate,Elecmon,https://digimon.fandom.com/ru/wiki/Elecmon
+359,char_PAGUMON,Pagumon,Пагумон,Pagumon,Пагумон,ok,candidate,Pagumon,https://digimon.fandom.com/ru/wiki/Pagumon
+360,char_GAZIMON,Gazimon,Газимон,Gazimon,Газимон,ok,candidate,Gazimon,https://digimon.fandom.com/ru/wiki/Gazimon
+361,char_HYOKOMON,Hyokomon,Хекомон,Hyokomon,Хёкомон,punct_case_or_yo,candidate,Hyokomon,https://digimon.fandom.com/ru/wiki/Hyokomon
+362,char_BURAIMON,Buraimon,Бураймон,Buraimon,Бураимон,different,candidate,Buraimon,https://digimon.fandom.com/ru/wiki/Buraimon
+363,char_BUTEN,Butenmon,Бутенмон,Butenmon,Бутенмон,ok,candidate,Butenmon,https://digimon.fandom.com/ru/wiki/Butenmon
+364,char_NANOMON,Datamon,Датамон,,,no_wiki_match,,,
+365,char_SHAMAMON,Shamamon,Шамамон,Shamamon,Шамамон,ok,candidate,Shamamon,https://digimon.fandom.com/ru/wiki/Shamamon
+366,char_SNOWGOBURIMON,SnowGoblimon,СноуГоблимон,Snow Goburimon,Сноу Гобуримон,different,candidate,Snowgoburimon,https://digimon.fandom.com/ru/wiki/Snow_Goburimon
+367,char_FUGAMON,Fugamon,Фугамон,,,no_wiki_match,,,
+368,char_HYOUGAMON,Hyogamon,Хиогамон,,,no_wiki_match,,,
+369,char_OTAMAMON,Otamamon,Отамамон,Otamamon,Отамамон,ok,candidate,Otamamon,https://digimon.fandom.com/ru/wiki/Otamamon
+370,char_FANTOMON,Phantomon,Фантомон,Fantomon,Фантомон,ok,candidate,Fantomon,https://digimon.fandom.com/ru/wiki/Fantomon
+371,char_FLYMON,Flymon,Флимон,Flymon,Флаймон,different,candidate,Flymon,https://digimon.fandom.com/ru/wiki/Flymon
+372,char_MAMMON,Mammothmon,Мамонтомон,Mammon,Маммон,different,candidate,Mammon,https://digimon.fandom.com/ru/wiki/Mammon
+373,char_MAMMON_BIG,Mammothmon,Мамонтомон,Mammon,Маммон,different,candidate,Mammon,https://digimon.fandom.com/ru/wiki/Mammon
+374,char_RAREMON,Raremon,Редмон,Raremon,Рэйрмон,different,candidate,Raremon,https://digimon.fandom.com/ru/wiki/Raremon
+375,char_DOKUGUMON,Dokugumon,Докугумон,Dokugumon,Докугумон,ok,candidate,Dokugumon,https://digimon.fandom.com/ru/wiki/Dokugumon
+376,char_GIZAMON,Gizamon,Гизамон,Gizamon,Гизамон,ok,candidate,Gizamon,https://digimon.fandom.com/ru/wiki/Gizamon
+377,char_GOTTSUMON,Gotsumon,Готсумон,Gottsumon,Готцумон,different,candidate,Gottsumon,https://digimon.fandom.com/ru/wiki/Gottsumon
+378,char_PUMPMON,Pumpkinmon,Памкинмон,Pumpmon,Пампмон,different,candidate,Pumpmon,https://digimon.fandom.com/ru/wiki/Pumpmon
+379,char_SNIMON,Snimon,Снимон,Snimon,Снаймон,different,candidate,Snimon,https://digimon.fandom.com/ru/wiki/Snimon
+380,char_TUSKMON,Tuskmon,Таскмон,Tuskmon,Таскмон,ok,candidate,Tuskmon,https://digimon.fandom.com/ru/wiki/Tuskmon
+381,char_VENOMMYOTISMON,VenomMyotismon,ВеномМиотисмон,,,no_wiki_match,,,
+382,char_VENOMMYOTISMON_BIG,VenomMyotismon,ВеномМиотисмон,,,no_wiki_match,,,
+383,char_WITCHMON,Witchmon,Витчмон,,,no_wiki_match,,,
+384,char_WITCHMON_ADD,Witchmon (Left Arm),Витчмон (Левая Рука),,,no_wiki_match,,,
+385,char_MISTYMON,Mistymon,Мистимон,,,no_wiki_match,,,
+386,char_MEDIEVALDUKEMON,MedievalGallantmon,МедивалГаллантмон,Medieval Dukemon,Средневековый Дюкмон,different,candidate,Medievaldukemon,https://digimon.fandom.com/ru/wiki/Medieval_Dukemon
+387,char_GRACENOVAMON,GraceNovamon,Грейсеновамон,Grace Novamon,Грейс Новамон,different,candidate,GraceNovamon,https://digimon.fandom.com/ru/wiki/Grace_Novamon
+388,char_GRACENOVAMON_SUB,GraceNovamon,Грейсеновамон,Grace Novamon,Грейс Новамон,different,candidate,GraceNovamon,https://digimon.fandom.com/ru/wiki/Grace_Novamon
+389,char_GRACENOVAMON_BIG,GraceNovamon,Грейсеновамон,Grace Novamon,Грейс Новамон,different,candidate,GraceNovamon,https://digimon.fandom.com/ru/wiki/Grace_Novamon
+390,char_ANOMALOCARIMON,Scorpiomon,Скорпиомон,Anomalocarimon,Аномалокаримон,different,candidate,Anomalocarimon,https://digimon.fandom.com/ru/wiki/Anomalocarimon
+391,char_ANOMALOCARIMON_BIG,Scorpiomon,Скорпиомон,Anomalocarimon,Аномалокаримон,different,candidate,Anomalocarimon,https://digimon.fandom.com/ru/wiki/Anomalocarimon
+392,char_HANGYOMON,Divermon,Дивермон,Hangyomon,Хангёмон,different,candidate,Hangyomon,https://digimon.fandom.com/ru/wiki/Hangyomon
+393,char_HANGYOMON_SCAR,Divermon,Дивермон,,,no_wiki_match,,,
+394,char_HANGYOMON_SCARF,Divermon,Дивермон,,,no_wiki_match,,,
+395,char_MUSHMON,Mushroomon,Машрумон,Mushmon,Машмон,different,candidate,Mushmon,https://digimon.fandom.com/ru/wiki/Mushmon
+396,char_KOKUWAMON,Kokuwamon,Кокувамон,Kokuwamon,Кокувамон,ok,candidate,Kokuwamon,https://digimon.fandom.com/ru/wiki/Kokuwamon
+397,char_KIWIMON,Kiwimon,Кивимон,Kiwimon,Кивимон,ok,candidate,Kiwimon,https://digimon.fandom.com/ru/wiki/Kiwimon
+398,char_FLORAMON,Floramon,Флорамон,Floramon,Флорамон,ok,candidate,Floramon,https://digimon.fandom.com/ru/wiki/Floramon
+399,char_CLAVISANGEMON,ClavisAngemon,КлависАнгемон,Clavis Angemon,Клавис Ангемон,punct_case_or_yo,candidate,ClavisAngemon,https://digimon.fandom.com/ru/wiki/Clavis_Angemon
+400,char_CLAVISANGEMON_BIG,ClavisAngemon,КлависАнгемон,Clavis Angemon,Клавис Ангемон,punct_case_or_yo,candidate,ClavisAngemon,https://digimon.fandom.com/ru/wiki/Clavis_Angemon
+401,char_SLASHANGEMON,SlashAngemon,СлэшАнгемон,,,no_wiki_match,,,
+402,char_MECHANORIMON,Mekanorimon,Меканоримон,Mechanorimon,Механоримон,different,candidate,Mechanorimon,https://digimon.fandom.com/ru/wiki/Mechanorimon
+403,char_MAGNAKIDMON,MagnaKidmon,МагнаКидмон,,,no_wiki_match,,,
+404,char_AVENGEKIDMON,AvengeKidmon,АвенжКидмон,,,no_wiki_match,,,
+405,char_TANKMON,Tankmon,Танкмон,Tankmon,Танкмон,ok,candidate,Tankmon,https://digimon.fandom.com/ru/wiki/Tankmon
+406,char_PENMON,Penmon,Пенмон,Penmon,Пинмон,different,candidate,Penmon,https://digimon.fandom.com/ru/wiki/Penmon
+407,char_MUCHOMON,Muchomon,Мучомон,Muchomon,Мучомон,ok,candidate,Muchomon,https://digimon.fandom.com/ru/wiki/Muchomon
+408,char_KERAMON,Keramon,Керамон,Keramon,Керамон,ok,candidate,Keramon,https://digimon.fandom.com/ru/wiki/Keramon
+409,char_INFERMON,Infermon,Инфермон,Infermon,Инфермон,ok,candidate,Infermon,https://digimon.fandom.com/ru/wiki/Infermon
+410,char_INFERMON_BIG,Infermon,Инфермон,Infermon,Инфермон,ok,candidate,Infermon,https://digimon.fandom.com/ru/wiki/Infermon
+411,char_KURAMON,Kuramon,Курамон,Kuramon,Курамон,ok,candidate,Kuramon,https://digimon.fandom.com/ru/wiki/Kuramon
+412,char_KURISARIMON,Kurisarimon,Курисаримон,,,no_wiki_match,,,
+413,char_TSUMEMON,Tsumemon,Цумемон,Tsumemon,Цумэмон,different,candidate,Tsumemon,https://digimon.fandom.com/ru/wiki/Tsumemon
+414,char_DIABOROMON,Diaboromon,Диаборомон,,,no_wiki_match,,,
+415,char_ALDAMON,Aldamon,Алдамон,Aldamon,Алдамон,ok,candidate,Aldamon,https://digimon.fandom.com/ru/wiki/Aldamon
+416,char_BEOWOLFMON,Beowolfmon,Беовульфмон,Beowolfmon,Беовульфмон,ok,candidate,Beowolfmon,https://digimon.fandom.com/ru/wiki/Beowolfmon
+417,char_MAGNAGARURUMON_SEPARATION,MagnaGarurumon (Detached),МагнаГарурумон (Открепленный),Magna Garurumon,Магна Гарурумон,different,candidate,MagnaGarurumon,https://digimon.fandom.com/ru/wiki/Magna_Garurumon
+418,char_AGNIMON,Agunimon,Агунимон,Agnimon,Агнимон,different,candidate,Agnimon,https://digimon.fandom.com/ru/wiki/Agnimon
+419,char_KAISERGREYMON,EmperorGreymon,ИмпериорГреймон,Kaiser Greymon,Кайзер Греймон,different,candidate,Kaisergreymon,https://digimon.fandom.com/ru/wiki/Kaiser_Greymon
+420,char_MAGNAGARURUMON,MagnaGarurumon,МагнаГарурумон,Magna Garurumon,Магна Гарурумон,punct_case_or_yo,candidate,MagnaGarurumon,https://digimon.fandom.com/ru/wiki/Magna_Garurumon
+421,char_VRITRAMON,BurningGreymon,БёрнингГреймон,Vritramon,Вритрамон,different,candidate,Vritramon,https://digimon.fandom.com/ru/wiki/Vritramon
+422,char_WOLFMON,Lobomon,Лобомон,Wolfmon,Вольфмон,different,candidate,Wolfmon,https://digimon.fandom.com/ru/wiki/Wolfmon
+423,char_GARUMMON,KendoGarurumon,КендоГарурумон,Garummon,Гаруммон,different,candidate,Garummon,https://digimon.fandom.com/ru/wiki/Garummon
+424,char_SHOUTMON,Shoutmon,Шаутмон,Shoutmon,Шаутмон,ok,candidate,Shoutmon,https://digimon.fandom.com/ru/wiki/Shoutmon
+425,char_OMEGASHOUTMON,OmniShoutmon,ОмниШаутмон,Omega Shoutmon,Омега Шаутмон,different,candidate,Omegashoutmon,https://digimon.fandom.com/ru/wiki/Omega_Shoutmon
+426,char_HACKMON,Huckmon,Хакмон,Huckmon,Хакмон,ok,candidate,Huckmon,https://digimon.fandom.com/ru/wiki/Huckmon
+427,char_GANKOOMON,Gankoomon,Ганкумон,Gankoomon,Гэнкумон,different,candidate,Gankoomon,https://digimon.fandom.com/ru/wiki/Gankoomon
+428,char_ZUBAMON,Zubamon,Зубамон,Zubamon,Зубамон,ok,candidate,Zubamon,https://digimon.fandom.com/ru/wiki/Zubamon
+429,char_ZUBAEAGERMON,ZubaEagermon,Зубагермон,Zubaeagermon,Зубаигермон,different,candidate,ZubaEagermon,https://digimon.fandom.com/ru/wiki/Zubaeagermon
+430,char_DURAMON,Duramon,Дюрамон,Duramon,Дюрамон,ok,candidate,Duramon,https://digimon.fandom.com/ru/wiki/Duramon
+431,char_DURANDAMON,Durandamon,Дюрандамон,Durandamon,Дюрандамон,ok,candidate,Durandamon,https://digimon.fandom.com/ru/wiki/Durandamon
+432,char_TERRIERMON,Terriermon,Терьермон,Terriermon,Терьермон,ok,candidate,Terriermon,https://digimon.fandom.com/ru/wiki/Terriermon
+433,char_PECKMON,Peckmon,Пекмон,Peckmon,Пекмон,ok,candidate,Peckmon,https://digimon.fandom.com/ru/wiki/Peckmon
+434,char_LOADKNIGHTMON,LordKnightmon,ЛордНайтмон,Lord Knightmon,Лорд Найтмон,punct_case_or_yo,candidate,LordKnightmon,https://digimon.fandom.com/ru/wiki/Lord_Knightmon
+435,char_LOADKNIGHTMON_BIG,LordKnightmon,ЛордНайтмон,Lord Knightmon,Лорд Найтмон,punct_case_or_yo,candidate,LordKnightmon,https://digimon.fandom.com/ru/wiki/Lord_Knightmon
+436,char_GROUNDLOCOMON,GroundLocomon,ГраундЛокомон,,,no_wiki_match,,,
+437,char_FALCOMON,Falcomon,Фалькомон,Falcomon,Фалькомон,ok,candidate,Falcomon,https://digimon.fandom.com/ru/wiki/Falcomon
+438,char_HAWKMON,Hawkmon,Хокмон,Hawkmon,Хоукмон,different,candidate,Hawkmon,https://digimon.fandom.com/ru/wiki/Hawkmon
+439,char_ARMADILLOMON,Armadillomon,Армадилломон,,,no_wiki_match,,,
+440,char_TOYAGUMON,ToyAgumon,Тойагумон,Toy Agumon,Той Агумон,punct_case_or_yo,candidate,ToyAgumon,https://digimon.fandom.com/ru/wiki/Toy_Agumon
+441,char_TOYAGUMON_BIG,ToyAgumon,Тойагумон,Toy Agumon,Той Агумон,punct_case_or_yo,candidate,ToyAgumon,https://digimon.fandom.com/ru/wiki/Toy_Agumon
+442,char_SHAKOMON,Syakomon,Сякомон,Shakomon,Сякомон,ok,candidate,Shakomon,https://digimon.fandom.com/ru/wiki/Shakomon
+443,char_GARGOMON,Gargomon,Гаргомон,,,no_wiki_match,,,
+444,char_ANKYLOMON,Ankylomon,Анкиломон,Ankylomon,Анкиломон,ok,candidate,Ankylomon,https://digimon.fandom.com/ru/wiki/Ankylomon
+445,char_FLAMEDRAMON,Flamedramon,Флэймдрамон,,,no_wiki_match,,,
+446,char_KNIGHTMON,Knightmon,Найтмон,Knightmon,Найтмон,ok,candidate,Knightmon,https://digimon.fandom.com/ru/wiki/Knightmon
+447,char_CYBERDRAMON,Cyberdramon,Кибердрамон,Cyberdramon,Кибердрамон,ok,candidate,Cyberdramon,https://digimon.fandom.com/ru/wiki/Cyberdramon
+448,char_SILPHYMON,Silphymon,Сильфимон,Silphymon,Сильфимон,ok,candidate,Silphymon,https://digimon.fandom.com/ru/wiki/Silphymon
+449,char_YATAGARAMON,Crowmon,Кромон,Yatagaramon,Ятагарамон,different,candidate,Yatagaramon,https://digimon.fandom.com/ru/wiki/Yatagaramon
+450,char_RAPIDMON,Rapidmon,Рэпидмон,,,no_wiki_match,,,
+451,char_SHAKKOUMON,Shakkoumon,Шаккумон,,,no_wiki_match,,,
+452,char_BRAKIMON,Brachiomon,Брахиомон,,,no_wiki_match,,,
+453,char_ULTIMATEBRAKIMON,UltimateBrachiomon,УльтимаБрачиомон,,,no_wiki_match,,,
+454,char_WISEMON,Wisemon,Вайзмон,Wisemon,Вайзмон,ok,candidate,Wisemon,https://digimon.fandom.com/ru/wiki/Wisemon
+455,char_CANNONBEEMON,CannonBeemon,КэнонБиимон,,,no_wiki_match,,,
+456,char_SOLARMON,Solarmon,Солармон,Solarmon,Солармон,ok,candidate,Solarmon,https://digimon.fandom.com/ru/wiki/Solarmon
+457,char_GEREMON,Geremon,Геремон,Geremon,Геремон,ok,candidate,Geremon,https://digimon.fandom.com/ru/wiki/Geremon
+458,char_ICEDEVIMON,IceDevimon,АйсДевимон,,,no_wiki_match,,,
+459,char_ANTYLAMON,Antylamon,Антиламон,,,no_wiki_match,,,
+460,char_IMPERIALDRAMON_DM,Imperialdramon DM,Империалдрамон ДМ,,,no_wiki_match,,,
+461,char_DIANAMON,Dianamon,Дайанамон,Dianamon,Дианамон,different,candidate,Dianamon,https://digimon.fandom.com/ru/wiki/Dianamon
+462,char_DIANAMON_BIG,Dianamon,Дайанамон,Dianamon,Дианамон,different,candidate,Dianamon,https://digimon.fandom.com/ru/wiki/Dianamon
+463,char_CRANIAMON,Craniamon,Краниамон,,,no_wiki_match,,,
+464,char_CRANIAMON_BIG,Craniamon,Краниамон,,,no_wiki_match,,,
+465,char_KERPYMON_GOOD,Cherubimon (Good),Керубимон (Добрый),,,no_wiki_match,,,
+466,char_JUSTIMON,Justimon,Джастимон,,,no_wiki_match,,,
+467,char_DYNASMON,Dynasmon,Династмон,Dynasmon,Динасмон,different,candidate,Dynasmon,https://digimon.fandom.com/ru/wiki/Dynasmon
+468,char_DYNASMON_BIG,Dynasmon,Династмон,Dynasmon,Динасмон,different,candidate,Dynasmon,https://digimon.fandom.com/ru/wiki/Dynasmon
+469,char_DUFTMON,Leopardmon,Леопардмон,Duftmon,Дуфтмон,different,candidate,Duftmon,https://digimon.fandom.com/ru/wiki/Duftmon
+470,char_DUFTMON_BIG,Leopardmon,Леопардмон,Duftmon,Дуфтмон,different,candidate,Duftmon,https://digimon.fandom.com/ru/wiki/Duftmon
+471,char_RAVEMON,Ravemon,Равемон,,,no_wiki_match,,,
+472,char_SAINTGALGOMON,MegaGargomon,МегаГаргомон,Saint Galgomon,Сен Гальгомон,different,candidate,Saintgalgomon,https://digimon.fandom.com/ru/wiki/Saint_Galgomon
+473,char_SAINTGALGOMON_BIG,MegaGargomon,МегаГаргомон,Saint Galgomon,Сен Гальгомон,different,candidate,Saintgalgomon,https://digimon.fandom.com/ru/wiki/Saint_Galgomon
+474,char_LOTOSMON,Lotosmon,Лотосмон,,,no_wiki_match,,,
+475,char_DUFTMON_LM,Leopardmon LM,Леопардмон ЛМ,,,no_wiki_match,,,
+476,char_GAIOMON,Gaiomon,Гайомон,,,no_wiki_match,,,
+477,char_TIGERVESPAMON,TigerVespamon,ТигерВеспамон,,,no_wiki_match,,,
+478,char_MINERVAMON,Minervamon,Минервамон,,,no_wiki_match,,,
+479,char_MASTEMON,Mastemon,Мастемон,Mastemon,Мастемон,ok,candidate,Mastemon,https://digimon.fandom.com/ru/wiki/Mastemon
+480,char_JESMON,Jesmon,Джесмон,,,no_wiki_match,,,
+481,char_JESMON_BIG,Jesmon,Джесмон,,,no_wiki_match,,,
+482,char_LOPMON,Lopmon,Лопмон,Lopmon,Лопмон,ok,candidate,Lopmon,https://digimon.fandom.com/ru/wiki/Lopmon
+483,char_RAPIDMON_ARMOR,Rapidmon (Armor),Рапидмон (Броня),,,no_wiki_match,,,
+484,char_RAPIDMON_ARMOR_BIG,Rapidmon (Armor),Рапидмон (Броня),,,no_wiki_match,,,
+485,char_PLATINUM_SCUMON,PlatinumSukamon,ПлатинаСукамон,,,no_wiki_match,,,
+486,char_BLACKKINGNUMEMON,BlackKingNumemon,БлэкКингНумемон,,,no_wiki_match,,,
+487,char_KUZUHAMON,Kuzuhamon,Кузухамон,Kuzuhamon,Кудзухамон,different,candidate,Kuzuhamon,https://digimon.fandom.com/ru/wiki/Kuzuhamon
+488,char_SOCERIMON,Sorcermon,Сорсеримон,,,no_wiki_match,,,
+489,char_INSEKIMON,Meteormon,Метеормон,Insekimon,Инсэкимон,different,candidate,Insekimon,https://digimon.fandom.com/ru/wiki/Insekimon
+490,char_OMEGAMON_ZWART,Omnimon Zwart,Омнимон Цварт,Omegamon Zwart,Омегамон Цварт,different,candidate,Omegamon Zwart,https://digimon.fandom.com/ru/wiki/Omegamon_Zwart
+491,char_ICEMON,Icemon,Айсмон,,,no_wiki_match,,,
+492,char_TUCHIDARUMON,MudFrigimon,МудФригимон,,,no_wiki_match,,,
+493,char_GUARDROMON_GL,Guardromon (Gold),Гардромон (Золотой),Guardromon,Гардромон,different,candidate,Guardromon,https://digimon.fandom.com/ru/wiki/Guardromon
+494,char_ALPHAMON_OURYUKEN,Alphamon: Ouryuken,Альфамон: Оурюкен,Alphamon: Ouryuken,Альфамон: Орюкен,different,candidate,Alphamon: Ouryuken,https://digimon.fandom.com/ru/wiki/Alphamon%3A_Ouryuken
+495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Бахусмон ДМ,,,no_wiki_match,,,
+496,char_TANKDRAMON,Tankdramon,Танкдрамон,Tankdramon,Танкдрамон,ok,candidate,Tankdramon,https://digimon.fandom.com/ru/wiki/Tankdramon
+497,char_DARKDRAMON,Darkdramon,Даркдрамон,Darkdramon,Даркдрамон,ok,candidate,Darkdramon,https://digimon.fandom.com/ru/wiki/Darkdramon
+498,char_CHAOSMON,Chaosmon,Хаосмон,,,no_wiki_match,,,
+499,char_VALKYRIMON,Valkyrimon,Валькиримон,Valkyrimon,Валькиримон,ok,candidate,Valkyrimon,https://digimon.fandom.com/ru/wiki/Valkyrimon
+500,char_KERPYMON_BAD,Cherubimon (Black),Керубимон (Чёрный),,,no_wiki_match,,,
+501,char_BEELZEMON_BM,Beelzemon BM,Вельземон БМ,,,no_wiki_match,,,
+502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельземон БМ,,,no_wiki_match,,,
+503,char_SHINEGREYMON_BM,ShineGreymon BM,ШайнГреймон БМ,,,no_wiki_match,,,
+504,char_MIRAGEGAOGAMON_BM,MirageGaogamon BM,МиражГаогамон БМ,,,no_wiki_match,,,
+505,char_RAVEMON_BM,Ravemon BM,Равемон БМ,,,no_wiki_match,,,
+506,char_ROSEMON_BM,Rosemon BM,Роузмон БМ,,,no_wiki_match,,,
+507,char_VULCANUS_LIGHTARM,Right Arm,Правая Рука,,,no_wiki_match,,,
+508,char_VULCANUS_LEFTARM,Left Arm,Левая Рука,,,no_wiki_match,,,
+509,char_CHRONOMONROBO_COMPLETE,Giant Slayer,Гигант Слейер,,,no_wiki_match,,,
+510,char_CHRONOMON_BOSS_EVENT,Chronomon,Хрономон,,,no_wiki_match,,,
+511,char_CHRONOMON_BOSS,Chronomon,Хрономон,,,no_wiki_match,,,
+512,char_CHRONOMON_BOSS_WING,Chronomon (Wings),Хрономон (Крылья),,,no_wiki_match,,,
+513,char_CHRONOMON_BOSS_ADD_RIGHTWING,Chronomon (R. Muzzle),Хрономон (П. Морда),,,no_wiki_match,,,
+514,char_CHRONOMON_BOSS_ADD_LEFTWING,Chronomon (L. Muzzle),Хрономон (Л. Морда),,,no_wiki_match,,,
+515,char_CHRONOMON_BOSS_LEFTARM,Chronomon (Left Arm),Хрономон (Левая рука),,,no_wiki_match,,,
+516,char_CHRONOMON_BOSS_CORE,Chronomon (Core),Хрономон (Ядро),,,no_wiki_match,,,
+517,char_CHRONOMON_BOSS_RIGHTWING,Chronomon (Right Wing),Хрономон (Правое крыло),,,no_wiki_match,,,
+518,char_CHRONOMON_BOSS_LEFTWING,Chronomon (Left Wing),Хрономон (Левое крыло),,,no_wiki_match,,,
+519,char_CHRONOMON_BOSS_LEFTARM1,Chronomon (Error A),Хрономон (Ошибка A),,,no_wiki_match,,,
+520,char_CHRONOMON_BOSS_LEFTARM2,Chronomon (Error B),Хрономон (Ошибка B),,,no_wiki_match,,,
+521,char_CHRONOMON_BOSS_LEFTARM3,Chronomon (Error C),Хрономон (Ошибка C),,,no_wiki_match,,,
+522,char_CHRONOMON_BOSS_LEFTARM4,Chronomon (Error D),Хрономон (Ошибка D),,,no_wiki_match,,,
+523,char_CHRONOMON_BOSS_LEFTARM5,Chronomon (Error E),Хрономон (Ошибка E),,,no_wiki_match,,,
+524,char_CHRONOMON_BOSS_LEFTARM6,Chronomon (Error F),Хрономон (Ошибка F),,,no_wiki_match,,,
+525,char_BLACKSHADOW,Dark Shadow,Темная Тень,,,no_wiki_match,,,
+526,char_SHARKMON_BOSS,Sharkmon,Шаркмон,,,no_wiki_match,,,
+527,char_SHARKMON_BOSS_ADD,Sharkmon (Jasper),Шаркмон (Джаспер),,,no_wiki_match,,,
+528,char_SHARKMON,Sharkmon,Шаркмон,,,no_wiki_match,,,
+529,char_SKULLSEADRAMON,SkullSeadramon,СкулСидрамон,,,no_wiki_match,,,
+530,char_SKULLSEADRAMON_BOSS,SkullSeadramon,СкулСидрамон,,,no_wiki_match,,,
+531,char_SKULLSEADRAMON_ADD,SkullSeadramon (Core),СкулСидрамон (Ядро),,,no_wiki_match,,,
+532,char_RAREMON_BIG,Raremon,Рэармон,Raremon,Рэйрмон,different,candidate,Raremon,https://digimon.fandom.com/ru/wiki/Raremon
+533,char_CYCLONEMON_BIG,Cyclonemon,Циклонемон,,,no_wiki_match,,,
+534,char_GREYMON_BIG_BL,Greymon (Blue),Греймон (Синий),Greymon (Blue),Греймон (Синий),ok,candidate,Greymon (Blue),https://digimon.fandom.com/ru/wiki/Greymon_%28Blue%29
+535,char_GREYMON_BIG_BL_ADD,Greymon (Blue) (Head Shell),Греймон (Синий) (Головной убор),Greymon,Греймон,different,candidate,Greymon,https://digimon.fandom.com/ru/wiki/Greymon
+536,char_SKULLBALUCHIMON_TITAMON,Titamon + SkullBaluchimon,Титамон + СкаллБалучимон,,,no_wiki_match,,,
+537,char_SKULLBALUCHIMON_TITAMON_BIG,Titamon + SkullBaluchimon,Титамон + СкаллБалучимон,,,no_wiki_match,,,
+538,char_UNDEADPLUTOMON_BOSS,ZombiePlutomon,ЗомбиПлутомон,,,no_wiki_match,,,
+539,char_UNDEADPLUTOMON_BOSS_ADD1,ZombiePlutomon (Right Shoulder),ЗомбиПлутомон (Правое плечо),,,no_wiki_match,,,
+540,char_UNDEADPLUTOMON_BOSS_ADD2,ZombiePlutomon (Left Shoulder),ЗомбиПлутомон (Левое плечо),,,no_wiki_match,,,
+541,char_UNDEADPLUTOMON_BOSS_ADD3,ZombiePlutomon (Right Hip),ЗомбиПлутомон (Правое бедро),,,no_wiki_match,,,
+542,char_UNDEADPLUTOMON_BOSS_ADD4,ZombiePlutomon (Left Hip),ЗомбиПлутомон (Левое бедро),,,no_wiki_match,,,
+543,char_CHARISMON_ADD,Callismon (Gun),Каллисмон (Пистолет),Callismon,Каллисмон,different,candidate,Callismon,https://digimon.fandom.com/ru/wiki/Callismon
+544,char_DIANAMON_ADD,Dianamon & the Goodnight Sisters,Дайанамон и сестры Гуднайт,Dianamon,Дианамон,different,candidate,Dianamon,https://digimon.fandom.com/ru/wiki/Dianamon
+545,char_LOCOMON_EVENT,Locomon (Event),Локомон (Событие),Locomon,Локомон,different,candidate,Locomon,https://digimon.fandom.com/ru/wiki/Locomon
+546,char_ULTIMATEBRAKIMON_BIG,UltimateBrachiomon,УльтимаБрачиомон,,,no_wiki_match,,,
+547,char_ENBARRMON,Enbarrmon,Энбаррмон,Enbarrmon,Энбаррмон,ok,candidate,Enbarrmon,https://digimon.fandom.com/ru/wiki/Enbarrmon
+548,char_ENBARRMON_BIG,Enbarrmon,Энбаррмон,Enbarrmon,Энбаррмон,ok,candidate,Enbarrmon,https://digimon.fandom.com/ru/wiki/Enbarrmon
+549,char_ENBARRMON_CRANIAMON,Craniamon + Enbarrmon,Краниамон + Энбаррмон,,,no_wiki_match,,,
+550,char_ENBARRMON_CRANIAMON_E,Craniamon + Enbarrmon,Краниамон + Энбаррмон,,,no_wiki_match,,,
+551,char_BLIMPMON_RAMP,Blimpmon (Trap),Блимпмон (Ловушка),,,no_wiki_match,,,
+552,char_MASTERBLIMPMON_RAMP,MasterBlimpmon (Trap),МастерБлимпмон (Ловушка),,,no_wiki_match,,,
+553,char_PARROTMON_BIG,Parrotmon,Пэрэтмон,Parrotmon,Пэрротмон,different,candidate,Parrotmon,https://digimon.fandom.com/ru/wiki/Parrotmon
+554,char_PARROTMON_BIG_ADD,Parrotmon (Crested),Пэрэтмон (Гребень),Parrotmon,Пэрротмон,different,candidate,Parrotmon,https://digimon.fandom.com/ru/wiki/Parrotmon
+555,char_VULCANUSMON_ADD,Vulcanusmon,Вулканусмон,,,no_wiki_match,,,
+556,char_METALGREYMON_BIG_BL,MetalGreymon (Blue),МеталлГреймон (Синий),Metal Greymon,Металл Греймон,different,candidate,Metalgreymon,https://digimon.fandom.com/ru/wiki/Metal_Greymon
+557,char_WHAMON_BIG,Whamon,Вамон,Whamon,Уэмон,different,candidate,Whamon,https://digimon.fandom.com/ru/wiki/Whamon
+558,char_NEPTUNEMON_BIG,Neptunemon,Нептунемон,Neptunemon,Нептунмон,different,candidate,Neptunemon,https://digimon.fandom.com/ru/wiki/Neptunemon
+559,char_MERCURYMON_BIG,Merukimon,Мерукимон,,,no_wiki_match,,,
+560,char_OMEGAMON_BIG,Omnimon,Омнимон,Omegamon,Омегамон,different,candidate,Omegamon,https://digimon.fandom.com/ru/wiki/Omegamon
+561,char_APOLLOMON_BIG,Apollomon,Аполломон,Apollomon,Аполломон,ok,candidate,Apollomon,https://digimon.fandom.com/ru/wiki/Apollomon
+562,char_CERESMON_BIG,Ceresmon,Церемон,,,no_wiki_match,,,
+563,char_PLUTOMON_BIG,Plutomon,Плутомон,Plutomon,Плутомон,ok,candidate,Plutomon,https://digimon.fandom.com/ru/wiki/Plutomon
+564,char_JUPITERMON_BIG,Jupitermon,Юпитермон,Jupitermon,Юпитермон,ok,candidate,Jupitermon,https://digimon.fandom.com/ru/wiki/Jupitermon
+565,char_JUPITERMON_WRATHMODE_BIG,Jupitermon WM,Юпитермон WM,Jupitermon: Wrath Mode,Юпитермон: Режим гнева,different,candidate,Jupitermon Wrath Mode,https://digimon.fandom.com/ru/wiki/Jupitermon%3A_Wrath_Mode
+566,char_KUWAGAMON_BIG,Kuwagamon,Кувагамон,Kuwagamon,Кувагамон,ok,candidate,Kuwagamon,https://digimon.fandom.com/ru/wiki/Kuwagamon
+567,char_UKKOMON,Ukkomon,Уккомон,,,no_wiki_match,,,
+568,char_ORGEMON_BOSS,Ogremon,Огремон,Orgemon,Оргмон,different,candidate,Orgemon,https://digimon.fandom.com/ru/wiki/Orgemon
+569,char_FUGAMON_BOSS,Fugamon,Фугамон,,,no_wiki_match,,,
+570,char_HYOUGAMON_BOSS,Hyogamon,Хиогамон,,,no_wiki_match,,,

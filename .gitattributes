@@ -1,0 +1,8 @@
+*.mvgl binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.bin binary
+*.csv text eol=lf
+*.ps1 text
+*.cmd text eol=crlf

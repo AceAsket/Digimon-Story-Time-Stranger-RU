@@ -1,0 +1,92 @@
+string2 0,string 1
+0,–
+1,Снижает стоимость SP для навыков физической атаки на 10%.
+2,Немного повышает полученный КП.
+3,
+4,
+5,"Восстанавливает HP, равный 10% от наносимого урона навыком физической атаки."
+6,"Выполняет дополнительную атаку, когда активированы Дополнительные удары."
+7,
+8,
+9,Всегда действует первым.
+10,"Boosts {is28}{image(ui_icon_btlStatus_016)} ATK for the first 3 rounds. (The earlier the round,
+the greater the boost to {is28}{image(ui_icon_btlStatus_016)} ATK.)"
+11,
+12,
+13,Boosts {is28}{image(ui_icon_btlStatus_030)} CRT Rate by 5%.
+14,Увеличивает ЗАЩИТУ в зависимости от HP пользователя.
+15,
+16,
+17,"Boosts {is28}{image(ui_icon_btlStatus_016)} ATK when HP is 90% or lower. (The lower the HP,
+the greater the boost to {is28}{image(ui_icon_btlStatus_016)} ATK.)"
+18,"Шанс отразить атаку при нападении. (Чем ниже HP, тем больше шанс отразить.)"
+19,
+20,
+21,Снижает стоимость SP для навыков восстановления на 10%.
+22,Также восстанавливает 10% от Максимального ОЗ цели при использовании умений для восстановления ОЗ союзника.
+23,
+24,
+25,Всегда действует в последнюю очередь.
+26,Немного восстанавливает HP всех союзников в начале каждого раунда.
+27,
+28,
+29,"Boosts {is28}{image(ui_icon_btlStatus_020)} INT from round 4 onward. (The more rounds pass,
+the greater the boost to {is28}{image(ui_icon_btlStatus_020)} INT.)"
+30,"Also removes target's {is28}{image(ui_icon_btlStatus_012)} Injury when using skills to recover
+an ally's HP."
+31,
+32,
+33,"Boosts {is28}{image(ui_icon_btlStatus_018)} DEF when HP is 90% or lower. (The lower the HP,
+the greater the boost to {is28}{image(ui_icon_btlStatus_018)} DEF.)"
+34,Восстанавливает 50% здоровья при нокауте (один раз за бой).
+35,
+36,
+37,Всегда действует первым.
+38,Увеличивает до 200% максимального запаса здоровья цели при использовании навыков восстановления.
+39,
+40,
+41,"At start of battle, boosts {is28}{image(ui_icon_btlStatus_016)} ATK and {is28}{image(ui_icon_btlStatus_020)} INT for all allies
+based on the total Bond of all battle members."
+42,Увеличивает вероятность получения эффектов дебаффа навыка.
+43,
+44,
+45,Boosts {is28}{image(ui_icon_btlStatus_016)} ATK based on user's HP.
+46,"Увеличивает продолжительность действия эффектов усиления, применяемых навыками пользователя, на 2 хода."
+47,
+48,
+49,"Увеличивает продолжительность действия эффектов дебаффа, применяемых навыками пользователя, на 2 хода."
+50,"Увеличивает урон, наносимый пользователем при попадании в слабое место противника после удара союзника."
+51,
+52,
+53,Boosts {is28}{image(ui_icon_btlStatus_030)} CRT Rate by 5%.
+54,Также повышает все характеристики цели при использовании умений для восстановления здоровья союзника.
+55,
+56,
+57,"Boosts {is28}{image(ui_icon_btlStatus_016)} ATK from round 4 onward. (The more rounds pass,
+the greater the boost to {is28}{image(ui_icon_btlStatus_016)} ATK.)"
+58,"At start of battle, reduces {is28}{image(ui_icon_btlStatus_019)} DEF and {is28}{image(ui_icon_btlStatus_023)} SPI for all enemies
+based on the total Bond of all battle members."
+59,
+60,
+61,Снижает стоимость SP для навыков магической атаки на 10%.
+62,Атака наносит магический урон.
+63,
+64,
+65,"Boosts {is28}{image(ui_icon_btlStatus_020)} INT when HP is 90% or lower. (The lower the HP,
+the greater the boost to {is28}{image(ui_icon_btlStatus_020)} INT.)"
+66,"Восстанавливает SP, равный 10% от нанесенного урона навыком магической атаки."
+67,
+68,
+69,Всегда действует в последнюю очередь.
+70,Немного восстанавливает SP всех союзников в начале каждого раунда.
+71,
+72,
+73,Увеличивает урон от ЭЛТ на 20%.
+74,"Boosts {is28}{image(ui_icon_btlStatus_020)} INT for the first 3 rounds. (The earlier the round,
+the greater the boost to {is28}{image(ui_icon_btlStatus_020)} INT.)"
+75,
+76,
+77,Boosts {is28}{image(ui_icon_btlStatus_022)} SPI based on user's HP.
+78,"Шанс повторного активации навыка при использовании навыка магической атаки. (Чем меньше HP, тем больше шанс.)"
+79,
+80,

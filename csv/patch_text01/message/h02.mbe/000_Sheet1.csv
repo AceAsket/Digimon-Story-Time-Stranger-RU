@@ -1,0 +1,16 @@
+string2 0,string 1,string 2,string 3
+f_h0210_0010_0010,char_PLAYER_M,,
+f_h0211_0010_0010,char_PLAYER_M,,
+f_h0212_0010_0010,char_PLAYER_M,,
+f_h0213_0010_0010,char_PLAYER_M,,
+f_h0214_0010_0010,char_PLAYER_M,,
+f_h0215_0010_0010,char_PLAYER_M,,
+f_h0216_0010_0010,char_PLAYER_M,,
+f_h0217_0010_0010,char_PLAYER_M,,
+f_h0218_0010_0010,char_PLAYER_M,,
+f_h0219_0010_0010,char_PLAYER_M,,
+f_h0220_0010_0010,char_VADEMON,"Хотите восстановить силы перед тем, как отправиться на
+тренировочную площадку? Это бесплатно.",
+f_h0220_0010_0020,,"Да, пожалуйста.",
+f_h0220_0010_0021,,{end}Maybe not right now.,
+f_h0220_0010_0030,char_VADEMON,Лечение завершено! Не стесняйтесь возвращаться в любое время.,

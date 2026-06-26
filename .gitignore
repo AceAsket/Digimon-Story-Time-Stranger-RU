@@ -1,0 +1,19 @@
+.tools/
+logs/
+unpacked/
+fixed_unpacked/
+verify/
+csv_before_fixes/
+csv_before_remaining_translation/
+csv_before_ru_quality_pass/
+csv/app_text01/
+fixed/
+exports/.digimon_wiki_name_cache.json
+
+# Local editor / OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep generated installer zips only when explicitly added.
+dist/*.tmp
