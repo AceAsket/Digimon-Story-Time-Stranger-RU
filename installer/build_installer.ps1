@@ -10,6 +10,8 @@ $PackageName = "DSTS_RU_Installer_v$Version"
 $Stage = Join-Path $Dist $PackageName
 $Archive = Join-Path $Dist "$PackageName.zip"
 
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "build_gui_installer.ps1")
+
 if (Test-Path -LiteralPath $Stage) {
     Remove-Item -LiteralPath $Stage -Recurse -Force
 }
@@ -21,6 +23,7 @@ New-Item -ItemType Directory -Force -Path $Stage | Out-Null
 
 $items = @(
     "README.md",
+    "DSTS-RU-Installer.exe",
     "install.cmd",
     "restore-backup.cmd",
     "Install-DSTS-RU.ps1",
