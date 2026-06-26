@@ -99,7 +99,7 @@ s090_072_550,char_MAN,"Я полагаю, тогда нет смысла ост�
 давай сначала переедем в другое место.",
 s090_072_560,char_GAOMON,"Я Дигимон. Я знаю, что мне здесь не место.",
 s090_072_570,char_GAOMON,Я здесь не по своей воле. Я застрял и не могу вернуться.,
-s090_072_580,char_PLAYER_M,{next}I've been asked to protect you.,
+s090_072_580,char_PLAYER_M,{next}Меня попросили тебя защитить.,
 s090_072_581,char_PLAYER_M,{next}What have you been doing up until now?,
 s090_072_582,char_PLAYER_M,{next}I take it you're lost?,
 s090_072_590,char_GAOMON,"Итак, ты действительно понимаешь нас, Дигимон! Это значит, что я
@@ -131,7 +131,7 @@ s090_072_740,char_LALAMON,"В этой форме я действительно 
 себя намного расслабленнее!",
 s090_072_750,char_LALAMON,"Правда в том, что я не могу вернуться. Вы тот, кто может мне
 помочь?",
-s090_072_760,char_PLAYER_M,{next}I've been asked to protect you.,
+s090_072_760,char_PLAYER_M,{next}Меня попросили тебя защитить.,
 s090_072_761,char_PLAYER_M,{next}What have you been doing up until now?,
 s090_072_762,char_PLAYER_M,{next}Would you like to stay here or go home?,
 s090_072_770,char_LALAMON,"Значит, ты действительно связан с нами, Дигимон! Это значит, что
@@ -160,7 +160,7 @@ s090_072_900,char_CHILD,"Но вокруг слишком много людей,
 s090_072_910,char_PUKAMON,"Ах, прошло так много времени с тех пор, как я был в своем
 истинном обличье!",
 s090_072_920,char_PUKAMON,"Но... как ты узнал, что я Дигимон?",
-s090_072_930,char_PLAYER_M,{next}I've been asked to protect you.,
+s090_072_930,char_PLAYER_M,{next}Меня попросили тебя защитить.,
 s090_072_931,char_PLAYER_M,{next}What have you been doing up until now?,
 s090_072_932,char_PLAYER_M,{next}Just a hunch.,
 s090_072_940,char_PUKAMON,"Так ты дружишь с Дигимоном, да? Тогда это значит, что ты и мой
@@ -192,7 +192,7 @@ s090_072_1100,char_NANOMON,"Именно так я и думал! Эта фор�
 естественной.",
 s090_072_1110,char_NANOMON,"Встреча с тобой, должно быть, судьба. Я застрял здесь, не имея
 возможности вернуться домой. Ты бы мне помогла?",
-s090_072_1120,char_PLAYER_M,{next}I've been asked to protect you.,
+s090_072_1120,char_PLAYER_M,{next}Меня попросили тебя защитить.,
 s090_072_1121,char_PLAYER_M,{next}What have you been doing up until now?,
 s090_072_1122,char_PLAYER_M,{next}How do you like the human world?,
 s090_072_1130,char_NANOMON,"Значит, меня все-таки не бросили. Я так благодарен!",

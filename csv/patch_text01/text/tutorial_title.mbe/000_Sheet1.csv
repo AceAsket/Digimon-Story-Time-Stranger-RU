@@ -23,7 +23,7 @@ tutorial_title_Status_03,Атрибуты
 tutorial_title_Status_04,Совместимость атрибутов
 tutorial_title_Convert_01,Скорость преобразования и сканирования
 tutorial_title_Change_01,Боевые и резервные участники
-tutorial_title_Evolution_01,Дигиволюция и Дедигиволюция
+tutorial_title_Evolution_01,Эволюция и деволюция
 tutorial_title_SkillChange_01,Навыки привязанности
 tutorial_title_EquipmentChange_01,Оборудование
 tutorial_title_Personality_01,Типы личности
@@ -149,7 +149,7 @@ tutorial_title_EvolutionTechnique_02,Метод декодирования 2: Т
 tutorial_title_ActionOrder_01,Порядок хода
 tutorial_title_WeakPointAttack_01,Атаки на слабые места
 tutorial_title_SpecialSkills_01,Специальные навыки
-tutorial_title_FusionSkills_01,Навыки ДНК-Дигиволюции
+tutorial_title_FusionSkills_01,Навыки джогресс-эволюции
 tutorial_title_SurpriseAttack_01,Упреждающие удары противника
 tutorial_title_BattleCommand_01,Атака (команда боя)
 tutorial_title_BattleCommand_02,Навык (команда боя)
