@@ -9,6 +9,7 @@ $Dist = Join-Path $Root "dist"
 $PackageName = "DSTS_RU_Installer_v$Version"
 $Stage = Join-Path $Dist $PackageName
 $Archive = Join-Path $Dist "$PackageName.zip"
+$Standalone = Join-Path $Dist "$PackageName.exe"
 
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "build_gui_installer.ps1")
 
@@ -18,6 +19,11 @@ if (Test-Path -LiteralPath $Stage) {
 if (Test-Path -LiteralPath $Archive) {
     Remove-Item -LiteralPath $Archive -Force
 }
+if (Test-Path -LiteralPath $Standalone) {
+    Remove-Item -LiteralPath $Standalone -Force
+}
+
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "build_gui_installer.ps1") -Output $Standalone -EmbedPayload
 
 New-Item -ItemType Directory -Force -Path $Stage | Out-Null
 
@@ -40,3 +46,4 @@ Compress-Archive -Path (Join-Path $Stage "*") -DestinationPath $Archive -Compres
 Remove-Item -LiteralPath $Stage -Recurse -Force
 
 Write-Host "Built $Archive"
+Write-Host "Built $Standalone"

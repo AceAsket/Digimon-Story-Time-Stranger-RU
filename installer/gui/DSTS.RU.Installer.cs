@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -67,33 +68,58 @@ namespace DstsRuInstaller
 
             Text = "Digimon Story Time Stranger RU - установщик";
             StartPosition = FormStartPosition.CenterScreen;
-            MinimumSize = new Size(760, 520);
-            Size = new Size(820, 560);
+            MinimumSize = new Size(760, 660);
+            Size = new Size(860, 700);
             Font = new Font("Segoe UI", 9F);
+            BackColor = Color.FromArgb(246, 248, 252);
+            Icon associatedIcon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+            if (associatedIcon != null)
+            {
+                Icon = associatedIcon;
+            }
+
+            PictureBox banner = new PictureBox();
+            banner.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right;
+            banner.Location = new Point(0, 0);
+            banner.Size = new Size(ClientSize.Width, 170);
+            banner.SizeMode = PictureBoxSizeMode.StretchImage;
+            banner.Image = LoadImageResource("DstsRuInstaller.banner.png");
+            Controls.Add(banner);
 
             Label title = new Label();
             title.Text = "Digimon Story Time Stranger RU";
             title.Font = new Font(Font.FontFamily, 16F, FontStyle.Bold);
+            title.ForeColor = Color.White;
+            title.BackColor = Color.Transparent;
             title.AutoSize = true;
-            title.Location = new Point(18, 18);
-            Controls.Add(title);
+            title.Location = new Point(22, 24);
+            banner.Controls.Add(title);
+
+            Label subtitle = new Label();
+            subtitle.Text = "Русский перевод";
+            subtitle.Font = new Font(Font.FontFamily, 10F, FontStyle.Regular);
+            subtitle.ForeColor = Color.FromArgb(225, 238, 255);
+            subtitle.BackColor = Color.Transparent;
+            subtitle.AutoSize = true;
+            subtitle.Location = new Point(24, 58);
+            banner.Controls.Add(subtitle);
 
             Label pathLabel = new Label();
             pathLabel.Text = "Папка игры";
             pathLabel.AutoSize = true;
-            pathLabel.Location = new Point(20, 70);
+            pathLabel.Location = new Point(20, 195);
             Controls.Add(pathLabel);
 
             pathTextBox = new TextBox();
             pathTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right;
-            pathTextBox.Location = new Point(23, 94);
+            pathTextBox.Location = new Point(23, 219);
             pathTextBox.Size = new Size(560, 24);
             Controls.Add(pathTextBox);
 
             browseButton = new Button();
             browseButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             browseButton.Text = "Обзор...";
-            browseButton.Location = new Point(596, 92);
+            browseButton.Location = new Point(596, 217);
             browseButton.Size = new Size(86, 28);
             browseButton.Click += delegate { BrowseForGameDir(); };
             Controls.Add(browseButton);
@@ -101,47 +127,57 @@ namespace DstsRuInstaller
             detectButton = new Button();
             detectButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             detectButton.Text = "Автонайти";
-            detectButton.Location = new Point(690, 92);
+            detectButton.Location = new Point(690, 217);
             detectButton.Size = new Size(96, 28);
             detectButton.Click += delegate { DetectGameDir(true); };
             Controls.Add(detectButton);
 
             installButton = new Button();
             installButton.Text = "Установить перевод";
-            installButton.Location = new Point(23, 138);
+            installButton.Location = new Point(23, 263);
             installButton.Size = new Size(170, 34);
             installButton.Click += delegate { RunOperation(false); };
             Controls.Add(installButton);
 
             restoreButton = new Button();
             restoreButton.Text = "Восстановить бэкап";
-            restoreButton.Location = new Point(205, 138);
+            restoreButton.Location = new Point(205, 263);
             restoreButton.Size = new Size(170, 34);
             restoreButton.Click += delegate { RunOperation(true); };
             Controls.Add(restoreButton);
 
             backupsButton = new Button();
             backupsButton.Text = "Открыть бэкапы";
-            backupsButton.Location = new Point(387, 138);
+            backupsButton.Location = new Point(387, 263);
             backupsButton.Size = new Size(150, 34);
             backupsButton.Click += delegate { OpenBackups(); };
             Controls.Add(backupsButton);
 
             logTextBox = new TextBox();
             logTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom;
-            logTextBox.Location = new Point(23, 192);
+            logTextBox.Location = new Point(23, 317);
             logTextBox.Multiline = true;
             logTextBox.ReadOnly = true;
             logTextBox.ScrollBars = ScrollBars.Vertical;
-            logTextBox.Size = new Size(763, 315);
+            logTextBox.Size = new Size(763, 300);
             logTextBox.BackColor = Color.White;
             Controls.Add(logTextBox);
 
             Load += delegate
             {
-                Log("Payload: " + core.PayloadDir);
+                Log("Payload: " + core.PayloadDescription);
                 DetectGameDir(false);
             };
+        }
+
+        private static Image LoadImageResource(string name)
+        {
+            Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(name);
+            if (stream == null)
+            {
+                return null;
+            }
+            return Image.FromStream(stream);
         }
 
         private void BrowseForGameDir()
@@ -307,14 +343,39 @@ namespace DstsRuInstaller
         };
 
         private static readonly string[] PayloadFiles = RequiredPayloadFiles.Concat(OptionalPayloadFiles).ToArray();
+        private const string PayloadResourcePrefix = "DstsRuPayload.";
 
         public readonly string BaseDir;
         public readonly string PayloadDir;
+        private readonly HashSet<string> embeddedPayloadFiles;
 
         public InstallerCore(string baseDir)
         {
             BaseDir = Path.GetFullPath(baseDir);
             PayloadDir = Path.Combine(BaseDir, "payload");
+            embeddedPayloadFiles = new HashSet<string>(
+                Assembly.GetExecutingAssembly()
+                    .GetManifestResourceNames()
+                    .Where(name => name.StartsWith(PayloadResourcePrefix, StringComparison.Ordinal))
+                    .Select(name => name.Substring(PayloadResourcePrefix.Length)),
+                StringComparer.OrdinalIgnoreCase);
+        }
+
+        public bool HasEmbeddedPayload
+        {
+            get { return embeddedPayloadFiles.Count > 0; }
+        }
+
+        public string PayloadDescription
+        {
+            get
+            {
+                if (HasEmbeddedPayload)
+                {
+                    return "встроен в установщик";
+                }
+                return PayloadDir;
+            }
         }
 
         public string FindGameDir()
@@ -361,8 +422,7 @@ namespace DstsRuInstaller
             foreach (string file in PayloadFiles)
             {
                 bool optional = OptionalPayloadFiles.Contains(file);
-                string payloadFile = Path.Combine(PayloadDir, file);
-                if (optional && !File.Exists(payloadFile))
+                if (optional && !HasPayloadFile(file))
                 {
                     continue;
                 }
@@ -381,7 +441,7 @@ namespace DstsRuInstaller
                 File.Copy(target, backupFile, true);
 
                 Log(log, "Установка: " + relative);
-                File.Copy(payloadFile, target, true);
+                CopyPayloadFile(file, target);
 
                 entries.Add(new ManifestEntry(relative, backupFile));
             }
@@ -428,6 +488,18 @@ namespace DstsRuInstaller
 
         private void EnsurePayloadExists()
         {
+            if (HasEmbeddedPayload)
+            {
+                foreach (string file in RequiredPayloadFiles)
+                {
+                    if (!embeddedPayloadFiles.Contains(file))
+                    {
+                        throw new InvalidOperationException("Во встроенном payload не найден файл: " + file);
+                    }
+                }
+                return;
+            }
+
             if (!Directory.Exists(PayloadDir))
             {
                 throw new InvalidOperationException("Не найдена папка payload рядом с установщиком: " + PayloadDir);
@@ -441,6 +513,37 @@ namespace DstsRuInstaller
                     throw new InvalidOperationException("Не найден файл payload: " + payloadFile);
                 }
             }
+        }
+
+        private bool HasPayloadFile(string file)
+        {
+            if (HasEmbeddedPayload)
+            {
+                return embeddedPayloadFiles.Contains(file);
+            }
+            return File.Exists(Path.Combine(PayloadDir, file));
+        }
+
+        private void CopyPayloadFile(string file, string target)
+        {
+            if (HasEmbeddedPayload)
+            {
+                string resourceName = PayloadResourcePrefix + file;
+                using (Stream input = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName))
+                {
+                    if (input == null)
+                    {
+                        throw new InvalidOperationException("Во встроенном payload не найден файл: " + file);
+                    }
+                    using (FileStream output = File.Create(target))
+                    {
+                        input.CopyTo(output);
+                    }
+                }
+                return;
+            }
+
+            File.Copy(Path.Combine(PayloadDir, file), target, true);
         }
 
         private string FindTargetFile(string root, string fileName, bool optional = false)
