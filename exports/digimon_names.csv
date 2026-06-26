@@ -36,14 +36,14 @@
 35,char_DEMON,Creepymon,Демон
 36,char_DEMON_BIG,Creepymon,Демон
 37,char_LUCEMON_FM,Lucemon CM,Люцимон: Падший режим
-38,char_BELPHEMON_RM,Belphemon RM,Бельфемон РМ
-39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон РМ
+38,char_BELPHEMON_RM,Belphemon RM,Бельфемон: Режим ярости
+39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон: Режим ярости
 40,char_PANDAMON,Pandamon,Пандамон
 41,char_FUNBEEMON,FunBeemon,Фанбимон
 42,char_BLACKTAILMON,BlackGatomon,Блэк Теилмон
 43,char_CATCHMAMEMON,CatchMamemon,КатчМамаемон
 44,char_CHRONOMON,Chronomon HM,Хрономон в священном режиме
-45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон DM
+45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон: Режим разрушения
 46,char_MEGIDRAMON,Megidramon,Мегидрамон
 47,char_MEGIDRAMON_BIG,Megidramon,Мегидрамон
 48,char_GODDRAMON,Goldramon,Годдрамон
@@ -97,7 +97,7 @@
 96,char_TURUIEMON,Turuiemon,Туруйемон
 97,char_GANIMON,Crabmon,Ганимон
 98,char_SUSANOOMON,Susanomon,Сусаноомон
-99,char_DUKEMON_CM,Gallantmon CM,Галантмон СМ
+99,char_DUKEMON_CM,Gallantmon CM,Дюкмон: Багровый режим
 100,char_ARMAGEMON,Armageddemon,Армагемон
 101,char_LADYDEVIMON,LadyDevimon,Леди Девимон
 102,char_GOBURIMON,Goblimon,Гобуримон
@@ -141,8 +141,8 @@
 140,char_JUPITERMON_WRATHMODE,Jupitermon WM,Юпитермон: Режим гнева
 141,char_JUPITERMON_WRATHMODE_SUB,Jupitermon: Wrath Mode,Юпитермон: Режим гнева
 142,char_JUNOMON,Junomon,Юномон
-143,char_JUNOMON_HYSTERICMODE,Junomon HM,"Юномон , ХМ"
-144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон ХМ (Копья)
+143,char_JUNOMON_HYSTERICMODE,Junomon HM,Юномон: Истерический режим
+144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон: Истерический режим (копья)
 145,char_VENUSMON,Venusmon,Венусмон
 146,char_APOLLOMON,Apollomon,Аполломон
 147,char_APOLLOMON_ADD,Apollomon (Flame Sphere),Аполломон (огненная сфера)
@@ -322,8 +322,8 @@
 321,char_LUCEMON_SM_BIG,Lucemon SM,Люцимон: режим Сатаны
 322,char_PUNIMON,Punimon,Пунимон
 323,char_TUNOMON,Tsunomon,Цуномон
-324,char_BELPHEMON_SM,Belphemon SM,Бельфемон СМ
-325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон СМ
+324,char_BELPHEMON_SM,Belphemon SM,Бельфемон: Режим сна
+325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон: Режим сна
 326,char_TITAMON,Titamon,Титамон
 327,char_TITAMON_BIG,Titamon,Титамон
 328,char_TITAMON_2,Titamon (Berserk),Титамон (берсерк)
@@ -493,18 +493,18 @@
 492,char_TUCHIDARUMON,MudFrigimon,МудФригимон
 493,char_GUARDROMON_GL,Guardromon (Gold),Гардромон (золотой)
 494,char_ALPHAMON_OURYUKEN,Alphamon: Ouryuken,Альфамон: Орюкен
-495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Бахусмон ДМ
+495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Вакхмон: Режим опьянения
 496,char_TANKDRAMON,Tankdramon,Танкдрамон
 497,char_DARKDRAMON,Darkdramon,Даркдрамон
 498,char_CHAOSMON,Chaosmon,Хаосмон
 499,char_VALKYRIMON,Valkyrimon,Валькиримон
 500,char_KERPYMON_BAD,Cherubimon (Black),Херувимон (Порочный)
-501,char_BEELZEMON_BM,Beelzemon BM,Вельземон БМ
-502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельземон БМ
-503,char_SHINEGREYMON_BM,ShineGreymon BM,ШайнГреймон БМ
+501,char_BEELZEMON_BM,Beelzemon BM,Вельзевумон: Бласт-режим
+502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельзевумон: Бласт-режим
+503,char_SHINEGREYMON_BM,ShineGreymon BM,Шайн Греймон: Взрывной режим
 504,char_MIRAGEGAOGAMON_BM,MirageGaogamon BM,Мираж Гаогамон: Взрывной режим
-505,char_RAVEMON_BM,Ravemon BM,Равемон БМ
-506,char_ROSEMON_BM,Rosemon BM,Роузмон БМ
+505,char_RAVEMON_BM,Ravemon BM,Равемон: Взрывной режим
+506,char_ROSEMON_BM,Rosemon BM,Роузмон: Взрывной режим
 507,char_VULCANUS_LIGHTARM,Right Arm,Правая Рука
 508,char_VULCANUS_LEFTARM,Left Arm,Левая Рука
 509,char_CHRONOMONROBO_COMPLETE,Giant Slayer,Гигант Слейер

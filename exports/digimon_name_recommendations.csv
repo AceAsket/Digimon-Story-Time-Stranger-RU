@@ -36,14 +36,14 @@
 35,char_DEMON,Creepymon,Демон,Демон,keep,ok,Demon,local_current,,high,Already matches the selected Russian reference.
 36,char_DEMON_BIG,Creepymon,Демон,Демон,keep,ok,Demon,local_current,,high,Already matches the selected Russian reference.
 37,char_LUCEMON_FM,Lucemon CM,Люцимон: Падший режим,Люцимон: Падший режим,keep,ok,Lucemon: Falldown Mode,local_current,,high,Already matches the selected Russian reference.
-38,char_BELPHEMON_RM,Belphemon RM,Бельфемон РМ,Бельфемон РМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
-39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон РМ,Бельфемон РМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+38,char_BELPHEMON_RM,Belphemon RM,Бельфемон: Режим ярости,Бельфемон: Режим ярости,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=belphemonragemode,medium,RM = Rage Mode. Mode abbreviation expanded from official English naming.
+39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон: Режим ярости,Бельфемон: Режим ярости,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=belphemonragemode,medium,RM = Rage Mode. Mode abbreviation expanded from official English naming.
 40,char_PANDAMON,Pandamon,Пандамон,Пандамон,keep,ok,Pandamon,local_current,,high,Already matches the selected Russian reference.
 41,char_FUNBEEMON,FunBeemon,Фанбимон,Фанбимон,keep,ok,Funbeemon,local_current,,high,Already matches the selected Russian reference.
 42,char_BLACKTAILMON,BlackGatomon,Блэк Теилмон,Блэк Теилмон,keep,ok,Black Tailmon,local_current,,high,Already matches the selected Russian reference.
 43,char_CATCHMAMEMON,CatchMamemon,КатчМамаемон,КатчМамаемон,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
 44,char_CHRONOMON,Chronomon HM,Хрономон в священном режиме,Хрономон в священном режиме,keep,ok,Chronomon Holy Mode,local_current,,high,Already matches the selected Russian reference.
-45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон DM,Хрономон DM,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон: Режим разрушения,Хрономон: Режим разрушения,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/,medium,DM = Destroy Mode. Mode abbreviation expanded from official English naming.
 46,char_MEGIDRAMON,Megidramon,Мегидрамон,Мегидрамон,keep,ok,Megidramon,local_current,,high,Already matches the selected Russian reference.
 47,char_MEGIDRAMON_BIG,Megidramon,Мегидрамон,Мегидрамон,keep,ok,Megidramon,local_current,,high,Already matches the selected Russian reference.
 48,char_GODDRAMON,Goldramon,Годдрамон,Годдрамон,keep,ok,Goddramon,local_current,,high,Already matches the selected Russian reference.
@@ -97,7 +97,7 @@
 96,char_TURUIEMON,Turuiemon,Туруйемон,Туруйемон,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
 97,char_GANIMON,Crabmon,Ганимон,Ганимон,keep,ok,Ganimon,local_current,,high,Already matches the selected Russian reference.
 98,char_SUSANOOMON,Susanomon,Сусаноомон,Сусаноомон,keep,ok,Susanoomon,local_current,,high,Already matches the selected Russian reference.
-99,char_DUKEMON_CM,Gallantmon CM,Галантмон СМ,Галантмон СМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+99,char_DUKEMON_CM,Gallantmon CM,Дюкмон: Багровый режим,Дюкмон: Багровый режим,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=dukemoncrimsonmode,medium,CM = Crimson Mode. Mode abbreviation expanded from official English naming.
 100,char_ARMAGEMON,Armageddemon,Армагемон,Армагемон,keep,ok,Armagemon,local_current,,high,Already matches the selected Russian reference.
 101,char_LADYDEVIMON,LadyDevimon,Леди Девимон,Леди Девимон,keep,ok,Lady Devimon,local_current,,high,Already matches the selected Russian reference.
 102,char_GOBURIMON,Goblimon,Гобуримон,Гобуримон,keep,ok,Goburimon,local_current,,high,Already matches the selected Russian reference.
@@ -141,8 +141,8 @@
 140,char_JUPITERMON_WRATHMODE,Jupitermon WM,Юпитермон: Режим гнева,Юпитермон: Режим гнева,keep,ok,Jupitermon: Wrath Mode,local_current,,high,Already matches the selected Russian reference.
 141,char_JUPITERMON_WRATHMODE_SUB,Jupitermon: Wrath Mode,Юпитермон: Режим гнева,Юпитермон: Режим гнева,keep,ok,Jupitermon: Wrath Mode,local_current,,high,Already matches the selected Russian reference.
 142,char_JUNOMON,Junomon,Юномон,Юномон,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
-143,char_JUNOMON_HYSTERICMODE,Junomon HM,"Юномон , ХМ","Юномон , ХМ",keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
-144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон ХМ (Копья),Юномон ХМ (Копья),keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+143,char_JUNOMON_HYSTERICMODE,Junomon HM,Юномон: Истерический режим,Юномон: Истерический режим,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/,medium,HM = Hysteric Mode. Mode abbreviation expanded from official English naming.
+144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон: Истерический режим (копья),Юномон: Истерический режим (копья),keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/,medium,HM = Hysteric Mode. Mode abbreviation expanded; local form suffix preserved.
 145,char_VENUSMON,Venusmon,Венусмон,Венусмон,keep,ok,Venusmon,local_current,,high,Already matches the selected Russian reference.
 146,char_APOLLOMON,Apollomon,Аполломон,Аполломон,keep,ok,Apollomon,local_current,,high,Already matches the selected Russian reference.
 147,char_APOLLOMON_ADD,Apollomon (Flame Sphere),Аполломон (огненная сфера),Аполломон (огненная сфера),keep,different,Apollomon,ru_digimon_fandom,https://digimon.fandom.com/ru/wiki/Apollomon,medium,Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved.
@@ -322,8 +322,8 @@
 321,char_LUCEMON_SM_BIG,Lucemon SM,Люцимон: режим Сатаны,Люцимон: режим Сатаны,keep,ok,Lucemon: Satan Mode,local_current,,high,Already matches the selected Russian reference.
 322,char_PUNIMON,Punimon,Пунимон,Пунимон,keep,ok,Punimon,local_current,,high,Already matches the selected Russian reference.
 323,char_TUNOMON,Tsunomon,Цуномон,Цуномон,keep,ok,Tunomon,local_current,,high,Already matches the selected Russian reference.
-324,char_BELPHEMON_SM,Belphemon SM,Бельфемон СМ,Бельфемон СМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
-325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон СМ,Бельфемон СМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+324,char_BELPHEMON_SM,Belphemon SM,Бельфемон: Режим сна,Бельфемон: Режим сна,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=belphemonsleepmode,medium,SM = Sleep Mode. Mode abbreviation expanded from official English naming.
+325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон: Режим сна,Бельфемон: Режим сна,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=belphemonsleepmode,medium,SM = Sleep Mode. Mode abbreviation expanded from official English naming.
 326,char_TITAMON,Titamon,Титамон,Титамон,keep,ok,Titamon,local_current,,high,Already matches the selected Russian reference.
 327,char_TITAMON_BIG,Titamon,Титамон,Титамон,keep,ok,Titamon,local_current,,high,Already matches the selected Russian reference.
 328,char_TITAMON_2,Titamon (Berserk),Титамон (берсерк),Титамон (берсерк),keep,different,Titamon,ru_digimon_fandom,https://digimon.fandom.com/ru/wiki/Titamon,medium,Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved.
@@ -493,18 +493,18 @@
 492,char_TUCHIDARUMON,MudFrigimon,МудФригимон,МудФригимон,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
 493,char_GUARDROMON_GL,Guardromon (Gold),Гардромон (золотой),Гардромон (золотой),keep,different,Guardromon,ru_digimon_fandom,https://digimon.fandom.com/ru/wiki/Guardromon,medium,Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved.
 494,char_ALPHAMON_OURYUKEN,Alphamon: Ouryuken,Альфамон: Орюкен,Альфамон: Орюкен,keep,ok,Alphamon: Ouryuken,local_current,,high,Already matches the selected Russian reference.
-495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Бахусмон ДМ,Бахусмон ДМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Вакхмон: Режим опьянения,Вакхмон: Режим опьянения,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.fandom.com/wiki/Bacchusmon_%28Deisui_Mode%29,medium,DM = Deisui Mode. Mode abbreviation expanded from Digimon Wiki naming.
 496,char_TANKDRAMON,Tankdramon,Танкдрамон,Танкдрамон,keep,ok,Tankdramon,local_current,,high,Already matches the selected Russian reference.
 497,char_DARKDRAMON,Darkdramon,Даркдрамон,Даркдрамон,keep,ok,Darkdramon,local_current,,high,Already matches the selected Russian reference.
 498,char_CHAOSMON,Chaosmon,Хаосмон,Хаосмон,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
 499,char_VALKYRIMON,Valkyrimon,Валькиримон,Валькиримон,keep,ok,Valkyrimon,local_current,,high,Already matches the selected Russian reference.
 500,char_KERPYMON_BAD,Cherubimon (Black),Херувимон (Порочный),Херувимон (Порочный),keep,ok,Cherubimon (Vice),local_current,,high,Already matches the selected Russian reference.
-501,char_BEELZEMON_BM,Beelzemon BM,Вельземон БМ,Вельземон БМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
-502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельземон БМ,Вельземон БМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
-503,char_SHINEGREYMON_BM,ShineGreymon BM,ШайнГреймон БМ,ШайнГреймон БМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+501,char_BEELZEMON_BM,Beelzemon BM,Вельзевумон: Бласт-режим,Вельзевумон: Бласт-режим,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=beelzebumonblastmode,medium,BM = Blast Mode for Beelzemon/Beelzebumon. Not Burst Mode.
+502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельзевумон: Бласт-режим,Вельзевумон: Бласт-режим,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=beelzebumonblastmode,medium,BM = Blast Mode for Beelzemon/Beelzebumon. Not Burst Mode.
+503,char_SHINEGREYMON_BM,ShineGreymon BM,Шайн Греймон: Взрывной режим,Шайн Греймон: Взрывной режим,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=shinegreymonburstmode,medium,BM = Burst Mode. Mode abbreviation expanded from official English naming.
 504,char_MIRAGEGAOGAMON_BM,MirageGaogamon BM,Мираж Гаогамон: Взрывной режим,Мираж Гаогамон: Взрывной режим,keep,ok,Mirage Gaogamon: Burst Mode,local_current,,high,Already matches the selected Russian reference.
-505,char_RAVEMON_BM,Ravemon BM,Равемон БМ,Равемон БМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
-506,char_ROSEMON_BM,Rosemon BM,Роузмон БМ,Роузмон БМ,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
+505,char_RAVEMON_BM,Ravemon BM,Равемон: Взрывной режим,Равемон: Взрывной режим,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=ravmonburstmode,medium,BM = Burst Mode. Mode abbreviation expanded from official English naming.
+506,char_ROSEMON_BM,Rosemon BM,Роузмон: Взрывной режим,Роузмон: Взрывной режим,keep,no_wiki_match,,mode_abbreviation_policy,https://digimon.net/reference_en/detail.php?directory_name=rosemonburstmode,medium,BM = Burst Mode. Mode abbreviation expanded from official English naming.
 507,char_VULCANUS_LIGHTARM,Right Arm,Правая Рука,Правая Рука,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
 508,char_VULCANUS_LEFTARM,Left Arm,Левая Рука,Левая Рука,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.
 509,char_CHRONOMONROBO_COMPLETE,Giant Slayer,Гигант Слейер,Гигант Слейер,keep,no_wiki_match,,local_current,,low,No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review.

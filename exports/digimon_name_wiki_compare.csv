@@ -36,14 +36,14 @@
 35,char_DEMON,Creepymon,Демон,Demon,Демон,ok,candidate,Demon,https://digimon.fandom.com/ru/wiki/Demon
 36,char_DEMON_BIG,Creepymon,Демон,Demon,Демон,ok,candidate,Demon,https://digimon.fandom.com/ru/wiki/Demon
 37,char_LUCEMON_FM,Lucemon CM,Люцимон: Падший режим,Lucemon: Falldown Mode,Люцимон: Падший режим,ok,candidate,Lucemon Falldown Mode,https://digimon.fandom.com/ru/wiki/Lucemon%3A_Falldown_Mode
-38,char_BELPHEMON_RM,Belphemon RM,Бельфемон РМ,,,no_wiki_match,,,
-39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон РМ,,,no_wiki_match,,,
+38,char_BELPHEMON_RM,Belphemon RM,Бельфемон: Режим ярости,,,no_wiki_match,,,
+39,char_BELPHEMON_RM_BIG,Belphemon RM,Бельфемон: Режим ярости,,,no_wiki_match,,,
 40,char_PANDAMON,Pandamon,Пандамон,Pandamon,Пандамон,ok,candidate,Pandamon,https://digimon.fandom.com/ru/wiki/Pandamon
 41,char_FUNBEEMON,FunBeemon,Фанбимон,Funbeemon,Фанбимон,ok,candidate,FunBeemon,https://digimon.fandom.com/ru/wiki/Funbeemon
 42,char_BLACKTAILMON,BlackGatomon,Блэк Теилмон,Black Tailmon,Блэк Теилмон,ok,candidate,Black Tailmon,https://digimon.fandom.com/ru/wiki/Black_Tailmon
 43,char_CATCHMAMEMON,CatchMamemon,КатчМамаемон,,,no_wiki_match,,,
 44,char_CHRONOMON,Chronomon HM,Хрономон в священном режиме,Chronomon Holy Mode,Хрономон в священном режиме,ok,candidate,Chronomon Holy Mode,https://digimon.fandom.com/ru/wiki/Chronomon_Holy_Mode
-45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон DM,,,no_wiki_match,,,
+45,char_CHRONOMON_DESTROY,Chronomon DM,Хрономон: Режим разрушения,,,no_wiki_match,,,
 46,char_MEGIDRAMON,Megidramon,Мегидрамон,Megidramon,Мегидрамон,ok,candidate,Megidramon,https://digimon.fandom.com/ru/wiki/Megidramon
 47,char_MEGIDRAMON_BIG,Megidramon,Мегидрамон,Megidramon,Мегидрамон,ok,candidate,Megidramon,https://digimon.fandom.com/ru/wiki/Megidramon
 48,char_GODDRAMON,Goldramon,Годдрамон,Goddramon,Годдрамон,ok,candidate,Goddramon,https://digimon.fandom.com/ru/wiki/Goddramon
@@ -97,7 +97,7 @@
 96,char_TURUIEMON,Turuiemon,Туруйемон,,,no_wiki_match,,,
 97,char_GANIMON,Crabmon,Ганимон,Ganimon,Ганимон,ok,candidate,Ganimon,https://digimon.fandom.com/ru/wiki/Ganimon
 98,char_SUSANOOMON,Susanomon,Сусаноомон,Susanoomon,Сусаноомон,ok,candidate,Susanoomon,https://digimon.fandom.com/ru/wiki/Susanoomon
-99,char_DUKEMON_CM,Gallantmon CM,Галантмон СМ,,,no_wiki_match,,,
+99,char_DUKEMON_CM,Gallantmon CM,Дюкмон: Багровый режим,,,no_wiki_match,,,
 100,char_ARMAGEMON,Armageddemon,Армагемон,Armagemon,Армагемон,ok,candidate,Armagemon,https://digimon.fandom.com/ru/wiki/Armagemon
 101,char_LADYDEVIMON,LadyDevimon,Леди Девимон,Lady Devimon,Леди Девимон,ok,candidate,LadyDevimon,https://digimon.fandom.com/ru/wiki/Lady_Devimon
 102,char_GOBURIMON,Goblimon,Гобуримон,Goburimon,Гобуримон,ok,candidate,Goburimon,https://digimon.fandom.com/ru/wiki/Goburimon
@@ -141,8 +141,8 @@
 140,char_JUPITERMON_WRATHMODE,Jupitermon WM,Юпитермон: Режим гнева,Jupitermon: Wrath Mode,Юпитермон: Режим гнева,ok,candidate,Jupitermon Wrath Mode,https://digimon.fandom.com/ru/wiki/Jupitermon%3A_Wrath_Mode
 141,char_JUPITERMON_WRATHMODE_SUB,Jupitermon: Wrath Mode,Юпитермон: Режим гнева,Jupitermon: Wrath Mode,Юпитермон: Режим гнева,ok,candidate,Jupitermon: Wrath Mode,https://digimon.fandom.com/ru/wiki/Jupitermon%3A_Wrath_Mode
 142,char_JUNOMON,Junomon,Юномон,,,no_wiki_match,,,
-143,char_JUNOMON_HYSTERICMODE,Junomon HM,"Юномон , ХМ",,,no_wiki_match,,,
-144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон ХМ (Копья),,,no_wiki_match,,,
+143,char_JUNOMON_HYSTERICMODE,Junomon HM,Юномон: Истерический режим,,,no_wiki_match,,,
+144,char_JUNOMON_HYSTERICMODE_ADD,Junomon HM (Lances),Юномон: Истерический режим (копья),,,no_wiki_match,,,
 145,char_VENUSMON,Venusmon,Венусмон,Venusmon,Венусмон,ok,candidate,Venusmon,https://digimon.fandom.com/ru/wiki/Venusmon
 146,char_APOLLOMON,Apollomon,Аполломон,Apollomon,Аполломон,ok,candidate,Apollomon,https://digimon.fandom.com/ru/wiki/Apollomon
 147,char_APOLLOMON_ADD,Apollomon (Flame Sphere),Аполломон (огненная сфера),Apollomon,Аполломон,different,candidate,Apollomon,https://digimon.fandom.com/ru/wiki/Apollomon
@@ -322,8 +322,8 @@
 321,char_LUCEMON_SM_BIG,Lucemon SM,Люцимон: режим Сатаны,Lucemon: Satan Mode,Люцимон: режим Сатаны,ok,candidate,Lucemon Satan Mode,https://digimon.fandom.com/ru/wiki/Lucemon%3A_Satan_Mode
 322,char_PUNIMON,Punimon,Пунимон,Punimon,Пунимон,ok,candidate,Punimon,https://digimon.fandom.com/ru/wiki/Punimon
 323,char_TUNOMON,Tsunomon,Цуномон,Tunomon,Цуномон,ok,candidate,Tunomon,https://digimon.fandom.com/ru/wiki/Tunomon
-324,char_BELPHEMON_SM,Belphemon SM,Бельфемон СМ,,,no_wiki_match,,,
-325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон СМ,,,no_wiki_match,,,
+324,char_BELPHEMON_SM,Belphemon SM,Бельфемон: Режим сна,,,no_wiki_match,,,
+325,char_BELPHEMON_SM_BIG,Belphemon SM,Бельфемон: Режим сна,,,no_wiki_match,,,
 326,char_TITAMON,Titamon,Титамон,Titamon,Титамон,ok,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
 327,char_TITAMON_BIG,Titamon,Титамон,Titamon,Титамон,ok,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
 328,char_TITAMON_2,Titamon (Berserk),Титамон (берсерк),Titamon,Титамон,different,candidate,Titamon,https://digimon.fandom.com/ru/wiki/Titamon
@@ -493,18 +493,18 @@
 492,char_TUCHIDARUMON,MudFrigimon,МудФригимон,,,no_wiki_match,,,
 493,char_GUARDROMON_GL,Guardromon (Gold),Гардромон (золотой),Guardromon,Гардромон,different,candidate,Guardromon,https://digimon.fandom.com/ru/wiki/Guardromon
 494,char_ALPHAMON_OURYUKEN,Alphamon: Ouryuken,Альфамон: Орюкен,Alphamon: Ouryuken,Альфамон: Орюкен,ok,candidate,Alphamon: Ouryuken,https://digimon.fandom.com/ru/wiki/Alphamon%3A_Ouryuken
-495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Бахусмон ДМ,,,no_wiki_match,,,
+495,char_BACCHUSMON_DRUNK,Bacchusmon DM,Вакхмон: Режим опьянения,,,no_wiki_match,,,
 496,char_TANKDRAMON,Tankdramon,Танкдрамон,Tankdramon,Танкдрамон,ok,candidate,Tankdramon,https://digimon.fandom.com/ru/wiki/Tankdramon
 497,char_DARKDRAMON,Darkdramon,Даркдрамон,Darkdramon,Даркдрамон,ok,candidate,Darkdramon,https://digimon.fandom.com/ru/wiki/Darkdramon
 498,char_CHAOSMON,Chaosmon,Хаосмон,,,no_wiki_match,,,
 499,char_VALKYRIMON,Valkyrimon,Валькиримон,Valkyrimon,Валькиримон,ok,candidate,Valkyrimon,https://digimon.fandom.com/ru/wiki/Valkyrimon
 500,char_KERPYMON_BAD,Cherubimon (Black),Херувимон (Порочный),Cherubimon (Vice),Херувимон (Порочный),ok,candidate,Cherubimon Vice,https://digimon.fandom.com/ru/wiki/Cherubimon_%28Vice%29
-501,char_BEELZEMON_BM,Beelzemon BM,Вельземон БМ,,,no_wiki_match,,,
-502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельземон БМ,,,no_wiki_match,,,
-503,char_SHINEGREYMON_BM,ShineGreymon BM,ШайнГреймон БМ,,,no_wiki_match,,,
+501,char_BEELZEMON_BM,Beelzemon BM,Вельзевумон: Бласт-режим,,,no_wiki_match,,,
+502,char_BEELZEMON_BM_BIG,Beelzemon BM,Вельзевумон: Бласт-режим,,,no_wiki_match,,,
+503,char_SHINEGREYMON_BM,ShineGreymon BM,Шайн Греймон: Взрывной режим,,,no_wiki_match,,,
 504,char_MIRAGEGAOGAMON_BM,MirageGaogamon BM,Мираж Гаогамон: Взрывной режим,Mirage Gaogamon: Burst Mode,Мираж Гаогамон: Взрывной режим,ok,candidate,Miragegaogamon Burst Mode,https://digimon.fandom.com/ru/wiki/Mirage_Gaogamon%3A_Burst_Mode
-505,char_RAVEMON_BM,Ravemon BM,Равемон БМ,,,no_wiki_match,,,
-506,char_ROSEMON_BM,Rosemon BM,Роузмон БМ,,,no_wiki_match,,,
+505,char_RAVEMON_BM,Ravemon BM,Равемон: Взрывной режим,,,no_wiki_match,,,
+506,char_ROSEMON_BM,Rosemon BM,Роузмон: Взрывной режим,,,no_wiki_match,,,
 507,char_VULCANUS_LIGHTARM,Right Arm,Правая Рука,,,no_wiki_match,,,
 508,char_VULCANUS_LEFTARM,Left Arm,Левая Рука,,,no_wiki_match,,,
 509,char_CHRONOMONROBO_COMPLETE,Giant Slayer,Гигант Слейер,,,no_wiki_match,,,

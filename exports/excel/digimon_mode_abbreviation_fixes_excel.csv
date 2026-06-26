@@ -1,0 +1,16 @@
+﻿sep=;
+id;before;after;meaning
+char_BELPHEMON_RM;Бельфемон РМ;Бельфемон: Режим ярости;RM = Rage Mode
+char_BELPHEMON_RM_BIG;Бельфемон РМ;Бельфемон: Режим ярости;RM = Rage Mode
+char_CHRONOMON_DESTROY;Хрономон DM;Хрономон: Режим разрушения;DM = Destroy Mode
+char_DUKEMON_CM;Галантмон СМ;Дюкмон: Багровый режим;CM = Crimson Mode
+char_JUNOMON_HYSTERICMODE;Юномон , ХМ;Юномон: Истерический режим;HM = Hysteric Mode
+char_JUNOMON_HYSTERICMODE_ADD;Юномон ХМ (Копья);Юномон: Истерический режим (копья);"HM = Hysteric Mode; local suffix preserved"
+char_BELPHEMON_SM;Бельфемон СМ;Бельфемон: Режим сна;SM = Sleep Mode
+char_BELPHEMON_SM_BIG;Бельфемон СМ;Бельфемон: Режим сна;SM = Sleep Mode
+char_BACCHUSMON_DRUNK;Бахусмон ДМ;Вакхмон: Режим опьянения;DM = Deisui Mode
+char_BEELZEMON_BM;Вельземон БМ;Вельзевумон: Бласт-режим;BM = Blast Mode for Beelzemon/Beelzebumon
+char_BEELZEMON_BM_BIG;Вельземон БМ;Вельзевумон: Бласт-режим;BM = Blast Mode for Beelzemon/Beelzebumon
+char_SHINEGREYMON_BM;ШайнГреймон БМ;Шайн Греймон: Взрывной режим;BM = Burst Mode
+char_RAVEMON_BM;Равемон БМ;Равемон: Взрывной режим;BM = Burst Mode
+char_ROSEMON_BM;Роузмон БМ;Роузмон: Взрывной режим;BM = Burst Mode

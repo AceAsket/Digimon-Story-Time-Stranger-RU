@@ -23,6 +23,79 @@ NON_DIGIMON_HINTS = {
     "Dark Shadow",
 }
 
+MODE_RECOMMENDATIONS = {
+    "char_BELPHEMON_RM": (
+        "Бельфемон: Режим ярости",
+        "RM = Rage Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=belphemonragemode",
+    ),
+    "char_BELPHEMON_RM_BIG": (
+        "Бельфемон: Режим ярости",
+        "RM = Rage Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=belphemonragemode",
+    ),
+    "char_CHRONOMON_DESTROY": (
+        "Хрономон: Режим разрушения",
+        "DM = Destroy Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/",
+    ),
+    "char_DUKEMON_CM": (
+        "Дюкмон: Багровый режим",
+        "CM = Crimson Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=dukemoncrimsonmode",
+    ),
+    "char_JUNOMON_HYSTERICMODE": (
+        "Юномон: Истерический режим",
+        "HM = Hysteric Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/",
+    ),
+    "char_JUNOMON_HYSTERICMODE_ADD": (
+        "Юномон: Истерический режим (копья)",
+        "HM = Hysteric Mode. Mode abbreviation expanded; local form suffix preserved.",
+        "https://digimon.net/reference_en/",
+    ),
+    "char_BELPHEMON_SM": (
+        "Бельфемон: Режим сна",
+        "SM = Sleep Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=belphemonsleepmode",
+    ),
+    "char_BELPHEMON_SM_BIG": (
+        "Бельфемон: Режим сна",
+        "SM = Sleep Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=belphemonsleepmode",
+    ),
+    "char_BACCHUSMON_DRUNK": (
+        "Вакхмон: Режим опьянения",
+        "DM = Deisui Mode. Mode abbreviation expanded from Digimon Wiki naming.",
+        "https://digimon.fandom.com/wiki/Bacchusmon_%28Deisui_Mode%29",
+    ),
+    "char_BEELZEMON_BM": (
+        "Вельзевумон: Бласт-режим",
+        "BM = Blast Mode for Beelzemon/Beelzebumon. Not Burst Mode.",
+        "https://digimon.net/reference_en/detail.php?directory_name=beelzebumonblastmode",
+    ),
+    "char_BEELZEMON_BM_BIG": (
+        "Вельзевумон: Бласт-режим",
+        "BM = Blast Mode for Beelzemon/Beelzebumon. Not Burst Mode.",
+        "https://digimon.net/reference_en/detail.php?directory_name=beelzebumonblastmode",
+    ),
+    "char_SHINEGREYMON_BM": (
+        "Шайн Греймон: Взрывной режим",
+        "BM = Burst Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=shinegreymonburstmode",
+    ),
+    "char_RAVEMON_BM": (
+        "Равемон: Взрывной режим",
+        "BM = Burst Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=ravmonburstmode",
+    ),
+    "char_ROSEMON_BM": (
+        "Роузмон: Взрывной режим",
+        "BM = Burst Mode. Mode abbreviation expanded from official English naming.",
+        "https://digimon.net/reference_en/detail.php?directory_name=rosemonburstmode",
+    ),
+}
+
 
 def normalize_suffix(value: str) -> str:
     value = re.sub(r"\s+", " ", value.strip())
@@ -55,7 +128,12 @@ def recommendation_for(row: dict[str, str]) -> dict[str, str]:
     source_url = ""
     confidence = "low"
 
-    if status == "ok":
+    if row["id"] in MODE_RECOMMENDATIONS:
+        recommended, note, source_url = MODE_RECOMMENDATIONS[row["id"]]
+        source_type = "mode_abbreviation_policy"
+        confidence = "medium"
+        action = "apply" if recommended != current else "keep"
+    elif status == "ok":
         confidence = "high"
         note = "Already matches the selected Russian reference."
     elif wiki:
