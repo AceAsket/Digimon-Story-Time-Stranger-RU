@@ -3,7 +3,7 @@ string2 0,string 1
 101,ОС
 102,Ур.
 103,В Группе
-104,В Боксе
+104,Инвентарь
 105,На ферме {d0}
 106,Группа
 107,Бокс
@@ -84,7 +84,7 @@ string2 0,string 1
 703,　
 704,Система
 705,　
-710,Порядок
+710,Настройки
 712,ДигиБанк
 720,Диски навыков
 721,Карты
@@ -111,7 +111,7 @@ string2 0,string 1
 812,По умолчанию
 813,Назад
 814,Закрыть
-1000,Без атрибута
+1000,Пусто
 1001,Игровое Время
 1002,Часов
 1003,Минут
@@ -122,7 +122,7 @@ string2 0,string 1
 1008,Данные {n0}
 1009,Автосохранение
 1010,!
-1011,Без атрибута
+1011,Пусто
 1012,Повреждено
 1013,Данные
 1014,{n0}
@@ -332,7 +332,7 @@ string2 0,string 1
 10070,Доска
 10071,Спешиться
 10072,Изменения характеристик
-10073,Личные навыки
+10073,Личн. навык
 10074,Тип
 10075,Только Ур. 1
 10076,Нет накопительного бонуса
@@ -893,7 +893,7 @@ ui_kizunaskill_0051,{is26}{image(ui_icon_personal01_02)} Сострадание
 ui_kizunaskill_0052,{is26}{image(ui_icon_personal01_03)} Просвещение
 ui_kizunaskill_0053,{is26}{image(ui_icon_personal01_03)} Смущение
 ui_kizunaskill_0054,{is26}{image(ui_icon_personal01_03)} Проницательность
-ui_kizunaskill_0055,{is26}{image(ui_icon_personal01_03)} Стратегичность
+ui_kizunaskill_0055,{is26}{image(ui_icon_personal01_03)} Стратег
 ui_difficulty_name_01,Сюжет
 ui_difficulty_name_02,Сбалансированная
 ui_difficulty_name_03,Сложная
@@ -1093,7 +1093,7 @@ ui_digimonchat_personality_202,{is28}{image(ui_icon_personal01_02)} Общени
 ui_digimonchat_personality_203,{is28}{image(ui_icon_personal01_02)} Дружба
 ui_digimonchat_personality_204,{is28}{image(ui_icon_personal01_02)} Оппортунист
 ui_digimonchat_personality_301,{is28}{image(ui_icon_personal01_03)} Проницательность
-ui_digimonchat_personality_302,{is28}{image(ui_icon_personal01_03)} Стратегический
+ui_digimonchat_personality_302,{is28}{image(ui_icon_personal01_03)} Стратег
 ui_digimonchat_personality_303,{is28}{image(ui_icon_personal01_03)} Просветлённый
 ui_digimonchat_personality_304,{is28}{image(ui_icon_personal01_03)} Хитрый
 ui_evolution_condition_010,Базовый характер дигимона: {d0}

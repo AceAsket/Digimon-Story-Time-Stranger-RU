@@ -113,22 +113,22 @@ namespace DstsRuInstaller
             pathTextBox = new TextBox();
             pathTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right;
             pathTextBox.Location = new Point(23, 219);
-            pathTextBox.Size = new Size(560, 24);
+            pathTextBox.Size = new Size(500, 24);
             Controls.Add(pathTextBox);
 
             browseButton = new Button();
             browseButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             browseButton.Text = "Обзор...";
-            browseButton.Location = new Point(596, 217);
+            browseButton.Location = new Point(536, 217);
             browseButton.Size = new Size(86, 28);
             browseButton.Click += delegate { BrowseForGameDir(); };
             Controls.Add(browseButton);
 
             detectButton = new Button();
             detectButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            detectButton.Text = "Автонайти";
-            detectButton.Location = new Point(690, 217);
-            detectButton.Size = new Size(96, 28);
+            detectButton.Text = "Найти автоматически";
+            detectButton.Location = new Point(630, 217);
+            detectButton.Size = new Size(156, 28);
             detectButton.Click += delegate { DetectGameDir(true); };
             Controls.Add(detectButton);
 

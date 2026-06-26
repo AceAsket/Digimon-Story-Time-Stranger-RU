@@ -28,8 +28,8 @@ blgra_001_4_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Тогда отойд�
 kugul_001_0_char_CRESGARURUMON,char_CRESGARURUMON,"Когда говорят о золотом мечнике,
 они говорят обо мне.",
 kugul_001_1_replay,char_PLAYER_M,Я бы хотел иметь золотой меч!,
-kugul_001_1_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Один только меч победы не гарантирует, и пользоваться им могу только я.
-Делай то, что лучше всего подходит тебе.",
+kugul_001_1_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Один только меч победы не гарантирует, и пользоваться им
+могу только я. Делай то, что лучше всего подходит тебе.",
 kugul_001_2_replay,char_PLAYER_M,Любишь же ты блеск.,
 kugul_001_2_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Эта броня сделана не из золота, а из золотого хромдигизоида.
 Так что назвать её «блестяшкой» было бы неточно.",

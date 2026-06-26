@@ -25,17 +25,17 @@ tutorial_title_Convert_01,Скорость преобразования и ск�
 tutorial_title_Change_01,Боевые и резервные участники
 tutorial_title_Evolution_01,Эволюция и деволюция
 tutorial_title_SkillChange_01,Дополнительные навыки
-tutorial_title_EquipmentChange_01,Оборудование
+tutorial_title_EquipmentChange_01,Снаряжение
 tutorial_title_Personality_01,Типы личности
 tutorial_title_PersonalityChange_01,Изменение типа личности
-tutorial_title_PersonalitySkill_01,Личные навыки
+tutorial_title_PersonalitySkill_01,Личн. навык
 tutorial_title_PersonalitySkillChange_01,Изменение личных навыков
 tutorial_title_DataReturn_01,Возврат Дигимона к данным
 tutorial_title_Synthetic_01,Улучшения нагрузки
 tutorial_title_PartyAegiomon_01,Эгиомон: Четвертый Боевой участник
 tutorial_title_PartyAegiomon_02,Эгиомон: Цифровая революция
-tutorial_title_Friendship_01,Метод цифровой трансформации 3: Связь
-tutorial_title_Talent_01,Техника цифровой революции 1: Талант
+tutorial_title_Friendship_01,Техника эволюции 3: Связь
+tutorial_title_Talent_01,Техника эволюции 1: Талант
 tutorial_title_BondsPoint_01,Очки аномалии
 tutorial_title_BondsSkill_01,Навыки агента
 tutorial_title_AgentLevel_01,Ранг агента
@@ -144,8 +144,8 @@ tutorial_title_WorldView_004,Ваш цифровой сервер
 tutorial_title_WorldView_005,История АДАМАСА
 tutorial_title_Attribute_01,Элементы
 tutorial_title_Factor_01,Трейты
-tutorial_title_EvolutionTechnique_01,Техника декодирования 1: Очки талантов
-tutorial_title_EvolutionTechnique_02,Метод декодирования 2: Точки соединения
+tutorial_title_EvolutionTechnique_01,Техника эволюции 1: Талант
+tutorial_title_EvolutionTechnique_02,Техника эволюции 2: Накопленные статы
 tutorial_title_ActionOrder_01,Порядок хода
 tutorial_title_WeakPointAttack_01,Атаки на слабые места
 tutorial_title_SpecialSkills_01,Специальные навыки
@@ -167,7 +167,7 @@ tutorial_title_AbnormalStatus_05,Храбрый (Изменение статус
 tutorial_title_AbnormalStatus_06,Сильный (Изменение статуса)
 tutorial_title_AbnormalStatus_07,Мужество (Изменение статуса)
 tutorial_title_RushOut_01,Неожиданные встречи
-tutorial_title_Accumulation_01,Метод цифровой трансформации 2: Совокупная статистика
-tutorial_title_EvolutionTechnique_03,Метод декодирования 3: Кумулятивное значение
+tutorial_title_Accumulation_01,Техника эволюции 2: Накопленные статы
+tutorial_title_EvolutionTechnique_03,Техника эволюции 3: Связь
 tutorial_title_AbnormalStatus_08,Типы и последствия Аномалий состояния
 tutorial_title_AbnormalStatus_09,Насмешка (Изменение статуса)
