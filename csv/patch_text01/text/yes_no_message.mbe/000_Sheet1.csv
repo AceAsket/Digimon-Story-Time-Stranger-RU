@@ -205,94 +205,82 @@ yesno_title_0030,"Начать игру с этим именем и внешно
 yesno_systemmenu_0010,"Хотите выйти из игры?
 
 {fc2Примечание: все несохранённые данные будут утеряны.}"
-yesno_dlc_0010,"{pf(You must {fc9purchase an add-on} in order to
-play this Outer Dungeon.
+yesno_dlc_0010,"{pf(Чтобы сыграть во Внешнее подземелье, необходимо {fc9приобрести дополнение}.
 
-Go to PlayStation®Store?
+Перейти в PlayStation®Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/You must {fc9purchase an add-on} in order to
-play this Outer Dungeon.
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Чтобы сыграть во Внешнее подземелье, необходимо {fc9приобрести дополнение}.
 
-Go to Microsoft Store?
+Перейти в Microsoft Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
-play this Outer Dungeon.
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Чтобы сыграть во Внешнее подземелье, требуется {fc9загружаемый контент}.
 
-Go to Nintendo eShop?
+Перейти в Nintendo eShop?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
-play this Outer Dungeon.
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.}/Чтобы сыграть во Внешнее подземелье, требуется {fc9загружаемый контент}.
 
-Go to the Online Store?
+Перейти в интернет-магазин?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.})}"
-yesno_dlc_0020,"{pf(You must {fc9purchase an add-on} in order to
-wear this costume.
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.})}"
+yesno_dlc_0020,"{pf(Чтобы надеть этот костюм, необходимо {fc9приобрести дополнение}.
 
-Go to PlayStation®Store?
+Перейти в PlayStation®Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/You must {fc9purchase an add-on} in order to
-wear this costume.
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Чтобы надеть этот костюм, необходимо {fc9приобрести дополнение}.
 
-Go to Microsoft Store?
+Перейти в Microsoft Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
-wear this costume.
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Чтобы надеть этот костюм, требуется {fc9загружаемый контент}.
 
-Go to Nintendo eShop?
+Перейти в Nintendo eShop?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
-wear this costume.
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.}/Чтобы надеть этот костюм, требуется {fc9загружаемый контент}.
 
-Go to the Online Store?
+Перейти в интернет-магазин?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.})}"
-yesno_dlc_0030,"{pf(You must {fc9purchase an add-on} in order to
-select this music.
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.})}"
+yesno_dlc_0030,"{pf(Чтобы выбрать эту музыку, необходимо {fc9приобрести дополнение}.
 
-Go to PlayStation®Store?
+Перейти в PlayStation®Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/You must {fc9purchase an add-on} in order to
-select this music.
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Чтобы выбрать эту музыку, необходимо {fc9приобрести дополнение}.
 
-Go to Microsoft Store?
+Перейти в Microsoft Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
-select this music.
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Чтобы выбрать эту музыку, требуется {fc9загружаемый контент}.
 
-Go to Nintendo eShop?
+Перейти в Nintendo eShop?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.}/You must {fc9purchase downloadable content} in order to
-select this music.
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.}/Чтобы выбрать эту музыку, требуется {fc9загружаемый контент}.
 
-Go to the Online Store?
+Перейти в интернет-магазин?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.})}"
-yesno_dlc_0040,"{pf(Go to PlayStation®Store?
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.})}"
+yesno_dlc_0040,"{pf(Перейти в PlayStation®Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/Go to Microsoft Store?
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Перейти в Microsoft Store?
 
-{fc9Note: Purchased add-ons will not be activated
-until you return to the title screen.}/Go to Nintendo eShop?
+{fc9Примечание: приобретённые дополнения будут активированы
+только после возврата на титульный экран.}/Перейти в Nintendo eShop?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.}/Go to the Online Store?
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.}/Перейти в интернет-магазин?
 
-{fc9Note: Purchased downloadable content will not be activated
-until you return to the title screen.})}"
+{fc9Примечание: приобретённый загружаемый контент будет активирован
+только после возврата на титульный экран.})}"
 yesno_digimonselect_0010,Выбрать {fc9{d0}} дигимоном-партнёром?
 yesno_unequip_0010,"Снять все диски навыков и снаряжение
 с дигимонов в ящике и на ферме?
