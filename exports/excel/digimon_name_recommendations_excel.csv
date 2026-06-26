@@ -1,0 +1,572 @@
+﻿sep=;
+#;id;english_name;current_ru;recommended_ru;action;compare_status;wiki_page;source_type;source_url;confidence;note
+1;char_EX-TYRANOMON;ExTyrannomon;Экс-Тираномон;Экс-Тираномон;keep;ok;Ex-Tyranomon;local_current;;high;Already matches the selected Russian reference.
+2;char_LUNAMON;Lunamon;Лунамон;Лунамон;keep;ok;Lunamon;local_current;;high;Already matches the selected Russian reference.
+3;char_LEKISMON;Lekismon;Лексимон;Лексимон;keep;ok;Lekismon;local_current;;high;Already matches the selected Russian reference.
+4;char_CRESCEMON;Crescemon;Крескемон;Крескемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+5;char_GOLEMON;Golemon;Големон;Големон;keep;ok;Golemon;local_current;;high;Already matches the selected Russian reference.
+6;char_SKULLSATAMON;SkullSatamon;Скалл Сатамон;Скалл Сатамон;keep;ok;Skull Satamon;local_current;;high;Already matches the selected Russian reference.
+7;char_HAGURUMON;Hagurumon;Хагурумон;Хагурумон;keep;ok;Hagurumon;local_current;;high;Already matches the selected Russian reference.
+8;char_MERAMON;Meramon;Мерамон;Мерамон;keep;ok;Meramon;local_current;;high;Already matches the selected Russian reference.
+9;char_AIRDRAMON;Airdramon;Эйрдрамон;Эйрдрамон;keep;ok;Airdramon;local_current;;high;Already matches the selected Russian reference.
+10;char_GARURUMON;Garurumon;Гарурумон;Гарурумон;keep;ok;Garurumon;local_current;;high;Already matches the selected Russian reference.
+11;char_BAKEMON;Bakemon;Бакэмон;Бакэмон;keep;ok;Bakemon;local_current;;high;Already matches the selected Russian reference.
+12;char_STARMON;Starmon;Стармон;Стармон;keep;ok;Starmon;local_current;;high;Already matches the selected Russian reference.
+13;char_AQUILAMON;Aquilamon;Аквиламон;Аквиламон;keep;ok;Aquilamon;local_current;;high;Already matches the selected Russian reference.
+14;char_STRIKEDRAMON;Strikedramon;Страйкдрамон;Страйкдрамон;keep;ok;Strikedramon;local_current;;high;Already matches the selected Russian reference.
+15;char_MINOTAURMON;Minotarumon;Минотарумон;Минотарумон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+16;char_DORUGORAMON;Dorugoramon;ДОРУгорамон;ДОРУгорамон;keep;ok;DORUgoramon;local_current;;high;Already matches the selected Russian reference.
+17;char_TYUMON;Chuumon;Тюмон;Тюмон;keep;ok;Tyumon;local_current;;high;Already matches the selected Russian reference.
+18;char_WHAMON;Whamon;Уэмон;Уэмон;keep;ok;Whamon;local_current;;high;Already matches the selected Russian reference.
+19;char_DINOBEEMON;Dinobeemon;Динобимон;Динобимон;keep;ok;Dinobeemon;local_current;;high;Already matches the selected Russian reference.
+20;char_MARINEANGEMON;MarineAngemon;Маринангемон;Маринангемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+21;char_RAPTORDRAMON;Raptordramon;Раптордрамон;Раптордрамон;keep;ok;Raptordramon;local_current;;high;Already matches the selected Russian reference.
+22;char_GRADEMON;Grademon;Градемон;Градемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+23;char_WARGREYMON;WarGreymon;Вор Греймон;Вор Греймон;keep;ok;War Greymon;local_current;;high;Already matches the selected Russian reference.
+24;char_BIGMAMEMON;BigMamemon;Биг Мамемон;Биг Мамемон;keep;ok;Big Mamemon;local_current;;high;Already matches the selected Russian reference.
+25;char_SANGLOUPMON;Sangloupmon;Сулюпмон;Сулюпмон;keep;ok;Sangloupmon;local_current;;high;Already matches the selected Russian reference.
+26;char_MATADRMON;Matadormon;Матадормон;Матадормон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+27;char_GRANDDRACUMON;GranDracmon;Гранд Дракумон;Гранд Дракумон;keep;ok;Grand Dracumon;local_current;;high;Already matches the selected Russian reference.
+28;char_TRICERAMON;Triceramon;Трицерамон;Трицерамон;keep;ok;Triceramon;local_current;;high;Already matches the selected Russian reference.
+29;char_LILITHMON;Lilithmon;Лилитмон;Лилитмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+30;char_BEELZEBUMON;Beelzemon;Вельзевумон;Вельзевумон;keep;ok;Beelzebumon;local_current;;high;Already matches the selected Russian reference.
+31;char_BARBAMON;Barbamon;Барбамон;Барбамон;keep;ok;Barbamon;local_current;;high;Already matches the selected Russian reference.
+32;char_BARBAMON_BIG;Barbamon;Барбамон;Барбамон;keep;ok;Barbamon;local_current;;high;Already matches the selected Russian reference.
+33;char_LEVIAMON;Leviamon;Левиамон;Левиамон;keep;ok;Leviamon;local_current;;high;Already matches the selected Russian reference.
+34;char_LEVIAMON_BIG;Leviamon;Левиамон;Левиамон;keep;ok;Leviamon;local_current;;high;Already matches the selected Russian reference.
+35;char_DEMON;Creepymon;Демон;Демон;keep;ok;Demon;local_current;;high;Already matches the selected Russian reference.
+36;char_DEMON_BIG;Creepymon;Демон;Демон;keep;ok;Demon;local_current;;high;Already matches the selected Russian reference.
+37;char_LUCEMON_FM;Lucemon CM;Люцимон: Падший режим;Люцимон: Падший режим;keep;ok;Lucemon: Falldown Mode;local_current;;high;Already matches the selected Russian reference.
+38;char_BELPHEMON_RM;Belphemon RM;Бельфемон РМ;Бельфемон РМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+39;char_BELPHEMON_RM_BIG;Belphemon RM;Бельфемон РМ;Бельфемон РМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+40;char_PANDAMON;Pandamon;Пандамон;Пандамон;keep;ok;Pandamon;local_current;;high;Already matches the selected Russian reference.
+41;char_FUNBEEMON;FunBeemon;Фанбимон;Фанбимон;keep;ok;Funbeemon;local_current;;high;Already matches the selected Russian reference.
+42;char_BLACKTAILMON;BlackGatomon;Блэк Теилмон;Блэк Теилмон;keep;ok;Black Tailmon;local_current;;high;Already matches the selected Russian reference.
+43;char_CATCHMAMEMON;CatchMamemon;КатчМамаемон;КатчМамаемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+44;char_CHRONOMON;Chronomon HM;Хрономон в священном режиме;Хрономон в священном режиме;keep;ok;Chronomon Holy Mode;local_current;;high;Already matches the selected Russian reference.
+45;char_CHRONOMON_DESTROY;Chronomon DM;Хрономон DM;Хрономон DM;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+46;char_MEGIDRAMON;Megidramon;Мегидрамон;Мегидрамон;keep;ok;Megidramon;local_current;;high;Already matches the selected Russian reference.
+47;char_MEGIDRAMON_BIG;Megidramon;Мегидрамон;Мегидрамон;keep;ok;Megidramon;local_current;;high;Already matches the selected Russian reference.
+48;char_GODDRAMON;Goldramon;Годдрамон;Годдрамон;keep;ok;Goddramon;local_current;;high;Already matches the selected Russian reference.
+49;char_BANCHOLEOMON;BanchoLeomon;БанхоЛеомон;БанхоЛеомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+50;char_AGUMON;Agumon;Агумон;Агумон;keep;ok;Agumon;local_current;;high;Already matches the selected Russian reference.
+51;char_GAWAPPAMON;Gawappamon;Гаваппамон;Гаваппамон;keep;ok;Gawappamon;local_current;;high;Already matches the selected Russian reference.
+52;char_KAMEMON;Kamemon;Камемон;Камемон;keep;ok;Kamemon;local_current;;high;Already matches the selected Russian reference.
+53;char_KUDAMON;Kudamon;Кудамон;Кудамон;keep;ok;Kudamon;local_current;;high;Already matches the selected Russian reference.
+54;char_GEOGREYMON;GeoGreymon;Гео Греймон;Гео Греймон;keep;ok;Geo Greymon;local_current;;high;Already matches the selected Russian reference.
+55;char_GAOMON;Gaomon;Гаомон;Гаомон;keep;ok;Gaomon;local_current;;high;Already matches the selected Russian reference.
+56;char_LALAMON;Lalamon;Лаламон;Лаламон;keep;ok;Lalamon;local_current;;high;Already matches the selected Russian reference.
+57;char_ROSEMON;Rosemon;Роузмон;Роузмон;keep;ok;Rosemon;local_current;;high;Already matches the selected Russian reference.
+58;char_SUNFLOWMON;Sunflowmon;Санфлаумон;Санфлаумон;keep;ok;Sunflowmon;local_current;;high;Already matches the selected Russian reference.
+59;char_VOLCAMON;Volcanomon;Волканомон;Волканомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+60;char_PILEVOLCAMON;PileVolcanomon;ПилеВолканомон;ПилеВолканомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+61;char_MONZAEMON;Monzaemon;Мондзаэмон;Мондзаэмон;keep;ok;Monzaemon;local_current;;high;Already matches the selected Russian reference.
+62;char_GAOGAMON;Gaogamon;Гаогамон;Гаогамон;keep;ok;Gaogamon;local_current;;high;Already matches the selected Russian reference.
+63;char_PLATINUMNUMEMON;PlatinumNumemon;ПлатинаНумемон;ПлатинаНумемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+64;char_NUMEMON;Numemon;Нумемон;Нумемон;keep;ok;Numemon;local_current;;high;Already matches the selected Russian reference.
+65;char_RIZEGREYMON;RizeGreymon;Райз Греймон;Райз Греймон;keep;ok;Rize Greymon;local_current;;high;Already matches the selected Russian reference.
+66;char_LEOMON;Leomon;Леомон;Леомон;keep;ok;Leomon;local_current;;high;Already matches the selected Russian reference.
+67;char_LILAMON;Lilamon;Лиламон;Лиламон;keep;ok;Lilamon;local_current;;high;Already matches the selected Russian reference.
+68;char_MACHGAOGAMON;MachGaogamon;Мах Гаогамон;Мах Гаогамон;keep;ok;Mach Gaogamon;local_current;;high;Already matches the selected Russian reference.
+69;char_NEPTUNEMON;Neptunemon;Нептунмон;Нептунмон;keep;ok;Neptunemon;local_current;;high;Already matches the selected Russian reference.
+70;char_SHAWUJINMON;Shaujinmon;Шауджинмон;Шауджинмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+71;char_REPPAMON;Reppamon;Реппамон;Реппамон;keep;ok;Reppamon;local_current;;high;Already matches the selected Russian reference.
+72;char_GROWMON;Growlmon;Граумон;Граумон;keep;ok;Growmon;local_current;;high;Already matches the selected Russian reference.
+73;char_SUPERSTARMON;SuperStarmon;Суперстармон;Суперстармон;keep;ok;Superstarmon;local_current;;high;Already matches the selected Russian reference.
+74;char_MERCURYMON;Merukimon;Мерукимон;Мерукимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+75;char_IMPMON;Impmon;Импмон;Импмон;keep;ok;Impmon;local_current;;high;Already matches the selected Russian reference.
+76;char_HIPPOGRIFFOMON;HippoGryphonmon;Гиппогрифомон;Гиппогрифомон;keep;ok;Hippogriffomon;local_current;;high;Already matches the selected Russian reference.
+77;char_GRIFFOMON;Gryphonmon;Гриффомон;Гриффомон;keep;ok;Griffomon;local_current;;high;Already matches the selected Russian reference.
+78;char_TYILINMON;Chirinmon;Цилиньмон;Цилиньмон;keep;ok;Tyilinmon;local_current;;high;Already matches the selected Russian reference.
+79;char_VAMDEMON;Myotismon;Вамдемон;Вамдемон;keep;ok;Vamdemon;local_current;;high;Already matches the selected Russian reference.
+80;char_SLEIPMON;Kentaurosmon;Слейпмон;Слейпмон;keep;ok;Sleipmon;local_current;;high;Already matches the selected Russian reference.
+81;char_SLEIPMON_BIG;Kentaurosmon;Слейпмон;Слейпмон;keep;ok;Sleipmon;local_current;;high;Already matches the selected Russian reference.
+82;char_ANGEMON;Angemon;Ангемон;Ангемон;keep;ok;Angemon;local_current;;high;Already matches the selected Russian reference.
+83;char_OMEGAMON;Omnimon;Омегамон;Омегамон;keep;ok;Omegamon;local_current;;high;Already matches the selected Russian reference.
+84;char_GUILMON;Guilmon;Гилмон;Гилмон;keep;ok;Guilmon;local_current;;high;Already matches the selected Russian reference.
+85;char_STINGMON;Stingmon;Стингмон;Стингмон;keep;ok;Stingmon;local_current;;high;Already matches the selected Russian reference.
+86;char_TAILMON;Gatomon;Тейлмон;Тейлмон;keep;ok;Tailmon;local_current;;high;Already matches the selected Russian reference.
+87;char_DEVIMON;Devimon;Девимон;Девимон;keep;ok;Devimon;local_current;;high;Already matches the selected Russian reference.
+88;char_SHINEGREYMON;ShineGreymon;Шайн Греймон;Шайн Греймон;keep;ok;Shine Greymon;local_current;;high;Already matches the selected Russian reference.
+89;char_SHINEGREYMON_BIG;ShineGreymon;Шайн Греймон;Шайн Греймон;keep;ok;Shine Greymon;local_current;;high;Already matches the selected Russian reference.
+90;char_MIRAGEGAOGAMON;MirageGaogamon;Мираж Гаогамон;Мираж Гаогамон;keep;ok;Mirage Gaogamon;local_current;;high;Already matches the selected Russian reference.
+91;char_PATAMON;Patamon;Патамон;Патамон;keep;ok;Patamon;local_current;;high;Already matches the selected Russian reference.
+92;char_PICODEVIMON;DemiDevimon;Пико Девимон;Пико Девимон;keep;ok;Pico Devimon;local_current;;high;Already matches the selected Russian reference.
+93;char_JUMBOGAMEMON;JumboGamemon;ДжамбоГамемон;ДжамбоГамемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+94;char_WENDIMON;Wendigomon;Вендимон;Вендимон;keep;ok;Wendimon;local_current;;high;Already matches the selected Russian reference.
+95;char_HOLYANGEMON;MagnaAngemon;Холи Ангемон;Холи Ангемон;keep;ok;Holy Angemon;local_current;;high;Already matches the selected Russian reference.
+96;char_TURUIEMON;Turuiemon;Туруйемон;Туруйемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+97;char_GANIMON;Crabmon;Ганимон;Ганимон;keep;ok;Ganimon;local_current;;high;Already matches the selected Russian reference.
+98;char_SUSANOOMON;Susanomon;Сусаноомон;Сусаноомон;keep;ok;Susanoomon;local_current;;high;Already matches the selected Russian reference.
+99;char_DUKEMON_CM;Gallantmon CM;Галантмон СМ;Галантмон СМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+100;char_ARMAGEMON;Armageddemon;Армагемон;Армагемон;keep;ok;Armagemon;local_current;;high;Already matches the selected Russian reference.
+101;char_LADYDEVIMON;LadyDevimon;Леди Девимон;Леди Девимон;keep;ok;Lady Devimon;local_current;;high;Already matches the selected Russian reference.
+102;char_GOBURIMON;Goblimon;Гобуримон;Гобуримон;keep;ok;Goburimon;local_current;;high;Already matches the selected Russian reference.
+103;char_DORUMON;Dorumon;Дорумон;Дорумон;keep;ok;DORUmon;local_current;;high;Already matches the selected Russian reference.
+104;char_GOLDNUMEMON;GoldNumemon;ГолдНумемон;ГолдНумемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+105;char_V-MON;Veemon;Ви-мон;Ви-мон;keep;ok;V-mon;local_current;;high;Already matches the selected Russian reference.
+106;char_BAOHUCKMON;BaoHuckmon;Бао Хакмон;Бао Хакмон;keep;ok;Bao Huckmon;local_current;;high;Already matches the selected Russian reference.
+107;char_SAVIORHUCKMON;SaviorHuckmon;Сэйвиор Хакмон;Сэйвиор Хакмон;keep;ok;Savior Huckmon;local_current;;high;Already matches the selected Russian reference.
+108;char_VALDURMON;Varodurumon;Вальдурмон;Вальдурмон;keep;ok;Valdurmon;local_current;;high;Already matches the selected Russian reference.
+109;char_CHAOSMONVALDURARM;Chaosmon: Valdur Arm;Хаосмон: Рука Валдура;Хаосмон: Рука Валдура;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+110;char_DUKEMON;Gallantmon;Дюкмон;Дюкмон;keep;ok;Dukemon;local_current;;high;Already matches the selected Russian reference.
+111;char_DUKEMON_BIG;Gallantmon;Дюкмон;Дюкмон;keep;ok;Dukemon;local_current;;high;Already matches the selected Russian reference.
+112;char_KINGETEMON;KingEtemon;КингЕтемон;КингЕтемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+113;char_TYRANTKABUTERIMON;TyrantKabuterimon;Тиран Кабутеримон;Тиран Кабутеримон;keep;ok;Tyrant Kabuterimon;local_current;;high;Already matches the selected Russian reference.
+114;char_TYRANTKABUTERIMON_BIG;TyrantKabuterimon;Тиран Кабутеримон;Тиран Кабутеримон;keep;ok;Tyrant Kabuterimon;local_current;;high;Already matches the selected Russian reference.
+115;char_DAGOMON;Dragomon;Дагомон;Дагомон;keep;ok;Dagomon;local_current;;high;Already matches the selected Russian reference.
+116;char_COELAMON;Coelamon;Целамон;Целамон;keep;ok;Coelamon;local_current;;high;Already matches the selected Russian reference.
+117;char_MEGASEADRAMON;MegaSeadramon;Мега Сидрамон;Мега Сидрамон;keep;ok;Mega Seadramon;local_current;;high;Already matches the selected Russian reference.
+118;char_WARUSEADRAMON;WaruSeadramon;ВарСидрамон;ВарСидрамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+119;char_MEGAGROWLMON;WarGrowlmon;Мегало Граумон;Мегало Граумон;keep;ok;Megalo Growmon;local_current;;high;Already matches the selected Russian reference.
+120;char_METALGARURUMON;MetalGarurumon;Метал Гарурумон;Метал Гарурумон;keep;ok;Metal Garurumon;local_current;;high;Already matches the selected Russian reference.
+121;char_CORONAMON;Coronamon;Коронамон;Коронамон;keep;ok;Coronamon;local_current;;high;Already matches the selected Russian reference.
+122;char_FIRAMON;Firamon;Фирамон;Фирамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+123;char_FLAREMON;Flaremon;Флэремон;Флэремон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+124;char_LIGHDRAMON;Lighdramon;Лайдрамон;Лайдрамон;keep;ok;Lighdramon;local_current;;high;Already matches the selected Russian reference.
+125;char_WEREGARURUMON;WereGarurumon;ВерГарурумон;ВерГарурумон;keep;ok;Were Garurumon;local_current;;high;Already matches the selected Russian reference.
+126;char_HOLSMON;Halsemon;Холсмон;Холсмон;keep;ok;Holsmon;local_current;;high;Already matches the selected Russian reference.
+127;char_SHURIMON;Shurimon;Сюримон;Сюримон;keep;ok;Shurimon;local_current;;high;Already matches the selected Russian reference.
+128;char_DIGMON;Digmon;Дигмон;Дигмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+129;char_SABMARIMON;Submarimon;Субмаримон;Субмаримон;keep;ok;Submarimon;local_current;;high;Already matches the selected Russian reference.
+130;char_PEGASMON;Pegasusmon;Пегасмон;Пегасмон;keep;ok;Pegasmon;local_current;;high;Already matches the selected Russian reference.
+131;char_NEFERTIMON;Nefertimon;Нефертимон;Нефертимон;keep;ok;Nefertimon;local_current;;high;Already matches the selected Russian reference.
+132;char_ANGEWOMON;Angewomon;Ангевумон;Ангевумон;keep;ok;Angewomon;local_current;;high;Already matches the selected Russian reference.
+133;char_OROCHIMON;Orochimon;Оротимон;Оротимон;keep;ok;Orochimon;local_current;;high;Already matches the selected Russian reference.
+134;char_CHAOSDUKEMON;ChaosGallantmon;ХаосГаллантмон;ХаосГаллантмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+135;char_GABUMON;Gabumon;Габумон;Габумон;keep;ok;Gabumon;local_current;;high;Already matches the selected Russian reference.
+136;char_RANAMON;Lanamon;Ранамон;Ранамон;keep;ok;Ranamon;local_current;;high;Already matches the selected Russian reference.
+137;char_CALAMARAMON;Calmaramon;Кальмарамон;Кальмарамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+138;char_CALAMARAMON_ADD;Calmaramon (Mantle);Кальмарамон (Мантия);Кальмарамон (Мантия);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+139;char_JUPITERMON;Jupitermon;Юпитермон;Юпитермон;keep;ok;Jupitermon;local_current;;high;Already matches the selected Russian reference.
+140;char_JUPITERMON_WRATHMODE;Jupitermon WM;Юпитермон: Режим гнева;Юпитермон: Режим гнева;keep;ok;Jupitermon: Wrath Mode;local_current;;high;Already matches the selected Russian reference.
+141;char_JUPITERMON_WRATHMODE_SUB;Jupitermon: Wrath Mode;Юпитермон: Режим гнева;Юпитермон: Режим гнева;keep;ok;Jupitermon: Wrath Mode;local_current;;high;Already matches the selected Russian reference.
+142;char_JUNOMON;Junomon;Юномон;Юномон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+143;char_JUNOMON_HYSTERICMODE;Junomon HM;Юномон , ХМ;Юномон , ХМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+144;char_JUNOMON_HYSTERICMODE_ADD;Junomon HM (Lances);Юномон ХМ (Копья);Юномон ХМ (Копья);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+145;char_VENUSMON;Venusmon;Венусмон;Венусмон;keep;ok;Venusmon;local_current;;high;Already matches the selected Russian reference.
+146;char_APOLLOMON;Apollomon;Аполломон;Аполломон;keep;ok;Apollomon;local_current;;high;Already matches the selected Russian reference.
+147;char_APOLLOMON_ADD;Apollomon (Flame Sphere);Аполломон (огненная сфера);Аполломон (огненная сфера);keep;different;Apollomon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Apollomon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+148;char_MARSMON;Marsmon;Марсмон;Марсмон;keep;ok;Marsmon;local_current;;high;Already matches the selected Russian reference.
+149;char_CERESMON;Ceresmon;Церемон;Церемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+150;char_BLUEMERAMON;BlueMeramon;Блю Мерамон;Блю Мерамон;keep;ok;Blue Meramon;local_current;;high;Already matches the selected Russian reference.
+151;char_VULCANUSMON;Vulcanusmon;Вулканусмон;Вулканусмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+152;char_VULCANUSMON_BIG;Vulcanusmon;Вулканусмон;Вулканусмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+153;char_VULCANUSMON_GUEST_BIG;Vulcanusmon;Вулканусмон;Вулканусмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+154;char_BACCHUSMON;Bacchusmon;Вакхмон;Вакхмон;keep;ok;Bacchusmon;local_current;;high;Already matches the selected Russian reference.
+155;char_PLUTOMON;Plutomon;Плутомон;Плутомон;keep;ok;Plutomon;local_current;;high;Already matches the selected Russian reference.
+156;char_MERVAMON;Mervamon;Мервамон;Мервамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+157;char_AEGIOMON;Aegiomon;Эгиомон;Эгиомон;keep;ok;Aegiomon;local_current;;high;Already matches the selected Russian reference.
+158;char_AEGIOMON_PLAIN_CLOTHES;Aegiomon (Street Clothes);Эгиомон (уличная одежда);Эгиомон (уличная одежда);keep;different;Aegiomon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Aegiomon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+159;char_AEGIOMON_NO_CAP;Aegiomon (Hatless Street Clothes);Эгиомон (уличная одежда без головного убора);Эгиомон (уличная одежда без головного убора);keep;different;Aegiomon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Aegiomon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+160;char_AEGIOCHUSMON;Aegiochusmon;Эгиохмон;Эгиохмон;keep;ok;Aegiochusmon;local_current;;high;Already matches the selected Russian reference.
+161;char_AEGIOCHUSMON_DARK;Aegiochusmon: Dark;Эгиохмон: Тёмный;Эгиохмон: Тёмный;keep;ok;Aegiochusmon: Dark;local_current;;high;Already matches the selected Russian reference.
+162;char_AEGIOCHUSMON_HOLLY;Aegiochusmon: Holy;Эгиохмон: Святой;Эгиохмон: Святой;keep;ok;Aegiochusmon: Holy;local_current;;high;Already matches the selected Russian reference.
+163;char_AEGIOCHUSMON_BLUE;Aegiochusmon: Blue;Эгиохмон: Синий;Эгиохмон: Синий;keep;ok;Aegiochusmon: Blue;local_current;;high;Already matches the selected Russian reference.
+164;char_AEGIOCHUSMON_GREEN;Aegiochusmon: Green;Эгиохмон: Зелёный;Эгиохмон: Зелёный;keep;ok;Aegiochusmon: Green;local_current;;high;Already matches the selected Russian reference.
+165;char_CERESMON_MEDIUM;Ceresmon Medium;Сересмон Медиум;Сересмон Медиум;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+166;char_RYUDAMON;Ryudamon;Рюдамон;Рюдамон;keep;ok;Ryudamon;local_current;;high;Already matches the selected Russian reference.
+167;char_GINRYUMON;Ginryumon;Джинрюмон;Джинрюмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+168;char_HISYARYUMON;Hisyaryumon;Хисьярюмон;Хисьярюмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+169;char_OURYUMON;Ouryumon;Оурюмон;Оурюмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+170;char_GUNDRAMON;Gundramon;Гандрамон;Гандрамон;keep;ok;Gundramon;local_current;;high;Already matches the selected Russian reference.
+171;char_GUNDRAMON_BIG;Gundramon;Гандрамон;Гандрамон;keep;ok;Gundramon;local_current;;high;Already matches the selected Russian reference.
+172;char_BEELSTARMON;BeelStarmon;Вель Стармон;Вель Стармон;keep;ok;Beel Starmon;local_current;;high;Already matches the selected Russian reference.
+173;char_PUKUMON;Pukumon;Пукумон;Пукумон;keep;ok;Pukumon;local_current;;high;Already matches the selected Russian reference.
+174;char_CROSSMON;Eaglemon;Кроссмон;Кроссмон;keep;ok;Crossmon;local_current;;high;Already matches the selected Russian reference.
+175;char_LOCOMON;Locomon;Локомон;Локомон;keep;ok;Locomon;local_current;;high;Already matches the selected Russian reference.
+176;char_ARCHNEMON;Arukenimon;Арукенимон;Арукенимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+177;char_DRACOMON;Dracomon;Дракомон;Дракомон;keep;ok;Dracomon;local_current;;high;Already matches the selected Russian reference.
+178;char_COREDRAMON_GR;Coredramon (Green);Кордрамон (Зелёный);Кордрамон (Зелёный);keep;ok;Coredramon (Green);local_current;;high;Already matches the selected Russian reference.
+179;char_WINGDRAMON;Wingdramon;Вингдрамон;Вингдрамон;keep;ok;Wingdramon;local_current;;high;Already matches the selected Russian reference.
+180;char_GROUNDRAMON;Groundramon;Граундрамон;Граундрамон;keep;ok;Groundramon;local_current;;high;Already matches the selected Russian reference.
+181;char_SLAYERDRAMON;Slayerdramon;Слейердрамон;Слейердрамон;keep;ok;Slayerdramon;local_current;;high;Already matches the selected Russian reference.
+182;char_BREAKDRAMON;Breakdramon;Брейкдрамон;Брейкдрамон;keep;ok;Breakdramon;local_current;;high;Already matches the selected Russian reference.
+183;char_BREAKDRAMON_BIG;Breakdramon;Брейкдрамон;Брейкдрамон;keep;ok;Breakdramon;local_current;;high;Already matches the selected Russian reference.
+184;char_EXAMON;Examon;Эксамон;Эксамон;keep;ok;Examon;local_current;;high;Already matches the selected Russian reference.
+185;char_EXAMON_SMALL;Examon;Эксамон;Эксамон;keep;ok;Examon;local_current;;high;Already matches the selected Russian reference.
+186;char_EXAMON_BIG;Examon;Эксамон;Эксамон;keep;ok;Examon;local_current;;high;Already matches the selected Russian reference.
+187;char_DARKSUPERSTARMON;DarkSuperStarmon;Дарк Суперстармон;Дарк Суперстармон;keep;ok;Dark Superstarmon;local_current;;high;Already matches the selected Russian reference.
+188;char_COREDRAMON_BL;Coredramon (Blue);Кордрамон (Синий);Кордрамон (Синий);keep;ok;Coredramon (Blue);local_current;;high;Already matches the selected Russian reference.
+189;char_KOTEMON;Kotemon;Котэмон;Котэмон;keep;ok;Kotemon;local_current;;high;Already matches the selected Russian reference.
+190;char_MUSYAMON;Musyamon;Мусямон;Мусямон;keep;ok;Musyamon;local_current;;high;Already matches the selected Russian reference.
+191;char_DOBERMON;Dobermon;Добермон;Добермон;keep;ok;Dobermon;local_current;;high;Already matches the selected Russian reference.
+192;char_CERBERUMON;Cerberusmon;Церберумон;Церберумон;keep;ok;Cerberumon;local_current;;high;Already matches the selected Russian reference.
+193;char_CERBERUMON_WEREWOLFMODE;Cerberusmon WM;Церберумон: режим оборотня;Церберумон: режим оборотня;keep;ok;Cerberumon: Werewolf Mode;local_current;;high;Already matches the selected Russian reference.
+194;char_ZANBAMON;Zanbamon;Дзанбамон;Дзанбамон;keep;ok;Zanbamon;local_current;;high;Already matches the selected Russian reference.
+195;char_ZANBAMON_BIG;Zanbamon;Дзанбамон;Дзанбамон;keep;ok;Zanbamon;local_current;;high;Already matches the selected Russian reference.
+196;char_MUMMYMON;Mummymon;Мумимон;Мумимон;keep;ok;Mummymon;local_current;;high;Already matches the selected Russian reference.
+197;char_PHARAOHMON;Pharaohmon;Фараомон;Фараомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+198;char_PHARAOHMON_BIG;Pharaohmon;Фараомон;Фараомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+199;char_DELTAMON;Deltamon;Дельтамон;Дельтамон;keep;ok;Deltamon;local_current;;high;Already matches the selected Russian reference.
+200;char_CHIMAIRAMON;Kimeramon;Химерамон;Химерамон;keep;ok;Chimairamon;local_current;;high;Already matches the selected Russian reference.
+201;char_MILLENNIUMON;Millenniummon;Милленниумон;Милленниумон;keep;ok;Millenniumon;local_current;;high;Already matches the selected Russian reference.
+202;char_MILLENNIUMON_BIG;Millenniummon;Милленниумон;Милленниумон;keep;ok;Millenniumon;local_current;;high;Already matches the selected Russian reference.
+203;char_BAKUMON;Tapirmon;Бакумон;Бакумон;keep;ok;Bakumon;local_current;;high;Already matches the selected Russian reference.
+204;char_SIRENMON;Sirenmon;Сиренмон;Сиренмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+205;char_BELIALVAMDEMON;MaloMyotismon;Маломиотизмон;Маломиотизмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+206;char_BEARMON;Bearmon;Бермон;Бермон;keep;ok;Bearmon;local_current;;high;Already matches the selected Russian reference.
+207;char_GRYZMON;Grizzlymon;Гризмон;Гризмон;keep;ok;Gryzmon;local_current;;high;Already matches the selected Russian reference.
+208;char_ASTAMON;Astamon;Астамон;Астамон;keep;ok;Astamon;local_current;;high;Already matches the selected Russian reference.
+209;char_SKULLBALUCHIMON;SkullBaluchimon;Скалл Балухимон;Скалл Балухимон;keep;ok;Skull Baluchimon;local_current;;high;Already matches the selected Russian reference.
+210;char_OCTMON;Octomon;Октомон;Октомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+211;char_CHOROMON;Choromon;Торомон;Торомон;keep;ok;Choromon;local_current;;high;Already matches the selected Russian reference.
+212;char_CAPROMON;Kapurimon;Капримон;Капримон;keep;ok;Caprimon;local_current;;high;Already matches the selected Russian reference.
+213;char_MEGADRAMON;Megadramon;Мегадрамон;Мегадрамон;keep;ok;Megadramon;local_current;;high;Already matches the selected Russian reference.
+214;char_METALGREYMON;MetalGreymon;Металл Греймон;Металл Греймон;keep;ok;Metal Greymon;local_current;;high;Already matches the selected Russian reference.
+215;char_TENTOMON;Tentomon;Тентомон;Тентомон;keep;ok;Tentomon;local_current;;high;Already matches the selected Russian reference.
+216;char_KABUTERIMON;Kabuterimon;Кабутеримон;Кабутеримон;keep;ok;Kabuterimon;local_current;;high;Already matches the selected Russian reference.
+217;char_ATLURKABUTERIMON;MegaKabuterimon;МегаКабутеримон;МегаКабутеримон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+218;char_HERCULESKABUTERIMON;HerculesKabuterimon;ГеркулесКабутеримон;ГеркулесКабутеримон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+219;char_HERCULESKABUTERIMON_BIG;HerculesKabuterimon;ГеркулесКабутеримон;ГеркулесКабутеримон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+220;char_PIYOMON;Biyomon;Пиёмон;Пиёмон;keep;ok;Piyomon;local_current;;high;Already matches the selected Russian reference.
+221;char_BIRDRAMON;Birdramon;Бёрдрамон;Бёрдрамон;keep;ok;Birdramon;local_current;;high;Already matches the selected Russian reference.
+222;char_GARUDAMON;Garudamon;Гарудамон;Гарудамон;keep;ok;Garudamon;local_current;;high;Already matches the selected Russian reference.
+223;char_HOUOUMON;Phoenixmon;Фениксмон;Фениксмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+224;char_ETEMON;Etemon;Этемон;Этемон;keep;ok;Etemon;local_current;;high;Already matches the selected Russian reference.
+225;char_METALETEMON;MetalEtemon;Металл Этемон;Металл Этемон;keep;ok;Metal Etemon;local_current;;high;Already matches the selected Russian reference.
+226;char_SUKAMON;Sukamon;Сукамон;Сукамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+227;char_VEGIMON;Vegiemon;Вегимон;Вегимон;keep;ok;Vegimon;local_current;;high;Already matches the selected Russian reference.
+228;char_SERAPHIMON;Seraphimon;Серафимон;Серафимон;keep;ok;Seraphimon;local_current;;high;Already matches the selected Russian reference.
+229;char_DODOMON;Dodomon;Додомон;Додомон;keep;ok;Dodomon;local_current;;high;Already matches the selected Russian reference.
+230;char_BOTAMON;Botamon;Ботамон;Ботамон;keep;ok;Botamon;local_current;;high;Already matches the selected Russian reference.
+231;char_POYOMON;Poyomon;Поёмон;Поёмон;keep;ok;Poyomon;local_current;;high;Already matches the selected Russian reference.
+232;char_WANYAMON;Wanyamon;Ванямон;Ванямон;keep;ok;Wanyamon;local_current;;high;Already matches the selected Russian reference.
+233;char_KOROMON;Koromon;Коромон;Коромон;keep;ok;Koromon;local_current;;high;Already matches the selected Russian reference.
+234;char_TOKOMON;Tokomon;Токомон;Токомон;keep;ok;Tokomon;local_current;;high;Already matches the selected Russian reference.
+235;char_GREYMON;Greymon;Греймон;Греймон;keep;ok;Greymon;local_current;;high;Already matches the selected Russian reference.
+236;char_APOCLYMON;Apocalymon;Апокалимон;Апокалимон;keep;ok;Apocalymon;local_current;;high;Already matches the selected Russian reference.
+237;char_ANCIENTWISETMON;AncientWisemon;Древний Вайзмон;Древний Вайзмон;keep;ok;Ancient Wisemon;local_current;;high;Already matches the selected Russian reference.
+238;char_GUARDROMON;Guardromon;Гардромон;Гардромон;keep;ok;Guardromon;local_current;;high;Already matches the selected Russian reference.
+239;char_ANDROMON;Andromon;Андромон;Андромон;keep;ok;Andromon;local_current;;high;Already matches the selected Russian reference.
+240;char_GOMAMON;Gomamon;Гомамон;Гомамон;keep;ok;Gomamon;local_current;;high;Already matches the selected Russian reference.
+241;char_IKKAKUMON;Ikkakumon;Иккакумон;Иккакумон;keep;ok;Ikkakumon;local_current;;high;Already matches the selected Russian reference.
+242;char_ZUDOMON;Zudomon;Зудомон;Зудомон;keep;ok;Zudomon;local_current;;high;Already matches the selected Russian reference.
+243;char_VIKEMON;Vikemon;Викемон;Викемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+244;char_SEADRAMON;Seadramon;Сидрамон;Сидрамон;keep;ok;Seadramon;local_current;;high;Already matches the selected Russian reference.
+245;char_PALMON;Palmon;Пальмон;Пальмон;keep;ok;Palmon;local_current;;high;Already matches the selected Russian reference.
+246;char_TOGEMON;Togemon;Тогэмон;Тогэмон;keep;ok;Togemon;local_current;;high;Already matches the selected Russian reference.
+247;char_EXSAON_BOSS;Examon (Boss);Эксамон (босс);Эксамон (босс);keep;different;Examon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Examon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+248;char_LILLYMON;Lillymon;Лиллимон;Лиллимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+249;char_PLOTMON;Salamon;Плотмон;Плотмон;keep;ok;Plotmon;local_current;;high;Already matches the selected Russian reference.
+250;char_TYRANNOMON;Tyrannomon;Тиранномон;Тиранномон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+251;char_METALTYRANNOMON;MetalTyrannomon;МеталлТиранномон;МеталлТиранномон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+252;char_XV-MON;ExVeemon;ИксВи-мон;ИксВи-мон;keep;ok;XV-mon;local_current;;high;Already matches the selected Russian reference.
+253;char_KUWAGAMON;Kuwagamon;Кувагамон;Кувагамон;keep;ok;Kuwagamon;local_current;;high;Already matches the selected Russian reference.
+254;char_SHELLMON;Shellmon;Шеллмон;Шеллмон;keep;ok;Shellmon;local_current;;high;Already matches the selected Russian reference.
+255;char_MONOCHROMON;Monochromon;Монохромон;Монохромон;keep;ok;Monochromon;local_current;;high;Already matches the selected Russian reference.
+256;char_YUKIDARUMON;Frigimon;Юкидарумон;Юкидарумон;keep;ok;Yukidarumon;local_current;;high;Already matches the selected Russian reference.
+257;char_MOJYAMON;Mojyamon;Моджьямон;Моджьямон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+258;char_CENTALMON;Centarumon;Кенталмон;Кенталмон;keep;ok;Centalmon;local_current;;high;Already matches the selected Russian reference.
+259;char_DRIMOGEMON;Drimogemon;Дримогемон;Дримогемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+260;char_DIGITAMAMON;Digitamamon;Дигитамамон;Дигитамамон;keep;ok;Digitamamon;local_current;;high;Already matches the selected Russian reference.
+261;char_NANIMON;Nanimon;Нанимон;Нанимон;keep;ok;Nanimon;local_current;;high;Already matches the selected Russian reference.
+262;char_TONOSAMAGEKOMON;ShogunGekomon;Тоносама Гэкомон;Тоносама Гэкомон;keep;ok;Tonosama Gekomon;local_current;;high;Already matches the selected Russian reference.
+263;char_WIZARDMON;Wizardmon;Визардмон;Визардмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+264;char_DELUMON;Deramon;Делюмон;Делюмон;keep;ok;Delumon;local_current;;high;Already matches the selected Russian reference.
+265;char_JYUREIMON;Cherrymon;Черимон;Черимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+266;char_JYUREIMON_BIG;Cherrymon;Черимон;Черимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+267;char_GERBEMON;Garbagemon;Гербемон;Гербемон;keep;ok;Gerbemon;local_current;;high;Already matches the selected Russian reference.
+268;char_MAGNAMON;Magnamon;Магнамон;Магнамон;keep;ok;Magnamon;local_current;;high;Already matches the selected Russian reference.
+269;char_MAGNAMON_BIG;Magnamon;Магнамон;Магнамон;keep;ok;Magnamon;local_current;;high;Already matches the selected Russian reference.
+270;char_RUSTTYRANOMON;RustTyrannomon;РастТиранномон;РастТиранномон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+271;char_MUGENDRAMON;Machinedramon;Мугендрамон;Мугендрамон;keep;ok;Mugendramon;local_current;;high;Already matches the selected Russian reference.
+272;char_MUGENDRAMON_BIG;Machinedramon;Мугендрамон;Мугендрамон;keep;ok;Mugendramon;local_current;;high;Already matches the selected Russian reference.
+273;char_BUBBMON;Pabumon;Баббмон;Баббмон;keep;ok;Bubbmon;local_current;;high;Already matches the selected Russian reference.
+274;char_MOCHIMON;Motimon;Мотимон;Мотимон;keep;ok;Mochimon;local_current;;high;Already matches the selected Russian reference.
+275;char_BETAMON;Betamon;Бэтамон;Бэтамон;keep;ok;Betamon;local_current;;high;Already matches the selected Russian reference.
+276;char_LUCEMON;Lucemon;Люцимон;Люцимон;keep;ok;Lucemon;local_current;;high;Already matches the selected Russian reference.
+277;char_RENAMON;Renamon;Ренамон;Ренамон;keep;ok;Renamon;local_current;;high;Already matches the selected Russian reference.
+278;char_WORMMON;Wormmon;Ворммон;Ворммон;keep;ok;Wormmon;local_current;;high;Already matches the selected Russian reference.
+279;char_WOODMON;Woodmon;Вудмон;Вудмон;keep;ok;Woodmon;local_current;;high;Already matches the selected Russian reference.
+280;char_ORGEMON;Ogremon;Оргмон;Оргмон;keep;ok;Orgemon;local_current;;high;Already matches the selected Russian reference.
+281;char_KYUBIMON;Kyubimon;Кьюбимон;Кьюбимон;keep;ok;Kyubimon;local_current;;high;Already matches the selected Russian reference.
+282;char_DORUGAMON;Dorugamon;ДОРУгамон;ДОРУгамон;keep;ok;DORUgamon;local_current;;high;Already matches the selected Russian reference.
+283;char_V-DRAMON;Veedramon;Ви-драмон;Ви-драмон;keep;ok;V-dramon;local_current;;high;Already matches the selected Russian reference.
+284;char_CLOCKMON;Clockmon;Клокмон;Клокмон;keep;ok;Clockmon;local_current;;high;Already matches the selected Russian reference.
+285;char_GEKOMON;Gekomon;Гэкомон;Гэкомон;keep;ok;Gekomon;local_current;;high;Already matches the selected Russian reference.
+286;char_AEROVEEDRAMON;AeroVeedramon;Аэро Ви-драмон;Аэро Ви-драмон;keep;ok;Aero V-dramon;local_current;;high;Already matches the selected Russian reference.
+287;char_OKUWAMON;Okuwamon;Окувамон;Окувамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+288;char_GIGADRAMON;Gigadramon;Гигадрамон;Гигадрамон;keep;ok;Gigadramon;local_current;;high;Already matches the selected Russian reference.
+289;char_GRAPLEOMON;GrapLeomon;ГрапЛеомон;ГрапЛеомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+290;char_SKULLGREYMON;SkullGreymon;Скалл Греймон;Скалл Греймон;keep;ok;Skull Greymon;local_current;;high;Already matches the selected Russian reference.
+291;char_SKULLGREYMON_BIG;SkullGreymon;Скалл Греймон;Скалл Греймон;keep;ok;Skull Greymon;local_current;;high;Already matches the selected Russian reference.
+292;char_TAOMON;Taomon;Таомон;Таомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+293;char_DEATHMERAMON;SkullMeramon;Дес Мерамон;Дес Мерамон;keep;ok;Death Meramon;local_current;;high;Already matches the selected Russian reference.
+294;char_DORUGREYMON;DoruGreymon;ДоруГреймон;ДоруГреймон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+295;char_PAILDRAMON;Paildramon;Пейлдрамон;Пейлдрамон;keep;ok;Paildramon;local_current;;high;Already matches the selected Russian reference.
+296;char_PANJYAMON;IceLeomon;АйсЛеомон;АйсЛеомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+297;char_PICKLEMON;Piximon;Пикмон;Пикмон;keep;ok;Pickmon;local_current;;high;Already matches the selected Russian reference.
+298;char_VADEMON;Vademon;Вейдмон;Вейдмон;keep;ok;Vademon;local_current;;high;Already matches the selected Russian reference.
+299;char_MAMEMON;Mamemon;Мамемон;Мамемон;keep;ok;Mamemon;local_current;;high;Already matches the selected Russian reference.
+300;char_METALMAMEMON;MetalMamemon;Металл Мамемон;Металл Мамемон;keep;ok;Metal Mamemon;local_current;;high;Already matches the selected Russian reference.
+301;char_PARROTMON;Parrotmon;Пэрротмон;Пэрротмон;keep;ok;Parrotmon;local_current;;high;Already matches the selected Russian reference.
+302;char_ALPHAMON;Alphamon;Альфамон;Альфамон;keep;ok;Alphamon;local_current;;high;Already matches the selected Russian reference.
+303;char_ALPHAMON_BIG;Alphamon;Альфамон;Альфамон;keep;ok;Alphamon;local_current;;high;Already matches the selected Russian reference.
+304;char_ULFORCEVDRAMON;UlforceVeedramon;Алфорс Ви-драмон;Алфорс Ви-драмон;keep;ok;Ulforce V-dramon;local_current;;high;Already matches the selected Russian reference.
+305;char_ULFORCEVDRAMON_BIG;UlforceVeedramon;Алфорс Ви-драмон;Алфорс Ви-драмон;keep;ok;Ulforce V-dramon;local_current;;high;Already matches the selected Russian reference.
+306;char_IMPERIALDRAMON_FM;Imperialdramon FM;Империалдрамон: Режим Бойца;Империалдрамон: Режим Бойца;keep;ok;Imperialdramon: Fighter Mode;local_current;;high;Already matches the selected Russian reference.
+307;char_IMPERIALDRAMON_PM;Imperialdramon PM;Империалдрамон: Режим Паладина;Империалдрамон: Режим Паладина;keep;ok;Imperialdramon: Paladin Mode;local_current;;high;Already matches the selected Russian reference.
+308;char_OPHANIMON;Ophanimon;Офанимон;Офанимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+309;char_CHAOSDRAMON;Chaosdramon;Хаосдрамон;Хаосдрамон;keep;ok;Chaosdramon;local_current;;high;Already matches the selected Russian reference.
+310;char_GRANKUWAGAMON;GranKuwagamon;ГранКувагамон;ГранКувагамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+311;char_GRANKUWAGAMON_BIG;GranKuwagamon;ГранКувагамон;ГранКувагамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+312;char_SABERLEOMON;SaberLeomon;Сэйбер Леомон;Сэйбер Леомон;keep;ok;Saber Leomon;local_current;;high;Already matches the selected Russian reference.
+313;char_SAKUYAMON;Sakuyamon;Сакуямон;Сакуямон;keep;ok;Sakuyamon;local_current;;high;Already matches the selected Russian reference.
+314;char_HIANDROMON;HiAndromon;ХиАндромон;ХиАндромон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+315;char_PIEDMON;Piedmon;Пьемон;Пьемон;keep;ok;Piemon;local_current;;high;Already matches the selected Russian reference.
+316;char_PINOCHIMON;Puppetmon;Пиноккимон;Пиноккимон;keep;ok;Pinochimon;local_current;;high;Already matches the selected Russian reference.
+317;char_PRINCEMAMEMON;PrinceMamemon;ПринцМамемон;ПринцМамемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+318;char_BOLTMON;Boltmon;Болтмон;Болтмон;keep;ok;Boltmon;local_current;;high;Already matches the selected Russian reference.
+319;char_METALSEADRAMON;MetalSeadramon;Металл Сидрамон;Металл Сидрамон;keep;ok;Metal Seadramon;local_current;;high;Already matches the selected Russian reference.
+320;char_LUCEMON_SM;Lucemon SM;Люцимон: режим Сатаны;Люцимон: режим Сатаны;keep;ok;Lucemon: Satan Mode;local_current;;high;Already matches the selected Russian reference.
+321;char_LUCEMON_SM_BIG;Lucemon SM;Люцимон: режим Сатаны;Люцимон: режим Сатаны;keep;ok;Lucemon: Satan Mode;local_current;;high;Already matches the selected Russian reference.
+322;char_PUNIMON;Punimon;Пунимон;Пунимон;keep;ok;Punimon;local_current;;high;Already matches the selected Russian reference.
+323;char_TUNOMON;Tsunomon;Цуномон;Цуномон;keep;ok;Tunomon;local_current;;high;Already matches the selected Russian reference.
+324;char_BELPHEMON_SM;Belphemon SM;Бельфемон СМ;Бельфемон СМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+325;char_BELPHEMON_SM_BIG;Belphemon SM;Бельфемон СМ;Бельфемон СМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+326;char_TITAMON;Titamon;Титамон;Титамон;keep;ok;Titamon;local_current;;high;Already matches the selected Russian reference.
+327;char_TITAMON_BIG;Titamon;Титамон;Титамон;keep;ok;Titamon;local_current;;high;Already matches the selected Russian reference.
+328;char_TITAMON_2;Titamon (Berserk);Титамон (берсерк);Титамон (берсерк);keep;different;Titamon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Titamon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+329;char_TITAMON_ADD;Titamon (Berserk) (Twin Blades);Титамон (двойные клинки);Титамон (двойные клинки);keep;different;Titamon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Titamon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+330;char_TITAMON_TWIN BLADE;Titamon (Twin Blades);Титамон (двойные лезвия);Титамон (двойные лезвия);keep;different;Titamon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Titamon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+331;char_PLESIOMON;Plesiomon;Плезиомон;Плезиомон;keep;ok;Plesiomon;local_current;;high;Already matches the selected Russian reference.
+332;char_EBEMON;Ebemon;Эбемон;Эбемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+333;char_CYCLONEMON;Cyclonemon;Циклонемон;Циклонемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+334;char_HOLYDRAMON;Magnadramon;Холидрамон;Холидрамон;keep;ok;Holydramon;local_current;;high;Already matches the selected Russian reference.
+335;char_WASPMON;Waspmon;Васпмон;Васпмон;keep;ok;Waspmon;local_current;;high;Already matches the selected Russian reference.
+336;char_KARATUKINUMEMON;ShellNumemon;ШеллНумемон;ШеллНумемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+337;char_REVOLMON;Deputymon;Револьмон;Револьмон;keep;ok;Revolmon;local_current;;high;Already matches the selected Russian reference.
+338;char_DRACUMON;Dracmon;Дракумон;Дракумон;keep;ok;Dracumon;local_current;;high;Already matches the selected Russian reference.
+339;char_MONODRAMON;Monodramon;Монодрамон;Монодрамон;keep;ok;Monodramon;local_current;;high;Already matches the selected Russian reference.
+340;char_SKULLMAMMON;SkullMammothmon;СкулМаммонмон;СкулМаммонмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+341;char_BLIMPMON;Blimpmon;Блимпмон;Блимпмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+342;char_MASTERBLIMPMON;MasterBlimpmon;МастерБлимпмон;МастерБлимпмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+343;char_DORIMON;Dorimon;Доримон;Доримон;keep;ok;Dorimon;local_current;;high;Already matches the selected Russian reference.
+344;char_DINOHUMON;Dinohyumon;Динохьюмон;Динохьюмон;keep;ok;Dinohumon;local_current;;high;Already matches the selected Russian reference.
+345;char_LOADERLIOMON;LoaderLeomon;Лоадер Лиомон;Лоадер Лиомон;keep;ok;Loader Liomon;local_current;;high;Already matches the selected Russian reference.
+346;char_JEWELBEEMON;JewelBeemon;Джуэлбимон;Джуэлбимон;keep;ok;Jewelbeemon;local_current;;high;Already matches the selected Russian reference.
+347;char_AGUMON_KIZUNA;Agumon (Bond of Bravery);Агумон (узы храбрости);Агумон (узы храбрости);keep;different;Agumon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Agumon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+348;char_GABUMON_KIZUNA;Gabumon (Bond of Friendship);Габумон (узы дружбы);Габумон (узы дружбы);keep;different;Gabumon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Gabumon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+349;char_GREATGRYZMON;GreatGrizzlymon;ГрейтГриззлимон;ГрейтГриззлимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+350;char_CHARISMON;Callismon;Каллисмон;Каллисмон;keep;ok;Callismon;local_current;;high;Already matches the selected Russian reference.
+351;char_CHARISMON_LAST;Callismon;Каллисмон;Каллисмон;keep;ok;Callismon;local_current;;high;Already matches the selected Russian reference.
+352;char_UNDEADPLUTOMON;ZombiePlutomon;ЗомбиПлутомон;ЗомбиПлутомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+353;char_PYOCOMON;Yokomon;Пьёкомон;Пьёкомон;keep;ok;Pyocomon;local_current;;high;Already matches the selected Russian reference.
+354;char_TANEMON;Tanemon;Танэмон;Танэмон;keep;ok;Tanemon;local_current;;high;Already matches the selected Russian reference.
+355;char_PUKAMON;Bukamon;Пукамон;Пукамон;keep;ok;Pukamon;local_current;;high;Already matches the selected Russian reference.
+356;char_NYAROMON;Nyaromon;Няромон;Няромон;keep;ok;Nyaromon;local_current;;high;Already matches the selected Russian reference.
+357;char_YUNIMON;Unimon;Юнимон;Юнимон;keep;ok;Unimon;local_current;;high;Already matches the selected Russian reference.
+358;char_ELECMON;Elecmon;Элекмон;Элекмон;keep;ok;Elecmon;local_current;;high;Already matches the selected Russian reference.
+359;char_PAGUMON;Pagumon;Пагумон;Пагумон;keep;ok;Pagumon;local_current;;high;Already matches the selected Russian reference.
+360;char_GAZIMON;Gazimon;Газимон;Газимон;keep;ok;Gazimon;local_current;;high;Already matches the selected Russian reference.
+361;char_HYOKOMON;Hyokomon;Хёкомон;Хёкомон;keep;ok;Hyokomon;local_current;;high;Already matches the selected Russian reference.
+362;char_BURAIMON;Buraimon;Бураимон;Бураимон;keep;ok;Buraimon;local_current;;high;Already matches the selected Russian reference.
+363;char_BUTEN;Butenmon;Бутенмон;Бутенмон;keep;ok;Butenmon;local_current;;high;Already matches the selected Russian reference.
+364;char_NANOMON;Datamon;Датамон;Датамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+365;char_SHAMAMON;Shamamon;Шамамон;Шамамон;keep;ok;Shamamon;local_current;;high;Already matches the selected Russian reference.
+366;char_SNOWGOBURIMON;SnowGoblimon;Сноу Гобуримон;Сноу Гобуримон;keep;ok;Snow Goburimon;local_current;;high;Already matches the selected Russian reference.
+367;char_FUGAMON;Fugamon;Фугамон;Фугамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+368;char_HYOUGAMON;Hyogamon;Хиогамон;Хиогамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+369;char_OTAMAMON;Otamamon;Отамамон;Отамамон;keep;ok;Otamamon;local_current;;high;Already matches the selected Russian reference.
+370;char_FANTOMON;Phantomon;Фантомон;Фантомон;keep;ok;Fantomon;local_current;;high;Already matches the selected Russian reference.
+371;char_FLYMON;Flymon;Флаймон;Флаймон;keep;ok;Flymon;local_current;;high;Already matches the selected Russian reference.
+372;char_MAMMON;Mammothmon;Маммон;Маммон;keep;ok;Mammon;local_current;;high;Already matches the selected Russian reference.
+373;char_MAMMON_BIG;Mammothmon;Маммон;Маммон;keep;ok;Mammon;local_current;;high;Already matches the selected Russian reference.
+374;char_RAREMON;Raremon;Рэйрмон;Рэйрмон;keep;ok;Raremon;local_current;;high;Already matches the selected Russian reference.
+375;char_DOKUGUMON;Dokugumon;Докугумон;Докугумон;keep;ok;Dokugumon;local_current;;high;Already matches the selected Russian reference.
+376;char_GIZAMON;Gizamon;Гизамон;Гизамон;keep;ok;Gizamon;local_current;;high;Already matches the selected Russian reference.
+377;char_GOTTSUMON;Gotsumon;Готцумон;Готцумон;keep;ok;Gottsumon;local_current;;high;Already matches the selected Russian reference.
+378;char_PUMPMON;Pumpkinmon;Пампмон;Пампмон;keep;ok;Pumpmon;local_current;;high;Already matches the selected Russian reference.
+379;char_SNIMON;Snimon;Снаймон;Снаймон;keep;ok;Snimon;local_current;;high;Already matches the selected Russian reference.
+380;char_TUSKMON;Tuskmon;Таскмон;Таскмон;keep;ok;Tuskmon;local_current;;high;Already matches the selected Russian reference.
+381;char_VENOMMYOTISMON;VenomMyotismon;ВеномМиотисмон;ВеномМиотисмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+382;char_VENOMMYOTISMON_BIG;VenomMyotismon;ВеномМиотисмон;ВеномМиотисмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+383;char_WITCHMON;Witchmon;Витчмон;Витчмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+384;char_WITCHMON_ADD;Witchmon (Left Arm);Витчмон (Левая Рука);Витчмон (Левая Рука);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+385;char_MISTYMON;Mistymon;Мистимон;Мистимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+386;char_MEDIEVALDUKEMON;MedievalGallantmon;Средневековый Дюкмон;Средневековый Дюкмон;keep;ok;Medieval Dukemon;local_current;;high;Already matches the selected Russian reference.
+387;char_GRACENOVAMON;GraceNovamon;Грейс Новамон;Грейс Новамон;keep;ok;Grace Novamon;local_current;;high;Already matches the selected Russian reference.
+388;char_GRACENOVAMON_SUB;GraceNovamon;Грейс Новамон;Грейс Новамон;keep;ok;Grace Novamon;local_current;;high;Already matches the selected Russian reference.
+389;char_GRACENOVAMON_BIG;GraceNovamon;Грейс Новамон;Грейс Новамон;keep;ok;Grace Novamon;local_current;;high;Already matches the selected Russian reference.
+390;char_ANOMALOCARIMON;Scorpiomon;Аномалокаримон;Аномалокаримон;keep;ok;Anomalocarimon;local_current;;high;Already matches the selected Russian reference.
+391;char_ANOMALOCARIMON_BIG;Scorpiomon;Аномалокаримон;Аномалокаримон;keep;ok;Anomalocarimon;local_current;;high;Already matches the selected Russian reference.
+392;char_HANGYOMON;Divermon;Хангёмон;Хангёмон;keep;ok;Hangyomon;local_current;;high;Already matches the selected Russian reference.
+393;char_HANGYOMON_SCAR;Divermon;Хангёмон;Хангёмон;keep;ok;Hangyomon;local_current;;high;Already matches the selected Russian reference.
+394;char_HANGYOMON_SCARF;Divermon;Хангёмон;Хангёмон;keep;ok;Hangyomon;local_current;;high;Already matches the selected Russian reference.
+395;char_MUSHMON;Mushroomon;Машмон;Машмон;keep;ok;Mushmon;local_current;;high;Already matches the selected Russian reference.
+396;char_KOKUWAMON;Kokuwamon;Кокувамон;Кокувамон;keep;ok;Kokuwamon;local_current;;high;Already matches the selected Russian reference.
+397;char_KIWIMON;Kiwimon;Кивимон;Кивимон;keep;ok;Kiwimon;local_current;;high;Already matches the selected Russian reference.
+398;char_FLORAMON;Floramon;Флорамон;Флорамон;keep;ok;Floramon;local_current;;high;Already matches the selected Russian reference.
+399;char_CLAVISANGEMON;ClavisAngemon;Клавис Ангемон;Клавис Ангемон;keep;ok;Clavis Angemon;local_current;;high;Already matches the selected Russian reference.
+400;char_CLAVISANGEMON_BIG;ClavisAngemon;Клавис Ангемон;Клавис Ангемон;keep;ok;Clavis Angemon;local_current;;high;Already matches the selected Russian reference.
+401;char_SLASHANGEMON;SlashAngemon;СлэшАнгемон;СлэшАнгемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+402;char_MECHANORIMON;Mekanorimon;Механоримон;Механоримон;keep;ok;Mechanorimon;local_current;;high;Already matches the selected Russian reference.
+403;char_MAGNAKIDMON;MagnaKidmon;МагнаКидмон;МагнаКидмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+404;char_AVENGEKIDMON;AvengeKidmon;АвенжКидмон;АвенжКидмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+405;char_TANKMON;Tankmon;Танкмон;Танкмон;keep;ok;Tankmon;local_current;;high;Already matches the selected Russian reference.
+406;char_PENMON;Penmon;Пинмон;Пинмон;keep;ok;Penmon;local_current;;high;Already matches the selected Russian reference.
+407;char_MUCHOMON;Muchomon;Мучомон;Мучомон;keep;ok;Muchomon;local_current;;high;Already matches the selected Russian reference.
+408;char_KERAMON;Keramon;Керамон;Керамон;keep;ok;Keramon;local_current;;high;Already matches the selected Russian reference.
+409;char_INFERMON;Infermon;Инфермон;Инфермон;keep;ok;Infermon;local_current;;high;Already matches the selected Russian reference.
+410;char_INFERMON_BIG;Infermon;Инфермон;Инфермон;keep;ok;Infermon;local_current;;high;Already matches the selected Russian reference.
+411;char_KURAMON;Kuramon;Курамон;Курамон;keep;ok;Kuramon;local_current;;high;Already matches the selected Russian reference.
+412;char_KURISARIMON;Kurisarimon;Курисаримон;Курисаримон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+413;char_TSUMEMON;Tsumemon;Цумэмон;Цумэмон;keep;ok;Tsumemon;local_current;;high;Already matches the selected Russian reference.
+414;char_DIABOROMON;Diaboromon;Диаборомон;Диаборомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+415;char_ALDAMON;Aldamon;Алдамон;Алдамон;keep;ok;Aldamon;local_current;;high;Already matches the selected Russian reference.
+416;char_BEOWOLFMON;Beowolfmon;Беовульфмон;Беовульфмон;keep;ok;Beowolfmon;local_current;;high;Already matches the selected Russian reference.
+417;char_MAGNAGARURUMON_SEPARATION;MagnaGarurumon (Detached);Магна Гарурумон (открепленный);Магна Гарурумон (открепленный);keep;different;Magna Garurumon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Magna_Garurumon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+418;char_AGNIMON;Agunimon;Агнимон;Агнимон;keep;ok;Agnimon;local_current;;high;Already matches the selected Russian reference.
+419;char_KAISERGREYMON;EmperorGreymon;Кайзер Греймон;Кайзер Греймон;keep;ok;Kaiser Greymon;local_current;;high;Already matches the selected Russian reference.
+420;char_MAGNAGARURUMON;MagnaGarurumon;Магна Гарурумон;Магна Гарурумон;keep;ok;Magna Garurumon;local_current;;high;Already matches the selected Russian reference.
+421;char_VRITRAMON;BurningGreymon;Вритрамон;Вритрамон;keep;ok;Vritramon;local_current;;high;Already matches the selected Russian reference.
+422;char_WOLFMON;Lobomon;Вольфмон;Вольфмон;keep;ok;Wolfmon;local_current;;high;Already matches the selected Russian reference.
+423;char_GARUMMON;KendoGarurumon;Гаруммон;Гаруммон;keep;ok;Garummon;local_current;;high;Already matches the selected Russian reference.
+424;char_SHOUTMON;Shoutmon;Шаутмон;Шаутмон;keep;ok;Shoutmon;local_current;;high;Already matches the selected Russian reference.
+425;char_OMEGASHOUTMON;OmniShoutmon;Омега Шаутмон;Омега Шаутмон;keep;ok;Omega Shoutmon;local_current;;high;Already matches the selected Russian reference.
+426;char_HACKMON;Huckmon;Хакмон;Хакмон;keep;ok;Huckmon;local_current;;high;Already matches the selected Russian reference.
+427;char_GANKOOMON;Gankoomon;Гэнкумон;Гэнкумон;keep;ok;Gankoomon;local_current;;high;Already matches the selected Russian reference.
+428;char_ZUBAMON;Zubamon;Зубамон;Зубамон;keep;ok;Zubamon;local_current;;high;Already matches the selected Russian reference.
+429;char_ZUBAEAGERMON;ZubaEagermon;Зубаигермон;Зубаигермон;keep;ok;Zubaeagermon;local_current;;high;Already matches the selected Russian reference.
+430;char_DURAMON;Duramon;Дюрамон;Дюрамон;keep;ok;Duramon;local_current;;high;Already matches the selected Russian reference.
+431;char_DURANDAMON;Durandamon;Дюрандамон;Дюрандамон;keep;ok;Durandamon;local_current;;high;Already matches the selected Russian reference.
+432;char_TERRIERMON;Terriermon;Терьермон;Терьермон;keep;ok;Terriermon;local_current;;high;Already matches the selected Russian reference.
+433;char_PECKMON;Peckmon;Пекмон;Пекмон;keep;ok;Peckmon;local_current;;high;Already matches the selected Russian reference.
+434;char_LOADKNIGHTMON;LordKnightmon;Лорд Найтмон;Лорд Найтмон;keep;ok;Lord Knightmon;local_current;;high;Already matches the selected Russian reference.
+435;char_LOADKNIGHTMON_BIG;LordKnightmon;Лорд Найтмон;Лорд Найтмон;keep;ok;Lord Knightmon;local_current;;high;Already matches the selected Russian reference.
+436;char_GROUNDLOCOMON;GroundLocomon;ГраундЛокомон;ГраундЛокомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+437;char_FALCOMON;Falcomon;Фалькомон;Фалькомон;keep;ok;Falcomon;local_current;;high;Already matches the selected Russian reference.
+438;char_HAWKMON;Hawkmon;Хоукмон;Хоукмон;keep;ok;Hawkmon;local_current;;high;Already matches the selected Russian reference.
+439;char_ARMADILLOMON;Armadillomon;Армадилломон;Армадилломон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+440;char_TOYAGUMON;ToyAgumon;Той Агумон;Той Агумон;keep;ok;Toy Agumon;local_current;;high;Already matches the selected Russian reference.
+441;char_TOYAGUMON_BIG;ToyAgumon;Той Агумон;Той Агумон;keep;ok;Toy Agumon;local_current;;high;Already matches the selected Russian reference.
+442;char_SHAKOMON;Syakomon;Сякомон;Сякомон;keep;ok;Shakomon;local_current;;high;Already matches the selected Russian reference.
+443;char_GARGOMON;Gargomon;Гаргомон;Гаргомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+444;char_ANKYLOMON;Ankylomon;Анкиломон;Анкиломон;keep;ok;Ankylomon;local_current;;high;Already matches the selected Russian reference.
+445;char_FLAMEDRAMON;Flamedramon;Флэймдрамон;Флэймдрамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+446;char_KNIGHTMON;Knightmon;Найтмон;Найтмон;keep;ok;Knightmon;local_current;;high;Already matches the selected Russian reference.
+447;char_CYBERDRAMON;Cyberdramon;Кибердрамон;Кибердрамон;keep;ok;Cyberdramon;local_current;;high;Already matches the selected Russian reference.
+448;char_SILPHYMON;Silphymon;Сильфимон;Сильфимон;keep;ok;Silphymon;local_current;;high;Already matches the selected Russian reference.
+449;char_YATAGARAMON;Crowmon;Ятагарамон;Ятагарамон;keep;ok;Yatagaramon;local_current;;high;Already matches the selected Russian reference.
+450;char_RAPIDMON;Rapidmon;Рэпидмон;Рэпидмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+451;char_SHAKKOUMON;Shakkoumon;Шаккумон;Шаккумон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+452;char_BRAKIMON;Brachiomon;Брахимон;Брахимон;keep;ok;Brachiomon;local_current;;high;Already matches the selected Russian reference.
+453;char_ULTIMATEBRAKIMON;UltimateBrachiomon;УльтимаБрачиомон;УльтимаБрачиомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+454;char_WISEMON;Wisemon;Вайзмон;Вайзмон;keep;ok;Wisemon;local_current;;high;Already matches the selected Russian reference.
+455;char_CANNONBEEMON;CannonBeemon;КэнонБиимон;КэнонБиимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+456;char_SOLARMON;Solarmon;Солармон;Солармон;keep;ok;Solarmon;local_current;;high;Already matches the selected Russian reference.
+457;char_GEREMON;Geremon;Геремон;Геремон;keep;ok;Geremon;local_current;;high;Already matches the selected Russian reference.
+458;char_ICEDEVIMON;IceDevimon;АйсДевимон;АйсДевимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+459;char_ANTYLAMON;Antylamon;Антиламон;Антиламон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+460;char_IMPERIALDRAMON_DM;Imperialdramon DM;Империалдрамон: Режим дракона;Империалдрамон: Режим дракона;keep;ok;Imperialdramon: Dragon Mode;local_current;;high;Already matches the selected Russian reference.
+461;char_DIANAMON;Dianamon;Дианамон;Дианамон;keep;ok;Dianamon;local_current;;high;Already matches the selected Russian reference.
+462;char_DIANAMON_BIG;Dianamon;Дианамон;Дианамон;keep;ok;Dianamon;local_current;;high;Already matches the selected Russian reference.
+463;char_CRANIAMON;Craniamon;Краниамон;Краниамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+464;char_CRANIAMON_BIG;Craniamon;Краниамон;Краниамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+465;char_KERPYMON_GOOD;Cherubimon (Good);Херувимон (Добродетельный);Херувимон (Добродетельный);keep;ok;Cherubimon (Virtue);local_current;;high;Already matches the selected Russian reference.
+466;char_JUSTIMON;Justimon;Джастимон;Джастимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+467;char_DYNASMON;Dynasmon;Динасмон;Динасмон;keep;ok;Dynasmon;local_current;;high;Already matches the selected Russian reference.
+468;char_DYNASMON_BIG;Dynasmon;Динасмон;Динасмон;keep;ok;Dynasmon;local_current;;high;Already matches the selected Russian reference.
+469;char_DUFTMON;Leopardmon;Дуфтмон;Дуфтмон;keep;ok;Duftmon;local_current;;high;Already matches the selected Russian reference.
+470;char_DUFTMON_BIG;Leopardmon;Дуфтмон;Дуфтмон;keep;ok;Duftmon;local_current;;high;Already matches the selected Russian reference.
+471;char_RAVEMON;Ravemon;Равемон;Равемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+472;char_SAINTGALGOMON;MegaGargomon;Сен Гальгомон;Сен Гальгомон;keep;ok;Saint Galgomon;local_current;;high;Already matches the selected Russian reference.
+473;char_SAINTGALGOMON_BIG;MegaGargomon;Сен Гальгомон;Сен Гальгомон;keep;ok;Saint Galgomon;local_current;;high;Already matches the selected Russian reference.
+474;char_LOTOSMON;Lotosmon;Лотосмон;Лотосмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+475;char_DUFTMON_LM;Leopardmon LM;Дуфтмон: Режим леопарда;Дуфтмон: Режим леопарда;keep;ok;Duftmon: Leopard Mode;local_current;;high;Already matches the selected Russian reference.
+476;char_GAIOMON;Gaiomon;Гайомон;Гайомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+477;char_TIGERVESPAMON;TigerVespamon;ТигерВеспамон;ТигерВеспамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+478;char_MINERVAMON;Minervamon;Минервамон;Минервамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+479;char_MASTEMON;Mastemon;Мастемон;Мастемон;keep;ok;Mastemon;local_current;;high;Already matches the selected Russian reference.
+480;char_JESMON;Jesmon;Джесмон;Джесмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+481;char_JESMON_BIG;Jesmon;Джесмон;Джесмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+482;char_LOPMON;Lopmon;Лопмон;Лопмон;keep;ok;Lopmon;local_current;;high;Already matches the selected Russian reference.
+483;char_RAPIDMON_ARMOR;Rapidmon (Armor);Рапидмон (Броня);Рапидмон (Броня);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+484;char_RAPIDMON_ARMOR_BIG;Rapidmon (Armor);Рапидмон (Броня);Рапидмон (Броня);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+485;char_PLATINUM_SCUMON;PlatinumSukamon;ПлатинаСукамон;ПлатинаСукамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+486;char_BLACKKINGNUMEMON;BlackKingNumemon;БлэкКингНумемон;БлэкКингНумемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+487;char_KUZUHAMON;Kuzuhamon;Кудзухамон;Кудзухамон;keep;ok;Kuzuhamon;local_current;;high;Already matches the selected Russian reference.
+488;char_SOCERIMON;Sorcermon;Сорсеримон;Сорсеримон;keep;ok;Sorcerimon;local_current;;high;Already matches the selected Russian reference.
+489;char_INSEKIMON;Meteormon;Инсэкимон;Инсэкимон;keep;ok;Insekimon;local_current;;high;Already matches the selected Russian reference.
+490;char_OMEGAMON_ZWART;Omnimon Zwart;Омегамон Цварт;Омегамон Цварт;keep;ok;Omegamon Zwart;local_current;;high;Already matches the selected Russian reference.
+491;char_ICEMON;Icemon;Айсмон;Айсмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+492;char_TUCHIDARUMON;MudFrigimon;МудФригимон;МудФригимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+493;char_GUARDROMON_GL;Guardromon (Gold);Гардромон (золотой);Гардромон (золотой);keep;different;Guardromon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Guardromon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+494;char_ALPHAMON_OURYUKEN;Alphamon: Ouryuken;Альфамон: Орюкен;Альфамон: Орюкен;keep;ok;Alphamon: Ouryuken;local_current;;high;Already matches the selected Russian reference.
+495;char_BACCHUSMON_DRUNK;Bacchusmon DM;Бахусмон ДМ;Бахусмон ДМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+496;char_TANKDRAMON;Tankdramon;Танкдрамон;Танкдрамон;keep;ok;Tankdramon;local_current;;high;Already matches the selected Russian reference.
+497;char_DARKDRAMON;Darkdramon;Даркдрамон;Даркдрамон;keep;ok;Darkdramon;local_current;;high;Already matches the selected Russian reference.
+498;char_CHAOSMON;Chaosmon;Хаосмон;Хаосмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+499;char_VALKYRIMON;Valkyrimon;Валькиримон;Валькиримон;keep;ok;Valkyrimon;local_current;;high;Already matches the selected Russian reference.
+500;char_KERPYMON_BAD;Cherubimon (Black);Херувимон (Порочный);Херувимон (Порочный);keep;ok;Cherubimon (Vice);local_current;;high;Already matches the selected Russian reference.
+501;char_BEELZEMON_BM;Beelzemon BM;Вельземон БМ;Вельземон БМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+502;char_BEELZEMON_BM_BIG;Beelzemon BM;Вельземон БМ;Вельземон БМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+503;char_SHINEGREYMON_BM;ShineGreymon BM;ШайнГреймон БМ;ШайнГреймон БМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+504;char_MIRAGEGAOGAMON_BM;MirageGaogamon BM;Мираж Гаогамон: Взрывной режим;Мираж Гаогамон: Взрывной режим;keep;ok;Mirage Gaogamon: Burst Mode;local_current;;high;Already matches the selected Russian reference.
+505;char_RAVEMON_BM;Ravemon BM;Равемон БМ;Равемон БМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+506;char_ROSEMON_BM;Rosemon BM;Роузмон БМ;Роузмон БМ;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+507;char_VULCANUS_LIGHTARM;Right Arm;Правая Рука;Правая Рука;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+508;char_VULCANUS_LEFTARM;Left Arm;Левая Рука;Левая Рука;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+509;char_CHRONOMONROBO_COMPLETE;Giant Slayer;Гигант Слейер;Гигант Слейер;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+510;char_CHRONOMON_BOSS_EVENT;Chronomon;Хрономон;Хрономон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+511;char_CHRONOMON_BOSS;Chronomon;Хрономон;Хрономон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+512;char_CHRONOMON_BOSS_WING;Chronomon (Wings);Хрономон (Крылья);Хрономон (Крылья);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+513;char_CHRONOMON_BOSS_ADD_RIGHTWING;Chronomon (R. Muzzle);Хрономон (П. Морда);Хрономон (П. Морда);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+514;char_CHRONOMON_BOSS_ADD_LEFTWING;Chronomon (L. Muzzle);Хрономон (Л. Морда);Хрономон (Л. Морда);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+515;char_CHRONOMON_BOSS_LEFTARM;Chronomon (Left Arm);Хрономон (Левая рука);Хрономон (Левая рука);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+516;char_CHRONOMON_BOSS_CORE;Chronomon (Core);Хрономон (Ядро);Хрономон (Ядро);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+517;char_CHRONOMON_BOSS_RIGHTWING;Chronomon (Right Wing);Хрономон (Правое крыло);Хрономон (Правое крыло);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+518;char_CHRONOMON_BOSS_LEFTWING;Chronomon (Left Wing);Хрономон (Левое крыло);Хрономон (Левое крыло);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+519;char_CHRONOMON_BOSS_LEFTARM1;Chronomon (Error A);Хрономон (Ошибка A);Хрономон (Ошибка A);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+520;char_CHRONOMON_BOSS_LEFTARM2;Chronomon (Error B);Хрономон (Ошибка B);Хрономон (Ошибка B);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+521;char_CHRONOMON_BOSS_LEFTARM3;Chronomon (Error C);Хрономон (Ошибка C);Хрономон (Ошибка C);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+522;char_CHRONOMON_BOSS_LEFTARM4;Chronomon (Error D);Хрономон (Ошибка D);Хрономон (Ошибка D);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+523;char_CHRONOMON_BOSS_LEFTARM5;Chronomon (Error E);Хрономон (Ошибка E);Хрономон (Ошибка E);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+524;char_CHRONOMON_BOSS_LEFTARM6;Chronomon (Error F);Хрономон (Ошибка F);Хрономон (Ошибка F);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+525;char_BLACKSHADOW;Dark Shadow;Темная Тень;Темная Тень;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+526;char_SHARKMON_BOSS;Sharkmon;Шаркмон;Шаркмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+527;char_SHARKMON_BOSS_ADD;Sharkmon (Jasper);Шаркмон (Джаспер);Шаркмон (Джаспер);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+528;char_SHARKMON;Sharkmon;Шаркмон;Шаркмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+529;char_SKULLSEADRAMON;SkullSeadramon;СкулСидрамон;СкулСидрамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+530;char_SKULLSEADRAMON_BOSS;SkullSeadramon;СкулСидрамон;СкулСидрамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+531;char_SKULLSEADRAMON_ADD;SkullSeadramon (Core);СкулСидрамон (Ядро);СкулСидрамон (Ядро);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+532;char_RAREMON_BIG;Raremon;Рэйрмон;Рэйрмон;keep;ok;Raremon;local_current;;high;Already matches the selected Russian reference.
+533;char_CYCLONEMON_BIG;Cyclonemon;Циклонемон;Циклонемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+534;char_GREYMON_BIG_BL;Greymon (Blue);Греймон (Синий);Греймон (Синий);keep;ok;Greymon (Blue);local_current;;high;Already matches the selected Russian reference.
+535;char_GREYMON_BIG_BL_ADD;Greymon (Blue) (Head Shell);Греймон (головной убор);Греймон (головной убор);keep;different;Greymon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Greymon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+536;char_SKULLBALUCHIMON_TITAMON;Titamon + SkullBaluchimon;Титамон + СкаллБалучимон;Титамон + СкаллБалучимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+537;char_SKULLBALUCHIMON_TITAMON_BIG;Titamon + SkullBaluchimon;Титамон + СкаллБалучимон;Титамон + СкаллБалучимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+538;char_UNDEADPLUTOMON_BOSS;ZombiePlutomon;ЗомбиПлутомон;ЗомбиПлутомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+539;char_UNDEADPLUTOMON_BOSS_ADD1;ZombiePlutomon (Right Shoulder);ЗомбиПлутомон (Правое плечо);ЗомбиПлутомон (Правое плечо);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+540;char_UNDEADPLUTOMON_BOSS_ADD2;ZombiePlutomon (Left Shoulder);ЗомбиПлутомон (Левое плечо);ЗомбиПлутомон (Левое плечо);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+541;char_UNDEADPLUTOMON_BOSS_ADD3;ZombiePlutomon (Right Hip);ЗомбиПлутомон (Правое бедро);ЗомбиПлутомон (Правое бедро);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+542;char_UNDEADPLUTOMON_BOSS_ADD4;ZombiePlutomon (Left Hip);ЗомбиПлутомон (Левое бедро);ЗомбиПлутомон (Левое бедро);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+543;char_CHARISMON_ADD;Callismon (Gun);Каллисмон (пистолет);Каллисмон (пистолет);keep;different;Callismon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Callismon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+544;char_DIANAMON_ADD;Dianamon & the Goodnight Sisters;Дианамон;Дианамон;keep;ok;Dianamon;local_current;;high;Already matches the selected Russian reference.
+545;char_LOCOMON_EVENT;Locomon (Event);Локомон (событие);Локомон (событие);keep;different;Locomon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Locomon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+546;char_ULTIMATEBRAKIMON_BIG;UltimateBrachiomon;УльтимаБрачиомон;УльтимаБрачиомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+547;char_ENBARRMON;Enbarrmon;Энбаррмон;Энбаррмон;keep;ok;Enbarrmon;local_current;;high;Already matches the selected Russian reference.
+548;char_ENBARRMON_BIG;Enbarrmon;Энбаррмон;Энбаррмон;keep;ok;Enbarrmon;local_current;;high;Already matches the selected Russian reference.
+549;char_ENBARRMON_CRANIAMON;Craniamon + Enbarrmon;Энбаррмон;Энбаррмон;keep;ok;Enbarrmon;local_current;;high;Already matches the selected Russian reference.
+550;char_ENBARRMON_CRANIAMON_E;Craniamon + Enbarrmon;Энбаррмон;Энбаррмон;keep;ok;Enbarrmon;local_current;;high;Already matches the selected Russian reference.
+551;char_BLIMPMON_RAMP;Blimpmon (Trap);Блимпмон (Ловушка);Блимпмон (Ловушка);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+552;char_MASTERBLIMPMON_RAMP;MasterBlimpmon (Trap);МастерБлимпмон (Ловушка);МастерБлимпмон (Ловушка);keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+553;char_PARROTMON_BIG;Parrotmon;Пэрротмон;Пэрротмон;keep;ok;Parrotmon;local_current;;high;Already matches the selected Russian reference.
+554;char_PARROTMON_BIG_ADD;Parrotmon (Crested);Пэрротмон (гребень);Пэрротмон (гребень);keep;different;Parrotmon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Parrotmon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+555;char_VULCANUSMON_ADD;Vulcanusmon;Вулканусмон;Вулканусмон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+556;char_METALGREYMON_BIG_BL;MetalGreymon (Blue);Металл Греймон (синий);Металл Греймон (синий);keep;different;Metal Greymon;ru_digimon_fandom;https://digimon.fandom.com/ru/wiki/Metal_Greymon;medium;"Russian Digimon Wiki/Fandom is used as a broad community localization fallback; no complete official Russian glossary was found. Base name from source; local form suffix preserved."
+557;char_WHAMON_BIG;Whamon;Уэмон;Уэмон;keep;ok;Whamon;local_current;;high;Already matches the selected Russian reference.
+558;char_NEPTUNEMON_BIG;Neptunemon;Нептунмон;Нептунмон;keep;ok;Neptunemon;local_current;;high;Already matches the selected Russian reference.
+559;char_MERCURYMON_BIG;Merukimon;Мерукимон;Мерукимон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+560;char_OMEGAMON_BIG;Omnimon;Омегамон;Омегамон;keep;ok;Omegamon;local_current;;high;Already matches the selected Russian reference.
+561;char_APOLLOMON_BIG;Apollomon;Аполломон;Аполломон;keep;ok;Apollomon;local_current;;high;Already matches the selected Russian reference.
+562;char_CERESMON_BIG;Ceresmon;Церемон;Церемон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+563;char_PLUTOMON_BIG;Plutomon;Плутомон;Плутомон;keep;ok;Plutomon;local_current;;high;Already matches the selected Russian reference.
+564;char_JUPITERMON_BIG;Jupitermon;Юпитермон;Юпитермон;keep;ok;Jupitermon;local_current;;high;Already matches the selected Russian reference.
+565;char_JUPITERMON_WRATHMODE_BIG;Jupitermon WM;Юпитермон: Режим гнева;Юпитермон: Режим гнева;keep;ok;Jupitermon: Wrath Mode;local_current;;high;Already matches the selected Russian reference.
+566;char_KUWAGAMON_BIG;Kuwagamon;Кувагамон;Кувагамон;keep;ok;Kuwagamon;local_current;;high;Already matches the selected Russian reference.
+567;char_UKKOMON;Ukkomon;Уккомон;Уккомон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+568;char_ORGEMON_BOSS;Ogremon;Оргмон;Оргмон;keep;ok;Orgemon;local_current;;high;Already matches the selected Russian reference.
+569;char_FUGAMON_BOSS;Fugamon;Фугамон;Фугамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
+570;char_HYOUGAMON_BOSS;Hyogamon;Хиогамон;Хиогамон;keep;no_wiki_match;;local_current;;low;"No matching Russian Digimon Wiki/Fandom page found; kept current translation for manual review."
