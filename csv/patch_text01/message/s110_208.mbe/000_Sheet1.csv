@@ -1,5 +1,5 @@
 string2 0,string 1,string 2,string 3
-s110_208_010,char_SUSANOOMON,Хм. Так это ты победил моих верных подчиненных...,
+s110_208_010,char_SUSANOOMON,"Хм. Значит, это тебе удалось победить моих верных подчиненных...",
 s110_208_020,char_SUSANOOMON,Я спрошу откровенно. Кто вы?,
 s110_208_030,char_PLAYER_M,{next}Kunlun's envoy.,
 s110_208_031,char_PLAYER_M,{next}I'm a human.,
