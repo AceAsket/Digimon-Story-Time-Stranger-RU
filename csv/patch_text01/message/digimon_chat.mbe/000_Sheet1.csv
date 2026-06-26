@@ -1,6 +1,6 @@
 string2 0,string 1,string 2,string 3
 aigio_001_0_char_AEGIOMON,char_AEGIOMON,"Убедись, что ты присматриваешь за мной, хорошо? В противном
-случае, мне, возможно, придется играть на своей свирели здесь...",
+случае, мне, возможно, придется играть на свирели прямо здесь...",
 aigio_001_1_replay,char_PLAYER_M,Хочешь попробовать управлять мной с их помощью?,
 aigio_001_1_reaction_char_AEGIOMON,char_AEGIOMON,"Не знаю... По какой-то причине у меня такое чувство, что это не
 сработает...",
@@ -8,7 +8,7 @@ aigio_001_2_replay,char_PLAYER_M,На что они похожи?,
 aigio_001_2_reaction_char_AEGIOMON,char_AEGIOMON,Вообще-то... Я не знаю. Каждый слышит их по-своему.,
 aigio_001_3_replay,char_PLAYER_M,Не волнуйся. Я присмотрю за тобой.,
 aigio_001_3_reaction_char_AEGIOMON,char_AEGIOMON,"...Да, похоже, ты не ошибаешься. Я знаю, ты будешь хорошо заботиться обо мне.",
-aigio_001_4_replay,char_PLAYER_M,"Ты - это все, что меня волнует.",
+aigio_001_4_replay,char_PLAYER_M,"Меня волнуешь только ты.",
 aigio_001_4_reaction_char_AEGIOMON,char_AEGIOMON,"Даже не играя на своей свирели ...? Вау, спасибо! Я тоже буду
 хорошо заботиться о тебе.",
 blimp_001_0_char_BLIMPMON,char_BLIMPMON,"Куда ты хочешь пойти? Если я смогу туда поехать, я возьму тебя с
@@ -3409,7 +3409,7 @@ common001_1_reaction_female_knowledge,,"Хехе. Я так и думал. См�
 большего!",
 common001_1_reaction_old_knowledge,,"Хехе. Я так и думал. Смелость - это действительно круто. Я хочу
 большего!",
-common001_2_replay,char_PLAYER_M,Превосходит меня.,
+common001_2_replay,char_PLAYER_M,Сложно сказать.,
 common001_2_reaction_child_courage,,"Так ты тоже не знаешь? Хм, я все еще не знаю, что такое
 смелость...",
 common001_2_reaction_male_courage,,"Так ты тоже не знаешь? Хм, я все еще не знаю, что такое
@@ -3458,7 +3458,7 @@ common002_0_child_knowledge,,Я хочу больше веселиться. Чт
 common002_0_male_knowledge,,Я хочу больше веселиться. Что мне делать?,
 common002_0_female_knowledge,,Я хочу больше веселиться. Что мне делать?,
 common002_0_old_knowledge,,Я хочу больше веселиться. Что мне делать?,
-common002_1_replay,char_PLAYER_M,"Будьте достаточно смелы, чтобы сделать этот первый шаг.",
+common002_1_replay,char_PLAYER_M,"Наберись смелости и сделай первый шаг.",
 common002_1_reaction_child_courage,,Хорошая идея! Смелость может помочь мне начать что-то новое.,
 common002_1_reaction_male_courage,,Хорошая идея! Смелость может помочь мне начать что-то новое.,
 common002_1_reaction_female_courage,,Хорошая идея! Смелость может помочь мне начать что-то новое.,
@@ -3541,7 +3541,7 @@ common003_1_reaction_child_knowledge,,Вау! Я хочу быть похожи�
 common003_1_reaction_male_knowledge,,Вау! Я хочу быть похожим на тебя!,
 common003_1_reaction_female_knowledge,,Вау! Я хочу быть похожим на тебя!,
 common003_1_reaction_old_knowledge,,Вау! Я хочу быть похожим на тебя!,
-common003_2_replay,char_PLAYER_M,Я пугливый кот.,
+common003_2_replay,char_PLAYER_M,Я легко пугаюсь.,
 common003_2_reaction_child_courage,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
 common003_2_reaction_male_courage,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
 common003_2_reaction_female_courage,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
