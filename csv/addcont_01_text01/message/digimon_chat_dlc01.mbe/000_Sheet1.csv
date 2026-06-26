@@ -1,66 +1,66 @@
 string2 0,string 1,string 2,string 3
 omea_001_0_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,Цифровой мир полон загадок.,
 omea_001_1_replay,char_PLAYER_M,Действительно.,
-omea_001_1_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Возможно, я не смогу вам помочь, но держу пари, что вы это сделаете.
-решите многие из них на своем пути.",
+omea_001_1_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Возможно, я не смогу помочь напрямую, но уверен,
+по пути ты разгадаешь многие из них.",
 omea_001_2_replay,char_PLAYER_M,"Да, и ты один из них.",
-omea_001_2_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Я ничто в огромном пространстве цифрового мира.
-Вам следует решить еще большую загадку.",
+omea_001_2_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Я лишь малая часть огромного Цифрового мира.
+Тебе стоит разгадать загадку куда больше.",
 omea_001_3_replay,char_PLAYER_M,Меня это не беспокоит.,
-omea_001_3_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Меня это тоже не беспокоит.
-Все, что меня волнует, — это оставаться силой добра.",
+omea_001_3_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Меня это тоже не тревожит.
+Меня волнует лишь одно — оставаться силой добра.",
 omea_001_4_replay,char_PLAYER_M,Не совсем.,
-omea_001_4_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Конфликт между добром и злом достаточно прост.
-Если это ваша цель, то меня это устраивает.",
-blgra_001_0_char_BLITZGREYMON,char_BLITZGREYMON,Тебе лучше не приближаться ко мне слишком близко.,
+omea_001_4_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Противостояние добра и зла довольно просто.
+Если это твоя цель, я не возражаю.",
+blgra_001_0_char_BLITZGREYMON,char_BLITZGREYMON,Лучше не подходи ко мне слишком близко.,
 blgra_001_1_replay,char_PLAYER_M,Но я хочу быть ближе к тебе.,
-blgra_001_1_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Не стоит недооценивать мои удары током.
-Подойдите слишком близко во время боя, и вам не удастся уйти невредимым.",
+blgra_001_1_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Не стоит недооценивать мои электрические разряды.
+Подойдёшь слишком близко в бою — можешь пострадать.",
 blgra_001_2_replay,char_PLAYER_M,Почему?,
-blgra_001_2_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Потому что после этого вы можете быть шокированы
-моих атак... хотя это не точно.",
+blgra_001_2_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Потому что тебя может ударить током
+от моих атак... хотя гарантий нет.",
 blgra_001_3_replay,char_PLAYER_M,Я не собираюсь приближаться к тебе.,
-blgra_001_3_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Хороший. Теперь я могу сражаться, не боясь
-ты попадаешь под перекрестный огонь.",
+blgra_001_3_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Хорошо. Теперь я могу сражаться,
+не боясь, что ты попадёшь под удар.",
 blgra_001_4_replay,char_PLAYER_M,Я уже слишком близко.,
-blgra_001_4_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Тогда вам придется отойти еще дальше.
-Я не хочу, чтобы вы были шокированы.",
+blgra_001_4_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Тогда отойди ещё дальше.
+Я не хочу, чтобы тебя ударило током.",
 kugul_001_0_char_CRESGARURUMON,char_CRESGARURUMON,"Когда говорят о золотом мечнике,
 они говорят обо мне.",
 kugul_001_1_replay,char_PLAYER_M,Я бы хотел иметь золотой меч!,
-kugul_001_1_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Одно это не обеспечит победу, и только я могу им воспользоваться.
-Делайте то, что лучше всего подходит для вас.",
-kugul_001_2_replay,char_PLAYER_M,Какой-то у тебя яркий вкус.,
-kugul_001_2_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Эта броня сделана не из золота, а из золотого хромированного дигизоита.
-Назвать его «ярким» было бы просто неточно.",
+kugul_001_1_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Один только меч победы не гарантирует, и пользоваться им могу только я.
+Делай то, что лучше всего подходит тебе.",
+kugul_001_2_replay,char_PLAYER_M,Любишь же ты блеск.,
+kugul_001_2_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Эта броня сделана не из золота, а из золотого хромдигизоида.
+Так что назвать её «блестяшкой» было бы неточно.",
 kugul_001_3_replay,char_PLAYER_M,Это чертовски круто!,
-kugul_001_3_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Думаю, скоро у меня будет возможность похвастаться
-мои навыки владения мечом. Хотя я надеюсь, что ошибаюсь.",
-kugul_001_4_replay,char_PLAYER_M,"Ты сияешь так ярко, что мне придется надеть солнцезащитные очки!",
-kugul_001_4_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Вот кто я. Взгляните внимательно
-в моем славном золотом сиянии!",
-omed_001_0_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,Тебе... не следует подходить ко мне слишком близко.,
+kugul_001_3_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Думаю, скоро у меня будет шанс показать
+своё мастерство мечника. Хотя надеюсь, что ошибаюсь.",
+kugul_001_4_replay,char_PLAYER_M,"Ты сияешь так ярко, что мне нужны солнцезащитные очки!",
+kugul_001_4_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Таков я. Смотри внимательно
+на моё славное золотое сияние!",
+omed_001_0_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,Тебе... не стоит подходить ко мне слишком близко.,
 omed_001_1_replay,char_PLAYER_M,Но я хочу быть ближе к тебе.,
-omed_001_1_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Я подозреваю, что даже у вас может быть представление о
-что будет из такого действия...",
+omed_001_1_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Подозреваю, даже ты представляешь,
+к чему может привести такой поступок...",
 omed_001_2_replay,char_PLAYER_M,"Я бы не стал, даже если бы ты меня об этом попросил.",
-omed_001_2_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Мудрое решение. Это естественная реакция
-для любого, кто распознает мою истинную природу.",
+omed_001_2_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Мудрое решение. Так естественно поступит любой,
+кто распознает мою истинную природу.",
 omed_001_3_replay,char_PLAYER_M,"Что бы произошло, если бы я это сделал?",
-omed_001_3_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Скажем так, наши отношения будут
-оказаться на критическом перепутье.",
+omed_001_3_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Скажем так, наши отношения
+окажутся на опасном распутье.",
 omed_001_4_replay,char_PLAYER_M,Но мы друзья.,
-omed_001_4_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Несмотря на это, не забывайте, что в душе я берсерк.
-Прислушайтесь к моему предупреждению.",
+omed_001_4_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"И всё же не забывай: в душе я берсерк.
+Прислушайся к моему предупреждению.",
 omeb_001_0_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Я знаю себя лучше, чем кто-либо.",
-omeb_001_1_replay,char_PLAYER_M,"Итак, кто ты?",
-omeb_001_1_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Я не отвечу на этот вопрос.
+omeb_001_1_replay,char_PLAYER_M,Так кто же ты?,
+omeb_001_1_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"На этот вопрос я не отвечу.
 Не испытывай меня, человек.",
 omeb_001_2_replay,char_PLAYER_M,Как ты почернел?,
-omeb_001_2_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Я оказался в таком состоянии еще до того, как осознал это.
-Я был бы признателен за все, что вы можете объяснить.",
-omeb_001_3_replay,char_PLAYER_M,"Даже та часть вас, которая выходит из-под контроля?",
-omeb_001_3_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Я не уверен, о чем ты говоришь,
-но не заморачивайтесь слишком сильно.",
-omeb_001_4_replay,char_PLAYER_M,Я хотел бы узнать о тебе больше.,
-omeb_001_4_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Это не обязательно, но я обязательно вас запомню.",
+omeb_001_2_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Я оказался в таком состоянии ещё до того, как понял это.
+Буду признателен за любое объяснение.",
+omeb_001_3_replay,char_PLAYER_M,"Даже ту часть, что выходит из-под контроля?",
+omeb_001_3_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Не понимаю, о чём ты,
+но не забивай себе этим голову.",
+omeb_001_4_replay,char_PLAYER_M,Я хочу узнать о тебе больше.,
+omeb_001_4_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"В этом нет необходимости, но я обязательно тебя запомню.",

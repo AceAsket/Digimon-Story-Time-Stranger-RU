@@ -1,27 +1,27 @@
 string2 0,string 1,string 2,string 3
-mgal_001_0_char_METALGARURUMON_BK,,"Давай как-нибудь сразимся. Я люблю честный матч! Какой
-соревнования тебе нравятся?",
+mgal_001_0_char_METALGARURUMON_BK,,"Давай как-нибудь устроим поединок. Я люблю честные состязания!
+А какие соревнования нравятся тебе?",
 mgal_001_1_replay,char_PLAYER_M,Ужасающие гонки на мотоциклах!,
-mgal_001_1_reaction_char_METALGARURUMON_BK,,"Я тоже их люблю! Это испытание не только скорости, но и
-смелость!",
+mgal_001_1_reaction_char_METALGARURUMON_BK,,"Я тоже их люблю! Это испытание не только скорости,
+но и смелости!",
 mgal_001_2_replay,char_PLAYER_M,Умопомрачительные настольные игры!,
-mgal_001_2_reaction_char_METALGARURUMON_BK,,Я понимаю. Тогда вы хотите превратить это в битву умов!,
-mgal_001_3_replay,char_PLAYER_M,Разгадывайте загадки в команде!,
-mgal_001_3_reaction_char_METALGARURUMON_BK,,"Так не ты против меня, а мы против загадочной тайны?
-Звучит как очень весело!",
+mgal_001_2_reaction_char_METALGARURUMON_BK,,"Понимаю. Значит, хочешь превратить это в битву умов!",
+mgal_001_3_replay,char_PLAYER_M,Разгадывать загадки в команде!,
+mgal_001_3_reaction_char_METALGARURUMON_BK,,"То есть не ты против меня, а мы вместе против загадки?
+Звучит очень весело!",
 mgal_001_4_replay,char_PLAYER_M,Я не хочу с тобой соревноваться.,
-mgal_001_4_reaction_char_METALGARURUMON_BK,,"Это матч, а не драка... И все же я ценю эту мысль. Мы будем
-будьте всегда друзьями!",
-omez_001_0_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,Как тебе кажется моя чёрная форма?,
-omez_001_1_replay,char_PLAYER_M,На самом деле довольно злодейский.,
-omez_001_1_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Это расстраивает, но я ценю вашу откровенность. Такая откровенность
-заслуживает доверия.",
-omez_001_2_replay,char_PLAYER_M,Темный блеск выглядит круто.,
-omez_001_2_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Всего лишь эффект Черного Дигитрона, но он увеличивает мою силу, и я
-нравится и его внешний вид.",
-omez_001_3_replay,char_PLAYER_M,Делает тебя похожим на какого-то злого вдохновителя.,
-omez_001_3_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Я вряд ли манипулятивный тип! Я был бы не против предложить
-вы мое руководство, однако.",
-omez_001_4_replay,char_PLAYER_M,Как будто ты впал в немилость.,
-omez_001_4_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Не судите только по внешности, хотя я и спрашивал. Ради
-нашей связи, я прощу тебя.",
+mgal_001_4_reaction_char_METALGARURUMON_BK,,"Это состязание, а не драка... Но я ценю твою заботу.
+Мы всегда будем друзьями!",
+omez_001_0_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,Как тебе моя чёрная форма?,
+omez_001_1_replay,char_PLAYER_M,"Честно говоря, выглядит довольно злодейски.",
+omez_001_1_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Это огорчает, но я ценю твою откровенность.
+Такой честности можно доверять.",
+omez_001_2_replay,char_PLAYER_M,Тёмный блеск выглядит круто.,
+omez_001_2_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Это всего лишь эффект Чёрного Дигитрона, но он усиливает меня,
+и его внешний вид мне тоже нравится.",
+omez_001_3_replay,char_PLAYER_M,Делает тебя похожим на злого гения.,
+omez_001_3_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Я едва ли из тех, кто манипулирует другими!
+Хотя наставить тебя на путь я был бы не против.",
+omez_001_4_replay,char_PLAYER_M,Будто ты пал во тьму.,
+omez_001_4_reaction_char_OMEGAMON_ZWART,char_OMEGAMON_ZWART,"Не суди только по внешности, хотя я сам спросил.
+Ради нашей связи я тебя прощаю.",
