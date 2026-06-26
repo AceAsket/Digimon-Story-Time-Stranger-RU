@@ -67,7 +67,7 @@ s070_167_370,char_MINERVAMON,"... Мы поможем тебе починить 
 сражаться.",
 s070_167_380,char_PLAYER_M,"{next}You're gonna help Beelzemon power up, Minervamon?",
 s070_167_381,char_PLAYER_M,"{next}So, how do we repair your things, Beelzemon?",
-s070_167_382,char_PLAYER_M,{next}...Attack! Now!,
+s070_167_382,char_PLAYER_M,{next}...Атака! Now!,
 s070_167_390,char_MINERVAMON,"Да, иначе моя проблема не будет решена. Извините... Я знаю, что
 веду себя эгоистично.",
 s070_167_400,char_BEELZEBUMON,"Ну-ну. Значит, тебе тоже понравилась эта идея.",

@@ -1028,7 +1028,7 @@ atlaka_001_2_reaction_char_ATLURKABUTERIMON,char_ATLURKABUTERIMON,"Без вос
 Пугающая мысль.",
 atlaka_001_3_replay,char_PLAYER_M,Мои дорогие друзья.,
 atlaka_001_3_reaction_char_ATLURKABUTERIMON,char_ATLURKABUTERIMON,Ты такой заботливый человек. Давай вместе защитим наших друзей!,
-atlaka_001_4_replay,char_PLAYER_M,"Ты, МегаКабутеримон.",
+atlaka_001_4_replay,char_PLAYER_M,"Ты, АтлаКабутеримон.",
 atlaka_001_4_reaction_char_ATLURKABUTERIMON,char_ATLURKABUTERIMON,"... Что ж, спасибо. Я бы тоже хотел обезопасить тебя.",
 ete_001_0_char_ETEMON,char_ETEMON,Я подумываю о написании новой песни. Какую музыку мне написать?,
 ete_001_1_replay,char_PLAYER_M,Горячий и тяжелый рок!,
@@ -1443,7 +1443,7 @@ tsuno_001_2_reaction_char_TUNOMON,char_TUNOMON,"Сомнительный? Что
 tsuno_001_3_replay,char_PLAYER_M,Он выглядит действительно сильным.,
 tsuno_001_3_reaction_char_TUNOMON,char_TUNOMON,Что? Помогает?! У меня от этого кружится голова! Не буду врать.,
 tsuno_001_4_replay,char_PLAYER_M,Это чертовски круто!,
-tsuno_001_4_reaction_char_TUNOMON,char_TUNOMON,"Ценю это! Я должен очень скоро перейти на Digivolve, чтобы стать
+tsuno_001_4_reaction_char_TUNOMON,char_TUNOMON,"Ценю это! Я должен очень скоро перейти на эволюционировать, чтобы стать
 еще круче.",
 kote_001_0_char_KOTEMON,char_KOTEMON,"Если ты хочешь стать сильнее, я был бы более чем счастлив
 тренировать тебя. Что скажешь?",
@@ -1685,7 +1685,7 @@ toko_001_2_replay,char_PLAYER_M,Я вас поддерживаю!,
 toko_001_2_reaction_char_TOKOMON,char_TOKOMON,"Научи меня, научи меня, пожалуйста!",
 toko_001_3_replay,char_PLAYER_M,"Ты милая такая, какая ты есть.",
 toko_001_3_reaction_char_TOKOMON,char_TOKOMON,"Правда? Тогда, может быть, я все-таки не буду заниматься
-Digivolve... О, но я действительно хочу!",
+эволюционировать... О, но я действительно хочу!",
 toko_001_4_replay,char_PLAYER_M,Тебе тоже лучше выглядеть классно!,
 toko_001_4_reaction_char_TOKOMON,char_TOKOMON,"Если моя цифровая революция делает меня сильнее, для меня этого
 достаточно. Черт возьми, я и так крут!",
@@ -2652,7 +2652,7 @@ mgra_001_2_reaction_char_METALGREYMON,char_METALGREYMON,"Я хотел, чтоб
 не так ли?",
 mgra_001_3_replay,char_PLAYER_M,Вы почти не изменились?,
 mgra_001_3_reaction_char_METALGREYMON,char_METALGREYMON,"Ты так думаешь? Тогда ладно. Мне придется преобразовать
-Digivolve в еще более крутую форму!",
+эволюционировать в еще более крутую форму!",
 mgra_001_4_replay,char_PLAYER_M,Мне больше нравится синяя...,
 mgra_001_4_reaction_char_METALGREYMON,char_METALGREYMON,"Почему я должен— Подожди. Ты смеешься надо мной? Ты должен
 просто сказать, что ты на самом деле думаешь!",
@@ -2796,7 +2796,7 @@ vdora_001_4_reaction_char_V-DRAMON,char_V-DRAMON,"Жизненная сила? �
 exbui_001_0_char_XV-MON,char_XV-MON,Мне все еще нужно больше энергии.,
 exbui_001_1_replay,char_PLAYER_M,Ты стал намного сильнее.,
 exbui_001_1_reaction_char_XV-MON,char_XV-MON,"Может быть, по сравнению с тем, что было до того, как я перешел
-на Digivolved, но я должен сделать лучше, чем это!",
+на эволюционировал, но я должен сделать лучше, чем это!",
 exbui_001_2_replay,char_PLAYER_M,Хотя ты довольно крутая.,
 exbui_001_2_reaction_char_XV-MON,char_XV-MON,Все эти разговоры со мной не сработают! Я вырос из всего этого!,
 exbui_001_3_replay,char_PLAYER_M,Тебе просто нужно больше тренироваться.,

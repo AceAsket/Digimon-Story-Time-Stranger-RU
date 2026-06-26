@@ -1,31 +1,31 @@
 string2 0,string 1
-"2","У вас больше не будет ни одного Дигимона, который мог бы сражаться!"
-"3","Вы можете заменить только Ko'd Дигимон."
-"4","Все враги"
-"5","Все союзники"
-"6","Все"
-"100004","Все враги"
-"100005","Все союзники"
-"100006","Все подразделения"
-"7","Случайный"
-"8","{d0} mustered their strength!"
-"9","{d0} and crew mustered their strength!"
-"10","Враг разбит!"
-"11","Связь в режиме ожидания..."
-"12","Невозможно сбежать!"
-"13","{d0} turn(s) until death..."
-"14","Ваши союзники нанесут удар первыми!"
-"15","Враг наносит удар первым ...!"
-"16","Союзник"
-"100016","Ваши союзники"
-"17","Нет доступных целей для атаки..."
-"18","{d0} has been KO'd!"
-"19","Changed to {d0}!"
-"20","Became {d0}!"
-"21","{d0} have been De-Digivolved!"
-"100021","{d0} has been De-Digivolved!"
-"22","{d0} have been restored by one Generation!"
-"100022","{d0} has been restored by one Generation!"
-"23","{d0}'s stat buffs and debuffs have been swapped!"
-"24","{d0}'s stat changes have been absorbed!"
-"25","Внезапная боль в спине!"
+2,"У вас больше не будет ни одного Дигимона, который мог бы сражаться!"
+3,Вы можете заменить только Ko'd Дигимон.
+4,Все враги
+5,Все союзники
+6,Все
+100004,Все враги
+100005,Все союзники
+100006,Все подразделения
+7,Случайный
+8,{d0} mustered their strength!
+9,{d0} and crew mustered their strength!
+10,Враг разбит!
+11,Связь в режиме ожидания...
+12,Невозможно сбежать!
+13,{d0} turn(s) until death...
+14,Ваши союзники нанесут удар первыми!
+15,Враг наносит удар первым ...!
+16,Союзник
+100016,Ваши союзники
+17,Нет доступных целей для атаки...
+18,{d0} has been KO'd!
+19,Changed to {d0}!
+20,Became {d0}!
+21,{d0} have been De-эволюционировал!
+100021,{d0} has been De-эволюционировал!
+22,{d0} have been restored by one Generation!
+100022,{d0} has been restored by one Generation!
+23,{d0}'s stat buffs and debuffs have been swapped!
+24,{d0}'s stat changes have been absorbed!
+25,Внезапная боль в спине!

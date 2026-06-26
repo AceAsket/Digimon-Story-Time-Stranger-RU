@@ -1,27 +1,27 @@
 string2 0,string 1,string 2,string 3
-"analyse_enemy_strong_001","char_DIGIVICE","Это мощный дигимон! Будьте осторожны.",""
-"analyse_enemy_strong_002","char_DIGIVICE","Обнаружен сильный сигнал. Пожалуйста, избегайте боя.",""
-"analyse_enemy_strong_003","char_DIGIVICE","Мощный сигнал был подтвержден. Боя следует избегать.",""
-"analyse_enemy_even_001","char_DIGIVICE","Вы можете нанести удар цифровой атакой.",""
-"analyse_enemy_week_001","char_DIGIVICE","Вы можете нанести удар цифровой атакой.",""
-"analyse_enemy_week_002","char_DIGIVICE","Обнаружен слабый сигнал. Ожидайте небольшого сопротивления.",""
-"analyse_enemy_week_003","char_DIGIVICE","Уровень сигнала низкий. Угроза минимальна.",""
-"analyse_object_destructible","char_DIGIVICE","Вы можете использовать DigiAttack.",""
-"analyse_object_indestructible","char_DIGIVICE","Вы можете использовать DigiAttack.",""
-"analyse_object_search","char_DIGIVICE","Поблизости есть объект, который вы можете оцифровать.",""
-"analyse_search_popup","char_DIGIVICE","Поблизости есть необходимые материалы.",""
-"analyse_search_important ","char_DIGIVICE","Неподалеку находится сундук с сокровищами.",""
-"analyse_search_treasure","char_DIGIVICE","Неподалеку находится сундук с сокровищами.",""
-"analyse_search_hazamabox","char_DIGIVICE","Неподалеку находится сундук с сокровищами.",""
-"analyse_search_kirakira","char_DIGIVICE","Неподалеку находится сундук с сокровищами.",""
-"analyse_search_theater","char_DIGIVICE","Неподалеку был обнаружен Промежуточный кинотеатр.",""
-"analyse_search_dungeon","char_DIGIVICE","Неподалеку было обнаружено Внешнее подземелье.",""
-"analyse_search_destination","char_DIGIVICE","Цель находится поблизости.",""
-"analyse_search_target","char_DIGIVICE","Цель находится поблизости.",""
-"analyse_fieldattack_failure","char_DIGIVICE","Вы можете использовать DigiAttack.",""
-"analyse_fieldattack_notarget","char_DIGIVICE","Никаких сигналов не обнаружено.",""
-"analyse_fieldattack_impossible","char_DIGIVICE","Вы не можете использовать DigiAttack.",""
-"digimonride_ok","char_DIGIVICE","This Дигимон is {r1} {fc13DigiRide}-capable.",""
-"digimonride_ng","char_DIGIVICE","Этот Дигимон не поддерживает использование ДигиРида.",""
-"digimonride_notarget","char_DIGIVICE","В наличии нет Дигимон с поддержкой DigiRide.",""
-"digimonconvert_notarget","char_DIGIVICE","Отсканированный Дигимон недоступен.",""
+analyse_enemy_strong_001,char_DIGIVICE,Это мощный дигимон! Будьте осторожны.,
+analyse_enemy_strong_002,char_DIGIVICE,"Обнаружен сильный сигнал. Пожалуйста, избегайте боя.",
+analyse_enemy_strong_003,char_DIGIVICE,Мощный сигнал был подтвержден. Боя следует избегать.,
+analyse_enemy_even_001,char_DIGIVICE,Вы можете нанести удар цифровой атакой.,
+analyse_enemy_week_001,char_DIGIVICE,Вы можете нанести удар цифровой атакой.,
+analyse_enemy_week_002,char_DIGIVICE,Обнаружен слабый сигнал. Ожидайте небольшого сопротивления.,
+analyse_enemy_week_003,char_DIGIVICE,Уровень сигнала низкий. Угроза минимальна.,
+analyse_object_destructible,char_DIGIVICE,Вы можете использовать Дигиатака.,
+analyse_object_indestructible,char_DIGIVICE,Вы можете использовать Дигиатака.,
+analyse_object_search,char_DIGIVICE,"Поблизости есть объект, который вы можете оцифровать.",
+analyse_search_popup,char_DIGIVICE,Поблизости есть необходимые материалы.,
+analyse_search_important ,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
+analyse_search_treasure,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
+analyse_search_hazamabox,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
+analyse_search_kirakira,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
+analyse_search_theater,char_DIGIVICE,Неподалеку был обнаружен Промежуточный кинотеатр.,
+analyse_search_dungeon,char_DIGIVICE,Неподалеку было обнаружено Внешнее подземелье.,
+analyse_search_destination,char_DIGIVICE,Цель находится поблизости.,
+analyse_search_target,char_DIGIVICE,Цель находится поблизости.,
+analyse_fieldattack_failure,char_DIGIVICE,Вы можете использовать Дигиатака.,
+analyse_fieldattack_notarget,char_DIGIVICE,Никаких сигналов не обнаружено.,
+analyse_fieldattack_impossible,char_DIGIVICE,Вы не можете использовать Дигиатака.,
+digimonride_ok,char_DIGIVICE,This Дигимон is {r1} {fc13ДигиРайд}-capable.,
+digimonride_ng,char_DIGIVICE,Этот Дигимон не поддерживает использование ДигиРида.,
+digimonride_notarget,char_DIGIVICE,В наличии нет Дигимон с поддержкой ДигиРайд.,
+digimonconvert_notarget,char_DIGIVICE,Отсканированный Дигимон недоступен.,

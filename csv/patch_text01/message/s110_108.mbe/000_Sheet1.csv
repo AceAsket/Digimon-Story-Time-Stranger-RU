@@ -122,7 +122,7 @@ s110_108_730,char_EXAMON,"Если даже эти головорезы были
 нас бороться, я должен быть более подготовлен!",
 s110_108_740,char_EXAMON,"Я должен быть способен выложиться на все сто. Теперь, когда я
 выздоровел, что мне делать дальше ...?",
-s110_108_750,char_PLAYER_M,{next}King Drasil is calling for you.,
+s110_108_750,char_PLAYER_M,{next}Иггдрасиль is calling for you.,
 s110_108_751,char_PLAYER_M,{next}Don't you have any plans?,
 s110_108_752,char_PLAYER_M,{next}Why not try getting even bigger?,
 s110_108_760,char_EXAMON,"Король Драсил? Ах, теперь я помню, что меня вызвали.",

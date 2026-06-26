@@ -37,7 +37,7 @@ s100_088_190,char_TOUHO,"Из того, что я могу сказать, он�
 сколько, скорее, слишком веселятся.",
 s100_088_192,char_TOUHO,"Им всем очень нравится Парадайз Колизей. Они должны были поехать
 туда тренироваться, но...",
-s100_088_200,char_PLAYER_M,{next}The Paradise Colosseum is pretty fun.,
+s100_088_200,char_PLAYER_M,{next}The Высотный колизей is pretty fun.,
 s100_088_201,char_PLAYER_M,"{next}If they're training, isn't that a good thing?",
 s100_088_202,char_PLAYER_M,{next}I'll go take a look!,
 s100_088_210,char_TOUHO,"Да, похоже, что так. Они наслаждаются этим так же, как
