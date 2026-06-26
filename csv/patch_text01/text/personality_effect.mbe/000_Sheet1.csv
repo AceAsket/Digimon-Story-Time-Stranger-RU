@@ -1,18 +1,18 @@
 string2 0,string 1
-"0","–"
-"1","A valiant heart boosts {fc7ATK} and {fc7SP} growth."
-"2","A passionate heart boosts {fc7ATK} and {fc7SPD} growth."
-"3","A dauntless heart boosts {fc7ATK} and {fc7DEF} growth."
-"4","A wild heart boosts {fc7ATK} and {fc7HP} growth."
-"5","An affectionate heart boosts {fc7SPI} and {fc7DEF} growth."
-"6","A dedicated heart boosts {fc7SPI} and {fc7INT} growth."
-"7","An accepting heart boosts {fc7SPI} and {fc7SP} growth."
-"8","A vigilant heart boosts {fc7SPI} and {fc7HP} growth."
-"9","A sympathetic heart boosts {fc7DEF} and {fc7HP} growth."
-"10","An outgoing heart boosts {fc7DEF} and {fc7SP} growth."
-"11","An amiable heart boosts {fc7DEF} and {fc7ATK} growth."
-"12","A crafty heart boosts {fc7DEF} and {fc7SPI} growth."
-"13","A wise heart boosts {fc7INT} and {fc7SPD} growth."
-"14","A strategic heart boosts {fc7INT} and {fc7SPI} growth."
-"15","An inspired heart boosts {fc7INT} and {fc7SP} growth."
-"16","A teasing heart boosts {fc7INT} and {fc7HP} growth."
+0,–
+1,Увеличивает прирост {fc7АТК} и {fc7ОС}.
+2,Увеличивает прирост {fc7АТК} и {fc7СКР}.
+3,Увеличивает прирост {fc7АТК} и {fc7ЗАЩ}.
+4,Увеличивает прирост {fc7АТК} и {fc7ОЗ}.
+5,Увеличивает прирост {fc7ДУХ} и {fc7ЗАЩ}.
+6,Увеличивает прирост {fc7ДУХ} и {fc7ИНТ}.
+7,Увеличивает прирост {fc7ДУХ} и {fc7ОС}.
+8,Увеличивает прирост {fc7ДУХ} и {fc7ОЗ}.
+9,Увеличивает прирост {fc7ЗАЩ} и {fc7ОЗ}.
+10,Увеличивает прирост {fc7ЗАЩ} и {fc7ОС}.
+11,Увеличивает прирост {fc7ЗАЩ} и {fc7АТК}.
+12,Увеличивает прирост {fc7ЗАЩ} и {fc7ДУХ}.
+13,Увеличивает прирост {fc7ИНТ} и {fc7СКР}.
+14,Увеличивает прирост {fc7ИНТ} и {fc7ДУХ}.
+15,Увеличивает прирост {fc7ИНТ} и {fc7ОС}.
+16,Увеличивает прирост {fc7ИНТ} и {fc7ОЗ}.

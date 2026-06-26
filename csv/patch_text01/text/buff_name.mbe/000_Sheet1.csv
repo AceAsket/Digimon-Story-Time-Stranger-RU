@@ -22,21 +22,21 @@ string2 0,string 1
 22,{is28}{image(ui_icon_btlStatus_035)} Макс. SP -
 23,{is28}{image(ui_icon_btlStatus_014)} Восстановление HP за ход
 24,{is28}{image(ui_icon_btlStatus_015)} Восстановление SP за ход
-25,{is28}{image(ui_icon_btlStatus_016)} ATK +
-26,{is28}{image(ui_icon_btlStatus_018)} DEF +
-27,{is28}{image(ui_icon_btlStatus_020)} INT +
-28,{is28}{image(ui_icon_btlStatus_022)} SPI +
-29,{is28}{image(ui_icon_btlStatus_024)} SPD +
-30,{is28}{image(ui_icon_btlStatus_026)} ACU +
-31,{is28}{image(ui_icon_btlStatus_028)} EVA +
+25,{is28}{image(ui_icon_btlStatus_016)} АТК +
+26,{is28}{image(ui_icon_btlStatus_018)} ЗАЩ +
+27,{is28}{image(ui_icon_btlStatus_020)} ИНТ +
+28,{is28}{image(ui_icon_btlStatus_022)} ДУХ +
+29,{is28}{image(ui_icon_btlStatus_024)} СКР +
+30,{is28}{image(ui_icon_btlStatus_026)} МЕТ +
+31,{is28}{image(ui_icon_btlStatus_028)} УКЛ +
 32,{is28}{image(ui_icon_btlStatus_030)} шанс крита +
-33,{is28}{image(ui_icon_btlStatus_017)} ATK -
-34,{is28}{image(ui_icon_btlStatus_019)} DEF -
-35,{is28}{image(ui_icon_btlStatus_021)} INT -
-36,{is28}{image(ui_icon_btlStatus_023)} SPI -
-37,{is28}{image(ui_icon_btlStatus_025)} SPD -
-38,{is28}{image(ui_icon_btlStatus_027)} ACU -
-39,{is28}{image(ui_icon_btlStatus_029)} EVA -
+33,{is28}{image(ui_icon_btlStatus_017)} АТК -
+34,{is28}{image(ui_icon_btlStatus_019)} ЗАЩ -
+35,{is28}{image(ui_icon_btlStatus_021)} ИНТ -
+36,{is28}{image(ui_icon_btlStatus_023)} ДУХ -
+37,{is28}{image(ui_icon_btlStatus_025)} СКР -
+38,{is28}{image(ui_icon_btlStatus_027)} МЕТ -
+39,{is28}{image(ui_icon_btlStatus_029)} УКЛ -
 40,{is28}{image(ui_icon_btlStatus_031)} шанс крита -
 41,{is28}{image(ui_icon_btlStatus_059)} Сопр. нейтр. +
 42,{is28}{image(ui_icon_btlStatus_049)} Сопр. огню +

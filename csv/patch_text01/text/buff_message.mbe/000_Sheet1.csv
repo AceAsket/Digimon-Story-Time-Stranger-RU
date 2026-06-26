@@ -23,21 +23,21 @@ string2 0,string 1
 22,{d0}: {is28}{image(ui_icon_btlStatus_035)} {fc9макс. SP} снижено!
 23,{d0}: {is28}{image(ui_icon_btlStatus_014)} {fc9HP} восстанавливаются каждый ход!
 24,{d0}: {is28}{image(ui_icon_btlStatus_015)} {fc9SP} восстанавливаются каждый ход!
-25,{d0}: {is28}{image(ui_icon_btlStatus_016)} {fc9ATK} повышена!
-26,{d0}: {is28}{image(ui_icon_btlStatus_018)} {fc9DEF} повышена!
-27,{d0}: {is28}{image(ui_icon_btlStatus_020)} {fc9INT} повышена!
-28,{d0}: {is28}{image(ui_icon_btlStatus_022)} {fc9SPI} повышена!
-29,{d0}: {is28}{image(ui_icon_btlStatus_024)} {fc9SPD} повышена!
-30,{d0}: {is28}{image(ui_icon_btlStatus_026)} {fc9ACU} повышена!
-31,{d0}: {is28}{image(ui_icon_btlStatus_028)} {fc9EVA} повышена!
+25,{d0}: {is28}{image(ui_icon_btlStatus_016)} {fc9АТК} повышена!
+26,{d0}: {is28}{image(ui_icon_btlStatus_018)} {fc9ЗАЩ} повышена!
+27,{d0}: {is28}{image(ui_icon_btlStatus_020)} {fc9ИНТ} повышена!
+28,{d0}: {is28}{image(ui_icon_btlStatus_022)} {fc9ДУХ} повышена!
+29,{d0}: {is28}{image(ui_icon_btlStatus_024)} {fc9СКР} повышена!
+30,{d0}: {is28}{image(ui_icon_btlStatus_026)} {fc9МЕТ} повышена!
+31,{d0}: {is28}{image(ui_icon_btlStatus_028)} {fc9УКЛ} повышена!
 32,{d0}: {is28}{image(ui_icon_btlStatus_030)} {fc9шанс крита} повышен!
-33,{d0}: {is28}{image(ui_icon_btlStatus_017)} {fc9ATK} снижена!
-34,{d0}: {is28}{image(ui_icon_btlStatus_019)} {fc9DEF} снижена!
-35,{d0}: {is28}{image(ui_icon_btlStatus_021)} {fc9INT} снижена!
-36,{d0}: {is28}{image(ui_icon_btlStatus_023)} {fc9SPI} снижена!
-37,{d0}: {is28}{image(ui_icon_btlStatus_025)} {fc9SPD} снижена!
-38,{d0}: {is28}{image(ui_icon_btlStatus_027)} {fc9ACU} снижена!
-39,{d0}: {is28}{image(ui_icon_btlStatus_029)} {fc9EVA} снижена!
+33,{d0}: {is28}{image(ui_icon_btlStatus_017)} {fc9АТК} снижена!
+34,{d0}: {is28}{image(ui_icon_btlStatus_019)} {fc9ЗАЩ} снижена!
+35,{d0}: {is28}{image(ui_icon_btlStatus_021)} {fc9ИНТ} снижена!
+36,{d0}: {is28}{image(ui_icon_btlStatus_023)} {fc9ДУХ} снижена!
+37,{d0}: {is28}{image(ui_icon_btlStatus_025)} {fc9СКР} снижена!
+38,{d0}: {is28}{image(ui_icon_btlStatus_027)} {fc9МЕТ} снижена!
+39,{d0}: {is28}{image(ui_icon_btlStatus_029)} {fc9УКЛ} снижена!
 40,{d0}: {is28}{image(ui_icon_btlStatus_031)} {fc9шанс крита} снижен!
 41,{d0}: {is28}{image(ui_icon_btlStatus_059)} {fc9сопр. нейтр.} повышено!
 42,{d0}: {is28}{image(ui_icon_btlStatus_049)} {fc9сопр. огню} повышено!
@@ -159,21 +159,21 @@ string2 0,string 1
 100022,{d0}: {is28}{image(ui_icon_btlStatus_035)} {fc9макс. SP} снижено!
 100023,{d0}: {is28}{image(ui_icon_btlStatus_014)} {fc9HP} восстанавливаются каждый ход!
 100024,{d0}: {is28}{image(ui_icon_btlStatus_015)} {fc9SP} восстанавливаются каждый ход!
-100025,{d0}: {is28}{image(ui_icon_btlStatus_016)} {fc9ATK} повышена!
-100026,{d0}: {is28}{image(ui_icon_btlStatus_018)} {fc9DEF} повышена!
-100027,{d0}: {is28}{image(ui_icon_btlStatus_020)} {fc9INT} повышена!
-100028,{d0}: {is28}{image(ui_icon_btlStatus_022)} {fc9SPI} повышена!
-100029,{d0}: {is28}{image(ui_icon_btlStatus_024)} {fc9SPD} повышена!
-100030,{d0}: {is28}{image(ui_icon_btlStatus_026)} {fc9ACU} повышена!
-100031,{d0}: {is28}{image(ui_icon_btlStatus_028)} {fc9EVA} повышена!
+100025,{d0}: {is28}{image(ui_icon_btlStatus_016)} {fc9АТК} повышена!
+100026,{d0}: {is28}{image(ui_icon_btlStatus_018)} {fc9ЗАЩ} повышена!
+100027,{d0}: {is28}{image(ui_icon_btlStatus_020)} {fc9ИНТ} повышена!
+100028,{d0}: {is28}{image(ui_icon_btlStatus_022)} {fc9ДУХ} повышена!
+100029,{d0}: {is28}{image(ui_icon_btlStatus_024)} {fc9СКР} повышена!
+100030,{d0}: {is28}{image(ui_icon_btlStatus_026)} {fc9МЕТ} повышена!
+100031,{d0}: {is28}{image(ui_icon_btlStatus_028)} {fc9УКЛ} повышена!
 100032,{d0}: {is28}{image(ui_icon_btlStatus_030)} {fc9шанс крита} повышен!
-100033,{d0}: {is28}{image(ui_icon_btlStatus_017)} {fc9ATK} снижена!
-100034,{d0}: {is28}{image(ui_icon_btlStatus_019)} {fc9DEF} снижена!
-100035,{d0}: {is28}{image(ui_icon_btlStatus_021)} {fc9INT} снижена!
-100036,{d0}: {is28}{image(ui_icon_btlStatus_023)} {fc9SPI} снижена!
-100037,{d0}: {is28}{image(ui_icon_btlStatus_025)} {fc9SPD} снижена!
-100038,{d0}: {is28}{image(ui_icon_btlStatus_027)} {fc9ACU} снижена!
-100039,{d0}: {is28}{image(ui_icon_btlStatus_029)} {fc9EVA} снижена!
+100033,{d0}: {is28}{image(ui_icon_btlStatus_017)} {fc9АТК} снижена!
+100034,{d0}: {is28}{image(ui_icon_btlStatus_019)} {fc9ЗАЩ} снижена!
+100035,{d0}: {is28}{image(ui_icon_btlStatus_021)} {fc9ИНТ} снижена!
+100036,{d0}: {is28}{image(ui_icon_btlStatus_023)} {fc9ДУХ} снижена!
+100037,{d0}: {is28}{image(ui_icon_btlStatus_025)} {fc9СКР} снижена!
+100038,{d0}: {is28}{image(ui_icon_btlStatus_027)} {fc9МЕТ} снижена!
+100039,{d0}: {is28}{image(ui_icon_btlStatus_029)} {fc9УКЛ} снижена!
 100040,{d0}: {is28}{image(ui_icon_btlStatus_031)} {fc9шанс крита} снижен!
 100041,{d0}: {is28}{image(ui_icon_btlStatus_059)} {fc9сопр. нейтр.} повышено!
 100042,{d0}: {is28}{image(ui_icon_btlStatus_049)} {fc9сопр. огню} повышено!
