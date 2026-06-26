@@ -1,173 +1,173 @@
 string2 0,string 1
-"tutorial_title_BattleBasic_01","Основы боя"
-"tutorial_title_AdditionalAttack_01","Дополнительные Удары"
-"tutorial_title_Compatibility_01","Совместимость и Расчет ущерба"
-"tutorial_title_BattleCrossarts_01","Кросс-арты"
-"tutorial_title_Escape_01","Побег (Боевая команда)"
-"tutorial_title_Guard_01","Гвардия (Боевое командование)"
-"tutorial_title_Analysis_01","Анализировать (Боевое командование)"
-"tutorial_title_OutoBattle_01","Расширенный бой: Автоматический режим"
-"tutorial_title_HighSpeedMode_01","Расширенный бой: Ускоренная перемотка вперед"
-"tutorial_title_Boss_01","Вражеский КО"
-"tutorial_title_Boss_02","Зарядка (Изменение статуса врага)"
-"tutorial_title_CpAdd_01","Критические очки (КО)"
-"tutorial_title_CpFluctuation_01","Получение КО"
-"tutorial_title_Danger_01","ОЗ Мигает красным"
-"tutorial_title_Dead_01","Нокаут"
-"tutorial_title_Zombi_01","Туман жнеца (снижает максимальную мощность двигателя)"
-"tutorial_title_AttackCategory_01","Физические и Магические Атаки"
-"tutorial_title_DigimonBasic_01","Дигимон"
-"tutorial_title_Status_01","Статистика, Навыки и Снаряжение"
-"tutorial_title_Status_02","Атрибуты АТК/ЗАЩ/ИНТ/ДУХ/СКР/КРТ"
-"tutorial_title_Status_03","Атрибуты"
-"tutorial_title_Status_04","Совместимость атрибутов"
-"tutorial_title_Convert_01","Скорость преобразования и сканирования"
-"tutorial_title_Change_01","Боевые Участники и Резервные Участники"
-"tutorial_title_Evolution_01","Дигиволюция и Дедигиволюция"
-"tutorial_title_SkillChange_01","Навыки Привязанности"
-"tutorial_title_EquipmentChange_01","Оборудование"
-"tutorial_title_Personality_01","Типы личности"
-"tutorial_title_PersonalityChange_01","Изменения в Типе личности"
-"tutorial_title_PersonalitySkill_01","Личностные Навыки"
-"tutorial_title_PersonalitySkillChange_01","Изменения в Личностных Навыках"
-"tutorial_title_DataReturn_01","Возврат Дигимона к данным"
-"tutorial_title_Synthetic_01","Улучшения нагрузки"
-"tutorial_title_PartyAegiomon_01","Эгиомон: Четвертый Боевой участник"
-"tutorial_title_PartyAegiomon_02","Эгиомон: Цифровая революция"
-"tutorial_title_Friendship_01","Метод цифровой трансформации 3: Связь"
-"tutorial_title_Talent_01","Техника цифровой революции 1: Талант"
-"tutorial_title_BondsPoint_01","Точки Аномалий"
-"tutorial_title_BondsSkill_01","Навыки агента"
-"tutorial_title_AgentLevel_01","Ранг агента"
-"tutorial_title_CrossArtsChange_01","Открытие и Изменение Перекрестных Искусств"
-"tutorial_title_Encounter_01","Встречи"
-"tutorial_title_FieldAttack_01","Цифровые атаки"
-"tutorial_title_FieldAttack_02","Цифровые атаки для конкретных элементов"
-"tutorial_title_BackAttack_01","Ответные атаки"
-"tutorial_title_Convert_02","Преобразование"
-"tutorial_title_Treasurechest_01","Сундуки с Сокровищами и материалы"
-"tutorial_title_Theater_01","Промежуточный театр"
-"tutorial_title_Dungeon_01","Внешние подземелья"
-"tutorial_title_DigivaiceConstraints_01","Ограничения На использование Дигивайс"
-"tutorial_title_PecmonRace_01","Правила Гонки Пекмон"
-"tutorial_title_PopPoints_01","Всплывающие Точки"
-"tutorial_title_DigimonRide_01","Дигирид"
-"tutorial_title_GimmickRide_01","Цифровая обработка данных"
-"tutorial_title_OutoRecovery_01","Режим регенерации"
-"tutorial_title_FieldAnalysis_01","Режим анализа"
-"tutorial_title_HowToMove_01","Движение и использование камеры"
-"tutorial_title_Destination_01","Навигационная система"
-"tutorial_title_MiniMap_01","Расширение карты"
-"tutorial_title_DigimonHighlighting_01","Отображение карты Враждебного Дигимона"
-"tutorial_title_WorldMapRialWorld_01","Карта мира"
-"tutorial_title_WorldMapRokomon_01","Карта Локомона"
-"tutorial_title_WorldMapBlimpmon_01","Карта Блимпмона"
-"tutorial_title_WorldMapTimeChange_01","Скачок во времени"
-"tutorial_title_Digivaice_01","Дигивайс"
-"tutorial_title_ChangeClothes_01","Переодевание в Костюмы"
-"tutorial_title_PictureBook_01","Руководство в полевых условиях"
-"tutorial_title_MeinQuest_01","Основная Миссия"
-"tutorial_title_SubQuest_01","Побочные миссии"
-"tutorial_title_MiniQuest_01","Бесплатные миссии"
-"tutorial_title_ChangeQuest_01","Смена Миссии"
-"tutorial_title_Digitter_01","Цифровой код"
-"tutorial_title_Shop_01","Основы магазина"
-"tutorial_title_FarmGoodsShop_01","Цех Синтеза Предметов Фермы"
-"tutorial_title_TutorialDescription_01","Руководства"
-"tutorial_title_Player_01","Агенты"
-"tutorial_title_SystemDescription_01","Система"
-"tutorial_title_DigisterDescripution_01","Дигиферма"
-"tutorial_title_AddFarmIslandPanel_01",""
-"tutorial_title_AddFarmDigimon_01","Перенос Дигимонов на на Дигиферму"
-"tutorial_title_AddFarmGoods_01","Размещение Предметов Фермы"
-"tutorial_title_FarmSpecialTraining_01","Взаимодействие с Дигимонами"
-"tutorial_title_FarmDigicare_01","Цифровая обработка"
-"tutorial_title_FarmDevelopment_01","Производство"
-"tutorial_title_CardsDescription_01","Идеальная Карточная игра Джогмон"
-"tutorial_title_CardsRule_01","Правила Карточной игры"
-"tutorial_title_CardsOpponent_01","Поиск Карточных Боевых Противников"
-"tutorial_title_TriviaMisonoInori_01",""
-"tutorial_title_TriviaMisonoKousuke_01",""
-"tutorial_title_TriviaMisonoKousuke_02",""
-"tutorial_title_TriviaSagisakaHiroko_01",""
-"tutorial_title_TriviaSagisakaHiroko_02",""
-"tutorial_title_TriviaKuremiKoudai_01",""
-"tutorial_title_TriviaShirokiAsuna_01",""
-"tutorial_title_TriviaShirokiAsuna_02",""
-"tutorial_title_TriviaKuroiSyouta_01",""
-"tutorial_title_TriviaKuroiSyouta_02",""
-"tutorial_title_TriviaMonicaSimmons_01",""
-"tutorial_title_TriviaMonicaSimmons_02",""
-"tutorial_title_TriviakugaToya_01",""
-"tutorial_title_TriviakugaToya_02",""
-"tutorial_title_TriviaDrYuki_01",""
-"tutorial_title_TriviaDigimon_01",""
-"tutorial_title_TriviaAegiomon_01",""
-"tutorial_title_TriviaAegiochusmon_01",""
-"tutorial_title_TriviaJupitermon_01",""
-"tutorial_title_TriviaMinervamon_01",""
-"tutorial_title_TriviaCoronamon_01",""
-"tutorial_title_TriviaApollomon_01",""
-"tutorial_title_TriviaLunamon_01",""
-"tutorial_title_TriviaDianamon_01",""
-"tutorial_title_TriviaMerukimon_01",""
-"tutorial_title_TriviaVulcanusmon_01",""
-"tutorial_title_TriviaJunomon_01",""
-"tutorial_title_TriviaBacchusmon_01",""
-"tutorial_title_TriviaVenusmon_01",""
-"tutorial_title_TriviaNeptunemon_01",""
-"tutorial_title_TriviaCeresmon_01",""
-"tutorial_title_TriviaTitan_01",""
-"tutorial_title_TriviatTtamon_01",""
-"tutorial_title_TriviaPlutomon_01",""
-"tutorial_title_TriviaCentralTown_01",""
-"tutorial_title_TriviaCentralTown_02",""
-"tutorial_title_TriviaCentralTown_03",""
-"tutorial_title_TriviaFactoryalTown_01",""
-"tutorial_title_TriviaGuardianPalace_01",""
-"tutorial_title_TriviaGuardianPalace_02",""
-"tutorial_title_TriviaAbyssBeach_01",""
-"tutorial_title_TriviaGearForest_01",""
-"tutorial_title_TriviaDarkField_01",""
-"tutorial_title_TriviaHeatCosmic_01",""
-"tutorial_title_TriviCchillCosmic_01",""
-"tutorial_title_TriviaAkashicRagnarok_01",""
-"tutorial_title_TriviaCherrymon_01",""
-"tutorial_title_Trivia2020_01",""
-"tutorial_title_Trivia2028_01",""
-"tutorial_title_Trivia2028_02",""
-"tutorial_title_Trivia2028_03",""
-"tutorial_title_WorldView_001","Аномальные явления"
-"tutorial_title_WorldView_002","АДАМАС (Бюро специальных расследований аномальных явлений)"
-"tutorial_title_WorldView_003","Дигимон (Фазово-электронные формы жизни)"
-"tutorial_title_WorldView_004","Ваш Цифровой Сервер"
-"tutorial_title_WorldView_005","История АДАМАСА"
-"tutorial_title_Attribute_01","Элементы"
-"tutorial_title_Factor_01","Трейты"
-"tutorial_title_EvolutionTechnique_01","Техника декодирования 1: Очки талантов"
-"tutorial_title_EvolutionTechnique_02","Метод декодирования 2: Точки соединения"
-"tutorial_title_ActionOrder_01","Порядок поворота"
-"tutorial_title_WeakPointAttack_01","Атаки на слабые места"
-"tutorial_title_SpecialSkills_01","Специальные навыки"
-"tutorial_title_FusionSkills_01","Навыки ДНК-Дигиволюции"
-"tutorial_title_SurpriseAttack_01","Упреждающие удары Противника"
-"tutorial_title_BattleCommand_01","Атака (Боевая команда)"
-"tutorial_title_BattleCommand_02","Навык (Боевое командование)"
-"tutorial_title_BattleCommand_03","Предмет (Боевая команда)"
-"tutorial_title_BattleCommand_04","Изменение (Боевая команда)"
-"tutorial_title_BattleCommand_05","Просмотр информации об союзнике (Боевое командование)"
-"tutorial_title_SkillDisc_01","Диски с навыками"
-"tutorial_title_Items_01","Инвентарь"
-"tutorial_title_BuffDebuff_01","Баффы / Дебаффы"
-"tutorial_title_AbnormalStatus_01","Отклонения в состоянии"
-"tutorial_title_AbnormalStatus_02","Реверс (Изменение состояния)"
-"tutorial_title_AbnormalStatus_03","Ранен (Изменение статуса)"
-"tutorial_title_AbnormalStatus_04","Заболевший (Изменение статуса)"
-"tutorial_title_AbnormalStatus_05","Храбрый (Изменение статуса)"
-"tutorial_title_AbnormalStatus_06","Сильный (Изменение статуса)"
-"tutorial_title_AbnormalStatus_07","Мужество (Изменение статуса)"
-"tutorial_title_RushOut_01","Неожиданные Встречи"
-"tutorial_title_Accumulation_01","Метод цифровой трансформации 2: Совокупная статистика"
-"tutorial_title_EvolutionTechnique_03","Метод декодирования 3: Кумулятивное значение"
-"tutorial_title_AbnormalStatus_08","Типы и последствия Аномалий состояния"
-"tutorial_title_AbnormalStatus_09","Насмешка (Изменение статуса)"
+tutorial_title_BattleBasic_01,Основы боя
+tutorial_title_AdditionalAttack_01,Дополнительные удары
+tutorial_title_Compatibility_01,Совместимость и расчёт урона
+tutorial_title_BattleCrossarts_01,Кросс-арты
+tutorial_title_Escape_01,Побег (команда боя)
+tutorial_title_Guard_01,Защита (команда боя)
+tutorial_title_Analysis_01,Анализ (команда боя)
+tutorial_title_OutoBattle_01,Расширенный бой: Автоматический режим
+tutorial_title_HighSpeedMode_01,Расширенный бой: ускорение боя
+tutorial_title_Boss_01,Нокаут врага
+tutorial_title_Boss_02,Заряд (изменение статуса врага)
+tutorial_title_CpAdd_01,Критические очки (CP)
+tutorial_title_CpFluctuation_01,Получение CP
+tutorial_title_Danger_01,ОЗ мигают красным
+tutorial_title_Dead_01,Нокаут
+tutorial_title_Zombi_01,Туман Жнеца (снижает макс. ОЗ)
+tutorial_title_AttackCategory_01,Физические и магические атаки
+tutorial_title_DigimonBasic_01,Дигимон
+tutorial_title_Status_01,"Характеристики, навыки и снаряжение"
+tutorial_title_Status_02,Атрибуты АТК/ЗАЩ/ИНТ/ДУХ/СКР/КРТ
+tutorial_title_Status_03,Атрибуты
+tutorial_title_Status_04,Совместимость атрибутов
+tutorial_title_Convert_01,Скорость преобразования и сканирования
+tutorial_title_Change_01,Боевые и резервные участники
+tutorial_title_Evolution_01,Дигиволюция и Дедигиволюция
+tutorial_title_SkillChange_01,Навыки привязанности
+tutorial_title_EquipmentChange_01,Оборудование
+tutorial_title_Personality_01,Типы личности
+tutorial_title_PersonalityChange_01,Изменение типа личности
+tutorial_title_PersonalitySkill_01,Личные навыки
+tutorial_title_PersonalitySkillChange_01,Изменение личных навыков
+tutorial_title_DataReturn_01,Возврат Дигимона к данным
+tutorial_title_Synthetic_01,Улучшения нагрузки
+tutorial_title_PartyAegiomon_01,Эгиомон: Четвертый Боевой участник
+tutorial_title_PartyAegiomon_02,Эгиомон: Цифровая революция
+tutorial_title_Friendship_01,Метод цифровой трансформации 3: Связь
+tutorial_title_Talent_01,Техника цифровой революции 1: Талант
+tutorial_title_BondsPoint_01,Очки аномалии
+tutorial_title_BondsSkill_01,Навыки агента
+tutorial_title_AgentLevel_01,Ранг агента
+tutorial_title_CrossArtsChange_01,Открытие и изменение кросс-артов
+tutorial_title_Encounter_01,Встречи
+tutorial_title_FieldAttack_01,Цифровые атаки
+tutorial_title_FieldAttack_02,Цифровые атаки для конкретных элементов
+tutorial_title_BackAttack_01,Ответные атаки
+tutorial_title_Convert_02,Преобразование
+tutorial_title_Treasurechest_01,Сундуки с сокровищами и материалы
+tutorial_title_Theater_01,Промежуточный театр
+tutorial_title_Dungeon_01,Внешние подземелья
+tutorial_title_DigivaiceConstraints_01,Ограничения Дигивайса
+tutorial_title_PecmonRace_01,Правила Гонки Пекмон
+tutorial_title_PopPoints_01,Всплывающие Точки
+tutorial_title_DigimonRide_01,Дигирид
+tutorial_title_GimmickRide_01,Цифровая обработка данных
+tutorial_title_OutoRecovery_01,Режим регенерации
+tutorial_title_FieldAnalysis_01,Режим анализа
+tutorial_title_HowToMove_01,Движение и использование камеры
+tutorial_title_Destination_01,Навигационная система
+tutorial_title_MiniMap_01,Расширение карты
+tutorial_title_DigimonHighlighting_01,Отображение карты Враждебного Дигимона
+tutorial_title_WorldMapRialWorld_01,Карта мира
+tutorial_title_WorldMapRokomon_01,Карта Локомона
+tutorial_title_WorldMapBlimpmon_01,Карта Блимпмона
+tutorial_title_WorldMapTimeChange_01,Скачок во времени
+tutorial_title_Digivaice_01,Дигивайс
+tutorial_title_ChangeClothes_01,Переодевание в костюмы
+tutorial_title_PictureBook_01,Полевое руководство
+tutorial_title_MeinQuest_01,Основная миссия
+tutorial_title_SubQuest_01,Побочные миссии
+tutorial_title_MiniQuest_01,Бесплатные миссии
+tutorial_title_ChangeQuest_01,Смена миссии
+tutorial_title_Digitter_01,Дигиттер
+tutorial_title_Shop_01,Основы магазина
+tutorial_title_FarmGoodsShop_01,Синтез предметов фермы
+tutorial_title_TutorialDescription_01,Руководства
+tutorial_title_Player_01,Агенты
+tutorial_title_SystemDescription_01,Система
+tutorial_title_DigisterDescripution_01,Дигиферма
+tutorial_title_AddFarmIslandPanel_01,
+tutorial_title_AddFarmDigimon_01,Перенос дигимонов на Дигиферму
+tutorial_title_AddFarmGoods_01,Размещение предметов фермы
+tutorial_title_FarmSpecialTraining_01,Взаимодействие с Дигимонами
+tutorial_title_FarmDigicare_01,Цифровая обработка
+tutorial_title_FarmDevelopment_01,Производство
+tutorial_title_CardsDescription_01,Идеальная Карточная игра Джогмон
+tutorial_title_CardsRule_01,Правила Карточной игры
+tutorial_title_CardsOpponent_01,Поиск Карточных Боевых Противников
+tutorial_title_TriviaMisonoInori_01,
+tutorial_title_TriviaMisonoKousuke_01,
+tutorial_title_TriviaMisonoKousuke_02,
+tutorial_title_TriviaSagisakaHiroko_01,
+tutorial_title_TriviaSagisakaHiroko_02,
+tutorial_title_TriviaKuremiKoudai_01,
+tutorial_title_TriviaShirokiAsuna_01,
+tutorial_title_TriviaShirokiAsuna_02,
+tutorial_title_TriviaKuroiSyouta_01,
+tutorial_title_TriviaKuroiSyouta_02,
+tutorial_title_TriviaMonicaSimmons_01,
+tutorial_title_TriviaMonicaSimmons_02,
+tutorial_title_TriviakugaToya_01,
+tutorial_title_TriviakugaToya_02,
+tutorial_title_TriviaDrYuki_01,
+tutorial_title_TriviaDigimon_01,
+tutorial_title_TriviaAegiomon_01,
+tutorial_title_TriviaAegiochusmon_01,
+tutorial_title_TriviaJupitermon_01,
+tutorial_title_TriviaMinervamon_01,
+tutorial_title_TriviaCoronamon_01,
+tutorial_title_TriviaApollomon_01,
+tutorial_title_TriviaLunamon_01,
+tutorial_title_TriviaDianamon_01,
+tutorial_title_TriviaMerukimon_01,
+tutorial_title_TriviaVulcanusmon_01,
+tutorial_title_TriviaJunomon_01,
+tutorial_title_TriviaBacchusmon_01,
+tutorial_title_TriviaVenusmon_01,
+tutorial_title_TriviaNeptunemon_01,
+tutorial_title_TriviaCeresmon_01,
+tutorial_title_TriviaTitan_01,
+tutorial_title_TriviatTtamon_01,
+tutorial_title_TriviaPlutomon_01,
+tutorial_title_TriviaCentralTown_01,
+tutorial_title_TriviaCentralTown_02,
+tutorial_title_TriviaCentralTown_03,
+tutorial_title_TriviaFactoryalTown_01,
+tutorial_title_TriviaGuardianPalace_01,
+tutorial_title_TriviaGuardianPalace_02,
+tutorial_title_TriviaAbyssBeach_01,
+tutorial_title_TriviaGearForest_01,
+tutorial_title_TriviaDarkField_01,
+tutorial_title_TriviaHeatCosmic_01,
+tutorial_title_TriviCchillCosmic_01,
+tutorial_title_TriviaAkashicRagnarok_01,
+tutorial_title_TriviaCherrymon_01,
+tutorial_title_Trivia2020_01,
+tutorial_title_Trivia2028_01,
+tutorial_title_Trivia2028_02,
+tutorial_title_Trivia2028_03,
+tutorial_title_WorldView_001,Аномальные явления
+tutorial_title_WorldView_002,АДАМАС (Бюро специальных расследований аномальных явлений)
+tutorial_title_WorldView_003,Дигимон (фазово-электронные формы жизни)
+tutorial_title_WorldView_004,Ваш цифровой сервер
+tutorial_title_WorldView_005,История АДАМАСА
+tutorial_title_Attribute_01,Элементы
+tutorial_title_Factor_01,Трейты
+tutorial_title_EvolutionTechnique_01,Техника декодирования 1: Очки талантов
+tutorial_title_EvolutionTechnique_02,Метод декодирования 2: Точки соединения
+tutorial_title_ActionOrder_01,Порядок хода
+tutorial_title_WeakPointAttack_01,Атаки на слабые места
+tutorial_title_SpecialSkills_01,Специальные навыки
+tutorial_title_FusionSkills_01,Навыки ДНК-Дигиволюции
+tutorial_title_SurpriseAttack_01,Упреждающие удары противника
+tutorial_title_BattleCommand_01,Атака (команда боя)
+tutorial_title_BattleCommand_02,Навык (команда боя)
+tutorial_title_BattleCommand_03,Предмет (команда боя)
+tutorial_title_BattleCommand_04,Смена (команда боя)
+tutorial_title_BattleCommand_05,Просмотр информации о союзнике (команда боя)
+tutorial_title_SkillDisc_01,Диски с навыками
+tutorial_title_Items_01,Инвентарь
+tutorial_title_BuffDebuff_01,Баффы/дебаффы
+tutorial_title_AbnormalStatus_01,Аномалии состояния
+tutorial_title_AbnormalStatus_02,Реверс (Изменение состояния)
+tutorial_title_AbnormalStatus_03,Травма (изменение статуса)
+tutorial_title_AbnormalStatus_04,Болезнь (изменение статуса)
+tutorial_title_AbnormalStatus_05,Храбрый (Изменение статуса)
+tutorial_title_AbnormalStatus_06,Сильный (Изменение статуса)
+tutorial_title_AbnormalStatus_07,Мужество (Изменение статуса)
+tutorial_title_RushOut_01,Неожиданные встречи
+tutorial_title_Accumulation_01,Метод цифровой трансформации 2: Совокупная статистика
+tutorial_title_EvolutionTechnique_03,Метод декодирования 3: Кумулятивное значение
+tutorial_title_AbnormalStatus_08,Типы и последствия Аномалий состояния
+tutorial_title_AbnormalStatus_09,Насмешка (Изменение статуса)

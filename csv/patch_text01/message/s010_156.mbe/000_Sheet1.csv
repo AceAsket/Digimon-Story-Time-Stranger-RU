@@ -49,12 +49,12 @@ s010_156_210,char_HIROKO,"Должно быть, папаша Инори что-
 посмотрим, что внутри...",
 s010_156_220,char_HIROKO,А? Что это?,
 s010_156_230,char_PLAYER_M,{next}Some sort of machine part?,
-s010_156_231,char_PLAYER_M,{next}Part of a Digimon?,
+s010_156_231,char_PLAYER_M,{next}Part of a Дигимон?,
 s010_156_232,char_PLAYER_M,{next}A time bomb?,
 s010_156_240,char_HIROKO,"Похоже на то. По крайней мере, это выглядит механическим, хотя я
 не уверен, к чему это приведет.",
 s010_156_250,char_HIROKO,"Возможно. Кажется, что он сделан из металла, но у некоторых
-Digimon есть металлические детали.",
+Дигимон есть металлические детали.",
 s010_156_260,char_HIROKO,"Сомневаюсь. Таймера нет, а открытие двери послужило бы лучшим
 спусковым механизмом для бомбы.",
 s010_156_270,char_HIROKO,"Но если отец Инори прислал это нам, несмотря на то, что мы
@@ -88,7 +88,7 @@ s010_156_410,char_HIROKO,"Это было так странно, что мног
 неразгаданной тайной, а не несчастным случаем.",
 s010_156_420,char_HIROKO,"Официальным объяснением было внезапное оседание грунта, но в
 этом никогда не было особого смысла.",
-s010_156_430,char_PLAYER_M,{next}It could have been a Digimon.,
+s010_156_430,char_PLAYER_M,{next}It could have been a Дигимон.,
 s010_156_431,char_PLAYER_M,{next}And people just accepted the subsidence explanation?,
 s010_156_432,char_PLAYER_M,{next}Some people believe everything they hear.,
 s010_156_440,char_HIROKO,"Верно. В то время это было неясно, но теперь это кажется
@@ -105,7 +105,7 @@ s010_156_490,char_HIROKO,"Я бы сказал, что это требует п�
 s010_156_500,char_HIROKO,Это оно! Это место массового обрушения здания в Ниши-Синдзюку.,
 s010_156_510,char_HIROKO,"Сейчас здесь все новые здания, но тогда это место было в руинах.",
 s010_156_520,char_PLAYER_M,{next}Could it have been caused by a gate opening?,
-s010_156_521,char_PLAYER_M,{next}Could a clash between Digimon have caused it?,
+s010_156_521,char_PLAYER_M,{next}Could a clash between Дигимон have caused it?,
 s010_156_522,char_PLAYER_M,{next}Maybe it was caused by a meteorite impact.,
 s010_156_530,char_HIROKO,"Да, возможно, это был побочный эффект объединения миров
 Дигимонов и людей...",
@@ -131,7 +131,7 @@ s010_156_650,char_OMEGAMON,"Однако это место не может вм�
 s010_156_660,char_PLAYER_M,{next}Omnimon.,
 s010_156_661,char_PLAYER_M,{next}Gallantmon.,
 s010_156_662,char_PLAYER_M,{next}Magnamon.,
-s010_156_663,char_PLAYER_M,{end}Another Digimon.,
+s010_156_663,char_PLAYER_M,{end}Another Дигимон.,
 s010_156_670,char_OMEGAMON,"Как пожелаете! А теперь посмотрите, как Королевские рыцари
 сражаются как один!",
 s010_156_680,char_DUKEMON,"Я, Галантмон, в твоем распоряжении! Мое священное копье, Грэм,
@@ -141,7 +141,7 @@ s010_156_700,char_OMEGAMON,У вас может быть любой из Кор�
 s010_156_710,char_PLAYER_M,{next}Dynasmon.,
 s010_156_711,char_PLAYER_M,{next}LordKnightmon.,
 s010_156_712,char_PLAYER_M,{next}UlforceVeedramon.,
-s010_156_713,char_PLAYER_M,{end}Yet another Digimon.,
+s010_156_713,char_PLAYER_M,{end}Yet another Дигимон.,
 s010_156_720,char_DYNASMON,"Милорд! Клянусь честью рыцаря, я вручаю вам свой меч!",
 s010_156_730,char_LOADKNIGHTMON,"Вы поступили мудро, выбрав меня сражаться на вашей стороне! Это
 наверняка будет великолепная битва!",
@@ -151,7 +151,7 @@ s010_156_750,char_OMEGAMON,У вас может быть любой из Кор�
 s010_156_760,char_PLAYER_M,{next}Craniamon.,
 s010_156_761,char_PLAYER_M,{next}Kentaurosmon.,
 s010_156_762,char_PLAYER_M,{next}Leopardmon.,
-s010_156_763,char_PLAYER_M,{end}Yet another Digimon still.,
+s010_156_763,char_PLAYER_M,{end}Yet another Дигимон still.,
 s010_156_770,char_CRANIAMON,"Я не мог бы и мечтать о лучшем противнике, против которого можно
 было бы испытать свой характер!",
 s010_156_780,char_SLEIPMON,"Вам нужно только позвать меня по имени, и я появлюсь! Давайте
@@ -181,7 +181,7 @@ s010_156_890,char_HIROKO,"Но, знаете, я не думаю, что он м
 ... он перешел в режим покоя.",
 s010_156_900,char_HIROKO,"Что, если он внезапно активируется и снова пойдет в атаку?",
 s010_156_910,char_PLAYER_M,{next}We'll defeat it as many times as it takes!,
-s010_156_911,char_PLAYER_M,{next}Is this Digimon what caused the building collapse?,
+s010_156_911,char_PLAYER_M,{next}Is this Дигимон what caused the building collapse?,
 s010_156_912,char_PLAYER_M,{next}We should take it apart right now.,
 s010_156_920,char_HIROKO,"Это... очень обнадеживает. Зная вас, я уверен, что вы и в этом
 деле доведете дело до конца.",

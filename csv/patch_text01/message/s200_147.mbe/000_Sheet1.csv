@@ -1,6 +1,6 @@
 string2 0,string 1,string 2,string 3
 s200_147_010,char_HIROKO,"А, вот и ты! Я получил наводку, что здесь пропал косплеер.",
-s200_147_020,char_PLAYER_M,{next}Maybe a Digimon did it.,
+s200_147_020,char_PLAYER_M,{next}Maybe a Дигимон did it.,
 s200_147_021,char_PLAYER_M,{next}Maybe a kidnapper did it.,
 s200_147_022,char_PLAYER_M,{next}Maybe the cosplayer was spirited away.,
 s200_147_030,char_HIROKO,"Да. Тот ""призрак"", которого часто видели в последнее время,

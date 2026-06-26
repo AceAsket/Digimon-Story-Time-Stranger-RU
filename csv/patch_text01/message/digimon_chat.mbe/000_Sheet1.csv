@@ -265,8 +265,8 @@ bacc_001_3_replay,char_PLAYER_M,Кислый фрукт.,
 bacc_001_3_reaction_char_BACCHUSMON,char_BACCHUSMON,"Мне нравится хрустящая кислинка вин из таких фруктов. Давайте
 устроим соревнование по выпивке!",
 bacc_001_4_replay,char_PLAYER_M,Сочный фрукт.,
-bacc_001_4_reaction_char_BACCHUSMON,char_BACCHUSMON,"Вина из ?????? ??????? получаются острыми и легко усваиваются,
-особенно с хорошей историей!",
+bacc_001_4_reaction_char_BACCHUSMON,char_BACCHUSMON,"Вина из сочных фруктов получаются терпкими и пьются легко,
+особенно под хорошую историю!",
 yuno_001_0_char_JUNOMON,char_JUNOMON,"Неужели я ... из тех, кто ревнует?",
 yuno_001_1_replay,char_PLAYER_M,Вовсе нет. Ты сострадательный и добрый.,
 yuno_001_1_reaction_char_JUNOMON,char_JUNOMON,"Я польщен, что ты так высокого мнения обо мне. Мне придется
@@ -1575,10 +1575,10 @@ lena_001_1_replay,char_PLAYER_M,Я не мог сказать.,
 lena_001_1_reaction_char_RENAMON,char_RENAMON,"Я тоже не мог, но если я продолжу побеждать сильного Дигимона, я
 уверен, что когда-нибудь разберусь с этим.",
 lena_001_2_replay,char_PLAYER_M,"Я бы не сказал, что это был ты.",
-lena_001_2_reaction_char_RENAMON,char_RENAMON,"Это понятно. В конце концов, этот мир полон Digimon, которых я
+lena_001_2_reaction_char_RENAMON,char_RENAMON,"Это понятно. В конце концов, этот мир полон Дигимон, которых я
 никогда не видел.",
 lena_001_3_replay,char_PLAYER_M,"Ты, конечно.",
-lena_001_3_reaction_char_RENAMON,char_RENAMON,"Спасибо. Вырубив сильных Digimon и скопировав их данные, я,
+lena_001_3_reaction_char_RENAMON,char_RENAMON,"Спасибо. Вырубив сильных Дигимон и скопировав их данные, я,
 несомненно, силен.",
 lena_001_4_replay,char_PLAYER_M,Это мог быть практически любой из них.,
 lena_001_4_reaction_char_RENAMON,char_RENAMON,"Понятно. Что ж, независимо от того, с каким сильным Дигимоном я
@@ -1887,7 +1887,7 @@ claan_001_4_replay,char_PLAYER_M,Я хочу помочь.,
 claan_001_4_reaction_char_CLAVISANGEMON,char_CLAVISANGEMON,"Я могу справиться с охраной Зенитных ворот в одиночку. Но я ценю
 вашу мысль.",
 ofa_001_0_char_OPHANIMON,char_OPHANIMON,"Я Суперангел, один из трех Небесных Дигимонов, охраняющих Ядро
-Цифрового Мира.",
+Цифрового мира.",
 ofa_001_1_replay,char_PLAYER_M,Могу я вам чем-нибудь помочь?,
 ofa_001_1_reaction_char_OPHANIMON,char_OPHANIMON,"Я был бы счастлив, если бы вы распространили весть о моей любви
 и милосердии по всему Цифровому миру.",
@@ -2501,7 +2501,7 @@ graw_001_0_char_GROWMON,char_GROWMON,Мое оружие - эти крутые �
 graw_001_1_replay,char_PLAYER_M,Смелость сразиться с любым противником.,
 graw_001_1_reaction_char_GROWMON,char_GROWMON,"Оружие, спрятанное внутри, где его никто не может увидеть, - это
 чертовски круто!",
-graw_001_2_replay,char_PLAYER_M,Мои знания в области Digimon.,
+graw_001_2_replay,char_PLAYER_M,Мои знания в области Дигимон.,
 graw_001_2_reaction_char_GROWMON,char_GROWMON,"Я не силен в таких вещах, но я знаю, что это важно. Ты будешь
 мозгами. Я мускулатура!",
 graw_001_3_replay,char_PLAYER_M,Мои надежные товарищи.,
@@ -2752,7 +2752,7 @@ ruche_001_3_reaction_char_LUCEMON,char_LUCEMON,"Друзья - это такая
 ruche_001_4_replay,char_PLAYER_M,"У нас есть вещи, которые мы хотим защитить.",
 ruche_001_4_reaction_char_LUCEMON,char_LUCEMON,"Защита чего-то настолько важна? Я не понимаю... и все же мне
 не претит эта концепция.",
-gabu_001_0_char_GABUMON,char_GABUMON,"Я собираюсь устроить вечеринку с моими друзьями из Digimon! Чем
+gabu_001_0_char_GABUMON,char_GABUMON,"Я собираюсь устроить вечеринку с моими друзьями из Дигимон! Чем
 бы нам развлечься?",
 gabu_001_1_replay,char_PLAYER_M,Спой песню перед всеми!,
 gabu_001_1_reaction_char_GABUMON,char_GABUMON,"Хм ... Думаю, я слишком застенчив для этого. Но это было бы
@@ -3180,7 +3180,7 @@ alfak_001_3_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Только
 другого Дигимона, не говоря уже о человеке.",
 alfak_001_4_replay,char_PLAYER_M,"Извини, что тебя превратили в меч.",
 alfak_001_4_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Сожалеть не о чем. Такая форма - величайшая честь для прототипа
-Digimon.",
+Дигимон.",
 lokni_001_0_char_LOADKNIGHTMON,char_LOADKNIGHTMON,"У меня своя система правосудия. И я отказываюсь участвовать в
 дебатах по этому поводу.",
 lokni_001_1_replay,char_PLAYER_M,Это кажется неправильным.,
@@ -4953,22 +4953,22 @@ common023_2_reaction_female_knowledge,,"О, ты тоже, да?.. Но тепе
 Спасибо.",
 common023_2_reaction_old_knowledge,,"О, ты тоже, да?.. Но теперь я чувствую себя немного лучше.
 Спасибо.",
-common024_0_child_courage,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_male_courage,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_female_courage,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_old_courage,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_child_love,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_male_love,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_female_love,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_old_love,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_child_friendship,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_male_friendship,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_female_friendship,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_old_friendship,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_child_knowledge,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_male_knowledge,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_female_knowledge,,"Эй, тебе больше нравится умный Digimon?",
-common024_0_old_knowledge,,"Эй, тебе больше нравится умный Digimon?",
+common024_0_child_courage,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_male_courage,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_female_courage,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_old_courage,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_child_love,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_male_love,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_female_love,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_old_love,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_child_friendship,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_male_friendship,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_female_friendship,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_old_friendship,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_child_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_male_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_female_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_old_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
 common024_1_replay,char_PLAYER_M,"Да, я думаю, можно и так сказать.",
 common024_1_reaction_child_courage,,"О, понятно ... Хм. Спасибо, что дали мне знать.",
 common024_1_reaction_male_courage,,"О, понятно ... Хм. Спасибо, что дали мне знать.",

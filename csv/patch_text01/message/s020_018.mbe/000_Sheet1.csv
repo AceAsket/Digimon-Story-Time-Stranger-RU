@@ -44,7 +44,7 @@ s020_018_220,char_KAMEMON,"Когда Шелмон был здесь, мы бы 
 повлияло на воду.",
 s020_018_230,char_KAMEMON,"Но после ухода Шелмона я даже не знаю, с чего начать. Как мы
 можем проверить воду?",
-s020_018_240,char_PLAYER_M,{next}Ask another Digimon?,
+s020_018_240,char_PLAYER_M,{next}Ask another Дигимон?,
 s020_018_241,char_PLAYER_M,{next}Go to Shellmon's house?,
 s020_018_242,char_PLAYER_M,{next}I could taste the water.,
 s020_018_250,char_KAMEMON,"Я не знаю... Шелмон знал о воде больше, чем кто-либо другой.

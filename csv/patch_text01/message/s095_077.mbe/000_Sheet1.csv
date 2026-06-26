@@ -26,7 +26,7 @@ s095_077_130,char_GUARDROMON,"Скажите Лоадерлеомону, что 
 важно, доставьте хрондигизойтовую руду.",
 s095_077_140,char_PLAYER_M,{next}I sure hope LoaderLeomon is safe.,
 s095_077_141,char_PLAYER_M,{next}Chron-what...?,
-s095_077_142,char_PLAYER_M,"{next}""Digizoit""? Is that like a Digimon?",
+s095_077_142,char_PLAYER_M,"{next}""Digizoit""? Is that like a Дигимон?",
 s095_077_150,char_GUARDROMON,"Действительно. Я почти так же беспокоюсь об их благополучии, как
 и о руде хрондигизойт.",
 s095_077_160,char_GUARDROMON,Хрондигизойтовая руда. Должен ли я дать краткое объяснение?,

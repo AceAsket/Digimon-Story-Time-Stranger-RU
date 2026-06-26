@@ -1,35 +1,35 @@
 string2 0,string 1
 1,Расходные материалы
 2,Оборудование
-3,Сельскохозяйственные Товары
-4,Ключевые пункты
+3,Товары для фермы
+4,Ключевые предметы
 5,Карты
 6,/Оборудование
 7,/Товар для обмена
 8,/Товар для фермы
-9,/ Для использования в Дигиферма
-10,Боевое / Полевое Применение
-11,Боевое Применение
-12,Использование в полевых условиях
+9,/ Для использования на Дигиферме
+10,Бой / поле
+11,Используется в бою
+12,Используется в поле
 13,"
-Recovers HP by {d0}."
+Восстанавливает HP на {d0}."
 14,"
-Recovers SP by {d0}."
-15,EXP +{d0}
-16,Bond +{d0}
-17,Переход от основы к основанию * Неиспользуемый
-18,Деформация ко входу в подземелье * Неиспользуемый
+Восстанавливает SP на {d0}."
+15,Опыт +{d0}
+16,Связь +{d0}
+17,Возврат на базу * Не используется
+18,Переход ко входу в подземелье * Не используется
 19,"
-Recovers HP by {d0}%."
+Восстанавливает HP на {d0}%."
 20,"
-Recovers SP by {d0}%."
-21,"Changes personality to ""{d0}"" *Unused"
+Восстанавливает SP на {d0}%."
+21,Меняет личность на «{d0}» * Не используется
 22,
 23,
 24,
 25,
-26,Extends level limit by {d0}
-27,Extends stat limit by {d0}
+26,Повышает предел уровня на {d0}
+27,Повышает предел характеристик на {d0}
 28,
 29,
 30,
@@ -40,13 +40,13 @@ Recovers SP by {d0}%."
 35,
 36,
 37,
-38,Increases HP boost from training by {d0}
-39,Increases SP boost from training by {d0}
-40,Increases ATK boost from training by {d0}
-41,Increases DEF boost from training by {d0}
-42,Increases INT boost from training by {d0}
-43,Increases SPI boost from training by {d0}
-44,Increases SPD boost from training by {d0}
+38,Увеличивает прирост HP от тренировки на {d0}
+39,Увеличивает прирост SP от тренировки на {d0}
+40,Увеличивает прирост ATK от тренировки на {d0}
+41,Увеличивает прирост DEF от тренировки на {d0}
+42,Увеличивает прирост INT от тренировки на {d0}
+43,Увеличивает прирост SPI от тренировки на {d0}
+44,Увеличивает прирост SPD от тренировки на {d0}
 45,
 46,
 47,Редкость:
@@ -56,47 +56,47 @@ Recovers SP by {d0}%."
 51,{d0} +{d1}%.
 52,{d0} -{d1}%.
 53,{d0}
-54,{d0}-Element Power
-55,Nullifies {d0}.
-56,Boosts {d0} resistance.
-57,SP cost of {d0} element skills -{d1}%
-58,Boosts EXP gained by {d0}.
-59,Boosts Bond gained by {d0}.
-60,Boosts item drop rate by {d0}%.
-61,Boosts money obtained by {d0}%.
-62,Recovers HP by {d0}% at the start of each turn.
-63,Recovers SP by {d0}% at the start of each turn.
-64,Recovers HP by {d0}% upon victory in battle.
-65,Recovers SP by {d0}% upon victory in battle.
-66,Boosts effects of HP recovery by {d0}% when in battle.
-67,Boosts effects of SP recovery by {d0}% when in battle.
-68,Reduces damage taken by {d0}% when Guarding.
-69,{d0}% chance to negate all damage when Guarding.
-70,Recovers HP equal to {d0}% of damage dealt when Attacking.
-71,Recovers SP equal to {d0}% of damage dealt when Attacking.
-72,Gives {d0} chance to apply {d1} when Attacking.
+54,Сила элемента {d0}
+55,Нейтрализует {d0}.
+56,Повышает сопротивление {d0}.
+57,Стоимость SP навыков элемента {d0}: -{d1}%
+58,Получаемый опыт +{d0}.
+59,Получаемая связь +{d0}.
+60,Шанс выпадения предметов +{d0}%.
+61,Получаемые деньги +{d0}%.
+62,Восстанавливает {d0}% HP в начале каждого хода.
+63,Восстанавливает {d0}% SP в начале каждого хода.
+64,Восстанавливает {d0}% HP после победы в бою.
+65,Восстанавливает {d0}% SP после победы в бою.
+66,Эффекты восстановления HP в бою +{d0}%.
+67,Эффекты восстановления SP в бою +{d0}%.
+68,Получаемый урон при защите -{d0}%.
+69,Шанс {d0}% полностью отменить урон при защите.
+70,Восстанавливает HP в размере {d0}% нанесённого урона при атаке.
+71,Восстанавливает SP в размере {d0}% нанесённого урона при атаке.
+72,Даёт шанс {d0} наложить {d1} при атаке.
 73,Атака наносит магический урон.
 74,Атака наносит урон от скорости.
-75,"Attacks have a {d0}% chance of hitting
-{d1} times"
-76,SP cost -{d0}%
-77,"Skill SP cost {d1}%, damage +{d0}%"
-78,"Consumes {d0}% of SP to negate all
-damage"
-79,"{d0}% of physical damage is converted
-to SP"
-80,"{d0}% of magic damage is converted to
-SP"
-81,Nullifies incoming damage less than {d0}% of Max HP.
-82,Boosts CRT damage by {d0}%.
-83,Break special effect +{d0}%
-84,Elemental weakness damage +{d0}%
-85,Cross Art damage +{d0}%
-86,Attack Rush damage +{d0}%
-87,Rush Gauge default value +{d0}%
-88,"Boosts enhancement effect by {d0}% during
-break."
-89,Damage from {d0} Attribute -{d1}%
-90,Applies {d1} to user at start of battle.
+75,"Атаки с шансом {d0}% срабатывают
+{d1} раз(а)."
+76,Стоимость SP -{d0}%
+77,"Стоимость SP навыка {d1}%, урон +{d0}%"
+78,"Тратит {d0}% SP, чтобы полностью
+поглотить урон"
+79,"Преобразует {d0}% физического урона
+в SP"
+80,"Преобразует {d0}% магического урона
+в SP"
+81,Обнуляет входящий урон ниже {d0}% макс. HP.
+82,Критический урон +{d0}%.
+83,Эффект пробития +{d0}%
+84,Урон по слабости элемента +{d0}%
+85,Урон кросс-арта +{d0}%
+86,Урон рывка атаки +{d0}%
+87,Начальное значение шкалы рывка +{d0}%
+88,"Усиливает эффект улучшения на {d0}% во время
+пробития."
+89,Урон от атрибута {d0}: -{d1}%
+90,Накладывает {d1} на пользователя в начале боя.
 91,　
 92,/
