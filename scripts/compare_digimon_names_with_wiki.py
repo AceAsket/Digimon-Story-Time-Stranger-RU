@@ -30,6 +30,7 @@ SUFFIXES_TO_TRY = [
     "_BOSS",
     "_EVENT",
     "_RAMP",
+    "_GUEST",
     "_ADD",
     "_ADD1",
     "_ADD2",
@@ -43,36 +44,103 @@ SUFFIXES_TO_TRY = [
 ]
 
 MODE_ALIASES = {
-    "FM": "Falldown Mode",
+    "BM": "Burst Mode",
     "CM": "Crimson Mode",
-    "RM": "Rage Mode",
-    "HM": "Hysteric Mode",
-    "WM": "Wrath Mode",
     "DM": "Destroy Mode",
+    "FM": "Falldown Mode",
+    "HM": "Hysteric Mode",
+    "LM": "Leopard Mode",
+    "PM": "Paladin Mode",
+    "RM": "Rage Mode",
+    "SM": "Satan Mode",
+    "WM": "Wrath Mode",
 }
 
 SPECIAL_ID_ALIASES = {
+    "AEROVEEDRAMON": ["Aero V-dramon", "AeroV-dramon", "AeroVeedramon"],
+    "ARCHNEMON": ["Archnemon", "Arukenimon"],
+    "ATLURKABUTERIMON": ["Atlur Kabuterimon", "AtlurKabuterimon", "MegaKabuterimon"],
+    "BACCHUSMON_DRUNK": ["Bacchusmon Drunk Mode", "Bacchusmon DM"],
+    "BELIALVAMDEMON": ["Belial Vamdemon", "MaloMyotismon"],
+    "BELPHEMON_RM": ["Belphemon Rage Mode"],
+    "BELPHEMON_RM_BIG": ["Belphemon Rage Mode"],
+    "BELPHEMON_SM": ["Belphemon Sleep Mode"],
+    "BELPHEMON_SM_BIG": ["Belphemon Sleep Mode"],
+    "BLACKKINGNUMEMON": ["Black King Numemon", "BlackKingNumemon"],
     "BLACKTAILMON": ["Tailmon (Black)", "Black Tailmon", "BlackGatomon"],
-    "V-MON": ["V-mon", "Veemon"],
+    "BLADEKUWAGAMON": ["Blade Kuwagamon", "BladeKuwagamon"],
+    "BRAKIMON": ["Brachimon", "Brachiomon"],
+    "CALAMARAMON": ["Calmaramon", "Calamaramon"],
+    "CALAMARAMON_ADD": ["Calmaramon", "Calamaramon"],
+    "CANNONBEEMON": ["Cannon Beemon", "CannonBeemon"],
+    "CAPROMON": ["Kapurimon", "Caprimon"],
+    "CERBERUSMON_WM": ["Cerberumon Werewolf Mode", "Cerberusmon Werewolf Mode"],
+    "CERESMON_MEDIUM": ["Ceresmon Medium"],
+    "CHAOSDUKEMON": ["Chaos Dukemon", "ChaosGallantmon"],
+    "CHAOSMONVALDURARM": ["Chaosmon Valdur Arm", "Chaosmon: Valdur Arm"],
+    "CHAOSMONVALDURARM_BIG": ["Chaosmon Valdur Arm", "Chaosmon: Valdur Arm"],
+    "CHRONOMON": ["Chronomon Holy Mode"],
+    "CHRONOMON_DESTROY": ["Chronomon Destroy Mode"],
     "DEMON": ["Demon", "Creepymon"],
     "DEMON_BIG": ["Demon", "Creepymon"],
+    "DUFTMON_LM": ["Duftmon Leopard Mode", "Leopardmon Leopard Mode"],
     "DUKEMON": ["Dukemon", "Gallantmon"],
     "DUKEMON_BIG": ["Dukemon", "Gallantmon"],
     "DUKEMON_CM": ["Dukemon Crimson Mode", "Gallantmon Crimson Mode"],
+    "ENBARRMON_CRANIAMON": ["Craniamon", "Enbarrmon"],
+    "ENBARRMON_CRANIAMON_E": ["Craniamon", "Enbarrmon"],
+    "HANGYOMON_SCAR": ["Hangyomon", "Divermon"],
+    "HANGYOMON_SCARF": ["Hangyomon", "Divermon"],
+    "HERCULESKABUTERIMON": ["Herakle Kabuterimon", "HerculesKabuterimon"],
+    "HERCULESKABUTERIMON_BIG": ["Herakle Kabuterimon", "HerculesKabuterimon"],
     "HOLYANGEMON": ["Holy Angemon", "MagnaAngemon"],
-    "PICODEVIMON": ["Pico Devimon", "DemiDevimon"],
-    "TAILMON": ["Tailmon", "Gatomon"],
-    "VAMDEMON": ["Vamdemon", "Myotismon"],
-    "BELPHEMON_RM": ["Belphemon Rage Mode"],
-    "LUCEMON_FM": ["Lucemon Falldown Mode"],
-    "CHRONOMON_DESTROY": ["Chronomon Destroy Mode"],
+    "HOUOUMON": ["Hououmon", "Phoenixmon"],
+    "HYOUGAMON": ["Hyogamon", "Hyougamon"],
+    "HYOUGAMON_BOSS": ["Hyogamon", "Hyougamon"],
+    "IMPERIALDRAMON_DM": ["Imperialdramon Dragon Mode"],
+    "IMPERIALDRAMON_FM": ["Imperialdramon Fighter Mode"],
+    "IMPERIALDRAMON_PM": ["Imperialdramon Paladin Mode"],
+    "JUNOMON_HYSTERICMODE": ["Junomon Hysteric Mode"],
+    "JUNOMON_HYSTERICMODE_ADD": ["Junomon Hysteric Mode"],
     "JUPITERMON_WRATHMODE": ["Jupitermon Wrath Mode"],
     "JUPITERMON_WRATHMODE_BIG": ["Jupitermon Wrath Mode"],
-    "CHAOSMONVALDURARM": ["Chaosmon Valdur Arm", "Chaosmon: Valdur Arm"],
-    "CHAOSMONVALDURARM_BIG": ["Chaosmon Valdur Arm", "Chaosmon: Valdur Arm"],
-    "CERESMON_MEDIUM": ["Ceresmon Medium"],
-    "CERBERUSMON_WM": ["Cerberumon Werewolf Mode", "Cerberusmon Werewolf Mode"],
+    "KARATUKINUMEMON": ["Shell Numemon", "ShellNumemon"],
+    "KERPYMON_BAD": ["Cherubimon Vice", "Cherubimon (Vice)", "Cherubimon (Black)"],
+    "KERPYMON_GOOD": ["Cherubimon Virtue", "Cherubimon (Virtue)", "Cherubimon (Good)"],
+    "KURISARIMON": ["Chrysalimon", "Kurisarimon"],
+    "LILLYMON": ["Lilimon", "Lillymon"],
+    "LUCEMON_FM": ["Lucemon Falldown Mode"],
+    "LUCEMON_FM_BIG": ["Lucemon Falldown Mode"],
+    "LUCEMON_SM": ["Lucemon Satan Mode"],
+    "LUCEMON_SM_BIG": ["Lucemon Satan Mode"],
+    "MEGAGROWLMON": ["MegaloGrowmon", "WarGrowlmon"],
+    "MERCURYMON": ["Mercurymon", "Merukimon"],
+    "MERCURYMON_BIG": ["Mercurymon", "Merukimon"],
     "METALGREYMON_BIG_BL": ["Metal Greymon (Blue)", "MetalGreymon (Blue)"],
+    "MINOTAURMON": ["Minotaurmon", "Minotarumon"],
+    "NANOMON": ["Nanomon", "Datamon"],
+    "OURYUMON": ["Ouryumon", "Ouryuumon"],
+    "PANJYAMON": ["Panjyamon", "IceLeomon"],
+    "PIEDMON": ["Piemon", "Piedmon"],
+    "PICKLEMON": ["Pickmon", "Piximon", "Piccolomon"],
+    "PICODEVIMON": ["Pico Devimon", "DemiDevimon"],
+    "PLATINUM_SCUMON": ["Platinum Scumon", "PlatinumSukamon"],
+    "PLATINUMNUMEMON": ["Platinum Numemon", "PlatinumNumemon"],
+    "SHAWUJINMON": ["Shawujinmon", "Shaujinmon"],
+    "SKULLMAMMON": ["Skull Mammothmon", "SkullMammothmon"],
+    "SOCERIMON": ["Sorcermon", "Sorcerimon"],
+    "TAILMON": ["Tailmon", "Gatomon"],
+    "TUCHIDARUMON": ["Tuchidarumon", "MudFrigimon"],
+    "ULTIMATEBRAKIMON": ["Ultimate Brachimon", "UltimateBrachiomon"],
+    "ULTIMATEBRAKIMON_BIG": ["Ultimate Brachimon", "UltimateBrachiomon"],
+    "UNDEADPLUTOMON": ["Undead Plutomon", "ZombiePlutomon"],
+    "UNDEADPLUTOMON_BOSS": ["Undead Plutomon", "ZombiePlutomon"],
+    "UNDEADPLUTOMON_BOSS_ADD1": ["Undead Plutomon", "ZombiePlutomon"],
+    "UNDEADPLUTOMON_BOSS_ADD2": ["Undead Plutomon", "ZombiePlutomon"],
+    "UNDEADPLUTOMON_BOSS_ADD3": ["Undead Plutomon", "ZombiePlutomon"],
+    "UNDEADPLUTOMON_BOSS_ADD4": ["Undead Plutomon", "ZombiePlutomon"],
+    "V-MON": ["V-mon", "Veemon"],
+    "VAMDEMON": ["Vamdemon", "Myotismon"],
 }
 
 
@@ -95,9 +163,12 @@ def clean_wikitext_value(value: str) -> str:
     value = re.sub(r"<!--.*?-->", "", value, flags=re.DOTALL)
     value = re.sub(r"<br\s*/?>", " / ", value, flags=re.IGNORECASE)
     value = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]+)\]\]", r"\1", value)
+    value = re.sub(r"\{\{lang-[^|}]+\|([^}]+)\}\}", r"\1", value, flags=re.IGNORECASE)
+    value = re.sub(r"\{\{(?:[^{}]|\{[^{}]*\})*?\}\}", "", value)
+    value = re.sub(r"\}\}+$", "", value)
     value = re.sub(r"''+", "", value)
     value = re.sub(r"<[^>]+>", "", value)
-    return value.strip()
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def title_case_id(token: str) -> str:
@@ -140,6 +211,13 @@ def candidate_titles(row_id: str, english_name: str) -> list[str]:
     candidates.append(english_name)
     candidates.extend(SPECIAL_ID_ALIASES.get(core, []))
 
+    plain_english = re.sub(r"\s*\([^)]*\)", "", english_name).strip()
+    candidates.append(plain_english)
+    if ":" in plain_english:
+        left, right = [part.strip() for part in plain_english.split(":", 1)]
+        candidates.append(left)
+        candidates.append(f"{left} {right}")
+
     for variant in without_known_suffixes(core):
         candidates.append(title_case_id(variant))
         candidates.append(title_case_id(variant.replace("_", "")))
@@ -147,9 +225,6 @@ def candidate_titles(row_id: str, english_name: str) -> list[str]:
         pieces = variant.split("_")
         if pieces and pieces[-1] in MODE_ALIASES:
             candidates.append(f"{title_case_id('_'.join(pieces[:-1]))} {MODE_ALIASES[pieces[-1]]}")
-
-    # Also try removing parenthesized suffixes from the game name.
-    candidates.append(re.sub(r"\s*\([^)]*\)", "", english_name).strip())
 
     result: list[str] = []
     seen: set[str] = set()
@@ -174,6 +249,23 @@ def load_wiki_titles() -> dict[str, str]:
         if link.get("ns") == 0 and "exists" in link
     ]
 
+    continuation: dict[str, str] = {}
+    while True:
+        params = {
+            "action": "query",
+            "list": "allpages",
+            "apnamespace": "0",
+            "aplimit": "500",
+            "format": "json",
+        }
+        params.update(continuation)
+        url = API + "?" + urllib.parse.urlencode(params)
+        data = get_json(url)
+        titles.extend(page["title"] for page in data.get("query", {}).get("allpages", []))
+        continuation = data.get("continue", {})
+        if not continuation:
+            break
+
     mapping: dict[str, str] = {}
     for title in titles:
         mapping.setdefault(normalize_en(title), title)
@@ -181,9 +273,13 @@ def load_wiki_titles() -> dict[str, str]:
 
 
 def extract_ru_name_from_wikitext(content: str) -> str:
-    match = re.search(r"(?im)^\s*\|\s*Название\s*=\s*(.*?)\s*$", content)
-    if match:
-        return clean_wikitext_value(match.group(1))
+    for pattern in (
+        r"(?im)^\s*\|\s*Название\s*=\s*([^|\n}]*)",
+        r"(?is)\|\s*Название\s*=\s*([^|\n}]*)",
+    ):
+        match = re.search(pattern, content)
+        if match:
+            return clean_wikitext_value(match.group(1))
 
     match = re.search(r"'''([^']+)'''", content)
     if match:
@@ -229,7 +325,7 @@ def fetch_ru_names_for_titles(titles: list[str], cache: dict[str, str]) -> None:
 
 def get_ru_name_for_title_slow_parse(title: str, cache: dict[str, str]) -> str:
     """Fallback retained for odd pages without revision content."""
-    if title in cache:
+    if title in cache and cache[title]:
         return cache[title]
     url = API + "?" + urllib.parse.urlencode(
         {
@@ -255,13 +351,8 @@ def get_ru_name_for_title_slow_parse(title: str, cache: dict[str, str]) -> str:
             flags=re.IGNORECASE | re.DOTALL,
         )
 
-    if match:
-        ru_name = clean_wikitext_value(match.group(1))
-    else:
-        ru_name = ""
-
-    cache[title] = ru_name
-    return ru_name
+    cache[title] = clean_wikitext_value(match.group(1)) if match else ""
+    return cache[title]
 
 
 def classify(local_ru: str, wiki_ru: str, wiki_title: str) -> str:
@@ -321,13 +412,16 @@ def main() -> None:
         )
 
     fetch_ru_names_for_titles(sorted(titles_needed), cache)
-    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
 
     for row in output_rows:
         wiki_title = row["wiki_page"]
         wiki_ru = cache.get(wiki_title, "") if wiki_title else ""
+        if wiki_title and not wiki_ru:
+            wiki_ru = get_ru_name_for_title_slow_parse(wiki_title, cache)
         row["wiki_russian_name"] = wiki_ru
         row["status"] = classify(row["local_russian_name"], wiki_ru, wiki_title)
+
+    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8")
 
     fieldnames = [
         "#",
@@ -347,7 +441,7 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(output_rows)
 
-    mismatches = [row for row in output_rows if row["status"] not in {"ok"}]
+    mismatches = [row for row in output_rows if row["status"] != "ok"]
     with OUT_MISMATCHES.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
