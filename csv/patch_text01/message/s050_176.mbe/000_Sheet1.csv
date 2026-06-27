@@ -4,9 +4,9 @@ s050_176_020,char_PHARAOHMON,"Мы жаждем места, где можно п
 ... это критический момент!",
 s050_176_030,char_MERCURYMON,"... А, вы пришли! Я хотел бы, чтобы вы услышали мысли этих двух
 воинов.",
-s050_176_040,char_PLAYER_M,{next}All right.,
-s050_176_041,char_PLAYER_M,{next}Their thoughts on what?,
-s050_176_042,char_PLAYER_M,{end}I'm too busy right now.,
+s050_176_040,char_PLAYER_M,{next}Ладно.,
+s050_176_041,char_PLAYER_M,{next}Их мысли о чём?,
+s050_176_042,char_PLAYER_M,{end}Сейчас не могу.,
 s050_176_050,char_MERCURYMON,"Это было бы огромной помощью. У них добрые намерения, но их
 рвение повергло меня в растерянность.",
 s050_176_060,char_MERCURYMON,"Я только прошу вас позволить им высказать свое мнение.
@@ -19,9 +19,9 @@ s050_176_090,char_PHARAOHMON,"Видишь ли... мы отправились �
 вместе в поисках силы.",
 s050_176_100,char_PHARAOHMON,"Жизнь в суровых условиях и спасение Дигимона от атак Титанов
 сделали нас сильными.",
-s050_176_110,char_PLAYER_M,"{next}You're friends, then?",
-s050_176_111,char_PLAYER_M,{next}Why do you wanna get stronger?,
-s050_176_112,char_PLAYER_M,{next}Looking at you two together hurts my eyes...,
+s050_176_110,char_PLAYER_M,"{next}Значит, вы друзья?",
+s050_176_111,char_PLAYER_M,{next}Зачем тебе становиться сильнее?,
+s050_176_112,char_PLAYER_M,{next}На вас двоих вместе больно смотреть...,
 s050_176_120,char_RAPIDMON_ARMOR,"Как только наши пути пересеклись, наши яркие цвета сблизили нас,
 как и наша общая цель.",
 s050_176_130,char_RAPIDMON_ARMOR,"Хех. Странный вопрос. Наши инстинкты побуждают нас становиться
@@ -50,9 +50,9 @@ s050_176_240,char_MERCURYMON,"Однако, как вам хорошо изве�
 опасна, чем любая другая.",
 s050_176_250,char_MERCURYMON,"Я только что встретил этих двоих и не знаю их силы. Что мне
 делать?",
-s050_176_260,char_PLAYER_M,{next}Why not have them fight in the Высотный колизей?,
-s050_176_261,char_PLAYER_M,{next}}Why not just let them join the next battle?,
-s050_176_262,char_PLAYER_M,"{next}How about a game of Rock, Paper, Scissors?",
+s050_176_260,char_PLAYER_M,{next}Почему бы не выпустить их на бой в Высотном колизее?,
+s050_176_261,char_PLAYER_M,{next}Почему просто не выпустить их в следующий бой?,
+s050_176_262,char_PLAYER_M,"{next}Может, сыграем в камень-ножницы-бумагу?",
 s050_176_270,char_MERCURYMON,"...Ах! Никогда бы не подумал об этом! Я был прав, спросив вашего
 мнения.",
 s050_176_280,char_MERCURYMON,"Если им окажется не хватает мастерства, они станут помехой, и мы
@@ -81,9 +81,9 @@ s050_176_380,char_RAPIDMON_ARMOR,"Это был действительно же�
 друга Меркуримона.",
 s050_176_390,char_PHARAOHMON,"Итак, как бы вы сами, будучи могучим воином, оценили наши
 способности?",
-s050_176_400,char_PLAYER_M,{next}I'd say they were sufficient.,
-s050_176_401,char_PLAYER_M,"{next}Not so great, really.",
-s050_176_402,char_PLAYER_M,{next}Neither impressive nor unimpressive.,
+s050_176_400,char_PLAYER_M,"{next}Думаю, вполне достаточно.",
+s050_176_401,char_PLAYER_M,"{next}Если честно, не очень.",
+s050_176_402,char_PLAYER_M,"{next}Ни хорошо, ни плохо.",
 s050_176_410,char_RAPIDMON_ARMOR,"Ты имеешь в виду... ты считаешь нас достойными ?! Тогда мы
 обязательно вступим в следующую битву!",
 s050_176_420,char_RAPIDMON_ARMOR,"Ба. Ты просто слишком силен. Мы вступим в следующую битву и
@@ -109,8 +109,8 @@ s050_176_510,char_MERCURYMON,"Но теперь мы знаем, на что о�
 s050_176_520,char_MERCURYMON,"Примите это как знак моей признательности за то, что вы
 проверили их на прочность. Примите мою благодарность.",
 s050_176_530,char_MERCURYMON,Как ты держишься? Есть минутка?,
-s050_176_540,char_PLAYER_M,{next}I'm free now.,
-s050_176_541,char_PLAYER_M,{end}I'm still busy.,
+s050_176_540,char_PLAYER_M,{next}Теперь есть время.,
+s050_176_541,char_PLAYER_M,{end}Пока не могу.,
 s050_176_550,char_MERCURYMON,"Понятно. Я очень рад это слышать. А теперь, пожалуйста,
 выслушайте этих двоих.",
 s050_176_560,char_MERCURYMON,"О. Вы все еще заняты другими делами? В таком случае, поговорите

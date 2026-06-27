@@ -1,9 +1,9 @@
 string2 0,string 1,string 2,string 3
 s070_057_010,char_MINERVAMON,"Я знаю, это гром среди ясного неба, но нам с тобой нужно
 скрестить клинки.",
-s070_057_020,char_PLAYER_M,{next}I'm looking forward to it.,
-s070_057_021,char_PLAYER_M,{next}Why?,
-s070_057_022,char_PLAYER_M,{end}Bye! See you later!,
+s070_057_020,char_PLAYER_M,{next}Буду ждать с нетерпением.,
+s070_057_021,char_PLAYER_M,{next}Почему?,
+s070_057_022,char_PLAYER_M,{end}Пока! Увидимся!,
 s070_057_030,char_MINERVAMON,Спасибо за быстрое решение. Мне это в тебе нравится.,
 s070_057_040,char_MINERVAMON,"Я понимаю, почему вас это удивляет. Но ... этот бой должен
 состояться.",

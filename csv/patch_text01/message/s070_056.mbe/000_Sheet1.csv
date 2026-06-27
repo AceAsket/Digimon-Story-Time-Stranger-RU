@@ -1,8 +1,8 @@
 string2 0,string 1,string 2,string 3
 s070_056_010,char_MINERVAMON,Хм... ХМ...,
-s070_056_020,char_PLAYER_M,{next}What is it this time?,
-s070_056_021,char_PLAYER_M,{next}Do you often watch movies?,
-s070_056_022,char_PLAYER_M,{end}I'll leave you alone. See you.,
+s070_056_020,char_PLAYER_M,{next}Что на этот раз?,
+s070_056_021,char_PLAYER_M,{next}Ты часто смотришь фильмы?,
+s070_056_022,char_PLAYER_M,{end}Не буду мешать. Увидимся.,
 s070_056_030,char_MINERVAMON,"Ах, я ждал тебя. Есть еще кое-что, что беспокоит меня в любви.",
 s070_056_040,char_MINERVAMON,"Должен сказать, фильмы потрясающие, не так ли? Однако кое-что
 меня все еще беспокоит!",
@@ -13,9 +13,9 @@ s070_056_070,char_MINERVAMON,"Не нужно позволять этому ди
 случае, это мой вывод.",
 s070_056_080,char_MINERVAMON,"Однако есть одна тема, требующая дальнейшего изучения... любовь
 между Дигимон!",
-s070_056_090,char_PLAYER_M,{next}Good point.,
-s070_056_091,char_PLAYER_M,{next}Is there no end to this?,
-s070_056_092,char_PLAYER_M,{next}Y-You don't say...?,
+s070_056_090,char_PLAYER_M,{next}Верно подмечено.,
+s070_056_091,char_PLAYER_M,{next}Этому вообще будет конец?,
+s070_056_092,char_PLAYER_M,{next}Д-да что ты...?,
 s070_056_100,char_MINERVAMON,"Не так ли? Сомневаюсь, что кому-то, кроме меня, могла прийти в
 голову эта тема.",
 s070_056_110,char_MINERVAMON,"Не говори так. В конце концов, я же Дигимон, верно? Конечно, мы
@@ -28,9 +28,9 @@ s070_056_140,char_MINERVAMON,"Оооочень... Если вы знаете к�
 обязательно дайте мне знать!",
 s070_056_150,char_MINERVAMON,"Мне любопытно посмотреть, затрепещет ли мое сердце от встречи с
 ними.",
-s070_056_160,char_PLAYER_M,"{next}What do you consider ""worthy,"" Minervamon?",
-s070_056_161,char_PLAYER_M,{next}And what if they do set your heart aflutter?,
-s070_056_162,char_PLAYER_M,{next}There's a good human right in front of you...,
+s070_056_160,char_PLAYER_M,"{next}Что для тебя значит «достойный», Минервамон?",
+s070_056_161,char_PLAYER_M,{next}А если они всё-таки заставят твоё сердце дрогнуть?,
+s070_056_162,char_PLAYER_M,{next}Хороший человек прямо перед тобой...,
 s070_056_170,char_MINERVAMON,"Хороший довод... На самом деле меня не волнуют такие вещи, как
 структура лица или размер тела.",
 s070_056_180,char_MINERVAMON,"Что ж, мы точно знаем, что этого не произойдет! Я просто хочу
@@ -77,6 +77,6 @@ s070_056_400,char_MINERVAMON,"Я останусь здесь, пока не ра
 s070_056_410,char_PUNIMON,"Я люблю играть в карточные игры! В следующий раз я покажу вам
 самую лучшую карту из моей коллекции!",
 s070_056_420,char_PLAYER_M,Давайте сразимся в карты.,
-s070_056_421,char_PLAYER_M,{end}I'm too busy right now.,
+s070_056_421,char_PLAYER_M,{end}Сейчас не могу.,
 s070_056_430,char_PUNIMON,Черт возьми! Я проиграл! Мой бедный Вельземон ...!,
 s070_056_440,char_PUNIMON,"Я победил! Я знал, что Вельземон был сильнейшим.",

@@ -1,8 +1,8 @@
 string2 0,string 1,string 2,string 3
 s110_208_010,char_SUSANOOMON,"Хм. Значит, это тебе удалось победить моих верных подчиненных...",
 s110_208_020,char_SUSANOOMON,Я спрошу откровенно. Кто вы?,
-s110_208_030,char_PLAYER_M,{next}Kunlun's envoy.,
-s110_208_031,char_PLAYER_M,{next}I'm a human.,
+s110_208_030,char_PLAYER_M,{next}Посланник Куньлуня.,
+s110_208_031,char_PLAYER_M,{next}Я человек.,
 s110_208_032,char_PLAYER_M,{next}I'm a Дигимон.,
 s110_208_040,char_SUSANOOMON,"Понятно. Вы подключены к хосту? Тогда, тем более, вы не обычный
 человек.",
@@ -32,9 +32,9 @@ s110_208_180,char_SUSANOOMON,"Это, конечно, незнакомый ми�
 моей потери.",
 s110_208_190,char_SUSANOOMON,Этот человек силен. Вот так просто.,
 s110_208_200,char_SUSANOOMON,"Мы готовы выслушать тех, кто силен. Что вы хотите нам сказать?",
-s110_208_210,char_PLAYER_M,{next}Don't keep Kunlun waiting.,
-s110_208_211,char_PLAYER_M,{next}Remember what your mission is.,
-s110_208_212,char_PLAYER_M,{next}How many master's are gonna show up?,
+s110_208_210,char_PLAYER_M,{next}Не заставляй Куньлунь ждать.,
+s110_208_211,char_PLAYER_M,{next}Помни о своей миссии.,
+s110_208_212,char_PLAYER_M,{next}Сколько ещё мастеров появится?,
 s110_208_220,char_SUSANOOMON,"Я заставил хозяина ждать слишком долго. Тяжело покидать это
 место, но я должен двигаться дальше.",
 s110_208_230,char_SUSANOOMON,"Наша миссия - наслаждаться этим миром. Ха-ха. Не смотри так
@@ -57,9 +57,9 @@ s110_208_320,char_SUSANOOMON,"Человеческое дитя. Твоя зад
 нашей миссии.",
 s110_208_330,char_SUSANOOMON,"Мы направляемся к месту встречи ... Хотя мне больно покидать
 Колизей...",
-s110_208_340,char_PLAYER_M,{next}Don't tell me you're thinking of staying?,
-s110_208_341,char_PLAYER_M,{next}Is it that addictive?,
-s110_208_342,char_PLAYER_M,"{next}How about another battle, then?",
+s110_208_340,char_PLAYER_M,"{next}Только не говори, что хочешь остаться.",
+s110_208_341,char_PLAYER_M,{next}Это настолько затягивает?,
+s110_208_342,char_PLAYER_M,{next}Тогда как насчёт ещё одного боя?,
 s110_208_350,char_SUSANOOMON,"Мне не помешало бы больше тренироваться, чтобы приспособиться к
 этому миру... Но нет, это всего лишь предлог.",
 s110_208_360,char_SUSANOOMON,"Парадизский Колизей - замечательное сооружение... Но такова

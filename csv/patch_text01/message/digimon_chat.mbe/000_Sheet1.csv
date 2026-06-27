@@ -62,8 +62,8 @@ aigiog_001_3_replay,char_PLAYER_M,Давай посмотрим на это вм
 aigiog_001_3_reaction_char_AEGIOCHUSMON_GREEN,char_AEGIOCHUSMON_GREEN,"Конечно, я бы с удовольствием! И я заставлю тебя сдержать это
 обещание!",
 aigiog_001_4_replay,char_PLAYER_M,Я бы хотел подарить тебе все розы.,
-aigiog_001_4_reaction_char_AEGIOCHUSMON_GREEN,char_AEGIOCHUSMON_GREEN,"Эм, мне бы это действительно подошло ...? Тем не менее, это
-очень мило с твоей стороны сказать. Спасибо.",
+aigiog_001_4_reaction_char_AEGIOCHUSMON_GREEN,char_AEGIOCHUSMON_GREEN,"Эм, мне это правда подойдет...? В любом случае,
+спасибо за добрые слова.",
 aigiod_001_0_char_AEGIOCHUSMON_DARK,char_AEGIOCHUSMON_DARK,"Я думаю, что хочу сделать тебе что-нибудь гадкое.",
 aigiod_001_1_replay,char_PLAYER_M,"Будь груб со мной, и я буду груб в ответ.",
 aigiod_001_1_reaction_char_AEGIOCHUSMON_DARK,char_AEGIOCHUSMON_DARK,"Я так и думал, что ты это скажешь. Ты готов ко всему, не так ли?",
@@ -81,8 +81,8 @@ aigioh_001_1_replay,char_PLAYER_M,Неа. Извините.,
 aigioh_001_1_reaction_char_AEGIOCHUSMON_HOLLY,char_AEGIOCHUSMON_HOLLY,"Возможно, ты шутишь, но я советую тебе исправиться. Я не
 выношу нечистых сердец.",
 aigioh_001_2_replay,char_PLAYER_M,Это может быть немного нечисто.,
-aigioh_001_2_reaction_char_AEGIOCHUSMON_HOLLY,char_AEGIOCHUSMON_HOLLY,"Очень честно с вашей стороны. Но подумайте хорошенько. Если вы
-так считаете, чистота не за горами.",
+aigioh_001_2_reaction_char_AEGIOCHUSMON_HOLLY,char_AEGIOCHUSMON_HOLLY,"Честно сказано. Но подумай как следует. Если ты так считаешь,
+значит чистота уже близко.",
 aigioh_001_3_replay,char_PLAYER_M,Вероятно.,
 aigioh_001_3_reaction_char_AEGIOCHUSMON_HOLLY,char_AEGIOCHUSMON_HOLLY,"Значит, внутри вас есть какие-то сомнения? Я помогу вам
 избавиться от этой неуверенности.",
@@ -130,8 +130,8 @@ yupira_001_1_replay,char_PLAYER_M,"Слишком много, если хоти�
 yupira_001_1_reaction_char_JUPITERMON_WRATHMODE,,"Очевидно, что ваше суждение ошибочно. Я спокойно рассуждаю о
 необходимости сурового наказания, не более того.",
 yupira_001_2_replay,char_PLAYER_M,"Да, я бы так сказал.",
-yupira_001_2_reaction_char_JUPITERMON_WRATHMODE,,"Я пойму, если ты так думаешь. Тем не менее, такой спокойный
-разговор является доказательством моего самообладания.",
+yupira_001_2_reaction_char_JUPITERMON_WRATHMODE,,"Понимаю, почему ты так думаешь. И все же сам факт,
+что мы спокойно разговариваем, доказывает мое самообладание.",
 yupira_001_3_replay,char_PLAYER_M,Вовсе нет.,
 yupira_001_3_reaction_char_JUPITERMON_WRATHMODE,,"Кажется, ты понимаешь бесстрастность моего гнева.",
 yupira_001_4_replay,char_PLAYER_M,На самом деле ты довольно спокоен.,
@@ -509,7 +509,7 @@ otama_001_1_reaction_char_OTAMAMON,char_OTAMAMON,"Я понял, что не с�
 otama_001_2_replay,char_PLAYER_M,Почему бы не сходить на концерт?,
 otama_001_2_reaction_char_OTAMAMON,char_OTAMAMON,"Это хорошая идея! Слушать, как поют другие, тоже важно!",
 otama_001_3_replay,char_PLAYER_M,"Я присоединюсь к тебе, если ты захочешь попрактиковаться.",
-otama_001_3_reaction_char_OTAMAMON,char_OTAMAMON,"О, боже! Это очень мило с твоей стороны! Давай споем дуэтом,
+otama_001_3_reaction_char_OTAMAMON,char_OTAMAMON,"Ого! Как приятно это слышать! Давай споем дуэтом -
 только ты и я!",
 otama_001_4_replay,char_PLAYER_M,Просто пойте от всего сердца!,
 otama_001_4_reaction_char_OTAMAMON,char_OTAMAMON,"Я понимаю, что ты имеешь в виду! Пение - это больше, чем просто
@@ -607,12 +607,12 @@ hoe_001_2_replay,char_PLAYER_M,"Должны ли мы проверить, не�
 hoe_001_2_reaction_char_WHAMON,char_WHAMON,"Конечно, лучше проверить, чем пытаться справиться с этим
 вслепую. Хорошее решение!",
 hoe_001_3_replay,char_PLAYER_M,"Может, мне заглянуть тебе в живот?",
-hoe_001_3_reaction_char_WHAMON,char_WHAMON,"Что? Ты был бы готов пойти туда? Ради меня? Как предусмотрительн
-о с твоей стороны... Спасибо.",
+hoe_001_3_reaction_char_WHAMON,char_WHAMON,"Что? Ты готов туда пойти ради меня?
+Как предусмотрительно... Спасибо.",
 hoe_001_4_replay,char_PLAYER_M,"О, это очень плохо... Но я здесь ради тебя!",
 hoe_001_4_reaction_char_WHAMON,char_WHAMON,"Эти слова облегчают боль лучше, чем любое лекарство. Спасибо
 вам за вашу доброту.",
-megas_001_0_char_MEGASEADRAMON,char_MEGASEADRAMON,Мой клинок... Потрясающий... Kehehe.,
+megas_001_0_char_MEGASEADRAMON,char_MEGASEADRAMON,Мой клинок... Потрясающий... Ке-хе-хе.,
 megas_001_1_replay,char_PLAYER_M,"И мощный, в придачу!",
 megas_001_1_reaction_char_MEGASEADRAMON,char_MEGASEADRAMON,"Ты... получишь это. Клинок, сильный! Клинок, КРУТОЙ!",
 megas_001_2_replay,char_PLAYER_M,"Было бы ещё лучше, если бы с этим разобрались.",
@@ -629,7 +629,7 @@ warus_001_1_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"Ты продолж�
 warus_001_2_replay,char_PLAYER_M,"Доброго дня тебе, Храбрый ВаруСеадрамон!",
 warus_001_2_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"Заставляет меня говорить как одного из тех странствующих
 самураев. Да, в этом есть что-то особенное.",
-warus_001_3_replay,char_PLAYER_M,"Что это такое, мой WaruSeadramon.",
+warus_001_3_replay,char_PLAYER_M,"Что это такое, мой ВарСидрамон.",
 warus_001_3_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"Звучит очень ... дружелюбно. Да, мне нравится.",
 warus_001_4_replay,char_PLAYER_M,"Привет, Малышка Варусеадрамон!",
 warus_001_4_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"""Малыш"" - полная противоположность классности! Это даже мило!
@@ -670,8 +670,8 @@ metals_001_3_replay,char_PLAYER_M,Я хочу пойти с тобой!,
 metals_001_3_reaction_char_METALSEADRAMON,char_METALSEADRAMON,"Хочешь посмотреть на мою великолепную прогулку по морям? Хм.
 Когда-нибудь я возьму тебя с собой...",
 metals_001_4_replay,char_PLAYER_M,"Держу пари, ты прекрасно выглядишь, когда плаваешь.",
-metals_001_4_reaction_char_METALSEADRAMON,char_METALSEADRAMON,"Ты прекрасно понимаешь. Да, моя истинная красота проявляется во
-всей красе, когда я нахожусь в океанских волнах.",
+metals_001_4_reaction_char_METALSEADRAMON,char_METALSEADRAMON,"Ты прекрасно понимаешь. Да, моя истинная красота раскрывается
+именно в океанских волнах.",
 presi_001_0_char_PLESIOMON,char_PLESIOMON,Позвольте мне услышать о ваших амбициях.,
 presi_001_1_replay,char_PLAYER_M,Путешествуя везде и всюду!,
 presi_001_1_reaction_char_PLESIOMON,char_PLESIOMON,"Отправиться в путешествие по этому огромному миру, не так ли?
@@ -706,7 +706,7 @@ jagame_001_2_replay,char_PLAYER_M,И с соответствующим умом!
 jagame_001_2_reaction_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"Я, мускулы и мозги! Смотри, как я ухожу! * грохот * * бах*",
 jagame_001_3_replay,char_PLAYER_M,Такая ревнивая!,
 jagame_001_3_reaction_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"Хочешь, я и тебя потренирую? Мы становимся по-настоящему
-крутыми. JumboGamemon гарантирует!",
+крутыми. ДжамбоГамемон гарантирует!",
 jagame_001_4_replay,char_PLAYER_M,Твое сердце тоже практически сияет!,
 jagame_001_4_reaction_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"Я, сияющее сердце, но никто другой этого не видит... Но ты! Ты
 видишь. Я, передай сияние ТЕБЕ!",
@@ -856,7 +856,7 @@ worm_001_3_reaction_char_WORMMON,char_WORMMON,"Куча друзей, да? Ко
 worm_001_4_replay,char_PLAYER_M,"Я хочу быть с тобой, даже когда мы все вырастем!",
 worm_001_4_reaction_char_WORMMON,char_WORMMON,"... Черт возьми, да – и ты будешь! Что бы ни случилось, мы
 всегда будем друзьями!",
-lala_001_0_char_LALAMON,char_LALAMON,"La laaa, la la laaaaa! ♪",
+lala_001_0_char_LALAMON,char_LALAMON,"Ла-лаа, ла-ла-лаааа! ♪",
 lala_001_1_replay,char_PLAYER_M,Эта мелодия так вдохновляет!,
 lala_001_1_reaction_char_LALAMON,char_LALAMON,"О, да! Я вложил всю свою храбрость в песню. Я рад, что она
 нашла отклик у вас!",
@@ -932,7 +932,7 @@ geko_001_4_reaction_char_GEKOMON,char_GEKOMON,"Ни слова больше, г�
 toge_001_0_char_TOGEMON,char_TOGEMON,"Мы с тобой соревнуемся в гляделки! Кто первым улыбнется, тот
 проигрывает!",
 toge_001_1_replay,char_PLAYER_M,"Грр, я собираюсь хорошенько наброситься на тебя!",
-toge_001_1_reaction_char_TOGEMON,char_TOGEMON,Нгх! В эту игру могут играть двое. Arrrrr!,
+toge_001_1_reaction_char_TOGEMON,char_TOGEMON,Нгх! В эту игру могут играть двое. Ар-р-р!,
 toge_001_2_replay,char_PLAYER_M,Возобладает более холодная голова.,
 toge_001_2_reaction_char_TOGEMON,char_TOGEMON,"Звучит... довольно умно, на самом деле. Ты имеешь в виду, вот
 так?",
@@ -942,7 +942,7 @@ toge_001_3_reaction_char_TOGEMON,char_TOGEMON,"О, боже. Это хороша
 toge_001_4_replay,char_PLAYER_M,"О-о-о, какая же ты милашка.",
 toge_001_4_reaction_char_TOGEMON,char_TOGEMON,"Привет, ты заставил меня улыбнуться! Это моя потеря... Тем не
 менее, неплохой способ выйти из дома. Нет, в самом деле!",
-beji_001_0_char_VEGIMON,char_VEGIMON,Kehehe. Мне скучно! Расскажи мне хорошую историю!,
+beji_001_0_char_VEGIMON,char_VEGIMON,Ке-хе-хе. Мне скучно! Расскажи мне хорошую историю!,
 beji_001_1_replay,char_PLAYER_M,"Ладно, вот один из них о борьбе с монстрами.",
 beji_001_1_reaction_char_VEGIMON,char_VEGIMON,"Ого, этот Момотаро потрясающий парень! Теперь я весь загорелся!
 Кехе!",
@@ -989,8 +989,8 @@ fly_001_2_replay,char_PLAYER_M,Я хочу изучить их повнимат�
 fly_001_2_reaction_char_FLYMON,char_FLYMON,"Тебе больше любопытно, чем страшно, да? Ладно. Посмотри так
 близко, как захочешь.",
 fly_001_3_replay,char_PLAYER_M,"Страшная, но симпатичная.",
-fly_001_3_reaction_char_FLYMON,char_FLYMON,"Испугался, да? Бзз. Как это честно с твоей стороны. Но
-расслабься. Я бы никогда не причинил вреда партнеру.",
+fly_001_3_reaction_char_FLYMON,char_FLYMON,"Испугался, да? Бзз. Честно признался. Но расслабься:
+партнеру я бы никогда не навредил.",
 fly_001_4_replay,char_PLAYER_M,Очень милый и обаятельный.,
 fly_001_4_reaction_char_FLYMON,char_FLYMON,"Милый ...? Вот это действительно выводит меня из себя. Но...
 Думаю, не обязательно в плохом смысле.",
@@ -1134,7 +1134,7 @@ pino_001_1_replay,char_PLAYER_M,Даже я иногда говорю пару �
 pino_001_1_reaction_char_PINOCHIMON,char_PINOCHIMON,"Моя ложь не так банальна! В любом случае, не приходи ко мне
 плакаться, если почувствуешь, что тебя обманули.",
 pino_001_2_replay,char_PLAYER_M,Это тоже выдумка?,
-pino_001_2_reaction_char_PINOCHIMON,char_PINOCHIMON,"Urgh, touché. Ты выигрываешь этот раунд...",
+pino_001_2_reaction_char_PINOCHIMON,char_PINOCHIMON,"Ух, туше. Ты выигрываешь этот раунд...",
 pino_001_3_replay,char_PLAYER_M,Тебе следует бросить все это.,
 pino_001_3_reaction_char_PINOCHIMON,char_PINOCHIMON,"Ты прав. Я никогда, никогда больше не буду лгать — Упси! Я снова
 это нарисовал.",
@@ -1278,8 +1278,8 @@ tunk_001_2_reaction_char_TANKMON,char_TANKMON,"Эй, знаешь, я более
 tunk_001_3_replay,char_PLAYER_M,"Держу пари, это сводит тебя с ума, да?",
 tunk_001_3_reaction_char_TANKMON,char_TANKMON,"Я хочу найти место, где бушует битва. Подойдет любое место!",
 tunk_001_4_replay,char_PLAYER_M,"Ты заслуживаешь того, чтобы еще немного расслабиться.",
-tunk_001_4_reaction_char_TANKMON,char_TANKMON,"Мило с твоей стороны сказать, но расслабление просто
-подготавливает меня ко сну...",
+tunk_001_4_reaction_char_TANKMON,char_TANKMON,"Спасибо, приятно слышать, но если я расслаблюсь,
+то просто усну...",
 tsuchi_001_0_char_TUCHIDARUMON,char_TUCHIDARUMON,Почему все всегда пытаются подраться?,
 tsuchi_001_1_replay,char_PLAYER_M,Потому что они сильные?,
 tsuchi_001_1_reaction_char_TUCHIDARUMON,char_TUCHIDARUMON,"В таком случае, почему бы им просто не заняться армрестлингом
@@ -1322,7 +1322,7 @@ mame_001_1_reaction_char_MAMEMON,char_MAMEMON,"Я бы хотел быть бо�
 ""сильной"" части!",
 mame_001_2_replay,char_PLAYER_M,Просто врагам легче обнаружить большие размеры.,
 mame_001_2_reaction_char_MAMEMON,char_MAMEMON,"Ха! Наверное, так и есть! Я рад, что я креветка!",
-mame_001_3_replay,char_PLAYER_M,Ваш размер - часть очарования Mamemon!,
+mame_001_3_replay,char_PLAYER_M,Ваш размер - часть очарования Мамемон!,
 mame_001_3_reaction_char_MAMEMON,char_MAMEMON,"Ха. Наверное, я не была бы той Маммон, которую вы все знаете и
 любите, если бы была большой, не так ли?",
 mame_001_4_replay,char_PLAYER_M,"Чем меньше, тем симпатичнее, ты же знаешь.",
@@ -1362,7 +1362,7 @@ muged_001_0_char_MUGENDRAMON,char_MUGENDRAMON,ХОТИТЕ УВИДЕТЬ ПРИ
 muged_001_1_replay,char_PLAYER_M,Конечно! Я хочу увидеть неограниченную силу.,
 muged_001_1_reaction_char_MUGENDRAMON,char_MUGENDRAMON,ТОГДА ПОСМОТРИ ПЕРЕД СОБОЙ. Я И ЕСТЬ ТОТ ПРИМЕР.,
 muged_001_2_replay,char_PLAYER_M,Это ты? Что делает тебя таким сильным?,
-muged_001_2_reaction_char_MUGENDRAMON,char_MUGENDRAMON,"У меня ЕСТЬ САМЫЕ СИЛЬНЫЕ ЧАСТИ, DIGICORE И ПРОГРАММИРОВАНИЕ.
+muged_001_2_reaction_char_MUGENDRAMON,char_MUGENDRAMON,"У меня ЕСТЬ САМЫЕ СИЛЬНЫЕ ЧАСТИ, ДИГИЯДРО И ПРОГРАММИРОВАНИЕ.
 ОНИ ДАЮТ МНЕ БЕЗГРАНИЧНУЮ ВЛАСТЬ.",
 muged_001_3_replay,char_PLAYER_M,Я хочу увидеть безграничную дружбу.,
 muged_001_3_reaction_char_MUGENDRAMON,char_MUGENDRAMON,"ЕСЛИ ВЫ ПРИМЕТЕ МЕНЯ, я ВСЕГДА БУДУ ОКАЗЫВАТЬ ВАМ СВОЮ
@@ -1844,8 +1844,8 @@ knight_001_3_replay,char_PLAYER_M,Мы с тобой должны быть на 
 knight_001_3_reaction_char_KNIGHTMON,char_KNIGHTMON,"Я должен быть предан своему сеньору. У меня нет желания занимать
 ваше положение.",
 knight_001_4_replay,char_PLAYER_M,"Я надеюсь, что я тебе понравлюсь.",
-knight_001_4_reaction_char_KNIGHTMON,char_KNIGHTMON,"Но, конечно! И я надеюсь, что мое послушание является
-достаточным доказательством этого обещания.",
+knight_001_4_reaction_char_KNIGHTMON,char_KNIGHTMON,"Разумеется! Надеюсь, мое послушание станет достаточным
+доказательством этой клятвы.",
 chiri_001_0_char_TYILINMON,char_TYILINMON,Я бы никогда не стал потворствовать бессмысленному убийству!,
 chiri_001_1_replay,char_PLAYER_M,Что именно вы бы сделали по этому поводу?,
 chiri_001_1_reaction_char_TYILINMON,char_TYILINMON,Я бы назначил наказание! И не думай вмешиваться!,
@@ -1987,7 +1987,7 @@ anwi_001_4_reaction_char_ANCIENTWISETMON,char_ANCIENTWISETMON,"Вместо то
 мудрость и сделал ее своей собственной.",
 sola_001_0_char_SOLARMON,char_SOLARMON,Джиджиги! Джиджиги!,
 sola_001_1_replay,char_PLAYER_M,"Ты довольно горячая штучка, не так ли?",
-sola_001_1_reaction_char_SOLARMON,char_SOLARMON,"Gigigi... Это мой горячий DigiCore. Извините за духоту. Просто
+sola_001_1_reaction_char_SOLARMON,char_SOLARMON,"Ги-ги-ги... Это мой горячий Дигиядро. Извините за духоту. Просто
 считайте это тренировкой!",
 sola_001_2_replay,char_PLAYER_M,Вы Хагурумон?,
 sola_001_2_reaction_char_SOLARMON,char_SOLARMON,"Джиджиджи! Я Солармон, и не забывай об этом!",
@@ -2216,7 +2216,7 @@ raidora_001_4_replay,char_PLAYER_M,Давай просто успокоимся.
 raidora_001_4_reaction_char_LIGHDRAMON,char_LIGHDRAMON,"Если ты настаиваешь. Давай сегодня расслабимся. Мы можем
 отложить пробежку на другой день.",
 horus_001_0_char_HOLSMON,char_HOLSMON,Я совершу короткую прогулку по небу.,
-horus_001_1_replay,char_PLAYER_M,Bon voyage!,
+horus_001_1_replay,char_PLAYER_M,Счастливого пути!,
 horus_001_1_reaction_char_HOLSMON,char_HOLSMON,"Я хочу осмотреть безопасность на земле с воздуха. Я вернусь
 раньше, чем ты успеешь оглянуться.",
 horus_001_2_replay,char_PLAYER_M,Я буду наблюдать за тобой отсюда.,
@@ -2439,8 +2439,8 @@ geogra_001_3_replay,char_PLAYER_M,"Партнерская атака, в кот�
 geogra_001_3_reaction_char_GEOGREYMON,char_GEOGREYMON,"Ты имеешь в виду, что ты атакуешь со мной ?! Наша дружба дала бы
 мне еще больше власти!",
 geogra_001_4_replay,char_PLAYER_M,Никогда не будь безрассудным! Ход железной гвардии!,
-geogra_001_4_reaction_char_GEOGREYMON,char_GEOGREYMON,"Ты предлагаешь какую-то защиту, а не только атаки? Это
-действительно мило с твоей стороны...",
+geogra_001_4_reaction_char_GEOGREYMON,char_GEOGREYMON,"Ты предлагаешь не только атаковать, но и защищать?
+Это правда приятно слышать...",
 gabe_001_0_char_GERBEMON,char_GERBEMON,"Эй! Я знаю о кучах мусора, которые накапливают люди. Что ты
 собираешься с этим делать?",
 gabe_001_1_replay,char_PLAYER_M,"Продолжайте говорить всем, чтобы они были менее расточительными.",
@@ -2665,7 +2665,7 @@ aero_001_3_reaction_char_AEROVEEDRAMON,char_AEROVEEDRAMON,"Я слышал, чт
 aero_001_4_replay,char_PLAYER_M,"Все прекрасно, пока мы идем вместе.",
 aero_001_4_reaction_char_AEROVEEDRAMON,char_AEROVEEDRAMON,"Хехе... Я подумал о том же! Уверен, нам будет весело, куда бы мы
 ни пошли!",
-rapi_001_0_char_RAPIDMON,char_RAPIDMON,"Я ""Rapidmon"", а не ""Rabbitmon"". Не перевирайте!",
+rapi_001_0_char_RAPIDMON,char_RAPIDMON,"Я ""Рэпидмон"", а не ""Раббитмон"". Не перевирайте!",
 rapi_001_1_replay,char_PLAYER_M,Для меня это все равно.,
 rapi_001_1_reaction_char_RAPIDMON,char_RAPIDMON,"Пока я могу быстро двигаться и драться, думаю, имя не имеет
 такого уж большого значения...",
@@ -2673,7 +2673,7 @@ rapi_001_2_replay,char_PLAYER_M,В чем разница?,
 rapi_001_2_reaction_char_RAPIDMON,char_RAPIDMON,"""Рапид"" означает стремительный. ""Рэббит"" - нет! Это довольно
 большая разница, приятель!",
 rapi_001_3_replay,char_PLAYER_M,"Вы уверены, что это не ""Кролик""?",
-rapi_001_3_reaction_char_RAPIDMON,char_RAPIDMON,"У тебя уши заложило или что?! Это ""Rapidmon""! Теперь мы друзья,
+rapi_001_3_reaction_char_RAPIDMON,char_RAPIDMON,"У тебя уши заложило или что?! Это ""Рэпидмон""! Теперь мы друзья,
 так что тебе лучше запомнить!",
 rapi_001_4_replay,char_PLAYER_M,"Я знаю, я знаю.",
 rapi_001_4_reaction_char_RAPIDMON,char_RAPIDMON,"Ух, какое облегчение! Видишь ли, у людей иногда бывают
@@ -2694,14 +2694,14 @@ rave_001_4_reaction_char_RAVEMON,char_RAVEMON,"Я могу прикрыться 
 justi_001_0_char_JUSTIMON,char_JUSTIMON,"Что вы думаете о моем красном шарфе? Он мне очень идет, вы
 согласны?",
 justi_001_1_replay,char_PLAYER_M,"Это немного запутывает тебя, не так ли?",
-justi_001_1_reaction_char_JUSTIMON,char_JUSTIMON,"Он просто обвит вокруг моей шеи. В конце концов, я появляюсь и
-исчезаю, как ветер.",
+justi_001_1_reaction_char_JUSTIMON,char_JUSTIMON,"Он просто обвит вокруг моей шеи. В конце концов,
+я появляюсь и исчезаю, словно ветер.",
 justi_001_2_replay,char_PLAYER_M,"Немного длинновато, не правда ли?",
 justi_001_2_reaction_char_JUSTIMON,char_JUSTIMON,"Как же иначе она должна развеваться на ветру? Такова
 продолжительность правосудия.",
 justi_001_3_replay,char_PLAYER_M,Тебе очень идет футболка!,
 justi_001_3_reaction_char_JUSTIMON,char_JUSTIMON,"Большое вам спасибо. Должен сказать, ничто так не говорит
-""Justimon"", как красный шарф.",
+""Джастимон"", как красный шарф.",
 justi_001_4_replay,char_PLAYER_M,"Я не думаю, что это на самом деле ты.",
 justi_001_4_reaction_char_JUSTIMON,char_JUSTIMON,"Впервые слышу подобное мнение. Тем не менее, я верю, что со
 временем оно укрепится в тебе.",
@@ -3165,7 +3165,7 @@ alfak_001_0_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Теперь, ког�
 направлены исключительно на нападение!",
 alfak_001_1_replay,char_PLAYER_M,Как всё дошло до такого?,
 alfak_001_1_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Чудесная эволюция возможна только благодаря волшебному
-кругу цифрового кода Alphamon.",
+кругу цифрового кода Альфамон.",
 alfak_001_2_replay,char_PLAYER_M,Ты Альфамон?,
 alfak_001_2_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Я не Альфамон, но раньше Оуриюмон. Благодаря эволюции
 я теперь клинок Альфамона.",
@@ -3338,8 +3338,8 @@ ruches_001_3_replay,char_PLAYER_M,Давай будем друзьями.,
 ruches_001_3_reaction_char_LUCEMON_SM,char_LUCEMON_SM,"Ты хочешь соблазнить меня, носящего Венцы Смертных грехов?
 Давай посмотрим, к чему это приведет.",
 ruches_001_4_replay,char_PLAYER_M,Как я вообще мог?,
-ruches_001_4_reaction_char_LUCEMON_SM,char_LUCEMON_SM,"Конечно, это за пределами твоих возможностей. Тем не менее, наше
-нынешнее сосуществование меня устраивает.",
+ruches_001_4_reaction_char_LUCEMON_SM,char_LUCEMON_SM,"Конечно, тебе это не по силам. И все же нынешнее
+сосуществование меня устраивает.",
 freyd_001_0_char_FLAMEDRAMON,char_FLAMEDRAMON,Мое мужество - пылающий ад!,
 freyd_001_1_replay,char_PLAYER_M,Пусть он разгорится еще жарче.,
 freyd_001_1_reaction_char_FLAMEDRAMON,char_FLAMEDRAMON,"Ни слова больше. Мое мужество вспыхнет прямо там, рядом с моим
@@ -5409,7 +5409,7 @@ common031_0_female_knowledge,,"Тебе не кажется, что ты вед�
 нормально - сделать перерыв.",
 common031_0_old_knowledge,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
 нормально - сделать перерыв.",
-common031_1_replay,char_PLAYER_M,Спасибо. Это очень мило с вашей стороны.,
+common031_1_replay,char_PLAYER_M,Спасибо. Это очень любезно с вашей стороны.,
 common031_1_reaction_child_courage,,"Н- Не совсем... Я просто не хочу попасть в затруднительное
 положение, если мой партнер упадет в обморок.",
 common031_1_reaction_male_courage,,"Н- Не совсем... Я просто не хочу попасть в затруднительное

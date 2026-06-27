@@ -40,7 +40,11 @@ if (Test-Path -LiteralPath $payloadRoot) {
 $distRoot = Join-Path $RepoRoot "dist"
 if (Test-Path -LiteralPath $distRoot) {
     Get-ChildItem -LiteralPath $distRoot -File |
-        Where-Object { $_.Name -like "DSTS_RU_Installer_v*.zip" -or $_.Name -like "DSTS_RU_Installer_v*.exe" } |
+        Where-Object {
+            $_.Name -like "DSTS_RU_Installer_v*.zip" -or
+            $_.Name -like "DSTS_RU_Installer_v*.exe" -or
+            $_.Name -like "DSTS_RU_Payload_v*.zip"
+        } |
         Sort-Object @{ Expression = { Get-VersionSortKey $_ } }, Name |
         ForEach-Object { $files.Add($_) }
 }

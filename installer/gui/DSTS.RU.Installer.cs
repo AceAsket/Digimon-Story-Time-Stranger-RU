@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -61,12 +63,13 @@ namespace DstsRuInstaller
         private readonly Button installButton;
         private readonly Button restoreButton;
         private readonly Button backupsButton;
+        private readonly Button updateButton;
 
         public MainForm(InstallerCore core)
         {
             this.core = core;
 
-            Text = "Digimon Story Time Stranger RU - установщик";
+            Text = "Digimon Story Time Stranger RU - установщик v" + InstallerMetadata.Version;
             StartPosition = FormStartPosition.CenterScreen;
             MinimumSize = new Size(760, 660);
             Size = new Size(860, 700);
@@ -153,6 +156,13 @@ namespace DstsRuInstaller
             backupsButton.Click += delegate { OpenBackups(); };
             Controls.Add(backupsButton);
 
+            updateButton = new Button();
+            updateButton.Text = "Проверить обновления";
+            updateButton.Location = new Point(549, 263);
+            updateButton.Size = new Size(190, 34);
+            updateButton.Click += delegate { CheckForUpdates(true); };
+            Controls.Add(updateButton);
+
             logTextBox = new TextBox();
             logTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom;
             logTextBox.Location = new Point(23, 317);
@@ -165,8 +175,10 @@ namespace DstsRuInstaller
 
             Load += delegate
             {
+                Log("Версия установщика: " + InstallerMetadata.Version);
                 Log("Payload: " + core.PayloadDescription);
                 DetectGameDir(false);
+                CheckForUpdates(false);
             };
         }
 
@@ -301,6 +313,130 @@ namespace DstsRuInstaller
             Process.Start(backups);
         }
 
+        private void CheckForUpdates(bool showNoUpdate)
+        {
+            string currentVersion = GetCurrentTranslationVersion();
+            updateButton.Enabled = false;
+            Log("Проверка обновлений... Текущая версия перевода: " + currentVersion);
+
+            Task.Factory.StartNew(delegate
+            {
+                return UpdateChecker.Check(currentVersion);
+            }).ContinueWith(delegate(Task<UpdateInfo> task)
+            {
+                BeginInvoke((Action)delegate
+                {
+                    updateButton.Enabled = true;
+                    if (task.Exception != null)
+                    {
+                        Exception ex = task.Exception.GetBaseException();
+                        Log("Не удалось проверить обновления: " + ex.Message);
+                        if (showNoUpdate)
+                        {
+                            MessageBox.Show(this, "Не удалось проверить обновления:\n" + ex.Message, "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                        return;
+                    }
+
+                    UpdateInfo info = task.Result;
+                    if (info == null)
+                    {
+                        Log("Установлена актуальная версия.");
+                        if (showNoUpdate)
+                        {
+                            MessageBox.Show(this, "Установлена актуальная версия перевода.", "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        return;
+                    }
+
+                    Log("Доступна новая версия: " + info.Version);
+                    string action = info.IsPayloadPackage
+                        ? "Скачать и установить свежий пакет перевода?"
+                        : "Скачать и запустить новый установщик?";
+                    DialogResult result = MessageBox.Show(
+                        this,
+                        "Доступна новая версия перевода: " + info.Version + "\nТекущая версия: " + currentVersion + "\n\n" + action,
+                        "Доступно обновление",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Information);
+                    if (result == DialogResult.Yes)
+                    {
+                        DownloadAndLaunchUpdate(info);
+                    }
+                });
+            });
+        }
+
+        private string GetCurrentTranslationVersion()
+        {
+            string dir = pathTextBox.Text.Trim();
+            if (!string.IsNullOrEmpty(dir) && Directory.Exists(dir))
+            {
+                string installedVersion = core.GetInstalledVersion(dir);
+                if (!string.IsNullOrEmpty(installedVersion))
+                {
+                    return installedVersion;
+                }
+            }
+
+            return InstallerMetadata.Version;
+        }
+
+        private void DownloadAndLaunchUpdate(UpdateInfo info)
+        {
+            if (string.IsNullOrEmpty(info.DownloadUrl))
+            {
+                Process.Start(info.ReleaseUrl);
+                return;
+            }
+
+            string dir = pathTextBox.Text.Trim();
+            if (info.IsPayloadPackage && (string.IsNullOrEmpty(dir) || !Directory.Exists(dir)))
+            {
+                MessageBox.Show(this, "Для установки обновления выберите папку игры.", "Нужна папка игры", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            SetBusy(true);
+            Log("Скачивание обновления: " + info.AssetName);
+            Task.Factory.StartNew(delegate
+            {
+                string downloaded = UpdateChecker.DownloadAsset(info, LogFromWorker);
+                if (info.IsPayloadPackage)
+                {
+                    core.InstallFromPayloadPackage(dir, downloaded, LogFromWorker);
+                }
+                return downloaded;
+            }).ContinueWith(delegate(Task<string> task)
+            {
+                BeginInvoke((Action)delegate
+                {
+                    SetBusy(false);
+                    if (task.Exception != null)
+                    {
+                        Exception ex = task.Exception.GetBaseException();
+                        Log("Не удалось скачать обновление: " + ex.Message);
+                        MessageBox.Show(this, "Не удалось скачать обновление:\n" + ex.Message, "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    string downloaded = task.Result;
+                    if (info.IsPayloadPackage)
+                    {
+                        Log("Обновление установлено из пакета: " + downloaded);
+                        MessageBox.Show(this, "Свежая версия перевода установлена. Оригинальные файлы сохранены в бэкап.", "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        Log("Обновление скачано: " + downloaded);
+                        MessageBox.Show(this, "Новый установщик скачан и сейчас будет запущен.", "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Process.Start(downloaded);
+                        Close();
+                    }
+                });
+            });
+        }
+
         private void SetBusy(bool busy)
         {
             browseButton.Enabled = !busy;
@@ -308,6 +444,7 @@ namespace DstsRuInstaller
             installButton.Enabled = !busy;
             restoreButton.Enabled = !busy;
             backupsButton.Enabled = !busy;
+            updateButton.Enabled = !busy;
             pathTextBox.Enabled = !busy;
             Cursor = busy ? Cursors.WaitCursor : Cursors.Default;
         }
@@ -320,6 +457,241 @@ namespace DstsRuInstaller
         private void Log(string message)
         {
             logTextBox.AppendText("[" + DateTime.Now.ToString("HH:mm:ss") + "] " + message + Environment.NewLine);
+        }
+    }
+
+    internal static class InstallerMetadata
+    {
+        public const string RepositoryOwner = "AceAsket";
+        public const string RepositoryName = "Digimon-Story-Time-Stranger-RU";
+        public const string LatestReleaseApiUrl = "https://api.github.com/repos/AceAsket/Digimon-Story-Time-Stranger-RU/releases/latest";
+
+        public static string Version
+        {
+            get
+            {
+                using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("DstsRuInstaller.version.txt"))
+                {
+                    if (stream == null)
+                    {
+                        return "dev";
+                    }
+
+                    using (StreamReader reader = new StreamReader(stream, Encoding.UTF8))
+                    {
+                        string value = reader.ReadToEnd().Trim();
+                        return string.IsNullOrEmpty(value) ? "dev" : value;
+                    }
+                }
+            }
+        }
+    }
+
+    internal sealed class UpdateInfo
+    {
+        public readonly string Version;
+        public readonly string ReleaseUrl;
+        public readonly string DownloadUrl;
+        public readonly string AssetName;
+        public readonly bool IsPayloadPackage;
+
+        public UpdateInfo(string version, string releaseUrl, string downloadUrl, string assetName, bool isPayloadPackage)
+        {
+            Version = version;
+            ReleaseUrl = releaseUrl;
+            DownloadUrl = downloadUrl;
+            AssetName = assetName;
+            IsPayloadPackage = isPayloadPackage;
+        }
+    }
+
+    internal sealed class UpdateAsset
+    {
+        public readonly string DownloadUrl;
+        public readonly string AssetName;
+        public readonly bool IsPayloadPackage;
+
+        public UpdateAsset(string downloadUrl, string assetName, bool isPayloadPackage)
+        {
+            DownloadUrl = downloadUrl;
+            AssetName = assetName;
+            IsPayloadPackage = isPayloadPackage;
+        }
+    }
+
+    internal static class UpdateChecker
+    {
+        public static UpdateInfo Check(string currentVersion)
+        {
+            string json = ReadUrl(InstallerMetadata.LatestReleaseApiUrl);
+            string tag = JsonString(json, "tag_name");
+            string releaseUrl = JsonString(json, "html_url");
+            if (string.IsNullOrEmpty(tag) || !IsNewerVersion(tag, currentVersion))
+            {
+                return null;
+            }
+
+            UpdateAsset asset = FindUpdateAsset(json);
+            if (asset == null)
+            {
+                return new UpdateInfo(NormalizeVersionText(tag), releaseUrl, null, "страница релиза", false);
+            }
+            return new UpdateInfo(NormalizeVersionText(tag), releaseUrl, asset.DownloadUrl, asset.AssetName, asset.IsPayloadPackage);
+        }
+
+        public static string DownloadAsset(UpdateInfo info, Action<string> log)
+        {
+            string fileName = FileNameFromUrl(info.DownloadUrl);
+            if (string.IsNullOrEmpty(fileName))
+            {
+                fileName = info.IsPayloadPackage
+                    ? "DSTS_RU_Payload_" + info.Version + ".zip"
+                    : "DSTS_RU_Installer_" + info.Version + ".exe";
+            }
+
+            string target = Path.Combine(Path.GetTempPath(), fileName);
+            if (File.Exists(target))
+            {
+                File.Delete(target);
+            }
+
+            using (WebClient client = CreateWebClient())
+            {
+                Log(log, "Загрузка: " + info.DownloadUrl);
+                client.DownloadFile(info.DownloadUrl, target);
+            }
+
+            return target;
+        }
+
+        private static string ReadUrl(string url)
+        {
+            ServicePointManager.SecurityProtocol = ServicePointManager.SecurityProtocol | (SecurityProtocolType)3072;
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.UserAgent = "DSTS-RU-Installer/" + InstallerMetadata.Version;
+            request.Accept = "application/vnd.github+json";
+            request.Timeout = 10000;
+            request.ReadWriteTimeout = 10000;
+
+            try
+            {
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                using (Stream stream = response.GetResponseStream())
+                using (StreamReader reader = new StreamReader(stream, Encoding.UTF8))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+            catch (WebException ex)
+            {
+                HttpWebResponse response = ex.Response as HttpWebResponse;
+                if (response != null && response.StatusCode == HttpStatusCode.NotFound)
+                {
+                    return "{}";
+                }
+                throw;
+            }
+        }
+
+        private static WebClient CreateWebClient()
+        {
+            ServicePointManager.SecurityProtocol = ServicePointManager.SecurityProtocol | (SecurityProtocolType)3072;
+            WebClient client = new WebClient();
+            client.Headers[HttpRequestHeader.UserAgent] = "DSTS-RU-Installer/" + InstallerMetadata.Version;
+            client.Headers[HttpRequestHeader.Accept] = "application/octet-stream";
+            return client;
+        }
+
+        private static UpdateAsset FindUpdateAsset(string json)
+        {
+            MatchCollection matches = Regex.Matches(json, "\"browser_download_url\"\\s*:\\s*\"([^\"]+)\"", RegexOptions.IgnoreCase);
+            UpdateAsset installerFallback = null;
+            UpdateAsset exeFallback = null;
+            foreach (Match match in matches)
+            {
+                string url = JsonUnescape(match.Groups[1].Value);
+                string file = FileNameFromUrl(url);
+                if (file.EndsWith(".zip", StringComparison.OrdinalIgnoreCase)
+                    && file.IndexOf("Payload", StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    return new UpdateAsset(url, file, true);
+                }
+
+                if (file.EndsWith(".exe", StringComparison.OrdinalIgnoreCase))
+                {
+                    if (file.IndexOf("DSTS_RU_Installer", StringComparison.OrdinalIgnoreCase) >= 0
+                        || file.IndexOf("DSTS-RU-Installer", StringComparison.OrdinalIgnoreCase) >= 0)
+                    {
+                        installerFallback = new UpdateAsset(url, file, false);
+                    }
+                    exeFallback = exeFallback ?? new UpdateAsset(url, file, false);
+                }
+            }
+            return installerFallback ?? exeFallback;
+        }
+
+        private static bool IsNewerVersion(string remote, string current)
+        {
+            Version remoteVersion;
+            Version currentVersion;
+            if (!Version.TryParse(NormalizeVersionText(remote), out remoteVersion)
+                || !Version.TryParse(NormalizeVersionText(current), out currentVersion))
+            {
+                return false;
+            }
+            return remoteVersion.CompareTo(currentVersion) > 0;
+        }
+
+        private static string NormalizeVersionText(string value)
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                return "";
+            }
+
+            Match match = Regex.Match(value, "\\d+(?:\\.\\d+){0,3}");
+            return match.Success ? match.Value : value.Trim().TrimStart('v', 'V');
+        }
+
+        private static string JsonString(string json, string name)
+        {
+            Match match = Regex.Match(json, "\"" + Regex.Escape(name) + "\"\\s*:\\s*\"([^\"]*)\"", RegexOptions.IgnoreCase);
+            return match.Success ? JsonUnescape(match.Groups[1].Value) : null;
+        }
+
+        private static string JsonUnescape(string value)
+        {
+            if (value == null)
+            {
+                return null;
+            }
+
+            string result = value.Replace("\\/", "/").Replace("\\\"", "\"").Replace("\\\\", "\\");
+            return Regex.Replace(result, "\\\\u([0-9a-fA-F]{4})", delegate(Match match)
+            {
+                int code = Convert.ToInt32(match.Groups[1].Value, 16);
+                return ((char)code).ToString();
+            });
+        }
+
+        private static string FileNameFromUrl(string url)
+        {
+            try
+            {
+                return Path.GetFileName(new Uri(url).LocalPath);
+            }
+            catch
+            {
+                return "";
+            }
+        }
+
+        private static void Log(Action<string> log, string message)
+        {
+            if (log != null)
+            {
+                log(message);
+            }
         }
     }
 
@@ -344,6 +716,7 @@ namespace DstsRuInstaller
 
         private static readonly string[] PayloadFiles = RequiredPayloadFiles.Concat(OptionalPayloadFiles).ToArray();
         private const string PayloadResourcePrefix = "DstsRuPayload.";
+        private const string InstalledVersionFileName = "_dsts_ru_translation_version.txt";
 
         public readonly string BaseDir;
         public readonly string PayloadDir;
@@ -409,10 +782,66 @@ namespace DstsRuInstaller
             }
         }
 
+        public string GetInstalledVersion(string root)
+        {
+            try
+            {
+                string versionFile = Path.Combine(Path.GetFullPath(root), InstalledVersionFileName);
+                if (!File.Exists(versionFile))
+                {
+                    return null;
+                }
+
+                string version = File.ReadAllText(versionFile, Encoding.UTF8).Trim();
+                return string.IsNullOrEmpty(version) ? null : version;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
         public void Install(string root, Action<string> log)
         {
+            InstallWithPayload(root, log, null);
+        }
+
+        public void InstallFromPayloadPackage(string root, string packagePath, Action<string> log)
+        {
+            if (string.IsNullOrEmpty(packagePath) || !File.Exists(packagePath))
+            {
+                throw new InvalidOperationException("Пакет обновления не найден: " + packagePath);
+            }
+
+            string tempDir = Path.Combine(Path.GetTempPath(), "dsts_ru_payload_" + Guid.NewGuid().ToString("N"));
+            Directory.CreateDirectory(tempDir);
+            try
+            {
+                Log(log, "Распаковка пакета обновления...");
+                ZipFile.ExtractToDirectory(packagePath, tempDir);
+                string payloadDir = FindPayloadDir(tempDir);
+                Log(log, "Payload обновления: " + payloadDir);
+                InstallWithPayload(root, log, payloadDir);
+            }
+            finally
+            {
+                try
+                {
+                    if (Directory.Exists(tempDir))
+                    {
+                        Directory.Delete(tempDir, true);
+                    }
+                }
+                catch
+                {
+                }
+            }
+        }
+
+        private void InstallWithPayload(string root, Action<string> log, string payloadOverrideDir)
+        {
             string fullRoot = Path.GetFullPath(root);
-            EnsurePayloadExists();
+            EnsurePayloadExists(payloadOverrideDir);
             ValidateGameDir(fullRoot);
 
             string backupDir = Path.Combine(fullRoot, "_dsts_ru_backups", DateTime.Now.ToString("yyyyMMdd-HHmmss"));
@@ -422,7 +851,7 @@ namespace DstsRuInstaller
             foreach (string file in PayloadFiles)
             {
                 bool optional = OptionalPayloadFiles.Contains(file);
-                if (optional && !HasPayloadFile(file))
+                if (optional && !HasPayloadFile(file, payloadOverrideDir))
                 {
                     continue;
                 }
@@ -441,12 +870,15 @@ namespace DstsRuInstaller
                 File.Copy(target, backupFile, true);
 
                 Log(log, "Установка: " + relative);
-                CopyPayloadFile(file, target);
+                CopyPayloadFile(file, target, payloadOverrideDir);
 
                 entries.Add(new ManifestEntry(relative, backupFile));
             }
 
+            string installedVersion = ResolvePayloadVersion(payloadOverrideDir);
             File.WriteAllText(Path.Combine(backupDir, "manifest.json"), BuildManifest(fullRoot, entries), new UTF8Encoding(false));
+            WriteInstalledVersion(fullRoot, installedVersion);
+            Log(log, "Версия перевода: " + installedVersion);
             Log(log, "Готово. Бэкап сохранён: " + backupDir);
         }
 
@@ -483,11 +915,29 @@ namespace DstsRuInstaller
                 File.Copy(file.FullName, target, true);
             }
 
+            ClearInstalledVersion(fullRoot);
             Log(log, "Восстановлен бэкап: " + latest.FullName);
         }
 
-        private void EnsurePayloadExists()
+        private void EnsurePayloadExists(string payloadOverrideDir = null)
         {
+            if (!string.IsNullOrEmpty(payloadOverrideDir))
+            {
+                if (!Directory.Exists(payloadOverrideDir))
+                {
+                    throw new InvalidOperationException("Папка payload не найдена: " + payloadOverrideDir);
+                }
+                foreach (string file in RequiredPayloadFiles)
+                {
+                    string payloadFile = Path.Combine(payloadOverrideDir, file);
+                    if (!File.Exists(payloadFile))
+                    {
+                        throw new InvalidOperationException("В payload обновления не найден файл: " + payloadFile);
+                    }
+                }
+                return;
+            }
+
             if (HasEmbeddedPayload)
             {
                 foreach (string file in RequiredPayloadFiles)
@@ -515,8 +965,12 @@ namespace DstsRuInstaller
             }
         }
 
-        private bool HasPayloadFile(string file)
+        private bool HasPayloadFile(string file, string payloadOverrideDir = null)
         {
+            if (!string.IsNullOrEmpty(payloadOverrideDir))
+            {
+                return File.Exists(Path.Combine(payloadOverrideDir, file));
+            }
             if (HasEmbeddedPayload)
             {
                 return embeddedPayloadFiles.Contains(file);
@@ -524,8 +978,14 @@ namespace DstsRuInstaller
             return File.Exists(Path.Combine(PayloadDir, file));
         }
 
-        private void CopyPayloadFile(string file, string target)
+        private void CopyPayloadFile(string file, string target, string payloadOverrideDir = null)
         {
+            if (!string.IsNullOrEmpty(payloadOverrideDir))
+            {
+                File.Copy(Path.Combine(payloadOverrideDir, file), target, true);
+                return;
+            }
+
             if (HasEmbeddedPayload)
             {
                 string resourceName = PayloadResourcePrefix + file;
@@ -544,6 +1004,74 @@ namespace DstsRuInstaller
             }
 
             File.Copy(Path.Combine(PayloadDir, file), target, true);
+        }
+
+        private string ResolvePayloadVersion(string payloadOverrideDir)
+        {
+            if (!string.IsNullOrEmpty(payloadOverrideDir))
+            {
+                List<string> candidates = new List<string>();
+                candidates.Add(Path.Combine(payloadOverrideDir, "VERSION"));
+
+                DirectoryInfo parent = Directory.GetParent(payloadOverrideDir);
+                if (parent != null)
+                {
+                    candidates.Add(Path.Combine(parent.FullName, "VERSION"));
+                }
+
+                foreach (string candidate in candidates)
+                {
+                    if (File.Exists(candidate))
+                    {
+                        string version = File.ReadAllText(candidate, Encoding.UTF8).Trim();
+                        if (!string.IsNullOrEmpty(version))
+                        {
+                            return version;
+                        }
+                    }
+                }
+            }
+
+            return InstallerMetadata.Version;
+        }
+
+        private void WriteInstalledVersion(string root, string version)
+        {
+            string versionFile = Path.Combine(root, InstalledVersionFileName);
+            File.WriteAllText(versionFile, version + Environment.NewLine, new UTF8Encoding(false));
+        }
+
+        private void ClearInstalledVersion(string root)
+        {
+            string versionFile = Path.Combine(root, InstalledVersionFileName);
+            if (File.Exists(versionFile))
+            {
+                File.Delete(versionFile);
+            }
+        }
+
+        private string FindPayloadDir(string unpackedRoot)
+        {
+            string directPayload = Path.Combine(unpackedRoot, "payload");
+            if (Directory.Exists(directPayload) && RequiredPayloadFiles.All(file => File.Exists(Path.Combine(directPayload, file))))
+            {
+                return directPayload;
+            }
+
+            if (RequiredPayloadFiles.All(file => File.Exists(Path.Combine(unpackedRoot, file))))
+            {
+                return unpackedRoot;
+            }
+
+            foreach (DirectoryInfo dir in new DirectoryInfo(unpackedRoot).GetDirectories("*", SearchOption.AllDirectories))
+            {
+                if (RequiredPayloadFiles.All(file => File.Exists(Path.Combine(dir.FullName, file))))
+                {
+                    return dir.FullName;
+                }
+            }
+
+            throw new InvalidOperationException("В пакете обновления не найдена папка payload с файлами перевода.");
         }
 
         private string FindTargetFile(string root, string fileName, bool optional = false)
