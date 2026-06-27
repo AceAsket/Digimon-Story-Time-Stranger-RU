@@ -3,8 +3,8 @@ s040_160_010,char_MARSMON,"Я стал сильнее... но достаточн
 больше нет со мной...",
 s040_160_020,char_MARSMON,"А, это ты... * вздыхает*",
 s040_160_030,char_PLAYER_M,{next}You seem kind of down.,
-s040_160_031,char_PLAYER_M,{next}Got a case of burnout syndrome?,
-s040_160_032,char_PLAYER_M,{end}I'll... come back another time.,
+s040_160_031,char_PLAYER_M,{next}Выгорание?,
+s040_160_032,char_PLAYER_M,{end}Я... зайду в другой раз.,
 s040_160_040,char_MARSMON,"Конечно, боюсь. Я имею в виду, мне действительно пришлось
 расправиться со своим старшим братом...",
 s040_160_050,char_MARSMON,"Выгорание в чем? О, я понимаю. Может, и так. Теперь, когда я
@@ -15,7 +15,7 @@ s040_160_070,char_MARSMON,"Я много говорил о защите мира
 защитить?",
 s040_160_080,char_MARSMON,"..Что делают люди в такие моменты, как этот, когда им нужно
 выбраться из собственных голов?",
-s040_160_090,char_PLAYER_M,{next}Well... we might try watching a movie.,
+s040_160_090,char_PLAYER_M,{next}Ну... можно попробовать посмотреть фильм.,
 s040_160_091,char_PLAYER_M,{next}Let me look that up for you.,
 s040_160_092,char_PLAYER_M,{next}Escape from reality.,
 s040_160_100,char_MARSMON,Фильм? Что такое фильм?,

@@ -1,7 +1,7 @@
 string2 0,string 1,string 2,string 3
 s020_013_010,char_NEPTUNEMON,"Я приношу извинения за то, что навязываюсь вам подобным образом.
 На самом деле, я хочу попросить вас о небольшом одолжении...",
-s020_013_020,char_PLAYER_M,{next}It's no trouble. Tell me how I can help.,
+s020_013_020,char_PLAYER_M,"{next}Не проблема. Скажи, чем помочь.",
 s020_013_021,char_PLAYER_M,{next}What kind of favor?,
 s020_013_022,char_PLAYER_M,"{next}Oh. In that case, I'm leaving.",
 s020_013_030,char_NEPTUNEMON,"Я уверен, что вы сочтете это пустяковым делом.",
@@ -9,7 +9,7 @@ s020_013_040,char_NEPTUNEMON,На самом деле это всего лишь
 s020_013_050,char_NEPTUNEMON,"Ах, хотя это, возможно, и незначительное дело, боюсь, я должен
 настаивать, чтобы вы позаботились об этом перед отъездом.",
 s020_013_060,char_PLAYER_M,"{next}So, what is it?",
-s020_013_061,char_PLAYER_M,{next}I'm starting to get impatient...,
+s020_013_061,char_PLAYER_M,{next}Я уже начинаю терять терпение...,
 s020_013_062,char_PLAYER_M,{next}Forget it. I'm leaving.,
 s020_013_070,char_NEPTUNEMON,"Ну, видишь ли... Дело в том, что...",
 s020_013_080,char_NEPTUNEMON,"Верно. Конечно. Ну, проще говоря...",
@@ -29,15 +29,15 @@ s020_013_150,char_NEPTUNEMON,..Почему ты так думаешь?,
 s020_013_160,char_NEPTUNEMON,"Среди людей кольца дарят тем, кто кажется человеку самым
 дорогим, не так ли?",
 s020_013_170,char_PLAYER_M,{next}That's right.,
-s020_013_171,char_PLAYER_M,"{next}Yes. So, who do you find most dear?",
-s020_013_172,char_PLAYER_M,{next}And you're giving this one to me?,
+s020_013_171,char_PLAYER_M,{next}Да. Так кто тебе дороже всех?,
+s020_013_172,char_PLAYER_M,{next}И ты отдаёшь это мне?,
 s020_013_180,char_NEPTUNEMON,"Значит, это правда...",
 s020_013_190,char_NEPTUNEMON,"О, я уверен, вы знаете...",
 s020_013_200,char_NEPTUNEMON,"..Я действительно не могу понять, почему вы так подумали.",
 s020_013_210,char_NEPTUNEMON,"Я хотел подарить это Venusmon в благодарность за шарф. Люди
 сочтут это странным?",
-s020_013_220,char_PLAYER_M,{next}I wouldn't worry about that.,
-s020_013_221,char_PLAYER_M,{next}Humans wouldn't give out a ring so quickly.,
+s020_013_220,char_PLAYER_M,{next}Об этом можно не переживать.,
+s020_013_221,char_PLAYER_M,{next}Люди не дарят кольца так быстро.,
 s020_013_222,char_PLAYER_M,{next}Not me?,
 s020_013_230,char_NEPTUNEMON,"Нет? Что ж, если ты так говоришь, я доверюсь твоему суждению.",
 s020_013_240,char_NEPTUNEMON,"Понятно... И все же, поскольку я не человек, возможно, странно,
@@ -47,7 +47,7 @@ s020_013_250,char_NEPTUNEMON,"Позволь мне прояснить одну 
 s020_013_260,char_NEPTUNEMON,"Итак, не могли бы вы, пожалуйста, передать это кольцо Venusmon?
 Никаких других сообщений не требуется.",
 s020_013_270,char_PLAYER_M,{next}You got it.,
-s020_013_271,char_PLAYER_M,{next}You sure you don't wanna add a message?,
+s020_013_271,char_PLAYER_M,{next}Точно не хочешь добавить послание?,
 s020_013_272,char_PLAYER_M,{end}I refuse.,
 s020_013_280,char_NEPTUNEMON,"Тогда я буду рассчитывать на вас. Venusmon должен быть в
 Сентрал-Тауне.",
@@ -64,9 +64,9 @@ s020_013_340,char_NEPTUNEMON,"Если Венусмон примет кольц�
 s020_013_350,char_VENUSMON,Нептунемон дарит мне... кольцо? Но... Я не понимаю.,
 s020_013_360,char_VENUSMON,"Это драгоценный синий хрондигизойт, и подарок такой неожиданный.
 Он должен быть значительным.",
-s020_013_370,char_PLAYER_M,{next}It's an expression of gratitude.,
+s020_013_370,char_PLAYER_M,{next}Это знак благодарности.,
 s020_013_371,char_PLAYER_M,{next}It is. What do you think it means?,
-s020_013_372,char_PLAYER_M,{next}I was told no message would be necessary.,
+s020_013_372,char_PLAYER_M,"{next}Мне сказали, что послание не нужно.",
 s020_013_380,char_VENUSMON,"Действительно. Я не могу представить, чтобы Нептунемон
 предпринял необдуманные действия... Ах, у меня получилось!",
 s020_013_390,char_VENUSMON,"Да, я должен подумать об этом... Зачем делать мне такой подарок
@@ -80,9 +80,9 @@ s020_013_420,char_VENUSMON,"Они обмениваются такими под�
 s020_013_430,char_VENUSMON,"В таком случае... Вот. Пожалуйста, доставьте это лекарство
 Нептунемону.",
 s020_013_440,char_NEPTUNEMON,Это ... лекарство? Зачем Венусмону давать мне лекарство?,
-s020_013_450,char_PLAYER_M,{next}To show appreciation in return.,
-s020_013_451,char_PLAYER_M,{next}Venusmon saw the ring as a Christmas present.,
-s020_013_452,char_PLAYER_M,{next}Because you didn't explain anything.,
+s020_013_450,char_PLAYER_M,{next}В ответ на благодарность.,
+s020_013_451,char_PLAYER_M,"{next}Венусмон решила, что кольцо - рождественский подарок.",
+s020_013_452,char_PLAYER_M,{next}Потому что объяснений не было.,
 s020_013_460,char_NEPTUNEMON,"Чтобы выразить ... признательность? Что ж, по крайней мере, это
 доказательство того, что Венусмон высокого мнения обо мне.",
 s020_013_470,char_NEPTUNEMON,"Я помню, мы говорили об этом обычае, но... Я впечатлен, что

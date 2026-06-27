@@ -3,7 +3,7 @@ s010_159_010,char_ZUBAEAGERMON,"Привет! Давно не виделись. 
 значит быть ""самым двадцатым""?",
 s010_159_020,char_PLAYER_M,{next}That's a tough one.,
 s010_159_021,char_PLAYER_M,{next}Nobody knows.,
-s010_159_022,char_PLAYER_M,{next}To be at the end of your twenties.,
+s010_159_022,char_PLAYER_M,{next}Оказаться на пороге тридцати.,
 s010_159_030,char_ZUBAEAGERMON,"Я знаю, да? И до недавнего времени я думал, что во всем
 разобрался...",
 s010_159_040,char_ZUBAEAGERMON,"Верно... Может быть, все стараются быть самыми двадцатилетними,
@@ -15,7 +15,7 @@ s010_159_060,char_ZUBAEAGERMON,"Я просто больше не понимаю
 s010_159_070,char_ZUBAEAGERMON,"Нет ничего хуже, чем быть нормальной. Я имею в виду, ты только
 ПОСМОТРИ на свой наряд!",
 s010_159_080,char_PLAYER_M,{next}Is it really so bad to be normal?,
-s010_159_081,char_PLAYER_M,{next}What's wrong with my outfit?,
+s010_159_081,char_PLAYER_M,{next}Что не так с моей одеждой?,
 s010_159_082,char_PLAYER_M,{next}Should I jazz it up more?,
 s010_159_090,char_ZUBAEAGERMON,"Это ужасно! Когда ты нормальный, ты не выделяешься.
 Двадцатилетний должен выделяться!",
@@ -47,8 +47,8 @@ s010_159_220,char_ZUBAEAGERMON,"Я слишком старался. Чем бо�
 s010_159_230,char_ZUBAEAGERMON,"Нельзя переусердствовать со вспышкой в вашем образе! Вы должны
 сохранить ее простой, как акцент.",
 s010_159_240,char_PLAYER_M,{next}You learn fast.,
-s010_159_241,char_PLAYER_M,{next}There's no easy road to the Twentiest.,
-s010_159_242,char_PLAYER_M,{next}Like cooking without fancy ingredients?,
+s010_159_241,char_PLAYER_M,{next}К вершине двадцатилетия лёгких путей нет.,
+s010_159_242,char_PLAYER_M,{next}Как готовить без дорогих ингредиентов?,
 s010_159_250,char_ZUBAEAGERMON,"Понятно. Итак, я наконец-то достиг тех же высот, что и ты...",
 s010_159_260,char_ZUBAEAGERMON,"Это правда. Здесь много поворотов. Временами вы теряете это;
 временами это разветвляется.",
@@ -73,9 +73,9 @@ s010_159_355,char_ZUBAEAGERMON,"Я не могу позволить, чтобы 
 выделиться! Поднимись над обыденностью!",
 s010_159_360,char_GRADEMON,"У этого проклятого клинка необычайная острота. Я заново открыл
 путь Двадцатилетних.",
-s010_159_370,char_PLAYER_M,{next}You look really strong.,
+s010_159_370,char_PLAYER_M,{next}Выглядишь очень внушительно.,
 s010_159_371,char_PLAYER_M,{next}The Twentiest again?,
-s010_159_372,char_PLAYER_M,"{next}Cursed weapons can be powerful, too.",
+s010_159_372,char_PLAYER_M,{next}Проклятое оружие тоже бывает мощным.,
 s010_159_380,char_GRADEMON,"Хех... Ты тоже так думаешь? Я согласен. Мне не терпится испытать
 эту новообретенную силу!",
 s010_159_390,char_GRADEMON,"ДА... Все Дигимон начинаются и заканчиваются Двадцатью. Такова

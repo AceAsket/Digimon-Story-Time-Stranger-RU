@@ -13,7 +13,7 @@ s030_029_040,char_BACCHUSMON,"Поэтому я ищу кого-нибудь, к
 Сегунгэкомон на эту должность.",
 s030_029_050,char_PLAYER_M,{next}Which is where I come in?,
 s030_029_051,char_PLAYER_M,{next}Someone like who?,
-s030_029_052,char_PLAYER_M,{next}But where are you going to find a scout?,
+s030_029_052,char_PLAYER_M,{next}Но где ты найдёшь разведчика?,
 s030_029_060,char_BACCHUSMON,"Я вижу, ты быстро схватываешь на лету. Я люблю людей, которые
 быстро соображают.",
 s030_029_070,char_BACCHUSMON,"Очевидно, кто-то вроде тебя! А теперь иди туда и поговори с
@@ -24,7 +24,7 @@ s030_029_090,char_KABUTERIMON,"Но, господин Бахусмон, где �
 s030_029_100,char_BACCHUSMON,"Сегунгекомон оттачивает свой разум и дух перед выступлением. Он
 будет в святилище.",
 s030_029_110,char_PLAYER_M,{next}I'll go take a look.,
-s030_029_111,char_PLAYER_M,{next}Are you sure about that?,
+s030_029_111,char_PLAYER_M,{next}Ты в этом уверен?,
 s030_029_112,char_PLAYER_M,{end}I'm afraid I can't right now.,
 s030_029_120,char_BACCHUSMON,"Если вы обнаружите, что кто-то отвлекает СегунгЭкомона, уведите
 их подальше от нашей звезды!",
@@ -43,7 +43,7 @@ s030_029_180,char_BACCHUSMON,"Так ты все еще не можешь взя
 s030_029_190,char_DUFTMON,"Я тоже буду искать СегунгЭкомона. Его мастерство ведущего
 вокалиста меня интригует.",
 s030_029_200,char_PLAYER_M,{next}I appreciate the help!,
-s030_029_201,char_PLAYER_M,{next}You think it's really that good?,
+s030_029_201,char_PLAYER_M,"{next}Думаешь, это правда настолько хорошо?",
 s030_029_202,char_PLAYER_M,{next}No need.,
 s030_029_210,char_DUFTMON,"Моя единственная забота - о Сегунгекомоне. Мне наплевать, что
 случится с вами, людьми.",
@@ -64,9 +64,9 @@ s030_029_280,char_TONOSAMAGEKOMON,"Глупый простолюдин, глур
 святилище, глурп!",
 s030_029_290,char_DUFTMON,"Люди, давайте вместе победим Гранкувагамона и насладимся
 сладкими интонациями СегунгЕкомона!",
-s030_029_300,char_PLAYER_M,{next}Right. Let's join forces!,
-s030_029_301,char_PLAYER_M,{next}You wanna join forces?!,
-s030_029_302,char_PLAYER_M,{end}Let's think of another plan.,
+s030_029_300,char_PLAYER_M,{next}Верно. Объединим усилия!,
+s030_029_301,char_PLAYER_M,{next}Хочешь объединить усилия?!,
+s030_029_302,char_PLAYER_M,{end}Давай подумаем над другим планом.,
 s030_029_310,char_DUFTMON,"Приятно встретить людей, которые так быстро все понимают. Долой
 Гранкувагамона!",
 s030_029_320,char_DUFTMON,"Если эта мысль тебе неприятна, тогда делай, что хочешь, но что
@@ -89,7 +89,7 @@ s030_029_400,char_TONOSAMAGEKOMON,"Глурп, глурп, глурп, глур�
 s030_029_410,char_BACCHUSMON,"Ах! Идеальная гармония для исполнения ведущего вокала! Это
 лучшее! Непревзойденная группа!",
 s030_029_420,char_PLAYER_M,{next}It sounds beautiful!,
-s030_029_421,char_PLAYER_M,{next}Does that mean my job is done?,
+s030_029_421,char_PLAYER_M,"{next}Значит, дело сделано?",
 s030_029_422,char_PLAYER_M,{next}Let's sing along!,
 s030_029_430,char_BACCHUSMON,Воистину. ЭТО пение! ЭТО музыка!,
 s030_029_440,char_BACCHUSMON,ДА. Молодец! Ты сыграл важную роль в объединении этой группы!,

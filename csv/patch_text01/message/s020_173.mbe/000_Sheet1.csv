@@ -5,8 +5,8 @@ s020_173_020,char_MARINEANGEMON,"Но здесь нет ни одного фан
 заискивал передо мной.",
 s020_173_030,char_MARINEANGEMON,"* вздох * Хотел бы я просто остановиться и отдохнуть от всего
 этого!",
-s020_173_040,char_PLAYER_M,{next}It's important to put in the legwork.,
-s020_173_041,char_PLAYER_M,{next}You could stop and take a break.,
+s020_173_040,char_PLAYER_M,{next}Главное - не лениться и всё проверить.,
+s020_173_041,char_PLAYER_M,{next}Можно остановиться и передохнуть.,
 s020_173_042,char_PLAYER_M,{next}I could fawn over you.,
 s020_173_050,char_MARINEANGEMON,"Я уже проделал МНОГО работы! Знаете, у меня действительно есть
 поклонники!",
@@ -46,9 +46,9 @@ s020_173_205,char_MARINEANGEMON,"Оно такое горькое и тааак�
 пойло ?! Мерзость!",
 s020_173_208,char_MARINEANGEMON,"Вкус морской воды зависит от местоположения. А теперь принеси
 мне немного воды, достойной моей палитры!",
-s020_173_210,char_PLAYER_M,"{next}Yeah, it's from the surface... So what?",
+s020_173_210,char_PLAYER_M,"{next}Да, с поверхности... И что?",
 s020_173_211,char_PLAYER_M,{next}Isn't it all the same?,
-s020_173_212,char_PLAYER_M,{next}Aren't you being a little emo?,
+s020_173_212,char_PLAYER_M,{next}Не слишком ли ты сгущаешь краски?,
 s020_173_220,char_MARINEANGEMON,"Не смей мне этого говорить! Я хотел, чтобы ты достал мне морской
 воды из океанских глубин!",
 s020_173_230,char_MARINEANGEMON,"Нет! Здесь есть все виды морской воды! Я хочу прохладную и
@@ -61,7 +61,7 @@ s020_173_260,char_MARINEANGEMON,Все... Все ужасно! Я больше �
 s020_173_270,char_MARINEANGEMON,...,
 s020_173_280,char_PLAYER_M,{next}Feel better now?,
 s020_173_281,char_PLAYER_M,{next}What's gotten into you?,
-s020_173_282,char_PLAYER_M,{next}You actually seem all right now.,
+s020_173_282,char_PLAYER_M,{next}Сейчас ты вроде в порядке.,
 s020_173_290,char_MARINEANGEMON,"Как я могу чувствовать себя лучше? Мое горло и сердце разорваны
 в клочья!",
 s020_173_300,char_MARINEANGEMON,"Не смей мне этого говорить! Ты знаешь лучше, чем кто-либо
@@ -73,8 +73,8 @@ s020_173_320,char_MARINEANGEMON,"Ничего не изменилось со м�
 s020_173_330,char_MARINEANGEMON,"Запах прибоя все еще витает в моей памяти... Ах, как я тоскую по
 морю...",
 s020_173_340,char_PLAYER_M,{next}Then let's go back.,
-s020_173_341,char_PLAYER_M,{next}Want to take another drink?,
-s020_173_342,char_PLAYER_M,{next}Then we'd better get to the forest!,
+s020_173_341,char_PLAYER_M,{next}Хочешь ещё глотнуть?,
+s020_173_342,char_PLAYER_M,{next}Тогда скорее в лес!,
 s020_173_350,char_MARINEANGEMON,"Ни единого шанса! Это все равно что сдаться только потому, что
 все пошло не так, как я хотел!",
 s020_173_360,char_MARINEANGEMON,"Ни в коем случае! Мне вообще не следовало пить эту тепловатую
@@ -88,7 +88,7 @@ s020_173_390,char_MARINEANGEMON,"Я был так уверен, что ветр�
 s020_173_400,char_MARINEANGEMON,"Мой блеск теряется для слепых, но мой блеск остается. Ах, у
 меня возвышенный характер!",
 s020_173_410,char_PLAYER_M,{next}Let's go back to the sea.,
-s020_173_411,char_PLAYER_M,{next}Your fans are all waiting for you.,
+s020_173_411,char_PLAYER_M,{next}Твои поклонники тебя ждут.,
 s020_173_412,char_PLAYER_M,{next}*sigh*,
 s020_173_420,char_MARINEANGEMON,"Возможно, это было бы лучше всего. Вместо того, чтобы страдать
 из-за своей гордости, я должен отправиться туда, где я мечтаю быть.",

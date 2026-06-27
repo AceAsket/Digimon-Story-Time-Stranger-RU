@@ -56,7 +56,7 @@ omeb_001_0_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Я знаю себя л�
 omeb_001_1_replay,char_PLAYER_M,Так кто же ты?,
 omeb_001_1_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"На этот вопрос я не отвечу.
 Не испытывай меня, человек.",
-omeb_001_2_replay,char_PLAYER_M,Как ты почернел?,
+omeb_001_2_replay,char_PLAYER_M,Откуда этот чёрный окрас?,
 omeb_001_2_reaction_char_OMEGAMON_ALTER-B,char_OMEGAMON_ALTER-B,"Я оказался в таком состоянии ещё до того, как понял это.
 Буду признателен за любое объяснение.",
 omeb_001_3_replay,char_PLAYER_M,"Даже ту часть, что выходит из-под контроля?",
