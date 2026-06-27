@@ -9,17 +9,13 @@ $ErrorActionPreference = "Stop"
 $RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 
 if (-not $SkipPayloadPack) {
-    $packArgs = @(
-        "-NoProfile",
-        "-ExecutionPolicy", "Bypass",
-        "-File", (Join-Path $PSScriptRoot "mvgl_text_workflow.ps1"),
-        "-Mode", "pack"
-    )
-    if ($Package.Count -gt 0) {
-        $packArgs += "-Package"
-        $packArgs += $Package
+    $workflowArgs = @{
+        Mode = "pack"
     }
-    powershell @packArgs
+    if ($Package.Count -gt 0) {
+        $workflowArgs.Package = $Package
+    }
+    & (Join-Path $PSScriptRoot "mvgl_text_workflow.ps1") @workflowArgs
     if ($LASTEXITCODE -ne 0) {
         throw "Payload pack failed."
     }
