@@ -1187,7 +1187,7 @@ g_shop007_0030_0010,char_SHOP_CLERK,Благодарим вас за вашу п
 g_shop007_0040_0010,char_SHOP_CLERK,Я куплю это у тебя.,
 g_shop008_0010_0010,char_GREENGROCER,Заходите и осмотритесь вокруг...,
 g_shop008_0020_0010,char_GREENGROCER,Приходи еще...,
-g_shop008_0030_0010,char_GREENGROCER,Позволь мне сделать это для тебя...,
+g_shop008_0030_0010,char_GREENGROCER,Сейчас всё соберу для тебя...,
 g_shop008_0040_0010,char_GREENGROCER,"Так, так...",
 g_shop009_0010_0010,char_SHOP_CLERK,...Всем привет.,
 g_shop009_0020_0010,char_SHOP_CLERK,..Увидимся.,
