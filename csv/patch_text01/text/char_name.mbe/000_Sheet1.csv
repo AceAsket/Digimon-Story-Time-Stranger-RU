@@ -1,4 +1,4 @@
-string2 0,string 1,empty 2
+﻿string2 0,string 1,empty 2
 char_EX-TYRANOMON,Экс-Тираномон,
 char_LUNAMON,Лунамон,
 char_LEKISMON,Лексимон,
@@ -819,7 +819,7 @@ char_ABDUCTED_BOY,Мальчик,
 char_ABDUCTED_GIRL,Девушка,
 char_ADAMAS_Cloud,Облако АДАМАСА,
 char_SECURITY,Секьюрити,
-char_INROOMBROADCAST,Система PA,
+char_INROOMBROADCAST,РЎРёСЃС‚РµРјР° РѕРїРѕРІРµС‰РµРЅРёСЏ,
 char_DIGIBATO_MAGAZINE_REPORTER,Журналист ДигиБаттл,
 char_KURUMI,Куруми,
 char_MIURA_T,Инструктор Миура,
