@@ -1,9 +1,9 @@
 string2 0,string 1,string 2,string 3
-dlc003_0000_0010,char_MIREI,...Проснуться.,
+dlc003_0000_0010,char_MIREI,...Просыпайся.,
 dlc003_0000_0020,char_MIREI,"Когда будешь готов, начни расследование заново.
 Я верю в тебя.",
-dlc003_0000_0030,char_MIREI,,
-dlc003_0000_0040,char_MIREI,,
+dlc003_0000_0030,char_MIREI,...,
+dlc003_0000_0040,char_MIREI,...,
 dlc003_0010_0010,char_OMEGAMON-X,Пойдёшь дальше?,
 dlc003_0010_0020,char_NONAME,{next}Да.,
 dlc003_0010_0021,char_NONAME,{end}Я ещё не готов.,
