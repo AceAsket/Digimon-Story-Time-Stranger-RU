@@ -1,0 +1,18 @@
+decision,term,note
+keep,Omega inForce,официальное название способности; сверено с Wikimon
+keep/source,Omni inForce,официальная англ. форма в Digimon Web; в текущем RU оставляем связку Omega inForce по принятому Omegamon/Omega naming
+keep,Alter-S / Alter-B / Zwart Defeat,официальные суффиксы форм Омегамона
+keep,Olympus XII,официальное имя группы
+keep,ZERO-ARMS,официальное имя оружия/системы
+keep,BAN-TYO,официальное кодовое имя из профиля Darkdramon
+keep,Photon Spreads / Gurei Tou / Garuru Hou,официальные названия элементов/приёмов Omegamon: Merciful Mode
+keep,GAKU-RAN / Golden Bats / Black Hickeys,официальные термины профиля BanchoMamemon
+keep,Accel Arm / Blitz Arm / Critical Arm,официальные режимы рук Justimon
+keep,Nightmare Assemble / Kanshaku Dust / Freeze Bomber,официальные названия приёмов
+keep,Taiko no Tatsujin / Tales of Arise / THE IDOLM@STER / DIGIMON BEATBREAK,брендовые названия коллаборационных футболок
+keep,Digimon Story: Cyber Sleuth,официальное название игры
+keep,Digimon Savers / Digimon Data Squad / Digimon Xros Wars / Digimon Fusion Battles,официальные названия серий
+fixed,AltaVision,локализовано как Альта Вижн
+fixed,Electric Town,локализовано как Электрик-Таун
+fixed,Game Center,переведено как игровой центр
+fixed,Central Town Bros,переведено как братья из Центрального города

@@ -10,7 +10,7 @@ analyse_object_destructible,char_DIGIVICE,Вы можете использова
 analyse_object_indestructible,char_DIGIVICE,Вы можете использовать Дигиатака.,
 analyse_object_search,char_DIGIVICE,"Поблизости есть объект, который вы можете оцифровать.",
 analyse_search_popup,char_DIGIVICE,Поблизости есть необходимые материалы.,
-analyse_search_important ,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
+analyse_search_important,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
 analyse_search_treasure,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
 analyse_search_hazamabox,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
 analyse_search_kirakira,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,

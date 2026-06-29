@@ -84,7 +84,7 @@ string2 0,string 1
 703,　
 704,Система
 705,　
-710,Настройки
+710,Настройка
 712,ДигиБанк
 720,Диски навыков
 721,Карты
@@ -741,7 +741,7 @@ ui_digifarm_digimon_0055,"Для {fc9{d0}} доступен новый личн�
 Заменить текущий личный навык?"
 ui_digifarm_digimon_0060,Тренировочные предметы
 ui_digifarm_digimon_0070,Требуемое время
-ui_digifarm_digimon_0080,{n0} : {n1}
+ui_digifarm_digimon_0080,{n0}: {n1}
 ui_digifarm_digimon_0090,Нет доступных тренировочных предметов.
 ui_digifarm_digimon_0100,{fc10Т}ренировка завершена!
 ui_digifarm_digimon_0110,

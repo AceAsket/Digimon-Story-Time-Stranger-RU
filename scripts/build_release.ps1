@@ -8,6 +8,31 @@ $ErrorActionPreference = "Stop"
 
 $RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 
+$MojibakePattern = [regex]'\u0420[\u0080-\u00ff\u0400-\u040f\u201a\u201e\u201c\u201d\u2020\u2021\u20ac]'
+$MojibakeCount = 0
+$MojibakeSamples = @()
+$CsvRoot = Join-Path $RepoRoot "csv"
+foreach ($File in Get-ChildItem -LiteralPath $CsvRoot -Recurse -Filter "000_Sheet1.csv") {
+    $LineNumber = 0
+    foreach ($Line in Get-Content -LiteralPath $File.FullName -Encoding UTF8) {
+        $LineNumber++
+        if (-not $MojibakePattern.IsMatch($Line)) {
+            continue
+        }
+        $MojibakeCount++
+        if ($MojibakeSamples.Count -lt 20) {
+            $Relative = $File.FullName.Substring($RepoRoot.Length + 1)
+            $MojibakeSamples += ("{0}:{1}: {2}" -f $Relative, $LineNumber, $Line)
+        }
+    }
+}
+
+if ($MojibakeCount -gt 0) {
+    Write-Host "Mojibake preflight failed. Found $MojibakeCount suspicious line(s):"
+    $MojibakeSamples | ForEach-Object { Write-Host $_ }
+    throw "Fix mojibake fragments before building a release."
+}
+
 if (-not $SkipPayloadPack) {
     $workflowArgs = @{
         Mode = "pack"
