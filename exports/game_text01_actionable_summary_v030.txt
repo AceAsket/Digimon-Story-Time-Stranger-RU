@@ -1,0 +1,23 @@
+Actionable summary for game_text01_compare_v030
+
+Raw candidates: 1160
+Priority candidates: 52
+
+Priority counts:
+- same_as_original: 52
+
+Missing source rows/files:
+- 0
+
+Exact matches outside debug UI:
+- text/ed_lyrics.mbe/000_Sheet1.csv: 51
+- text/quest_title_dlc03.mbe/000_Sheet1.csv: 1
+
+Latin-only visible text by file:
+- none
+
+Graphictext latin labels to review:
+- none
+
+Extra payload packages not present in this install:
+- addcont_17_text01: D:\Digimon Story Time Stranger\installer\payload\addcont_17_text01.dx11.mvgl
