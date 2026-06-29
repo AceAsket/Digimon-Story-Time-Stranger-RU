@@ -20,7 +20,7 @@ JOGRESS_ROWS = ["23943", "23944", "23945", "28050", "29268", "70010"]
 
 VOICE_LANGUAGE_ROWS = {
     "19049": "Японский",
-    "19050": "Английский",
+    "19050": "\u00A0",
 }
 
 YESNO_PATCH_ROWS = {
@@ -48,7 +48,7 @@ GRAPHICTEXT_ROWS = {
     "ui_textext_digivice_0040": "Предметы",
     "ui_textext_digivice_0050": "Агент",
     "ui_textext_digivice_0060": "Система",
-    "ui_textext_digivice_0070": "ДигиЛиния",
+    "ui_textext_digivice_0070": "Дигилайн",
     "ui_textext_digivice_0080": "Миссии",
     "ui_textext_battle_0010": "Защита",
     "ui_textext_battle_0020": "Навыки",

@@ -83,7 +83,7 @@ TARGETED_ROWS: dict[tuple[str, str], str] = {
     ("text/common_message.mbe/000_Sheet1.csv", "190016"): "Вернуть в инвентарь",
     ("text/common_message.mbe/000_Sheet1.csv", "ui_sort_0005"): "Инвентарь",
     ("text/common_message.mbe/000_Sheet1.csv", "ui_title_language_01"): "Японский",
-    ("text/common_message.mbe/000_Sheet1.csv", "ui_title_language_02"): "Английский",
+    ("text/common_message.mbe/000_Sheet1.csv", "ui_title_language_02"): "Русский",
     ("text/common_message.mbe/000_Sheet1.csv", "ui_title_language_03"): "Французский",
     ("text/common_message.mbe/000_Sheet1.csv", "ui_title_language_04"): "Испанский",
     ("text/common_message.mbe/000_Sheet1.csv", "ui_title_language_05"): "Немецкий",

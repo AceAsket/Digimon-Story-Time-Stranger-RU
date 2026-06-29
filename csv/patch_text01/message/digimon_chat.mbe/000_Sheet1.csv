@@ -165,8 +165,8 @@ mel_001_4_reaction_char_MERCURYMON,char_MERCURYMON,"Конечно, если я 
 пересекутся на нашем пути в этом путешествии.",
 nep_001_0_char_NEPTUNEMON,char_NEPTUNEMON,Мы должны защитить прекрасные моря.,
 nep_001_1_replay,char_PLAYER_M,Я чувствую то же самое.,
-nep_001_1_reaction_char_NEPTUNEMON,char_NEPTUNEMON,"Чувства, безусловно, важны, но нам нужны действия. Не то чтобы я
-должен был вам это говорить.",
+nep_001_1_reaction_char_NEPTUNEMON,char_NEPTUNEMON,"Чувства, конечно, важны, но нужны и действия.
+Впрочем, тебе это и так понятно.",
 nep_001_2_replay,char_PLAYER_M,Как нам это сделать?,
 nep_001_2_reaction_char_NEPTUNEMON,char_NEPTUNEMON,"Нам многое предстоит сделать. Не могли бы мы вместе поразмыслить
 над этим вопросом?",
@@ -421,8 +421,8 @@ fuga_001_3_replay,char_PLAYER_M,Я такой и есть.,
 fuga_001_3_reaction_char_FUGAMON,char_FUGAMON,"Не смотри так, но я думаю, что нечестно сравнивать кого-либо с
 моим измученным телом.",
 fuga_001_4_replay,char_PLAYER_M,Вовсе нет.,
-fuga_001_4_reaction_char_FUGAMON,char_FUGAMON,"Тогда как ты собираешься защищаться? Но, мэх. Не то чтобы я не
-бросился на помощь.",
+fuga_001_4_reaction_char_FUGAMON,char_FUGAMON,"И как ты собираешься защищаться? Хотя ладно.
+Если что, я всё равно помогу.",
 hyoga_001_0_char_HYOUGAMON,char_HYOUGAMON,"Эй, приятель, ты дрожишь от холода?",
 hyoga_001_1_replay,char_PLAYER_M,Холодно. Согрей меня.,
 hyoga_001_1_reaction_char_HYOUGAMON,char_HYOUGAMON,"Как насчет того, чтобы мы с тобой немного перекусили? У моего
@@ -683,8 +683,8 @@ presi_001_3_replay,char_PLAYER_M,Помогаю тебе в реализации
 presi_001_3_reaction_char_PLESIOMON,char_PLESIOMON,"Мои амбиции... Это большая сила. Возможно, с тобой я смог бы
 достичь этой цели.",
 presi_001_4_replay,char_PLAYER_M,Быть с тобой во веки веков.,
-presi_001_4_reaction_char_PLESIOMON,char_PLESIOMON,"Хм. Если таково ваше желание, очень хорошо. Не то чтобы я
-осуждал такую цель.",
+presi_001_4_reaction_char_PLESIOMON,char_PLESIOMON,"Хм. Если таково ваше желание, пусть будет так.
+Я такую цель не осуждаю.",
 mari_001_0_char_MARINEANGEMON,char_MARINEANGEMON,"Интересно, как все могут жить в мире?..",
 mari_001_1_replay,char_PLAYER_M,Набравшись смелости поговорить друг с другом.,
 mari_001_1_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Смелости... Я уверен, что мне ее не хватает. Но я чувствую, что
@@ -2179,8 +2179,8 @@ moja_001_4_reaction_char_MOJYAMON,char_MOJYAMON,"Ты заставляешь м�
 волнуйся. Я не буду убегать и прятаться.",
 viki_001_0_char_VIKEMON,char_VIKEMON,Я просто не выношу эту жару.,
 viki_001_1_replay,char_PLAYER_M,"Я не думаю, что это горячо.",
-viki_001_1_reaction_char_VIKEMON,char_VIKEMON,"Тьфу! Слишком привыкайте к этой жаре, и вы замерзнете, когда
-похолодает!",
+viki_001_1_reaction_char_VIKEMON,char_VIKEMON,"Тьфу! Привыкнешь к этой жаре, а потом замёрзнешь,
+как только похолодает!",
 viki_001_2_replay,char_PLAYER_M,"Я бы сказал, что здесь холодно, если уж на то пошло.",
 viki_001_2_reaction_char_VIKEMON,char_VIKEMON,"Ты так думаешь? Тогда тебе не стоит приезжать в вечную мерзлоту.
 Может, это и к лучшему.",
@@ -2287,8 +2287,8 @@ asta_001_2_replay,char_PLAYER_M,Пулемет.,
 asta_001_2_reaction_char_ASTAMON,char_ASTAMON,"Пули Оро Сальмона обладают собственной волей. Я должен брать
 деньги с людей за то, что они смотрят, как я стреляю.",
 asta_001_3_replay,char_PLAYER_M,Нож.,
-asta_001_3_reaction_char_ASTAMON,char_ASTAMON,"Думаю, нож бы сгодился, чтобы поиграть с тобой. Не то чтобы я
-когда-нибудь пырнул тебя ножом.",
+asta_001_3_reaction_char_ASTAMON,char_ASTAMON,"Думаю, нож сгодился бы для игры с тобой.
+Но я бы тебя, конечно, не пырнул.",
 asta_001_4_replay,char_PLAYER_M,"Не используйте ни то, ни другое.",
 asta_001_4_reaction_char_ASTAMON,char_ASTAMON,"Вокруг не видно никаких мишеней, так что, может быть, я сегодня
 обойдусь без оружия и просто получу удовольствие.",
@@ -2596,8 +2596,8 @@ migao_001_2_replay,char_PLAYER_M,Я бы с удовольствием посм�
 migao_001_2_reaction_char_MIRAGEGAOGAMON,char_MIRAGEGAOGAMON,"Тем не менее, вы можете увидеть остаточное изображение лишь
 мельком, учитывая скорость, с которой я двигаюсь.",
 migao_001_3_replay,char_PLAYER_M,"Если это происходит так быстро, как я вообще могу это увидеть?",
-migao_001_3_reaction_char_MIRAGEGAOGAMON,char_MIRAGEGAOGAMON,"Не то чтобы вы этого совсем не видели. Даже на мое остаточное
-изображение стоит посмотреть.",
+migao_001_3_reaction_char_MIRAGEGAOGAMON,char_MIRAGEGAOGAMON,"Его всё же можно разглядеть. Даже моё остаточное
+изображение достойно внимания.",
 migao_001_4_replay,char_PLAYER_M,С какой скоростью мы здесь говорим?,
 migao_001_4_reaction_char_MIRAGEGAOGAMON,char_MIRAGEGAOGAMON,"Это трудно объяснить, но даже если ты меня не видишь, я уверен,
 ты почувствуешь мое присутствие.",
