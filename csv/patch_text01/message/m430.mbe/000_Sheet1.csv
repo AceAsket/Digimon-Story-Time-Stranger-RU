@@ -1,4 +1,4 @@
-﻿string2 0,string 1,string 2,string 3
+string2 0,string 1,string 2,string 3
 m430_010_010,char_JUPITERMON,Тах!,m430_010_010
 m430_010_020,char_JUPITERMON,Ха!,m430_010_020
 m430_020_010,char_JUPITERMON,"Этот город, где Инори родилась и выросла...",m430_020_010
@@ -8,7 +8,7 @@ m430_020_042,char_APOLLOMON,Ааааааааааа!,m430_020_042
 m430_020_044,char_DIANAMON,Яяяяяяяяяя!,m430_020_044
 m430_020_046,char_APOLLOMON,Гррррррррррр!,m430_020_046
 m430_020_048,char_DIANAMON,Гррррррррррр!,m430_020_048
-m430_020_050,char_GRACENOVAMON,РЇ Р“СЂРµР№СЃРќРѕРІР°РјРѕРЅ!,m430_020_050
+m430_020_050,char_GRACENOVAMON,Я ГрейсНовамон!,m430_020_050
 m430_020_060,char_GRACENOVAMON,Ааааааа!,m430_020_060
 m430_020_070,char_GRACENOVAMON,Ррррррр!,m430_020_070
 m430_021_010,char_EVERYONE,Вместе!,m430_021_010

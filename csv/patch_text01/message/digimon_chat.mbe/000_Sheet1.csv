@@ -1,4 +1,4 @@
-﻿string2 0,string 1,string 2,string 3
+string2 0,string 1,string 2,string 3
 aigio_001_0_char_AEGIOMON,char_AEGIOMON,"Убедись, что ты присматриваешь за мной, хорошо? В противном
 случае, мне, возможно, придется играть на свирели прямо здесь...",
 aigio_001_1_replay,char_PLAYER_M,Хочешь попробовать управлять мной с их помощью?,
@@ -1610,7 +1610,7 @@ gaji_001_1_reaction_char_GAZIMON,char_GAZIMON,"Сложный разговор. 
 gaji_001_2_replay,char_PLAYER_M,Ты уже приручен.,
 gaji_001_2_reaction_char_GAZIMON,char_GAZIMON,"Н-Нет, это не так! Объясни мне, как именно я приручен?",
 gaji_001_3_replay,char_PLAYER_M,Мне бы и в голову не пришло пытаться это сделать.,
-gaji_001_3_reaction_char_GAZIMON,char_GAZIMON,"РҐР°! Р’РёР¶Сѓ, С‚С‹ РїРѕРЅСЏР». РўРµР±СЏ Р¶РґРµС‚ РјРЅРѕР¶РµСЃС‚РІРѕ РґСЂСѓР¶РµСЃРєРёС… СЂРѕР·С‹РіСЂС‹С€РµР№!",
+gaji_001_3_reaction_char_GAZIMON,char_GAZIMON,"Ха! Вижу, ты понял. Тебя ждет множество дружеских розыгрышей!",
 gaji_001_4_replay,char_PLAYER_M,"Я хочу, чтобы мы сработались.",
 gaji_001_4_reaction_char_GAZIMON,char_GAZIMON,"Ч-что за...? Я этого не ожидал. Хотя, возможно, ручной человек
 не так уж и плох...",
@@ -1739,7 +1739,7 @@ teri_001_3_reaction_char_TERRIERMON,char_TERRIERMON,"Легкость и сер�
 teri_001_4_replay,char_PLAYER_M,Не слишком ли ты легкомысленна?,
 teri_001_4_reaction_char_TERRIERMON,char_TERRIERMON,"Слишком много в самый раз для вашего покорного слуги. Вы
 действительно знаете, как сделать комплимент мужчине!",
-lop_001_0_char_LOPMON,char_LOPMON,"РЇ... РўС‹ Р¶Рµ Р·РЅР°РµС€СЊ, СЏ РЅРµ РїР»Р°РєСЃР°!",
+lop_001_0_char_LOPMON,char_LOPMON,"Я... Ты же знаешь, я не плакса!",
 lop_001_1_replay,char_PLAYER_M,Ты - словарное определение одного из них.,
 lop_001_1_reaction_char_LOPMON,char_LOPMON,"Я говорил тебе, что это не так, но ты... Ты...! * шмыгаю носом *
 Я не буду плакать, черт возьми! Ты слышишь меня?!",
@@ -1810,7 +1810,7 @@ angew_001_0_char_ANGEWOMON,char_ANGEWOMON,"Человек должен испр�
 злу.",
 angew_001_1_replay,char_PLAYER_M,Я помогу тебе сделать это.,
 angew_001_1_reaction_char_ANGEWOMON,char_ANGEWOMON,"Я хочу, чтобы вы были ядром наших усилий. Таким образом, именно
-я должен помогать вам.",
+я должна помогать вам.",
 angew_001_2_replay,char_PLAYER_M,Я чувствую то же самое.,
 angew_001_2_reaction_char_ANGEWOMON,char_ANGEWOMON,"Если каждый из нас будет действовать обдуманно и творить добро,
 мир будет двигаться в правильном направлении.",
@@ -2566,9 +2566,9 @@ belsta_001_0_char_BEELSTARMON,char_BEELSTARMON,"Некто осмеливает�
 когда-либо буду сотрудничать с этим дураком!",
 belsta_001_1_replay,char_PLAYER_M,"Тогда просто будь лучше, чем Вельземон.",
 belsta_001_1_reaction_char_BEELSTARMON,char_BEELSTARMON,"Верно. Мне неприятно это признавать, но я наименее известный из
-нас. Я должен бороться, чтобы это изменить!",
+нас. Я должна бороться, чтобы это изменить!",
 belsta_001_2_replay,char_PLAYER_M,Используйте это прозвище в своих интересах.,
-belsta_001_2_reaction_char_BEELSTARMON,char_BEELSTARMON,"Я никогда об этом не думал... Использование имени может иметь
+belsta_001_2_reaction_char_BEELSTARMON,char_BEELSTARMON,"Я никогда об этом не думала... Использование имени может иметь
 свои преимущества. Ты довольно умен.",
 belsta_001_3_replay,char_PLAYER_M,Ваш партнер стоит прямо здесь.,
 belsta_001_3_reaction_char_BEELSTARMON,char_BEELSTARMON,Ты знаешь... Ты прав! ДА... Это ты - мой партнер!,
@@ -2654,8 +2654,8 @@ mgra_001_4_reaction_char_METALGREYMON,char_METALGREYMON,"Почему я дол�
 aero_001_0_char_AEROVEEDRAMON,char_AEROVEEDRAMON,"Эй, ты не умеешь летать, верно? Что ж, ты можешь запрыгнуть мне
 на спину. Куда ты хочешь полететь?",
 aero_001_1_replay,char_PLAYER_M,Я хочу ехать очень быстро!,
-aero_001_1_reaction_char_AEROVEEDRAMON,char_AEROVEEDRAMON,"РҐР°! РўС‹ СЃРјРµР»СЊС‡Р°Рє! РҐРѕС‚СЏ РјРѕРµ СЃРєРѕР»СЊР¶РµРЅРёРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕС‡РµРЅСЊ
-СЂРµР·РєРёРј! РҐРѕС‡РµС€СЊ РїРѕРїСЂРѕР±РѕРІР°С‚СЊ?",
+aero_001_1_reaction_char_AEROVEEDRAMON,char_AEROVEEDRAMON,"Ха! Ты смельчак! Хотя мое скольжение может быть очень
+резким! Хочешь попробовать?",
 aero_001_2_replay,char_PLAYER_M,"Я хочу пойти посмотреть, что там, в облаках.",
 aero_001_2_reaction_char_AEROVEEDRAMON,char_AEROVEEDRAMON,"Эй, я тоже никогда не видел облаков вблизи. Посмотреть, как они
 сделаны, может быть забавно!",
@@ -3297,7 +3297,7 @@ lilis_001_1_replay,char_PLAYER_M,Я бы хотел попробовать.,
 lilis_001_1_reaction_char_LILITHMON,char_LILITHMON,"Ты понимаешь, что значит влюбиться вместе со мной, не так ли?
 Убедись, что действительно готов к этому.",
 lilis_001_2_replay,char_PLAYER_M,"О, я уже там.",
-lilis_001_2_reaction_char_LILITHMON,char_LILITHMON,"..Я не уверен, что это значит, но, возможно, вам следует еще
+lilis_001_2_reaction_char_LILITHMON,char_LILITHMON,"..Я не уверена, что это значит, но, возможно, вам следует еще
 немного пересмотреть себя?",
 lilis_001_3_replay,char_PLAYER_M,Давайте вместе стремиться к большему.,
 lilis_001_3_reaction_char_LILITHMON,char_LILITHMON,"Если вы хотите достичь больших высот нечестивыми средствами, то
