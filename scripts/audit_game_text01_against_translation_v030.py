@@ -164,8 +164,8 @@ def collect_rows(package: str, csv_package: Path) -> dict[tuple[str, str], TextR
             col = text_column(relative_file, row)
             if col is None:
                 continue
-            row_id = row[0] if row else ""
-            speaker = row[1] if relative_file.startswith("message/") and len(row) > 1 else ""
+            row_id = row[0].strip() if row else ""
+            speaker = row[1].strip() if relative_file.startswith("message/") and len(row) > 1 else ""
             rows_by_key[(relative_file, row_id)] = TextRow(
                 package=package,
                 relative_file=relative_file,
@@ -224,6 +224,8 @@ def add_audit_row(
     row = translated or source
     current_text = translated.text if translated else ""
     source_text = source.text if source else ""
+    current_text = re.sub(r"[ \t]+(?=\r?\n)", "", current_text)
+    source_text = re.sub(r"[ \t]+(?=\r?\n)", "", source_text)
     if row and "ed_lyrics" in row.relative_file:
         current_text = "[lyrics redacted in audit report]"
         source_text = "[lyrics redacted in audit report]"

@@ -19,6 +19,7 @@ FEMALE_CHARS = {
     "char_TOUDO",
     "char_TOUDO_B",
     "char_TOUDO_8YEARSLATER",
+    "char_SIMMONS",
     "char_MONIKA_SIMMONS",
     "char_MIREI",
     "char_MIREI_CHILD",
@@ -38,7 +39,6 @@ FEMALE_CHARS = {
 MALE_CHARS = {
     "char_TAKEMIYA",
     "char_TAKEMIYA_8YEARSLATER",
-    "char_SIMMONS",
     "char_KUREMI",
     "char_SUMERAGI",
     "char_SUMERAGI_8YEARSLATER",

@@ -15,8 +15,8 @@ battle.mbe/000_Sheet1.csv,1036010020,char_OPERATOR_M,operator,1036010020_M,10360
 попадает молния. Должен быть какой-то способ остановить это..."
 battle.mbe/000_Sheet1.csv,1036010021,char_OPERATOR_M,operator,1036010021_M,1036010021_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,Молнии прекратились! Теперь у тебя есть шанс!
 battle.mbe/000_Sheet1.csv,1036010022,char_OPERATOR_M,operator,1036010022_M,1036010022_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Молния, приближается!"
-battle.mbe/000_Sheet1.csv,1036010023,char_OPERATOR_M,operator,1036010023_M,1036010023_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Похоже, ты их очень разозлил. Берегись этой молнии!"
-battle.mbe/000_Sheet1.csv,1081020001,char_OPERATOR_M,operator,1081020001_M,1081020001_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Что это было ?! Титамон нанес удар прежде, чем мы поняли, что
+battle.mbe/000_Sheet1.csv,1036010023,char_OPERATOR_M,operator,1036010023_M,1036010023_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Похоже, они очень разозлились. Берегись этой молнии!"
+battle.mbe/000_Sheet1.csv,1081020001,char_OPERATOR_M,operator,1081020001_M,1081020001_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Что это было?! Титамон нанес удар прежде, чем мы поняли, что
 происходит!"
 battle.mbe/000_Sheet1.csv,1081020002,char_OPERATOR_M,operator,1081020002_M,1081020002_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Сейчас я не могу объяснить, что именно произошло! Я
 проанализирую ситуацию. Ты пока держись!"
@@ -25,7 +25,7 @@ battle.mbe/000_Sheet1.csv,1081020003,char_OPERATOR_M,operator,1081020003_M,10810
 battle.mbe/000_Sheet1.csv,1081020004,char_OPERATOR_M,operator,1081020004_M,1081020004_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Все признаки указывают на то, что Титамон останавливает время.
 Обычно это было бы невозможно... но с сокровищем в его руках..."
 battle.mbe/000_Sheet1.csv,1081020005,char_OPERATOR_M,operator,1081020005_M,1081020005_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Титамон, вероятно, заряжает свою силу, пока время остановлено.
-Как мы можем противостоять этому ...?"
+Как мы можем противостоять этому...?"
 battle.mbe/000_Sheet1.csv,1081020009,char_OPERATOR_M,operator,1081020009_M,1081020009_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Вы получили от доктора Симмонса устройство, которое генерирует
 специальную электромагнитную сеть, верно?"
 battle.mbe/000_Sheet1.csv,1081020010,char_OPERATOR_M,operator,1081020010_M,1081020010_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Очевидно, электромагнитная сеть создает помехи фазовым
@@ -54,7 +54,7 @@ d14.mbe/000_Sheet1.csv,f_d1401_0040_0030,char_OPERATOR_M,operator,f_d1401_0040_0
 d14.mbe/000_Sheet1.csv,f_d1401_0040_0040,char_OPERATOR_M,operator,f_d1401_0040_0040_M,f_d1401_0040_0040_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Мы называем эту систему создания новых дигимонов «{fc9Конвертация}».
 Попробуй использовать её для усиления своего отряда."
 d14.mbe/000_Sheet1.csv,f_d1401_0060_0010,char_OPERATOR_M,operator,f_d1401_0060_0010_M,f_d1401_0060_0010_F,char_OPERATOR_F,char_OPERATOR_M,,,,Что здесь произошло?..
-d14.mbe/000_Sheet1.csv,f_d1401_0060_0015,char_OPERATOR_M,operator,f_d1401_0060_0015_M,f_d1401_0060_0015_F,char_OPERATOR_F,char_OPERATOR_M,была,,,"Может быть, это и есть то, для чего была построена Стена ...?"
+d14.mbe/000_Sheet1.csv,f_d1401_0060_0015,char_OPERATOR_M,operator,f_d1401_0060_0015_M,f_d1401_0060_0015_F,char_OPERATOR_F,char_OPERATOR_M,была,,,"Может быть, это и есть то, для чего была построена Стена...?"
 d14.mbe/000_Sheet1.csv,f_d1401_0060_0020,char_OPERATOR_M,operator,f_d1401_0060_0020_M,f_d1401_0060_0020_F,char_OPERATOR_F,char_OPERATOR_M,сказала,,,"Может быть, что-то происходит на крыше этого здания, как сказала
 та девушка..."
 d14.mbe/000_Sheet1.csv,f_d1401_0060_0030,char_OPERATOR_M,operator,f_d1401_0060_0030_M,f_d1401_0060_0030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Мы не можем игнорировать это. Отбросьте в сторону здравый смысл.
@@ -101,14 +101,14 @@ field_text.mbe/000_Sheet1.csv,g_tutorial_1001_0020,char_OPERATOR_M,operator,g_tu
 field_text.mbe/000_Sheet1.csv,g_tutorial_1001_0030,char_OPERATOR_M,operator,g_tutorial_1001_0030_M,g_tutorial_1001_0030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Это связано с наличием как органических, так и информационных
 свойств. Их различия станут очевидны в бою и вне его."
 field_text.mbe/000_Sheet1.csv,g_tutorial_1001_0040,char_OPERATOR_M,operator,g_tutorial_1001_0040_M,g_tutorial_1001_0040_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Вы можете узнать больше о личности каждого Дигимона в разделе
-«Дигимоны» > «Настройки» вашего Дигивайса."
+«Дигимоны» > «Настройка» вашего Дигивайса."
 field_text.mbe/000_Sheet1.csv,g_tutorial_1001_0050,char_OPERATOR_M,operator,g_tutorial_1001_0050_M,g_tutorial_1001_0050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Понимание индивидуальности каждого Дигимона будет жизненно важно
 для успеха вашей миссии."
 m010.mbe/000_Sheet1.csv,m010_020_010,char_OPERATOR_M,operator,m010_020_010_M,m010_020_010_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Ой-ой. Похоже, мы в последнее время немного перестарались. Мир
 начинает узнавать о нашем существовании."
 m010.mbe/000_Sheet1.csv,m010_020_020,char_OPERATOR_M,operator,m010_020_020_M,m010_020_020_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Иронично, правда. Секретная организация, которая охотится на
 городские легенды, сама становится городской легендой..."
-m010.mbe/000_Sheet1.csv,m010_020_030,char_OPERATOR_M,operator,m010_020_030_M,m010_020_030_F,char_OPERATOR_F,char_OPERATOR_M,видел,,yes,"Если то аниме, которое ты только что видел, станет слишком популярным,
+m010.mbe/000_Sheet1.csv,m010_020_030,char_OPERATOR_M,operator,m010_020_030_M,m010_020_030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Если это аниме вдруг станет слишком популярным,
 можешь забыть о том, чтобы ходить повсюду в такой одежде."
 m010.mbe/000_Sheet1.csv,m010_020_040,char_OPERATOR_M,operator,m010_020_040_M,m010_020_040_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Я подаю запрос на бюджет для новой формы, но в этой миссии
 тебе нужно не привлекать внимания."
@@ -292,8 +292,7 @@ m050.mbe/000_Sheet1.csv,m050_060_020,char_OPERATOR_M,operator,m050_060_020_M,m05
 вернуться к исходной временной шкале будет непросто."
 m050.mbe/000_Sheet1.csv,m050_060_040,char_OPERATOR_M,operator,m050_060_040_M,m050_060_040_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Даже если ты вернешься... ситуация здесь почти
 безнадежная. Все началось с конфликта между Дигимонами…"
-m050.mbe/000_Sheet1.csv,m050_060_050,char_OPERATOR_M,operator,m050_060_050_M,m050_060_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"... но теперь в бой вступили люди и их механизированное оружие
-, превратив его в апокалиптический трехсторонний конфликт."
+m050.mbe/000_Sheet1.csv,m050_060_050,char_OPERATOR_M,operator,m050_060_050_M,m050_060_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"... но теперь в бой вступили люди и их механизированное оружие, превратив его в апокалиптический трехсторонний конфликт."
 m050.mbe/000_Sheet1.csv,m050_060_070,char_OPERATOR_M,operator,m050_060_070_M,m050_060_070_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Битва за Синдзюку вызвала всевозможные аномалии,
 опустошая один за другим крупные города по всему миру."
 m050.mbe/000_Sheet1.csv,m050_060_080,char_OPERATOR_M,operator,m050_060_080_M,m050_060_080_F,char_OPERATOR_F,char_OPERATOR_M,была,,,"Катастрофа, вызвавшая это глобальное бедствие, была
@@ -587,14 +586,14 @@ m350.mbe/000_Sheet1.csv,m350_140_130,char_OPERATOR_M,operator,m350_140_130_M,m35
 всю твою помощь."
 m350.mbe/000_Sheet1.csv,m350_140_140,char_OPERATOR_M,operator,m350_140_140_M,m350_140_140_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Наверное, это всё. Дальше всё зависит от тебя, Агент {player}."
 m420.mbe/000_Sheet1.csv,m420_030_010,char_OPERATOR_M,operator,m420_030_010_M,m420_030_010_F,char_OPERATOR_F,char_OPERATOR_M,,,,Давно не виделись.
-m420.mbe/000_Sheet1.csv,m420_030_020,char_OPERATOR_M,operator,m420_030_020_M,m420_030_020_F,char_OPERATOR_F,char_OPERATOR_M,уверен,,yes,"Уверен, ты уже понял..."
+m420.mbe/000_Sheet1.csv,m420_030_020,char_OPERATOR_M,operator,m420_030_020_M,m420_030_020_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,Ты наверняка уже понял...
 m420.mbe/000_Sheet1.csv,m420_030_030,char_OPERATOR_M,operator,m420_030_030_M,m420_030_030_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"...понял, что ты не обычный человек."
 m420.mbe/000_Sheet1.csv,m420_030_040,char_OPERATOR_M,operator,m420_030_040_M,m420_030_040_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Тот, кто тебя создал, должно быть, весьма доволен."
 m420.mbe/000_Sheet1.csv,m420_030_050,char_OPERATOR_M,operator,m420_030_050_M,m420_030_050_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,Ты хорошо справлялся со своей ролью до сих пор.
 m420.mbe/000_Sheet1.csv,m420_030_060,char_OPERATOR_M,operator,m420_030_060_M,m420_030_060_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"В честь твоих достижений позволь мне рассказать тебе, кто ты."
 m420.mbe/000_Sheet1.csv,m420_030_070,char_OPERATOR_M,operator,m420_030_070_M,m420_030_070_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"С тех пор как Эгиомон исчез, тебя принимали за Великого
 Стража..."
-m420.mbe/000_Sheet1.csv,m420_030_080,char_OPERATOR_M,operator,m420_030_080_M,m420_030_080_F,char_OPERATOR_F,char_OPERATOR_M,уверен,,yes,"Уверен, ты понимаешь почему."
+m420.mbe/000_Sheet1.csv,m420_030_080,char_OPERATOR_M,operator,m420_030_080_M,m420_030_080_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,Ты наверняка понимаешь почему.
 m420.mbe/000_Sheet1.csv,m420_040_010,char_OPERATOR_M,operator,m420_040_010_M,m420_040_010_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Твой создатель... это высшее существо, с которым Хрономон
 вступил в битву."
 m420.mbe/000_Sheet1.csv,m420_040_020,char_OPERATOR_M,operator,m420_040_020_M,m420_040_020_F,char_OPERATOR_F,char_OPERATOR_M,,,,Имя этого высшего существа — Гомеостазис.
