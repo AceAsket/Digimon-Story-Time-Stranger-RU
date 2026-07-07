@@ -14,7 +14,7 @@ REVIEW_PATH = ROOT / "exports" / "english_mixed_review_v063_decisions.csv"
 SPACE_BEFORE_PUNCT_RE = re.compile(r"(?<=\S)\s+(?=(?:\.\.\.|[,.;:!?]))")
 
 TEXT_REPLACEMENTS: dict[str, str] = {
-    "Синдзюку AltaVision": "Синдзюку Альта Вижн",
+    "рядом с Синдзюку AltaVision": "у экрана AltaVision в Синдзюку",
     "Станция Акихабара: южный выход Electric Town": "Станция Акихабара: южный выход Электрик-Таун",
     "Гоуинг! Ухожу! Душа моя!! (От Digimon Savers - Digimon Savers)": "Gouing! Going! My soul!! (из Digimon Savers / Digimon Data Squad)",
     "Верующий (От Digimon Savers - Digimon Savers)": "Believer (из Digimon Savers / Digimon Data Squad)",
@@ -41,7 +41,7 @@ REVIEW_DECISIONS: list[tuple[str, str, str]] = [
     ("Taiko no Tatsujin / Tales of Arise / THE IDOLM@STER / DIGIMON BEATBREAK", "keep", "брендовые названия коллаборационных футболок"),
     ("Digimon Story: Cyber Sleuth", "keep", "официальное название игры"),
     ("Digimon Savers / Digimon Data Squad / Digimon Xros Wars / Digimon Fusion Battles", "keep", "официальные названия серий"),
-    ("AltaVision", "fixed", "локализовано как Альта Вижн"),
+    ("AltaVision", "fixed", "оформлено как название экрана AltaVision"),
     ("Electric Town", "fixed", "локализовано как Электрик-Таун"),
     ("Game Center", "fixed", "переведено как игровой центр"),
     ("Central Town Bros", "fixed", "переведено как братья из Центрального города"),
