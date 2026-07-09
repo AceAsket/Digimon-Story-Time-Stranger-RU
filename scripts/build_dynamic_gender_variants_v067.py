@@ -75,8 +75,18 @@ def read_csv_rows(path: Path) -> list[list[str]]:
 
 
 def write_csv_rows(path: Path, rows: list[list[str]]) -> None:
-    with path.open("w", encoding="utf-8-sig", newline="") as handle:
-        csv.writer(handle, lineterminator="\n").writerows(rows)
+    raw = path.read_bytes() if path.exists() else b""
+    has_bom = raw.startswith(b"\xef\xbb\xbf")
+    newline = "\r\n" if b"\r\n" in raw else "\n"
+    physical_lines = raw.removeprefix(b"\xef\xbb\xbf").splitlines()
+    quote_all = len(physical_lines) > 1 and physical_lines[1].lstrip().startswith(b'"')
+    encoding = "utf-8-sig" if has_bom else "utf-8"
+    with path.open("w", encoding=encoding, newline="") as handle:
+        if quote_all:
+            csv.writer(handle, lineterminator=newline).writerow(rows[0])
+            csv.writer(handle, lineterminator=newline, quoting=csv.QUOTE_ALL).writerows(rows[1:])
+        else:
+            csv.writer(handle, lineterminator=newline).writerows(rows)
 
 
 def read_dataset(path: Path) -> list[ReviewedVariant]:
@@ -96,7 +106,7 @@ def read_dataset(path: Path) -> list[ReviewedVariant]:
         if key in seen:
             raise ValueError(f"{path}: duplicate reviewed ID: {key}")
         seen.add(key)
-        if row.role not in {"player", "operator"}:
+        if row.role not in {"player", "player_address", "operator"}:
             raise ValueError(f"{path}: unsupported role {row.role!r} for {row.base_id}")
         if not row.male_protagonist_text or not row.female_protagonist_text:
             raise ValueError(f"{path}: empty gender text for {row.base_id}")
@@ -136,7 +146,7 @@ def contiguous_same_speaker_group(rows: list[list[str]], target_index: int) -> t
 
 
 def variant_texts(reviewed: ReviewedVariant) -> tuple[str, str]:
-    if reviewed.role == "player":
+    if reviewed.role in {"player", "player_address"}:
         return reviewed.male_protagonist_text, reviewed.female_protagonist_text
     # __H/__F describe the Operator's gender.  The Operator is opposite to the
     # selected protagonist, including lines whose grammar addresses the player.
@@ -299,6 +309,10 @@ def build(dataset_path: Path, map_path: Path, manifest_path: Path, check_only: b
             base_row = source_rows[target_index]
             if reviewed.role == "player" and base_row[1] != "char_PLAYER_M":
                 raise ValueError(f"{csv_path}: unexpected player speaker for {reviewed.base_id}: {base_row[1]}")
+            if reviewed.role == "player_address" and base_row[1] in {"char_PLAYER_M", "char_OPERATOR_M"}:
+                raise ValueError(
+                    f"{csv_path}: unexpected NPC speaker for {reviewed.base_id}: {base_row[1]}"
+                )
             if reviewed.role == "operator" and base_row[1] != "char_OPERATOR_M":
                 raise ValueError(f"{csv_path}: unexpected Operator speaker for {reviewed.base_id}: {base_row[1]}")
 
@@ -328,7 +342,7 @@ def build(dataset_path: Path, map_path: Path, manifest_path: Path, check_only: b
                 raise ValueError(f"global Lua map collision for runtime key {runtime_key}")
             runtime_keys.add(runtime_key)
 
-            if reviewed.role == "player":
+            if reviewed.role in {"player", "player_address"}:
                 hero_id = f"{runtime_key}__H"
                 heroine_id = f"{runtime_key}__F"
             else:
@@ -358,7 +372,7 @@ def build(dataset_path: Path, map_path: Path, manifest_path: Path, check_only: b
     # different MBE files.  Check the complete production package, excluding
     # generated variants, before emitting the map.
     all_base_occurrences: dict[str, list[str]] = defaultdict(list)
-    for csv_path in (ROOT / "csv" / "patch_text01" / "message").rglob("000_Sheet1.csv"):
+    for csv_path in (ROOT / "csv").glob("*_text01/message/**/*.csv"):
         for row in read_csv_rows(csv_path):
             if not is_generated_id(row[0]):
                 all_base_occurrences[row[0]].append(str(csv_path.relative_to(ROOT)))

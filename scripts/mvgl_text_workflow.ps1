@@ -101,6 +101,29 @@ function Pack-Package([string]$Name) {
         Move-Item -LiteralPath $packedSection -Destination $baseSection
     }
 
+    if ($Name -eq "patch_text01") {
+        $compiledLua = Join-Path $RepoRoot "verify\lua_gender_hook\compiled"
+        $baseLua = Join-Path $baseDir "lua"
+        $luaNames = @(
+            "function_common.lua",
+            "function_field.lua",
+            "battle_10810200.lua",
+            "battle_11200010.lua",
+            "m360.lua",
+            "m440.lua",
+            "t04prcs.lua",
+            "gender_message_map.lua"
+        )
+        foreach ($luaName in $luaNames) {
+            $sourceLua = Join-Path $compiledLua $luaName
+            if (-not (Test-Path -LiteralPath $sourceLua)) {
+                throw "Compiled Lua hook chunk not found: $sourceLua"
+            }
+            Copy-Item -LiteralPath $sourceLua -Destination (Join-Path $baseLua $luaName) -Force
+        }
+        Write-Host "[pack] ${Name}: injected $($luaNames.Count) compiled Lua hook chunks"
+    }
+
     # Never let a failed/hung pack truncate the currently installable payload.
     # Build beside the working tree and promote only a completed non-empty file.
     $packedArchive = Join-Path $packageWork "$Name.dx11.mvgl.new"
