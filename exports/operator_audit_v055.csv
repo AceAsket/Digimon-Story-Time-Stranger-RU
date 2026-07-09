@@ -48,7 +48,4 @@ latin,char_OPERATOR_M,message/m180.mbe/000_Sheet1.csv,m180_110_060,player,"Та�
 latin,char_OPERATOR_M,message/m230.mbe/000_Sheet1.csv,m230_010_180,player,"...ваш приказ предотвратить Ад Синдзюку остаётся в силе. Я всё / ещё рассчитываю на вас, агент {player}!","...ваш приказ предотвратить Ад Синдзюку остаётся в силе. Я всё
 ещё рассчитываю на вас, агент {player}!"
 latin,char_OPERATOR_M,message/m350.mbe/000_Sheet1.csv,m350_140_140,player,"Наверное, это всё. Дальше всё зависит от тебя, Агент {player}.","Наверное, это всё. Дальше всё зависит от тебя, Агент {player}."
-male_self_form,char_OPERATOR_M,message/rumor_npc.mbe/000_Sheet1.csv,r_t0102_0010_0110,должен,Я должен догнать остальных членов банды,Я должен догнать остальных членов банды...
-male_self_form,char_OPERATOR_M,message/rumor_npc.mbe/000_Sheet1.csv,r_t0102_0010_0140,должен,В какую из них я должен сыграть сегодня,В какую из них я должен сыграть сегодня...?
-male_self_form,char_OPERATOR_M,message/rumor_npc.mbe/000_Sheet1.csv,r_t0403_0010_0030,сказал,"Я сказал ""нет""","Я сказал ""нет""!"
 latin,char_OPERATOR_M,message/t04.mbe/000_Sheet1.csv,f_t0404_0240_0020,fc,Эта функция называется {fc9Навыки Агента}.,Эта функция называется {fc9Навыки Агента}.

@@ -1,4 +1,5 @@
 .tools/
+backups/
 logs/
 unpacked/
 fixed_unpacked/
@@ -9,6 +10,7 @@ csv_before_ru_quality_pass/
 csv/app_text01/
 fixed/
 exports/.digimon_wiki_name_cache.json
+luac.out
 
 # Local editor / OS noise
 .DS_Store

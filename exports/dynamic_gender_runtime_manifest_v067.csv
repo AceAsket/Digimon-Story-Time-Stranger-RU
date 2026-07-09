@@ -1,0 +1,24 @@
+﻿package,file,reviewed_id,runtime_key,role,mode,group_ids,hero_id,heroine_id
+patch_text01,message/battle.mbe/000_Sheet1.csv,1081020022,1081020022,player,direct,1081020022,1081020022__H,1081020022__F
+patch_text01,message/m050.mbe/000_Sheet1.csv,m050_010_072,m050_010_070,player,selection_group,m050_010_070 m050_010_071 m050_010_072,m050_010_070__H,m050_010_070__F
+patch_text01,message/m060.mbe/000_Sheet1.csv,m060_150_100,m060_150_100,player,selection_group,m060_150_100 m060_150_101 m060_150_102,m060_150_100__H,m060_150_100__F
+patch_text01,message/m080.mbe/000_Sheet1.csv,m080_040_030,m080_040_030,player,selection_group,m080_040_030 m080_040_031 m080_040_032,m080_040_030__H,m080_040_030__F
+patch_text01,message/m130.mbe/000_Sheet1.csv,m130_010_042,m130_010_040,player,selection_group,m130_010_040 m130_010_041 m130_010_042,m130_010_040__H,m130_010_040__F
+patch_text01,message/m210.mbe/000_Sheet1.csv,m210_030_132,m210_030_130,player,selection_group,m210_030_130 m210_030_131 m210_030_132,m210_030_130__H,m210_030_130__F
+patch_text01,message/m410.mbe/000_Sheet1.csv,m410_023_031,m410_023_030,player,selection_group,m410_023_030 m410_023_031 m410_023_032,m410_023_030__H,m410_023_030__F
+patch_text01,message/s010_180.mbe/000_Sheet1.csv,s010_180_440,s010_180_440,player,selection_group,s010_180_440 s010_180_441 s010_180_442,s010_180_440__H,s010_180_440__F
+patch_text01,message/s030_183.mbe/000_Sheet1.csv,s030_183_212,s030_183_210,player,selection_group,s030_183_210 s030_183_211 s030_183_212,s030_183_210__H,s030_183_210__F
+patch_text01,message/s110_111.mbe/000_Sheet1.csv,s110_111_090,s110_111_090,player,selection_group,s110_111_090 s110_111_091 s110_111_092,s110_111_090__H,s110_111_090__F
+patch_text01,message/s110_111.mbe/000_Sheet1.csv,s110_111_420,s110_111_420,player,selection_group,s110_111_420 s110_111_421 s110_111_422,s110_111_420__H,s110_111_420__F
+patch_text01,message/s200_146.mbe/000_Sheet1.csv,s200_146_520,s200_146_520,player,selection_group,s200_146_520 s200_146_521 s200_146_522,s200_146_520__H,s200_146_520__F
+patch_text01,message/s200_149.mbe/000_Sheet1.csv,s200_149_662,s200_149_660,player,selection_group,s200_149_660 s200_149_661 s200_149_662,s200_149_660__H,s200_149_660__F
+patch_text01,message/d04.mbe/000_Sheet1.csv,f_d0407_0040_0030,f_d0407_0040_0030,operator,direct,f_d0407_0040_0030,f_d0407_0040_0030__F,f_d0407_0040_0030__H
+patch_text01,message/m090.mbe/000_Sheet1.csv,m090_010_050,m090_010_050,operator,direct,m090_010_050,m090_010_050__F,m090_010_050__H
+patch_text01,message/m300.mbe/000_Sheet1.csv,m300_010_060,m300_010_060,operator,direct,m300_010_060,m300_010_060__F,m300_010_060__H
+patch_text01,message/m340.mbe/000_Sheet1.csv,m340_020_160,m340_020_160,operator,direct,m340_020_160,m340_020_160__F,m340_020_160__H
+patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_020,m420_030_020,operator,direct,m420_030_020,m420_030_020__F,m420_030_020__H
+patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_030,m420_030_030,operator,direct,m420_030_030,m420_030_030__F,m420_030_030__H
+patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_050,m420_030_050,operator,direct,m420_030_050,m420_030_050__F,m420_030_050__H
+patch_text01,message/t03.mbe/000_Sheet1.csv,f_t0304_0020_0060,f_t0304_0020_0060,operator,direct,f_t0304_0020_0060,f_t0304_0020_0060__F,f_t0304_0020_0060__H
+patch_text01,message/t03.mbe/000_Sheet1.csv,f_t0304_0040_0010,f_t0304_0040_0010,operator,direct,f_t0304_0040_0010,f_t0304_0040_0010__F,f_t0304_0040_0010__H
+patch_text01,message/s910_169.mbe/000_Sheet1.csv,s910_169_640,s910_169_640,operator,direct,s910_169_640,s910_169_640__F,s910_169_640__H

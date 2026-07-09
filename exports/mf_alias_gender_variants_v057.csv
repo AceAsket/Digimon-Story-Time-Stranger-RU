@@ -243,8 +243,8 @@ m050.mbe/000_Sheet1.csv,m050_010_150,char_OPERATOR_M,operator,m050_010_150_M,m05
 Даже не знаю, с чего начать."
 m050.mbe/000_Sheet1.csv,m050_010_160,char_OPERATOR_M,operator,m050_010_160_M,m050_010_160_F,char_OPERATOR_F,char_OPERATOR_M,,,,"...Итак, с твоей позиции здание правительства Токио
 выглядит совершенно невредимым?"
-m050.mbe/000_Sheet1.csv,m050_010_170,char_OPERATOR_M,operator,m050_010_170_M,m050_010_170_F,char_OPERATOR_F,char_OPERATOR_M,,yes,,"А картинка Синдзюку, которую вижу я...
-это настоящий ад. Словами не передать."
+m050.mbe/000_Sheet1.csv,m050_010_170,char_OPERATOR_M,operator,m050_010_170_M,m050_010_170_F,char_OPERATOR_F,char_OPERATOR_M,,,,"А Синдзюку перед моими глазами...
+настоящий ад. Словами не передать."
 m050.mbe/000_Sheet1.csv,m050_010_180,char_OPERATOR_M,operator,m050_010_180_M,m050_010_180_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Также удалось подтвердить: по координатам,
 отмеченным как твоё «текущее» местоположение, тебя нет."
 m050.mbe/000_Sheet1.csv,m050_010_190,char_OPERATOR_M,operator,m050_010_190_M,m050_010_190_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Сопоставив все данные, аналитический отдел
@@ -276,8 +276,8 @@ m050.mbe/000_Sheet1.csv,m050_030_310,char_OPERATOR_M,operator,m050_030_310_M,m05
 m050.mbe/000_Sheet1.csv,m050_030_320,char_OPERATOR_M,operator,m050_030_320_M,m050_030_320_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Хорошо, я рассчитываю на тебя!"
 m050.mbe/000_Sheet1.csv,m050_040_010,char_OPERATOR_M,operator,m050_040_010_M,m050_040_010_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Кстати, убедись, что ты скрываешь свою личность
 от этого частного детектива."
-m050.mbe/000_Sheet1.csv,m050_040_020,char_OPERATOR_M,operator,m050_040_020_M,m050_040_020_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"И возможность того, что вы путешествовали во времени.
-ну, конечно."
+m050.mbe/000_Sheet1.csv,m050_040_020,char_OPERATOR_M,operator,m050_040_020_M,m050_040_020_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"И, конечно, нельзя исключать,
+что вы тоже переместились во времени."
 m050.mbe/000_Sheet1.csv,m050_040_030,char_OPERATOR_M,operator,m050_040_030_M,m050_040_030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Мы не хотим влиять на прошлое.
 Невозможно предугадать, что произойдет."
 m050.mbe/000_Sheet1.csv,m050_040_050,char_OPERATOR_M,operator,m050_040_050_M,m050_040_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Собственные исследования АДАМАСА в области путешествий во времени
@@ -359,8 +359,8 @@ m120.mbe/000_Sheet1.csv,m120_040_040,char_OPERATOR_M,operator,m120_040_040_M,m12
 фантастически! Что ещё я могу сказать?"
 m120.mbe/000_Sheet1.csv,m120_040_080,char_OPERATOR_M,operator,m120_040_080_M,m120_040_080_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Происхождение большинства аномалий неизвестно... Но некоторые начинают
 иметь смысл, если принять во внимание альтернативные миры и измерения."
-m120.mbe/000_Sheet1.csv,m120_040_090,char_OPERATOR_M,operator,m120_040_090_M,m120_040_090_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Заблудиться в фантастическом мире, встретить нереальных
-существ... Почти как будто ты сама Алиса."
+m120.mbe/000_Sheet1.csv,m120_040_090,char_OPERATOR_M,operator,m120_040_090_M,m120_040_090_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Заблудиться в фантастическом мире, встретить нереальных
+существ... Прямо как в истории об Алисе."
 m120.mbe/000_Sheet1.csv,m120_040_110,char_OPERATOR_M,operator,m120_040_110_M,m120_040_110_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Одно это открытие гарантирует вам повышение в АДАМАСЕ. Если вы
 вернётесь живыми и невредимыми, конечно..."
 m120.mbe/000_Sheet1.csv,m120_040_120,char_OPERATOR_M,operator,m120_040_120_M,m120_040_120_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Раскрытие загадок, стоящих за фазово-электронными формами жизни, откроет правду о нашем мире и Аде Синдзюку."
@@ -381,7 +381,7 @@ m120.mbe/000_Sheet1.csv,m120_060_150,char_OPERATOR_M,operator,m120_060_150_M,m12
 m120.mbe/000_Sheet1.csv,m120_060_160,char_OPERATOR_M,operator,m120_060_160_M,m120_060_160_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Мы никогда не знаем, какой разговор станет для нас последним."
 m120.mbe/000_Sheet1.csv,m120_060_170,char_OPERATOR_M,operator,m120_060_170_M,m120_060_170_F,char_OPERATOR_F,char_OPERATOR_M,была,yes,,"Так что присылайте мне любую полученную информацию, какой бы
 незначительной она ни была."
-m120.mbe/000_Sheet1.csv,m120_060_180,char_OPERATOR_M,operator,m120_060_180_M,m120_060_180_F,char_OPERATOR_F,char_OPERATOR_M,,,,Это просто может привести к спасению этого мира.
+m120.mbe/000_Sheet1.csv,m120_060_180,char_OPERATOR_M,operator,m120_060_180_M,m120_060_180_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Возможно, именно это поможет спасти этот мир."
 m120.mbe/000_Sheet1.csv,m120_100_010,char_OPERATOR_M,operator,m120_100_010_M,m120_100_010_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Я анализирую данные, которые вы прислали, и, честно говоря, у
 меня нет слов."
 m120.mbe/000_Sheet1.csv,m120_100_020,char_OPERATOR_M,operator,m120_100_020_M,m120_100_020_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Особенно о невероятном разнообразии и уникальных особенностях
@@ -411,8 +411,8 @@ m140.mbe/000_Sheet1.csv,m140_020_050,char_OPERATOR_M,operator,m140_020_050_M,m14
 m140.mbe/000_Sheet1.csv,m140_020_060,char_OPERATOR_M,operator,m140_020_060_M,m140_020_060_F,char_OPERATOR_F,char_OPERATOR_M,,,,В Японии это называют «унесенные призраками»...
 m140.mbe/000_Sheet1.csv,m140_020_070,char_OPERATOR_M,operator,m140_020_070_M,m140_020_070_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Например, тот мужчина, что вас удочерил, доктор Юки, бесследно
 исчез из этого мира."
-m140.mbe/000_Sheet1.csv,m140_020_080,char_OPERATOR_M,operator,m140_020_080_M,m140_020_080_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Существование Цифрового мира, возможно, даст несколько ответов
-касательно таких феноменов."
+m140.mbe/000_Sheet1.csv,m140_020_080,char_OPERATOR_M,operator,m140_020_080_M,m140_020_080_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Существование Цифрового мира, возможно, поможет
+объяснить подобные явления."
 m140.mbe/000_Sheet1.csv,m140_020_090,char_OPERATOR_M,operator,m140_020_090_M,m140_020_090_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Продолжайте внимательно наблюдать за этим миром. Шансы найти
 некоторых из пропавших не нулевые."
 m140.mbe/000_Sheet1.csv,m140_100_050,char_OPERATOR_M,operator,m140_100_050_M,m140_100_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Итак, подводя итоги, Цифровой мир переживает нечто вроде
@@ -487,8 +487,8 @@ m260.mbe/000_Sheet1.csv,m260_040_030,char_OPERATOR_M,operator,m260_040_030_M,m26
 действительно может быть сложной проблемой."
 m260.mbe/000_Sheet1.csv,m260_040_040,char_OPERATOR_M,operator,m260_040_040_M,m260_040_040_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Многие конфликты в нашем мире происходили из-за ресурсов. Любой
 учебник истории расскажет, насколько это ужасно..."
-m285.mbe/000_Sheet1.csv,m285_040_030,char_OPERATOR_M,operator,m285_040_030_M,m285_040_030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Касательно нашего предыдущего обсуждения... АДАМАС достиг
-консенсуса."
+m285.mbe/000_Sheet1.csv,m285_040_030,char_OPERATOR_M,operator,m285_040_030_M,m285_040_030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Что до нашего прошлого разговора... в АДАМАС
+пришли к единому мнению."
 m285.mbe/000_Sheet1.csv,m285_040_040,char_OPERATOR_M,operator,m285_040_040_M,m285_040_040_F,char_OPERATOR_F,char_OPERATOR_M,была,,,"Способность к путешествию во времени, что пребывает в Эгиомоне,
 была признана аномалией класса-S."
 m285.mbe/000_Sheet1.csv,m285_040_050,char_OPERATOR_M,operator,m285_040_050_M,m285_040_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"«Класс-S» определяется как «имеющий нестабильное состояние

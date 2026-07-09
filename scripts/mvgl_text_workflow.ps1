@@ -48,6 +48,11 @@ function Resolve-MvglTool {
         return (Resolve-Path -LiteralPath $env:MVGLTOOLS_CLI).Path
     }
 
+    $fixedCandidate = Join-Path $RepoRoot ".tools\MVGLTools-v2.2.0-fixed\MVGLToolsCLI.exe"
+    if (Test-Path -LiteralPath $fixedCandidate) {
+        return (Resolve-Path -LiteralPath $fixedCandidate).Path
+    }
+
     $candidate = Join-Path $RepoRoot ".tools\MVGLTools-v2.2.0\MVGLTools-v2.2.0-win64\MVGLToolsCLI.exe"
     if (Test-Path -LiteralPath $candidate) {
         return (Resolve-Path -LiteralPath $candidate).Path
@@ -96,8 +101,15 @@ function Pack-Package([string]$Name) {
         Move-Item -LiteralPath $packedSection -Destination $baseSection
     }
 
-    Write-Host "[pack] ${Name}: pack MVGL -> $payload"
-    Invoke-MvglTool @("--game=dsts", "--mode=pack-mvgl", "--input", $baseDir, "--output", $payload)
+    # Never let a failed/hung pack truncate the currently installable payload.
+    # Build beside the working tree and promote only a completed non-empty file.
+    $packedArchive = Join-Path $packageWork "$Name.dx11.mvgl.new"
+    Write-Host "[pack] ${Name}: pack MVGL -> $packedArchive"
+    Invoke-MvglTool @("--game=dsts", "--mode=pack-mvgl", "--input", $baseDir, "--output", $packedArchive)
+    if (-not (Test-Path -LiteralPath $packedArchive) -or (Get-Item -LiteralPath $packedArchive).Length -le 0) {
+        throw "MVGL pack produced no usable archive: $packedArchive"
+    }
+    Move-Item -LiteralPath $packedArchive -Destination $payload -Force
 
     if (-not $KeepWork) {
         Remove-DirectorySafe -Path $packageWork -AllowedParent $WorkRoot
