@@ -42,8 +42,8 @@ f_t3001_0110_0012,char_PLAYER_M,Я хочу пойти победить Диаб
 f_t3001_0110_0013,char_PLAYER_M,Я хочу пойти победить Армагеддемона.,
 f_t3001_0110_0014,char_PLAYER_M,"{end}Пока никуда, спасибо.",
 f_t3001_0120_0010,char_MIREI,"Скоро начнётся показ. Пожалуйста, проходите в театр.",
-f_t3001_0130_0010,char_FRONTCLERK,"Хотите получить доступ в {pf(PlayStation®Store/Microsoft Store/Nintendo
-eShop/Online Store)}? Вы также можете проверить свои Наборы предметов.",
+f_t3001_0130_0010,char_FRONTCLERK,"Хотите открыть {pf(PlayStation®Store/Microsoft Store/Nintendo eShop/the Online Store)}?
+Здесь также можно проверить наборы предметов.",
 f_t3001_0130_0020,char_FRONTCLERK,[Открыть {pf(PlayStation®Store/Microsoft Store/Nintendo eShop/Online Store)}.],
 f_t3001_0130_0021,char_FRONTCLERK,[Проверить Наборы предметов],
 f_t3001_0130_0022,char_FRONTCLERK,{end}[Пока отложить],

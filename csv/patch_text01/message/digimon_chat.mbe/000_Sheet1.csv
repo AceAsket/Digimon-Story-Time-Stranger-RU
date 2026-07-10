@@ -49,8 +49,7 @@ aigiob_001_3_reaction_char_AEGIOCHUSMON_BLUE,char_AEGIOCHUSMON_BLUE,"Правд�
 воспользуемся моей рукой, чтобы спасти всех!",
 aigiob_001_4_replay,char_PLAYER_M,Это выглядит круто.,
 aigiob_001_4_reaction_char_AEGIOCHUSMON_BLUE,char_AEGIOCHUSMON_BLUE,Что?! Р-правда? Теперь я чувствую себя немного неловко. Хехе...,
-aigiog_001_0_char_AEGIOCHUSMON_GREEN,char_AEGIOCHUSMON_GREEN,"Недавно я увидела сад, полный роз.
-Красота была невероятная.",
+aigiog_001_0_char_AEGIOCHUSMON_GREEN,char_AEGIOCHUSMON_GREEN,"Недавно я увидел сад, полный роз. Красота была невероятная.",
 aigiog_001_1_replay,char_PLAYER_M,Давайте сделаем оружие из всех шипов.,
 aigiog_001_1_reaction_char_AEGIOCHUSMON_GREEN,char_AEGIOCHUSMON_GREEN,"Ха-ха! Как мои? Верно, шипы у меня очень колючие!",
 aigiog_001_2_replay,char_PLAYER_M,Давайте соберем лепестки для ванны.,
@@ -174,26 +173,24 @@ nep_001_3_reaction_char_NEPTUNEMON,char_NEPTUNEMON,"Это обнадежива�
 nep_001_4_replay,char_PLAYER_M,Лучше оставь это мне.,
 nep_001_4_reaction_char_NEPTUNEMON,char_NEPTUNEMON,"Я ценю ваши чувства, но это мой долг. Но да, давайте работать
 вместе.",
-mine_001_0_char_MINERVAMON,char_MINERVAMON,Проводить время с человеком не так уж и убого.,
+mine_001_0_char_MINERVAMON,char_MINERVAMON,А проводить время с человеком вовсе неплохо.,
 mine_001_1_replay,char_PLAYER_M,Пока вы можете так думать.,
-mine_001_1_reaction_char_MINERVAMON,char_MINERVAMON,"Боже, это правда? Что ж, если у тебя есть другая сторона,
-которую ты хочешь мне показать, поторопись и сделай это уже.",
+mine_001_1_reaction_char_MINERVAMON,char_MINERVAMON,"Вот как? Если хочешь показать мне себя с другой стороны, тогда не тяни!",
 mine_001_2_replay,char_PLAYER_M,Вас это не утомляет?,
-mine_001_2_reaction_char_MINERVAMON,char_MINERVAMON,"Вовсе нет! Мне нравится узнавать о вашем распорядке дня. Давайте
-узнаем еще больше!",
+mine_001_2_reaction_char_MINERVAMON,char_MINERVAMON,"Вовсе нет! Мне нравится узнавать, как проходит твой день.
+Хочу узнать о тебе ещё больше!",
 mine_001_3_replay,char_PLAYER_M,Разве ты не говоришь это просто из вежливости?,
-mine_001_3_reaction_char_MINERVAMON,char_MINERVAMON,"Это ты такой сдержанный и чрезмерно вежливый. Давай просто будем
-честными друг с другом.",
+mine_001_3_reaction_char_MINERVAMON,char_MINERVAMON,"Это ты держишься отстранённо и слишком церемонишься.
+Давай будем откровенны друг с другом.",
 mine_001_4_replay,char_PLAYER_M,Давай останемся вместе навсегда.,
-mine_001_4_reaction_char_MINERVAMON,char_MINERVAMON,"Разумеется, я намерен поступить именно так. В данный момент я не
-могу представить себя вдали от тебя.",
+mine_001_4_reaction_char_MINERVAMON,char_MINERVAMON,Конечно. Теперь я уже не представляю себя вдали от тебя.,
 meruv_001_0_char_MERVAMON,char_MERVAMON,Тебе еще предстоит повзрослеть.,
 meruv_001_1_replay,char_PLAYER_M,Я хочу повзрослеть.,
 meruv_001_1_reaction_char_MERVAMON,char_MERVAMON,"Просто думая, что этим ничего не добьешься. Сохраняй
 хладнокровие и делай шаг за шагом.",
 meruv_001_2_replay,char_PLAYER_M,Я не могу повзрослеть.,
-meruv_001_2_reaction_char_MERVAMON,char_MERVAMON,"А ты не можешь? Я имею в виду не физическую зрелость, а
-умственную. Все зависит от отношения.",
+meruv_001_2_reaction_char_MERVAMON,char_MERVAMON,"Не можешь? Я говорю не о теле, а о внутренней зрелости.
+Всё дело в настрое.",
 meruv_001_3_replay,char_PLAYER_M,Не обращайся со мной как с ребенком.,
 meruv_001_3_reaction_char_MERVAMON,char_MERVAMON,"Можешь ли ты с уверенностью сказать, что ты взрослее меня?
 Что-то подсказывает мне, что нет.",
@@ -226,8 +223,7 @@ diana_001_3_reaction_char_DIANAMON,char_DIANAMON,"Вот ты как думае�
 diana_001_4_replay,char_PLAYER_M,Ты кажешься холодной и безжизненной.,
 diana_001_4_reaction_char_DIANAMON,char_DIANAMON,"Вот как я выгляжу? С этим ничего не поделаешь, но, пожалуйста,
 обратите внимание и на другую мою сторону.",
-vulca_001_0_char_VULCANUSMON,char_VULCANUSMON,"Грр...! Я так занята, что у меня не хватает рук, чтобы со всем
-этим справиться!",
+vulca_001_0_char_VULCANUSMON,char_VULCANUSMON,"Гр-р-р! Я так занят, что рук на всё не хватает!",
 vulca_001_1_replay,char_PLAYER_M,"Ну, а теперь ты просто жадничаешь.",
 vulca_001_1_reaction_char_VULCANUSMON,char_VULCANUSMON,"Даже моих рук не всегда хватает для по-настоящему хорошей работы.
 Но мне грех жаловаться — пора пустить их в дело.",
@@ -277,8 +273,7 @@ yuno_001_3_replay,char_PLAYER_M,Не беспокойся об этом.,
 yuno_001_3_reaction_char_JUNOMON,char_JUNOMON,"Такой ответ беспокоит меня еще больше. Тем не менее, я ценю вашу
 доброту.",
 yuno_001_4_replay,char_PLAYER_M,Ты зеленоглазый монстр.,
-yuno_001_4_reaction_char_JUNOMON,char_JUNOMON,"Понятно... Я буду осторожен, чтобы не слишком привязаться к
-тебе.",
+yuno_001_4_reaction_char_JUNOMON,char_JUNOMON,Понятно... Постараюсь не слишком к тебе привязываться.,
 yunoh_001_0_char_JUNOMON_HYSTERICMODE,,"Что плохого в том, чтобы ревновать?",
 yunoh_001_1_replay,char_PLAYER_M,"Ничего, вот что.",
 yunoh_001_1_reaction_char_JUNOMON_HYSTERICMODE,,"Тогда я отдамся этому стремлению. Пожалуйста, не своди с меня
@@ -522,7 +517,7 @@ syako_001_3_replay,char_PLAYER_M,"Эта оболочка, которая защ
 syako_001_3_reaction_char_SHAKOMON,char_SHAKOMON,Да? Так и думал! Отличный у меня панцирь.,
 syako_001_4_replay,char_PLAYER_M,Потому что ты настоящая милашка!,
 syako_001_4_reaction_char_SHAKOMON,char_SHAKOMON,Хехехе... Ты меня смущаешь. Но все равно спасибо.,
-goma_001_0_char_GOMAMON,char_GOMAMON,"Рыбка, рыбка, рыбка-рыбка! * вздох * Я хочу съесть немного
+goma_001_0_char_GOMAMON,char_GOMAMON,"Рыбка, рыбка, рыбка-рыбка! *вздох* Я хочу съесть немного
 рыбы...",
 goma_001_1_replay,char_PLAYER_M,"Тогда иди, налови уже немного.",
 goma_001_1_reaction_char_GOMAMON,char_GOMAMON,"Можешь не сомневаться, я так и сделаю! И после того, как я
@@ -535,13 +530,13 @@ goma_001_3_reaction_char_GOMAMON,char_GOMAMON,Вот что я хотел усл
 goma_001_4_replay,char_PLAYER_M,"Хочешь, я пойду поищу что-нибудь?",
 goma_001_4_reaction_char_GOMAMON,char_GOMAMON,"Спасибо. Вот это меня радует! Давайте
 найдём несколько штук вместе и съедим их!",
-gani_001_0_char_GANIMON,char_GANIMON,"Эй, давай поиграем в эту человеческую игру, камень-ножницы-бумаг
-а! Раз, два...",
-gani_001_1_replay,char_PLAYER_M,Никакой пощады... Рок!,
+gani_001_0_char_GANIMON,char_GANIMON,"Эй, давай сыграем в человеческую игру «камень, ножницы, бумага»!
+Раз, два...",
+gani_001_1_replay,char_PLAYER_M,Без пощады... Камень!,
 gani_001_1_reaction_char_GANIMON,char_GANIMON,Черт возьми! Я проиграл... Но я победил духом!,
-gani_001_2_replay,char_PLAYER_M,Как насчет этого?.. Непревзойденная рука!,
-gani_001_2_reaction_char_GANIMON,char_GANIMON,"Ух ты! Ты делала камень, ножницы и бумагу одновременно! Мне еще
-многому нужно научиться...",
+gani_001_2_replay,char_PLAYER_M,А вот так?.. Непобедимый приём!,
+gani_001_2_reaction_char_GANIMON,char_GANIMON,"Ух ты! Сразу камень, ножницы и бумага!
+Мне ещё многому нужно научиться...",
 gani_001_3_replay,char_PLAYER_M,Я пойду порисую... Ножницы!,
 gani_001_3_reaction_char_GANIMON,char_GANIMON,"Эй, ножницы прямо как у меня! Значит, мы друзья!",
 gani_001_4_replay,char_PLAYER_M,"Думаю, я позволю тебе выиграть... Бумага!",
@@ -584,7 +579,7 @@ octa_001_3_reaction_char_OCTMON,char_OCTMON,"Ну, разве ты не загл
 octa_001_4_replay,char_PLAYER_M,Ты - настоящее сокровище.,
 octa_001_4_reaction_char_OCTMON,char_OCTMON,"Разрази меня гром! Я об этом не подумал. Ты доставил
 удовольствие этому старому морскому волку сверх всякой меры.",
-gawa_001_0_char_GAWAPPAMON,char_GAWAPPAMON,"* вздох* Нужно найти мне несколько новых мелодий, чтобы
+gawa_001_0_char_GAWAPPAMON,char_GAWAPPAMON,"*вздох* Нужно найти мне несколько новых мелодий, чтобы
 заставить это сердце учащенно биться...",
 gawa_001_1_replay,char_PLAYER_M,"Может быть, тебе стоит сделать свой собственный?",
 gawa_001_1_reaction_char_GAWAPPAMON,char_GAWAPPAMON,"Я никогда об этом не думал! Мои собственные треки... Вот это
@@ -671,8 +666,8 @@ metals_001_4_reaction_char_METALSEADRAMON,char_METALSEADRAMON,"Ты прекра
 именно в океанских волнах.",
 presi_001_0_char_PLESIOMON,char_PLESIOMON,Позвольте мне услышать о ваших амбициях.,
 presi_001_1_replay,char_PLAYER_M,Путешествуя везде и всюду!,
-presi_001_1_reaction_char_PLESIOMON,char_PLESIOMON,"Отправиться в путешествие по этому огромному миру, не так ли?
-Это прекрасное стремление, нет, прекрасная мечта.",
+presi_001_1_reaction_char_PLESIOMON,char_PLESIOMON,"Странствовать по огромному миру? Прекрасная цель —
+более того, прекрасная мечта.",
 presi_001_2_replay,char_PLAYER_M,Зная все об этом мире.,
 presi_001_2_reaction_char_PLESIOMON,char_PLESIOMON,"Ты жаден до знаний больше, чем я когда-либо представлял. Такой
 голод радует меня.",
@@ -695,12 +690,12 @@ mari_001_3_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Когда рядом
 mari_001_4_replay,char_PLAYER_M,С любовью обязательно наступит мир.,
 mari_001_4_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Да. Несмотря ни на что, я сохраню любовь и надежду в своем
 сердце... особенно для тебя!",
-jagame_001_0_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"* крах * * бум * Я, блестящее, упругое тело! Я, супер крутой!",
+jagame_001_0_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"*грохот* *бум* Я, блестящее, упругое тело! Я, супер крутой!",
 jagame_001_1_replay,char_PLAYER_M,"Шикарно выглядишь, приятель!",
 jagame_001_1_reaction_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"Хехехе... Я надеялся, что ты это скажешь. Я хочу присоединиться
 к соревнованиям по бодибилдингу среди людей!",
 jagame_001_2_replay,char_PLAYER_M,И с соответствующим умом!,
-jagame_001_2_reaction_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"Я, мускулы и мозги! Смотри, как я ухожу! * грохот * * бах*",
+jagame_001_2_reaction_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"Я, мускулы и мозги! Смотри, как я ухожу! *грохот* *бах*",
 jagame_001_3_replay,char_PLAYER_M,Такая ревнивая!,
 jagame_001_3_reaction_char_JUMBOGAMEMON,char_JUMBOGAMEMON,"Хочешь, я и тебя потренирую? Мы становимся по-настоящему
 крутыми. ДжамбоГамемон гарантирует!",
@@ -793,7 +788,7 @@ fanbi_001_4_replay,char_PLAYER_M,"Ты достаточно помогаешь, 
 fanbi_001_4_reaction_char_FUNBEEMON,char_FUNBEEMON,Ха-ха! Ты такой глупый. Но спасибо. Я всегда буду рядом с тобой!,
 flo_001_0_char_FLORAMON,char_FLORAMON,Я немного хочу пить...,
 flo_001_1_replay,char_PLAYER_M,Выдержи это!,
-flo_001_1_reaction_char_FLORAMON,char_FLORAMON,"Ладно, время быть жестким...! * тяжело дыша * Теперь я хочу
+flo_001_1_reaction_char_FLORAMON,char_FLORAMON,"Ладно, время быть жестким...! *тяжело дыша* Теперь я хочу
 пить еще больше.",
 flo_001_2_replay,char_PLAYER_M,При медленном потягивании воды вы лучше увлажняетесь.,
 flo_001_2_reaction_char_FLORAMON,char_FLORAMON,"Правда? Хотел бы я знать все такие вещи, как ты.",
@@ -946,7 +941,7 @@ beji_001_3_reaction_char_VEGIMON,char_VEGIMON,"Так что даже мален
 обезьяну, если будут работать вместе!",
 beji_001_4_replay,char_PLAYER_M,"Как насчет ""Сказки о принцессе Кагуя""?",
 beji_001_4_reaction_char_VEGIMON,char_VEGIMON,"Так грустно, что она вернулась на Луну и оставила тех стариков
-позади... * шмыгать носом.*",
+позади... *шмыгать носом.*",
 wasp_001_0_char_WASPMON,char_WASPMON,"Стой! Кто там идет?! Ах... Извините. Просто привычка,
 выработанная моими патрулями.",
 wasp_001_1_replay,char_PLAYER_M,"Вы уверены, что на вас можно положиться!",
@@ -1003,8 +998,8 @@ sylphy_001_1_replay,char_PLAYER_M,Вовсе нет.,
 sylphy_001_1_reaction_char_SILPHYMON,char_SILPHYMON,"Никакой наблюдательности, да? Сосредоточься на своих друзьях, и
 ты увидишь все, что угодно.",
 sylphy_001_2_replay,char_PLAYER_M,Уши Гатомона.,
-sylphy_001_2_reaction_char_SILPHYMON,char_SILPHYMON,"Хороший улов. Вы можете в любое время получить данные, которые я
-получаю с этого радара и головного дисплея.",
+sylphy_001_2_reaction_char_SILPHYMON,char_SILPHYMON,"Верно подмечено. В любой момент могу поделиться данными
+с радара и нашлемного дисплея.",
 sylphy_001_3_replay,char_PLAYER_M,Крылья Аквиламона!,
 sylphy_001_3_reaction_char_SILPHYMON,char_SILPHYMON,"Крылья сразу бросаются в глаза, да? С ними я свободно парю
 и мягко приземляюсь рядом с тобой.",
@@ -1088,8 +1083,7 @@ lili_001_1_replay,char_PLAYER_M,Как сильная девушка.,
 lili_001_1_reaction_char_LILLYMON,char_LILLYMON,"Это потому, что из-за тебя у меня горят глаза и распушается
 хвост!",
 lili_001_2_replay,char_PLAYER_M,Как взрослый человек.,
-lili_001_2_reaction_char_LILLYMON,char_LILLYMON,"Хи-хи. Ты не представляешь, каким прекрасным образцом зрелости я
-стал.",
+lili_001_2_reaction_char_LILLYMON,char_LILLYMON,"Хи-хи. Ты даже не представляешь, какой зрелой красавицей я стала.",
 lili_001_3_replay,char_PLAYER_M,"Как милая, нежная девушка.",
 lili_001_3_reaction_char_LILLYMON,char_LILLYMON,Надо же! Как хорошо ты меня понимаешь!,
 lili_001_4_replay,char_PLAYER_M,Как надежная старшая сестра.,
@@ -1229,7 +1223,7 @@ gotsu_001_2_reaction_char_GOTTSUMON,char_GOTTSUMON,"Меня тошнит от �
 gotsu_001_3_replay,char_PLAYER_M,Играйте в пятнашки.,
 gotsu_001_3_reaction_char_GOTTSUMON,char_GOTTSUMON,"Хорошо, но это ты!",
 gotsu_001_4_replay,char_PLAYER_M,Сходи на свидание.,
-gotsu_001_4_reaction_char_GOTTSUMON,char_GOTTSUMON,"..О, я просто подумал, что это тоже было бы забавно.",
+gotsu_001_4_reaction_char_GOTTSUMON,char_GOTTSUMON,"...О, я просто подумал, что это тоже было бы забавно.",
 aruma_001_0_char_ARMADILLOMON,char_ARMADILLOMON,Я голоден.,
 aruma_001_1_replay,char_PLAYER_M,Переедание вредно для вас.,
 aruma_001_1_reaction_char_ARMADILLOMON,char_ARMADILLOMON,Не лезь не в свое дело!,
@@ -1275,8 +1269,7 @@ tsuchi_001_1_replay,char_PLAYER_M,Потому что они сильные?,
 tsuchi_001_1_reaction_char_TUCHIDARUMON,char_TUCHIDARUMON,"В таком случае, почему бы им просто не заняться армрестлингом
 или чем-то в этом роде?",
 tsuchi_001_2_replay,char_PLAYER_M,Потому что они слабые?,
-tsuchi_001_2_reaction_char_TUCHIDARUMON,char_TUCHIDARUMON,"В таком случае, почему бы им просто не сработаться или что-то в
-этом роде?",
+tsuchi_001_2_reaction_char_TUCHIDARUMON,char_TUCHIDARUMON,Тогда почему бы им просто не потренироваться?,
 tsuchi_001_3_replay,char_PLAYER_M,Потому что им это нравится?,
 tsuchi_001_3_reaction_char_TUCHIDARUMON,char_TUCHIDARUMON,"Ну что ж, тогда я ничего не могу сказать по этому поводу.",
 tsuchi_001_4_replay,char_PLAYER_M,Потому что они одиноки?,
@@ -1312,8 +1305,8 @@ mame_001_1_reaction_char_MAMEMON,char_MAMEMON,"Я бы хотел быть бо�
 mame_001_2_replay,char_PLAYER_M,Просто врагам легче обнаружить большие размеры.,
 mame_001_2_reaction_char_MAMEMON,char_MAMEMON,"Ха! Наверное, так и есть! Я рад, что я креветка!",
 mame_001_3_replay,char_PLAYER_M,Ваш размер - часть очарования Мамемон!,
-mame_001_3_reaction_char_MAMEMON,char_MAMEMON,"Ха. Наверное, я не была бы той Маммон, которую вы все знаете и
-любите, если бы была большой, не так ли?",
+mame_001_3_reaction_char_MAMEMON,char_MAMEMON,"Ха. Наверное, будь я большим, это был бы уже не тот Мамемон,
+которого все знают и любят, да?",
 mame_001_4_replay,char_PLAYER_M,"Чем меньше, тем симпатичнее, ты же знаешь.",
 mame_001_4_reaction_char_MAMEMON,char_MAMEMON,Т-ты правда так думаешь? Хе-хе!,
 metma_001_0_char_METALMAMEMON,char_METALMAMEMON,Теперь я на 90% машина. Разве это не круто?!,
@@ -1335,7 +1328,7 @@ andro_001_2_reaction_char_ANDROMON,char_ANDROMON,"""ПЕРЕУСЕРДСТВОВ
 andro_001_3_replay,char_PLAYER_M,Иногда важно все обговорить.,
 andro_001_3_reaction_char_ANDROMON,char_ANDROMON,Я ОСТАВЛЮ ЭТИ СИТУАЦИИ НА ВАШЕ УСМОТРЕНИЕ.,
 andro_001_4_replay,char_PLAYER_M,"А как насчет ""Возлюби ближнего своего""?",
-andro_001_4_reaction_char_ANDROMON,char_ANDROMON,..Я БУДУ СТАРАТЬСЯ.,
+andro_001_4_reaction_char_ANDROMON,char_ANDROMON,...Я БУДУ СТАРАТЬСЯ.,
 hiand_001_0_char_HIANDROMON,char_HIANDROMON,Будет ли у меня какой-нибудь шанс использовать мой Атомный луч?,
 hiand_001_1_replay,char_PLAYER_M,Конечно. Всегда держите его наготове.,
 hiand_001_1_reaction_char_HIANDROMON,char_HIANDROMON,Понятно. Я буду готов драться в любое время!,
@@ -1518,7 +1511,7 @@ zudo_001_2_reaction_char_ZUDOMON,char_ZUDOMON,"Тогда тебе лучше с
 zudo_001_3_replay,char_PLAYER_M,"Это, конечно, потрясающие мышцы!",
 zudo_001_3_reaction_char_ZUDOMON,char_ZUDOMON,Выпейте их. Я не возражаю.,
 zudo_001_4_replay,char_PLAYER_M,Я хочу прикоснуться к ним.,
-zudo_001_4_reaction_char_ZUDOMON,char_ZUDOMON,"..Думаю, совсем немного было бы неплохо.",
+zudo_001_4_reaction_char_ZUDOMON,char_ZUDOMON,"...Думаю, совсем немного было бы неплохо.",
 pico_001_0_char_PICKLEMON,char_PICKLEMON,"Я хорошенько разыграю тебя, если ты не будешь тренироваться
 должным образом!",
 pico_001_1_replay,char_PLAYER_M,Я начну прямо сейчас.,
@@ -1561,8 +1554,8 @@ lena_001_2_replay,char_PLAYER_M,"Не думаю, что дело в тебе.",
 lena_001_2_reaction_char_RENAMON,char_RENAMON,"Это понятно. В конце концов, этот мир полон Дигимон, которых я
 никогда не видел.",
 lena_001_3_replay,char_PLAYER_M,"Ты, конечно.",
-lena_001_3_reaction_char_RENAMON,char_RENAMON,"Спасибо. Вырубив сильных Дигимон и скопировав их данные, я,
-несомненно, силен.",
+lena_001_3_reaction_char_RENAMON,char_RENAMON,"Спасибо. Я одолел немало сильных дигимонов и скопировал их данные,
+так что в своей силе не сомневаюсь.",
 lena_001_4_replay,char_PLAYER_M,Это мог быть практически любой из них.,
 lena_001_4_reaction_char_RENAMON,char_RENAMON,"Понятно. Что ж, независимо от того, с каким сильным Дигимоном я
 в конечном итоге столкнусь, я надеюсь, ты меня поддержишь.",
@@ -1726,7 +1719,7 @@ teri_001_4_reaction_char_TERRIERMON,char_TERRIERMON,"Для меня «слиш�
 Вот умеешь сделать дигимону комплимент!",
 lop_001_0_char_LOPMON,char_LOPMON,"Я... Ты же знаешь, я не плакса!",
 lop_001_1_replay,char_PLAYER_M,Ты - словарное определение одного из них.,
-lop_001_1_reaction_char_LOPMON,char_LOPMON,"Я говорил тебе, что это не так, но ты... Ты...! * шмыгаю носом *
+lop_001_1_reaction_char_LOPMON,char_LOPMON,"Я говорил тебе, что это не так, но ты... Ты...! *шмыгаю носом*
 Я не буду плакать, черт возьми! Ты слышишь меня?!",
 lop_001_2_replay,char_PLAYER_M,"Только плаксы говорят, что они не плаксы.",
 lop_001_2_reaction_char_LOPMON,char_LOPMON,"Понятно. Значит, так оно и есть... Тогда я вычеркну это слово из
@@ -1746,7 +1739,7 @@ ange_001_2_replay,char_PLAYER_M,Ты не можешь дать мне проп�
 ange_001_2_reaction_char_ANGEMON,char_ANGEMON,"Если вы можете проявлять хитрость, вам с самого начала не
 следовало заниматься порочностью.",
 ange_001_3_replay,char_PLAYER_M,Извини за все эти пердежи.,
-ange_001_3_reaction_char_ANGEMON,char_ANGEMON,"..Пожалуйста, не приставайте ко мне с такими банальными
+ange_001_3_reaction_char_ANGEMON,char_ANGEMON,"...Пожалуйста, не приставайте ко мне с такими банальными
 выходками.",
 ange_001_4_replay,char_PLAYER_M,Моя совесть чиста.,
 ange_001_4_reaction_char_ANGEMON,char_ANGEMON,"И вот почему из всех людей я доверяю только тебе. Достойно
@@ -1933,7 +1926,7 @@ mug_001_3_reaction_char_MAGNAMON,char_MAGNAMON,"Сила чудес реальн
 mug_001_4_replay,char_PLAYER_M,"Я верю в тебя, Магнамон.",
 mug_001_4_reaction_char_MAGNAMON,char_MAGNAMON,Приятно это слышать. Верить в меня - значит верить в силу чудес.,
 coro_001_0_char_CORONAMON,char_CORONAMON,"Ни у кого нет больше мужества, чем у меня!",
-coro_001_1_replay,char_PLAYER_M,"А как насчет чего-нибудь еще, кроме кишок?",
+coro_001_1_replay,char_PLAYER_M,А кроме смелости у тебя что-нибудь есть?,
 coro_001_1_reaction_char_CORONAMON,char_CORONAMON,"Солнце на моей стороне, поэтому мое пламя непобедимо! Давайте
 выйдем и сразимся!",
 coro_001_2_replay,char_PLAYER_M,Это впечатляет.,
@@ -1945,17 +1938,17 @@ coro_001_4_replay,char_PLAYER_M,Ты сильный человек.,
 coro_001_4_reaction_char_CORONAMON,char_CORONAMON,"Спасибо. Так ты уважаешь меня, да? Я уважаю тебя в ответ.",
 luna_001_0_char_LUNAMON,char_LUNAMON,Хмм? Ты только что что-то сказал?,
 luna_001_1_replay,char_PLAYER_M,Я подбадривал тебя!,
-luna_001_1_reaction_char_LUNAMON,char_LUNAMON,"Я так и думал! Подумал, что ты, возможно, разговариваешь с
-кем-то другим... Спасибо! Давайте сделаем все, что в наших силах!",
+luna_001_1_reaction_char_LUNAMON,char_LUNAMON,"Я так и думала! Решила, что ты обращаешься к кому-то другому...
+Спасибо! Давай постараемся!",
 luna_001_2_replay,char_PLAYER_M,Просто разговариваю сам с собой.,
-luna_001_2_reaction_char_LUNAMON,char_LUNAMON,"Да? Что ж, почему бы тебе вместо этого не поговорить со мной? Я
-уверен, тебе есть чему меня научить.",
+luna_001_2_reaction_char_LUNAMON,char_LUNAMON,"Правда? Тогда лучше поговори со мной.
+Уверена, мне есть чему у тебя поучиться.",
 luna_001_3_replay,char_PLAYER_M,От меня — ни слова.,
-luna_001_3_reaction_char_LUNAMON,char_LUNAMON,"Мне показалось, я слышал твой голос. Моя ошибка. Иногда мой слух
-работает против меня...",
+luna_001_3_reaction_char_LUNAMON,char_LUNAMON,"Мне показалось, что я слышала твой голос. Ошиблась.
+Иногда мой слух играет со мной злую шутку...",
 luna_001_4_replay,char_PLAYER_M,Я просто поздоровался!,
-luna_001_4_reaction_char_LUNAMON,char_LUNAMON,"Я так и думал. Цени это! Я был уверен, что узнаю твой голос. Я
-рад, что узнал!",
+luna_001_4_reaction_char_LUNAMON,char_LUNAMON,"Я так и думала. Спасибо! Я была уверена, что узнаю твой голос.
+Рада, что не ошиблась!",
 anwi_001_0_char_ANCIENTWISETMON,char_ANCIENTWISETMON,"Я веду хронику всей мудрости с далекого прошлого. Ничто не
 выходит за рамки моих знаний.",
 anwi_001_1_replay,char_PLAYER_M,"Так что знаешь, о чем я сейчас думаю?",
@@ -2032,8 +2025,8 @@ rigra_001_3_replay,char_PLAYER_M,"Держу пари, в таком виде т
 rigra_001_3_reaction_char_RIZEGREYMON,char_RIZEGREYMON,"Внешность тут ни при чем. Я хочу посмотреть, насколько сильным я
 могу стать.",
 rigra_001_4_replay,char_PLAYER_M,Ты мне нравишься из плоти и крови.,
-rigra_001_4_reaction_char_RIZEGREYMON,char_RIZEGREYMON,"Значит, раньше я выглядела превосходно? Не уверена, радует меня
-это или печалит...",
+rigra_001_4_reaction_char_RIZEGREYMON,char_RIZEGREYMON,"Значит, раньше я выглядел превосходно? Даже не знаю,
+радоваться этому или огорчаться...",
 shakko_001_0_char_SHAKKOUMON,char_SHAKKOUMON,Я БУДУ ЗАЩИЩАТЬ ЭТУ ЗЕМЛЮ.,
 shakko_001_1_replay,char_PLAYER_M,Тогда я оставляю это на ваше усмотрение.,
 shakko_001_1_reaction_char_SHAKKOUMON,char_SHAKKOUMON,ДА. БУДЬТЕ УВЕРЕНЫ. Я МОГУ АТАКОВАТЬ ВО ВСЕХ НАПРАВЛЕНИЯХ.,
@@ -2156,8 +2149,7 @@ moja_001_2_replay,char_PLAYER_M,"Никто не знает, где ты жив�
 moja_001_2_reaction_char_MOJYAMON,char_MOJYAMON,"Глубоко в заснеженных горах. Но это священная земля, так что не
 топчитесь по ней.",
 moja_001_3_replay,char_PLAYER_M,Я ничего не могу придумать.,
-moja_001_3_reaction_char_MOJYAMON,char_MOJYAMON,"Имеет смысл. В конце концов, я встретил всех вас, и теперь мы
-друзья!",
+moja_001_3_reaction_char_MOJYAMON,char_MOJYAMON,"Логично. Ведь я встретил вас всех, и теперь мы друзья!",
 moja_001_4_replay,char_PLAYER_M,"Ты классная, любопытная находка!",
 moja_001_4_reaction_char_MOJYAMON,char_MOJYAMON,"Ты заставляешь меня краснеть под всей этой шерстью. Но не
 волнуйся. Я не буду убегать и прятаться.",
@@ -2214,11 +2206,10 @@ horus_001_4_reaction_char_HOLSMON,char_HOLSMON,"Я хотел бы взять т
 опасностей.",
 piko_001_0_char_PICODEVIMON,char_PICODEVIMON,"Эй, босс, чем могу быть полезен?",
 piko_001_1_replay,char_PLAYER_M,Потри мне плечи.,
-piko_001_1_reaction_char_PICODEVIMON,char_PICODEVIMON,"..Да, хорошо, только не вини меня, если я сотру с них кровь
+piko_001_1_reaction_char_PICODEVIMON,char_PICODEVIMON,"...Да, хорошо, только не вини меня, если я сотру с них кровь
 прямо сейчас.",
 piko_001_2_replay,char_PLAYER_M,Что ты вообще можешь сделать?,
-piko_001_2_reaction_char_PICODEVIMON,char_PICODEVIMON,"Все, что захочешь. Честность! И коварные махинации — это мой
-хлеб с маслом!",
+piko_001_2_reaction_char_PICODEVIMON,char_PICODEVIMON,"Всё, что захочешь. Честно! А всякие подлые проделки — мой конёк!",
 piko_001_3_replay,char_PLAYER_M,Пойди купи мне сока.,
 piko_001_3_reaction_char_PICODEVIMON,char_PICODEVIMON,"Да ладно, босс. Это немного... Как насчет команды, достойной
 моего изощренного коварства?",
@@ -2393,8 +2384,8 @@ imp_001_2_replay,char_PLAYER_M,Это относится и ко мне тоже
 imp_001_2_reaction_char_IMPMON,char_IMPMON,"Понял. Мне просто нужно относиться к тебе с уважением, да?
 Тогда и ты надо мной не смейся.",
 imp_001_3_replay,char_PLAYER_M,"Эй, я высоко ценю тебя!",
-imp_001_3_reaction_char_IMPMON,char_IMPMON,"Хе-хе! Так ты улавливаешь то, что я пишу, да? Думаю, мы
-прекрасно поладим.",
+imp_001_3_reaction_char_IMPMON,char_IMPMON,"Хе-хе! Значит, понимаешь, к чему я клоню?
+Думаю, мы отлично поладим.",
 imp_001_4_replay,char_PLAYER_M,Давайте все просто поладим друг с другом.,
 imp_001_4_reaction_char_IMPMON,char_IMPMON,"Ладно. Прекрасно — просто чтобы ты хорошо выглядел. Даже не буду
 ни над кем и ни над чем подшучивать.",
@@ -2465,7 +2456,7 @@ monza_001_4_reaction_char_MONZAEMON,char_MONZAEMON,"Какие милые сло
 друг, который мне нужен.",
 hack_001_0_char_HACKMON,char_HACKMON,Не обращайся со мной как с ребенком!,
 hack_001_1_replay,char_PLAYER_M,Но ты всего лишь ребенок.,
-hack_001_1_reaction_char_HACKMON,char_HACKMON,"..Я имею в виду, конечно, но в моем левом мизинце больше
+hack_001_1_reaction_char_HACKMON,char_HACKMON,"...Я имею в виду, конечно, но в моем левом мизинце больше
 страсти, чем у целого взрослого человека!",
 hack_001_2_replay,char_PLAYER_M,Тогда веди себя уже как взрослый человек.,
 hack_001_2_reaction_char_HACKMON,char_HACKMON,"И что во мне не взрослого?!... О, такие вот судорожные
@@ -2555,7 +2546,7 @@ belsta_001_2_reaction_char_BEELSTARMON,char_BEELSTARMON,"Никогда об э�
 belsta_001_3_replay,char_PLAYER_M,Ваш партнер стоит прямо здесь.,
 belsta_001_3_reaction_char_BEELSTARMON,char_BEELSTARMON,Знаешь... И правда! Да... Именно с тобой мне по пути!,
 belsta_001_4_replay,char_PLAYER_M,"Прозвища не имеют значения. Ты тот, кто ты есть.",
-belsta_001_4_reaction_char_BEELSTARMON,char_BEELSTARMON,"Хи-хи. Я так и знал, что ты это скажешь!",
+belsta_001_4_reaction_char_BEELSTARMON,char_BEELSTARMON,"Хи-хи. Я так и знала, что ты это скажешь!",
 supsta_001_0_char_SUPERSTARMON,char_SUPERSTARMON,"Я хочу показать свою новую суперзвезду в видео! Что бы ты снял
 на моем месте?",
 supsta_001_1_replay,char_PLAYER_M,Обратный прыжок с тарзанки в стратосферу!,
@@ -2776,8 +2767,8 @@ exbui_001_1_reaction_char_XV-MON,char_XV-MON,"Может быть, по срав
 exbui_001_2_replay,char_PLAYER_M,"А по-моему, ты и так крут.",
 exbui_001_2_reaction_char_XV-MON,char_XV-MON,Все эти разговоры со мной не сработают! Я вырос из всего этого!,
 exbui_001_3_replay,char_PLAYER_M,Тебе просто нужно больше тренироваться.,
-exbui_001_3_reaction_char_XV-MON,char_XV-MON,"Правильно. Все, что я могу делать, это тренироваться! Я хочу
-продолжать Дидживолвинг, так что подбадривайте меня!",
+exbui_001_3_reaction_char_XV-MON,char_XV-MON,"Точно! Мне остаётся только тренироваться! Я хочу эволюционировать
+дальше, так что поддерживай меня!",
 exbui_001_4_replay,char_PLAYER_M,"Ты мне нравишься такой, какая ты есть.",
 exbui_001_4_reaction_char_XV-MON,char_XV-MON,"Но я хочу, чтобы я нравился тебе еще больше, и именно поэтому я
 буду тренироваться, чтобы стать сильнее!",
@@ -3277,7 +3268,7 @@ lilis_001_1_replay,char_PLAYER_M,Хочу попробовать.,
 lilis_001_1_reaction_char_LILITHMON,char_LILITHMON,"Ты понимаешь, что значит пасть вместе со мной?
 Сначала как следует всё обдумай.",
 lilis_001_2_replay,char_PLAYER_M,"О, я уже там.",
-lilis_001_2_reaction_char_LILITHMON,char_LILITHMON,"..Я не уверена, что это значит, но, возможно, вам следует еще
+lilis_001_2_reaction_char_LILITHMON,char_LILITHMON,"...Я не уверена, что это значит, но, возможно, вам следует еще
 немного пересмотреть себя?",
 lilis_001_3_replay,char_PLAYER_M,Давайте вместе стремиться к большему.,
 lilis_001_3_reaction_char_LILITHMON,char_LILITHMON,"Если вы хотите достичь больших высот нечестивыми средствами, то
@@ -3298,15 +3289,15 @@ belfrm_001_3_reaction_char_BELPHEMON_RM,char_BELPHEMON_RM,"Обычно я бы 
 belfrm_001_4_replay,char_PLAYER_M,Да.,
 belfrm_001_4_reaction_char_BELPHEMON_RM,char_BELPHEMON_RM,"Не кажется, что прошла тысяча лет. Я бы хотел поспать еще
 немного.",
-belfsm_001_0_char_BELPHEMON_SM,char_BELPHEMON_SM,Ззз... * храп*,
+belfsm_001_0_char_BELPHEMON_SM,char_BELPHEMON_SM,Ззз... *храп*,
 belfsm_001_1_replay,char_PLAYER_M,"Ух ты, кстати о громком храпе!",
 belfsm_001_1_reaction_char_BELPHEMON_SM,char_BELPHEMON_SM,"Эй...! Помолчи, или тебе это грозит... Ззз...",
 belfsm_001_2_replay,char_PLAYER_M,"Вероятно, сварливый стояк, так что я оставлю все как есть.",
 belfsm_001_2_reaction_char_BELPHEMON_SM,char_BELPHEMON_SM,"Че-?!... О. Думаю, еще не время просыпаться... Ззз...",
 belfsm_001_3_replay,char_PLAYER_M,Оно так мирно спит. Я буду вести себя тихо.,
-belfsm_001_3_reaction_char_BELPHEMON_SM,char_BELPHEMON_SM,Ззз... Ззз... * бормочу*,
+belfsm_001_3_reaction_char_BELPHEMON_SM,char_BELPHEMON_SM,Ззз... Ззз... *бормочу*,
 belfsm_001_4_replay,char_PLAYER_M,"Я заткну ему нос, чтобы он перестал храпеть.",
-belfsm_001_4_reaction_char_BELPHEMON_SM,char_BELPHEMON_SM,* фыркает * Да? * фыркает * Да?! Ззз...,
+belfsm_001_4_reaction_char_BELPHEMON_SM,char_BELPHEMON_SM,*фыркает* Да? *фыркает* Да?! Ззз...,
 ruches_001_0_char_LUCEMON_SM,char_LUCEMON_SM,Хочется запечатать меня?,
 ruches_001_1_replay,char_PLAYER_M,"Да, именно так.",
 ruches_001_1_reaction_char_LUCEMON_SM,char_LUCEMON_SM,"Вы, безусловно, искренни... И все же это невозможно. Я всего
@@ -4964,38 +4955,22 @@ common026_0_male_knowledge,,Это нормально - хотеть защит�
 common026_0_female_knowledge,,Это нормально - хотеть защитить своих друзей?,
 common026_0_old_knowledge,,Это нормально - хотеть защитить своих друзей?,
 common026_1_replay,char_PLAYER_M,Да. Это чувство сделает тебя сильнее.,
-common026_1_reaction_child_courage,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_male_courage,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_female_courage,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_old_courage,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_child_love,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_male_love,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_female_love,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_old_love,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_child_friendship,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_male_friendship,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_female_friendship,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_old_friendship,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_child_knowledge,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_male_knowledge,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_female_knowledge,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
-common026_1_reaction_old_knowledge,,"У меня было предчувствие, что так оно и есть. Наличие друзей
-придает мне сил!",
+common026_1_reaction_child_courage,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_male_courage,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_female_courage,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_old_courage,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_child_love,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_male_love,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_female_love,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_old_love,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_child_friendship,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_male_friendship,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_female_friendship,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_old_friendship,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_child_knowledge,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_male_knowledge,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_female_knowledge,,Так и есть! Друзья и правда придают мне сил!,
+common026_1_reaction_old_knowledge,,Так и есть! Друзья и правда придают мне сил!,
 common026_2_replay,char_PLAYER_M,Это чувство замедлит вас в бою.,
 common026_2_reaction_child_courage,,"Понятно. Отсутствие каких-либо чувств может облегчить сохранение
 спокойствия во время боя.",

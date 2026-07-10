@@ -3,7 +3,7 @@
 4,possible_player_address_gender,addcont_01_text01,message/d110.mbe/000_Sheet1.csv,66,d110_080_010,char_MIRAGEGAOGAMON,,сделал,"проверить, относится ли форма к игроку",What did you do with my master?!,Что ты сделал с моим хозяином?!,,fixed_character_correction,исправлен род фиксированного персонажа,,,Что ты сделала с моим хозяином?!
 4,possible_player_address_gender,addcont_01_text01,message/d120.mbe/000_Sheet1.csv,57,d120_060_030,char_SUMERAGI,,сказал,"проверить, относится ли форма к игроку","""Wh-What did you say?
 The captain's been seriously injured?!""","«Ч-что ты сказал?
-Капитан серьезно ранен?!""",d120_060_030,fixed_character_correction,исправлен род фиксированного персонажа,,,"«Ч-что ты сказал?
+Капитан серьезно ранен?!""",d120_060_030,fixed_context_style_rewrite,форма относится не к игроку; исправлены пунктуация или стиль,,,"«Ч-что ты сказал?
 Капитан тяжело ранен?!»"
 4,possible_player_address_gender,addcont_01_text01,message/d130.mbe/000_Sheet1.csv,42,d130_060_020,char_KUREMI,,сделал,"проверить, относится ли форма к игроку","""I have the weapon you made.
 It should at least give me a fighting chance.""","«У меня есть оружие, которое ты сделал.
@@ -42,7 +42,7 @@ I thought for sure you were dead!","Где ты был?!
 Я уже думала, что ты погиб!","Где ты была?!
 Я уже думала, что ты погибла!","Где ты был?!
 Я уже думала, что ты погиб!"
-4,possible_player_address_gender,addcont_02_text01,message/d220.mbe/000_Sheet1.csv,21,d220_030_150,char_BANCHOLEOMON,,вернулся,"проверить, относится ли форма к игроку","You didn't come back, so I was starting to worry.","Ты не вернулся, поэтому я начал волноваться.",d220_030_150,player_address_variant,NPC обращается к выбираемому герою,"Ты не вернулся, поэтому я начал волноваться.","Ты не вернулась, поэтому я начал волноваться.","Ты не вернулся, поэтому я начал волноваться."
+4,possible_player_address_gender,addcont_02_text01,message/d220.mbe/000_Sheet1.csv,21,d220_030_150,char_BANCHOLEOMON,,вернулся,"проверить, относится ли форма к игроку","You didn't come back, so I was starting to worry.","Ты не вернулся, поэтому я начал волноваться.",d220_030_150,fixed_character_correction,исправлен род фиксированного персонажа,,,"Ты не вернулась, поэтому я начал волноваться."
 4,possible_player_address_gender,addcont_03_text01,message/d310.mbe/000_Sheet1.csv,20,d310_030_080,char_OMEGAMON-X,,ранен,"проверить, относится ли форма к игроку","You seem to have gotten caught up in our battle,
 to disastrous results. I do hope you are not injured.","Похоже, тебя втянуло в нашу битву,
 и последствия вышли катастрофическими. Надеюсь, ты не ранен.",,player_address_variant,NPC обращается к выбираемому герою,"Похоже, тебя втянуло в нашу битву,
@@ -63,7 +63,7 @@ back when I was still new to public safety?""","«Помнишь, что ты с
 в мои первые дни в общественной безопасности?»",,fixed_context_keep,форма относится не к выбираемому герою,,,
 4,possible_player_address_gender,addcont_03_text01,message/d320.mbe/000_Sheet1.csv,151,d320_070_110,char_TOUDO,,был,"проверить, относится ли форма к игроку","""You told me that I was exactly the right
 kind of person to work in public safety.""","«Ты сказал мне, что я был совершенно прав
-такой человек, который будет работать в сфере общественной безопасности».",,fixed_character_correction,исправлен род фиксированного персонажа,,,"«Ты сказал, что для службы в общественной безопасности
+такой человек, который будет работать в сфере общественной безопасности».",,fixed_context_style_rewrite,форма относится не к игроку; исправлены пунктуация или стиль,,,"«Ты сказал, что для службы в общественной безопасности
 нужны именно такие люди, как я»."
 4,possible_player_address_gender,patch_text01,message/arena01.mbe/000_Sheet1.csv,88,arena01_f001_010_047,char_SOCERIMON,,сказал,"проверить, относится ли форма к игроку","Nope! You weren't even close! You said ""When our mighty
 powers join together..."" with that dumb look on your face.","Нет! Ты даже не был близок к этому! Ты сказал ""Когда наши
@@ -72,10 +72,10 @@ powers join together..."" with that dumb look on your face.","Нет! Ты да�
 You've been single as long as I've known you, glurp...","Хм, глурп? Главарь, когда ты успел обзавестись семьей, глурп?
 Ты был холост, сколько я тебя знаю, глурп...",,fixed_context_keep,форма относится не к выбираемому герою,,,
 4,possible_player_address_gender,patch_text01,message/battle.mbe/000_Sheet1.csv,304,1200020126,char_CHRONOMON_BOSS_EVENT,,должен,"проверить, относится ли форма к игроку","You should be teetering on the brink
-of the abyss...",Ты должен был бы балансировать на краю пропасти...,1200020126,player_address_variant,NPC обращается к выбираемому герою,Ты должен был бы балансировать на краю пропасти...,Ты должна была бы балансировать на краю пропасти...,Ты должен был бы балансировать на краю пропасти...
-4,possible_player_address_gender,patch_text01,message/battle.mbe/000_Sheet1.csv,349,1200020170,char_VENUSMON,,должен,"проверить, относится ли форма к игроку",You must not fall.,Ты не должен упасть.,1200020170,player_address_variant,NPC обращается к выбираемому герою,Ты не должен упасть.,Ты не должна упасть.,Ты не должен упасть.
+of the abyss...",Ты должен был бы балансировать на краю пропасти...,1200020126,fixed_character_correction,исправлен род фиксированного персонажа,,,Ты уже должен быть на грани гибели...
+4,possible_player_address_gender,patch_text01,message/battle.mbe/000_Sheet1.csv,349,1200020170,char_VENUSMON,,должен,"проверить, относится ли форма к игроку",You must not fall.,Ты не должен упасть.,1200020170,fixed_character_correction,исправлен род фиксированного персонажа,,,Держись!
 4,possible_player_address_gender,patch_text01,message/d01.mbe/000_Sheet1.csv,35,f_d0101_0100_0020,char_SOCERIMON,,уверен,"проверить, относится ли форма к игроку",Are you sure about this?! Just what have you done?!,Ты уверен в этом?! Что ты только что сделал?!,,player_address_variant,NPC обращается к выбираемому герою,Ты уверен в этом?! Что ты только что сделал?!,Ты уверена в этом?! Что ты только что сделала?!,Ты уверен в этом?! Что ты только что сделал?!
-4,possible_player_address_gender,patch_text01,message/d01.mbe/000_Sheet1.csv,50,f_d0101_0140_0020,char_PUMPMON,,должен,"проверить, относится ли форма к игроку",We need it in order to change things! You've gotta trust me.,"Нам это нужно, чтобы что-то изменить! Ты должен довериться мне.",,player_address_variant,NPC обращается к выбираемому герою,"Нам это нужно, чтобы что-то изменить! Ты должен довериться мне.","Нам это нужно, чтобы что-то изменить! Ты должна довериться мне.","Нам это нужно, чтобы что-то изменить! Ты должен довериться мне."
+4,possible_player_address_gender,patch_text01,message/d01.mbe/000_Sheet1.csv,50,f_d0101_0140_0020,char_PUMPMON,,должен,"проверить, относится ли форма к игроку",We need it in order to change things! You've gotta trust me.,"Нам это нужно, чтобы что-то изменить! Ты должен довериться мне.",,fixed_character_correction,исправлен род фиксированного персонажа,,,"Нам это нужно, чтобы всё изменить! Поверь мне."
 4,possible_player_address_gender,patch_text01,message/d01.mbe/000_Sheet1.csv,209,f_d0108_0040_0040,char_VIKEMON,,сделал,"проверить, относится ли форма к игроку","You've done more than enough... and we aren't gonna
 take it anymore!","Ты сделал более чем достаточно... И мы больше не собираемся
 этого терпеть!",,fixed_context_keep,форма относится не к выбираемому герою,,,
@@ -91,7 +91,7 @@ to Junomon's temple.","Ты смог починить Локомона! Это �
 отправиться в храм Юномон.","Ты смогла починить Локомона! Это значит, что мы наконец-то можем
 отправиться в храм Юномон.","Ты смог починить Локомона! Это значит, что мы наконец-то можем
 отправиться в храм Юномон."
-4,possible_player_address_gender,patch_text01,message/d02.mbe/000_Sheet1.csv,173,f_d0201_0650_0060,char_GOBURIMON,,сделал,"проверить, относится ли форма к игроку",You did?! That's awesome! Gyahaha!,Ты сделал?! Это потрясающе! Гяхаха!,,player_address_variant,NPC обращается к выбираемому герою,Ты сделал?! Это потрясающе! Гяхаха!,Ты сделала?! Это потрясающе! Гяхаха!,Ты сделал?! Это потрясающе! Гяхаха!
+4,possible_player_address_gender,patch_text01,message/d02.mbe/000_Sheet1.csv,173,f_d0201_0650_0060,char_GOBURIMON,,сделал,"проверить, относится ли форма к игроку",You did?! That's awesome! Gyahaha!,Ты сделал?! Это потрясающе! Гяхаха!,,fixed_character_correction,исправлен род фиксированного персонажа,,,Ты правда уволился?! Вот это круто! Гя-ха-ха!
 4,possible_player_address_gender,patch_text01,message/d02.mbe/000_Sheet1.csv,180,f_d0201_0670_0020,char_PUMPMON,,был,"проверить, относится ли форма к игроку","...Wait. Who were you, again? ...But whatever. No biggie.","... Подожди. Напомни, кем ты был?...Но неважно. Ничего
 особенного.",,player_address_variant,NPC обращается к выбираемому герою,"... Подожди. Напомни, кем ты был?...Но неважно. Ничего
 особенного.","... Подожди. Напомни, кем ты была?...Но неважно. Ничего
@@ -112,11 +112,8 @@ show who helped get the city back!","Ого, где ты был? Давай! Т�
 город!"
 4,possible_player_address_gender,patch_text01,message/d02.mbe/000_Sheet1.csv,642,f_d0204_0260_0030,char_CHOROMON,,должен,"проверить, относится ли форма к игроку","Wake up, dear customer! You mustn't sleep in the
 middle of the floor like this!","Просыпайся, дорогой клиент! Ты не должен спать посреди пола в
-таком виде!",,player_address_variant,NPC обращается к выбираемому герою,"Просыпайся, дорогой клиент! Ты не должен спать посреди пола в
-таком виде!","Просыпайся, дорогой клиент! Ты не должна спать посреди пола в
-таком виде!","Просыпайся, дорогой клиент! Ты не должен спать посреди пола в
-таком виде!"
-4,possible_player_address_gender,patch_text01,message/d02.mbe/000_Sheet1.csv,737,f_d0204_9010_0010,char_STARMON,,готов,"проверить, относится ли форма к игроку",...Are you next? Very well! Are you ready?!,... Ты следующий? Очень хорошо! Ты готов?!,,player_address_variant,NPC обращается к выбираемому герою,... Ты следующий? Очень хорошо! Ты готов?!,... Ты следующий? Очень хорошо! Ты готова?!,... Ты следующий? Очень хорошо! Ты готов?!
+таком виде!",,fixed_character_correction,исправлен род фиксированного персонажа,,,"Просыпайся, дорогая клиентка! Нельзя же спать прямо на полу!"
+4,possible_player_address_gender,patch_text01,message/d02.mbe/000_Sheet1.csv,737,f_d0204_9010_0010,char_STARMON,,готов,"проверить, относится ли форма к игроку",...Are you next? Very well! Are you ready?!,... Ты следующий? Очень хорошо! Ты готов?!,,player_address_variant,NPC обращается к выбираемому герою,... Ты следующий? Очень хорошо! Ты готов?!,... Ты следующая? Очень хорошо! Ты готова?!,... Ты следующий? Очень хорошо! Ты готов?!
 4,possible_player_address_gender,patch_text01,message/d02.mbe/000_Sheet1.csv,810,f_d0209_0050_0020,char_INORI,,ранен,"проверить, относится ли форма к игроку",Are you hurt? Did the Titans do this to you?,Ты ранен? Титаны сделали это с тобой?,,fixed_context_keep,форма относится не к выбираемому герою,,,
 4,possible_player_address_gender,patch_text01,message/d03.mbe/000_Sheet1.csv,31,f_d0301_0060_0020,char_DAGOMON,,был,"проверить, относится ли форма к игроку","Where have you been, my brother...? I was looking high and
 low for you!","Где ты был, брат мой...? Я искал тебя повсюду!",,fixed_context_keep,форма относится не к выбираемому герою,,,
@@ -308,18 +305,18 @@ seen the looks on their faces! Nyahaha!","Ещё! Мне нужно стырит
 Нья-ха-ха!","Ещё! Мне нужно стырить у них ещё вещей! Ты бы видел их лица!
 Нья-ха-ха!"
 4,possible_player_address_gender,patch_text01,message/m110.mbe/000_Sheet1.csv,45,m110_030_100,char_INORI,,права,"проверить, относится ли форма к игроку","Yeah... I guess you're right. Sorry, Hiroko.","Да... Полагаю, ты права. Прости, Хирока.",m110_030_100,fixed_context_keep,форма относится не к выбираемому герою,,,
-4,possible_player_address_gender,patch_text01,message/m110.mbe/000_Sheet1.csv,66,m110_050_120,char_INORI,,сказал,"проверить, относится ли форма к игроку",You said you know this place. Have you visited here before?,"Ты сказал, что знаешь это место. Ты бывал здесь раньше?",m110_050_120,player_address_variant,NPC обращается к выбираемому герою,"Ты сказал, что знаешь это место. Ты бывал здесь раньше?","Ты сказала, что знаешь это место. Ты бывала здесь раньше?","Ты сказал, что знаешь это место. Ты бывал здесь раньше?"
+4,possible_player_address_gender,patch_text01,message/m110.mbe/000_Sheet1.csv,66,m110_050_120,char_INORI,,сказал,"проверить, относится ли форма к игроку",You said you know this place. Have you visited here before?,"Ты сказал, что знаешь это место. Ты бывал здесь раньше?",m110_050_120,fixed_character_correction,исправлен род фиксированного персонажа,,,"Ты говорил, что знаешь это место. Уже бывал здесь?"
 4,possible_player_address_gender,patch_text01,message/m120.mbe/000_Sheet1.csv,10,m120_010_081,char_PLAYER_M,,ранена,"проверить, относится ли форма к игроку","You aren't hurt, are you?",Ты не ранена?,,fixed_context_keep,форма относится не к выбираемому герою,,,
 4,possible_player_address_gender,patch_text01,message/m120.mbe/000_Sheet1.csv,54,m120_060_100,char_INORI,,уверен,"проверить, относится ли форма к игроку",Sightseeing? You sure you got your priorities straight...?,"Осмотр достопримечательностей? Ты уверен, что у тебя правильно
 расставлены приоритеты...?",m120_060_100,player_address_variant,NPC обращается к выбираемому герою,"Осмотр достопримечательностей? Ты уверен, что у тебя правильно
 расставлены приоритеты...?","Осмотр достопримечательностей? Ты уверена, что у тебя правильно
 расставлены приоритеты...?","Осмотр достопримечательностей? Ты уверен, что у тебя правильно
 расставлены приоритеты...?"
-4,possible_player_address_gender,patch_text01,message/m120.mbe/000_Sheet1.csv,115,m120_100_230,char_CORONAMON,,сказал,"проверить, относится ли форма к игроку",What did you say?!,Что ты сказал?!,m120_100_230,player_address_variant,NPC обращается к выбираемому герою,Что ты сказал?!,Что ты сказала?!,Что ты сказал?!
+4,possible_player_address_gender,patch_text01,message/m120.mbe/000_Sheet1.csv,115,m120_100_230,char_CORONAMON,,сказал,"проверить, относится ли форма к игроку",What did you say?!,Что ты сказал?!,m120_100_230,fixed_character_correction,исправлен род фиксированного персонажа,,,Что вы сказали?!
 4,possible_player_address_gender,patch_text01,message/m130.mbe/000_Sheet1.csv,65,m130_070_014,char_AEGIOMON,,сказала,"проверить, относится ли форма к игроку","That night, under that starry sky... you said ""always,""
 right? That you'd always be by my side...?","Той ночью, под этим звёздным небом... ты сказала ""всегда"",
 верно? Что ты всегда будешь рядом со мной...?",m130_070_014,fixed_context_keep,форма относится не к выбираемому герою,,,
-4,possible_player_address_gender,patch_text01,message/m130.mbe/000_Sheet1.csv,72,m130_090_020,char_CORONAMON,,видел,"проверить, относится ли форма к игроку",Did you see me? Did you see what I can do? Hahaha!,"Ты видел меня? Видел, на что я способен? Хахаха!",m130_090_020,player_address_variant,NPC обращается к выбираемому герою,"Ты видел меня? Видел, на что я способен? Хахаха!","Ты видела меня? Видела, на что я способен? Хахаха!","Ты видел меня? Видел, на что я способен? Хахаха!"
+4,possible_player_address_gender,patch_text01,message/m130.mbe/000_Sheet1.csv,72,m130_090_020,char_CORONAMON,,видел,"проверить, относится ли форма к игроку",Did you see me? Did you see what I can do? Hahaha!,"Ты видел меня? Видел, на что я способен? Хахаха!",m130_090_020,fixed_character_correction,исправлен род фиксированного персонажа,,,"Ты видела меня? Видела, на что я способен? Ха-ха-ха!"
 4,possible_player_address_gender,patch_text01,message/m140.mbe/000_Sheet1.csv,6,m140_010_050,char_MINERVAMON,,знал,"проверить, относится ли форма к игроку","These humans helped us fight them off for now. Were you
 aware of the Titans' presence?","Эти люди помогли нам пока что отбить их. Ты знал о присутствии
 Титанов?",m140_010_050,fixed_context_keep,форма относится не к выбираемому герою,,,
@@ -331,17 +328,14 @@ For this purpose, and this purpose alone, were you born.","Мы должны з�
 цели, и только для этой, ты был рожден.",m160_060_030,fixed_context_keep,форма относится не к выбираемому герою,,,
 4,possible_player_address_gender,patch_text01,message/m170.mbe/000_Sheet1.csv,84,m170_065_100,char_SHELLMON,,сказал,"проверить, относится ли форма к игроку","But it's just like you said, right? You don't need a reason to care
 about someone when they're hurt.","Но все именно так, как ты сказал, верно? Тебе не нужна причина,
-чтобы заботиться о ком-то, когда ему больно.",m170_065_100,player_address_variant,NPC обращается к выбираемому герою,"Но все именно так, как ты сказал, верно? Тебе не нужна причина,
-чтобы заботиться о ком-то, когда ему больно.","Но все именно так, как ты сказала, верно? Тебе не нужна причина,
-чтобы заботиться о ком-то, когда ему больно.","Но все именно так, как ты сказал, верно? Тебе не нужна причина,
-чтобы заботиться о ком-то, когда ему больно."
+чтобы заботиться о ком-то, когда ему больно.",m170_065_100,fixed_character_correction,исправлен род фиксированного персонажа,,,"Но ведь всё именно так, как ты сказала, правда? Чтобы позаботиться о том, кому больно, причина не нужна."
 4,possible_player_address_gender,patch_text01,message/m170.mbe/000_Sheet1.csv,129,m170_090_030,char_SHELLMON,,прав,"проверить, относится ли форма к игроку","You're right... It'll be harder than ever for them
-to understand now...","Ты прав... Сейчас им будет труднее, чем когда-либо, понять...",m170_090_030,player_address_variant,NPC обращается к выбираемому герою,"Ты прав... Сейчас им будет труднее, чем когда-либо, понять...","Ты права... Сейчас им будет труднее, чем когда-либо, понять...","Ты прав... Сейчас им будет труднее, чем когда-либо, понять..."
-4,possible_player_address_gender,patch_text01,message/m170.mbe/000_Sheet1.csv,178,m170_130_010,char_SHARKMON_BOSS,,нашел,"проверить, относится ли форма к игроку",Quit draggin' yer feet! Did you find the Current?,Перестань волочить ноги! Ты нашел течение?,m170_130_010,player_address_variant,NPC обращается к выбираемому герою,Перестань волочить ноги! Ты нашел течение?,Перестань волочить ноги! Ты нашла течение?,Перестань волочить ноги! Ты нашел течение?
-4,possible_player_address_gender,patch_text01,message/m170.mbe/000_Sheet1.csv,182,m170_130_050,char_SHARKMON_BOSS,,жив,"проверить, относится ли форма к игроку",...! You! You're alive?!,...! Ты! Ты жив?!,m170_130_050,player_address_variant,NPC обращается к выбираемому герою,...! Ты! Ты жив?!,...! Ты! Ты жива?!,...! Ты! Ты жив?!
+to understand now...","Ты прав... Сейчас им будет труднее, чем когда-либо, понять...",m170_090_030,fixed_character_correction,исправлен род фиксированного персонажа,,,Ты права... Теперь им будет ещё труднее это понять...
+4,possible_player_address_gender,patch_text01,message/m170.mbe/000_Sheet1.csv,178,m170_130_010,char_SHARKMON_BOSS,,нашел,"проверить, относится ли форма к игроку",Quit draggin' yer feet! Did you find the Current?,Перестань волочить ноги! Ты нашел течение?,m170_130_010,fixed_character_correction,исправлен род фиксированного персонажа,,,Хватит копаться! Течение нашли?
+4,possible_player_address_gender,patch_text01,message/m170.mbe/000_Sheet1.csv,182,m170_130_050,char_SHARKMON_BOSS,,жив,"проверить, относится ли форма к игроку",...! You! You're alive?!,...! Ты! Ты жив?!,m170_130_050,fixed_character_correction,исправлен род фиксированного персонажа,,,...! Ты?! Ты жив?!
 4,possible_player_address_gender,patch_text01,message/m170.mbe/000_Sheet1.csv,258,m170_210_090,char_JUNOMON,,уверен,"проверить, относится ли форма к игроку",The Current... Are you certain that is what the Titans said?,"Течение... Ты уверен, что Титаны сказали именно это?",m170_210_090,player_address_variant,NPC обращается к выбираемому герою,"Течение... Ты уверен, что Титаны сказали именно это?","Течение... Ты уверена, что Титаны сказали именно это?","Течение... Ты уверен, что Титаны сказали именно это?"
 4,possible_player_address_gender,patch_text01,message/m190.mbe/000_Sheet1.csv,71,m190_060_210,char_JUNOMON,,должен,"проверить, относится ли форма к игроку",Great Guardian! You must stay behind.,Великий Страж! Ты должен остаться.,m190_060_210,fixed_context_keep,форма относится не к выбираемому герою,,,
-4,possible_player_address_gender,patch_text01,message/m190.mbe/000_Sheet1.csv,93,m190_070_090,char_INORI,,уверен,"проверить, относится ли форма к игроку",Are you sure you didn't want to stay there?,"Ты уверен, что не хотел остаться там?",m190_070_090,player_address_variant,NPC обращается к выбираемому герою,"Ты уверен, что не хотел остаться там?","Ты уверена, что не хотела остаться там?","Ты уверен, что не хотел остаться там?"
+4,possible_player_address_gender,patch_text01,message/m190.mbe/000_Sheet1.csv,93,m190_070_090,char_INORI,,уверен,"проверить, относится ли форма к игроку",Are you sure you didn't want to stay there?,"Ты уверен, что не хотел остаться там?",m190_070_090,fixed_character_correction,исправлен род фиксированного персонажа,,,Ты точно не хотел там остаться?
 4,possible_player_address_gender,patch_text01,message/m210.mbe/000_Sheet1.csv,71,m210_030_120,char_INORI,,ранен,"проверить, относится ли форма к игроку","Wh-What's wrong? You look like you're in pain... Are you
 hurt or something?","Ч-Что случилось? Ты выглядишь, будто тебе больно... Ты ранен или
 что?",m210_030_120,player_address_variant,NPC обращается к выбираемому герою,"Ч-Что случилось? Ты выглядишь, будто тебе больно... Ты ранен или
@@ -414,7 +408,7 @@ make this shirt the Twentiest?","Это скорее ощущение, так ч
 realized who I was.","Ты прав. Это я, Курои. Удивлён,
 что ты меня узнал.",,player_address_variant,NPC обращается к выбираемому герою,"Ты прав. Это я, Курои. Удивлён,
 что ты меня узнал.","Ты права. Это я, Курои. Удивлён,
-что ты меня узнал.","Ты прав. Это я, Курои. Удивлён,
+что ты меня узнала.","Ты прав. Это я, Курои. Удивлён,
 что ты меня узнал."
 4,possible_player_address_gender,patch_text01,message/s010_180.mbe/000_Sheet1.csv,23,s010_180_200,char_TOUDO,,ранен,"проверить, относится ли форма к игроку","Are you hurt?! And all because you protected me... Help is
 on the way! Hang in there!","Ты ранен?! И все потому, что ты защитил меня... Помощь уже в
@@ -591,16 +585,12 @@ Enter once you're ready.","Ты готов к матчу? Входи, когда
 4,possible_player_address_gender,patch_text01,message/t01.mbe/000_Sheet1.csv,282,f_t0121_090_0030,char_DIGIBATO_MAGAZINE_REPORTER,,устал,"проверить, относится ли форма к игроку",What's that? You're tired and want to talk later?,Что это? Ты устал и хочешь поговорить позже?,,player_address_variant,NPC обращается к выбираемому герою,Что это? Ты устал и хочешь поговорить позже?,Что это? Ты устала и хочешь поговорить позже?,Что это? Ты устал и хочешь поговорить позже?
 4,possible_player_address_gender,patch_text01,message/t03.mbe/000_Sheet1.csv,30,f_t0302_0110_0120,char_MINERVAMON,,уверен,"проверить, относится ли форма к игроку","You sure? I bet I could squeeze a little more information
 out of him... That noggin of his looks real squeezable...","Ты уверен? Бьюсь об заклад, я могла бы выжать из него ещё
-немного информации... Его башка выглядит такой сжимаемой...",,player_address_variant,NPC обращается к выбираемому герою,"Ты уверен? Бьюсь об заклад, я могла бы выжать из него ещё
-немного информации... Его башка выглядит такой сжимаемой...","Ты уверена? Бьюсь об заклад, я могла бы выжать из него ещё
-немного информации... Его башка выглядит такой сжимаемой...","Ты уверен? Бьюсь об заклад, я могла бы выжать из него ещё
-немного информации... Его башка выглядит такой сжимаемой..."
+немного информации... Его башка выглядит такой сжимаемой...",,fixed_character_correction,исправлен род фиксированного персонажа,,,Уверена? Я бы ещё немного из него выжала... Так и хочется стиснуть эту башку...
 2,style_review,addcont_01_text01,message/d120.mbe/000_Sheet1.csv,107,d120_110_010,char_KUREMIKYOKO,,действительно,проверить машинный усилитель,"""So... you're really going?""",— Итак… ты действительно собираешься?,d120_110_010,style_keep,маркер естественен в контексте,,,
 2,style_review,addcont_02_text01,message/d220.mbe/000_Sheet1.csv,63,d220_060_030,char_BANCHOSTINGMON,,действительно,проверить машинный усилитель,"Yes, you are indeed a true Bancho.","Да, ты действительно настоящий Банчо.",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Да, ты настоящий Банчо."
 2,style_review,addcont_02_text01,message/d220.mbe/000_Sheet1.csv,73,d220_060_130,char_BANCHOSTINGMON,,действительно,проверить машинный усилитель,"I appreciate your concern.
 You really do pack quite a punch.","Я ценю вашу заботу.
-Ты действительно очень мощная личность.",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Спасибо за заботу.
-От тебя и правда исходит невероятная сила."
+Ты действительно очень мощная личность.",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,Спасибо за заботу. Но и удар у тебя будь здоров.
 2,style_review,addcont_02_text01,message/d220.mbe/000_Sheet1.csv,89,d220_080_070,char_UNKNOWN,,действительно,проверить машинный усилитель,"If you are truly worthy of that GAKU-RAN...
 Then let your fists do the talking.","Если ты действительно достоин этого ГАКУ-РАН...
 Тогда пусть ваши кулаки говорят сами за себя.",d220_080_070,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Если ты достоин этого ГАКУ-РАНА...
@@ -635,8 +625,8 @@ familiar, but I'll be damned if I can remember 'em!","""Монзаэмон и д
 знакомыми, но будь я проклят, если смогу их вспомнить!",,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/arena01.mbe/000_Sheet1.csv,56,arena01_f001_007_030,char_ETEMON,,довольно,проверить машинный усилитель,"Coincidence? Or strategy? They had one bye after another!
 Are they any good? Who knows? That's quite a smell, though!","Совпадение? Или стратегия? Они прощались одно за другим! Хороши
-ли они? Кто знает? Хотя это довольно неприятный запах!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Совпадение или хитрый план? Они выбывали один за другим! Хороши
-ли они? Кто знает? Но запашок от них ещё тот!"
+ли они? Кто знает? Хотя это довольно неприятный запах!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Совпадение или хитрый план? Они раз за разом проходили дальше
+без боя! Хороши ли они? Кто знает? Но запашок от них ещё тот!"
 2,style_review,patch_text01,message/arena01.mbe/000_Sheet1.csv,95,arena01_f001_011_040,char_TITAMON,,довольно,проверить машинный усилитель,"It has been a while, kid! I am rather busy, though, so
 let's hurry up and finish this thing, already!","Давно не виделись, малыш! Однако я довольно занят, так что давай
 поторопимся и закончим это дело, уже сейчас!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Давно не виделись, малыш! Но у меня дел по горло, так что
@@ -669,7 +659,7 @@ defenses falter.","Действительно... Мы должны быть бд
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,131,f_d0201_0550_0030,char_IMPMON,,довольно,проверить машинный усилитель,"So ya took down the Titans...?
 Yeah, I guess that's pretty impressive...","Итак, тебе удалось победить Титанов...? Да, думаю, это довольно
 впечатляет...",,style_keep,маркер естественен в контексте,,,
-2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,151,f_d0201_0600_0030,char_BAKUMON,,довольно,проверить машинный усилитель,...but their standard of living is pretty hard for us to bear.,..но нам довольно трудно выносить их уровень жизни.,,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,...но мириться с их уровнем жизни нам непросто.
+2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,151,f_d0201_0600_0030,char_BAKUMON,,довольно,проверить машинный усилитель,...but their standard of living is pretty hard for us to bear.,..но нам довольно трудно выносить их уровень жизни.,,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,...но мириться с навязанным ими укладом нам непросто.
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,186,f_d0201_0680_0010,char_FALCOMON,,действительно,проверить машинный усилитель,"While it does feel like life is more prosperous here since the
 Titans arrived...","Хотя действительно кажется, что с тех пор, как прибыли Титаны,
 жизнь здесь стала более процветающей...",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Хотя с появлением Титанов жизнь здесь, похоже,
@@ -721,7 +711,7 @@ I received word that the Digimon there are quite formidable.","Позвольт�
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,670,f_d0204_0380_0020,char_REVOLMON,,действительно,проверить машинный усилитель,"These here are some real tough customers... Taught me a lesson
 in bein' outgunned.","Это действительно крутые клиенты... Преподали мне урок того, как
 быть вооруженным.",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Вот это крутые ребята... Показали мне,
-что значит быть во всеоружии."
+что значит уступать в огневой мощи."
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,694,f_d0204_0470_0020,char_ARCHNEMON,,довольно,проверить машинный усилитель,"Oh, but you look pretty tasty. Now which part should I eat
 first...","О, но ты выглядишь довольно аппетитно. Теперь, какую часть мне
 съесть первой...",,style_keep,маркер естественен в контексте,,,
@@ -730,8 +720,8 @@ see this place again...","Я действительно ценю это. Чес�
 увижу это место снова...",,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,714,f_d0204_0560_0030,char_WEREGARURUMON,,действительно,проверить машинный усилитель,"You have my heartfelt gratitude!
 Thanks! I really mean it!","Примите мою искреннюю благодарность! Спасибо! Я действительно
-это имею в виду!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Примите мою искреннюю благодарность! Спасибо!
-Я от всего сердца!"
+это имею в виду!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Примите мою искреннюю благодарность!
+Спасибо! Я правда очень благодарен!"
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,747,f_d0204_9020_0040,char_TURUIEMON,,действительно,проверить машинный усилитель,*hiccup* I losht. Now I really need a drink.,* иккинг * Я проигрываю. Теперь мне действительно нужно выпить.,,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,*Ик* Я проиграл. Теперь точно пора выпить.
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,834,f_d0212_0020_0030,char_GEREMON,,действительно,проверить машинный усилитель,Wow! You really are a protagonist!,Вау! Ты действительно главный герой!,,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/d02.mbe/000_Sheet1.csv,850,f_d0213_0030_0040,char_EX-TYRANOMON,,довольно,проверить машинный усилитель,"It'd been quite a while since I fought, so now I'm one of
@@ -741,7 +731,7 @@ the patients, too. Hahaha...","Прошло довольно много врем
 It was real yummy!","Сегодня я ела Дигимясо с Лунамон. Это было действительно
 вкусно!",,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/d03.mbe/000_Sheet1.csv,5,f_d0301_0010_0040,char_SHELLMON,,действительно,проверить машинный усилитель,"I really hate to ask, but do you think you could track down Kamemon?","Мне действительно неприятно спрашивать, но, как ты думаешь, ты
-мог бы разыскать Камемона?",f_d0301_0010_0040,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Неловко просить, но... не мог бы ты разыскать Камемона?"
+мог бы разыскать Камемона?",f_d0301_0010_0040,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Неловко просить, но... сможешь разыскать Камемона?"
 2,style_review,patch_text01,message/d03.mbe/000_Sheet1.csv,28,f_d0301_0050_0070,char_SHELLMON,,действительно,проверить машинный усилитель,"If you really can't find him, could you please come back here?","Если вы действительно не можете его найти, не могли бы вы,
 пожалуйста, вернуться сюда?",f_d0301_0050_0070,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/d03.mbe/000_Sheet1.csv,41,f_d0301_0070_0010,char_HANGYOMON,,довольно,проверить машинный усилитель,"It's been a while, brother. Unlike most others, I understand
@@ -760,7 +750,7 @@ We'll take care of the rest!","Если там действительно ест
 2,style_review,patch_text01,message/d03.mbe/000_Sheet1.csv,167,f_d0302_0160_0030,char_KAMEMON,,действительно,проверить машинный усилитель,"I'm struggling! Fighting for my life! Are you really just
 gonna stand there and watch!?","Я борюсь! Борюсь за свою жизнь! Ты действительно собираешься
 просто стоять и смотреть!?",f_d0302_0160_0030,style_keep,маркер естественен в контексте,,,
-2,style_review,patch_text01,message/d03.mbe/000_Sheet1.csv,178,f_d0302_0180_0020,char_KAMEMON,,действительно,проверить машинный усилитель,OW! That really smarts! Who even are you!?,ОЙ! Это действительно умно! Кто ты вообще такой!?,f_d0302_0180_0020,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,ОЙ! Умно придумано! Да кто ты вообще такой?!
+2,style_review,patch_text01,message/d03.mbe/000_Sheet1.csv,178,f_d0302_0180_0020,char_KAMEMON,,действительно,проверить машинный усилитель,OW! That really smarts! Who even are you!?,ОЙ! Это действительно умно! Кто ты вообще такой!?,f_d0302_0180_0020,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,АЙ! Больно же! Да кто ты вообще такой?!
 2,style_review,patch_text01,message/d03.mbe/000_Sheet1.csv,304,f_d0303_0040_0090,char_OPERATOR_M,yes,действительно,проверить машинный усилитель,"I'm not sure if he deserves to be trusted. And he did leave
 you in an unsafe area...","Неясно, заслуживает ли он доверия. И он действительно
 оставил тебя в небезопасном месте...",f_d0303_0040_0090_M f_d0303_0040_0090_F,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Неясно, можно ли ему доверять. К тому же он бросил тебя
@@ -785,7 +775,7 @@ battles with others.","Неужели я действительно выигра
 2,style_review,patch_text01,message/d04.mbe/000_Sheet1.csv,128,f_d0404_0030_0020,char_FLORAMON,,действительно,проверить машинный усилитель,"Shurimon gave me a sound scolding... but Shurimon is a good
 person who really cares, too...","Шуримон хорошенько отругал меня... но Шуримон — хороший человек,
 который тоже действительно заботится...",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Шуримон как следует меня отругал... но у него доброе сердце,
-и он правда переживает за остальных..."
+и ему правда не всё равно..."
 2,style_review,patch_text01,message/d04.mbe/000_Sheet1.csv,150,f_d0404_0080_0020,char_LILAMON,,действительно,проверить машинный усилитель,"I know, right? It looked really dangerous! I wonder what it was...","Я знаю, да? Выглядело действительно опасно! Интересно, что это
 было...",,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/d04.mbe/000_Sheet1.csv,233,f_d0404_0300_0010,char_PINOCHIMON,,действительно,проверить машинный усилитель,"Man, what an awesome party! All three of 'em have really
@@ -942,7 +932,7 @@ helping these two to grow.","Та встреча с ""похитителем я�
 2,style_review,patch_text01,message/d12.mbe/000_Sheet1.csv,42,f_d1204_0170_0040,char_KOKUWAMON_A,,действительно,проверить машинный усилитель,"I don't really know how to put it, but... right now, the
 two of us can hardly stand the place.","Я действительно не знаю, как это выразить, но... Прямо сейчас
 мы вдвоем едва выносим это место.",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Не знаю, как сказать, но... вдвоём мы здесь
-едва держимся."
+едва выносим это место."
 2,style_review,patch_text01,message/d12.mbe/000_Sheet1.csv,94,f_d1204_0520_0010,char_INORI,,действительно,проверить машинный усилитель,"Is it just me, or does something seem really off?","Мне кажется, или что-то действительно не так?",f_d1204_0520_0010,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/d12.mbe/000_Sheet1.csv,128,f_d1204_0610_0010,char_TYUMON,,действительно,проверить машинный усилитель,"Hey there! Got some real good info for ya! I'll even let
 ya have it for free!","Привет! У меня для вас действительно хорошая информация! Я даже
@@ -1012,8 +1002,8 @@ and Aegiomon are anomalies themselves.","Тем не менее, ты не мо�
 2,style_review,patch_text01,message/m090.mbe/000_Sheet1.csv,84,m090_080_080,char_MINERVAMON,,довольно,проверить машинный усилитель,But things have taken quite a turn since then...,Но с тех пор события приняли довольно неожиданный оборот...,m090_080_080,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/m090.mbe/000_Sheet1.csv,85,m090_080_090,char_MINERVAMON,,является,проверить канцелярское является,"I come from Iliad, a Digital World that's kind of a parallel
 universe to the Material World you live in.","Я пришла из Илиады, Цифрового мира, который вроде как является
-параллельной вселенной к Материальному Миру, в котором вы живёте.",m090_080_090,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Я пришла из Илиады — Цифрового мира, своего рода параллельной
-вселенной к Материальному миру, где живёте вы."
+параллельной вселенной к Материальному Миру, в котором вы живёте.",m090_080_090,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Я пришла из Илиады — Цифрового мира, параллельного
+Материальному миру, где живёте вы."
 2,style_review,patch_text01,message/m090.mbe/000_Sheet1.csv,90,m090_080_140,char_MINERVAMON,,действительно,проверить машинный усилитель,"But I guess that's a question for another time. More
 importantly right now, I could really use your help.","Но, думаю, этот вопрос для другого раза. Что важнее сейчас, мне
 действительно пригодилась бы твоя помощь.",m090_080_140,style_keep,маркер естественен в контексте,,,
@@ -1091,7 +1081,7 @@ seen you somewhere before...","Теперь, когда вы говорите...
 где-то раньше...",m235_010_110,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/m235.mbe/000_Sheet1.csv,52,m235_040_050,char_SIMMONS,,довольно,проверить машинный усилитель,"Things have been pretty hectic on my end. I was forced
 to transfer from the public safety office to D-SAT...","У меня на конце провода было довольно суматошно. Меня вынудили
-перевестись из офиса службы безопасности в D-SAT...",m235_040_050,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"У меня тут творился настоящий хаос. Меня перевели
+перевестись из офиса службы безопасности в D-SAT...",m235_040_050,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"У меня тут творился настоящий хаос. Мне пришлось перевестись
 из управления безопасности в D-SAT..."
 2,style_review,patch_text01,message/m240.mbe/000_Sheet1.csv,13,m240_020_090,char_MERCURYMON,,Действительно,проверить машинный усилитель,"Indeed, it is. Many humans here look upon us as the enemy.
 And it is true that we have caused considerable damage.","Действительно, трудно. Многие люди здесь смотрят на нас как на
@@ -1152,10 +1142,10 @@ eradication for ADAMAS.","Таким образом, Эгиомон и его п
 2,style_review,patch_text01,message/m330.mbe/000_Sheet1.csv,4,m330_010_030,char_INORI,,действительно,проверить машинный усилитель,"Is it just me, or does something seem really off?","Мне одной кажется, или что-то действительно не так?",,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/m330.mbe/000_Sheet1.csv,36,m330_010_250,char_AEGIOMON,,действительно,проверить машинный усилитель,So... the poison really has spread...,Значит... яд действительно распространился...,,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/m340.mbe/000_Sheet1.csv,70,m340_020_210,char_OPERATOR_M,yes,довольно,проверить машинный усилитель,...I've known you for quite some time now.,...я знаю тебя уже довольно давно.,m340_020_210_M m340_020_210_F,style_keep,маркер естественен в контексте,,,
-2,style_review,patch_text01,message/m350.mbe/000_Sheet1.csv,72,m350_120_010,char_MYSTERIOUS_DIGIMON,,Действительно,проверить машинный усилитель,"Ah... I see you have gotten stronger. Joyous news, indeed.","Ах... Я вижу, ты стал сильнее. Действительно радостная новость.",m350_120_010,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Ах... Вижу, ты стал сильнее. Какая радость."
+2,style_review,patch_text01,message/m350.mbe/000_Sheet1.csv,72,m350_120_010,char_MYSTERIOUS_DIGIMON,,Действительно,проверить машинный усилитель,"Ah... I see you have gotten stronger. Joyous news, indeed.","Ах... Я вижу, ты стал сильнее. Действительно радостная новость.",m350_120_010,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Ах... Вижу, твоя сила возросла. Какая радость."
 2,style_review,patch_text01,message/m360.mbe/000_Sheet1.csv,8,m360_010_052,char_PLAYER_M,,действительно,проверить машинный усилитель,Is that really Plutomon?{next},Это действительно Плутомон?{next},,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/m390.mbe/000_Sheet1.csv,109,m390_110_020,char_VULCANUSMON,,действительно,проверить машинный усилитель,Whew... Thanks. You really saved my hide.,Фух... Спасибо. Ты действительно спас мою шкуру.,m390_110_020,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,Фух... Спасибо. Без тебя я бы не справился.
-2,style_review,patch_text01,message/m400.mbe/000_Sheet1.csv,41,m370_110_010,char_APOLLOMON,,довольно,проверить машинный усилитель,"You're... pretty strong, huh...","Ты... довольно силён, а...",m370_110_010,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Ты... Силы тебе не занимать, да..."
+2,style_review,patch_text01,message/m400.mbe/000_Sheet1.csv,41,m370_110_010,char_APOLLOMON,,довольно,проверить машинный усилитель,"You're... pretty strong, huh...","Ты... довольно силён, а...",m370_110_010,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,А силы тебе не занимать...
 2,style_review,patch_text01,message/m400.mbe/000_Sheet1.csv,16,m400_011_020,char_SOCERIMON,,довольно,проверить машинный усилитель,"However, the two have fallen out, and the current
 situation is quite tense.","Однако двое поссорились, и текущая ситуация довольно
 напряжённая.",,style_keep,маркер естественен в контексте,,,
@@ -1319,7 +1309,7 @@ relaxed!","В этой форме я действительно чувствую
 себя намного расслабленнее!",,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/s090_072.mbe/000_Sheet1.csv,93,s090_072_770,char_LALAMON,,действительно,проверить машинный усилитель,"So, you really are connected to us Digimon! That means I can
 finally go home, right?!","Значит, ты действительно связан с нами, Дигимон! Это значит, что
-я наконец-то могу вернуться домой, верно?!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Значит, ты и правда связан с нами, дигимонами!
+я наконец-то могу вернуться домой, верно?!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Значит, между тобой и нами, дигимонами, и правда есть связь!
 Теперь я наконец смогу вернуться домой, да?!"
 2,style_review,patch_text01,message/s095_077.mbe/000_Sheet1.csv,14,s095_077_090,char_GUARDROMON,,довольно,проверить машинный усилитель,"It's possible. Working in the mine shaft can be
 quite dangerous.",Это возможно. Работа в шахте может быть довольно опасной.,,style_keep,маркер естественен в контексте,,,
@@ -1397,7 +1387,7 @@ many recent thefts.","Место добычи полезных ископаем�
 в последнее время там участились кражи."
 2,style_review,patch_text01,message/s110_101.mbe/000_Sheet1.csv,106,s110_101_890,char_MAGNAMON,,довольно,проверить машинный усилитель,"It looks like we drove it off. You are quite formidable. I
 am amazed you held out!","Похоже, мы справились с этим. Ты довольно грозный. Я поражен,
-что ты выстоял!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Похоже, мы справились. Вот это противник!
+что ты выстоял!",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Похоже, мы его прогнали. А ты не промах!
 Не ожидал, что ты выстоишь!"
 2,style_review,patch_text01,message/s110_102.mbe/000_Sheet1.csv,33,s110_102_300,char_ULFORCEVDRAMON,,действительно,проверить машинный усилитель,"Not exactly. I have asked this human to bring me here, but
 it is really a personal matter.","Не совсем. Я попросил этого человека привести меня сюда, но это
@@ -1409,7 +1399,7 @@ may be rude to decline it...","Хм... Действительно, это усл
 though, for sure...","Ты кажешься немного нерешительной. Хотя, это точно, ведет себя
 довольно странно...",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Что-то ты сомневаешься. А эта штука и правда
 ведёт себя странно..."
-2,style_review,patch_text01,message/s110_103.mbe/000_Sheet1.csv,50,s110_103_420,char_DYNASMON,,довольно,проверить машинный усилитель,You are quite a formidable fighter. I am impressed.,Ты довольно грозный боец. Я впечатлен.,,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,Сразу видно: ты грозный боец. Я впечатлён.
+2,style_review,patch_text01,message/s110_103.mbe/000_Sheet1.csv,50,s110_103_420,char_DYNASMON,,довольно,проверить машинный усилитель,You are quite a formidable fighter. I am impressed.,Ты довольно грозный боец. Я впечатлен.,,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,Сразу видно: сражаешься ты великолепно. Впечатляет.
 2,style_review,patch_text01,message/s110_108.mbe/000_Sheet1.csv,13,s110_108_080,char_UNKNOWN,,являюсь,проверить канцелярское является,...am the... I am...,...являюсь тем... Я есмь...,,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/s110_108.mbe/000_Sheet1.csv,30,s110_108_230,char_UNKNOWN,,действительно,проверить машинный усилитель,"Are you really listening?! Oh, enough of this. Call me
 whatever you like.","Ты действительно слушаешь?! Ох, хватит об этом. Называй меня как
@@ -1448,8 +1438,8 @@ That was fun!","Ты довольно сильный! Благодаря теб�
 2,style_review,patch_text01,message/s200_146.mbe/000_Sheet1.csv,11,s200_146_080,char_TOUDO,,действительно,проверить машинный усилитель,Am I seeing things...? Are you really here to help?,"Мне что-то мерещится...? Ты действительно здесь, чтобы помочь?",,style_keep,маркер естественен в контексте,,,
 2,style_review,patch_text01,message/s200_146.mbe/000_Sheet1.csv,17,s200_146_120,char_TOUDO,,является,проверить канцелярское является,"Did you get that uniform from an illegal auction? Diversion
 of government-issued equipment is a serious offense...","Вы приобрели эту форму на незаконном аукционе? Незаконное
-использование снаряжения государственного образца является серьезным правонарушением...",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Вы приобрели эту форму на незаконном аукционе? Использование
-казённого снаряжения не по назначению — серьёзное преступление..."
+использование снаряжения государственного образца является серьезным правонарушением...",,confirmed_style_rewrite,механическая или грамматически сломанная формулировка,,,"Вы приобрели эту форму на незаконном аукционе? Незаконный
+оборот казённого снаряжения — серьёзное преступление..."
 2,style_review,patch_text01,message/s200_146.mbe/000_Sheet1.csv,22,s200_146_160,char_TOUDO,,действительно,проверить машинный усилитель,"You seem to know more about phase electron lifeforms
 than we do, so it's really helpful.","Похоже, вы знаете о фазово-электронных формах жизни больше, чем
 мы, так что это действительно полезно.",,style_keep,маркер естественен в контексте,,,
