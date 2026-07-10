@@ -1658,16 +1658,16 @@ toko_001_4_reaction_char_TOKOMON,char_TOKOMON,"Если после эволюц�
 достаточно. Чёрт возьми, я и так крут!",
 pata_001_0_char_PATAMON,char_PATAMON,"За плохой поступок нужно извиниться...
 и сделать это как следует. Верно?",
-pata_001_1_replay,char_PLAYER_M,Это верно.,
+pata_001_1_replay,char_PLAYER_M,"Да, всё верно.",
 pata_001_1_reaction_char_PATAMON,char_PATAMON,"...Я так и знал. Надо набраться смелости и извиниться.
 Прости за странный вопрос.",
-pata_001_2_replay,char_PLAYER_M,Что-то пошло не так?,
+pata_001_2_replay,char_PLAYER_M,Ты что-то натворил?,
 pata_001_2_reaction_char_PATAMON,char_PATAMON,"Нет!.. Ну ладно, кое о чём я всё же жалею.
 Спасибо, теперь это стало понятно.",
-pata_001_3_replay,char_PLAYER_M,Кто-то что-то с тобой сделал?,
+pata_001_3_replay,char_PLAYER_M,Тебя кто-то обидел?,
 pata_001_3_reaction_char_PATAMON,char_PATAMON,"Ничего особенного. С этим уже покончено. Извини, что беспокою
 тебя.",
-pata_001_4_replay,char_PLAYER_M,Я принесу извинения от их имени.,
+pata_001_4_replay,char_PLAYER_M,"Давай я извинюсь за того, кто виноват.",
 pata_001_4_reaction_char_PATAMON,char_PATAMON,"Как это мило! Тогда так и быть, прощаю.",
 kuda_001_0_char_KUDAMON,char_KUDAMON,"Езда на плечах человека, несомненно, расслабляет!",
 kuda_001_1_replay,char_PLAYER_M,Наверняка ты тяжёлый.,

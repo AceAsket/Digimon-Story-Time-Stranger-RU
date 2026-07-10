@@ -16,7 +16,7 @@ SUMMARY = ROOT / "exports/static_layout_audit_v110_summary.txt"
 
 RULES = {
     "digimon_chat": (65, 2),
-    "digitter": (65, None),
+    "digitter": (60, None),
     "profile": (65, None),
     "dialogue": (75, None),
     "tutorial": (75, None),

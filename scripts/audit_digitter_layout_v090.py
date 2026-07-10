@@ -15,7 +15,7 @@ ORIGINAL_ROOT = ROOT / "verify/game_build_23514637/text_original"
 OUT = ROOT / "exports/digitter_layout_audit_v090.csv"
 SUMMARY = ROOT / "exports/digitter_layout_audit_v090_summary.txt"
 RELATIVE = Path("text/digitter_message.mbe/000_Sheet1.csv")
-MAX_VISIBLE_LINE = 65
+MAX_VISIBLE_LINE = 60
 TAG_RE = re.compile(r"\{[^}]+\}")
 
 
