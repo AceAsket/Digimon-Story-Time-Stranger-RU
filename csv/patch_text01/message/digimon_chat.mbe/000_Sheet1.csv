@@ -1,4 +1,4 @@
-string2 0,string 1,string 2,string 3
+﻿string2 0,string 1,string 2,string 3
 aigio_001_0_char_AEGIOMON,char_AEGIOMON,"Убедись, что ты присматриваешь за мной, хорошо? В противном
 случае, мне, возможно, придется играть на свирели прямо здесь...",
 aigio_001_1_replay,char_PLAYER_M,Хочешь попробовать управлять мной с их помощью?,
@@ -677,8 +677,8 @@ presi_001_4_reaction_char_PLESIOMON,char_PLESIOMON,"Хм. Если таково 
 Я такую цель не осуждаю.",
 mari_001_0_char_MARINEANGEMON,char_MARINEANGEMON,"Интересно, как все могут жить в мире?..",
 mari_001_1_replay,char_PLAYER_M,Набравшись смелости поговорить друг с другом.,
-mari_001_1_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Смелости... Я уверен, что мне ее не хватает. Но я чувствую, что
-могу ее обрести, оставаясь рядом с тобой!",
+mari_001_1_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Смелости... Уверена, именно её мне и не хватает. Но рядом
+с тобой я чувствую, что смогу её обрести!",
 mari_001_2_replay,char_PLAYER_M,Понимание друг друга - это ключ к успеху.,
 mari_001_2_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Верно. Без сочувствия и понимания трудно быть вместе
 и даже просто разговаривать.",
@@ -851,8 +851,8 @@ lala_001_3_replay,char_PLAYER_M,Такая приятная мелодия.,
 lala_001_3_reaction_char_LALAMON,char_LALAMON,"Это моя песня о дружбе! Мелодия, говорящая о том, что все должны
 веселиться вместе!",
 lala_001_4_replay,char_PLAYER_M,"Это что, колыбельная?",
-lala_001_4_reaction_char_LALAMON,char_LALAMON,"Хохо. Даже не близко. Но если ты так сильно этого хочешь, я был
-бы рад нежно напеть тебе.",
+lala_001_4_reaction_char_LALAMON,char_LALAMON,"Хо-хо. Совсем мимо. Но раз ты так просишь,
+я буду рада тихонько тебе напеть.",
 aquila_001_0_char_AQUILAMON,char_AQUILAMON,Интересно... Как тебе моё выступление?,
 aquila_001_1_replay,char_PLAYER_M,Ты сильный и надежный.,
 aquila_001_1_reaction_char_AQUILAMON,char_AQUILAMON,Какая доброта! Я и дальше буду выкладываться ради тебя!,
@@ -1165,8 +1165,8 @@ roto_001_3_replay,char_PLAYER_M,"Дай мне немного этого бле�
 roto_001_3_reaction_char_LOTOSMON,char_LOTOSMON,"Бери столько, сколько захочешь. Все, чего я желаю, - это твоего
 счастья.",
 roto_001_4_replay,char_PLAYER_M,Я не могу насытиться этим блеском.,
-roto_001_4_reaction_char_LOTOSMON,char_LOTOSMON,"Я рад. Продолжай смотреть на меня, и я исполню все твои
-счастливые мечты.",
+roto_001_4_reaction_char_LOTOSMON,char_LOTOSMON,"Я рада. Продолжай любоваться мной — и я исполню
+все твои счастливые мечты.",
 pal_001_0_char_PALMON,char_PALMON,"Даже если на улице жарко и светло, я люблю немного яркого
 солнечного света!",
 pal_001_1_replay,char_PLAYER_M,Давай сиять ещё ярче!,

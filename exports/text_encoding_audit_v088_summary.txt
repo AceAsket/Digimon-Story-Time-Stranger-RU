@@ -1,0 +1,7 @@
+﻿CSV files scanned: 261
+CSV rows scanned: 39977
+Encoding/name issues: 0
+Known non-display question placeholders ignored: 196
+Canonical Механоримон occurrences: 7
+Old Меканоримон occurrences: 0
+Report: exports\text_encoding_audit_v088.csv

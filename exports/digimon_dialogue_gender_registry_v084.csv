@@ -1,0 +1,404 @@
+﻿speaker,speaker_name,dialogue_rows,expected_or_observed_gender,male_first_person_forms,female_first_person_forms,status
+char_AEGIOCHUSMON,Эгиохмон,93,contextual male,6,0,first_person_evidence_only
+char_AEGIOCHUSMON_BLUE,Эгиохмон: Синий,27,contextual male,3,0,first_person_evidence_only
+char_AEGIOCHUSMON_DARK,Эгиохмон: Тёмный,27,contextual male,2,0,first_person_evidence_only
+char_AEGIOCHUSMON_GREEN,Эгиохмон: Зелёный,27,contextual male,4,0,first_person_evidence_only
+char_AEGIOCHUSMON_HOLLY,Эгиохмон: Святой,27,contextual male,2,0,first_person_evidence_only
+char_AEGIOMON,Эгиомон,871,male,38,0,curated_source_confirmed
+char_AEROVEEDRAMON,Аэро Ви-драмон,5,unknown,0,0,no_explicit_first_person_form
+char_AGNIMON,Агнимон,8,contextual male,1,0,first_person_evidence_only
+char_AGUMON,Агумон,90,contextual male,8,0,first_person_evidence_only
+char_AIRDRAMON,Эйрдрамон,5,unknown,0,0,no_explicit_first_person_form
+char_ALDAMON,Алдамон,5,unknown,0,0,no_explicit_first_person_form
+char_ALPHAMON,Альфамон,51,contextual male,3,0,first_person_evidence_only
+char_ALPHAMON_OURYUKEN,Альфамон: Орюкен,5,unknown,0,0,no_explicit_first_person_form
+char_ANCIENTWISETMON,Древний Вайзмон,7,contextual male,1,0,first_person_evidence_only
+char_ANDROMON,Андромон,32,contextual male,1,0,first_person_evidence_only
+char_ANGEMON,Ангемон,5,unknown,0,0,no_explicit_first_person_form
+char_ANGEWOMON,Ангевумон,10,female,0,1,curated_source_confirmed
+char_ANKYLOMON,Анкиломон,16,unknown,0,0,no_explicit_first_person_form
+char_ANOMALOCARIMON,Аномалокаримон,2,unknown,0,0,no_explicit_first_person_form
+char_ANTYLAMON,Андиромон,2,contextual male,1,0,first_person_evidence_only
+char_APOLLOMON,Аполломон,133,male,10,0,curated_source_confirmed
+char_AQUILAMON,Аквиламон,5,unknown,0,0,no_explicit_first_person_form
+char_ARCHNEMON,Арахнемон,20,female,0,1,curated_source_confirmed
+char_ARMADILLOMON,Армадимон,17,contextual male,1,0,first_person_evidence_only
+char_ARMAGEMON,Армагемон,1,unknown,0,0,no_explicit_first_person_form
+char_ASTAMON,Астамон,23,contextual male,2,0,first_person_evidence_only
+char_ATLURKABUTERIMON,АтлаКабутеримон,16,contextual male,2,0,first_person_evidence_only
+char_AVENGEKIDMON,АвенжКидмон,4,contextual male,1,0,first_person_evidence_only
+char_BACCHUSMON,Вакхмон,178,male,8,0,curated_source_confirmed
+char_BAKEMON,Бакэмон,33,contextual male,2,0,first_person_evidence_only
+char_BAKUMON,Бакумон,16,contextual male,2,0,first_person_evidence_only
+char_BANCHOLEOMON,БанхоЛеомон,111,contextual male,3,0,first_person_evidence_only
+char_BARBAMON,Барбамон,5,unknown,0,0,no_explicit_first_person_form
+char_BEARMON,Бермон,7,male,0,0,curated_source_confirmed
+char_BEELSTARMON,Вель Стармон,33,female,0,4,curated_source_confirmed
+char_BEELZEBUMON,Вельзевумон,21,unknown,0,0,no_explicit_first_person_form
+char_BEELZEMON_BM,Вельзевумон: Бласт-режим,13,unknown,0,0,no_explicit_first_person_form
+char_BELPHEMON_RM,Бельфемон: Режим ярости,5,contextual male,1,0,first_person_evidence_only
+char_BELPHEMON_SM,Бельфемон: Режим сна,5,unknown,0,0,no_explicit_first_person_form
+char_BEOWOLFMON,Беовульфмон,5,unknown,0,0,no_explicit_first_person_form
+char_BETAMON,Бэтамон,14,contextual male,1,0,first_person_evidence_only
+char_BIGMAMEMON,Биг Мамемон,7,unknown,0,0,no_explicit_first_person_form
+char_BIRDRAMON,Бёрдрамон,6,unknown,0,0,no_explicit_first_person_form
+char_BLACKKINGNUMEMON,БлэкКингНумемон,8,unknown,0,0,no_explicit_first_person_form
+char_BLACKSHADOW,Темная Тень,1,unknown,0,0,no_explicit_first_person_form
+char_BLACKTAILMON,Блэк Теилмон,17,female,0,0,curated_source_confirmed
+char_BLIMPMON,Блимпмон,60,contextual male,4,0,first_person_evidence_only
+char_BLUEMERAMON,Блю Мерамон,3,unknown,0,0,no_explicit_first_person_form
+char_BOLTMON,Болтмон,1,unknown,0,0,no_explicit_first_person_form
+char_BOTAMON,Ботамон,6,unknown,0,0,no_explicit_first_person_form
+char_BRAKIMON,Брахимон,2,unknown,0,0,no_explicit_first_person_form
+char_BREAKDRAMON,Брейкдрамон,12,unknown,0,0,no_explicit_first_person_form
+char_BUBBMON,Баббмон,8,unknown,0,0,no_explicit_first_person_form
+char_CALAMARAMON,Каламарамон,18,female,0,2,curated_source_confirmed
+char_CANNONBEEMON,КэнонБиимон,1,unknown,0,0,no_explicit_first_person_form
+char_CAPROMON,Капримон,15,unknown,0,0,no_explicit_first_person_form
+char_CATCHMAMEMON,КатчМамаемон,23,contextual male,1,0,first_person_evidence_only
+char_CENTALMON,Кенталмон,8,unknown,0,0,no_explicit_first_person_form
+char_CERBERUMON,Церберумон,3,unknown,0,0,no_explicit_first_person_form
+char_CERESMON,Церемон,7,female,0,0,curated_source_confirmed
+char_CERESMON_MEDIUM,Сересмон Медиум,17,female,0,1,curated_source_confirmed
+char_CHAOSDRAMON,Хаосдрамон,2,unknown,0,0,no_explicit_first_person_form
+char_CHAOSDUKEMON,ХаосДюкмон,5,unknown,0,0,no_explicit_first_person_form
+char_CHAOSMON,Хаосмон,5,contextual male,1,0,first_person_evidence_only
+char_CHARISMON,Каллисмон,39,contextual male,1,0,first_person_evidence_only
+char_CHIMAIRAMON,Химерамон,3,unknown,0,0,no_explicit_first_person_form
+char_CHOROMON,Торомон,4,unknown,0,0,no_explicit_first_person_form
+char_CHRONOMON_BOSS_EVENT,Хрономон,63,male,4,0,curated_source_confirmed
+char_CLAVISANGEMON,Клавис Ангемон,44,male,4,0,curated_source_confirmed
+char_CLOCKMON,Клокмон,20,contextual male,1,0,first_person_evidence_only
+char_COELAMON,Целамон,2,unknown,0,0,no_explicit_first_person_form
+char_COREDRAMON_GR,Кордрамон (Зелёный),1,unknown,0,0,no_explicit_first_person_form
+char_CORONAMON,Коронамон,58,male,3,0,curated_source_confirmed
+char_CRANIAMON,Краниуммон,88,contextual male,13,0,first_person_evidence_only
+char_CROSSMON,Кроссмон,2,unknown,0,0,no_explicit_first_person_form
+char_CYBERDRAMON,Кибердрамон,11,unknown,0,0,no_explicit_first_person_form
+char_CYCLONEMON,Цикломон,3,unknown,0,0,no_explicit_first_person_form
+char_DAGOMON,Дагомон,16,contextual male,1,0,first_person_evidence_only
+char_DARKDRAMON,Даркдрамон,1,unknown,0,0,no_explicit_first_person_form
+char_DARKSUPERSTARMON,Дарк Суперстармон,17,unknown,0,0,no_explicit_first_person_form
+char_DEATHMERAMON,Дес Мерамон,13,contextual male,3,0,first_person_evidence_only
+char_DELTAMON,Дельтамон,3,unknown,0,0,no_explicit_first_person_form
+char_DELUMON,Делюмон,10,contextual male,1,0,first_person_evidence_only
+char_DEMON,Демон,5,unknown,0,0,no_explicit_first_person_form
+char_DEVIMON,Девимон,11,contextual male,1,0,first_person_evidence_only
+char_DIANAMON,Дианамон,97,female,0,4,curated_source_confirmed
+char_DIGITAMAMON,Дигитамамон,17,unknown,0,0,no_explicit_first_person_form
+char_DINOHUMON,Динохьюмон,32,contextual male,1,0,first_person_evidence_only
+char_DODOMON,Додомон,1,unknown,0,0,no_explicit_first_person_form
+char_DORIMON,Доримон,4,unknown,0,0,no_explicit_first_person_form
+char_DORUGREYMON,ДОРУгремон,1,unknown,0,0,no_explicit_first_person_form
+char_DORUMON,Дорумон,46,contextual male,4,0,first_person_evidence_only
+char_DRACOMON,Дракомон,7,unknown,0,0,no_explicit_first_person_form
+char_DRACUMON,Дракумон,12,unknown,0,0,no_explicit_first_person_form
+char_DRIMOGEMON,Дримогемон,1,unknown,0,0,no_explicit_first_person_form
+char_DUFTMON,Дуфтмон,24,contextual male,4,0,first_person_evidence_only
+char_DUFTMON_LM,Дуфтмон: Режим леопарда,7,unknown,0,0,no_explicit_first_person_form
+char_DUKEMON,Дюкмон,15,contextual male,1,0,first_person_evidence_only
+char_DUKEMON_CM,Дюкмон: Багровый режим,5,contextual male,1,0,first_person_evidence_only
+char_DURAMON,Дюрамон,5,contextual male,1,0,first_person_evidence_only
+char_DYNASMON,Динасмон,32,unknown,0,0,no_explicit_first_person_form
+char_EBEMON,ЭБЭмон,10,unknown,0,0,no_explicit_first_person_form
+char_ELECMON,Элекмон,9,contextual male,1,0,first_person_evidence_only
+char_ENBARRMON,Энбаррмон,26,contextual male,2,0,first_person_evidence_only
+char_ETEMON,Этемон,172,unknown,0,0,no_explicit_first_person_form
+char_EX-TYRANOMON,Экс-Тираномон,14,contextual male,1,0,first_person_evidence_only
+char_EXAMON,Эксамон,56,male,12,0,curated_source_confirmed
+char_FALCOMON,Фалькомон,25,contextual male,1,0,first_person_evidence_only
+char_FANTOMON,Фантомон,12,unknown,0,0,no_explicit_first_person_form
+char_FLAMEDRAMON,Фладрамон,8,contextual male,1,0,first_person_evidence_only
+char_FLORAMON,Флорамон,38,contextual female,0,1,first_person_evidence_only
+char_FLYMON,Флаймон,5,unknown,0,0,no_explicit_first_person_form
+char_FUGAMON,Фугамон,27,male,1,0,curated_source_confirmed
+char_FUNBEEMON,Фанбимон,28,contextual male,1,0,first_person_evidence_only
+char_GABUMON,Габумон,32,contextual male,3,0,first_person_evidence_only
+char_GAIOMON,Гайоумон,2,unknown,0,0,no_explicit_first_person_form
+char_GANIMON,Ганимон,21,unknown,0,0,no_explicit_first_person_form
+char_GANKOOMON,Гэнкумон,92,contextual male,7,0,first_person_evidence_only
+char_GAOGAMON,Гаогамон,6,contextual male,1,0,first_person_evidence_only
+char_GAOMON,Гаомон,20,contextual male,2,0,first_person_evidence_only
+char_GARGOMON,Гальгомон,11,contextual male,2,0,first_person_evidence_only
+char_GARUDAMON,Гарудамон,13,unknown,0,0,no_explicit_first_person_form
+char_GARUMMON,Гаруммон,8,contextual male,1,0,first_person_evidence_only
+char_GARURUMON,Гарурумон,5,unknown,0,0,no_explicit_first_person_form
+char_GAWAPPAMON,Гаваппамон,34,unknown,0,0,no_explicit_first_person_form
+char_GAZIMON,Газимон,15,unknown,0,0,no_explicit_first_person_form
+char_GEKOMON,Гэкомон,229,male,3,0,curated_source_confirmed
+char_GEOGREYMON,Гео Греймон,5,unknown,0,0,no_explicit_first_person_form
+char_GERBEMON,Гербемон,19,contextual male,1,0,first_person_evidence_only
+char_GEREMON,Геремон,3,unknown,0,0,no_explicit_first_person_form
+char_GIGADRAMON,Гигадрамон,1,unknown,0,0,no_explicit_first_person_form
+char_GINRYUMON,Джинрюмон,6,unknown,0,0,no_explicit_first_person_form
+char_GIZAMON,Гизамон,9,unknown,0,0,no_explicit_first_person_form
+char_GOBURIMON,Гобуримон,17,contextual male,1,0,first_person_evidence_only
+char_GODDRAMON,Годдрамон,7,contextual male,1,0,first_person_evidence_only
+char_GOLDNUMEMON,ГолдНумемон,4,contextual male,1,0,first_person_evidence_only
+char_GOLEMON,Големон,1,unknown,0,0,no_explicit_first_person_form
+char_GOMAMON,Гомамон,12,contextual male,2,0,first_person_evidence_only
+char_GOTTSUMON,Готцумон,26,unknown,0,0,no_explicit_first_person_form
+char_GRACENOVAMON,Грейс Новамон,12,contextual male,1,0,first_person_evidence_only
+char_GRADEMON,Градемон,15,unknown,0,0,no_explicit_first_person_form
+char_GRANKUWAGAMON,ГранКувагамон,4,unknown,0,0,no_explicit_first_person_form
+char_GRAPLEOMON,ГрапЛеомон,68,male,3,0,curated_source_confirmed
+char_GREATGRYZMON,ГрейтГриззмон,1,unknown,0,0,no_explicit_first_person_form
+char_GREYMON,Греймон,5,unknown,0,0,no_explicit_first_person_form
+char_GRIFFOMON,Гриффомон,47,contextual male,3,0,first_person_evidence_only
+char_GROUNDLOCOMON,ГрандЛокомон,5,unknown,0,0,no_explicit_first_person_form
+char_GROUNDRAMON,Граундрамон,1,unknown,0,0,no_explicit_first_person_form
+char_GROWMON,Граумон,7,unknown,0,0,no_explicit_first_person_form
+char_GUARDROMON,Гардромон,194,contextual male,5,0,first_person_evidence_only
+char_GUARDROMON_GL,Гардромон (золотой),44,contextual male,1,0,first_person_evidence_only
+char_GUILMON,Гилмон,17,contextual male,1,0,first_person_evidence_only
+char_GUNDRAMON,Гандрамон,9,unknown,0,0,no_explicit_first_person_form
+char_HACKMON,Хакмон,5,unknown,0,0,no_explicit_first_person_form
+char_HAGURUMON,Хагурумон,84,unknown,0,0,no_explicit_first_person_form
+char_HANGYOMON,Хангёмон,73,contextual male,3,0,first_person_evidence_only
+char_HAWKMON,Хоукмон,31,contextual male,1,0,first_person_evidence_only
+char_HERCULESKABUTERIMON,ГераклКабутеримон,15,contextual male,1,0,first_person_evidence_only
+char_HIANDROMON,ХиАндромон,14,contextual male,2,0,first_person_evidence_only
+char_HIPPOGRIFFOMON,Гиппогрифомон,7,unknown,0,0,no_explicit_first_person_form
+char_HISYARYUMON,Хисьярюмон,2,unknown,0,0,no_explicit_first_person_form
+char_HOLSMON,Холсмон,6,contextual male,1,0,first_person_evidence_only
+char_HOLYANGEMON,Холи Ангемон,8,contextual male,1,0,first_person_evidence_only
+char_HOLYDRAMON,Холидрамон,5,contextual male,1,0,first_person_evidence_only
+char_HOUOUMON,Хоуоумон,7,contextual male,1,0,first_person_evidence_only
+char_HYOUGAMON,Хёгамон,27,unknown,0,0,no_explicit_first_person_form
+char_ICEDEVIMON,АйсДевимон,2,unknown,0,0,no_explicit_first_person_form
+char_ICEMON,Айсмон,2,unknown,0,0,no_explicit_first_person_form
+char_IKKAKUMON,Иккакумон,9,contextual male,1,0,first_person_evidence_only
+char_IMPERIALDRAMON_FM,Империалдрамон: Режим Бойца,14,unknown,0,0,no_explicit_first_person_form
+char_IMPMON,Импмон,15,contextual male,1,0,first_person_evidence_only
+char_JESMON,Джесмон,56,male,8,0,curated_source_confirmed
+char_JUMBOGAMEMON,ДжамбоГамемон,48,contextual male,3,0,first_person_evidence_only
+char_JUNOMON,Юномон,163,female,0,6,curated_source_confirmed
+char_JUNOMON_HYSTERICMODE,Юномон: Истерический режим,15,female,0,0,curated_source_confirmed
+char_JUPITERMON,Юпитермон,56,male,5,0,curated_source_confirmed
+char_JUSTIMON,Джастимон,5,unknown,0,0,no_explicit_first_person_form
+char_JYUREIMON,Дзюреймон,37,contextual male,4,0,first_person_evidence_only
+char_KABUTERIMON,Кабутеримон,7,unknown,0,0,no_explicit_first_person_form
+char_KAISERGREYMON,Кайзер Греймон,5,unknown,0,0,no_explicit_first_person_form
+char_KAMEMON,Камемон,153,contextual male,15,0,first_person_evidence_only
+char_KARATUKINUMEMON,КарацукиНумемон,2,unknown,0,0,no_explicit_first_person_form
+char_KERAMON,Керамон,6,unknown,0,0,no_explicit_first_person_form
+char_KERPYMON_GOOD,Херувимон (Добродетельный),1,unknown,0,0,no_explicit_first_person_form
+char_KINGETEMON,КингЕтемон,2,unknown,0,0,no_explicit_first_person_form
+char_KIWIMON,Кивимон,12,contextual male,3,0,first_person_evidence_only
+char_KNIGHTMON,Найтмон,34,contextual male,6,0,first_person_evidence_only
+char_KOKUWAMON,Кокувамон,22,contextual male,1,0,first_person_evidence_only
+char_KOROMON,Коромон,5,unknown,0,0,no_explicit_first_person_form
+char_KOTEMON,Котэмон,19,contextual male,1,0,first_person_evidence_only
+char_KUDAMON,Кудамон,6,unknown,0,0,no_explicit_first_person_form
+char_KUWAGAMON,Кувагамон,9,unknown,0,0,no_explicit_first_person_form
+char_KUZUHAMON,Кудзухамон,17,female,0,0,curated_source_confirmed
+char_KYUBIMON,Кьюбимон,5,contextual male,1,0,first_person_evidence_only
+char_LADYDEVIMON,Леди Девимон,16,female,0,0,curated_source_confirmed
+char_LALAMON,Лаламон,23,female,0,0,curated_source_confirmed
+char_LEOMON,Леомон,14,contextual male,1,0,first_person_evidence_only
+char_LEVIAMON,Левиамон,5,unknown,0,0,no_explicit_first_person_form
+char_LIGHDRAMON,Лайдрамон,8,contextual male,1,0,first_person_evidence_only
+char_LILAMON,Лиламон,13,female,0,1,curated_source_confirmed
+char_LILITHMON,Лилитмон,5,female,0,0,curated_source_confirmed
+char_LILLYMON,Лилимон,18,female,0,4,curated_source_confirmed
+char_LOADERLIOMON,Лоадер Лиомон,17,unknown,0,0,no_explicit_first_person_form
+char_LOADKNIGHTMON,Лорд Найтмон,14,contextual male,1,0,first_person_evidence_only
+char_LOCOMON,Локомон,21,contextual male,3,0,first_person_evidence_only
+char_LOPMON,Лопмон,9,unknown,0,0,no_explicit_first_person_form
+char_LOTOSMON,Лотусмон,56,female,0,4,curated_source_confirmed
+char_LUCEMON,Люцимон,10,unknown,0,0,no_explicit_first_person_form
+char_LUCEMON_SM,Люцимон: режим Сатаны,5,unknown,0,0,no_explicit_first_person_form
+char_LUNAMON,Лунамон,93,female,0,5,curated_source_confirmed
+char_MACHGAOGAMON,Мах Гаогамон,11,contextual male,1,0,first_person_evidence_only
+char_MAGNAGARURUMON,Магна Гарурумон,7,unknown,0,0,no_explicit_first_person_form
+char_MAGNAKIDMON,МагнаКидмон,2,contextual male,1,0,first_person_evidence_only
+char_MAGNAMON,Магнамон,74,contextual male,10,0,first_person_evidence_only
+char_MAMEMON,Мамемон,163,contextual male,4,0,first_person_evidence_only
+char_MARINEANGEMON,Маринангемон,63,female,0,5,curated_source_confirmed
+char_MARSMON,Марсмон,138,male,13,0,curated_source_confirmed
+char_MASTERBLIMPMON,МастерБлимпмон,8,unknown,0,0,no_explicit_first_person_form
+char_MATADRMON,Матадормон,5,unknown,0,0,no_explicit_first_person_form
+char_MECHANORIMON,Механоримон,42,contextual male,2,0,first_person_evidence_only
+char_MEDIEVALDUKEMON,Средневековый Дюкмон,5,unknown,0,0,no_explicit_first_person_form
+char_MEGADRAMON,Мегадрамон,6,unknown,0,0,no_explicit_first_person_form
+char_MEGAGROWLMON,Мегало Граумон,15,contextual male,1,0,first_person_evidence_only
+char_MEGASEADRAMON,Мега Сидрамон,9,unknown,0,0,no_explicit_first_person_form
+char_MEGIDRAMON,Мегидрамон,8,unknown,0,0,no_explicit_first_person_form
+char_MERAMON,Мерамон,18,unknown,0,0,no_explicit_first_person_form
+char_MERCURYMON,Меркуримон,253,male,15,0,curated_source_confirmed
+char_MERVAMON,Мервамон,6,female,0,0,curated_source_confirmed
+char_METALETEMON,Металл Этемон,5,unknown,0,0,no_explicit_first_person_form
+char_METALGARURUMON,Метал Гарурумон,5,unknown,0,0,no_explicit_first_person_form
+char_METALGREYMON,Металл Греймон,13,unknown,0,0,no_explicit_first_person_form
+char_METALMAMEMON,Металл Мамемон,18,unknown,0,0,no_explicit_first_person_form
+char_METALSEADRAMON,Металл Сидрамон,27,contextual male,2,0,first_person_evidence_only
+char_METALTYRANNOMON,МеталлТиранномон,6,unknown,0,0,no_explicit_first_person_form
+char_MILLENNIUMON,Милленниумон,11,unknown,0,0,no_explicit_first_person_form
+char_MINERVAMON,Минервамон,490,female,0,26,curated_source_confirmed
+char_MINOTAURMON,Минотарумон,11,contextual male,1,0,first_person_evidence_only
+char_MIRAGEGAOGAMON,Мираж Гаогамон,6,contextual male,1,0,first_person_evidence_only
+char_MIRAGEGAOGAMON_BM,Мираж Гаогамон: Взрывной режим,6,unknown,0,0,no_explicit_first_person_form
+char_MISTYMON,Мистимон,1,unknown,0,0,no_explicit_first_person_form
+char_MOCHIMON,Мотимон,8,contextual male,1,0,first_person_evidence_only
+char_MOJYAMON,Моджамон,31,contextual male,2,0,first_person_evidence_only
+char_MONOCHROMON,Монохромон,8,contextual male,4,0,first_person_evidence_only
+char_MONODRAMON,Монодрамон,13,contextual male,1,0,first_person_evidence_only
+char_MONZAEMON,Мондзаэмон,12,contextual male,3,0,first_person_evidence_only
+char_MUCHOMON,Мучомон,21,unknown,0,0,no_explicit_first_person_form
+char_MUGENDRAMON,Мугендрамон,12,contextual male,1,0,first_person_evidence_only
+char_MUMMYMON,Мумимон,21,contextual male,1,0,first_person_evidence_only
+char_MUSHMON,Машмон,19,unknown,0,0,no_explicit_first_person_form
+char_MUSYAMON,Мусямон,10,unknown,0,0,no_explicit_first_person_form
+char_NANIMON,Нанимон,49,contextual male,2,0,first_person_evidence_only
+char_NANOMON,Наномон,15,contextual male,1,0,first_person_evidence_only
+char_NEFERTIMON,Нефертимон,8,unknown,0,0,no_explicit_first_person_form
+char_NEPTUNEMON,Нептунмон,166,male,11,0,curated_source_confirmed
+char_NUMEMON,Нумемон,7,contextual male,1,0,first_person_evidence_only
+char_NYAROMON,Няромон,2,unknown,0,0,no_explicit_first_person_form
+char_OCTMON,Октомон,49,unknown,0,0,no_explicit_first_person_form
+char_OMEGAMON,Омегамон,83,contextual male,4,0,first_person_evidence_only
+char_OMEGAMON_ZWART,Омегамон Цварт,5,contextual male,1,0,first_person_evidence_only
+char_OMEGASHOUTMON,Омега Шаутмон,5,unknown,0,0,no_explicit_first_person_form
+char_OPHANIMON,Офанимон,7,female,0,0,curated_source_confirmed
+char_ORGEMON,Оргмон,37,unknown,0,0,no_explicit_first_person_form
+char_OROCHIMON,Оротимон,4,unknown,0,0,no_explicit_first_person_form
+char_OTAMAMON,Отамамон,12,unknown,0,0,no_explicit_first_person_form
+char_OURYUMON,Оурюмон,7,unknown,0,0,no_explicit_first_person_form
+char_PAGUMON,Пагумон,4,unknown,0,0,no_explicit_first_person_form
+char_PAILDRAMON,Пейлдрамон,11,male,2,0,curated_source_confirmed
+char_PALMON,Пальмон,58,female,0,3,curated_source_confirmed
+char_PANDAMON,Пандамон,16,unknown,0,0,no_explicit_first_person_form
+char_PANJYAMON,Панджамон,9,contextual male,1,0,first_person_evidence_only
+char_PARROTMON,Пэрротмон,7,unknown,0,0,no_explicit_first_person_form
+char_PATAMON,Патамон,15,contextual male,1,0,first_person_evidence_only
+char_PECKMON,Пекмон,30,contextual male,3,0,first_person_evidence_only
+char_PEGASMON,Пегасмон,82,contextual male,4,0,first_person_evidence_only
+char_PENMON,Пинмон,20,contextual male,3,0,first_person_evidence_only
+char_PHARAOHMON,Фараомон,26,contextual male,1,0,first_person_evidence_only
+char_PICKLEMON,Пикмон,24,unknown,0,0,no_explicit_first_person_form
+char_PICODEVIMON,Пико Девимон,20,contextual male,1,0,first_person_evidence_only
+char_PIEDMON,Пьемон,12,contextual male,1,0,first_person_evidence_only
+char_PILEVOLCAMON,ПайлВолкамон,17,contextual male,1,0,first_person_evidence_only
+char_PINOCHIMON,Пиноккимон,14,contextual male,2,0,first_person_evidence_only
+char_PIYOMON,Пиёмон,50,contextual male,3,0,first_person_evidence_only
+char_PLATINUMNUMEMON,ПлатинаНумемон,4,unknown,0,0,no_explicit_first_person_form
+char_PLATINUM_SCUMON,ПлатинумСкамон,3,unknown,0,0,no_explicit_first_person_form
+char_PLESIOMON,Плезиомон,12,contextual male,1,0,first_person_evidence_only
+char_PLOTMON,Плотмон,6,unknown,0,0,no_explicit_first_person_form
+char_PLUTOMON,Плутомон,109,male,1,0,curated_source_confirmed
+char_POYOMON,Поёмон,6,unknown,0,0,no_explicit_first_person_form
+char_PRINCEMAMEMON,ПринцМамемон,14,contextual male,1,0,first_person_evidence_only
+char_PUKAMON,Пукамон,12,contextual male,3,0,first_person_evidence_only
+char_PUKUMON,Пукумон,5,unknown,0,0,no_explicit_first_person_form
+char_PUMPMON,Пампмон,111,contextual male,2,0,first_person_evidence_only
+char_PUNIMON,Пунимон,29,contextual male,3,0,first_person_evidence_only
+char_PYOCOMON,Пьёкомон,7,unknown,0,0,no_explicit_first_person_form
+char_RANAMON,Ранамон,126,female,0,10,curated_source_confirmed
+char_RAPIDMON,Рэпидмон,6,unknown,0,0,no_explicit_first_person_form
+char_RAPIDMON_ARMOR,Рапидмон (Броня),26,contextual male,1,0,first_person_evidence_only
+char_RAPTORDRAMON,Раптордрамон,1,unknown,0,0,no_explicit_first_person_form
+char_RAREMON,Рэйрмон,5,unknown,0,0,no_explicit_first_person_form
+char_RAVEMON,Равемон,14,male,1,0,curated_source_confirmed
+char_RAVEMON_BM,Равемон: Взрывной режим,5,male,0,0,curated_source_confirmed
+char_RENAMON,Ренамон,33,contextual male,2,0,first_person_evidence_only
+char_REPPAMON,Реппамон,21,unknown,0,0,no_explicit_first_person_form
+char_REVOLMON,Револьмон,35,contextual male,1,0,first_person_evidence_only
+char_RIZEGREYMON,Райз Греймон,9,contextual male,1,0,first_person_evidence_only
+char_ROSEMON,Роузмон,23,female,0,0,curated_source_confirmed
+char_ROSEMON_BM,Роузмон: Взрывной режим,5,female,0,0,curated_source_confirmed
+char_RUSTTYRANOMON,РастТиранномон,12,unknown,0,0,no_explicit_first_person_form
+char_RYUDAMON,Рюдамон,1,unknown,0,0,no_explicit_first_person_form
+char_SABERLEOMON,Сэйбер Леомон,5,contextual male,1,0,first_person_evidence_only
+char_SABMARIMON,Субмаримон,51,contextual male,1,0,first_person_evidence_only
+char_SAKUYAMON,Сакуямон,4,female,0,0,curated_source_confirmed
+char_SEADRAMON,Сидрамон,13,contextual male,1,0,first_person_evidence_only
+char_SERAPHIMON,Серафимон,7,unknown,0,0,no_explicit_first_person_form
+char_SHAKKOUMON,Шаккумон,7,contextual male,2,0,first_person_evidence_only
+char_SHAKOMON,Сякомон,26,contextual male,1,0,first_person_evidence_only
+char_SHAMAMON,Шамамон,10,unknown,0,0,no_explicit_first_person_form
+char_SHARKMON_BOSS,Шаркмон,35,contextual male,2,0,first_person_evidence_only
+char_SHAWUJINMON,Шауджинмон,40,contextual male,1,0,first_person_evidence_only
+char_SHELLMON,Шеллмон,58,female,0,1,curated_source_confirmed
+char_SHINEGREYMON,Шайн Греймон,5,unknown,0,0,no_explicit_first_person_form
+char_SHOUTMON,Шаутмон,16,contextual male,1,0,first_person_evidence_only
+char_SHURIMON,Сюримон,23,contextual male,3,0,first_person_evidence_only
+char_SILPHYMON,Сильфимон,28,contextual male,3,0,first_person_evidence_only
+char_SIRENMON,Сиренмон,93,female,0,4,curated_source_confirmed
+char_SKULLBALUCHIMON,Скалл Балухимон,5,contextual male,1,0,first_person_evidence_only
+char_SKULLGREYMON,Скалл Греймон,3,unknown,0,0,no_explicit_first_person_form
+char_SKULLMAMMON,СкаллМаммон,2,contextual male,1,0,first_person_evidence_only
+char_SKULLSATAMON,Скалл Сатамон,8,contextual male,1,0,first_person_evidence_only
+char_SKULLSEADRAMON,СкулСидрамон,4,unknown,0,0,no_explicit_first_person_form
+char_SLASHANGEMON,СлэшАнгемон,2,unknown,0,0,no_explicit_first_person_form
+char_SLAYERDRAMON,Слейердрамон,4,unknown,0,0,no_explicit_first_person_form
+char_SLEIPMON,Слейпмон,11,contextual male,1,0,first_person_evidence_only
+char_SNIMON,Снаймон,1,unknown,0,0,no_explicit_first_person_form
+char_SNOWGOBURIMON,Сноу Гобуримон,6,unknown,0,0,no_explicit_first_person_form
+char_SOCERIMON,Сорсеримон,42,unknown,0,0,no_explicit_first_person_form
+char_SOLARMON,Солармон,75,contextual male,7,0,first_person_evidence_only
+char_STARMON,Стармон,16,unknown,0,0,no_explicit_first_person_form
+char_STINGMON,Стингмон,30,contextual male,1,0,first_person_evidence_only
+char_STRIKEDRAMON,Страйкдрамон,4,unknown,0,0,no_explicit_first_person_form
+char_SUKAMON,Скамон,3,contextual male,1,0,first_person_evidence_only
+char_SUNFLOWMON,Санфлаумон,18,female,0,1,curated_source_confirmed
+char_SUPERSTARMON,Суперстармон,15,unknown,0,0,no_explicit_first_person_form
+char_SUSANOOMON,Сусаноомон,32,contextual male,5,0,first_person_evidence_only
+char_TAILMON,Тейлмон,33,female,0,1,curated_source_confirmed
+char_TANEMON,Танэмон,26,contextual male,1,0,first_person_evidence_only
+char_TANKDRAMON,Танкдрамон,1,unknown,0,0,no_explicit_first_person_form
+char_TANKMON,Танкмон,16,unknown,0,0,no_explicit_first_person_form
+char_TAOMON,Таомон,2,unknown,0,0,no_explicit_first_person_form
+char_TENTOMON,Тентомон,11,unknown,0,0,no_explicit_first_person_form
+char_TERRIERMON,Терьермон,7,unknown,0,0,no_explicit_first_person_form
+char_TIGERVESPAMON,ТигерВеспамон,29,unknown,0,0,no_explicit_first_person_form
+char_TITAMON,Титамон,62,male,0,0,curated_source_confirmed
+char_TOGEMON,Тогэмон,24,unknown,0,0,no_explicit_first_person_form
+char_TOKOMON,Токомон,7,unknown,0,0,no_explicit_first_person_form
+char_TONOSAMAGEKOMON,Тоносама Гэкомон,35,contextual male,3,0,first_person_evidence_only
+char_TOYAGUMON,Той Агумон,17,unknown,0,0,no_explicit_first_person_form
+char_TRICERAMON,Трицерамон,6,unknown,0,0,no_explicit_first_person_form
+char_TSUMEMON,Цумэмон,1,contextual male,2,0,first_person_evidence_only
+char_TUCHIDARUMON,Цучидарумон,9,unknown,0,0,no_explicit_first_person_form
+char_TUNOMON,Цуномон,13,unknown,0,0,no_explicit_first_person_form
+char_TURUIEMON,Туруйемон,7,unknown,0,0,no_explicit_first_person_form
+char_TUSKMON,Таскмон,7,contextual male,1,0,first_person_evidence_only
+char_TYILINMON,Цилиньмон,7,contextual male,1,0,first_person_evidence_only
+char_TYRANNOMON,Тиранномон,5,unknown,0,0,no_explicit_first_person_form
+char_TYRANTKABUTERIMON,Тиран Кабутеримон,14,unknown,0,0,no_explicit_first_person_form
+char_TYUMON,Тюмон,80,contextual male,5,0,first_person_evidence_only
+char_ULFORCEVDRAMON,Алфорс Ви-драмон,43,contextual male,5,0,first_person_evidence_only
+char_ULTIMATEBRAKIMON,УльтимейтБрахимон,5,unknown,0,0,no_explicit_first_person_form
+char_UNDEADPLUTOMON,ЗомбиПлутомон,3,unknown,0,0,no_explicit_first_person_form
+char_V-DRAMON,Ви-драмон,5,unknown,0,0,no_explicit_first_person_form
+char_V-MON,Ви-мон,88,contextual male,4,0,first_person_evidence_only
+char_VADEMON,Вейдмон,129,unknown,0,0,no_explicit_first_person_form
+char_VALKYRIMON,Валькиримон,1,unknown,0,0,no_explicit_first_person_form
+char_VAMDEMON,Вамдемон,7,contextual male,1,0,first_person_evidence_only
+char_VEGIMON,Вегимон,17,unknown,0,0,no_explicit_first_person_form
+char_VENOMMYOTISMON,ВеномВамдемон,4,unknown,0,0,no_explicit_first_person_form
+char_VENUSMON,Венусмон,204,female,0,8,curated_source_confirmed
+char_VIKEMON,Викемон,10,unknown,0,0,no_explicit_first_person_form
+char_VOLCAMON,Волкамон,57,contextual male,2,0,first_person_evidence_only
+char_VRITRAMON,Вритрамон,8,unknown,0,0,no_explicit_first_person_form
+char_VULCANUSMON,Вулканусмон,163,male,8,0,curated_source_confirmed
+char_WANYAMON,  Ванямон,27,contextual male,1,0,first_person_evidence_only
+char_WARGREYMON,Вор Греймон,5,unknown,0,0,no_explicit_first_person_form
+char_WARUSEADRAMON,ВарСидрамон,19,unknown,0,0,no_explicit_first_person_form
+char_WASPMON,Васпмон,7,unknown,0,0,no_explicit_first_person_form
+char_WENDIMON,Вендимон,17,unknown,0,0,no_explicit_first_person_form
+char_WEREGARURUMON,ВерГарурумон,55,contextual male,6,0,first_person_evidence_only
+char_WHAMON,Уэмон,45,male,2,0,curated_source_confirmed
+char_WINGDRAMON,Вингдрамон,3,unknown,0,0,no_explicit_first_person_form
+char_WISEMON,Вайзмон,36,unknown,0,0,no_explicit_first_person_form
+char_WITCHMON,Витчмон,44,female,0,3,curated_source_confirmed
+char_WIZARDMON,Визармон,28,contextual male,2,0,first_person_evidence_only
+char_WOLFMON,Вольфмон,9,unknown,0,0,no_explicit_first_person_form
+char_WOODMON,Вудмон,8,unknown,0,0,no_explicit_first_person_form
+char_WORMMON,Ворммон,6,contextual male,1,0,first_person_evidence_only
+char_XV-MON,ИксВи-мон,18,contextual male,2,0,first_person_evidence_only
+char_YATAGARAMON,Ятагарамон,8,unknown,0,0,no_explicit_first_person_form
+char_YUKIDARUMON,Юкидарумон,19,unknown,0,0,no_explicit_first_person_form
+char_YUNIMON,Юнимон,6,unknown,0,0,no_explicit_first_person_form
+char_ZANBAMON,Дзанбамон,4,unknown,0,0,no_explicit_first_person_form
+char_ZUBAEAGERMON,Зубаигермон,34,contextual male,1,0,first_person_evidence_only
+char_ZUDOMON,Зудомон,70,contextual male,3,0,first_person_evidence_only
