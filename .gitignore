@@ -11,6 +11,8 @@ csv/app_text01/
 fixed/
 exports/.digimon_wiki_name_cache.json
 luac.out
+analysis/
+**/__pycache__/
 
 # Local editor / OS noise
 .DS_Store

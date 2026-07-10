@@ -16,8 +16,11 @@ CSV_ROOT = ROOT / "csv"
 PAYLOAD_ROOT = ROOT / "installer" / "payload"
 WORK_ROOT = ROOT / "analysis" / "game_text01_compare_v030"
 ORIGINAL_CSV_ROOT = WORK_ROOT / "original_csv"
+PAYLOAD_CSV_ROOT = WORK_ROOT / "payload_csv"
 OUT_CSV = ROOT / "exports" / "game_text01_compare_v030.csv"
 OUT_SUMMARY = ROOT / "exports" / "game_text01_compare_summary_v030.txt"
+REPORT_LABEL = "Game text01 vs RU payload audit v0.1.30"
+PREEXTRACTED_ORIGINAL_ROOT: Path | None = None
 
 MVGL_TOOL = ROOT / ".tools" / "MVGLTools-v2.2.0" / "MVGLTools-v2.2.0-win64" / "MVGLToolsCLI.exe"
 
@@ -122,6 +125,41 @@ def extract_original_package(name: str, mvgl_path: Path) -> Path:
     package_work = WORK_ROOT / "unpacked" / name
     safe_rmtree(package_work, WORK_ROOT)
     safe_rmtree(csv_package, ORIGINAL_CSV_ROOT)
+    package_work.mkdir(parents=True, exist_ok=True)
+    csv_package.mkdir(parents=True, exist_ok=True)
+
+    base_dir = package_work / "base"
+    run_tool(["--game=dsts", "--mode=unpack-mvgl", "--input", str(mvgl_path), "--output", str(base_dir)])
+    for section in ("message", "text"):
+        base_section = base_dir / section
+        if not base_section.exists():
+            continue
+        out_section = csv_package / section
+        run_tool(["--game=dsts", "--mode=unpack-mbe-dir", "--input", str(base_section), "--output", str(out_section)])
+
+    marker.write_text(json.dumps(source_meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    safe_rmtree(package_work, WORK_ROOT)
+    return csv_package
+
+
+def extract_payload_package(name: str, mvgl_path: Path) -> Path:
+    csv_package = PAYLOAD_CSV_ROOT / name
+    marker = csv_package / ".source.json"
+    source_meta = {
+        "path": str(mvgl_path),
+        "size": mvgl_path.stat().st_size,
+        "mtime_ns": mvgl_path.stat().st_mtime_ns,
+    }
+    if marker.exists():
+        try:
+            if json.loads(marker.read_text(encoding="utf-8")) == source_meta:
+                return csv_package
+        except json.JSONDecodeError:
+            pass
+
+    package_work = WORK_ROOT / "unpacked_payload" / name
+    safe_rmtree(package_work, WORK_ROOT)
+    safe_rmtree(csv_package, PAYLOAD_CSV_ROOT)
     package_work.mkdir(parents=True, exist_ok=True)
     csv_package.mkdir(parents=True, exist_ok=True)
 
@@ -252,6 +290,7 @@ def main() -> None:
         raise SystemExit(f"MVGLToolsCLI not found: {MVGL_TOOL}")
 
     ORIGINAL_CSV_ROOT.mkdir(parents=True, exist_ok=True)
+    PAYLOAD_CSV_ROOT.mkdir(parents=True, exist_ok=True)
     OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
 
     game_packages = game_text01_packages()
@@ -289,25 +328,18 @@ def main() -> None:
                 str(game_path),
             ])
             continue
-        if name not in csv_packages:
-            counts["missing_csv_package"] += 1
-            audit_rows.append([
-                "3",
-                "missing_csv_package",
-                name,
-                "",
-                "",
-                "",
-                "",
-                "Payload exists, but matching csv package is absent",
-                str(translated_packages[name]),
-                str(game_path),
-            ])
-            continue
-
-        original_csv = extract_original_package(name, game_path)
+        original_csv = None
+        if PREEXTRACTED_ORIGINAL_ROOT is not None:
+            cached_original = PREEXTRACTED_ORIGINAL_ROOT / name / "csv"
+            if cached_original.is_dir():
+                original_csv = cached_original
+        if original_csv is None:
+            original_csv = extract_original_package(name, game_path)
+        translated_csv = csv_packages.get(name)
+        if translated_csv is None:
+            translated_csv = extract_payload_package(name, translated_packages[name])
         original_rows = collect_rows(name, original_csv)
-        translated_rows = collect_rows(name, csv_packages[name])
+        translated_rows = collect_rows(name, translated_csv)
 
         source_files = {key[0] for key in original_rows}
         translated_files = {key[0] for key in translated_rows}
@@ -378,8 +410,9 @@ def main() -> None:
         csv.writer(f, lineterminator="\n").writerows(audit_rows)
 
     summary_lines = [
-        "Game text01 vs RU payload audit v0.1.30",
+        REPORT_LABEL,
         f"game_data={GAME_DATA}",
+        f"source_root={PREEXTRACTED_ORIGINAL_ROOT or ORIGINAL_CSV_ROOT}",
         f"payload_root={PAYLOAD_ROOT}",
         f"rows={len(audit_rows) - 1}",
         "",

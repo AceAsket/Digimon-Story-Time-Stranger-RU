@@ -1,0 +1,496 @@
+﻿package,file,row_id,source_move,classification,review_status,source_en,current_ru
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0027_profile,Speed Charge,generic_description,accepted_contextual_collision,"The strongest dragon warrior, wearing armor 
+crafted from the super-metal Chrondigizoid, 
+WarGreymon is the ultimate form of the Greymon 
+species. It sports a more humanoid physique than 
+the typical large bodies of other Greymon types, 
+but possesses vastly improved power and speed. 
+It may be impossible to defeat with the attacks of 
+Ultimate-level Digimon. The ""Dramon Killers"" 
+attached to WarGreymon's arms deal massive 
+damage to Dramon-species Digimon, but also 
+expose WarGreymon to danger, making them 
+double-edged swords. WarGreymon can also 
+combine the exoskeleton parts on its back to form 
+the hardest of shields, ""Brave Shield."" It's said that 
+even among the most battle-hardened of veterans, 
+it's only when one of true valor realizes its own 
+destiny that it Digivolves into a WarGreymon. 
+WarGreymon's special move is the super dense, 
+high temperature energy beam Terra Force, with 
+which it concentrates all the energy in the 
+atmosphere into a single point before blasting it
+forward. It also uses Great Tornado to join the 
+Dramon Killers on its arms above its head to 
+perform a spinning, high-speed charge that
+pierces the enemy.","Самый сильный дракон-воин, носящий броню,
+созданную из суперметалла Хромдигизоид,
+ВарГреймон — ультиматная форма вида Греймон.
+Он имеет более гуманоидное телосложение, чем
+типичные крупные тела других типов Греймон, но
+обладает значительно улучшенной силой и
+скоростью. Победить его атаками дигимонов
+ультиматного уровня почти невозможно. «Драконьи
+Убийцы», прикрепленные к рукам ВарГреймона,
+наносят массивный урон дигимонам вида Драмон,
+но также подвергают ВарГреймона опасности,
+делая их палкой о двух концах. ВарГреймон
+также может комбинировать части экзоскелета на
+своей спине, чтобы сформировать самый твердый
+щит, «Брэйв Шилд». Говорят, что даже среди
+самых опытных ветеранов, только тот, кто
+обладает истинной доблестью и осознает свою
+собственную судьбу, эволюционирует в
+ВарГреймона. Особый приём ВарГреймона
+— сверхплотный, высокотемпературный
+энергетический луч «Сила Терры», с помощью
+которого он концентрирует всю энергию в
+атмосфере в одной точке перед тем, как
+выстрелить ею вперед. Он также использует
+«Великий Торнадо», соединяя Драконьи Убийцы на
+своих руках над головой, чтобы выполнить
+вращающуюся, высокоскоростную атаку, которая
+пронзает врага."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0034_profile,Dark Breath,generic_description,accepted_contextual_collision,"One of the Seven Great Demon Lords, this Evil King
+Digimon takes the form of a woman. Believed to
+have at one time been an Ophanimon, Lilithmon
+fell from grace and became what's known as the
+""Goddess of Darkness."" Beguiling and beautiful, it
+seduces its foes, with certain death said to await all
+who accept its invitation. In keeping with its
+""Goddess of Darkness"" moniker, Lilithmon rewards
+vice with generosity and virtue with cruel indignities.
+The fiendish ""Nazar Nails"" on its right hand corrode
+anything they touch. Lilithmon's special move is
+Phantom Pain, a dark breath attack that eats away
+at foes' bodies. Those afflicted by this curse find
+their data eroding, starting with their extremities,
+and they suffer painfully even after their inevitable
+demise.","Один из Семи Великих Демонических Лордов, этот
+дигимон-Король Зла принимает форму женщины.
+Считается, что когда-то она была Офанимон,
+Лилитмон пала и стала тем, что известно как
+«Богиня Тьмы». Соблазнительная и красивая, она
+заманивает своих врагов, и, как говорят,
+верная смерть ждет всех, кто примет ее
+приглашение. В соответствии со своим прозвищем
+«Богиня Тьмы», Лилитмон щедро вознаграждает
+порок и жестоко унижает добродетель.
+Дьявольские «Нейл Нейлз» на ее правой руке
+разъедают все, к чему прикасаются. Особый приём Лилитмон — «Фантомная Боль», атака
+темным дыханием, которая разъедает тела
+врагов. Те, кто поражен этим проклятием,
+обнаруживают, что их данные разъедаются,
+начиная с конечностей, и они мучаются даже
+после неизбежной гибели."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0135_profile,Wolf Claw,longer_move_substring,accepted_contextual_collision,"This final form of Garurumon has been enhanced 
+by turning most of its body into metal. Despite this 
+process, MetalGarurumon hasn't lost any agility, 
+and it can destroy its foes using the countless 
+weapons hidden all over its body. The four laser
+sights at the tip of its nose emit invisible beams, 
+and MetalGarurumon makes use of a wide array 
+of sensors, including those for infrared and X-rays, 
+to analyze its targets. This makes it impossible to 
+escape from MetalGarurumon, even in perfect
+darkness. What's more, the mechanical arms 
+extending from MetalGarurumon's back can emit
+photoelectric beam wings, allowing it to fly through
+Net Space at incredible speed. MetalGarurumon's
+special move is Freezing Breath, with which it
+breathes out a blast of air at absolute zero that
+freezes everything it touches. This move instantly
+suspends the vital functions of any living creature
+it hits. It also possesses Ice Wolf Claw, which
+annihilates foes by unleashing every weapon in
+MetalGarurumon's arsenal at once.","Эта финальная форма Гарурумона была усилена за
+счет превращения большей части его тела в
+металл. Несмотря на этот процесс,
+МеталГарурумон не потерял ни капли проворства
+и может уничтожать своих врагов, используя
+бесчисленное оружие, скрытое по всему телу.
+Четыре лазерных целеуказателя на кончике его
+носа испускают невидимые лучи, и
+МеталГарурумон использует широкий множество
+датчиков, включая инфракрасные и
+рентгеновские, для анализа своих целей. Это
+делает невозможным побег от МеталГарурумона,
+даже в полной темноте. Более того,
+механические руки, выдвигающиеся из спины
+МеталГарурумона, могут испускать
+фотоэлектрические лучевые крылья, позволяя ему
+летать через Сетевое Пространство с
+невероятной скоростью. Особый приём
+МеталГарурумона — «Леденящее Дыхание», которым он
+выдыхает поток воздуха при абсолютном нуле,
+который замораживает все, к чему прикасается.
+Этот ход мгновенно приостанавливает жизненные
+функции любого живого существа, в которое он
+попадает. Он также обладает «Коготь Ледяного Волка»,
+который уничтожает врагов одновременным
+запуском всего оружия в арсенале
+МеталГарурумона."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0359_profile,Energy Bomb,generic_description,accepted_contextual_collision,"A Pixie Digimon born from beautiful flower petals. 
+At first glance, Lillymon looks like a small child, but 
+it's in fact an Ultimate Digimon with immeasurable 
+power. Possessed of a mercurial and tomboyish
+personality, it's said to open its heart to human girls 
+of the same disposition. Lillymon can also be a 
+crybaby, and becomes inconsolable once it starts 
+sobbing, making this one of the harder Digimon to 
+tame. But Lillymon will also offer a helping hand 
+to the small and the weak. Able to fly using the four
+leaf-like wings on its back, a gentle breeze is said to 
+follow in Lillymon's wake. Its special move is Flower 
+Cannon, with which it extends both of its arms, turns
+the flowers on its wrists into the mouth of a cannon
+and fires an energy bomb.","Дигимон-пикси, рожденный из красивых лепестков
+цветов. На первый взгляд, Лилимон выглядит как
+маленький ребенок, но на самом деле это
+дигимон уровня Ультимат с неизмеримой силой.
+Обладая изменчивым и сорвиголовским
+характером, говорят, что она открывает свое
+сердце девочкам с таким же нрав.
+Лилимон также может быть плаксой и становится
+безутешный, как только начинает рыдать, что
+делает ее одним из самых трудных для
+приручения дигимонов. Но Лилимон также
+протянет руку помощи маленьким и слабым.
+Способная летать с помощью четырех
+листоподобных крыльев на спине, за Лилимоном,
+как говорят, следует нежный ветерок. Ее
+особый приём — «Цветочная Пушка», при
+котором она протягивает обе руки, превращает
+цветы на своих запястьях в жерло пушки и
+выстреливает энергетической бомбой."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0379_profile,Deep Forest,title_phrase,accepted_contextual_collision,"Cherrymon is a Digimon further Digivolved from 
+Woodmon, gaining a high degree of intelligence 
+and power. Known as the ""Lord of the Deep
+Forest,"" it's a terrifying Digimon that lures those 
+who wander into the depths of the dark forest 
+ever farther inside so they can never leave again. 
+Its body produces a hallucinogenic mist to lure 
+Digimon deep into the forest. It then uses its 
+branch-like tentacles and vines to capture its 
+enemies and draw nourishment from them. 
+Should you ever encounter an old Woodmon, it 
+may be best to defeat it before it can Digivolve into
+Cherrymon. Cherrymon's special move Cherry 
+Bomb makes use of the forbidden fruit growing in 
+the thick branches on its head.","Черримон — дигимон, дальнейший
+эволюционировавший из Вудмона, обретя высокую
+степень интеллекта и силы. Известный как
+«Повелитель Глубокого Леса», это ужасающий
+дигимон, который заманивает тех, кто забредает
+в глубины темного леса, все дальше внутрь,
+чтобы они никогда не смогли уйти. Его тело
+производит галлюциногенный туман, чтобы
+заманить дигимонов глубоко в лес. Затем он
+использует свои веткоподобные щупальца и лозы,
+чтобы захватить своих врагов и извлекать из
+них питание. Если вы когда-нибудь встретите
+старого Вудмона, лучше победить его,
+прежде чем он сможет эволюционировать в
+Черримона. Особый приём Черримона
+«Вишневая Бомба» использует запретный плод,
+растущий в густых ветвях на его голове."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0395_profile,Fox Tail,longer_move_substring,accepted_contextual_collision,"A Mysterious Beast Digimon in the shape of a giant
+fox with nine tails. Kyubimon is feared as a beast
+that brings destruction and decay, but in ancient
+times it was hailed as a bringer of peace. A Renamon
+with particularly strong abilities and a wide range of
+experience is said to Digivolve into a Kyubimon.
+This Digimon lacks attack power, but possesses
+incredible spiritual energy and specializes in spells.
+The blue flames burning on its four limbs apparently
+allow Kyubimon to gallop through the heavens.
+Its signature move Fox Tail Inferno creates and
+controls will-o'-the-wisps.","Таинственный зверь-дигимон в форме гигантской
+лисы с девятью хвостами. Кюбимона боятся как
+зверя, который приносит разрушение и разложение, но
+в древние времена его приветствовали как
+вестника мира. Говорят, что Ренамон с
+особенно сильными способностями и широким
+опытом эволюционирует в Кюбимона. Этому
+дигимону не хватает силы атаки, но он обладает
+невероятной духовной энергией и
+специализируется на заклинаниях. Голубые
+пламена, горящие на его четырех конечностях,
+по-видимому позволяют Кюбимону скакать по
+небесам. Его фирменное движение «Инферно лисьего хвоста» создает и контролирует блуждающие
+огни."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0422_profile,Infinity Cannon,longer_move_substring,accepted_contextual_collision,"Machinedramon, a Digimon made from the parts of 
+countless Cyborg Digimon, possesses unimaginable
+powers, and as such was apparently considered a 
+successful experiment. Chaosdramon, with its 
+crimson metal body, is an even more advanced
+version of Machinedramon. Its frame is made from 
+Red Digizoid, a rare metal made by re-refining the 
+virtual super-metal Chrondigizoid to increase its 
+hardness. As a result, it's capable of repelling all 
+manner of attacks, and destroying absolutely
+anything. Its special move Hyper Infinity Cannon 
+fires super-dreadnought class energy blasts from 
+both of its cannons.","Машиндрамон, собранный из частей бесчисленных
+киборг-дигимонов, обладает невообразимой силой
+и считался успешным экспериментом. Хаосдрамон
+с багровым металлическим телом - еще более
+совершенная версия Машиндрамона. Его каркас сделан
+из Красного Дигизоида, редкого металла, полученного
+повторной очисткой виртуального сверхметалла
+Хромдигизоида для повышения твердости. Благодаря
+этому он способен отражать самые разные атаки
+и разрушать абсолютно все. Его особый прием
+«Гиперпушка бесконечности» выпускает энергетические
+залпы класса сверхдредноута из обеих пушек."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0423_profile,Deep Forest,title_phrase,accepted_contextual_collision,"The supreme form of the Kuwagamon species. 
+Particularly evil even for an Insectoid Digimon, an 
+encounter with GranKuwagamon in the Digital 
+World spells doom. Since it normally lives deep 
+within the forest and is only active at night, it's also 
+known as the ""Demon of the Deep Forest."" It's 
+HerculesKabuterimon's greatest rival, and the two 
+are locked in an interminable struggle. 
+GranKuwagamon's special move is Dimension 
+Scissor, which cuts through everything around it, 
+including space itself.","Высшая форма вида Кувагамон. ГранКувагамон
+выделяется злобой даже среди
+дигимонов-насекомых, и встреча с ним в
+Цифровом мире почти наверняка означает
+гибель. Он живёт в лесной чаще и выходит
+лишь ночью, поэтому его называют «Демоном
+глухого леса». ГранКувагамон — главный
+соперник ГераклКабутеримона; их
+бесконечная борьба не прекращается. Особым
+приёмом «Пространственные ножницы» он
+рассекает всё вокруг — даже само
+пространство."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0489_profile,Energy Bomb,generic_description,accepted_contextual_collision,"A final, legendary Digivolution, the end result of 
+limitless potential realized through the deepened 
+bond of an Agumon and its partner. The fortuitous 
+courage of its partner becomes burning flame that 
+erupts from its body, emerging as proof of their 
+deep faith in each other. Having deepened its 
+understanding of humans through this long 
+relationship, its Digivolved form takes on an almost
+humanoid appearance. Agumon (Bond of Bravery) 
+uses its special moves Red Reamer to burn the 
+enemy with high-density red lasers from its claw 
+tips, and Gaia Brave to unleash the flame of
+courage within it as a superheated energy bomb.","Финальная, легендарная эволюция, конечный
+результат безграничного потенциала,
+реализованного через углубленную связь Агумона
+и его партнера. Благоприятное мужество его
+партнера становится горящим пламенем, которое
+извергается из его тела, появляясь как
+доказательство их глубокой веры друг в друга.
+Углубив свое понимание людей через эти долгие
+отношения, его эволюционная форма принимает
+почти гуманоидную внешность. Агумон (Связь
+Храбрости) использует свои особые приемы
+«Красный риммер», чтобы сжечь врага
+высокоплотными красными лазерами с кончиков
+своих когтей, и «Гея Храбрая», чтобы
+высвободить пламя храбрости внутри него как
+перегретую энергетическую бомбу."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0548_profile,Energy Bomb,generic_description,accepted_contextual_collision,"A Mythical Beast Digimon based on mythical creatures 
+of legend, with the wings of Pegasus and the horn of 
+a unicorn. It travels across the Net in the blink of an 
+eye with the large wings on its back, and stabs foes 
+with the sharp horn on its forehead. A ""wild"" Unimon 
+is as hot-blooded as any untamed horse, but once 
+trained, the Tamer can handle it with ease. Its special 
+move is Holy Shot, which belches an energy bomb 
+from its large mouth.","Дигимон-Мифический Зверь, основанный на
+мифических существах легенд, с крыльями Пегаса
+и рогом единорога. Он путешествует по Сети в
+мгновение ока с большими крыльями на спине и
+пронзает врагов острым рогом на лбу. «Дикий» Унимон горяч, как необъезженная
+лошадь, но после приручения укротитель легко
+может с ним управиться.
+Его особое движение — Святой Выстрел, который
+извергает энергетическую бомбу из его большого
+рта."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0609_profile,Scissor Claw,longer_move_substring,accepted_contextual_collision,"An extremely rare insect Machine Digimon that
+was recently discovered. No insect Machine
+Digimon had been discovered up to that point, and
+so Kokuwamon's existence wasn't even considered
+a possibility. Its stun gun-shaped head and arms
+can discharge 100 megavolts of electricity when it
+senses danger, so none can approach without
+caution. Even so, Kokuwamon lacks any aggression,
+sporting instead an accommodating nature that
+seeks peace. Kokuwamon obtains nourishment
+from electricity, and recharges itself with the two
+limbs on its midsection. Its special move is
+Mini Scissor Claw, which electrifies its pincers
+to slice through even the sturdiest of objects.","Чрезвычайно редкий Машинный Дигимон-Насекомое,
+недавно обнаруженный. До этого момента не было
+обнаружено ни одного Машинного
+Дигимона-Насекомого, поэтому сама возможность
+существования Кокувамона даже не
+рассматривалась. Его голова и руки в форме
+электрошокера могут разряжать 100 мегавольт
+электричества, когда он чувствует опасность,
+так что никто не может приблизиться без
+осторожности. Тем не менее, Кокувамону не
+хватает агрессии, вместо этого он обладает
+уживчивым характером, стремящимся к миру.
+Кокувамон получает питание от электричества и
+подзаряжается двумя конечностями на своей
+середине. Его особое движение — «Мини-Ножничный Коготь», которое электрифицирует его
+клешни, чтобы разрезать даже самые прочные
+объекты."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0627_profile,Energy Bomb,generic_description,accepted_contextual_collision,"An Ultimate Digimon similar in appearance to a 
+long-legged spider. In its normal form, Infermon has 
+its limbs and head extended, but it can also take on 
+a cocoon form where it draws its limbs inside its body. 
+In cocoon form, its defense increases to the point 
+where it can repel any attack, although this limits its
+movement to a straight line. It can easily overcome 
+the tightest security to infiltrate any network. Should
+Infermon ever be released onto the Net, the world 
+would be plunged into chaos. Its special move Spider
+Shooter fires an energy bomb of incredible destructive 
+power from the gunport in its mouth.","Ультимативный Дигимон, похожий на длинноногого
+паука. В своей нормальной форме Инфермон имеет
+вытянутые конечности и голову, но он также
+может принимать коконную форму, когда
+втягивает конечности внутрь своего тела. В
+форме кокона его защита увеличивается до такой
+степени, что он может отразить любую атаку,
+хотя это ограничивает его движение прямой
+линией. Он может легко преодолеть самую плотный
+безопасность, чтобы проникнуть любую сеть. Если бы
+Инфермон когда-либо был выпущен в Сеть, мир
+погрузился бы в хаос. Его особое движение
+Паучий Стрелок выпускает энергетическую бомбу
+невероятной разрушительной силы из амбразура в
+его рту."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0632_profile,Energy Bomb,generic_description,accepted_contextual_collision,"Diaboromon absorbs any and all data on the Net 
+so that it can repeatedly Digivolve and grow larger, 
+thereby draining the Digital World and bringing it to 
+the brink of destruction. Having absorbed a vast
+quantity of knowledge and data, Diaboromon sees 
+itself as omniscient and omnipotent, and revels in 
+carnage and slaughter. Out of the many Digimon in 
+existence, it's one of the few with a definite purpose. 
+Its ultimate goal is to hijack a military computer so 
+that it can launch a nuclear strike and destroy the 
+Material World, making it a terrifying Digimon. Its
+special move is Catastrophe Cannon, with which it
+fires a destructive energy bomb from the cannon in
+its chest.","Диабломон поглощает любые и все данные в
+Сети, чтобы он мог неоднократно
+эволюционировать и становиться больше,
+тем самым истощая Цифровой мир и доводя его до
+грани разрушение. Поглотив огромное
+количество знаний и данных, Диабломон считает
+себя всезнающим и всемогущим и упивается в
+бойня и резня. Из множества существующих
+Дигимонов он один из немногих с определенной
+целью. Его конечная цель — захватить военный
+компьютер, чтобы он мог запустить ядерный удар
+и уничтожить Материальный мир, что делает его
+ужасающим Дигимоном. Его особое движение —
+«Пушка-катастрофа», которой он выпускает
+разрушительную энергетическую бомбу из пушки в
+своей груди."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0720_profile,Energy Bomb,generic_description,accepted_contextual_collision,"A Beast Man Digimon DNA Digivolved from Aquilamon
+and Gatomon. Silphymon has tremendously strong
+legs, and is said to be able to leap high into the sky.
+Upon reaching these heights, it then spreads its arms
+and sails through the air like a glider. Silphymon uses
+the radar devices on its ears to gather information,
+then visually processes this data for viewing on its
+head-mounted display, allowing it to pinpoint an
+enemy's location, day or night. It uses its special move
+Top Gun to extend its arms to fire an energy bomb.","Зверь-Человек Дигимон,
+ДНК-эволюционировавший из Аквиламона и
+Гатомона. У Сильфимона невероятно сильные
+ноги, и говорят, что он может прыгать высоко в
+небо. Достигнув этих высот, он затем
+расправляет руки и парит в воздухе, как
+планер. Сильфимон использует устройства радара
+на своих ушах для сбора информации, затем
+визуально обрабатывает эти данные для
+просмотра на своём головном дисплее, позволяя
+ему точно определять местоположение врага,
+днём или ночью. Он использует свой специальный
+приём «Лучший Стрелок», чтобы вытянуть руки и
+выстрелить энергетической бомбой."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0740_profile,Lightning Blade,generic_description,accepted_contextual_collision,"An Android Digimon that possesses wings made of 
+Chrondigizoid. Ravemon served Deity Digimon 
+as the ""Silver Crow"" at the creation of the Digital 
+World, but it was struck by the gods' anger and had 
+one of its wings dyed black as a result. The true 
+terror of Ravemon is in its covert actions. It conceals
+itself with its dark wing, and slashes at foes with its
+white wing. Appearing out of nowhere, it takes the
+enemy out with a single swift attack. It uses its
+special move Spiral Raven Claw to unleash a spinning
+charge into the enemy with the sharp claws on its
+left arm. In addition, it defeats the enemy with its
+blade ""Raven King Sword,"" which it uses with deft
+movements, and the black lightning blade released
+from this sword, Ame no Ohabari, has enormous
+destructive power.","дигимон-андроид, который обладает крыльями,
+сделанными из Хромдигизоида. Рейвемон служил
+Божественным Дигимонам как «Серебряный Ворон»
+при создании Цифрового мира, но он был поражён
+гневом богов, и в результате одно из его
+крыльев было окрашено в чёрный цвет. Истинный
+ужас Рейвемона — в его скрытных действиях. Он
+скрывает себя своим тёмным крылом и рубит
+врагов своим белым крылом. Появляясь из
+ниоткуда, он выводит врага из строя одним
+быстрым ударом. Он использует свой специальный
+приём «Спиральный Коготь Ворона», чтобы
+обрушить вращающуюся атаку на врага острыми
+когтями на своей левой руке. Кроме того, он
+побеждает врага своим клинком «Меч Короля
+Воронов», который он использует с ловкими
+движениями, и выпускаемым из этого меча чёрным
+лезвием молнии Амэ но Охабари, которое
+обладает огромной разрушительной силой."
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0771_profile,Energy Bomb,generic_description,accepted_contextual_collision,"Darkdramon is an Android Digimon believed to be 
+the D-Brigade's ultimate weapon. Rumor has it that
+D-Brigade researchers created Darkdramon by 
+Digivolving a Tankdramon they recovered. Supposedly, 
+this Tankdramon was defeated in an operation 
+designed to eliminate a target codenamed BAN-TYO.
+However, none of this information is particularly 
+reliable. A vast amount of dark matter seems to have 
+been used in this Digivolution process. Possibly as a 
+result, Darkdramon immediately went berserk and fled.
+Its current whereabouts are unknown, even to the 
+D-Brigade, though rumor has it that it's still searching 
+for Codename BAN-TYO. Its special move Dark Roar 
+is a forbidden technique that involves firing an energy 
+bomb composed of dark matter. Nothing can survive 
+a hit from this attack, rumor has it. Darkdramon also 
+has a weapon called the Gigastick Lance built into
+its right arm, said to be equal in power to Gallantmon's 
+holy lance Gram.","Даркдрамон — дигимон-андроид, который, как
+полагают, является предельным оружием D-Бригады.
+Ходят слухи, что исследователи D-Бригады
+создали Даркдрамона, эволюционировав
+Танкдрамона, которого они восстановили.
+Предположительно, этот Танкдрамон был побеждён
+в операции, предназначенной для устранения цели с
+кодовым именем BAN-TYO. Однако, никакие из этих сведений не кажутся особенно надёжными. Кажется, что
+в этом процессе эволюции было использовано
+обширное количество тёмной материи. Возможно, в
+результате, Даркдрамон немедленно впал в
+берсерк и бежал. Его текущее местонахождение
+неизвестно, даже для D-Бригады, хотя ходят
+слухи, что он всё ещё ищет Кодовое имя
+BAN-TYO. Его специальный приём «Тёмный Рев» —
+это запрещённая техника, которая включает
+выстрел энергетической бомбы, состоящий из
+тёмной материи. Ничто не может выжить после
+попадания этой атаки, как гласит молва.
+Даркдрамон также имеет оружие под названием
+«Копьё «Гигастик»», встроенное в его правую
+руку, которое, как говорят, равно по мощности
+святому копью Галлантмона Грам."

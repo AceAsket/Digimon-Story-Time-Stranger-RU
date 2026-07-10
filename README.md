@@ -48,6 +48,14 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build_release.ps1
 
 Готовые файлы появятся в `dist`.
 
+После создания и отправки тега релиз публикуется командой:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/publish_release.ps1
+```
+
+Скрипт закрепляет единый заголовок `DSTS RU vX.Y.Z`, проверяет наличие трёх релизных файлов и не позволяет случайно перезаписать существующий GitHub Release.
+
 Полезные отдельные команды:
 
 ```powershell

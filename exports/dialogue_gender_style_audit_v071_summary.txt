@@ -1,4 +1,4 @@
-Dialogue gender and style audit v082
+Dialogue gender and style audit v071
 csv_root=D:\digimon\csv
 original_root=D:\digimon\verify\game_build_23514637\text_original
 dialogue_rows_scanned=25484

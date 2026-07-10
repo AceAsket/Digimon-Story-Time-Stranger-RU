@@ -1,0 +1,6 @@
+Profile move replacement suggestions v097
+candidates=0
+high=0
+medium=0
+low=0
+report=exports\profile_move_replacement_suggestions_v097.csv

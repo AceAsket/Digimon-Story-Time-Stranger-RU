@@ -349,7 +349,7 @@ honored to fight him.","Перед тобой великий герой Шамб
 like to fight again?","Прямо сейчас я бы предпочел двигаться, а не отдыхать! Ты хотел
 бы снова драться?",
 4,possible_player_address_gender,patch_text01,message/s200_148.mbe/000_Sheet1.csv,41,s200_148_390,char_PALMON,,прав,"проверить, относится ли форма к игроку","Yeah... you have a point! Maybe humans aren't as scary
-as I thought?","Да... ты прав! Может, люди не так страшны, как я думал?",
+as I thought?","Да... ты прав! Может, люди не так страшны, как я думала?",
 4,possible_player_address_gender,patch_text01,message/s910_169.mbe/000_Sheet1.csv,111,s910_169_930,char_HIROKO,,попал,"проверить, относится ли форма к игроку","What? You didn't catch on? You came here purely by
 coincidence? Guess I lucked out...","Что? Ты не понял? Ты попал сюда чисто случайно? Думаю, мне
 повезло...",

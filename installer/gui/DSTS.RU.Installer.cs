@@ -315,13 +315,22 @@ namespace DstsRuInstaller
 
         private void CheckForUpdates(bool showNoUpdate)
         {
-            string currentVersion = GetCurrentTranslationVersion();
+            string installedVersion = GetInstalledTranslationVersion();
+            string packageVersion = InstallerMetadata.Version;
+            string comparisonVersion = packageVersion;
+            if (!string.IsNullOrEmpty(installedVersion)
+                && UpdateChecker.IsNewerVersion(installedVersion, comparisonVersion))
+            {
+                comparisonVersion = installedVersion;
+            }
+
+            string installedLabel = string.IsNullOrEmpty(installedVersion) ? "не установлен" : installedVersion;
             updateButton.Enabled = false;
-            Log("Проверка обновлений... Текущая версия перевода: " + currentVersion);
+            Log("Проверка обновлений... Установлено: " + installedLabel + "; пакет установщика: " + packageVersion);
 
             Task.Factory.StartNew(delegate
             {
-                return UpdateChecker.Check(currentVersion);
+                return UpdateChecker.Check(comparisonVersion);
             }).ContinueWith(delegate(Task<UpdateInfo> task)
             {
                 BeginInvoke((Action)delegate
@@ -341,10 +350,30 @@ namespace DstsRuInstaller
                     UpdateInfo info = task.Result;
                     if (info == null)
                     {
-                        Log("Установлена актуальная версия.");
-                        if (showNoUpdate)
+                        bool packageCanUpdateInstalled = string.IsNullOrEmpty(installedVersion)
+                            || UpdateChecker.IsNewerVersion(packageVersion, installedVersion);
+                        if (packageCanUpdateInstalled)
                         {
-                            MessageBox.Show(this, "Установлена актуальная версия перевода.", "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            Log("Версия " + packageVersion + " уже доступна в этом установщике; скачивание не требуется.");
+                            if (showNoUpdate)
+                            {
+                                MessageBox.Show(
+                                    this,
+                                    "В этом установщике уже есть версия перевода " + packageVersion
+                                        + ".\nУстановленная версия: " + installedLabel
+                                        + ".\n\nДополнительное скачивание не требуется. Нажмите «Установить перевод».",
+                                    "Обновление уже в установщике",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
+                            }
+                        }
+                        else
+                        {
+                            Log("Установлена актуальная версия перевода.");
+                            if (showNoUpdate)
+                            {
+                                MessageBox.Show(this, "Установлена актуальная версия перевода.", "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
                         }
                         return;
                     }
@@ -355,7 +384,10 @@ namespace DstsRuInstaller
                         : "Скачать и запустить новый установщик?";
                     DialogResult result = MessageBox.Show(
                         this,
-                        "Доступна новая версия перевода: " + info.Version + "\nТекущая версия: " + currentVersion + "\n\n" + action,
+                        "Доступна новая версия перевода: " + info.Version
+                            + "\nУстановленная версия: " + installedLabel
+                            + "\nВерсия пакета в этом установщике: " + packageVersion
+                            + "\n\n" + action,
                         "Доступно обновление",
                         MessageBoxButtons.YesNo,
                         MessageBoxIcon.Information);
@@ -367,7 +399,7 @@ namespace DstsRuInstaller
             });
         }
 
-        private string GetCurrentTranslationVersion()
+        private string GetInstalledTranslationVersion()
         {
             string dir = pathTextBox.Text.Trim();
             if (!string.IsNullOrEmpty(dir) && Directory.Exists(dir))
@@ -379,7 +411,7 @@ namespace DstsRuInstaller
                 }
             }
 
-            return InstallerMetadata.Version;
+            return null;
         }
 
         private void DownloadAndLaunchUpdate(UpdateInfo info)
@@ -630,7 +662,7 @@ namespace DstsRuInstaller
             return installerFallback ?? exeFallback;
         }
 
-        private static bool IsNewerVersion(string remote, string current)
+        public static bool IsNewerVersion(string remote, string current)
         {
             Version remoteVersion;
             Version currentVersion;

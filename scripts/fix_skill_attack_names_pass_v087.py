@@ -324,7 +324,7 @@ HUMANIZED_NAMES = {
     "The Key": "Ключ",
     "Their power is building...": "Их сила нарастает...",
     "Their power surges!": "Их сила резко возрастает!",
-    "Twenty Dive": "Двадцатый бросок",
+    "Twenty Dive": "Двадцатейший рывок",
     "Triangler": "Трианглер",
     "Tri-Horn Attack": "Трёхрогая атака",
     "Trident Revolver": "Револьвер «Трезубец»",

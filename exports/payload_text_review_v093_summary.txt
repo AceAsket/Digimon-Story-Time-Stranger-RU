@@ -1,0 +1,11 @@
+Current payload text review v093
+audit_rows=1109
+actionable_manual_review=0
+
+By disposition:
+- deferred_semantic_items_skills_profiles: 262
+- optional_dlc_not_installed: 1
+- reviewed_input_or_graphics_label: 30
+- reviewed_proper_or_debug_label: 2
+- reviewed_proper_or_technical_token: 208
+- shadowed_by_patch: 606

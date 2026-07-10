@@ -1,0 +1,13 @@
+Profile prose audit v104
+profile_files=4
+profile_rows=474
+candidates=0
+broken_question_inside_word=0
+agreement_own_special_move=0
+agreement_primitive=0
+broken_best_known_weapons=0
+broken_whenever_possible=0
+literal_at_which_point=0
+broken_fans_alike=0
+broken_excels_boasts=0
+report=exports\profile_prose_audit_v104.csv

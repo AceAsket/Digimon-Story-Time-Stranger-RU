@@ -1,0 +1,104 @@
+﻿speaker,source_en,current_ru,source_gender,dialogue_rows
+char_PASSERBY_MAN,Man Passing By,Прохожий,male,162
+char_GLASSES_WEARING_MAN,Man with Glasses,Мужчина в очках,male,99
+char_PROTECTED_GIRL,Girl to Be Protected,Девушка под охраной,female,71
+char_MAN,Man,Мужчина,male,46
+char_SHOP_CLERK,Shopkeeper,Продавец,neutral,45
+char_YOUNG_MAN,Young Man,Парень,male,39
+char_YOUNG_WOMAN,Young Woman,Девушка,female,33
+char_PASSERBY_WOMAN,Woman Passing By,Прохожая,female,27
+char_MANAGER,Shop Manager,Менеджер магазина,neutral,23
+char_BOY,Boy,Мальчик,male,17
+char_MYSTERIOUS_GIRL,Mysterious Girl,Таинственная девушка,female,16
+char_MISTER,Middle-Aged Man,Мужчина средних лет,male,14
+char_WOMAN,Woman,Женщина,female,14
+char_ABDUCTED_BOY,Boy,Мальчик,male,12
+char_BARTENDER,Bartender,Бармен,neutral,12
+char_CAFE_ASSISTANT,Coffee Shop Clerk,Сотрудник кафе,neutral,12
+char_FEMALE_STUDENT,Female Student,Студентка,female,12
+char_OFFICE_WORKER,Office Worker,Офисный сотрудник,neutral,11
+char_CLIENT_WOMAN,Female Client,Заказчица,female,10
+char_SALESPERSON,Clerk,Продавец,neutral,10
+char_CHILD,Boy,Мальчик,male,8
+char_OLDMAN,Old Man,Старик,male,8
+char_WOMAN_LIKE_MOTHER,Woman Likely to Be Mother,"Вероятно, мать",female,8
+char_OUT_OTAKU,Creative Anime Geek,Творческий анимешник,neutral,7
+char_CLIENT_WOMAN_FRIEND,Female Client's Friend,Подруга заказчицы,female,6
+char_STANDING_MAN,Man Standing Around,Мужчина без дела,male,6
+char_FRONTCLERK,Front Desk Clerk,Администратор,neutral,5
+char_GREENGROCER,Vegetable Shop Man,Продавец овощей,male,4
+char_HIGH_SCHOOL_GIRL_2,Female High Schooler,Старшеклассница,female,4
+char_BIRDRA_TRANSPORT_EMPLOYEE,Birdramon's Transportation Service Employee,Сотрудник транспортной службы Бирдрамона,neutral,3
+char_MAN_IN_WHITECOAT,Man in Lab Coat,Мужчина в лабораторном халате,male,3
+char_TOUHO_CALM_BOY,Calm Boy,Спокойный мальчик,male,2
+char_VOICE_MIXED_WITH_NOISE,Muffled Voice,Приглушённый голос,neutral,2
+char_YGGDRASILL_SELFISH_GIRL,Arrogant Girl,Надменная девушка,female,2
+char_GIRL,Girl,Девочка,female,1
+char_HIGH_SCHOOL_BOY,High School Boy,Старшеклассник,male,1
+char_HOMEROS_SLEEPY_GIRL,Sleepy Girl,Сонная девушка,female,1
+char_MAYBE_INORI_VOICE,Inori Misono's Voice?,Голос Инори Мисоно?,neutral,1
+char_VOICE_FROM_TERMINAL,Voice from the Device,Голос с устройства,neutral,1
+char_ABDUCTED_GIRL,Girl,Девочка,female,0
+char_AEGIOMON_VOICE_OF_THE_HEART,Aegiomon (Inner Voice),Эгиомон (внутренний голос),neutral,0
+char_ANNOYED_WOMAN,Irritated Woman,Раздражённая женщина,female,0
+char_ARENA_017,Mighty Mad Man,Могучий безумец,male,0
+char_AUDIBLE_VOICE,Irritating Voice,Раздражающий голос,neutral,0
+char_BEAUTIFUL_SINGING_VOICE,Pretty Singing Voice,Красивый певучий голос,neutral,0
+char_BEAUTIFUL_VOICE,Beautiful Voice,Прекрасный голос,neutral,0
+char_BROTHER_WHO_CAME_TO_LUNCH,Man Here for Lunch,"Мужчина, пришедший на обед",male,0
+char_CAPTAIN_RADIO,Voice on Radio (Captain),Голос по радио (капитан),neutral,0
+char_CAPTAIN_VOICE,Man's Voice (Captain),Мужской голос (капитан),male,0
+char_CHEERFUL_VOICE,Familiar Cheery Voice,Знакомый бодрый голос,neutral,0
+char_CLOTHING_STORE,Man in Clothing Store,Мужчина в магазине одежды,male,0
+char_DEPRESSED_GIRL,Depressed Girl,Девушка в депрессии,female,0
+char_DESPERATE_MEN,Desperate Man,Отчаявшийся мужчина,male,0
+char_DIGNIFIED_VOICE,Dignified Voice,Величавый голос,neutral,0
+char_DISTRESSED_WOMAN,Distressed Woman,Расстроенная женщина,female,0
+char_ENCHANTING_VOICE,Alluring Voice,Манящий голос,neutral,0
+char_GIRL_NOT_REALLY_INTERESTED_2,Uninterested Girl,Равнодушная девушка,female,0
+char_GIRL_REALLY_NOT_INTERESTED,Girl Faking Interest,"Девушка, изображающая интерес",female,0
+char_GIRL_VOICE,Girl's Voice,Девичий голос,female,0
+char_GIRL_WHO_LIKES_RUMORS,Rumor-Loving Girl,Любительница слухов,female,0
+char_GOSSIP_GIRL,Gossip-Loving Girl,Сплетница,female,0
+char_HIGH_SCHOOL_GIRL,High School Girl,Старшеклассница,female,0
+char_INORI_nickname,Girl to Be Protected,Девушка под охраной,female,0
+char_KIND_HEARTED_MAN,Kind-Hearted Man,Добросердечный мужчина,male,0
+char_KYOSUKE,Kyosuke's Voice,Голос Киосукэ,neutral,0
+char_MAD_SINGING_VOICE,Funny Singing Voice,Забавный певучий голос,neutral,0
+char_MALE_VOICE,Man's Voice,Мужской голос,male,0
+char_MAN_IN_SUIT,Man in Suit,Мужчина в костюме,male,0
+char_MAN_IN_WAIT,Stood-Up Man,"Мужчина, которого не дождались",male,0
+char_MAN_LOOKS_KIND,Kind-Looking Man,Добродушный мужчина,male,0
+char_MAN_OF_PUBLIC_SECURITY,Public Safety Man,Сотрудник общественной безопасности,male,0
+char_MAN_ON_THE_PHONE,Man on Phone,"Мужчина, говорящий по телефону",male,0
+char_MAN_WHO_LIKES_TO_GOSSIP,Gossip-Loving Man,Сплетник,male,0
+char_MARSMON_nickname,Leopard Man Following Its Brother,"Человек-леопард, следующий за братом",male,0
+char_MAYBE_LEADER,Man (Probably Leader),"Мужчина (вероятно, лидер)",male,0
+char_MINERVAMON_nickname,War Maiden Who Landed in Shinjuku,"Воительница, прибывшая в Синдзюку",female,0
+char_MIREI_nickname,Theater Manager from the In-Between,Управляющая театром из Промежуточного звена,neutral,0
+char_MYSTERIOUS_MAN,Enigmatic Man,Загадочный мужчина,male,0
+char_MYSTERIOUS_VOICE,Mysterious Voice,Таинственный голос,neutral,0
+char_PALE_MAN,Pale Man,Бледный мужчина,male,0
+char_PALE_MAN?,Pale Man?,Бледный мужчина?,male,0
+char_PLAIN_MAN,Frank Man,Прямолинейный мужчина,male,0
+char_PUBLICSAFETY_BATTLE,Public Safety Man,Сотрудник общественной безопасности,male,0
+char_RELAXED_MAN,Relaxed Man,Расслабленный мужчина,male,0
+char_SAWABE_VOICE,Man's Voice (Sawabe),Мужской голос (Савабе),male,0
+char_STRONG_VOICE,Forceful Voice,Властный голос,neutral,0
+char_SUBWAY_WORKER,Subway Worker,Работник метро,neutral,0
+char_SUMERAGI_VOICE,Man's Voice (Kou),Мужской голос (Коу),male,0
+char_TAKASHIS_MOTHER,Takashi's Mother,Мать Такаши,female,0
+char_THE_VOICE_ONCE_HEARD,Familiar Voice,Знакомый голос,neutral,0
+char_TIRED_MAN,Exhausted Man,Измученный мужчина,male,0
+char_TIRED_OFFICE_WORKER,Tired Company Worker,Уставший офисный работник,neutral,0
+char_TIRED_OLD_MAN,Tired Man,Усталый мужчина,male,0
+char_TOUDO_VOICE,Todo's Voice,Голос Тодо,neutral,0
+char_VOICES_HEARD_FROM_INSIDE_THE_GATE,Voice from Inside Gate,Голос из-за ворот,neutral,0
+char_VOICE_FULL_OF_RESENTMENT,Bitter Voice (Dark Aegiomon),Озлобленный голос (тёмный Эгиомон),neutral,0
+char_VOICE_SOMEWHERE,Familiar Voice,Знакомый голос,neutral,0
+char_WOMAN_IN_SUIT,Woman in Suit,Женщина в костюме,female,0
+char_WOMAN_LIKE_SHRINE_MAIDEN,Priestess-Like Woman,Женщина в наряде жрицы,female,0
+char_WOMAN_OF_PUBLIC_SECURITY,Public Safety Woman,Сотрудница общественной безопасности,female,0
+char_WOMEN_HOLDING_A_LOLLIPOP,Woman with Lollipop,Женщина с леденцом,female,0
+char_WORKING_MAN,Working Man,Рабочий,male,0
+char_YOUNG_MAN_STANDING,Young Man Idling Around,Скучающий парень,male,0

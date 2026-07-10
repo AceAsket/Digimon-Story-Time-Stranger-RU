@@ -1,0 +1,7 @@
+NPC label audit v102
+generic_labels=103
+dialogue_rows=758
+gender_errors=0
+descriptor_review=0
+registry=exports\npc_label_registry_v102.csv
+issues=exports\npc_label_audit_v102.csv

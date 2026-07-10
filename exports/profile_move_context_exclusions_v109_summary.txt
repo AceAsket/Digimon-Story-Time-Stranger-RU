@@ -1,0 +1,7 @@
+Profile move contextual exclusions v109
+reviewed=16
+generic_description=10
+title_phrase=2
+longer_move_substring=4
+actionable=0
+report=exports\profile_move_context_exclusions_v109.csv
