@@ -45,8 +45,12 @@ if ($LASTEXITCODE -ne 0) {
     throw "Create and push tag $Tag before publishing the release."
 }
 
+$PreviousErrorActionPreference = $ErrorActionPreference
+$ErrorActionPreference = "SilentlyContinue"
 $ExistingJson = & gh release view $Tag --json tagName,name,isDraft,isPrerelease 2>$null
-$ReleaseExists = $LASTEXITCODE -eq 0
+$ReleaseViewExitCode = $LASTEXITCODE
+$ErrorActionPreference = $PreviousErrorActionPreference
+$ReleaseExists = $ReleaseViewExitCode -eq 0
 if ($ReleaseExists -and $ValidateOnly) {
     $Existing = $ExistingJson | ConvertFrom-Json
     if ($Existing.tagName -ne $Tag -or $Existing.name -ne $Title -or $Existing.isDraft) {
