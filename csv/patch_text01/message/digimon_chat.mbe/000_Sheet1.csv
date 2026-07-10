@@ -331,8 +331,8 @@ zplu_001_2_replay,char_PLAYER_M,Я понятия не имею.,
 zplu_001_2_reaction_char_UNDEADPLUTOMON,,"У твоих друзей, похоже, славные ДигиЯдра...
 Но, пожалуй, зря я спрашиваю об этом человека.",
 zplu_001_3_replay,char_PLAYER_M,"Даже если и есть, тебе я не скажу.",
-zplu_001_3_reaction_char_UNDEADPLUTOMON,,"Дразнишь меня, да? Твои друзья в конечном итоге проиграют с
-такой скоростью. Но пока тренируйся.",
+zplu_001_3_reaction_char_UNDEADPLUTOMON,,"Дразнишь меня? Так ты и друзей лишишься.
+Но сейчас — тренировка.",
 zplu_001_4_replay,char_PLAYER_M,"Пожалуйста, прояви немного сдержанности.",
 zplu_001_4_reaction_char_UNDEADPLUTOMON,,"Теперь мы союзники, значит, придётся потерпеть.
 Возьми меня с собой — так я отвлекусь от голода.",
@@ -1442,8 +1442,8 @@ gao_001_0_char_GAOMON,char_GAOMON,"Эй, как дела?",
 gao_001_1_replay,char_PLAYER_M,"Никаких проблем, о которых можно было бы сообщить.",
 gao_001_1_reaction_char_GAOMON,char_GAOMON,"Ладно, тогда пришло время для еще одного напряженного дня!",
 gao_001_2_replay,char_PLAYER_M,Чувствую себя превосходно!,
-gao_001_2_reaction_char_GAOMON,char_GAOMON,"Я должен был догадаться. Я должен больше следить за своим
-здоровьем, как и ты!",
+gao_001_2_reaction_char_GAOMON,char_GAOMON,"Надо было догадаться. Мне стоит лучше следить за здоровьем —
+как и тебе!",
 gao_001_3_replay,char_PLAYER_M,Разве это не очевидно?,
 gao_001_3_reaction_char_GAOMON,char_GAOMON,"Да, конечно, я могу!",
 gao_001_4_replay,char_PLAYER_M,Не слишком здорово.,
@@ -1548,8 +1548,8 @@ lena_001_3_replay,char_PLAYER_M,"Ты, конечно.",
 lena_001_3_reaction_char_RENAMON,char_RENAMON,"Спасибо. Я одолел немало сильных дигимонов и скопировал их
 данные, так что в своей силе не сомневаюсь.",
 lena_001_4_replay,char_PLAYER_M,Это мог быть практически любой из них.,
-lena_001_4_reaction_char_RENAMON,char_RENAMON,"Понятно. Что ж, независимо от того, с каким сильным Дигимоном я
-в конечном итоге столкнусь, я надеюсь, ты меня поддержишь.",
+lena_001_4_reaction_char_RENAMON,char_RENAMON,"Понятно. С каким бы сильным дигимоном мне ни пришлось сразиться,
+надеюсь, ты меня поддержишь.",
 panja_001_0_char_PANJYAMON,char_PANJYAMON,Тебе не нравится холод?,
 panja_001_1_replay,char_PLAYER_M,Я не в восторге от этого.,
 panja_001_1_reaction_char_PANJYAMON,char_PANJYAMON,"Тогда тебе стоит тренироваться на полярном морозе.
@@ -2674,8 +2674,8 @@ lasty_001_3_replay,char_PLAYER_M,"Друзья, которым ты можешь
 lasty_001_3_reaction_char_RUSTTYRANOMON,char_RUSTTYRANOMON,"Хм... Друзья подталкивают друг друга к большим высотам? Хорошо.
 Тогда стань моим другом.",
 lasty_001_4_replay,char_PLAYER_M,"Любовь к тем, кого ты хочешь защитить.",
-lasty_001_4_reaction_char_RUSTTYRANOMON,char_RUSTTYRANOMON,"Наличие кого-то, кого можно защитить, делает тебя сильнее? Тогда
-я буду защищать тебя на предстоящем пути.",
+lasty_001_4_reaction_char_RUSTTYRANOMON,char_RUSTTYRANOMON,"Тот, кого хочешь защитить, делает тебя сильнее?
+Тогда отныне я буду защищать тебя.",
 chaos_001_0_char_CHAOSMON,char_CHAOSMON,"Должно же быть хоть какое-то развлечение, даже для такого
 недолговечного человека, как я. Есть предложения?",
 chaos_001_1_replay,char_PLAYER_M,Путешествие в неизведанные миры.,
@@ -2746,8 +2746,8 @@ vdora_001_4_reaction_char_V-DRAMON,char_V-DRAMON,"Жизненная сила? �
 силу для тебя!",
 exbui_001_0_char_XV-MON,char_XV-MON,Мне все еще нужно больше энергии.,
 exbui_001_1_replay,char_PLAYER_M,Силы заметно прибавилось.,
-exbui_001_1_reaction_char_XV-MON,char_XV-MON,"Может быть, по сравнению с тем, что было до того, как я перешел
-на эволюционировал, но я должен сделать лучше, чем это!",
+exbui_001_1_reaction_char_XV-MON,char_XV-MON,"Разве что по сравнению с тем, каким я был до эволюции.
+Но мне ещё есть куда расти!",
 exbui_001_2_replay,char_PLAYER_M,"А по-моему, ты и так крут.",
 exbui_001_2_reaction_char_XV-MON,char_XV-MON,Все эти разговоры со мной не сработают! Я вырос из всего этого!,
 exbui_001_3_replay,char_PLAYER_M,Тебе просто нужно больше тренироваться.,
@@ -4688,7 +4688,7 @@ common022_0_child_knowledge,,Знание врага - ключ к победе.
 common022_0_male_knowledge,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
 common022_0_female_knowledge,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
 common022_0_old_knowledge,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_1_replay,char_PLAYER_M,Это верно.,
+common022_1_replay,char_PLAYER_M,Точно.,
 common022_1_reaction_child_courage,,"В бою нужно думать головой. Хорошо, что наши мнения сходятся!",
 common022_1_reaction_male_courage,,"В бою нужно думать головой. Хорошо, что наши мнения сходятся!",
 common022_1_reaction_female_courage,,"В бою нужно думать головой. Хорошо, что наши мнения сходятся!",

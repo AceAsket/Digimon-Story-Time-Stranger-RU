@@ -21,8 +21,8 @@ string2 0,string 1
 20,{d0}: {is28}{image(ui_icon_btlStatus_034)} {fc9макс. ОС} увеличено!
 21,Туман Жнеца: {d0}: {is28}{image(ui_icon_btlStatus_033)} {fc9макс. ОЗ} снижено!
 22,{d0}: {is28}{image(ui_icon_btlStatus_035)} {fc9макс. ОС} снижено!
-23,{d0}: {is28}{image(ui_icon_btlStatus_014)} {fc9HP} восстанавливаются каждый ход!
-24,{d0}: {is28}{image(ui_icon_btlStatus_015)} {fc9SP} восстанавливаются каждый ход!
+23,{d0}: {is28}{image(ui_icon_btlStatus_014)} {fc9ОЗ} теперь восстанавливаются каждый ход!
+24,{d0}: {is28}{image(ui_icon_btlStatus_015)} {fc9ОС} теперь восстанавливаются каждый ход!
 25,{d0}: {is28}{image(ui_icon_btlStatus_016)} {fc9АТК} повышена!
 26,{d0}: {is28}{image(ui_icon_btlStatus_018)} {fc9ЗАЩ} повышена!
 27,{d0}: {is28}{image(ui_icon_btlStatus_020)} {fc9ИНТ} повышена!
@@ -157,8 +157,8 @@ string2 0,string 1
 100020,{d0}: {is28}{image(ui_icon_btlStatus_034)} {fc9макс. ОС} увеличено!
 100021,Туман Жнеца: {d0}: {is28}{image(ui_icon_btlStatus_033)} {fc9макс. ОЗ} снижено!
 100022,{d0}: {is28}{image(ui_icon_btlStatus_035)} {fc9макс. ОС} снижено!
-100023,{d0}: {is28}{image(ui_icon_btlStatus_014)} {fc9HP} восстанавливаются каждый ход!
-100024,{d0}: {is28}{image(ui_icon_btlStatus_015)} {fc9SP} восстанавливаются каждый ход!
+100023,{d0}: {is28}{image(ui_icon_btlStatus_014)} {fc9ОЗ} теперь восстанавливаются каждый ход!
+100024,{d0}: {is28}{image(ui_icon_btlStatus_015)} {fc9ОС} теперь восстанавливаются каждый ход!
 100025,{d0}: {is28}{image(ui_icon_btlStatus_016)} {fc9АТК} повышена!
 100026,{d0}: {is28}{image(ui_icon_btlStatus_018)} {fc9ЗАЩ} повышена!
 100027,{d0}: {is28}{image(ui_icon_btlStatus_020)} {fc9ИНТ} повышена!

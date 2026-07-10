@@ -1,0 +1,1005 @@
+﻿type,risk,occurrences,source_variants,files,template,example_keys,source_examples,note
+same_ru_different_en,medium,6,3,2,Продолжай в том же духе!,patch_text01:otama_001_1_replay | patch_text01:r_h0310_0010_2_2 | patch_text01:r_h0311_0010_3_5 | patch_text01:r_h0312_0010_2_2 | patch_text01:r_h0312_0010_0_4,"Keep practicing, just like you've been doing! | Keep it up!",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,9,2,1,Я куплю это у вас.,patch_text01:g_shop001_0040_0010 | patch_text01:g_shop002_0040_0010 | patch_text01:g_shop003_0040_0010 | patch_text01:g_shop004_0040_0010 | patch_text01:g_shop005_0040_0010,I'll buy this from you.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,6,2,1,"Спасибо, что заглянули. Приходите ещё.",patch_text01:g_shop001_0020_0010 | patch_text01:g_shop003_0020_0010 | patch_text01:g_shop004_0020_0010 | patch_text01:g_shop011_0020_0010 | patch_text01:g_shop012_0020_0010,Thank you for stopping by. Please come again. | Thank you for stopping by. Please come by again.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,4,2,1,С удовольствием на это посмотрю!,patch_text01:mochi_001_1_replay | patch_text01:migao_001_2_replay | patch_text01:omsha_001_3_replay | patch_text01:magul_001_1_replay,I'd love to see that! | I'd love to see it!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,3,2,3,"Мне казалось, я велел тебе держаться подальше!",patch_text01:1190120001 | patch_text01:f_d0204_0570_0010 | patch_text01:r_d0204_0020_0020,"I thought I told ya to stay back! | I thought I told you to stay away! | I thought I told ya to stay
+back!",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,3,2,1,Я просто хочу вернуться домой...,patch_text01:r_t0101_0010_0120 | patch_text01:r_t0102_0010_0250 | patch_text01:r_d0206_0010_0020,I just wanna go home... | (...I just want to go home.),Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"...вы, ребята, мои драгоценные лохи.",patch_text01:m280_030_140 | patch_text01:m280_040_110,...you guys are my precious patsies here. | ...you guys are my precious suckers.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,{d0} не может двигаться из-за отдачи!,patch_text01:12105 | patch_text01:12105,{d0} can't move due to recoil! | {d0} cannot move due to recoil!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,{d0} парализован и не может двигаться!,patch_text01:12006 | patch_text01:12006,{d0} is paralyzed and can't move! | {d0} is paralyzed and cannot move!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,{d0} получил {is28}{image(ui_icon_btlStatus_013)} болезнь и не может восстанавливать ОС!,patch_text01:119 | patch_text01:100119,{d0} is {is28}{image(ui_icon_btlStatus_013)} Diseased and cannot recover SP! | {d0} have become {is28}{image(ui_icon_btlStatus_013)} Diseased and cannot recover SP!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,{d0} потрясён и не может действовать!,patch_text01:12106 | patch_text01:12106,{d0} is downed from the impact! | {d0} is incapacitated due to shock!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"{d0}: все характеристики повышены, входящий физический/магический урон снижен!",patch_text01:200009 | patch_text01:300009,"{d0}'s stats have all been boosted, and incoming physical/magic damage will be reduced! | {d0}' stats have all been boosted, and incoming physical/magic damage will be reduced!",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,{end}Мне нужно еще немного времени.,addcont_01_text01:dlcep001_0030_0021 | addcont_01_text01:dlcep001_0120_0021,{end}I need a little more time. | {end}I need some more time.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,"А пока тебе лучше отдохнуть.
+На этом этапе твою работу наверняка снова прервут.",addcont_02_text01:d250_060_050 | addcont_03_text01:d350_030_050,"Until then, you'd better rest up. You are sure to
+have your work cut out for you again at that point. | Until then, you'd better rest up, because you're sure to
+have your work cut out for you again at that point.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,"А, вот и ты! Я так долго тебя ждал.",patch_text01:s050_041_0210 | patch_text01:s110_101_620,"Ah, there you are! I've been waiting for you. | Ah, there you are! I have been waiting for
+you.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Героическая статуя (Кокувамон А и Б),patch_text01:20613 | patch_text01:20613,Heroic Statue (Kokuwamon A & B) | Heroic Statue (Kokuwamon AB),Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Героическая статуя (братья из Центрального города 1),patch_text01:20619 | patch_text01:20619,Heroic Statue (Central Town Siblings 1) | Heroic Statue (Central Town Bros 1),Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Героическая статуя (братья из Центрального города 2),patch_text01:20620 | patch_text01:20620,Heroic Statue (Central Town Siblings 2) | Heroic Statue (Central Town Bros 2),Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Защита от земли и стали,patch_text01:1073 | patch_text01:1073,Union Guard G&S | Union Guard S&G,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"Извините за беспокойство. Это ""никаких сверхурочных"" - своего
+рода палка о двух концах.",patch_text01:s050_041_0100 | patch_text01:s050_041_0240,"Sorry to trouble you. This ""no overtime"" thing is
+kind of a double-edged sword. | Sorry for the hassle. This ""no overtime"" thing is
+kind of a double-edged sword.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,"Как хорошо, что с тобой всё в порядке.",patch_text01:f_d0203_0010_0174 | patch_text01:m040_110_061,I'm so glad you're okay. | I'm glad you're okay!{next},Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"Клянусь тебе в верности, мой сеньор.",patch_text01:knight_001_0_char_KNIGHTMON | patch_text01:garumu_001_0_char_GARUMMON,"I pledge my fealty to you, my liege. | I pledge fealty to you, my liege.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"Мне неприятно даже думать об этом, но...",patch_text01:m280_030_070 | patch_text01:m280_040_040,"I am loath to even conceive of it, but... | I am loath to even think of it, but...",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Могу я вам чем-нибудь помочь?,patch_text01:s110_211_220 | patch_text01:s910_171_590,Can I help you? | ...Can I help you with something?,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Они готовы пустить в ход мощный навык!,patch_text01:70005 | patch_text01:70005,It's ready to unleash a powerful skill! | They're ready to unleash a powerful skill!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"По пути к месту встречи мне пришлось
+вступить в бой с врагом.",patch_text01:s110_092_030 | patch_text01:s110_092_050,"You see, on my way to the rendezvous point, I was forced
+to engage the enemy in battle. | ...on my way to the rendezvous point, I was forced to engage
+the enemy in battle.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"Позволь рассказать тебе о {fc9эволюции}.
+Основы этой теории заложил твой приёмный отец...",patch_text01:f_d1405_0040_0010 | patch_text01:f_d1406_0010_0010,"Let me tell you about {fc9Digivolution}. The person who
+came up with the basic theories was your adoptive father... | Let me tell you about Digimon {fc9Digivolution}. The person who
+came up with the basic theories was your adoptive father...",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,"Практически каждый отец в мире скажет, что его дети важнее для
+него, чем его собственная жизнь.",patch_text01:m210_020_140 | patch_text01:f_t0109_0210_0200,"Pretty much every father in the world would say that their
+children matter more to them than their own life. | Pretty much every father in the world would say their
+children matter more to them than their own life.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,"Пространственно-временные искажения будут множиться,
+пока мир окончательно не утратит свою форму.",addcont_01_text01:d110_050_180 | addcont_02_text01:d210_040_140,"The distortions in space-time will continue to grow until
+the world is no longer able to maintain its proper form. | Space-time distortions continue to multiply until
+the world is no longer able to maintain its proper form.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,Такого мне ещё не доводилось видеть.,patch_text01:pyoko_001_1_replay | patch_text01:omsha_001_2_replay,I've never seen anything like it. | I've never seen one.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"Там, внизу, происходит что-то странное...",patch_text01:r_d0407_0060_0060 | patch_text01:r_d0407_0070_0060,"There's something weird down
+there... | There's something strange
+down there...",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,Тебе не о чем беспокоиться.,patch_text01:ldevi_001_3_replay | patch_text01:common029_2_replay,You don't have to worry. | Nothing you need to worry about.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Титамон накапливает силу в своем массивном клинке...,patch_text01:44401 | patch_text01:44401,Titamon is smiling fearlessly... | Titamon is amassing power in his massive blade...,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Трофей: Мираж Гаогамон: Взрывной режим,patch_text01:22101 | patch_text01:22101,MirageGaogamon BM Trophy | MirageGaogamon: Burst Mode Trophy,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,Ты... и меня тоже обманула?,patch_text01:m280_030_150 | patch_text01:m280_040_120,You... duped me as well? | You... lied to me as well?,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Футболка с принтом артхаусного фильма,patch_text01:818 | patch_text01:818,Arthouse Film T-Shirt | Movie Cinema T-shirt,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"Ха-ха. Видеть тебя такой никогда не надоедает! Знаешь, в
+каком-то смысле ты, возможно, права.",patch_text01:s200_148_480 | patch_text01:s200_148_490,"Haha. Seeing you like that never gets old!
+Y'know, in a way, you might be right. | Haha. Seeing you like that never gets old!
+You know, in a way, you might be right.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,"Это ещё один Акашический бэкдор. Похоже, тот же Дигимон
+снова исказил естественные законы мира.",addcont_02_text01:d210_010_060 | addcont_03_text01:d310_010_050,"This is another Akashic Backdoor. Basically, that same Digimon
+has once again warped the natural laws of the world. | A new Akashic Backdoor...! It seems that same Digimon
+has once again warped the natural laws of the world.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Я всегда буду рядом с тобой.,patch_text01:impe_001_4_replay | patch_text01:m440_120_340,I'll always be by your side. | ...I will always be by your side.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Я не могу этого сделать.,patch_text01:glade_001_1_replay | patch_text01:m340_020_151,I can't do that. | There's no way I could do that!{next},Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,2,Я так и знал! Меня не проведешь!,patch_text01:s095_077_350 | patch_text01:s200_150_080,I knew it! There's no fooling me! | I knew it! You can't fool me!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+source_aligned_pattern,low,63,62,35,really → действительно,addcont_01_text01:d120_110_010 | addcont_02_text01:d240_051_040 | addcont_03_text01:d330_030_050 | patch_text01:f_d0201_0680_0040 | patch_text01:f_d0202_0040_0010 | patch_text01:f_d0204_0120_0010,"""So... you're really going?"" | ""Is that... really possible?"" | ""Wait...! A-Are you really going to let me off so easily?!"" | ...we really need to come up with a more effective solution. | You really helped us out! I don't know what we would've done
+without you! | Wow, that Lillymon over there is really cute...
+Aren't you gonna go say hi?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,48,48,32,actually → действительно/на самом деле,addcont_02_text01:d240_062_020 | addcont_03_text01:d310_040_090 | patch_text01:1120001024 | patch_text01:f_d0202_0020_0020 | patch_text01:f_d0401_0100_0030 | patch_text01:f_d0502_0350_0020,"You make it sound a lot more complicated than it actually is... | Never mind. I realize that was confusing.
+I'm rather confused myself, actually. | Glurp?! Whoa, seriously?! It's working?!
+It's actually glurpin' working! Not bad, glurp! | One of my pals is always there by himself, but who knows,
+Minervamon might actually be home. Go have a look.
+ | But it seems the village is actually trying to improve.
+That's good to know. | It was actually a hero from somewhere else that saved the
+day! Get real...!","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,48,48,32,right now → прямо сейчас,addcont_02_text01:d210_030_140 | addcont_02_text01:d220_030_120 | addcont_02_text01:banma_001_1_replay | patch_text01:arena01_f001_005_030 | patch_text01:1081020022 | patch_text01:2030183002,"""Hello, folks. This is OcculTokyo TV.
+Am I... dreaming right now?"" | Bring us back to our own world, right now!
+Prepare yourself! | I need your help right now. | There are no lies to be told here... Okay, that was a lie!
+Yep, somebody's definitely lying right now! | The battery can only be used once. I should focus on the
+battle right now. | Hey! That hurts! I cannot clear the fog right now!","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,low,33,33,17,quite → довольно,patch_text01:f_d0204_0280_0060 | patch_text01:f_d0305_0060_0010 | patch_text01:f_d0401_0080_0030 | patch_text01:f_d0604_0400_0010 | patch_text01:f_h0601_0030_0050 | patch_text01:m060_160_110,"Allow me to thank you for your help with Central Tower.
+I received word that the Digimon there are quite formidable. | It would seem you are awake. You were in quite a
+precarious state for a while. | I do not mind you joining us. But let me warn you. We are
+quite tough. I wonder if you can keep up... | I see... So it is quite a difficult procedure to open this
+cell, is it...? | The one who created this space is quite tricky...
+I have a feeling we share a similar mindset. | You should go take a break. I mean... you've had
+quite the day, right?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,low,22,22,8,various → различные,patch_text01:m070_040_110 | patch_text01:m180_050_110 | patch_text01:m420_010_170 | patch_text01:s095_077_490 | patch_text01:digimon_0130_profile | patch_text01:digimon_0184_profile,"I want to learn everything I can about their capabilities as living organisms.
+Toward that end, I have various hypotheses I wish to test. | It wouldn't be a stretch to call our various mythologies the
+greatest anomalies in human history. | While bound by Chronomon's rage... I provided various things to
+the humans. | LoaderLeomon's back, and we can produce various
+metals now. Stop by if you need any. | An Ancient Fish Digimon with tough skin and
+enormous claws. This Digimon is discovered in
+the Net Ocean whenever computer networks
+destroyed by malicious hackers are repaired.
+Coelamon's body composition is very primitive,
+with fins developed into limbs. Based on these
+facts, it's thought that primordial Digimon born
+in the Net Ocean underwent various evolutions in
+order to come onto land, growing more numerous
+and differentiating into various types in the
+process. Coelamon's special move is Fossil Bite,
+which attacks enemies with its massive claws. | A Deity Digimon that synthesizes the abilities of
+various species, using a human body as its base.
+This synthesis is said to have resulted from the
+pursuit of the ultimate goal of omnipotence,
+dramatically changing this Digimon's form to match
+its environment. This form is based on
+Dragon-species data, which would ordinarily lie
+dormant within its body, centered around the crystal
+in its chest, but Aegiochusmon manifested this
+data onto the surface of its body, establishing it as
+armor. This armor is a power suit that's not only for
+defense, but which also acts as muscle, dramatically
+increasing attack power. Aegiochusmon uses its
+special move Bolt Break Knockdown to perform a
+punch rush with fists coiled in lightning produced
+from its horn, or Lightning Pile to drive a pile-shaped
+bolt down on the enemy from above, driving them
+into the ground. If this move pierces the enemy once,
+subsequently released piles then connect without
+fail, no matter where they're thrown.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,low,19,19,16,some kind of → какой-то,addcont_02_text01:d220_090_080 | addcont_02_text01:d220_130_040 | patch_text01:f_d0201_0020_0070 | patch_text01:f_d0202_0420_0040 | patch_text01:f_d0404_0150_0030 | patch_text01:f_d0604_0270_0060,"A ""col""-what? What's that?
+Some kind of super powerful move? | Some kind of rift opened up in the sky above the Tokyo
+Metropolitan Government Building, and there was a flash. | Lord Merukimon must have some kind of plan to stop them, right?
+I sure hope he does something soon... | But yes, things have been a bit tumultuous. I hope the
+powers that be have some kind of plan... | I heard the sanctuary was in some kind of trouble... I hope
+it's okay. | There was some kind of commotion, so I figured I'd use the
+opportunity to escape.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,12,12,9,presence → наличие/присутствие,addcont_01_text01:dlcep001_0030_0010 | addcont_02_text01:d230_020_140 | addcont_03_text01:d320_040_200 | patch_text01:f_d0907_0010_0040 | patch_text01:ofa_001_4_reaction_char_OPHANIMON | patch_text01:pega_001_4_reaction_char_PEGASMON,"I sense a presence from beyond the door.
+I believe it to be our ally Omnimon Zwart. | Suddenly, it felt like someone else was being drained, just like me.
+I felt their presence in the crystals as well. | Hm... I am sensing the presence of others. Most likely, there are
+more Digimon who are after the X Antibody lurking nearby. | Even in my slumber, I felt your presence ever near. Mere words cannot
+express my gratitude... but I am afraid now is not the time. | My presence here means there is something for me to observe,
+and to accomplish. | It's a reflex, I assure you. Though perhaps your special presence
+would negate it?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,11,10,9,as for → что касается,patch_text01:f_d0505_0080_0030 | patch_text01:f_d1204_0180_0040 | patch_text01:f_d1204_0190_0020 | patch_text01:m050_055_030 | patch_text01:m150_010_158 | patch_text01:m150_150_340,"As for the rest, we'll handle things here. You folks have
+your own road to travel. | As for the two of us, we'll probably never go back. | I am sure things have been rough for you, too.
+As for us, well... the Titans have taken Central Town! | As for why this place exists... that will be
+clear enough when the time comes. | As for all of you... Perhaps you are the best candidates
+to go to the Factorial Area for me? | As for the rest, we'll handle things here.
+You folks have your own road to travel.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,low,7,7,7,"seems → кажется, что",patch_text01:f_d0207_0010_0030 | patch_text01:f_d0302_0230_0010 | patch_text01:f_d1204_0500_0030 | patch_text01:r_d0206_0010_0060 | patch_text01:s010_156_250 | patch_text01:digimon_0771_profile,"Wait... Some parts seem to be moving a little slow... Some
+other spots must be busted, too... | From the look of things... It seems that time has been rewound. | Fundamentally, it seems like it would best be left closed.
+That's how the worlds have stayed in balance all this time. | Seems like only the top is
+cloudy... | Maybe. It seems like it's made of metal, but some Digimon do
+have metal parts. | Darkdramon is an Android Digimon believed to be
+the D-Brigade's ultimate weapon. Rumor has it that
+D-Brigade researchers created Darkdramon by
+Digivolving a Tankdramon they recovered. Supposedly,
+this Tankdramon was defeated in an operation
+designed to eliminate a target codenamed BAN-TYO.
+However, none of this information is particularly
+reliable. A vast amount of dark matter seems to have
+been used in this Digivolution process. Possibly as a
+result, Darkdramon immediately went berserk and fled.
+Its current whereabouts are unknown, even to the
+D-Brigade, though rumor has it that it's still searching
+for Codename BAN-TYO. Its special move Dark Roar
+is a forbidden technique that involves firing an energy
+bomb composed of dark matter. Nothing can survive
+a hit from this attack, rumor has it. Darkdramon also
+has a weapon called the Gigastick Lance built into
+its right arm, said to be equal in power to Gallantmon's
+holy lance Gram.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,low,4,4,1,process → в процессе,patch_text01:digimon_0060_profile | patch_text01:digimon_0069_profile | patch_text01:digimon_0130_profile | patch_text01:digimon_0400_profile,"One of the rumored seven Digivolutions from
+Volcanomon. Possessing immense strength and
+destructive power, PileVolcanomon is well-versed in
+all manner of hand-to-hand fighting techniques,
+including pro wrestling moves. During the process of
+Digivolution, it sculpted its once-massive physique
+into a leaner form more suitable for melee fighting.
+Its special moves are Volcanic Driver, which
+leverages the power generated by the erupting
+volcanoes on its shoulders to smash opponents
+head-first into the ground, and Diamond Fist, an
+ultimate punch capable of rending even Chrondigizoid. | An extremely rare Numemon that first discovered
+the Platina Mine in the Digital World, taking in those
+components to Digivolve. From that point on,
+PlatinumNumemon's personality did a complete
+about-face as it scraped together any jewelry data
+it could find, decorating itself like a nouveau riche.
+It's quite the ""gorgeous"" Digimon, despite its nature.
+Outfitting itself with golden wings and jewelry grants
+it considerable defense, but its attack power is
+middling at best. PlatinumNumemon uses its special
+move Platinum Excrement to hurl the dregs
+(excrement) produced during the platina refinement
+process in rapid succession. It also uses Platinum
+Burp to release a putrid belch that saps the enemy's
+fighting spirit. | An Ancient Fish Digimon with tough skin and
+enormous claws. This Digimon is discovered in
+the Net Ocean whenever computer networks
+destroyed by malicious hackers are repaired.
+Coelamon's body composition is very primitive,
+with fins developed into limbs. Based on these
+facts, it's thought that primordial Digimon born
+in the Net Ocean underwent various evolutions in
+order to come onto land, growing more numerous
+and differentiating into various types in the
+process. Coelamon's special move is Fossil Bite,
+which attacks enemies with its massive claws. | AeroVeedramon is a further-Digivolved form of
+Veedramon that's become capable of flight. Only
+the strongest of the Veedramon line can Digivolve
+into AeroVeedramon by making it through countless
+battles, and since Veedramon is a rare species to
+begin with, AeroVeedramon is practically a legend. It
+also gained more than wings in the process of
+Digivolving, and now boasts increased offensive and
+defensive capabilities. Its special move Dragon
+Impulse unleashes a shockwave in the shape of a
+dragon.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,1,1,1,regarding → относительно/касательно,patch_text01:tutorial_exp_FieldAnalysis_01_001,"This mode lets your Digivice display various kinds of information
+that cannot be seen with the naked eye alone.
+
+{fc9- See which objects can be targeted with a DigiAttack.
+- View details regarding a hostile Digimon (use {sub2}).
+- Search for treasure chests and materials.}
+
+While in Analyze Mode, you can perform
+DigiAttacks on hostile Digimon and objects.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+repeated_ngram,low,56,56,1,доказательство победы над участником ультимативной,patch_text01:22101 | patch_text01:22102 | patch_text01:22103 | patch_text01:22104 | patch_text01:22105,"Proof you defeated Ultimate Collection Member Number 1,
+MirageGaogamon BM, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 2,
+Susanomon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 3,
+Armageddemon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 4,
+Slayerdramon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 5,
+Beelzemon, in the Outer Dungeons.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,56,56,1,доказательство победы над участником ультимативной коллекции,patch_text01:22101 | patch_text01:22102 | patch_text01:22103 | patch_text01:22104 | patch_text01:22105,"Proof you defeated Ultimate Collection Member Number 1,
+MirageGaogamon BM, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 2,
+Susanomon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 3,
+Armageddemon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 4,
+Slayerdramon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 5,
+Beelzemon, in the Outer Dungeons.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,56,56,1,победы над участником ультимативной коллекции,patch_text01:22101 | patch_text01:22102 | patch_text01:22103 | patch_text01:22104 | patch_text01:22105,"Proof you defeated Ultimate Collection Member Number 1,
+MirageGaogamon BM, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 2,
+Susanomon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 3,
+Armageddemon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 4,
+Slayerdramon, in the Outer Dungeons. | Proof you defeated Ultimate Collection Member Number 5,
+Beelzemon, in the Outer Dungeons.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,48,46,1,повышенный урон по целям с,patch_text01:20391 | patch_text01:21782 | patch_text01:27493 | patch_text01:27496 | patch_text01:27383,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_010)} Dark magic attack at power 30 or 120.
+Increased damage to targets with Holy Trait. | [Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical.
+Upon receiving a physical attack, counters with a
+{is28}{image(ui_icon_skill_001)} Fire physical attack at power 105.
+Increased damage to targets with Humanoid Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a physical attack,
+counters with a {is28}{image(ui_icon_skill_001)} Fire physical attack at power 250. Nullifies
+unfavorable compatibility. 20% reduction to DEF for 3 turns.
+Increased damage to targets with Humanoid Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a
+physical attack, counters with a {is28}{image(ui_icon_skill_000)} Null magic attack
+at power 115. Negates unfavorable compatibility.
+Increased damage to targets with Mythical Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,48,46,1,повышенный урон по целям с особенностью,patch_text01:20391 | patch_text01:21782 | patch_text01:27493 | patch_text01:27496 | patch_text01:27383,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_010)} Dark magic attack at power 30 or 120.
+Increased damage to targets with Holy Trait. | [Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical.
+Upon receiving a physical attack, counters with a
+{is28}{image(ui_icon_skill_001)} Fire physical attack at power 105.
+Increased damage to targets with Humanoid Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a physical attack,
+counters with a {is28}{image(ui_icon_skill_001)} Fire physical attack at power 250. Nullifies
+unfavorable compatibility. 20% reduction to DEF for 3 turns.
+Increased damage to targets with Humanoid Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a
+physical attack, counters with a {is28}{image(ui_icon_skill_000)} Null magic attack
+at power 115. Negates unfavorable compatibility.
+Increased damage to targets with Mythical Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,48,46,1,урон по целям с особенностью,patch_text01:20391 | patch_text01:21782 | patch_text01:27493 | patch_text01:27496 | patch_text01:27383,"[Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_010)} Dark magic attack at power 30 or 120.
+Increased damage to targets with Holy Trait. | [Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical.
+Upon receiving a physical attack, counters with a
+{is28}{image(ui_icon_skill_001)} Fire physical attack at power 105.
+Increased damage to targets with Humanoid Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a physical attack,
+counters with a {is28}{image(ui_icon_skill_001)} Fire physical attack at power 250. Nullifies
+unfavorable compatibility. 20% reduction to DEF for 3 turns.
+Increased damage to targets with Humanoid Trait. | Activates {is28}{image(ui_icon_btlStatus_036)} Counter Physical. Upon receiving a
+physical attack, counters with a {is28}{image(ui_icon_skill_000)} Null magic attack
+at power 115. Negates unfavorable compatibility.
+Increased damage to targets with Mythical Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,36,22,1,на за каждый ранг агента,patch_text01:5 | patch_text01:19 | patch_text01:24 | patch_text01:33 | patch_text01:42,"Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the skill SP cost of Brave, Zealous, Daring, and Reckless
+Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,22,22,1,он использует свой особый прием,patch_text01:digimon_0002_profile | patch_text01:digimon_0003_profile | patch_text01:digimon_0016_profile | patch_text01:digimon_0033_profile | patch_text01:digimon_0038_profile,"A Mammal Digimon resembling a rabbit, born from
+the fusion of moon observation data. Its large ears
+can recognize sounds from any distance. Although
+timid, Lunamon often gets lonely and easily grows
+attached to others. It uses its special move
+Tearing Shot to concentrate power into the antenna
+on its forehead to shoot a beautiful orb of water at
+the enemy. | A Beast Man Digimon with astounding jumping
+capabilities that likes to toy with its foes using
+speedy movements. Lekismon's nature is as
+ephemeral as the phases of the moon, and its
+appearance is somewhat mystical. It uses its
+special move Moon Night Bomb to hurl hypnotic
+water bubbles generated from the Moon Gloves
+on its hands and put the enemy to sleep. | A ""Commando Dragon"" that seeks to become a
+Virus Buster. While Strikedramon still has many
+vestiges of Monodramon, such as the horn jutting
+out of the back of its head, it has so transformed
+its appearance into a Commando-Mode Digimon
+covered in metal plating that it now resembles a
+completely different species. Despite being an
+inherently kindhearted Digimon, should it happen
+upon a Virus-attribute type, Strikedramon becomes
+consumed by an instinct to exterminate and
+doesn't stop fighting until its opponent's data has
+been reduced to dust. It uses its special move
+Fang Strike to heat its metal plating to red-hot
+levels, turning itself into a mass of flame and
+tackling the opponent in a fearsome maneuver. | A bipedal Ceratopsian Digimon resembling a
+triceratops, with all the combat power of that
+mighty herbivorous dinosaur. Its hide is among the
+toughest of all biological Digimon. Similarly, the
+two ultra-hard horns on its forehead are much
+more solid than Monochromon's horn. Though
+generally placid by nature, Triceramon's charging
+attack belies its slow movements, and packs
+enough destructive force to shatter even the
+sturdy bodies of Mineral Digimon. It uses its
+special move Tri-Horn Attack to ram into enemies
+with the horns on its forehead and snout. | An Evil King Digimon with many Evil-species and
+Dark Angel Digimon under its command.
+Creepymon was originally an Angel Digimon, and
+one of quite high rank at that. However, it resorted
+to rebellion—or perhaps violence—against the
+personifications of the Digital World's goodness
+(which may have been the very humans who built it),
+and was thus deleted to the Dark Area (the
+graveyard of erased data). Creepymon and its ilk
+have vowed to one day subjugate the Digital World
+and exact revenge upon these personifications of
+goodness. It uses its special move Flame Inferno to
+blast enemies with superheated hellfire. Anyone hit
+by this attack is incinerated without a trace.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,обожающий преданный терпимый и сверхопека,patch_text01:51 | patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:55,"Unlocks Philanthropy-based bonds with your Digimon, allowing you
+to enhance Adoring, Devoted, Tolerant, and Overprotective Digimon. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the appearance rate of rare Personality Skills for Adoring,
+Devoted, Tolerant, and Overprotective Digimon when changing
+Personalities.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,проницательный стратегический просветленный и хитрый,patch_text01:151 | patch_text01:152 | patch_text01:153 | patch_text01:154 | patch_text01:155,"Unlocks Wisdom-based bonds with your Digimon, allowing you to
+enhance Astute, Strategic, Enlightened, and Sly Digimon. | Boosts the appearance rate of rare Personality Skills for Astute,
+Strategic, Enlightened, and Sly Digimon when changing Personalities. | Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами обожающий преданный терпимый,patch_text01:51 | patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:55,"Unlocks Philanthropy-based bonds with your Digimon, allowing you
+to enhance Adoring, Devoted, Tolerant, and Overprotective Digimon. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the appearance rate of rare Personality Skills for Adoring,
+Devoted, Tolerant, and Overprotective Digimon when changing
+Personalities.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами обожающий преданный терпимый и,patch_text01:51 | patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:55,"Unlocks Philanthropy-based bonds with your Digimon, allowing you
+to enhance Adoring, Devoted, Tolerant, and Overprotective Digimon. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the appearance rate of rare Personality Skills for Adoring,
+Devoted, Tolerant, and Overprotective Digimon when changing
+Personalities.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами проницательный стратегический просветленный,patch_text01:151 | patch_text01:152 | patch_text01:153 | patch_text01:154 | patch_text01:155,"Unlocks Wisdom-based bonds with your Digimon, allowing you to
+enhance Astute, Strategic, Enlightened, and Sly Digimon. | Boosts the appearance rate of rare Personality Skills for Astute,
+Strategic, Enlightened, and Sly Digimon when changing Personalities. | Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами проницательный стратегический просветленный и,patch_text01:151 | patch_text01:152 | patch_text01:153 | patch_text01:154 | patch_text01:155,"Unlocks Wisdom-based bonds with your Digimon, allowing you to
+enhance Astute, Strategic, Enlightened, and Sly Digimon. | Boosts the appearance rate of rare Personality Skills for Astute,
+Strategic, Enlightened, and Sly Digimon when changing Personalities. | Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами смелый ревностный отважный,patch_text01:1 | patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5,"Unlocks Valor-based bonds with your Digimon, allowing you to
+enhance Brave, Zealous, Daring, and Reckless Digimon. | Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами смелый ревностный отважный и,patch_text01:1 | patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5,"Unlocks Valor-based bonds with your Digimon, allowing you to
+enhance Brave, Zealous, Daring, and Reckless Digimon. | Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами сочувствующий общительный дружелюбный,patch_text01:101 | patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106,"Unlocks Amicability-based bonds with your Digimon, allowing you
+to enhance Compassionate, Sociable, Friendly, and Opportunistic
+Digimon. | Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,с чертами сочувствующий общительный дружелюбный и,patch_text01:101 | patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106,"Unlocks Amicability-based bonds with your Digimon, allowing you
+to enhance Compassionate, Sociable, Friendly, and Opportunistic
+Digimon. | Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,смелый ревностный отважный и безрассудный,patch_text01:1 | patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5,"Unlocks Valor-based bonds with your Digimon, allowing you to
+enhance Brave, Zealous, Daring, and Reckless Digimon. | Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,сочувствующий общительный дружелюбный и оппортунист,patch_text01:101 | patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106,"Unlocks Amicability-based bonds with your Digimon, allowing you
+to enhance Compassionate, Sociable, Friendly, and Opportunistic
+Digimon. | Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами обожающий преданный терпимый и,patch_text01:51 | patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:55,"Unlocks Philanthropy-based bonds with your Digimon, allowing you
+to enhance Adoring, Devoted, Tolerant, and Overprotective Digimon. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the appearance rate of rare Personality Skills for Adoring,
+Devoted, Tolerant, and Overprotective Digimon when changing
+Personalities.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами обожающий преданный терпимый и сверхопека,patch_text01:51 | patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:55,"Unlocks Philanthropy-based bonds with your Digimon, allowing you
+to enhance Adoring, Devoted, Tolerant, and Overprotective Digimon. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the appearance rate of rare Personality Skills for Adoring,
+Devoted, Tolerant, and Overprotective Digimon when changing
+Personalities.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами проницательный стратегический просветленный и,patch_text01:151 | patch_text01:152 | patch_text01:153 | patch_text01:154 | patch_text01:155,"Unlocks Wisdom-based bonds with your Digimon, allowing you to
+enhance Astute, Strategic, Enlightened, and Sly Digimon. | Boosts the appearance rate of rare Personality Skills for Astute,
+Strategic, Enlightened, and Sly Digimon when changing Personalities. | Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами проницательный стратегический просветленный и хитрый,patch_text01:151 | patch_text01:152 | patch_text01:153 | patch_text01:154 | patch_text01:155,"Unlocks Wisdom-based bonds with your Digimon, allowing you to
+enhance Astute, Strategic, Enlightened, and Sly Digimon. | Boosts the appearance rate of rare Personality Skills for Astute,
+Strategic, Enlightened, and Sly Digimon when changing Personalities. | Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами смелый ревностный отважный и,patch_text01:1 | patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5,"Unlocks Valor-based bonds with your Digimon, allowing you to
+enhance Brave, Zealous, Daring, and Reckless Digimon. | Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами смелый ревностный отважный и безрассудный,patch_text01:1 | patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5,"Unlocks Valor-based bonds with your Digimon, allowing you to
+enhance Brave, Zealous, Daring, and Reckless Digimon. | Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами сочувствующий общительный дружелюбный и,patch_text01:101 | patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106,"Unlocks Amicability-based bonds with your Digimon, allowing you
+to enhance Compassionate, Sociable, Friendly, and Opportunistic
+Digimon. | Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,38,17,1,чертами сочувствующий общительный дружелюбный и оппортунист,patch_text01:101 | patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106,"Unlocks Amicability-based bonds with your Digimon, allowing you
+to enhance Compassionate, Sociable, Friendly, and Opportunistic
+Digimon. | Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами обожающий преданный,patch_text01:51 | patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:55,"Unlocks Philanthropy-based bonds with your Digimon, allowing you
+to enhance Adoring, Devoted, Tolerant, and Overprotective Digimon. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the appearance rate of rare Personality Skills for Adoring,
+Devoted, Tolerant, and Overprotective Digimon when changing
+Personalities.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами обожающий преданный терпимый,patch_text01:51 | patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:55,"Unlocks Philanthropy-based bonds with your Digimon, allowing you
+to enhance Adoring, Devoted, Tolerant, and Overprotective Digimon. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the appearance rate of rare Personality Skills for Adoring,
+Devoted, Tolerant, and Overprotective Digimon when changing
+Personalities.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами проницательный стратегический,patch_text01:151 | patch_text01:152 | patch_text01:153 | patch_text01:154 | patch_text01:155,"Unlocks Wisdom-based bonds with your Digimon, allowing you to
+enhance Astute, Strategic, Enlightened, and Sly Digimon. | Boosts the appearance rate of rare Personality Skills for Astute,
+Strategic, Enlightened, and Sly Digimon when changing Personalities. | Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами проницательный стратегический просветленный,patch_text01:151 | patch_text01:152 | patch_text01:153 | patch_text01:154 | patch_text01:155,"Unlocks Wisdom-based bonds with your Digimon, allowing you to
+enhance Astute, Strategic, Enlightened, and Sly Digimon. | Boosts the appearance rate of rare Personality Skills for Astute,
+Strategic, Enlightened, and Sly Digimon when changing Personalities. | Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами смелый ревностный,patch_text01:1 | patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5,"Unlocks Valor-based bonds with your Digimon, allowing you to
+enhance Brave, Zealous, Daring, and Reckless Digimon. | Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами смелый ревностный отважный,patch_text01:1 | patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5,"Unlocks Valor-based bonds with your Digimon, allowing you to
+enhance Brave, Zealous, Daring, and Reckless Digimon. | Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами сочувствующий общительный,patch_text01:101 | patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106,"Unlocks Amicability-based bonds with your Digimon, allowing you
+to enhance Compassionate, Sociable, Friendly, and Opportunistic
+Digimon. | Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,37,16,1,дигимонов с чертами сочувствующий общительный дружелюбный,patch_text01:101 | patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106,"Unlocks Amicability-based bonds with your Digimon, allowing you
+to enhance Compassionate, Sociable, Friendly, and Opportunistic
+Digimon. | Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,13,13,1,вулканусмон может создать с его,patch_text01:361 | patch_text01:362 | patch_text01:363 | patch_text01:364 | patch_text01:365,"A token of Merukimon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Vulcanusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Neptunemon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Venusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Bacchusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,13,13,1,вулканусмон может создать с его помощью,patch_text01:361 | patch_text01:362 | patch_text01:363 | patch_text01:364 | patch_text01:365,"A token of Merukimon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Vulcanusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Neptunemon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Venusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Bacchusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,13,13,1,может создать с его помощью,patch_text01:361 | patch_text01:362 | patch_text01:363 | patch_text01:364 | patch_text01:365,"A token of Merukimon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Vulcanusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Neptunemon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Venusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Bacchusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,13,13,1,может создать с его помощью ценное,patch_text01:361 | patch_text01:362 | patch_text01:363 | patch_text01:364 | patch_text01:365,"A token of Merukimon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Vulcanusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Neptunemon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Venusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Bacchusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,13,13,1,на на хода шанс наложить,patch_text01:27521 | patch_text01:27291 | patch_text01:25901 | patch_text01:23801 | patch_text01:22401,"[Target: 1 enemy]
+Deals 1% HP damage x 5 hits.
+100% chance of 20% reduction to SPI for 3 turns.
+30% chance to apply {is28}{image(ui_icon_btlStatus_002)} Confusion. | [Target: All enemies]
+100% chance of 10% reduction to SPI for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_003)} Paralysis. | [Target: 1 enemy]
+100% chance of 10% reduction to DEF/SPI for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_000)} Poison. | [Target: 1 enemy]
+Deals 5% HP damage.
+100% chance of 10% reduction to ATK for 3 turns.
+70% chance to apply {is28}{image(ui_icon_btlStatus_002)} Confusion. | [Target: 1 enemy]
+80% chance of 30% reduction to ACU for 3 turns.
+50% chance to apply {is28}{image(ui_icon_btlStatus_000)} Poison.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,13,13,1,создать с его помощью ценное,patch_text01:361 | patch_text01:362 | patch_text01:363 | patch_text01:364 | patch_text01:365,"A token of Merukimon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Vulcanusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Neptunemon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Venusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it. | A token of Bacchusmon's trust.
+Vulcanusmon may be able to create valuable equipment with it.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,обожающий преданный терпимый и сверхопека на,patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:58 | patch_text01:59,"Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the DEF of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d3}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,общительный дружелюбный и оппортунист на,patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106 | patch_text01:107,"Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,преданный терпимый и сверхопека на,patch_text01:52 | patch_text01:53 | patch_text01:54 | patch_text01:58 | patch_text01:59,"Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the DEF of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d3}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,проницательный стратегический просветленный и хитрый на,patch_text01:153 | patch_text01:154 | patch_text01:155 | patch_text01:156 | patch_text01:157,"Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Astute, Strategic,
+Enlightened, and Sly Digimon by {d0}%. | Boosts the SPD of Astute, Strategic, Enlightened, and Sly Digimon by
+{d6}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,ревностный отважный и безрассудный на,patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5 | patch_text01:8,"Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Boosts the SP of Brave, Zealous, Daring, and Reckless Digimon by
+{d1}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,смелый ревностный отважный и безрассудный на,patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:5 | patch_text01:8,"Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Boosts the SP of Brave, Zealous, Daring, and Reckless Digimon by
+{d1}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,сочувствующий общительный дружелюбный и оппортунист на,patch_text01:102 | patch_text01:103 | patch_text01:104 | patch_text01:106 | patch_text01:107,"Boosts the DEF of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d3}%. | Reduces the training time of Compassionate, Sociable, Friendly, and
+Opportunistic Digimon by {d0}%. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,30,12,1,стратегический просветленный и хитрый на,patch_text01:153 | patch_text01:154 | patch_text01:155 | patch_text01:156 | patch_text01:157,"Boosts the HP of Astute, Strategic, Enlightened, and Sly Digimon by
+{d0}%. | Boosts the EXP gained in battle by Astute, Strategic, Enlightened,
+and Sly battle and reserve Digimon by {d0}% for each Agent Rank. | Reduces the training time of Astute, Strategic, Enlightened, and Sly
+Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Astute, Strategic,
+Enlightened, and Sly Digimon by {d0}%. | Boosts the SPD of Astute, Strategic, Enlightened, and Sly Digimon by
+{d6}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,12,1,он использует свой специальный прием,patch_text01:digimon_0707_profile | patch_text01:digimon_0711_profile | patch_text01:digimon_0718_profile | patch_text01:digimon_0720_profile | patch_text01:digimon_0722_profile,"A Mammal Digimon clad head-to-toe in a sturdy
+carapace. It is easy-going and courteous, but it
+sometimes pushes its luck. Armadillomon is a
+descendant of the same ancient species as
+Veemon, so it can perform a special Armor
+Digivolution. It uses its special move Diamond
+Shell to launch its curled-up body at the
+enemy. | An Armored Dragon Digimon completely sheathed
+in hardened skin. Tough protuberances cover it all
+over, giving its charge attack incredible destructive
+power. Although as an herbivore it lacks ferocity,
+Ankylomon displays a brave nature nevertheless. It
+uses its special move Tail Hammer to ferociously
+beat the enemy with the iron ball on the tip of its
+tail. Any Digimon hit by this technique has its entire
+skeleton (or wireframe) utterly obliterated. | A giant Warrior Digimon donning armor of heavy
+Chrondigizoid. Despite the weight of its armor,
+Knightmon possesses the strength to wield its
+beloved sword with ease. One theory claims that it
+wears such substantial armor in order to prevent its
+awesome power from causing it to go berserk.
+Knightmon is a faithful Digimon whose existence is
+founded on loyal service. It adopts the attributes of
+its master as its own faith, laboring either in the
+service of justice or wickedness. It uses its special
+move Berserk Sword to cleave all things in two with
+a rampaging swing of its blade. | A Beast Man Digimon DNA Digivolved from Aquilamon
+and Gatomon. Silphymon has tremendously strong
+legs, and is said to be able to leap high into the sky.
+Upon reaching these heights, it then spreads its arms
+and sails through the air like a glider. Silphymon uses
+the radar devices on its ears to gather information,
+then visually processes this data for viewing on its
+head-mounted display, allowing it to pinpoint an
+enemy's location, day or night. It uses its special move
+Top Gun to extend its arms to fire an energy bomb. | An Android Digimon that Digivolved from Gargomon.
+Going by the nickname ""Keen Hound,"" Rapidmon
+brings down foes with precise movements at
+near-lightspeed. It can even move around in pitch
+darkness by utilizing its massive ear-shaped radars,
+which also allow it to detect foes from a distance.
+Its profile is evocative of a shaved poodle. During
+battle, the protector on Rapidmon's neck will shut.
+It uses its special move Golden Triangle to unleash
+a beam of light from its body that breaks foes down
+into bits of data.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,12,1,урон повышенный урон по целям,patch_text01:21782 | patch_text01:23152 | patch_text01:24512 | patch_text01:26042 | patch_text01:27332,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait. | [Target: All enemies] Performs {is28}{image(ui_icon_skill_009)} Light magic attack
+at power 140. Consumes all SP. Causes KO from attack
+recoil. The lower the user's SP, the lower the damage.
+Increased damage to targets with Deity Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_005)} Electricity magic attack at power 90.
+The greater the user's stat buffs, the greater the damage.
+Increased damage to targets with Alien Trait. | [Target: All enemies] Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at
+power 20 x 4 hits. If target is affected by status
+abnormalities or {is28}{image(ui_icon_btlStatus_012)} Injury/{is28}{image(ui_icon_btlStatus_013)} Disease: Increased
+damage. Increased damage to targets with Fire Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Humanoid Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,12,1,урон повышенный урон по целям с,patch_text01:21782 | patch_text01:23152 | patch_text01:24512 | patch_text01:26042 | patch_text01:27332,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait. | [Target: All enemies] Performs {is28}{image(ui_icon_skill_009)} Light magic attack
+at power 140. Consumes all SP. Causes KO from attack
+recoil. The lower the user's SP, the lower the damage.
+Increased damage to targets with Deity Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_005)} Electricity magic attack at power 90.
+The greater the user's stat buffs, the greater the damage.
+Increased damage to targets with Alien Trait. | [Target: All enemies] Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at
+power 20 x 4 hits. If target is affected by status
+abnormalities or {is28}{image(ui_icon_btlStatus_012)} Injury/{is28}{image(ui_icon_btlStatus_013)} Disease: Increased
+damage. Increased damage to targets with Fire Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Humanoid Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,26,11,9,у меня такое чувство что,patch_text01:f_d0900_0010_0090 | patch_text01:f_d1402_0010_0010 | patch_text01:aigio_001_1_reaction_char_AEGIOMON | patch_text01:shaw_001_4_reaction_char_SHAWUJINMON | patch_text01:common044_0_child_courage,"Uh-oh. This isn't working... And I get the feeling this
+isn't the first time! | You know, I have a feeling that elevator works... | I dunno... For some reason, I get the feeling it wouldn't work... | I get the feeling you'd really do it, too! You've got my trust. | I get the feeling I'm most at ease when I'm with you.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,10,10,2,я буду ждать тебя в,patch_text01:sub_030_029_1 | patch_text01:sub_050_152_1 | patch_text01:sub_900_162_2 | patch_text01:sub_900_217_1 | patch_text01:sub_910_171_1,"Having a band would make the party more lively. I need your
+help. I'll be waiting for you in Gear Forest Village.
+
+View Mission Details {decision} | There's something I want to do and I need your help. I'll be
+waiting for you in downtown Central Town.
+
+View Mission Details {decision} | Looks like you beat the Card King. You've earned the right to
+see me. I'll be waiting for you in Shinjuku. | I need to talk to you. I'll be waiting for you in a back alley of
+Akihabara.
+
+View Mission Details {decision} | I found a picture of me back in high school. Come join me for
+a reminiscing sesh! I'll be waiting for you at the office.
+
+View Mission Details {decision}","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,9,9,1,повышенный урон повышенный урон по,patch_text01:21782 | patch_text01:26042 | patch_text01:27332 | patch_text01:27391 | patch_text01:23761,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait. | [Target: All enemies] Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at
+power 20 x 4 hits. If target is affected by status
+abnormalities or {is28}{image(ui_icon_btlStatus_012)} Injury/{is28}{image(ui_icon_btlStatus_013)} Disease: Increased
+damage. Increased damage to targets with Fire Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Humanoid Trait. | [Target: All enemies]
+Performs {is28}{image(ui_icon_skill_009)} Light magic attack at power 55.
+If target has already acted: Increased damage. {d0}
+Increased damage to targets with Machine Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_000)} Null magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Amphibian Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,9,9,1,повышенный урон повышенный урон по целям,patch_text01:21782 | patch_text01:26042 | patch_text01:27332 | patch_text01:27391 | patch_text01:23761,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
+power 80. If target's Attribute is anything other than
+No Data: Increased damage. Increased damage to
+targets with Mineral Trait. | [Target: All enemies] Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at
+power 20 x 4 hits. If target is affected by status
+abnormalities or {is28}{image(ui_icon_btlStatus_012)} Injury/{is28}{image(ui_icon_btlStatus_013)} Disease: Increased
+damage. Increased damage to targets with Fire Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Humanoid Trait. | [Target: All enemies]
+Performs {is28}{image(ui_icon_skill_009)} Light magic attack at power 55.
+If target has already acted: Increased damage. {d0}
+Increased damage to targets with Machine Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_000)} Null magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Amphibian Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,17,8,1,повышает получаемый в бою опыт,patch_text01:54 | patch_text01:63 | patch_text01:75 | patch_text01:91 | patch_text01:106,"Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,17,8,1,повышает получаемый в бою опыт для,patch_text01:54 | patch_text01:63 | patch_text01:75 | patch_text01:91 | patch_text01:106,"Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,17,8,1,получаемый в бою опыт для,patch_text01:54 | patch_text01:63 | patch_text01:75 | patch_text01:91 | patch_text01:106,"Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,
+and Opportunistic battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,8,3,из семи великих повелителей демонов,patch_text01:1190120008 | patch_text01:1190130001 | patch_text01:f_d0204_0600_0010 | patch_text01:f_d0902_0010_0050 | patch_text01:f_d0904_0210_0030,"...but I never would have suspected one of the Seven Great
+Demon Lords. Luckily for us, it's a fake. Let's take it down! | My, my! One of the Seven Great Demon Lords! I had only ever
+heard of them in rumors! | Fake or not, one of the Seven Great Demon Lords certainly made
+for a fearsome foe. | But the enemies keep coming, though! What's more, that
+there is Creepymon, of the Seven Great Demon Lords! | The enemy was summoned by the Akashic Records and
+is based on one of the Seven Great Demon Lords.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,8,1,позволяя тем кто его экипирует,patch_text01:digimon_0139_profile | patch_text01:digimon_0141_profile | patch_text01:digimon_0142_profile | patch_text01:digimon_0144_profile | patch_text01:digimon_0145_profile,"An Armor Beast Digimon that has Digivolved through
+the Digi-Egg of Friendship. The Digi-Egg of Friendship
+has the attribute of Thunder, allowing those who
+equip it to move with the speed of lightning to face
+off against their foes, then defeat them with
+electrically-charged attacks. Lighdramon's special
+move is Lightning Blade, which shoots an electric
+sword from the lightning-imbued blade on its head. | An Armor Beast Digimon that has Digivolved with
+the Digi-Egg of Love. The Digi-Egg of Love has the
+attribute of Wind, allowing those who equip it to
+spread their wings and soar through the heavens,
+like a gale whipping through the ether. When it
+comes to aerial combat, Halsemon outclasses
+enemy Digimon in speed and attack power. Its
+special move is Tempest Wing, which generates
+massive tornadoes from its spinning body. | An Armor Mutant Digimon that has Digivolved with
+the Digi-Egg of Sincerity. The Digi-Egg of Sincerity
+has the attribute of Plant, allowing those who
+equip it to blend in with nature, hiding in wind like
+a floating leaf only to appear in the enemy's blind
+spot and land a precise attack. Shurimon is the
+epitome of a ninja. Named after its shuriken, its
+special move is Double Stars, with which it hurls
+the giant shuriken on its back at the enemy from
+high in the air. | An Armor Insectoid Digimon that has Digivolved
+with the Digi-Egg of Knowledge. The Digi-Egg of
+Knowledge has the attribute of Earth, allowing
+those who equip it to manipulate the very ground.
+As its unique form suggests, Digmon never loses
+against other Digimon in underground combat.
+Its special move is Gold Rush, which rotates the
+drills on its nose and hands at high speed to
+unleash a concentrated strike. | An Armor Aquatic Digimon that has Digivolved
+with the Digi-Egg of Reliability. The Digi-Egg of
+Reliability has the attribute of Water, allowing
+those who equip it to demonstrate their true
+power underwater. Submarimon swims freely
+through the vast oceans, and the skills it unleashes
+in underwater battles can only be rivaled by other
+Aquatic Digimon. Its special move is Oxygen
+Homing, which fires super-compressed oxygen.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,8,1,тренировочный предмет дигифермы значительно повышает,patch_text01:29004 | patch_text01:29009 | patch_text01:29010 | patch_text01:29011 | patch_text01:29012,"A Digifarm training item.
+Greatly boosts ATK.
+Shifts Personality toward Heart and Affection. | A Digifarm training item.
+Greatly boosts HP.
+Shifts Personality toward Heart. | A Digifarm training item.
+Greatly boosts SP.
+Shifts Personality toward Understanding. | A Digifarm training item.
+Greatly boosts DEF.
+Shifts Personality toward Heart and Companionship. | A Digifarm training item.
+Greatly boosts INT.
+Shifts Personality toward Understanding and Companionship.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,22,7,4,сделаю все что в моих силах,patch_text01:f_d0305_0010_0040 | patch_text01:f_d0905_0080_0090 | patch_text01:chdes_001_1_reaction_char_CHRONOMON_DESTROY | patch_text01:bota_001_1_reaction_char_BOTAMON | patch_text01:common035_1_reaction_child_courage,"""You are my savior. I shall do everything in my power to
+repay your kindness."" | Yeah, yeah... I'll give it my best. Come on, partner. Let's
+do this. | Then resist until the very end. I shall do all I can to assist you. | Sure! I'll do my best, too! | Right. I need to if I'm going to protect what matters to me.
+I'll do my best...","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,7,1,наносит физическую атаку огонь силой,patch_text01:20441 | patch_text01:26791 | patch_text01:26761 | patch_text01:27381 | patch_text01:20492,"[Target: 1 enemy]
+Either performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 110,
+or 100% chance of 10% reduction to SPD for 3 turns. | [Target: All enemies]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 20 x 2 hits.
+{d0}Increased damage to targets with Immortal Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 35 x 2 hits.
+{d0}Increased damage to targets with Immortal Trait. | [Target: All enemies] Performs {is28}{image(ui_icon_skill_001)} Fire physical attack
+at power 115. 100% chance to apply 30% reduction to
+user's DEF for 3 turns. Immobilized next turn.
+Increased damage to targets with Evil Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_001)} Fire physical attack at power 90.
+If target's Generation is greater than user's: Increased damage.
+Increased damage to targets with Humanoid Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,7,1,силой если цель под действием,patch_text01:25921 | patch_text01:21031 | patch_text01:23991 | patch_text01:21301 | patch_text01:27332,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_003)} Plant physical attack at power 60.
+If target is affected by {is28}{image(ui_icon_btlStatus_000)} Poison/{is28}{image(ui_icon_btlStatus_005)} Deadly Poison/{is28}{image(ui_icon_btlStatus_004)} Sleep/
+{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: 25% chance to apply Instant Death.
+Increased damage to targets with Insectoid Trait. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_004)} Water physical attack at power 45.
+If target is affected by {is28}{image(ui_icon_btlStatus_002)} Confusion/{is28}{image(ui_icon_btlStatus_007)} Chaos:
+25% chance to apply Instant Death. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_004)} Water magic attack at power 60.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber:
+Increased damage. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_004)} Water physical attack at power 60.
+If target is affected by {is28}{image(ui_icon_btlStatus_002)} Confusion/{is28}{image(ui_icon_btlStatus_007)} Chaos: 25% chance
+to apply Instant Death. | [Target: 1 enemy]
+Performs {is28}{image(ui_icon_skill_002)} Ice magic attack at power 90.
+If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
+damage. Increased damage to targets with Humanoid Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,11,6,2,я номер из братьев вейдемон,patch_text01:g_shop310_0010_0010 | patch_text01:g_shop310_0010_0020 | patch_text01:g_shop310_0010_0030 | patch_text01:g_shop311_0010_0010 | patch_text01:g_shop311_0010_0020,"I'm Number 160 of the 160 Vademon Brothers, the baby of the family!
+If ya wanna enter a Peckmon Race, ya gotta buy a {fc9Vade Pass}! | I'm Number 160 of the 160 Vademon Brothers,
+the baby of the family! Nice to have ya back! | I'm Number 160 of the 160 Vademon Brothers. I heard ya were
+a star at my brother's place! Good luck here, too. | I'm Number 108 of the 160 Vademon Brothers.
+If ya wanna enter a Peckmon Race, ya gotta buy a {fc9Vade Pass}! | I'm Number 108 of the 160 Vademon Brothers.
+Nice to have ya back!","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,20,4,4,у меня все еще есть,patch_text01:f_d0213_0040_0030 | patch_text01:common049_0_child_courage | patch_text01:common049_0_male_courage | patch_text01:common049_0_female_courage | patch_text01:common049_0_old_courage,"While I would love to speak with you all now, I still have
+patients to attend to, so it will have to wait. | I've still got the gumption and gusto to fight on the front lines!","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,для сражающихся и запасных дигимонов,patch_text01:5 | patch_text01:19 | patch_text01:33 | patch_text01:42 | patch_text01:54,"Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,для сражающихся и запасных дигимонов с,patch_text01:5 | patch_text01:19 | patch_text01:33 | patch_text01:42 | patch_text01:54,"Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,если текущая черта совпадает с,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,если текущая черта совпадает с базовой,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,значения характеристик на если текущая,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,значения характеристик на если текущая черта,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,и запасных дигимонов с чертами,patch_text01:5 | patch_text01:19 | patch_text01:33 | patch_text01:42 | patch_text01:54,"Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,на если текущая черта совпадает,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,на если текущая черта совпадает с,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,при эволюции дигимонов с чертами,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,с базовой чертой цели эволюции,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,снижает требуемые значения характеристик на,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,снижает требуемые значения характеристик на если,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,совпадает с базовой чертой цели,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,совпадает с базовой чертой цели эволюции,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,сражающихся и запасных дигимонов с,patch_text01:5 | patch_text01:19 | patch_text01:33 | patch_text01:42 | patch_text01:54,"Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,сражающихся и запасных дигимонов с чертами,patch_text01:5 | patch_text01:19 | patch_text01:33 | patch_text01:42 | patch_text01:54,"Boosts the EXP gained in battle by Brave, Zealous, Daring, and
+Reckless battle and reserve Digimon by {d0}% for each Agent Rank. | Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
+Overprotective battle and reserve Digimon by {d0}% for each Agent
+Rank.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,текущая черта совпадает с базовой,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,текущая черта совпадает с базовой чертой,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,требуемые значения характеристик на если,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,требуемые значения характеристик на если текущая,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,характеристик на если текущая черта,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,характеристик на если текущая черта совпадает,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,черта совпадает с базовой чертой,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,16,4,1,черта совпадает с базовой чертой цели,patch_text01:10 | patch_text01:18 | patch_text01:34 | patch_text01:46 | patch_text01:56,"When Digivolving Brave, Zealous, Daring, and Reckless Digimon,
+reduces required stat values by {d0}% if current Personality and
+Digivolution target's Base Personality match. | When Digivolving Adoring, Devoted, Tolerant, and Overprotective
+Digimon, reduces required stat values by {d0}% if current Personality
+and Digivolution target's Base Personality match.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,4,1,повышает атк дигимонов с чертами,patch_text01:31 | patch_text01:32 | patch_text01:36 | patch_text01:87 | patch_text01:90,"Boosts the ATK of Brave, Zealous, Daring, and Reckless Digimon by
+{d2}%. | Boosts the ATK of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d2}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,4,1,повышает дух дигимонов с чертами,patch_text01:11 | patch_text01:29 | patch_text01:41 | patch_text01:52 | patch_text01:53,"Boosts the SPI of Brave, Zealous, Daring, and Reckless Digimon by
+{d5}%. | Boosts the SPI of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d5}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,4,1,повышает защ дигимонов с чертами,patch_text01:15 | patch_text01:20 | patch_text01:22 | patch_text01:59 | patch_text01:60,"Boosts the DEF of Brave, Zealous, Daring, and Reckless Digimon by
+{d3}%. | Boosts the DEF of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d3}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,4,1,повышает инт дигимонов с чертами,patch_text01:38 | patch_text01:40 | patch_text01:43 | patch_text01:73 | patch_text01:81,"Boosts the INT of Brave, Zealous, Daring, and Reckless Digimon by
+{d4}%. | Boosts the INT of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d4}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,4,1,повышает оз дигимонов с чертами,patch_text01:23 | patch_text01:25 | patch_text01:27 | patch_text01:74 | patch_text01:76,"Boosts the HP of Brave, Zealous, Daring, and Reckless Digimon by
+{d0}%. | Boosts the HP of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,4,1,повышает ос дигимонов с чертами,patch_text01:8 | patch_text01:9 | patch_text01:13 | patch_text01:69 | patch_text01:70,"Boosts the SP of Brave, Zealous, Daring, and Reckless Digimon by
+{d1}%. | Boosts the SP of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d1}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,12,4,1,повышает скр дигимонов с чертами,patch_text01:2 | patch_text01:3 | patch_text01:4 | patch_text01:68 | patch_text01:77,"Boosts the SPD of Brave, Zealous, Daring, and Reckless Digimon by
+{d6}%. | Boosts the SPD of Adoring, Devoted, Tolerant, and Overprotective
+Digimon by {d6}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,4,1,дополнительных атак дигимонов с чертами,patch_text01:17 | patch_text01:30 | patch_text01:66 | patch_text01:80 | patch_text01:109,"Boosts the damage dealt by Extra Strikes of Brave, Zealous, Daring,
+and Reckless Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Adoring, Devoted,
+Tolerant, and Overprotective Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Compassionate, Sociable,
+Friendly, and Opportunistic Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,4,1,от дополнительных атак дигимонов с,patch_text01:17 | patch_text01:30 | patch_text01:66 | patch_text01:80 | patch_text01:109,"Boosts the damage dealt by Extra Strikes of Brave, Zealous, Daring,
+and Reckless Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Adoring, Devoted,
+Tolerant, and Overprotective Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Compassionate, Sociable,
+Friendly, and Opportunistic Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,4,1,от дополнительных атак дигимонов с чертами,patch_text01:17 | patch_text01:30 | patch_text01:66 | patch_text01:80 | patch_text01:109,"Boosts the damage dealt by Extra Strikes of Brave, Zealous, Daring,
+and Reckless Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Adoring, Devoted,
+Tolerant, and Overprotective Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Compassionate, Sociable,
+Friendly, and Opportunistic Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,4,1,повышает урон от дополнительных атак,patch_text01:17 | patch_text01:30 | patch_text01:66 | patch_text01:80 | patch_text01:109,"Boosts the damage dealt by Extra Strikes of Brave, Zealous, Daring,
+and Reckless Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Adoring, Devoted,
+Tolerant, and Overprotective Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Compassionate, Sociable,
+Friendly, and Opportunistic Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,4,1,повышает урон от дополнительных атак дигимонов,patch_text01:17 | patch_text01:30 | patch_text01:66 | patch_text01:80 | patch_text01:109,"Boosts the damage dealt by Extra Strikes of Brave, Zealous, Daring,
+and Reckless Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Adoring, Devoted,
+Tolerant, and Overprotective Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Compassionate, Sociable,
+Friendly, and Opportunistic Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,4,1,урон от дополнительных атак дигимонов,patch_text01:17 | patch_text01:30 | patch_text01:66 | patch_text01:80 | patch_text01:109,"Boosts the damage dealt by Extra Strikes of Brave, Zealous, Daring,
+and Reckless Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Adoring, Devoted,
+Tolerant, and Overprotective Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Compassionate, Sociable,
+Friendly, and Opportunistic Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,8,4,1,урон от дополнительных атак дигимонов с,patch_text01:17 | patch_text01:30 | patch_text01:66 | patch_text01:80 | patch_text01:109,"Boosts the damage dealt by Extra Strikes of Brave, Zealous, Daring,
+and Reckless Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Adoring, Devoted,
+Tolerant, and Overprotective Digimon by {d0}%. | Boosts the damage dealt by Extra Strikes of Compassionate, Sociable,
+Friendly, and Opportunistic Digimon by {d0}%.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
