@@ -43,7 +43,7 @@ omed_001_0_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,Тебе... не стоит
 omed_001_1_replay,char_PLAYER_M,Но я хочу быть ближе к тебе.,
 omed_001_1_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Подозреваю, даже ты представляешь,
 к чему может привести такой поступок...",
-omed_001_2_replay,char_PLAYER_M,"Я бы не стал, даже если бы ты меня об этом попросил.",
+omed_001_2_replay,char_PLAYER_M,Даже по твоей просьбе не соглашусь.,
 omed_001_2_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Мудрое решение. Так естественно поступит любой,
 кто распознает мою истинную природу.",
 omed_001_3_replay,char_PLAYER_M,Что бы тогда произошло?,

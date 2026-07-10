@@ -61,7 +61,7 @@ banma_001_1_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Хорошо. Есл
 banma_001_2_replay,char_PLAYER_M,Проблема? Как что?,
 banma_001_2_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Например... что угодно! Вообще что угодно!
 Просто скажи — и я в деле.",
-banma_001_3_replay,char_PLAYER_M,Вы уже делаете более чем достаточно.,
+banma_001_3_replay,char_PLAYER_M,Ты и так делаешь более чем достаточно.,
 banma_001_3_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Рад это слышать. Цифровой мир — безумное место,
 но я прикрою тебя.",
 banma_001_4_replay,char_PLAYER_M,Не хочется тебя беспокоить.,

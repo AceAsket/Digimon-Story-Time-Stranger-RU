@@ -368,6 +368,33 @@ def build(dataset_path: Path, map_path: Path, manifest_path: Path, check_only: b
         if not check_only:
             write_csv_rows(csv_path, rows)
 
+    # Keep the physical MBE rows in exact sync with the reviewed dataset.
+    # Without this cleanup, removing a neutralized entry from the dataset
+    # would update the Lua map but leave unreachable __H/__F rows behind.
+    desired_generated_by_file: dict[Path, set[str]] = defaultdict(set)
+    for entry in entries:
+        csv_path = ROOT / "csv" / entry.package / entry.file
+        for group_id in entry.group_ids:
+            desired_generated_by_file[csv_path].update(
+                (f"{group_id}__H", f"{group_id}__F")
+            )
+
+    stale_removed_total = 0
+    for csv_path in (ROOT / "csv").glob("*_text01/message/**/*.csv"):
+        rows = read_csv_rows(csv_path)
+        desired = desired_generated_by_file.get(csv_path, set())
+        stale_ids = {
+            row[0]
+            for row in rows[1:]
+            if is_generated_id(row[0]) and row[0] not in desired
+        }
+        if not stale_ids:
+            continue
+        stale_removed_total += len(stale_ids)
+        if not check_only:
+            rows = [rows[0]] + [row for row in rows[1:] if row[0] not in stale_ids]
+            write_csv_rows(csv_path, rows)
+
     # A global resolver cannot safely distinguish duplicate IDs loaded from
     # different MBE files.  Check the complete production package, excluding
     # generated variants, before emitting the map.
@@ -391,6 +418,7 @@ def build(dataset_path: Path, map_path: Path, manifest_path: Path, check_only: b
     print(f"Runtime keys: {len(runtime_keys)} ({selection_count} selection groups, {direct_count} direct)")
     print(f"Variant rows created: {created_total}")
     print(f"Variant rows updated: {updated_total}")
+    print(f"Stale variant rows removed: {stale_removed_total}")
     print(f"Mode: {'check' if check_only else 'apply'}")
     if not check_only:
         print(f"Lua map: {map_path}")

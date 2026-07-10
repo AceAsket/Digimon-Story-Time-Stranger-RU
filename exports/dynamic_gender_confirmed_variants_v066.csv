@@ -21,6 +21,10 @@ patch_text01,message/m410.mbe/000_Sheet1.csv,m410_023_031,player,Рад снов
 patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_020,operator,Ты наверняка уже понял...,Ты наверняка уже поняла...,1.00,operator_addresses_player
 patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_030,operator,"...понял, что ты не обычный человек.","...поняла, что ты не обычный человек.",1.00,operator_addresses_player
 patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_050,operator,Ты до сих пор хорошо справлялся со своей ролью.,Ты до сих пор хорошо справлялась со своей ролью.,1.00,operator_addresses_player
+patch_text01,message/m420.mbe/000_Sheet1.csv,m420_070_030,operator,"Ты — агент, ответственный за поддержание равновесия мира.","Ты — агент, ответственная за поддержание равновесия мира.",1.00,operator_addresses_player
+patch_text01,message/m420.mbe/000_Sheet1.csv,m420_080_070,operator,"Причина, по которой тебя принимают за Эгиомона, в том, что ты
+изначально родился от него.","Причина, по которой тебя принимают за Эгиомона, в том, что ты
+изначально родилась от него.",1.00,operator_addresses_player
 patch_text01,message/s010_180.mbe/000_Sheet1.csv,s010_180_440,player,{next}Я всё слышал.,{next}Я всё слышала.,1.00,player_self
 patch_text01,message/s030_183.mbe/000_Sheet1.csv,s030_183_212,player,"{next}Рад, что сомнения развеялись.","{next}Рада, что сомнения развеялись.",1.00,player_self
 patch_text01,message/s110_111.mbe/000_Sheet1.csv,s110_111_090,player,"{next}Кстати, я встретил Иггдрасиля.","{next}Кстати, я встретила Иггдрасиля.",1.00,player_self
@@ -133,6 +137,8 @@ patch_text01,message/d09.mbe/000_Sheet1.csv,f_d0907_0110_0060,player_address,"Я
 patch_text01,message/d12.mbe/000_Sheet1.csv,f_d1204_0190_0010,player_address,Это ты! Тот человек из прошлого! Ты был в безопасности?,Это ты! Тот человек из прошлого! Ты была в безопасности?,1.00,reviewed_player_address_v068
 patch_text01,message/d12.mbe/000_Sheet1.csv,f_d1204_0620_0050,player_address,Ах! Но не забегай вперед! Ты должен работать!,Ах! Но не забегай вперед! Ты должна работать!,1.00,reviewed_player_address_v068
 patch_text01,message/d13.mbe/000_Sheet1.csv,f_d1301_0320_0010,player_address,Ты сделал это! Это идентификационный номер руководителя!,Ты сделала это! Это идентификационный номер руководителя!,1.00,reviewed_player_address_v068
+patch_text01,message/field_text.mbe/000_Sheet1.csv,g_shop096_0010_0010,player_address,"Благодарю, что заглянул, о путешественник во времени и пространстве.","Благодарю, что заглянула, о путешественница во времени и пространстве.",1.00,reviewed_player_address_v071
+patch_text01,message/field_text.mbe/000_Sheet1.csv,g_shop099_0010_0010,player_address,"Благодарю, что заглянул, о путешественник во времени и пространстве.","Благодарю, что заглянула, о путешественница во времени и пространстве.",1.00,reviewed_player_address_v071
 patch_text01,message/field_text.mbe/000_Sheet1.csv,g_shop165_0030_0010,player_address,"Ты уверен, что ничего не забыл?","Ты уверена, что ничего не забыла?",1.00,reviewed_player_address_v068
 patch_text01,message/field_text.mbe/000_Sheet1.csv,g_shop310_0010_0020,player_address,"Я номер 160 из 160 братьев Вейдемон, детище в семье! Приятно, что
 ты вернулся!","Я номер 160 из 160 братьев Вейдемон, детище в семье! Приятно, что
@@ -182,8 +188,8 @@ patch_text01,message/m420.mbe/000_Sheet1.csv,m420_100_090,player_address,"Ты �
 перезапустил поток времени.",1.00,reviewed_player_address_v068
 patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,r_d1204_0010_0130,player_address,"Ты, там! Ты готов к этому?!","Ты, там! Ты готова к этому?!",1.00,reviewed_player_address_v068
 patch_text01,message/s010_001.mbe/000_Sheet1.csv,s010_001_430,player_address,"Это скорее ощущение, так что объяснить трудно.
-Как бы ты сделал эту футболку «самой двадцатой»?","Это скорее ощущение, так что объяснить трудно.
-Как бы ты сделала эту футболку «самой двадцатой»?",1.00,reviewed_player_address_v068
+Как бы ты сделал эту футболку по-двадцатейшему?","Это скорее ощущение, так что объяснить трудно.
+Как бы ты сделала эту футболку по-двадцатейшему?",1.00,reviewed_player_address_v068
 patch_text01,message/s010_179.mbe/000_Sheet1.csv,s010_179_190,player_address,"Ты прав. Это я, Курои. Удивлён,
 что ты меня узнал.","Ты права. Это я, Курои. Удивлён,
 что ты меня узнала.",1.00,reviewed_player_address_v068
@@ -235,10 +241,7 @@ patch_text01,message/s070_057.mbe/000_Sheet1.csv,s070_057_050,player_address,"Т
 patch_text01,message/s080_059.mbe/000_Sheet1.csv,s080_059_360,player_address,"Хехехе. Тут ты прав: чтобы сунуться в Космическую область,
 энергии нужно с запасом.","Хехехе. Тут ты права: чтобы сунуться в Космическую область,
 энергии нужно с запасом.",1.00,reviewed_player_address_v068
-patch_text01,message/s090_072.mbe/000_Sheet1.csv,s090_072_260,player_address,"Я угадаю местонахождение потерянного Дигимона. Ты должен пойти и
-защитить их.","Я угадаю местонахождение потерянного Дигимона. Ты должна пойти и
-защитить их.",1.00,reviewed_player_address_v068
-patch_text01,message/s095_082.mbe/000_Sheet1.csv,s095_082_600,player_address,Ты вернулся. И ты мне что-то принес?,Ты вернулась. И ты мне что-то принесла?,1.00,reviewed_player_address_v068
+patch_text01,message/s095_082.mbe/000_Sheet1.csv,s095_082_600,player_address,Ты вернулся. И что это у тебя?,Ты вернулась. И что это у тебя?,1.00,polished_player_address_v071
 patch_text01,message/s110_090.mbe/000_Sheet1.csv,s110_090_120,player_address,"Пожалуйста! Я думаю, что мой партнер где-то внутри этого
 пространства. Ты должен пойти со мной!","Пожалуйста! Я думаю, что мой партнер где-то внутри этого
 пространства. Ты должна пойти со мной!",1.00,reviewed_player_address_v068

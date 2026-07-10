@@ -11,8 +11,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CSV_ROOT = ROOT / "csv"
 DEFAULT_ORIGINAL_ROOT = ROOT / "verify" / "game_build_23514637" / "text_original"
-DEFAULT_OUT = ROOT / "exports" / "dialogue_gender_style_audit_v065.csv"
-DEFAULT_SUMMARY = ROOT / "exports" / "dialogue_gender_style_audit_v065_summary.txt"
+DEFAULT_OUT = ROOT / "exports" / "dialogue_gender_style_audit_v071.csv"
+DEFAULT_SUMMARY = ROOT / "exports" / "dialogue_gender_style_audit_v071_summary.txt"
+DEFAULT_LABEL = "v071"
 
 CYRILLIC_RE = re.compile(r"[А-Яа-яЁё]")
 LATIN_RE = re.compile(r"[A-Za-z][A-Za-z'&.-]{2,}")
@@ -390,6 +391,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--original-root", type=Path, default=DEFAULT_ORIGINAL_ROOT)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--summary", type=Path, default=DEFAULT_SUMMARY)
+    parser.add_argument("--label", default=DEFAULT_LABEL)
     return parser.parse_args()
 
 
@@ -475,7 +477,7 @@ def main() -> None:
     by_priority = Counter(int(item["priority"]) for item in output)
     by_category = Counter(str(item["category"]) for item in output)
     summary = [
-        "Dialogue gender and style audit v065",
+        f"Dialogue gender and style audit {args.label}",
         f"csv_root={args.csv_root}",
         f"original_root={args.original_root}",
         f"dialogue_rows_scanned={len(translated)}",
