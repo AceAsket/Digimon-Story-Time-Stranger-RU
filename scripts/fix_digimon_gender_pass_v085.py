@@ -110,7 +110,7 @@ UPDATES: dict[tuple[str, str, str], tuple[str, str]] = {
     ),
     ("patch_text01", "message/s200_148.mbe/000_Sheet1.csv", "s200_148_390"): (
         "Да... ты прав! Может, люди не так страшны, как я думал?",
-        "Да... ты прав! Может, люди не так страшны, как я думала?",
+        "Да... пожалуй! Может, люди не так страшны, как я думала?",
     ),
     ("patch_text01", "message/s030_031.mbe/000_Sheet1.csv", "s030_031_100"): (
         "Я так и думал! Это замечательно!",
@@ -147,8 +147,8 @@ DATASET_UPDATE = {
     "base_id": "s200_148_390",
     "old_male": "Да... ты прав! Может, люди не так страшны, как я думал?",
     "old_female": "Да... ты права! Может, люди не так страшны, как я думал?",
-    "new_male": "Да... ты прав! Может, люди не так страшны, как я думала?",
-    "new_female": "Да... ты права! Может, люди не так страшны, как я думала?",
+    "new_male": "Да... пожалуй! Может, люди не так страшны, как я думала?",
+    "new_female": "Да... пожалуй! Может, люди не так страшны, как я думала?",
 }
 
 
@@ -210,8 +210,11 @@ def apply_dataset() -> tuple[int, int]:
         ),
         None,
     )
+    # A later pass neutralizes this line and removes it from the runtime
+    # gender map.  Treat an absent row as an already-current supersession so
+    # this historical migration remains safe to rerun on a current checkout.
     if match is None:
-        raise ValueError("dynamic Palmon row is missing")
+        return 0, 1
     current_pair = (
         match["male_protagonist_text"],
         match["female_protagonist_text"],

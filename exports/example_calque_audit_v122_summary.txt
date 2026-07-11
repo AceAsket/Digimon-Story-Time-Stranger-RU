@@ -1,0 +1,10 @@
+Example-driven machine-translation audit v122
+rows_checked=38942
+source_aligned=37139
+all_candidates=0
+example_pattern_candidates=0
+P1=0
+P2=0
+P3=0
+P4=0
+report=exports\example_calque_audit_v122.csv

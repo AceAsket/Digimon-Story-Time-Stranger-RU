@@ -2,7 +2,7 @@ Release payload verification v114
 payload_packages=9
 csv_packages=8
 csv_files_compared=261
-csv_rows_compared=39716
+csv_rows_compared=39708
 lua_chunks_compared=8
 issues=0
 report=exports\release_payload_verify_v114.csv

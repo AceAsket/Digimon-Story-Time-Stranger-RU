@@ -2,18 +2,18 @@ Current game text01 vs RU payload audit v092
 game_data=D:\steam\steamapps\common\Digimon Story Time Stranger\gamedata
 source_root=D:\digimon\verify\game_build_23514637\text_original
 payload_root=D:\digimon\installer\payload
-rows=1109
+rows=1112
 
 Counts:
-- latin_mixed: 1048
+- latin_mixed: 1051
 - latin_no_cyrillic: 57
 - same_as_original: 3
 - extra_payload_package: 1
 
 Top packages:
 - app_text01: 615
-- patch_text01: 422
-- addcont_03_text01: 42
+- patch_text01: 424
+- addcont_03_text01: 43
 - addcont_01_text01: 11
 - addcont_02_text01: 9
 - addcont_07_text01: 6

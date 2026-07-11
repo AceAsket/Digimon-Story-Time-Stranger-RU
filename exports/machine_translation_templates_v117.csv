@@ -13,6 +13,10 @@ same_ru_different_en,medium,2,2,1,{d0} получил {is28}{image(ui_icon_btlSt
 same_ru_different_en,medium,2,2,2,{d0} потрясён и не может действовать!,patch_text01:12106 | patch_text01:12106,{d0} is downed from the impact! | {d0} is incapacitated due to shock!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,1,"{d0}: все характеристики повышены, входящий физический/магический урон снижен!",patch_text01:200009 | patch_text01:300009,"{d0}'s stats have all been boosted, and incoming physical/magic damage will be reduced! | {d0}' stats have all been boosted, and incoming physical/magic damage will be reduced!",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,1,{end}Мне нужно еще немного времени.,addcont_01_text01:dlcep001_0030_0021 | addcont_01_text01:dlcep001_0120_0021,{end}I need a little more time. | {end}I need some more time.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"А главные трусимоны — Патамон и Пальмон!
+Потом расскажи, как всё прошло!",patch_text01:s200_148_180 | patch_text01:s200_148_190,"The fraidy-mon in question are Patamon and Palmon! Lemme
+know how it goes! | The fraidy-mon in question are Patamon and Palmon! Let me
+know how it goes!",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,"А пока тебе лучше отдохнуть.
 На этом этапе твою работу наверняка снова прервут.",addcont_02_text01:d250_060_050 | addcont_03_text01:d350_030_050,"Until then, you'd better rest up. You are sure to
 have your work cut out for you again at that point. | Until then, you'd better rest up, because you're sure to
@@ -23,14 +27,13 @@ same_ru_different_en,medium,2,2,2,Героическая статуя (Коку�
 same_ru_different_en,medium,2,2,2,Героическая статуя (братья из Центрального города 1),patch_text01:20619 | patch_text01:20619,Heroic Statue (Central Town Siblings 1) | Heroic Statue (Central Town Bros 1),Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Героическая статуя (братья из Центрального города 2),patch_text01:20620 | patch_text01:20620,Heroic Statue (Central Town Siblings 2) | Heroic Statue (Central Town Bros 2),Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Защита от земли и стали,patch_text01:1073 | patch_text01:1073,Union Guard G&S | Union Guard S&G,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
-same_ru_different_en,medium,2,2,1,"Извините за беспокойство. Это ""никаких сверхурочных"" - своего
-рода палка о двух концах.",patch_text01:s050_041_0100 | patch_text01:s050_041_0240,"Sorry to trouble you. This ""no overtime"" thing is
-kind of a double-edged sword. | Sorry for the hassle. This ""no overtime"" thing is
-kind of a double-edged sword.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,"Как хорошо, что с тобой всё в порядке.",patch_text01:f_d0203_0010_0174 | patch_text01:m040_110_061,I'm so glad you're okay. | I'm glad you're okay!{next},Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,1,"Клянусь тебе в верности, мой сеньор.",patch_text01:knight_001_0_char_KNIGHTMON | patch_text01:garumu_001_0_char_GARUMMON,"I pledge my fealty to you, my liege. | I pledge fealty to you, my liege.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,1,"Мне неприятно даже думать об этом, но...",patch_text01:m280_030_070 | patch_text01:m280_040_040,"I am loath to even conceive of it, but... | I am loath to even think of it, but...",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Могу я вам чем-нибудь помочь?,patch_text01:s110_211_220 | patch_text01:s910_171_590,Can I help you? | ...Can I help you with something?,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"О, понятно! Если ты будешь похож на дигимона,
+они не испугаются.",patch_text01:s200_148_060 | patch_text01:s200_148_070,"Oh, I getcha. They won't be scared if you look like one of them. | Oh, I get it. They won't be scared if you look like one of
+them.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Они готовы пустить в ход мощный навык!,patch_text01:70005 | patch_text01:70005,It's ready to unleash a powerful skill! | They're ready to unleash a powerful skill!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,1,"По пути к месту встречи мне пришлось
 вступить в бой с врагом.",patch_text01:s110_092_030 | patch_text01:s110_092_050,"You see, on my way to the rendezvous point, I was forced
@@ -53,12 +56,16 @@ same_ru_different_en,medium,2,2,1,"Там, внизу, происходит чт
 there... | There's something strange
 down there...",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,1,Тебе не о чем беспокоиться.,patch_text01:ldevi_001_3_replay | patch_text01:common029_2_replay,You don't have to worry. | Nothing you need to worry about.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
+same_ru_different_en,medium,2,2,1,"Теперь ты выглядишь как дигимон — это должно
+их немного успокоить!",patch_text01:s200_148_200 | patch_text01:s200_148_210,"You looking like a fellow Digimon should calm 'em down a
+bit! | You looking like a fellow Digimon should calm them down a
+bit!",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Титамон накапливает силу в своем массивном клинке...,patch_text01:44401 | patch_text01:44401,Titamon is smiling fearlessly... | Titamon is amassing power in his massive blade...,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Трофей: Мираж Гаогамон: Взрывной режим,patch_text01:22101 | patch_text01:22101,MirageGaogamon BM Trophy | MirageGaogamon: Burst Mode Trophy,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,1,Ты... и меня тоже обманула?,patch_text01:m280_030_150 | patch_text01:m280_040_120,You... duped me as well? | You... lied to me as well?,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Футболка с принтом артхаусного фильма,patch_text01:818 | patch_text01:818,Arthouse Film T-Shirt | Movie Cinema T-shirt,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
-same_ru_different_en,medium,2,2,1,"Ха-ха. Видеть тебя такой никогда не надоедает! Знаешь, в
-каком-то смысле ты, возможно, права.",patch_text01:s200_148_480 | patch_text01:s200_148_490,"Haha. Seeing you like that never gets old!
+same_ru_different_en,medium,2,2,1,"Ха-ха! Этот вид меня каждый раз забавляет.
+Знаешь, пожалуй, в этом что-то есть.",patch_text01:s200_148_480 | patch_text01:s200_148_490,"Haha. Seeing you like that never gets old!
 Y'know, in a way, you might be right. | Haha. Seeing you like that never gets old!
 You know, in a way, you might be right.",Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,"Это ещё один Акашический бэкдор. Похоже, тот же Дигимон
@@ -68,28 +75,28 @@ has once again warped the natural laws of the world.",Одинаковая ру�
 same_ru_different_en,medium,2,2,2,Я всегда буду рядом с тобой.,patch_text01:impe_001_4_replay | patch_text01:m440_120_340,I'll always be by your side. | ...I will always be by your side.,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Я не могу этого сделать.,patch_text01:glade_001_1_replay | patch_text01:m340_020_151,I can't do that. | There's no way I could do that!{next},Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
 same_ru_different_en,medium,2,2,2,Я так и знал! Меня не проведешь!,patch_text01:s095_077_350 | patch_text01:s200_150_080,I knew it! There's no fooling me! | I knew it! You can't fool me!,Одинаковая русская формула скрывает разные английские реплики; проверить потерю оттенков.
-source_aligned_pattern,low,63,62,35,really → действительно,addcont_01_text01:d120_110_010 | addcont_02_text01:d240_051_040 | addcont_03_text01:d330_030_050 | patch_text01:f_d0201_0680_0040 | patch_text01:f_d0202_0040_0010 | patch_text01:f_d0204_0120_0010,"""So... you're really going?"" | ""Is that... really possible?"" | ""Wait...! A-Are you really going to let me off so easily?!"" | ...we really need to come up with a more effective solution. | You really helped us out! I don't know what we would've done
+source_aligned_pattern,low,59,58,33,really → действительно,addcont_01_text01:d120_110_010 | addcont_02_text01:d240_051_040 | patch_text01:f_d0201_0680_0040 | patch_text01:f_d0202_0040_0010 | patch_text01:f_d0204_0120_0010 | patch_text01:f_d0204_0170_0030,"""So... you're really going?"" | ""Is that... really possible?"" | ...we really need to come up with a more effective solution. | You really helped us out! I don't know what we would've done
 without you! | Wow, that Lillymon over there is really cute...
-Aren't you gonna go say hi?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,medium,48,48,32,actually → действительно/на самом деле,addcont_02_text01:d240_062_020 | addcont_03_text01:d310_040_090 | patch_text01:1120001024 | patch_text01:f_d0202_0020_0020 | patch_text01:f_d0401_0100_0030 | patch_text01:f_d0502_0350_0020,"You make it sound a lot more complicated than it actually is... | Never mind. I realize that was confusing.
+Aren't you gonna go say hi? | Hehe. Timid hits from afar, huh? Does the enemy really
+scare you that much?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,45,45,31,actually → действительно/на самом деле,addcont_02_text01:d240_062_020 | addcont_03_text01:d310_040_090 | patch_text01:1120001024 | patch_text01:f_d0202_0020_0020 | patch_text01:f_d0401_0100_0030 | patch_text01:f_d0502_0350_0020,"You make it sound a lot more complicated than it actually is... | Never mind. I realize that was confusing.
 I'm rather confused myself, actually. | Glurp?! Whoa, seriously?! It's working?!
 It's actually glurpin' working! Not bad, glurp! | One of my pals is always there by himself, but who knows,
 Minervamon might actually be home. Go have a look.
  | But it seems the village is actually trying to improve.
 That's good to know. | It was actually a hero from somewhere else that saved the
 day! Get real...!","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,medium,48,48,32,right now → прямо сейчас,addcont_02_text01:d210_030_140 | addcont_02_text01:d220_030_120 | addcont_02_text01:banma_001_1_replay | patch_text01:arena01_f001_005_030 | patch_text01:1081020022 | patch_text01:2030183002,"""Hello, folks. This is OcculTokyo TV.
+source_aligned_pattern,medium,44,44,29,right now → прямо сейчас,addcont_02_text01:d210_030_140 | addcont_02_text01:d220_030_120 | addcont_02_text01:banma_001_1_replay | patch_text01:arena01_f001_005_030 | patch_text01:1081020022 | patch_text01:2030183002,"""Hello, folks. This is OcculTokyo TV.
 Am I... dreaming right now?"" | Bring us back to our own world, right now!
 Prepare yourself! | I need your help right now. | There are no lies to be told here... Okay, that was a lie!
 Yep, somebody's definitely lying right now! | The battery can only be used once. I should focus on the
 battle right now. | Hey! That hurts! I cannot clear the fog right now!","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,low,33,33,17,quite → довольно,patch_text01:f_d0204_0280_0060 | patch_text01:f_d0305_0060_0010 | patch_text01:f_d0401_0080_0030 | patch_text01:f_d0604_0400_0010 | patch_text01:f_h0601_0030_0050 | patch_text01:m060_160_110,"Allow me to thank you for your help with Central Tower.
+source_aligned_pattern,low,32,32,16,quite → довольно,patch_text01:f_d0204_0280_0060 | patch_text01:f_d0305_0060_0010 | patch_text01:f_d0604_0400_0010 | patch_text01:f_h0601_0030_0050 | patch_text01:m060_160_110 | patch_text01:m090_080_080,"Allow me to thank you for your help with Central Tower.
 I received word that the Digimon there are quite formidable. | It would seem you are awake. You were in quite a
-precarious state for a while. | I do not mind you joining us. But let me warn you. We are
-quite tough. I wonder if you can keep up... | I see... So it is quite a difficult procedure to open this
+precarious state for a while. | I see... So it is quite a difficult procedure to open this
 cell, is it...? | The one who created this space is quite tricky...
 I have a feeling we share a similar mindset. | You should go take a break. I mean... you've had
-quite the day, right?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+quite the day, right? | But things have taken quite a turn since then...","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
 source_aligned_pattern,low,22,22,8,various → различные,patch_text01:m070_040_110 | patch_text01:m180_050_110 | patch_text01:m420_010_170 | patch_text01:s095_077_490 | patch_text01:digimon_0130_profile | patch_text01:digimon_0184_profile,"I want to learn everything I can about their capabilities as living organisms.
 Toward that end, I have various hypotheses I wish to test. | It wouldn't be a stretch to call our various mythologies the
 greatest anomalies in human history. | While bound by Chronomon's rage... I provided various things to
@@ -132,13 +139,6 @@ I sure hope he does something soon... | But yes, things have been a bit tumultuo
 powers that be have some kind of plan... | I heard the sanctuary was in some kind of trouble... I hope
 it's okay. | There was some kind of commotion, so I figured I'd use the
 opportunity to escape.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,medium,12,12,9,presence → наличие/присутствие,addcont_01_text01:dlcep001_0030_0010 | addcont_02_text01:d230_020_140 | addcont_03_text01:d320_040_200 | patch_text01:f_d0907_0010_0040 | patch_text01:ofa_001_4_reaction_char_OPHANIMON | patch_text01:pega_001_4_reaction_char_PEGASMON,"I sense a presence from beyond the door.
-I believe it to be our ally Omnimon Zwart. | Suddenly, it felt like someone else was being drained, just like me.
-I felt their presence in the crystals as well. | Hm... I am sensing the presence of others. Most likely, there are
-more Digimon who are after the X Antibody lurking nearby. | Even in my slumber, I felt your presence ever near. Mere words cannot
-express my gratitude... but I am afraid now is not the time. | My presence here means there is something for me to observe,
-and to accomplish. | It's a reflex, I assure you. Though perhaps your special presence
-would negate it?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
 source_aligned_pattern,medium,11,10,9,as for → что касается,patch_text01:f_d0505_0080_0030 | patch_text01:f_d1204_0180_0040 | patch_text01:f_d1204_0190_0020 | patch_text01:m050_055_030 | patch_text01:m150_010_158 | patch_text01:m150_150_340,"As for the rest, we'll handle things here. You folks have
 your own road to travel. | As for the two of us, we'll probably never go back. | I am sure things have been rough for you, too.
 As for us, well... the Titans have taken Central Town! | As for why this place exists... that will be
@@ -168,6 +168,13 @@ a hit from this attack, rumor has it. Darkdramon also
 has a weapon called the Gigastick Lance built into
 its right arm, said to be equal in power to Gallantmon's
 holy lance Gram.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,6,6,6,presence → наличие/присутствие,addcont_01_text01:dlcep001_0030_0010 | addcont_02_text01:d230_020_140 | addcont_03_text01:d320_040_200 | patch_text01:migao_001_4_reaction_char_MIRAGEGAOGAMON | patch_text01:s030_183_250 | patch_text01:s110_101_660,"I sense a presence from beyond the door.
+I believe it to be our ally Omnimon Zwart. | Suddenly, it felt like someone else was being drained, just like me.
+I felt their presence in the crystals as well. | Hm... I am sensing the presence of others. Most likely, there are
+more Digimon who are after the X Antibody lurking nearby. | It's hard to explain, but even if you can't see me, I'm sure you'll
+sense my presence. | I sensed an odd presence in the sanctuary and was checking
+to see if we had an intruder. | Hm...? Can you feel that? I am sensing an ominous presence
+nearby.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
 source_aligned_pattern,low,4,4,1,process → в процессе,patch_text01:digimon_0060_profile | patch_text01:digimon_0069_profile | patch_text01:digimon_0130_profile | patch_text01:digimon_0400_profile,"One of the rumored seven Digivolutions from
 Volcanomon. Possessing immense strength and
 destructive power, PileVolcanomon is well-versed in
@@ -674,20 +681,6 @@ If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image
 damage. Increased damage to targets with Humanoid Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
 repeated_ngram,low,26,11,9,у меня такое чувство что,patch_text01:f_d0900_0010_0090 | patch_text01:f_d1402_0010_0010 | patch_text01:aigio_001_1_reaction_char_AEGIOMON | patch_text01:shaw_001_4_reaction_char_SHAWUJINMON | patch_text01:common044_0_child_courage,"Uh-oh. This isn't working... And I get the feeling this
 isn't the first time! | You know, I have a feeling that elevator works... | I dunno... For some reason, I get the feeling it wouldn't work... | I get the feeling you'd really do it, too! You've got my trust. | I get the feeling I'm most at ease when I'm with you.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
-repeated_ngram,low,10,10,2,я буду ждать тебя в,patch_text01:sub_030_029_1 | patch_text01:sub_050_152_1 | patch_text01:sub_900_162_2 | patch_text01:sub_900_217_1 | patch_text01:sub_910_171_1,"Having a band would make the party more lively. I need your
-help. I'll be waiting for you in Gear Forest Village.
-
-View Mission Details {decision} | There's something I want to do and I need your help. I'll be
-waiting for you in downtown Central Town.
-
-View Mission Details {decision} | Looks like you beat the Card King. You've earned the right to
-see me. I'll be waiting for you in Shinjuku. | I need to talk to you. I'll be waiting for you in a back alley of
-Akihabara.
-
-View Mission Details {decision} | I found a picture of me back in high school. Come join me for
-a reminiscing sesh! I'll be waiting for you at the office.
-
-View Mission Details {decision}","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
 repeated_ngram,low,9,9,1,повышенный урон повышенный урон по,patch_text01:21782 | patch_text01:26042 | patch_text01:27332 | patch_text01:27391 | patch_text01:23761,"[Target: 1 enemy] Performs {is28}{image(ui_icon_skill_000)} Null physical attack at
 power 80. If target's Attribute is anything other than
 No Data: Increased damage. Increased damage to
@@ -720,6 +713,20 @@ Increased damage to targets with Machine Trait. | [Target: 1 enemy]
 Performs {is28}{image(ui_icon_skill_000)} Null magic attack at power 90.
 If target is affected by {is28}{image(ui_icon_btlStatus_004)} Sleep/{is28}{image(ui_icon_btlStatus_009)} Deep Slumber: Increased
 damage. Increased damage to targets with Amphibian Trait.","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
+repeated_ngram,low,9,9,2,я буду ждать тебя в,patch_text01:sub_030_029_1 | patch_text01:sub_050_152_1 | patch_text01:sub_900_162_2 | patch_text01:sub_900_217_1 | patch_text01:sub_910_171_1,"Having a band would make the party more lively. I need your
+help. I'll be waiting for you in Gear Forest Village.
+
+View Mission Details {decision} | There's something I want to do and I need your help. I'll be
+waiting for you in downtown Central Town.
+
+View Mission Details {decision} | Looks like you beat the Card King. You've earned the right to
+see me. I'll be waiting for you in Shinjuku. | I need to talk to you. I'll be waiting for you in a back alley of
+Akihabara.
+
+View Mission Details {decision} | I found a picture of me back in high school. Come join me for
+a reminiscing sesh! I'll be waiting for you at the office.
+
+View Mission Details {decision}","Повторяемый шаблон; проверять выборочно, массовая замена запрещена."
 repeated_ngram,low,17,8,1,повышает получаемый в бою опыт,patch_text01:54 | patch_text01:63 | patch_text01:75 | patch_text01:91 | patch_text01:106,"Boosts the EXP gained in battle by Adoring, Devoted, Tolerant, and
 Overprotective battle and reserve Digimon by {d0}% for each Agent
 Rank. | Boosts the EXP gained in battle by Compassionate, Sociable, Friendly,

@@ -623,7 +623,7 @@ warus_001_2_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"Заставляет
 самураев. Да, в этом есть что-то особенное.",
 warus_001_3_replay,char_PLAYER_M,"Что это такое, мой ВарСидрамон.",
 warus_001_3_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"Звучит очень... дружелюбно. Да, мне нравится.",
-warus_001_4_replay,char_PLAYER_M,"Привет, Малышка Варусеадрамон!",
+warus_001_4_replay,char_PLAYER_M,"Эй, малыш ВарСидрамон!",
 warus_001_4_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"""Малыш"" - полная противоположность классности! Это даже мило!
 Тем не менее... Не так уж плохо, я думаю.",
 dago_001_0_char_DAGOMON,char_DAGOMON,Темнота... это... успокаивает...,
@@ -990,7 +990,7 @@ sylphy_001_0_char_SILPHYMON,char_SILPHYMON,Эти части моего тела
 sylphy_001_1_replay,char_PLAYER_M,Вовсе нет.,
 sylphy_001_1_reaction_char_SILPHYMON,char_SILPHYMON,"Никакой наблюдательности, да? Сосредоточься на своих друзьях, и
 ты увидишь все, что угодно.",
-sylphy_001_2_replay,char_PLAYER_M,Уши Гатомона.,
+sylphy_001_2_replay,char_PLAYER_M,Уши Тейлмон.,
 sylphy_001_2_reaction_char_SILPHYMON,char_SILPHYMON,"Верно подмечено. В любой момент могу поделиться данными
 с радара и нашлемного дисплея.",
 sylphy_001_3_replay,char_PLAYER_M,Крылья Аквиламона!,
@@ -1640,9 +1640,9 @@ poyo_001_1_replay,char_PLAYER_M,Возьми себя в руки!,
 poyo_001_1_reaction_char_POYOMON,char_POYOMON,"Я, не теряй!",
 poyo_001_2_replay,char_PLAYER_M,У тебя отлично получается.,
 poyo_001_2_reaction_char_POYOMON,char_POYOMON,Я... хороший дигимон!,
-poyo_001_3_replay,char_PLAYER_M,"Поймон, не так ли?",
+poyo_001_3_replay,char_PLAYER_M,"Поёмон, не так ли?",
 poyo_001_3_reaction_char_POYOMON,char_POYOMON,"Я, друг!",
-poyo_001_4_replay,char_PLAYER_M,"Я люблю тебя, Поймон!",
+poyo_001_4_replay,char_PLAYER_M,"Я люблю тебя, Поёмон!",
 poyo_001_4_reaction_char_POYOMON,char_POYOMON,Я тоже люблю тебя!,
 toko_001_0_char_TOKOMON,char_TOKOMON,"Хочу поскорее эволюционировать
 в кого-нибудь по-настоящему сильного!",
@@ -1859,8 +1859,8 @@ ofa_001_3_replay,char_PLAYER_M,Что такое Суперангел?,
 ofa_001_3_reaction_char_OPHANIMON,char_OPHANIMON,"Одна из ролей среди ангелов и относится к типу Дигимонов, очень
 похожих на ""Насекомых"" или ""Рептилий"".",
 ofa_001_4_replay,char_PLAYER_M,Для тебя нормально быть здесь?,
-ofa_001_4_reaction_char_OPHANIMON,char_OPHANIMON,"Мое присутствие здесь означает, что мне есть за чем понаблюдать
-и чего достичь.",
+ofa_001_4_reaction_char_OPHANIMON,char_OPHANIMON,"Я здесь не случайно: мне предстоит за чем-то наблюдать
+и чего-то добиться.",
 serap_001_0_char_SERAPHIMON,char_SERAPHIMON,"Я серафим Дигимон, тот, кто правит всеми Ангелами Дигимон.",
 serap_001_1_replay,char_PLAYER_M,Я могу чем-нибудь тебе помочь?,
 serap_001_1_reaction_char_SERAPHIMON,char_SERAPHIMON,Не позволяй злу существовать в этом мире.,
@@ -1886,7 +1886,7 @@ pega_001_3_reaction_char_PEGASMON,char_PEGASMON,"Лучше не делай эт
 Но ради правого дела я соглашусь.",
 pega_001_4_replay,char_PLAYER_M,Не делай этого сейчас.,
 pega_001_4_reaction_char_PEGASMON,char_PEGASMON,"Уверяю тебя, это рефлекс.
-Хотя, возможно, твоё особое присутствие его подавит?",
+Но рядом с тобой он, возможно, и не сработает?",
 nefe_001_0_char_NEFERTIMON,char_NEFERTIMON,Позволь мне очаровать тебя светом моей улыбки.,
 nefe_001_1_replay,char_PLAYER_M,Ты не расстроен?,
 nefe_001_1_reaction_char_NEFERTIMON,char_NEFERTIMON,"Такие мысли - доказательство твоей нечистоты. Однажды я очищу
@@ -2303,10 +2303,10 @@ kelbi_001_4_reaction_char_KERPYMON_BAD,,"Даже несмотря на то, ч
 выбор - быть рядом с тобой.",
 aruda_001_0_char_ALDAMON,char_ALDAMON,"Мне часто говорят, что я на кого-то похожа, но кто бы это мог
 быть...?",
-aruda_001_1_replay,char_PLAYER_M,Горящий Греймон.,
+aruda_001_1_replay,char_PLAYER_M,Вритрамон.,
 aruda_001_1_reaction_char_ALDAMON,char_ALDAMON,"Да, наши когти и хвосты похожи.
 А кто из нас сильнее — решать тебе.",
-aruda_001_2_replay,char_PLAYER_M,Агунимон.,
+aruda_001_2_replay,char_PLAYER_M,Агнимон.,
 aruda_001_2_reaction_char_ALDAMON,char_ALDAMON,"Наши лица и правда похожи.
 Но присмотрись внимательнее и пойми, чем мы отличаемся.",
 aruda_001_3_replay,char_PLAYER_M,Древний Греймон.,

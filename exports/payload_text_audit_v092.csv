@@ -221,6 +221,9 @@ It is a program, no more and no less."
 2,latin_mixed,addcont_03_text01,message/d320.mbe/000_Sheet1.csv,d320_030_080,58,char_JESMON_X,X-,"Из-за X-антитела решается вопрос жизни и смерти,
 поэтому многие пытаются отнять его силой.","Since possessing the X Antibody is a matter of life
 and death, there are many who try to take it by force."
+2,latin_mixed,addcont_03_text01,message/d320.mbe/000_Sheet1.csv,d320_040_020,62,char_KUZUHAMON,X-,"Мы больше не будем их красть.
+Пожалуйста, позвольте нам оставить свои X-антитела!","We won't try to steal them anymore,
+so please, just let us keep our antibodies!"
 2,latin_mixed,addcont_03_text01,message/d320.mbe/000_Sheet1.csv,d320_040_030,63,char_MAGNAMON_X,X-,"Похоже, у них X-антитела внешние, а не внутренние.",It seems their X Antibodies are extrinsic rather than intrinsic.
 2,latin_mixed,addcont_03_text01,message/d320.mbe/000_Sheet1.csv,d320_040_040,64,char_SIMMONS,X-,"Внешний? Итак, существуют разные типы X-антител?",Extrinsic? So there are different types of X Antibodies?
 2,latin_mixed,addcont_03_text01,message/d320.mbe/000_Sheet1.csv,d320_040_080,68,char_JESMON_X,X-,"X-антитело полностью нейтрализует Программу X,
@@ -2535,11 +2538,17 @@ something else I want to look for in the meantime."
 2,latin_mixed,patch_text01,message/d13.mbe/000_Sheet1.csv,f_d1301_0060_0010,22,,ID,"На экране сообщение.
 «Как пользоваться аварийным ID → памятка на доске»","There's a message on the screen.
 ""How to Use an Emergency ID → Whiteboard Memo"""
+2,latin_mixed,patch_text01,message/d13.mbe/000_Sheet1.csv,f_d1301_0060_0020,23,,ID,"Вот твой новый ID, но это уже смешно.
+Сколько раз его ещё перевыпускать?","I've issued you a new ID, but this is getting ridiculous.
+How many times have I had to reissue one for you now?"
 2,latin_mixed,patch_text01,message/d13.mbe/000_Sheet1.csv,f_d1301_0060_0050,26,,ID,Впредь не возись с ID. Просто смотри на доску.,"From now on, don't bother with the ID. Just check the
 whiteboard."
 2,latin_mixed,patch_text01,message/d13.mbe/000_Sheet1.csv,f_d1301_0260_0030,83,,ID,"""Войдите под своим ID, чтобы выполнить эти действия.
 Примечание: ID руководителя использовать нельзя"".","""Please log in with your ID to perform these procedures.
 Note: You cannot log in with a supervisor ID."""
+2,latin_mixed,patch_text01,message/d13.mbe/000_Sheet1.csv,f_d1301_0360_0010,108,char_SIMMONS,ID,"Там держат Вулканусмона, но сначала мне нужно
+перезаписать ID этой ключ-карты. Иначе дверь не открыть.","Vulcanusmon is being held in there, but I need to overwrite
+this keycard ID before we can open the door."
 2,latin_mixed,patch_text01,message/d13.mbe/000_Sheet1.csv,f_d1301_0420_0030,117,char_SIMMONS,ID,"В любом случае здесь может появиться охрана.
 Выдача ID займёт время, поэтому задержите их для нас.","In any case, security might show up here. Since it'll take
 a while to issue an ID, I want you to buy us some time."
@@ -3663,8 +3672,8 @@ View Mission Details {decision}"
 shouldn't be a bad deal for you, either.
 
 View Mission Details {decision}"
-2,latin_mixed,patch_text01,text/digitter_message.mbe/000_Sheet1.csv,sub_100_178_1,359,,VIP-,"Трое ведущих хотят передать тебе кое-что. Пожалуйста, приходи в
-VIP-комнату Промежуточного Театра.
+2,latin_mixed,patch_text01,text/digitter_message.mbe/000_Sheet1.csv,sub_100_178_1,359,,VIP-,"Трое ведущих хотят передать тебе кое-что. Пожалуйста,
+приходи в VIP-комнату Промежуточного Театра.
 Просмотреть детали миссии {decision}","The three hosts have something they'd like to convey to you.
 Please come to the VIP room of the In-Between Theater.
 

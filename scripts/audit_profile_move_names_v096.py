@@ -25,6 +25,7 @@ ACCEPTED_INFLECTED_PROFILE_NAMES = {
     ("patch_text01", "digimon_0744_profile", "Phosphorus Fire Attack"),
     ("patch_text01", "digimon_0232_profile", "Symphony No. 1"),
     ("patch_text01", "digimon_0232_profile", "Symphony No. 2"),
+    ("patch_text01", "digimon_0046_profile", "Holy Flare"),
 }
 
 ACCEPTED_CONTEXTUAL_COLLISIONS = {

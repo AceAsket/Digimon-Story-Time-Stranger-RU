@@ -198,6 +198,27 @@ TEMPLATE_STOPWORDS = {
     "я",
 }
 
+# Manually reviewed contextual false positives.  Only the listed heuristic
+# category is suppressed; any different issue found in the same row remains a
+# candidate on later runs.
+REVIEWED_FALSE_POSITIVE_CATEGORIES = {
+    ("patch_text01", "message/d04.mbe/000_Sheet1.csv", "f_d0407_0020_0030"): {"address"},
+    ("patch_text01", "message/d06.mbe/000_Sheet1.csv", "f_d0608_0010_0030"): {"address"},
+    ("patch_text01", "message/d09.mbe/000_Sheet1.csv", "f_d0902_0030_0240"): {"address"},
+    ("patch_text01", "message/m160.mbe/000_Sheet1.csv", "m160_060_240"): {"address"},
+    ("patch_text01", "text/digitter_message.mbe/000_Sheet1.csv", "hazama_00_130_1"): {"address"},
+    ("addcont_01_text01", "message/dlcep001_field.mbe/000_Sheet1.csv", "dlcep001_0030_0010"): {"translationese"},
+    ("addcont_02_text01", "message/d230.mbe/000_Sheet1.csv", "d230_020_140"): {"translationese"},
+    ("addcont_03_text01", "message/d320.mbe/000_Sheet1.csv", "d320_040_070"): {"translationese"},
+    ("addcont_03_text01", "message/d320.mbe/000_Sheet1.csv", "d320_040_200"): {"translationese"},
+    ("patch_text01", "message/digimon_chat.mbe/000_Sheet1.csv", "migao_001_4_reaction_char_MIRAGEGAOGAMON"): {"translationese"},
+    ("patch_text01", "message/field_text.mbe/000_Sheet1.csv", "dummy_dlc010_0315"): {"translationese"},
+    ("patch_text01", "message/s030_183.mbe/000_Sheet1.csv", "s030_183_250"): {"translationese"},
+    ("patch_text01", "message/s110_101.mbe/000_Sheet1.csv", "s110_101_660"): {"translationese"},
+    ("patch_text01", "text/digitter_message.mbe/000_Sheet1.csv", "main_290_060_010"): {"translationese"},
+    ("patch_text01", "message/s910_169.mbe/000_Sheet1.csv", "s910_169_560"): {"repetition"},
+}
+
 
 @dataclass
 class Entry:
@@ -631,6 +652,13 @@ def audit_entries(entries: list[Entry]) -> list[dict[str, str | int]]:
         apply_repetition_rules(entry)
         apply_latin_rules(entry)
         apply_length_divergence(entry)
+        suppressed = REVIEWED_FALSE_POSITIVE_CATEGORIES.get(
+            (entry.package, entry.relative, entry.key), set()
+        )
+        if suppressed:
+            entry.issues[:] = [
+                issue for issue in entry.issues if issue.category not in suppressed
+            ]
         score = score_entry(entry)
         if score < 44:
             continue

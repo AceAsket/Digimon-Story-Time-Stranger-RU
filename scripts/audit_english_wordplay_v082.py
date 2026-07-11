@@ -85,6 +85,20 @@ def registry() -> dict[tuple[str, str, str], str]:
     result[("patch_text01", "message/m030.mbe/000_Sheet1.csv", "m030_010_090")] = (
         "Minervamon: gubmint"
     )
+    for row_id in (
+        "f_d0701_0070_0060", "f_d0701_0080_0060", "f_d0701_0090_0060",
+        "f_d0701_0100_0060", "f_d0701_0110_0060", "f_d0701_0120_0060",
+        "f_d0703_0140_0060", "f_d0703_0150_0060", "f_d0703_0160_0060",
+        "f_d0703_0170_0060", "f_d0703_0180_0060", "f_d0703_0190_0060",
+        "f_d0703_0200_0060", "f_d0703_0210_0060", "f_d0703_0220_0060",
+        "f_d0703_0230_0060", "f_d0703_0240_0060", "f_d0703_0250_0060",
+    ):
+        result[("patch_text01", "message/d07.mbe/000_Sheet1.csv", row_id)] = (
+            "Digi Beetle/parked vehicle gag"
+        )
+    result[("patch_text01", "message/d09.mbe/000_Sheet1.csv", "f_d0901_0120_0080")] = (
+        "Gekomon: gag/retch"
+    )
     return result
 
 
@@ -157,8 +171,10 @@ def main() -> None:
     ]
     descriptions = {
         "Bite idiom/literal bite": "«аукнется — укусит» / «обернулся — и укусил»",
+        "Digi Beetle/parked vehicle gag": "«не здесь припарковал свой Диги-жук»",
         "EDEN/Edion/oden": "«ЭДЕМ / Эдион / Эдем — едим»",
         "Horse idiom/pun": "«валять коня»",
+        "Gekomon: gag/retch": "банальность буквально вызывает рвотный позыв",
         "Lilamon proverb contrast": "«цветок и яд» против «розы и шипов»",
         "Minervamon: gubmint": "намеренное «правитмственное здание»",
         "Nanimon/Nannymon": "«Нанимон / Нянимон / нянчить»",

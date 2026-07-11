@@ -76,18 +76,18 @@ d14.mbe/000_Sheet1.csv,f_d1405_0040_0040,char_OPERATOR_M,operator,f_d1405_0040_0
 того, как Дигимоны набираются боевого опыта, они претерпевают изменения."
 d14.mbe/000_Sheet1.csv,f_d1405_0040_0050,char_OPERATOR_M,operator,f_d1405_0040_0050_M,f_d1405_0040_0050_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Возможно, у тебя уже есть несколько дигимонов, готовых
 к эволюции. Проверь свой Дигивайс и посмотри."
-d14.mbe/000_Sheet1.csv,f_d1407_0050_0010,char_OPERATOR_M,operator,f_d1407_0050_0010_M,f_d1407_0050_0010_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Невозможно предсказать, что ждёт тебя впереди. Подготовься к худшему
-и не забудь про {fc9Конвертацию} и {fc9эволюцию}."
+d14.mbe/000_Sheet1.csv,f_d1407_0050_0010,char_OPERATOR_M,operator,f_d1407_0050_0010_M,f_d1407_0050_0010_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Нельзя предсказать, что ждёт тебя впереди. Готовься к худшему
+и не забывай о {fc9Конвертации} и {fc9эволюции}."
 d14.mbe/000_Sheet1.csv,f_d1407_0050_0020,char_OPERATOR_M,operator,f_d1407_0050_0020_M,f_d1407_0050_0020_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Эти функции основаны на теориях, данных нам доктором Юки. Его
 изобретения внесли большой вклад в развитие общества."
 d14.mbe/000_Sheet1.csv,f_d1407_0050_0030,char_OPERATOR_M,operator,f_d1407_0050_0030_M,f_d1407_0050_0030_F,char_OPERATOR_F,char_OPERATOR_M,прав,,,"Но о нём мало кто знает: он редко появлялся на публике
 и отказался от всех прав на свои разработки..."
 d14.mbe/000_Sheet1.csv,f_d1407_0050_0040,char_OPERATOR_M,operator,f_d1407_0050_0040_M,f_d1407_0050_0040_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Он вложил свои личные средства в создание АДАМАСА, чтобы
 защитить человечество от угрозы аномалий."
-d14.mbe/000_Sheet1.csv,f_d1407_0050_0050,char_OPERATOR_M,operator,f_d1407_0050_0050_M,f_d1407_0050_0050_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Никто не способен продолжить его дело лучше тебя — того, кто носит его имя.
+d14.mbe/000_Sheet1.csv,f_d1407_0050_0050,char_OPERATOR_M,operator,f_d1407_0050_0050_M,f_d1407_0050_0050_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Ты носишь его имя, и никто лучше тебя не продолжит его дело.
 В совершенстве овладей {fc9Конвертацией} и {fc9эволюцией}!"
-field_text.mbe/000_Sheet1.csv,g_tutorial_1000_0010,char_OPERATOR_M,operator,g_tutorial_1000_0010_M,g_tutorial_1000_0010_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Устранение большего количества одинаковых Дигимонов улучшит их
-анализ и повысит прогресс сканирования, необходимый для преобразования."
+field_text.mbe/000_Sheet1.csv,g_tutorial_1000_0010,char_OPERATOR_M,operator,g_tutorial_1000_0010_M,g_tutorial_1000_0010_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Побеждая Дигимонов одного вида, ты повышаешь
+уровень анализа и прогресс сканирования для Конвертации."
 field_text.mbe/000_Sheet1.csv,g_tutorial_1000_0020,char_OPERATOR_M,operator,g_tutorial_1000_0020_M,g_tutorial_1000_0020_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Как только прогресс сканирования достигнет 100%, ты сможешь
 конвертировать эти файлы в дигимона и добавить его в свой отряд."
 field_text.mbe/000_Sheet1.csv,g_tutorial_1000_0030,char_OPERATOR_M,operator,g_tutorial_1000_0030_M,g_tutorial_1000_0030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Чем ближе прогресс сканирования к 200%, тем мощнее будет новый
@@ -263,8 +263,8 @@ m050.mbe/000_Sheet1.csv,m050_010_280,char_OPERATOR_M,operator,m050_010_280_M,m05
 агент {player}."
 m050.mbe/000_Sheet1.csv,m050_030_260,char_OPERATOR_M,operator,m050_030_260_M,m050_030_260_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Похоже, эта девушка не помнит, как встретила тебя в здании
 столичного правительства Токио."
-m050.mbe/000_Sheet1.csv,m050_030_270,char_OPERATOR_M,operator,m050_030_270_M,m050_030_270_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Но, полагаю, этого следовало ожидать. Наш анализ показывает, что тебя
-каким-то образом отправило назад во времени на восемь лет."
+m050.mbe/000_Sheet1.csv,m050_030_270,char_OPERATOR_M,operator,m050_030_270_M,m050_030_270_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Но, полагаю, этого следовало ожидать.
+Судя по анализу, тебя перенесло на восемь лет в прошлое."
 m050.mbe/000_Sheet1.csv,m050_030_280,char_OPERATOR_M,operator,m050_030_280_M,m050_030_280_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Данные с твоего цифрового устройства удалось совместить
 с информацией о местоположении восьмилетней давности..."
 m050.mbe/000_Sheet1.csv,m050_030_290,char_OPERATOR_M,operator,m050_030_290_M,m050_030_290_F,char_OPERATOR_F,char_OPERATOR_M,,,,"...так получилась самодельная система определения координат.
@@ -280,8 +280,8 @@ m050.mbe/000_Sheet1.csv,m050_040_020,char_OPERATOR_M,operator,m050_040_020_M,m05
 что и тебя перенесло во времени."
 m050.mbe/000_Sheet1.csv,m050_040_030,char_OPERATOR_M,operator,m050_040_030_M,m050_040_030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Мы не хотим влиять на прошлое.
 Невозможно предугадать, что произойдет."
-m050.mbe/000_Sheet1.csv,m050_040_050,char_OPERATOR_M,operator,m050_040_050_M,m050_040_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Собственные исследования АДАМАСА в области путешествий во времени
-были приостановлены после серии несчастных случаев на ранних стадиях…"
+m050.mbe/000_Sheet1.csv,m050_040_050,char_OPERATOR_M,operator,m050_040_050_M,m050_040_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Исследования АДАМАСА в области путешествий во времени
+приостановили после череды инцидентов на раннем этапе..."
 m050.mbe/000_Sheet1.csv,m050_040_060,char_OPERATOR_M,operator,m050_040_060_M,m050_040_060_F,char_OPERATOR_F,char_OPERATOR_M,был,,yes,"Твой приёмный отец, доктор Юки, был вовлечён в один
 из таких инцидентов и—"
 m050.mbe/000_Sheet1.csv,m050_040_070,char_OPERATOR_M,operator,m050_040_070_M,m050_040_070_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Нет, прости. Не стоило упоминать об этом. Просто
@@ -298,8 +298,8 @@ m050.mbe/000_Sheet1.csv,m050_060_070,char_OPERATOR_M,operator,m050_060_070_M,m05
 опустошая один за другим крупные города по всему миру."
 m050.mbe/000_Sheet1.csv,m050_060_080,char_OPERATOR_M,operator,m050_060_080_M,m050_060_080_F,char_OPERATOR_F,char_OPERATOR_M,была,,,"Катастрофа, вызвавшая это глобальное бедствие, была
 названа ""Адом Синдзюку""."
-m050.mbe/000_Sheet1.csv,m050_060_110,char_OPERATOR_M,operator,m050_060_110_M,m050_060_110_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Наша единственная надежда теперь на тебя, раз уж тебя забросило в
-прошлое. Возможно, ты сумеешь предотвратить нашу надвигающуюся гибель."
+m050.mbe/000_Sheet1.csv,m050_060_110,char_OPERATOR_M,operator,m050_060_110_M,m050_060_110_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Раз тебя забросило в прошлое, вся надежда на тебя.
+Возможно, тебе удастся предотвратить нашу гибель."
 m050.mbe/000_Sheet1.csv,m050_060_130,char_OPERATOR_M,operator,m050_060_130_M,m050_060_130_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"У меня, конечно, нет доказательств. Никто раньше не пытался
 переписать прошлое. Нам остаётся только верить в тебя."
 m050.mbe/000_Sheet1.csv,m050_060_140,char_OPERATOR_M,operator,m050_060_140_M,m050_060_140_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Мне нужны сведения об этом Аде в Синдзюку,
@@ -340,8 +340,8 @@ m070.mbe/000_Sheet1.csv,m070_100_090,char_OPERATOR_M,operator,m070_100_090_M,m07
 m070.mbe/000_Sheet1.csv,m070_100_100,char_OPERATOR_M,operator,m070_100_100_M,m070_100_100_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Ожидаю, что ты приложишь все усилия, чтобы выяснить о них всё,
 что сможешь. Не упусти ни единой детали. Я рассчитываю на тебя."
 m090.mbe/000_Sheet1.csv,m090_010_010,char_OPERATOR_M,operator,m090_010_010_M,m090_010_010_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Похоже, тебе не удалось выспаться, агент {player}?"
-m090.mbe/000_Sheet1.csv,m090_010_020,char_OPERATOR_M,operator,m090_010_020_M,m090_010_020_F,char_OPERATOR_F,char_OPERATOR_M,сказала,,yes,"Боюсь, это случайно попало на канал связи... Тебя задело то, что сказала
-Инори Мисоно?"
+m090.mbe/000_Sheet1.csv,m090_010_020,char_OPERATOR_M,operator,m090_010_020_M,m090_010_020_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Прости, мне невольно довелось всё услышать...
+Тебя задели слова Инори Мисоно?"
 m090.mbe/000_Sheet1.csv,m090_010_040,char_OPERATOR_M,operator,m090_010_040_M,m090_010_040_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,"Я спрашиваю, потому что у тебя, похоже, не получилось пройти через
 дверь на крышу… В любом случае, похоже, она потеряла семью."
 m090.mbe/000_Sheet1.csv,m090_010_050,char_OPERATOR_M,operator,m090_010_050_M,m090_010_050_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Естественно, что ты бы понял её. Ведь ты... тоже потерял
@@ -362,8 +362,8 @@ m120.mbe/000_Sheet1.csv,m120_040_010,char_OPERATOR_M,operator,m120_040_010_M,m12
 Ты в мире дигимонов? Я правильно понимаю?"
 m120.mbe/000_Sheet1.csv,m120_040_040,char_OPERATOR_M,operator,m120_040_040_M,m120_040_040_F,char_OPERATOR_F,char_OPERATOR_M,,yes,,"Если так... это удивительно! Потрясающе! Абсолютно
 фантастически! Что ещё я могу сказать?"
-m120.mbe/000_Sheet1.csv,m120_040_080,char_OPERATOR_M,operator,m120_040_080_M,m120_040_080_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Происхождение большинства аномалий неизвестно... Но некоторые начинают
-иметь смысл, если принять во внимание альтернативные миры и измерения."
+m120.mbe/000_Sheet1.csv,m120_040_080,char_OPERATOR_M,operator,m120_040_080_M,m120_040_080_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Происхождение большинства аномалий неизвестно...
+Но часть из них можно объяснить иными мирами и измерениями."
 m120.mbe/000_Sheet1.csv,m120_040_090,char_OPERATOR_M,operator,m120_040_090_M,m120_040_090_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Заблудиться в фантастическом мире, встретить нереальных
 существ... Прямо как в истории об Алисе."
 m120.mbe/000_Sheet1.csv,m120_040_110,char_OPERATOR_M,operator,m120_040_110_M,m120_040_110_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Одно это открытие гарантирует тебе повышение в АДАМАСЕ. Если,
@@ -396,8 +396,8 @@ m120.mbe/000_Sheet1.csv,m120_100_030,char_OPERATOR_M,operator,m120_100_030_M,m12
 базе АДАМАСА о неопознанных мистических животных."
 m120.mbe/000_Sheet1.csv,m120_100_040,char_OPERATOR_M,operator,m120_100_040_M,m120_100_040_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Это означает, что Дигимоны в том мире, по всей вероятности,
 тесно связаны с криптидами."
-m120.mbe/000_Sheet1.csv,m120_100_050,char_OPERATOR_M,operator,m120_100_050_M,m120_100_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Хотя это всё ещё рабочая теория, мы теперь считаем, что большинство
-аномалий, с которыми мы имели дело, происходят от Дигимонов..."
+m120.mbe/000_Sheet1.csv,m120_100_050,char_OPERATOR_M,operator,m120_100_050_M,m120_100_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Пока это лишь рабочая теория, но мы считаем, что большинство
+аномалий вызвано дигимонами..."
 m120.mbe/000_Sheet1.csv,m120_100_060,char_OPERATOR_M,operator,m120_100_060_M,m120_100_060_F,char_OPERATOR_F,char_OPERATOR_M,,,,...и что Дигимоны также связаны с Адом Синдзюку.
 m120.mbe/000_Sheet1.csv,m120_100_070,char_OPERATOR_M,operator,m120_100_070_M,m120_100_070_F,char_OPERATOR_F,char_OPERATOR_M,,,,Но для уверенности данных нужно больше. Собирай всё возможное.
 m130.mbe/000_Sheet1.csv,m130_100_150,char_OPERATOR_M,operator,m130_100_150_M,m130_100_150_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Титаны, говоришь...? Похоже, дигимоны воюют между собой."
@@ -467,8 +467,8 @@ m210.mbe/000_Sheet1.csv,m210_030_110,char_OPERATOR_M,operator,m210_030_110_M,m21
 m210.mbe/000_Sheet1.csv,m210_050_010,char_OPERATOR_M,operator,m210_050_010_M,m210_050_010_F,char_OPERATOR_F,char_OPERATOR_M,,,,Будь начеку.
 m210.mbe/000_Sheet1.csv,m210_050_020,char_OPERATOR_M,operator,m210_050_020_M,m210_050_020_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Судя по показаниям твоего Дигивайса, вероятно, происходит
 чрезвычайно маломасштабное пространственно-временное возмущение."
-m210.mbe/000_Sheet1.csv,m210_050_030,char_OPERATOR_M,operator,m210_050_030_M,m210_050_030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"То самое пространственно-временное возмущение, которое вызвало
-аномалию, стёршую Др. Юки, твоего приёмного отца, из существования."
+m210.mbe/000_Sheet1.csv,m210_050_030,char_OPERATOR_M,operator,m210_050_030_M,m210_050_030_F,char_OPERATOR_F,char_OPERATOR_M,,,,"То самое возмущение породило аномалию,
+стеревшую из реальности твоего приёмного отца, доктора Юки."
 m210.mbe/000_Sheet1.csv,m210_050_040,char_OPERATOR_M,operator,m210_050_040_M,m210_050_040_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Что касается причины... Скорее всего, это яростный конфликт
 между фазово-электронными формами жизни — дигимонами."
 m210.mbe/000_Sheet1.csv,m210_050_050,char_OPERATOR_M,operator,m210_050_050_M,m210_050_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"О таких явлениях почти ничего не известно. Можно лишь предположить,
@@ -524,8 +524,8 @@ m300.mbe/000_Sheet1.csv,m300_130_170,char_OPERATOR_M,operator,m300_130_170_M,m30
 m300.mbe/000_Sheet1.csv,m300_130_180,char_OPERATOR_M,operator,m300_130_180_M,m300_130_180_F,char_OPERATOR_F,char_OPERATOR_M,,,,Это опасно... Слишком опасно.
 m300.mbe/000_Sheet1.csv,m300_130_190,char_OPERATOR_M,operator,m300_130_190_M,m300_130_190_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Если бы кто-то с богоподобными способностями действовал по
 личным прихотям..."
-m300.mbe/000_Sheet1.csv,m300_130_200,char_OPERATOR_M,operator,m300_130_200_M,m300_130_200_F,char_OPERATOR_F,char_OPERATOR_M,,,,"...мир, каким мы его знаем, перестал бы существовать. История
-стала бы запутанной и хаотичной без возможности восстановления...!"
+m300.mbe/000_Sheet1.csv,m300_130_200,char_OPERATOR_M,operator,m300_130_200_M,m300_130_200_F,char_OPERATOR_F,char_OPERATOR_M,,,,"...мир, каким мы его знаем, перестал бы существовать.
+История погрузилась бы в непоправимый хаос...!"
 m300.mbe/000_Sheet1.csv,m300_130_210,char_OPERATOR_M,operator,m300_130_210_M,m300_130_210_F,char_OPERATOR_F,char_OPERATOR_M,,,,"То, что сказали Титаны об Эгиомоне, было бы недалеко от истины.
 Он стал бы воплощением демона..."
 m300.mbe/000_Sheet1.csv,m300_010_060__H,char_OPERATOR_M,operator,m300_010_060_M,m300_010_060_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Но ты, как никто другой, наверняка не забыла..."
@@ -533,8 +533,8 @@ m300.mbe/000_Sheet1.csv,m300_010_060__F,char_OPERATOR_M,operator,m300_010_060_M,
 m320.mbe/000_Sheet1.csv,m320_080_270,char_OPERATOR_M,operator,m320_080_270_M,m320_080_270_F,char_OPERATOR_F,char_OPERATOR_M,,,,"""Полный контроль"" над манипуляцией временем... Эгиомон говорит
 об этом так просто..."
 m320.mbe/000_Sheet1.csv,m320_080_280,char_OPERATOR_M,operator,m320_080_280_M,m320_080_280_F,char_OPERATOR_F,char_OPERATOR_M,была,,,"...и всё это, не зная, насколько ужасающей была бы такая сила."
-m320.mbe/000_Sheet1.csv,m320_080_290,char_OPERATOR_M,operator,m320_080_290_M,m320_080_290_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Мы не можем быть уверены, что они не вызывают коллапс. Слишком многое,
-что противоречит логике, произошло с тех пор, как мы встретили этих двоих."
+m320.mbe/000_Sheet1.csv,m320_080_290,char_OPERATOR_M,operator,m320_080_290_M,m320_080_290_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Нельзя исключать, что именно они вызывают коллапс.
+После встречи с этими двумя случилось слишком много странного."
 m320.mbe/000_Sheet1.csv,m320_080_300,char_OPERATOR_M,operator,m320_080_300_M,m320_080_300_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Возможно, слишком опасно игнорировать это дальше... Скоро нам
 придётся принять решение!"
 m340.mbe/000_Sheet1.csv,m340_020_100,char_OPERATOR_M,operator,m340_020_100_M,m340_020_100_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Разве ты не узнаёшь того Дигимона? Как будто мы переживаем
@@ -550,8 +550,8 @@ m340.mbe/000_Sheet1.csv,m340_020_160,char_OPERATOR_M,operator,m340_020_160_M,m34
 судьба мира?"
 m340.mbe/000_Sheet1.csv,m340_020_170,char_OPERATOR_M,operator,m340_020_170_M,m340_020_170_F,char_OPERATOR_F,char_OPERATOR_M,,,,...
 m340.mbe/000_Sheet1.csv,m340_020_180,char_OPERATOR_M,operator,m340_020_180_M,m340_020_180_F,char_OPERATOR_F,char_OPERATOR_M,,,,"...О, боже."
-m340.mbe/000_Sheet1.csv,m340_020_190,char_OPERATOR_M,operator,m340_020_190_M,m340_020_190_F,char_OPERATOR_F,char_OPERATOR_M,,yes,,"Что ж, если агент на месте отказывается действовать, со своей стороны
-я мало что могу сделать."
+m340.mbe/000_Sheet1.csv,m340_020_190,char_OPERATOR_M,operator,m340_020_190_M,m340_020_190_F,char_OPERATOR_F,char_OPERATOR_M,,yes,,"Что ж, если мой агент на месте отказывается действовать,
+я мало что могу сделать со своей стороны."
 m340.mbe/000_Sheet1.csv,m340_020_200,char_OPERATOR_M,operator,m340_020_200_M,m340_020_200_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Было ясно, что ты не подчинишься этому приказу. В конце
 концов..."
 m340.mbe/000_Sheet1.csv,m340_020_210,char_OPERATOR_M,operator,m340_020_210_M,m340_020_210_F,char_OPERATOR_F,char_OPERATOR_M,,yes,yes,...я знаю тебя уже довольно давно.
@@ -577,8 +577,8 @@ m340.mbe/000_Sheet1.csv,m340_030_030,char_OPERATOR_M,operator,m340_030_030_M,m34
 существования."
 m340.mbe/000_Sheet1.csv,m340_030_040,char_OPERATOR_M,operator,m340_030_040_M,m340_030_040_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Ад вызывает череду таких возмущений по всей планете, и они ведут
 прямо к концу света."
-m340.mbe/000_Sheet1.csv,m340_030_050,char_OPERATOR_M,operator,m340_030_050_M,m340_030_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Пространственно-временные возмущения — постоянная угроза здесь, в
-моей временной линии. Попадёшь в одно — и никогда не вернёшься домой."
+m340.mbe/000_Sheet1.csv,m340_030_050,char_OPERATOR_M,operator,m340_030_050_M,m340_030_050_F,char_OPERATOR_F,char_OPERATOR_M,,,,"В моей временной линии пространственно-временные возмущения
+возникают постоянно. Попадёшь в одно — домой не вернёшься."
 m340.mbe/000_Sheet1.csv,m340_030_110,char_OPERATOR_M,operator,m340_030_110_M,m340_030_110_F,char_OPERATOR_F,char_OPERATOR_M,,yes,,"Это плохо...! Я уже обнаруживаю пространственно-временное
 возмущение!"
 m340.mbe/000_Sheet1.csv,m340_020_160__H,char_OPERATOR_M,operator,m340_020_160_M,m340_020_160_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Ты хоть понимаешь, что говоришь? Ты забыла, что на кону стоит
@@ -677,8 +677,8 @@ m420.mbe/000_Sheet1.csv,m420_080_070__H,char_OPERATOR_M,operator,m420_080_070_M,
 изначально родилась от него."
 m420.mbe/000_Sheet1.csv,m420_080_070__F,char_OPERATOR_M,operator,m420_080_070_M,m420_080_070_F,char_OPERATOR_F,char_OPERATOR_M,,,yes,"Причина, по которой тебя принимают за Эгиомона, в том, что ты
 изначально родился от него."
-t03.mbe/000_Sheet1.csv,f_t0302_0130_0010,char_OPERATOR_M,operator,f_t0302_0130_0010_M,f_t0302_0130_0010_F,char_OPERATOR_F,char_OPERATOR_M,должна,,,"Учёная, работающая на общественную безопасность, да? Если она
-чего-то достигла, должна быть какая-то публичная информация о ней."
+t03.mbe/000_Sheet1.csv,f_t0302_0130_0010,char_OPERATOR_M,operator,f_t0302_0130_0010_M,f_t0302_0130_0010_F,char_OPERATOR_F,char_OPERATOR_M,,,,"Учёная из службы общественной безопасности, значит?
+Если она видный специалист, о ней должны быть открытые сведения."
 t03.mbe/000_Sheet1.csv,f_t0302_0130_0020,char_OPERATOR_M,operator,f_t0302_0130_0020_M,f_t0302_0130_0020_F,char_OPERATOR_F,char_OPERATOR_M,,yes,,"Я посмотрю, что смогу о ней выяснить. Свяжусь с тобой, как
 только что-нибудь узнаю, так что жди."
 t04.mbe/000_Sheet1.csv,f_t0404_0240_0010,char_OPERATOR_M,operator,f_t0404_0240_0010_M,f_t0404_0240_0010_F,char_OPERATOR_F,char_OPERATOR_M,,,,"В систему добавлена функция, усиливающая синергию

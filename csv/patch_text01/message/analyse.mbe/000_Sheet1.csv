@@ -14,7 +14,7 @@ analyse_search_important,char_DIGIVICE,Неподалеку находится �
 analyse_search_treasure,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
 analyse_search_hazamabox,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
 analyse_search_kirakira,char_DIGIVICE,Неподалеку находится сундук с сокровищами.,
-analyse_search_theater,char_DIGIVICE,Неподалеку был обнаружен Промежуточный кинотеатр.,
+analyse_search_theater,char_DIGIVICE,Неподалеку был обнаружен Промежуточный театр.,
 analyse_search_dungeon,char_DIGIVICE,Неподалеку было обнаружено Внешнее подземелье.,
 analyse_search_destination,char_DIGIVICE,Цель находится поблизости.,
 analyse_search_target,char_DIGIVICE,Цель находится поблизости.,

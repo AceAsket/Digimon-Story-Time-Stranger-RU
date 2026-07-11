@@ -17,11 +17,11 @@ patch_text01,message/s020_173.mbe/000_Sheet1.csv,char_MARINEANGEMON,Марина
 patch_text01,message/s110_092.mbe/000_Sheet1.csv,char_CRANIAMON,Краниуммон,49,male,5,0,unknown,0,0,
 patch_text01,message/m090.mbe/000_Sheet1.csv,char_MINERVAMON,Минервамон,49,female,0,3,unknown,0,0,
 patch_text01,message/battle.mbe/000_Sheet1.csv,char_CHRONOMON_BOSS_EVENT,Хрономон,47,male,3,0,unknown,0,0,
-patch_text01,message/d03.mbe/000_Sheet1.csv,char_KAMEMON,Камемон,47,male,5,0,male,1,0,"The Coral Fragments haven't arrived yet. I asked Kamemon to get me some, but he still hasn't come back."
+patch_text01,message/d03.mbe/000_Sheet1.csv,char_KAMEMON,Камемон,47,male,4,0,male,1,0,"The Coral Fragments haven't arrived yet. I asked Kamemon to get me some, but he still hasn't come back."
 patch_text01,message/s040_160.mbe/000_Sheet1.csv,char_MARSMON,Марсмон,47,male,5,0,unknown,0,0,
-patch_text01,message/d09.mbe/000_Sheet1.csv,char_VENUSMON,Венусмон,47,unknown,0,0,female,0,1,"It's all thanks to Lady Venusmon. I may not be completely cured, but she never gave up and continued to treat me."
+patch_text01,message/d09.mbe/000_Sheet1.csv,char_VENUSMON,Венусмон,47,female,0,1,female,0,1,"It's all thanks to Lady Venusmon. I may not be completely cured, but she never gave up and continued to treat me."
 patch_text01,message/m150.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,45,unknown,0,0,unknown,0,0,
-patch_text01,message/s110_108.mbe/000_Sheet1.csv,char_EXAMON,Эксамон,45,male,12,0,unknown,0,0,
+patch_text01,message/s110_108.mbe/000_Sheet1.csv,char_EXAMON,Эксамон,45,male,11,0,unknown,0,0,
 patch_text01,message/d09.mbe/000_Sheet1.csv,char_VULCANUSMON,Вулканусмон,43,male,2,0,unknown,0,0,
 patch_text01,message/d09.mbe/000_Sheet1.csv,char_BACCHUSMON,Вакхмон,42,male,2,0,male,1,0,"In the meantime, I shall keep an eye on Lord Bacchusmon and make sure he stays awake after all this drinking!"
 patch_text01,message/s110_111.mbe/000_Sheet1.csv,char_GANKOOMON,Гэнкумон,42,male,4,0,unknown,0,0,
@@ -62,14 +62,14 @@ patch_text01,message/m140.mbe/000_Sheet1.csv,char_MINERVAMON,Минервамо�
 patch_text01,message/m180.mbe/000_Sheet1.csv,char_SIRENMON,Сиренмон,32,unknown,0,0,unknown,0,0,
 patch_text01,message/battle.mbe/000_Sheet1.csv,char_AEGIOCHUSMON,Эгиохмон,31,male,2,0,unknown,0,0,
 patch_text01,message/m180.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,30,unknown,0,0,male,1,0,I don't care what path Aegiomon takes! I have to repay him for everything he's done for me!
-patch_text01,message/s080_059.mbe/000_Sheet1.csv,char_BLIMPMON,Блимпмон,30,male,3,0,unknown,0,0,
+patch_text01,message/s080_059.mbe/000_Sheet1.csv,char_BLIMPMON,Блимпмон,30,male,2,0,unknown,0,0,
 patch_text01,message/m440.mbe/000_Sheet1.csv,char_JUPITERMON,Юпитермон,30,male,2,0,unknown,0,0,
 patch_text01,message/m020.mbe/000_Sheet1.csv,char_PIYOMON,Пиёмон,30,male,1,0,unknown,0,0,
 patch_text01,message/m430.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,29,male,2,0,unknown,0,0,
 patch_text01,message/m140.mbe/000_Sheet1.csv,char_MERCURYMON,Меркуримон,29,male,2,0,unknown,0,0,
 patch_text01,message/d04.mbe/000_Sheet1.csv,char_PALMON,Пальмон,29,unknown,0,0,unknown,0,0,
 patch_text01,message/m250.mbe/000_Sheet1.csv,char_RANAMON,Ранамон,29,female,0,1,unknown,0,0,
-patch_text01,message/s050_042.mbe/000_Sheet1.csv,char_SOLARMON,Солармон,29,male,2,0,unknown,0,0,
+patch_text01,message/s050_042.mbe/000_Sheet1.csv,char_SOLARMON,Солармон,29,male,1,0,unknown,0,0,
 patch_text01,message/s110_102.mbe/000_Sheet1.csv,char_ULFORCEVDRAMON,Алфорс Ви-драмон,29,male,5,0,unknown,0,0,
 patch_text01,message/m400.mbe/000_Sheet1.csv,char_APOLLOMON,Аполломон,28,male,4,0,unknown,0,0,
 patch_text01,message/s080_059.mbe/000_Sheet1.csv,char_CORONAMON,Коронамон,28,unknown,0,0,male,2,0,"I got this for Coronamon when he said he wanted to travel, but I'm giving it to you. || Coronamon makes me so mad! I'm gonna sic Minnie on him as soon as he gets back!"
@@ -85,12 +85,12 @@ patch_text01,message/m410.mbe/000_Sheet1.csv,char_MINERVAMON,Минервамо�
 patch_text01,message/s110_102.mbe/000_Sheet1.csv,char_NEPTUNEMON,Нептунмон,27,unknown,0,0,unknown,0,0,
 patch_text01,message/d03.mbe/000_Sheet1.csv,char_SABMARIMON,Субмаримон,27,unknown,0,0,male,1,0,"Submarimon is a bit odd, but he isn't a bad Digimon. Now you'll be able to go against the current."
 patch_text01,message/m300.mbe/000_Sheet1.csv,char_SIRENMON,Сиренмон,27,female,0,1,unknown,0,0,
-patch_text01,message/s200_150.mbe/000_Sheet1.csv,char_WANYAMON,  Ванямон,27,male,1,0,unknown,0,0,
+patch_text01,message/s200_150.mbe/000_Sheet1.csv,char_WANYAMON,Ванямон,27,male,1,0,unknown,0,0,
 patch_text01,message/s010_159.mbe/000_Sheet1.csv,char_ZUBAEAGERMON,Зубаигермон,27,male,1,0,unknown,0,0,
 patch_text01,message/s050_039.mbe/000_Sheet1.csv,char_ZUDOMON,Зудомон,27,male,2,0,unknown,0,0,
 patch_text01,message/m260.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,26,unknown,0,0,unknown,0,0,
 patch_text01,message/s110_093.mbe/000_Sheet1.csv,char_CRANIAMON,Краниуммон,26,male,5,0,unknown,0,0,
-patch_text01,message/s020_019.mbe/000_Sheet1.csv,char_NEPTUNEMON,Нептунмон,26,male,2,0,unknown,0,0,
+patch_text01,message/s020_019.mbe/000_Sheet1.csv,char_NEPTUNEMON,Нептунмон,26,male,1,0,unknown,0,0,
 patch_text01,message/m360.mbe/000_Sheet1.csv,char_PLUTOMON,Плутомон,26,male,1,0,male,3,0,"Forced to abdicate that throne, Plutomon made the underworld his new kingdom, where he would hand down judgement to errant souls... || I gave Plutomon what treatment I could. It was touch and go for a while... but he was able to pull through. || After saving Plutomon's life, he reveals Iliad's true past and the hidden truths within its history."
 patch_text01,message/s030_183.mbe/000_Sheet1.csv,char_SIRENMON,Сиренмон,26,female,0,3,unknown,0,0,
 patch_text01,message/m310.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,25,male,1,0,male,1,0,"Thus, Aegiomon and his human partner are now targets of eradication for ADAMAS."
@@ -116,7 +116,7 @@ patch_text01,message/battle.mbe/000_Sheet1.csv,char_AEGIOCHUSMON_GREEN,Эгио�
 patch_text01,message/battle.mbe/000_Sheet1.csv,char_AEGIOCHUSMON_HOLLY,Эгиохмон: Святой,22,male,2,0,unknown,0,0,
 patch_text01,message/field_text.mbe/000_Sheet1.csv,char_DINOHUMON,Динохьюмон,22,unknown,0,0,unknown,0,0,
 patch_text01,message/s080_059.mbe/000_Sheet1.csv,char_LUNAMON,Лунамон,22,female,0,1,unknown,0,0,
-patch_text01,message/battle.mbe/000_Sheet1.csv,char_MERCURYMON,Меркуримон,22,male,1,0,unknown,0,0,
+patch_text01,message/battle.mbe/000_Sheet1.csv,char_MERCURYMON,Меркуримон,22,male,2,0,unknown,0,0,
 patch_text01,message/s030_031.mbe/000_Sheet1.csv,char_TONOSAMAGEKOMON,Тоносама Гэкомон,22,male,3,0,unknown,0,0,
 patch_text01,message/s080_059.mbe/000_Sheet1.csv,char_VADEMON,Вейдмон,22,unknown,0,0,unknown,0,0,
 patch_text01,message/m340.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,21,unknown,0,0,unknown,0,0,
@@ -133,7 +133,7 @@ patch_text01,message/d01.mbe/000_Sheet1.csv,char_WIZARDMON,Визармон,21,u
 patch_text01,message/s030_029.mbe/000_Sheet1.csv,char_BACCHUSMON,Вакхмон,20,unknown,0,0,unknown,0,0,
 patch_text01,message/field_text.mbe/000_Sheet1.csv,char_GAWAPPAMON,Гаваппамон,20,unknown,0,0,unknown,0,0,
 patch_text01,message/d09.mbe/000_Sheet1.csv,char_MARSMON,Марсмон,20,male,2,0,unknown,0,0,
-patch_text01,message/d02.mbe/000_Sheet1.csv,char_MERCURYMON,Меркуримон,20,male,2,0,male,3,0,"Lord Merukimon must have some kind of plan to stop them, right? I sure hope he does something soon... || Merukimon's the head honcho of this town! You should find him hanging out in the tavern down through that alley! || This is dreadful...! Where's Lord Merukimon?! Please, hurry to his side!"
+patch_text01,message/d02.mbe/000_Sheet1.csv,char_MERCURYMON,Меркуримон,20,male,1,0,male,3,0,"Lord Merukimon must have some kind of plan to stop them, right? I sure hope he does something soon... || Merukimon's the head honcho of this town! You should find him hanging out in the tavern down through that alley! || This is dreadful...! Where's Lord Merukimon?! Please, hurry to his side!"
 patch_text01,message/m130.mbe/000_Sheet1.csv,char_MINERVAMON,Минервамон,20,female,0,1,unknown,0,0,
 patch_text01,message/m170.mbe/000_Sheet1.csv,char_SHARKMON_BOSS,Шаркмон,20,male,1,0,unknown,0,0,
 patch_text01,message/m260.mbe/000_Sheet1.csv,char_VENUSMON,Венусмон,20,unknown,0,0,unknown,0,0,
@@ -161,11 +161,11 @@ patch_text01,message/d09.mbe/000_Sheet1.csv,char_PLUTOMON,Плутомон,18,un
 patch_text01,message/d09.mbe/000_Sheet1.csv,char_SABMARIMON,Субмаримон,18,male,1,0,unknown,0,0,
 patch_text01,message/d03.mbe/000_Sheet1.csv,char_SHELLMON,Шеллмон,18,unknown,0,0,female,0,2,Shellmon's house is on the outskirts of the village. Perhaps she would let her guard down and talk to outsiders like yourselves. || Maybe Shellmon would let her guard down and talk to outsiders like you.
 patch_text01,message/h03.mbe/000_Sheet1.csv,char_VADEMON,Вейдмон,18,unknown,0,0,unknown,0,0,
-patch_text01,message/d12.mbe/000_Sheet1.csv,char_WEREGARURUMON,ВерГарурумон,18,male,3,0,unknown,0,0,
+patch_text01,message/d12.mbe/000_Sheet1.csv,char_WEREGARURUMON,ВерГарурумон,18,male,2,0,unknown,0,0,
 patch_text01,message/m100.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,17,unknown,0,0,unknown,0,0,
 patch_text01,message/s110_090.mbe/000_Sheet1.csv,char_AGUMON,Агумон,17,male,2,0,unknown,0,0,
 patch_text01,message/s110_091.mbe/000_Sheet1.csv,char_AGUMON,Агумон,17,male,3,0,unknown,0,0,
-patch_text01,message/s200_148.mbe/000_Sheet1.csv,char_AGUMON,Агумон,17,male,1,0,unknown,0,0,
+patch_text01,message/s200_148.mbe/000_Sheet1.csv,char_AGUMON,Агумон,17,unknown,0,0,unknown,0,0,
 patch_text01,message/s110_094.mbe/000_Sheet1.csv,char_BAKEMON,Бакэмон,17,male,1,0,unknown,0,0,
 patch_text01,message/m280.mbe/000_Sheet1.csv,char_CALAMARAMON,Каламарамон,17,female,0,2,unknown,0,0,
 patch_text01,message/t01.mbe/000_Sheet1.csv,char_PILEVOLCAMON,ПайлВолкамон,17,male,1,0,unknown,0,0,
@@ -184,7 +184,7 @@ patch_text01,message/d06.mbe/000_Sheet1.csv,char_RANAMON,Ранамон,16,femal
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_RENAMON,Ренамон,16,male,1,0,unknown,0,0,
 patch_text01,message/d09.mbe/000_Sheet1.csv,char_SHAWUJINMON,Шауджинмон,16,male,1,0,unknown,0,0,
 patch_text01,message/d03.mbe/000_Sheet1.csv,char_VENUSMON,Венусмон,16,female,0,1,unknown,0,0,
-patch_text01,message/s110_108.mbe/000_Sheet1.csv,char_VENUSMON,Венусмон,16,female,0,4,unknown,0,0,
+patch_text01,message/s110_108.mbe/000_Sheet1.csv,char_VENUSMON,Венусмон,16,female,0,3,unknown,0,0,
 patch_text01,message/d03.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,15,male,2,0,unknown,0,0,
 patch_text01,message/m070.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,15,male,2,0,unknown,0,0,
 patch_text01,message/m280.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,15,unknown,0,0,unknown,0,0,
@@ -200,7 +200,7 @@ patch_text01,message/m150.mbe/000_Sheet1.csv,char_VADEMON,Вейдмон,15,unkn
 patch_text01,message/d12.mbe/000_Sheet1.csv,char_VENUSMON,Венусмон,15,female,0,1,unknown,0,0,
 patch_text01,message/m390.mbe/000_Sheet1.csv,char_VULCANUSMON,Вулканусмон,15,unknown,0,0,male,4,0,"When Vulcanusmon finally got to visit, he connected with humans, exchanged knowledge and friendship with them, and truly enjoyed his time there. || However, that joy ended up being short-lived. Tragedy befell Vulcanusmon, as he found himself captured by humans with villainous intent. || Not only was Vulcanusmon used as a test subject, but in a true display of horror, his body was assimilated into the weapon."
 patch_text01,message/m300.mbe/000_Sheet1.csv,char_WITCHMON,Витчмон,15,female,0,1,unknown,0,0,
-patch_text01,message/m390.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,14,male,3,0,male,1,0,"Aegiomon was the demon created by Chronomon, the surrogate meant to inherit his power to tamper with time."
+patch_text01,message/m390.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,14,male,4,0,male,1,0,"Aegiomon was the demon created by Chronomon, the surrogate meant to inherit his power to tamper with time."
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_BAKUMON,Бакумон,14,male,1,0,unknown,0,0,
 patch_text01,message/m150.mbe/000_Sheet1.csv,char_BLIMPMON,Блимпмон,14,unknown,0,0,unknown,0,0,
 patch_text01,message/battle.mbe/000_Sheet1.csv,char_DIANAMON,Дианамон,14,unknown,0,0,unknown,0,0,
@@ -218,7 +218,7 @@ patch_text01,message/battle.mbe/000_Sheet1.csv,char_BACCHUSMON,Вакхмон,13
 patch_text01,message/d04.mbe/000_Sheet1.csv,char_BACCHUSMON,Вакхмон,13,unknown,0,0,male,2,0,It seems Bacchusmon is in a good mood. He probably wouldn't let you get away very easily. || Perhaps you may be able to do something about this situation. Bacchusmon is just ahead. Could you please talk to him?
 patch_text01,message/s070_167.mbe/000_Sheet1.csv,char_BEELZEBUMON,Вельзевумон,13,unknown,0,0,male,1,0,The issue isn't that simple. Defeating Beelzemon as he is now won't solve anything.
 addcont_03_text01,message/d340.mbe/000_Sheet1.csv,char_DORUMON,Дорумон,13,male,3,0,unknown,0,0,
-patch_text01,message/d02.mbe/000_Sheet1.csv,char_EX-TYRANOMON,Экс-Тираномон,13,male,1,0,unknown,0,0,
+patch_text01,message/d02.mbe/000_Sheet1.csv,char_EX-TYRANOMON,Экс-Тираномон,13,unknown,0,0,unknown,0,0,
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_FALCOMON,Фалькомон,13,male,1,0,unknown,0,0,
 patch_text01,message/d04.mbe/000_Sheet1.csv,char_GRIFFOMON,Гриффомон,13,male,2,0,unknown,0,0,
 patch_text01,message/m150.mbe/000_Sheet1.csv,char_GUARDROMON,Гардромон,13,male,1,0,unknown,0,0,
@@ -269,9 +269,9 @@ patch_text01,message/battle.mbe/000_Sheet1.csv,char_NEPTUNEMON,Нептунмо�
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_PANDAMON,Пандамон,11,unknown,0,0,unknown,0,0,
 patch_text01,message/battle.mbe/000_Sheet1.csv,char_PLUTOMON,Плутомон,11,unknown,0,0,unknown,0,0,
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_REPPAMON,Реппамон,11,unknown,0,0,unknown,0,0,
-patch_text01,message/d09.mbe/000_Sheet1.csv,char_ROSEMON,Роузмон,11,unknown,0,0,unknown,0,0,
+patch_text01,message/d09.mbe/000_Sheet1.csv,char_ROSEMON,Роузмон,11,female,0,1,unknown,0,0,
 patch_text01,message/d03.mbe/000_Sheet1.csv,char_SHAKOMON,Сякомон,11,unknown,0,0,unknown,0,0,
-patch_text01,message/d05.mbe/000_Sheet1.csv,char_SOLARMON,Солармон,11,male,1,0,unknown,0,0,
+patch_text01,message/d05.mbe/000_Sheet1.csv,char_SOLARMON,Солармон,11,unknown,0,0,unknown,0,0,
 patch_text01,message/d04.mbe/000_Sheet1.csv,char_SUNFLOWMON,Санфлаумон,11,female,0,1,unknown,0,0,
 patch_text01,message/m240.mbe/000_Sheet1.csv,char_WEREGARURUMON,ВерГарурумон,11,unknown,0,0,unknown,0,0,
 patch_text01,message/d11.mbe/000_Sheet1.csv,char_AEGIOCHUSMON,Эгиохмон,10,unknown,0,0,unknown,0,0,
@@ -290,7 +290,7 @@ patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,char_MUCHOMON,Мучомон,1
 patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,char_OCTMON,Октомон,10,unknown,0,0,unknown,0,0,
 patch_text01,message/m180.mbe/000_Sheet1.csv,char_PALMON,Пальмон,10,female,0,2,unknown,0,0,
 patch_text01,message/d09.mbe/000_Sheet1.csv,char_PICKLEMON,Пикмон,10,unknown,0,0,unknown,0,0,
-patch_text01,message/d09.mbe/000_Sheet1.csv,char_PIYOMON,Пиёмон,10,male,2,0,unknown,0,0,
+patch_text01,message/d09.mbe/000_Sheet1.csv,char_PIYOMON,Пиёмон,10,male,1,0,unknown,0,0,
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_PUNIMON,Пунимон,10,unknown,0,0,unknown,0,0,
 patch_text01,message/d12.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,9,unknown,0,0,unknown,0,0,
 patch_text01,message/m130.mbe/000_Sheet1.csv,char_AEGIOMON,Эгиомон,9,unknown,0,0,unknown,0,0,
@@ -422,7 +422,7 @@ patch_text01,message/s110_211.mbe/000_Sheet1.csv,char_JESMON,Джесмон,6,ma
 patch_text01,message/d12.mbe/000_Sheet1.csv,char_KNIGHTMON,Найтмон,6,male,1,0,unknown,0,0,
 patch_text01,message/s090_072.mbe/000_Sheet1.csv,char_LALAMON,Лаламон,6,unknown,0,0,unknown,0,0,
 patch_text01,message/d04.mbe/000_Sheet1.csv,char_LEOMON,Леомон,6,male,1,0,unknown,0,0,
-patch_text01,message/t01.mbe/000_Sheet1.csv,char_LOCOMON,Локомон,6,male,2,0,unknown,0,0,
+patch_text01,message/t01.mbe/000_Sheet1.csv,char_LOCOMON,Локомон,6,male,1,0,unknown,0,0,
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_LUNAMON,Лунамон,6,unknown,0,0,unknown,0,0,
 patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,char_METALMAMEMON,Металл Мамемон,6,unknown,0,0,unknown,0,0,
 patch_text01,message/d03.mbe/000_Sheet1.csv,char_METALSEADRAMON,Металл Сидрамон,6,unknown,0,0,unknown,0,0,
@@ -546,7 +546,7 @@ patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_GANIMON,Ганимон
 patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_GANKOOMON,Гэнкумон,5,unknown,0,0,unknown,0,0,
 patch_text01,message/s110_211.mbe/000_Sheet1.csv,char_GANKOOMON,Гэнкумон,5,male,1,0,unknown,0,0,
 patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_GAOGAMON,Гаогамон,5,male,1,0,unknown,0,0,
-patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_GAOMON,Гаомон,5,male,2,0,unknown,0,0,
+patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_GAOMON,Гаомон,5,unknown,0,0,unknown,0,0,
 patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,char_GAOMON,Гаомон,5,unknown,0,0,unknown,0,0,
 patch_text01,message/d02.mbe/000_Sheet1.csv,char_GARGOMON,Гальгомон,5,male,1,0,unknown,0,0,
 patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_GARGOMON,Гальгомон,5,unknown,0,0,unknown,0,0,
@@ -673,7 +673,7 @@ patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_PECKMON,Пекмон,5
 patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_PEGASMON,Пегасмон,5,unknown,0,0,unknown,0,0,
 patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_PENMON,Пинмон,5,male,2,0,unknown,0,0,
 patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,char_PENMON,Пинмон,5,unknown,0,0,unknown,0,0,
-patch_text01,message/d09.mbe/000_Sheet1.csv,char_PHARAOHMON,Фараомон,5,male,1,0,unknown,0,0,
+patch_text01,message/d09.mbe/000_Sheet1.csv,char_PHARAOHMON,Фараомон,5,unknown,0,0,unknown,0,0,
 patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_PICKLEMON,Пикмон,5,unknown,0,0,unknown,0,0,
 patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,char_PICODEVIMON,Пико Девимон,5,male,1,0,unknown,0,0,
 patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,char_PICODEVIMON,Пико Девимон,5,unknown,0,0,unknown,0,0,

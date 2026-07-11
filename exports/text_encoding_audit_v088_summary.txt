@@ -1,5 +1,5 @@
 ﻿CSV files scanned: 261
-CSV rows scanned: 39977
+CSV rows scanned: 39969
 Encoding/name issues: 0
 Known non-display question placeholders ignored: 196
 Canonical Механоримон occurrences: 7
