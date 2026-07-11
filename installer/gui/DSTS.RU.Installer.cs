@@ -287,7 +287,11 @@ namespace DstsRuInstaller
                     }
                     else
                     {
-                        string message = restore ? "Бэкап восстановлен." : "Перевод установлен. Оригинальные файлы сохранены в бэкап.";
+                        string message = restore
+                            ? "Бэкап восстановлен."
+                            : "Перевод установлен. Оригинальные файлы сохранены в бэкап."
+                                + Environment.NewLine + Environment.NewLine
+                                + InstallerMetadata.DialogueHistoryNotice;
                         Log(message);
                         MessageBox.Show(this, message, "Готово", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
@@ -456,7 +460,14 @@ namespace DstsRuInstaller
                     if (info.IsPayloadPackage)
                     {
                         Log("Обновление установлено из пакета: " + downloaded);
-                        MessageBox.Show(this, "Свежая версия перевода установлена. Оригинальные файлы сохранены в бэкап.", "Обновления", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(
+                            this,
+                            "Свежая версия перевода установлена. Оригинальные файлы сохранены в бэкап."
+                                + Environment.NewLine + Environment.NewLine
+                                + InstallerMetadata.DialogueHistoryNotice,
+                            "Обновления",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
                     }
                     else
                     {
@@ -497,6 +508,7 @@ namespace DstsRuInstaller
         public const string RepositoryOwner = "AceAsket";
         public const string RepositoryName = "Digimon-Story-Time-Stranger-RU";
         public const string LatestReleaseApiUrl = "https://api.github.com/repos/AceAsket/Digimon-Story-Time-Stranger-RU/releases/latest";
+        public const string DialogueHistoryNotice = "Важно: «История диалогов» хранит в сохранении текст уже показанных реплик. Установка или обновление перевода не меняет старые записи; новые и повторно показанные реплики отображаются в актуальной редакции.";
 
         public static string Version
         {
@@ -911,6 +923,7 @@ namespace DstsRuInstaller
             File.WriteAllText(Path.Combine(backupDir, "manifest.json"), BuildManifest(fullRoot, entries), new UTF8Encoding(false));
             WriteInstalledVersion(fullRoot, installedVersion);
             Log(log, "Версия перевода: " + installedVersion);
+            Log(log, InstallerMetadata.DialogueHistoryNotice);
             Log(log, "Готово. Бэкап сохранён: " + backupDir);
         }
 

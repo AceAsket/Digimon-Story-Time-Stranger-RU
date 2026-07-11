@@ -209,6 +209,7 @@ function Install-Mod {
     $manifestPath = Join-Path $backupDir "manifest.json"
     $manifest | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
 
+    Write-Info "Важно: «История диалогов» хранит в сохранении текст уже показанных реплик. Установка или обновление перевода не меняет старые записи; новые и повторно показанные реплики отображаются в актуальной редакции."
     Write-Info "Готово. Бэкап сохранён: $backupDir"
 }
 
