@@ -8,6 +8,7 @@ $Root = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
 $Compiler = Join-Path $Root ".tools\llvm-mingw-20260616-ucrt-x86_64\bin\clang.exe"
 $ReadObj = Join-Path $Root ".tools\llvm-mingw-20260616-ucrt-x86_64\bin\llvm-readobj.exe"
 $TestExe = Join-Path $env:TEMP ("dsts_ru_input_hook_test_" + [Guid]::NewGuid().ToString("N") + ".exe")
+$FallbackDll = Join-Path $env:TEMP ("dsts_ru_input_hook_fallback_" + [Guid]::NewGuid().ToString("N") + ".dll")
 $Dll = [IO.Path]::GetFullPath($Dll)
 
 if (-not (Test-Path -LiteralPath $Dll)) {
@@ -31,9 +32,35 @@ try {
         throw "Сборка теста завершилась с кодом $LASTEXITCODE"
     }
 
-    & $TestExe $Dll
+    & $Compiler `
+        --target=x86_64-w64-windows-gnu `
+        -std=c11 `
+        -Os `
+        -Wall `
+        -Wextra `
+        -Werror `
+        -shared `
+        -s `
+        "-Wl,--no-insert-timestamp" `
+        -DDSTS_RU_DISABLE_DLLMAIN_WORKER `
+        -o $FallbackDll `
+        (Join-Path $PSScriptRoot "dinput8_proxy.c") `
+        (Join-Path $PSScriptRoot "dinput8.def") `
+        -luser32
     if ($LASTEXITCODE -ne 0) {
-        throw "Тест dinput8.dll завершился с кодом $LASTEXITCODE"
+        throw "Сборка DirectInput-fallback DLL завершилась с кодом $LASTEXITCODE"
+    }
+
+    $Cases = @(
+        @{ Dll = $Dll; ClassName = "Digimon Story Time Stranger"; Startup = "dllmain" },
+        @{ Dll = $Dll; ClassName = "Digimon Story Time Stranger Demo"; Startup = "dllmain" },
+        @{ Dll = $FallbackDll; ClassName = "GameMain"; Startup = "directinput" }
+    )
+    foreach ($Case in $Cases) {
+        & $TestExe $Case.Dll $Case.ClassName $Case.Startup
+        if ($LASTEXITCODE -ne 0) {
+            throw "Тест dinput8.dll ($($Case.ClassName), $($Case.Startup)) завершился с кодом $LASTEXITCODE"
+        }
     }
 
     $Headers = & $ReadObj --file-headers --coff-imports --coff-exports $Dll
@@ -53,4 +80,5 @@ try {
 }
 finally {
     Remove-Item -LiteralPath $TestExe -Force -ErrorAction SilentlyContinue
+    Remove-Item -LiteralPath $FallbackDll -Force -ErrorAction SilentlyContinue
 }

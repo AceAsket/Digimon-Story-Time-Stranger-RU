@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import Optional
 
 from fix_confirmed_calque_tail_v168 import UPDATES as CONFIRMED_CALQUE_UPDATES
+from fix_character_creation_v170 import UPDATES as CHARACTER_CREATION_UPDATES
 from fix_reported_scenes_v167 import UPDATES as REPORTED_SCENE_UPDATES
 from fix_t01_npc_context_v169 import UPDATES as T01_NPC_CONTEXT_UPDATES
 
@@ -472,6 +473,18 @@ for package, relative, row_id, column, replacement in T01_NPC_CONTEXT_UPDATES:
     )
 
 
+for package, relative, row_id, column, replacement in CHARACTER_CREATION_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
 DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
     (
         "latin_HP_SP",
@@ -523,6 +536,7 @@ DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
     ("old_police_turnaround_calque", re.compile(r"поворачивайте обратно", re.I)),
     ("old_trains_pronoun_calque", re.compile(r"они всё ещё не двигаются", re.I)),
     ("old_tremor_warning_calque", re.compile(r"остерегаться сильного толчка", re.I)),
+    ("old_character_figure_calque", re.compile(r"подходящ\w*\s+фигур\w*", re.I)),
 ]
 
 

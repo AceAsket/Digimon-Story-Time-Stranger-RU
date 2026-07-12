@@ -73,7 +73,7 @@ function Pack-Package([string]$Name) {
     if (-not (Test-Path -LiteralPath $payload)) {
         throw "Payload not found: $payload"
     }
-    if (-not (Test-Path -LiteralPath $csvPackage)) {
+    if (-not (Test-Path -LiteralPath $csvPackage) -and $Name -ne "app_text01") {
         Write-Host "[skip] CSV package not found: $Name"
         return
     }
@@ -99,6 +99,30 @@ function Pack-Package([string]$Name) {
 
         Remove-DirectorySafe -Path $baseSection -AllowedParent $baseDir
         Move-Item -LiteralPath $packedSection -Destination $baseSection
+    }
+
+    if ($Name -eq "app_text01") {
+        $titleVersionRoot = Join-Path $RepoRoot "assets\title_version"
+        $titleVersionAsset = Join-Path $titleVersionRoot "ui_title_copyright_01.img"
+        $titleVersionMarker = Join-Path $titleVersionRoot "VERSION"
+        $releaseVersion = (Get-Content -LiteralPath (Join-Path $RepoRoot "VERSION") -Raw).Trim()
+        if (-not (Test-Path -LiteralPath $titleVersionAsset)) {
+            throw "Title version texture not found: $titleVersionAsset"
+        }
+        if (-not (Test-Path -LiteralPath $titleVersionMarker)) {
+            throw "Title version marker not found: $titleVersionMarker"
+        }
+        $assetVersion = (Get-Content -LiteralPath $titleVersionMarker -Raw).Trim()
+        if ($assetVersion -ne $releaseVersion) {
+            throw "Title texture version '$assetVersion' does not match release VERSION '$releaseVersion'."
+        }
+
+        $baseImage = Join-Path $baseDir "images\ui_title_copyright_01.img"
+        if (-not (Test-Path -LiteralPath $baseImage)) {
+            throw "Base title copyright texture not found in app_text01: $baseImage"
+        }
+        Copy-Item -LiteralPath $titleVersionAsset -Destination $baseImage -Force
+        Write-Host "[pack] ${Name}: injected title-screen translation version $assetVersion"
     }
 
     if ($Name -eq "patch_text01") {
