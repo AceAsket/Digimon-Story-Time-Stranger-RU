@@ -15,6 +15,8 @@ CSV_ROOT = ROOT / "csv"
 PAYLOAD_ROOT = ROOT / "installer/payload"
 WORK_ROOT = ROOT / "analysis/release_payload_verify_v114"
 MVGL_TOOL = ROOT / ".tools/MVGLTools-v2.2.0-fixed/MVGLToolsCLI.exe"
+LLVM_READOBJ = ROOT / ".tools/llvm-mingw-20260616-ucrt-x86_64/bin/llvm-readobj.exe"
+NATIVE_INPUT_PAYLOAD = PAYLOAD_ROOT / "dinput8.dll"
 LUA_ROOT = ROOT / "verify/lua_gender_hook/compiled"
 OUT = ROOT / "exports/release_payload_verify_v114.csv"
 SUMMARY = ROOT / "exports/release_payload_verify_v114_summary.txt"
@@ -90,6 +92,57 @@ def main() -> None:
     rows_compared = 0
     csv_packages = 0
     lua_compared = 0
+
+    native_payloads = 0
+    if not NATIVE_INPUT_PAYLOAD.exists():
+        issues.append(
+            {
+                "issue": "missing_native_input_payload",
+                "package": "installer",
+                "file": "payload/dinput8.dll",
+                "detail": "",
+            }
+        )
+    elif not LLVM_READOBJ.exists():
+        issues.append(
+            {
+                "issue": "missing_pe_verifier",
+                "package": "installer",
+                "file": "payload/dinput8.dll",
+                "detail": str(LLVM_READOBJ),
+            }
+        )
+    else:
+        native_payloads = 1
+        result = subprocess.run(
+            [
+                str(LLVM_READOBJ),
+                "--file-headers",
+                "--coff-exports",
+                str(NATIVE_INPUT_PAYLOAD),
+            ],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+        )
+        required = {
+            "Machine: IMAGE_FILE_MACHINE_AMD64",
+            "DirectInput8Create",
+            "DstsRuInstallInputHook",
+            "DstsRuInputFixVersion",
+        }
+        missing = sorted(value for value in required if value not in result.stdout)
+        if result.returncode or missing:
+            issues.append(
+                {
+                    "issue": "invalid_native_input_payload",
+                    "package": "installer",
+                    "file": "payload/dinput8.dll",
+                    "detail": f"exit={result.returncode}; missing={missing}",
+                }
+            )
 
     for payload in payloads:
         package = payload.name.removesuffix(".dx11.mvgl")
@@ -199,6 +252,7 @@ def main() -> None:
         f"csv_files_compared={files_compared}",
         f"csv_rows_compared={rows_compared}",
         f"lua_chunks_compared={lua_compared}",
+        f"native_payloads={native_payloads}",
         f"issues={len(issues)}",
         f"report={OUT.relative_to(ROOT)}",
     ]

@@ -8,10 +8,18 @@ $ErrorActionPreference = "Stop"
 
 $ModName = "Digimon Story Time Stranger RU"
 $PayloadDir = Join-Path $PSScriptRoot "payload"
-$RequiredPayloadFiles = @(
+$RequiredGameDataPayloadFiles = @(
     "app_text01.dx11.mvgl",
     "patch_text01.dx11.mvgl"
 )
+$RequiredRootPayloadFiles = @(
+    "dinput8.dll"
+)
+$GameExecutableNames = @(
+    "Digimon Story Time Stranger.exe",
+    "Digimon Story Time Stranger Demo.exe"
+)
+$RequiredPayloadFiles = $RequiredGameDataPayloadFiles + $RequiredRootPayloadFiles
 $OptionalPayloadFiles = @(
     "addcont_01_text01.dx11.mvgl",
     "addcont_02_text01.dx11.mvgl",
@@ -21,7 +29,10 @@ $OptionalPayloadFiles = @(
     "addcont_12_text01.dx11.mvgl",
     "addcont_17_text01.dx11.mvgl"
 )
-$PayloadFiles = $RequiredPayloadFiles + $OptionalPayloadFiles
+$GameDataPayloadFiles = $RequiredGameDataPayloadFiles + $OptionalPayloadFiles
+$NativeInputMarkerFileName = "_dsts_ru_input_fix.txt"
+$CreatedFilesListName = "_dsts_ru_created_files.txt"
+$InstalledVersionFileName = "_dsts_ru_translation_version.txt"
 
 function Write-Info([string]$Message) {
     Write-Host "[DSTS-RU] $Message"
@@ -146,6 +157,54 @@ function Find-TargetFile {
     return $matches[0].FullName
 }
 
+function Get-Sha256([string]$Path) {
+    return (Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash.ToLowerInvariant()
+}
+
+function Test-NativeInputPayloadConflict([string]$Root) {
+    $file = $RequiredRootPayloadFiles[0]
+    $target = Join-Path $Root $file
+    if (-not (Test-Path -LiteralPath $target)) {
+        return
+    }
+
+    $payload = Join-Path $PayloadDir $file
+    $targetHash = Get-Sha256 $target
+    $payloadHash = Get-Sha256 $payload
+    if ($targetHash -eq $payloadHash) {
+        return
+    }
+
+    $marker = Join-Path $Root $NativeInputMarkerFileName
+    $recordedHash = ""
+    if (Test-Path -LiteralPath $marker) {
+        foreach ($line in Get-Content -LiteralPath $marker -Encoding UTF8) {
+            if ($line -match '^sha256=(.+)$') {
+                $recordedHash = $Matches[1].Trim().ToLowerInvariant()
+                break
+            }
+        }
+    }
+    if ($recordedHash -and $recordedHash -eq $targetHash) {
+        return
+    }
+
+    throw "В папке игры уже есть сторонний dinput8.dll. Установщик не будет его перезаписывать. Удалите конфликтующий мод вручную или восстановите его штатным способом, затем повторите установку."
+}
+
+function Test-GameRoot([string]$Root) {
+    $found = $false
+    foreach ($file in $GameExecutableNames) {
+        if (Test-Path -LiteralPath (Join-Path $Root $file) -PathType Leaf) {
+            $found = $true
+            break
+        }
+    }
+    if (-not $found) {
+        throw "В выбранной папке нет исполняемого файла Digimon Story Time Stranger. Выберите корневую папку игры, а не gamedata и не родительский каталог."
+    }
+}
+
 function Install-Mod {
     param([string]$Root)
 
@@ -166,6 +225,9 @@ function Install-Mod {
         }
     }
 
+    Test-GameRoot -Root $Root
+    Test-NativeInputPayloadConflict -Root $Root
+
     $timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
     $backupRoot = Join-Path $Root "_dsts_ru_backups"
     $backupDir = Join-Path $backupRoot $timestamp
@@ -176,9 +238,10 @@ function Install-Mod {
         created_at = (Get-Date).ToString("o")
         game_dir = $Root
         files = @()
+        created_files = @()
     }
 
-    foreach ($file in $PayloadFiles) {
+    foreach ($file in $GameDataPayloadFiles) {
         $payloadFile = Join-Path $PayloadDir $file
         $optional = $OptionalPayloadFiles -contains $file
         if ($optional -and -not (Test-Path -LiteralPath $payloadFile)) {
@@ -206,9 +269,79 @@ function Install-Mod {
         }
     }
 
+    foreach ($file in $RequiredRootPayloadFiles) {
+        $payloadFile = Join-Path $PayloadDir $file
+        $target = Join-Path $Root $file
+        $relative = Get-RelativePathCompat -BasePath $Root -ChildPath $target
+        if (Test-Path -LiteralPath $target) {
+            $backupFile = Join-Path $backupDir $relative
+            New-Item -ItemType Directory -Force -Path (Split-Path -Parent $backupFile) | Out-Null
+            Write-Info "Бэкап: $relative"
+            Copy-Item -LiteralPath $target -Destination $backupFile -Force
+            $manifest.files += [ordered]@{
+                relative_path = $relative
+                backup_path = $backupFile
+            }
+        }
+        else {
+            $manifest.created_files += $relative
+        }
+        Write-Info "Установка: $relative"
+        Copy-Item -LiteralPath $payloadFile -Destination $target -Force
+    }
+
+    $version = ""
+    foreach ($versionFile in @(
+        (Join-Path $PSScriptRoot "VERSION"),
+        (Join-Path $PSScriptRoot "..\VERSION")
+    )) {
+        if (Test-Path -LiteralPath $versionFile) {
+            $version = (Get-Content -LiteralPath $versionFile -Raw -Encoding UTF8).Trim()
+            if ($version) { break }
+        }
+    }
+    if (-not $version) {
+        $version = "unknown"
+    }
+    $nativeMarker = Join-Path $Root $NativeInputMarkerFileName
+    $nativeMarkerRelative = Get-RelativePathCompat -BasePath $Root -ChildPath $nativeMarker
+    if (Test-Path -LiteralPath $nativeMarker) {
+        $backupFile = Join-Path $backupDir $nativeMarkerRelative
+        Copy-Item -LiteralPath $nativeMarker -Destination $backupFile -Force
+        $manifest.files += [ordered]@{
+            relative_path = $nativeMarkerRelative
+            backup_path = $backupFile
+        }
+    }
+    else {
+        $manifest.created_files += $nativeMarkerRelative
+    }
+    $nativeHash = Get-Sha256 (Join-Path $PayloadDir $RequiredRootPayloadFiles[0])
+    [IO.File]::WriteAllText(
+        $nativeMarker,
+        "version=$version`r`nsha256=$nativeHash`r`n",
+        [Text.UTF8Encoding]::new($false)
+    )
+
+    if ($manifest.created_files.Count -gt 0) {
+        [IO.File]::WriteAllLines(
+            (Join-Path $backupDir $CreatedFilesListName),
+            [string[]]$manifest.created_files,
+            [Text.UTF8Encoding]::new($false)
+        )
+    }
+
     $manifestPath = Join-Path $backupDir "manifest.json"
     $manifest | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
 
+    [IO.File]::WriteAllText(
+        (Join-Path $Root $InstalledVersionFileName),
+        $version + [Environment]::NewLine,
+        [Text.UTF8Encoding]::new($false)
+    )
+
+    Write-Info "Версия перевода: $version"
+    Write-Info "Исправление ввода кириллического имени установлено."
     Write-Info "Важно: «История диалогов» хранит в сохранении текст уже показанных реплик. Установка или обновление перевода не меняет старые записи; новые и повторно показанные реплики отображаются в актуальной редакции."
     Write-Info "Готово. Бэкап сохранён: $backupDir"
 }
@@ -244,6 +377,32 @@ function Restore-Backup {
 
         Write-Info "Восстановление: $($entry.relative_path)"
         Copy-Item -LiteralPath $backup -Destination $target -Force
+    }
+
+    $created = @()
+    if ($manifest.created_files) {
+        $created += @($manifest.created_files)
+    }
+    $createdList = Join-Path $latest.FullName $CreatedFilesListName
+    if (Test-Path -LiteralPath $createdList) {
+        $created += @(Get-Content -LiteralPath $createdList -Encoding UTF8)
+    }
+    foreach ($relative in ($created | Where-Object { $_ } | Select-Object -Unique)) {
+        $target = Join-Path $Root $relative
+        $fullRoot = (Resolve-FullPath $Root).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+        $fullTarget = Resolve-FullPath $target
+        if (-not $fullTarget.StartsWith($fullRoot, [StringComparison]::OrdinalIgnoreCase)) {
+            throw "Небезопасный путь в списке восстановления: $relative"
+        }
+        if (Test-Path -LiteralPath $fullTarget) {
+            Write-Info "Удаление добавленного файла: $relative"
+            Remove-Item -LiteralPath $fullTarget -Force
+        }
+    }
+
+    $installedVersion = Join-Path $Root $InstalledVersionFileName
+    if (Test-Path -LiteralPath $installedVersion) {
+        Remove-Item -LiteralPath $installedVersion -Force
     }
 
     Write-Info "Восстановлен бэкап: $($latest.FullName)"

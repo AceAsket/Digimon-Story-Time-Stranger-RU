@@ -79,7 +79,7 @@ source_aligned_pattern,low,59,58,33,really → действительно,addcon
 without you! | Wow, that Lillymon over there is really cute...
 Aren't you gonna go say hi? | Hehe. Timid hits from afar, huh? Does the enemy really
 scare you that much?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,medium,44,44,30,actually → действительно/на самом деле,addcont_02_text01:d240_062_020 | addcont_03_text01:d310_040_090 | patch_text01:f_d0202_0020_0020 | patch_text01:f_d0401_0100_0030 | patch_text01:f_d0502_0350_0020 | patch_text01:f_d0506_0220_0040,"You make it sound a lot more complicated than it actually is... | Never mind. I realize that was confusing.
+source_aligned_pattern,medium,43,43,30,actually → действительно/на самом деле,addcont_02_text01:d240_062_020 | addcont_03_text01:d310_040_090 | patch_text01:f_d0202_0020_0020 | patch_text01:f_d0401_0100_0030 | patch_text01:f_d0502_0350_0020 | patch_text01:f_d0506_0220_0040,"You make it sound a lot more complicated than it actually is... | Never mind. I realize that was confusing.
 I'm rather confused myself, actually. | One of my pals is always there by himself, but who knows,
 Minervamon might actually be home. Go have a look.
  | But it seems the village is actually trying to improve.

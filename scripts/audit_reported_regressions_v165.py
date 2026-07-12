@@ -17,6 +17,7 @@ from typing import Optional
 
 from fix_confirmed_calque_tail_v168 import UPDATES as CONFIRMED_CALQUE_UPDATES
 from fix_reported_scenes_v167 import UPDATES as REPORTED_SCENE_UPDATES
+from fix_t01_npc_context_v169 import UPDATES as T01_NPC_CONTEXT_UPDATES
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -459,6 +460,18 @@ for package, relative, row_id, column, replacement in CONFIRMED_CALQUE_UPDATES:
     )
 
 
+for package, relative, row_id, column, replacement in T01_NPC_CONTEXT_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
 DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
     (
         "latin_HP_SP",
@@ -499,6 +512,17 @@ DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
     ("old_what_gives_calque", re.compile(r"\bчто да[её]т\?", re.I)),
     ("old_workshop_calque", re.compile(r"пожелания по поводу семинара", re.I)),
     ("old_digitter_killer_story", re.compile(r"близ\w* к убийственной истории", re.I)),
+    (
+        "old_ambiguous_tremor",
+        re.compile(
+            r"(?:сильн\w*|ожида\w*|готов\w*)\s+(?:к\s+)?толч(?:ок|к[а-яё]*)",
+            re.I,
+        ),
+    ),
+    ("old_office_cancellation_calque", re.compile(r"работа отменена в такой странной ситуации", re.I)),
+    ("old_police_turnaround_calque", re.compile(r"поворачивайте обратно", re.I)),
+    ("old_trains_pronoun_calque", re.compile(r"они всё ещё не двигаются", re.I)),
+    ("old_tremor_warning_calque", re.compile(r"остерегаться сильного толчка", re.I)),
 ]
 
 

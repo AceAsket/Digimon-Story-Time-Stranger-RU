@@ -23,7 +23,7 @@ $NotesFile = [System.IO.Path]::GetFullPath($NotesFile)
 $Assets = @(
     (Join-Path $RepoRoot "dist\DSTS_RU_Installer_v$Version.exe"),
     (Join-Path $RepoRoot "dist\DSTS_RU_Installer_v$Version.zip"),
-    (Join-Path $RepoRoot "dist\DSTS_RU_Payload_v$Version.zip")
+    (Join-Path $RepoRoot "dist\DSTS_RU_Update_v$Version.zip")
 )
 
 if (-not (Test-Path -LiteralPath $NotesFile -PathType Leaf)) {

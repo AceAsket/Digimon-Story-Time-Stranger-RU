@@ -96,6 +96,16 @@ if ($PreflightOnly) {
     exit 0
 }
 
+$NativeInputDir = Join-Path $RepoRoot "native\name_input_fix"
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $NativeInputDir "build.ps1")
+if ($LASTEXITCODE -ne 0) {
+    throw "Cyrillic name-input hook build failed."
+}
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $NativeInputDir "test.ps1")
+if ($LASTEXITCODE -ne 0) {
+    throw "Cyrillic name-input hook verification failed."
+}
+
 if (-not $SkipPayloadPack) {
     $workflowArgs = @{
         Mode = "pack"

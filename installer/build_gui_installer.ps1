@@ -57,7 +57,7 @@ if ($EmbedPayload) {
     if (-not (Test-Path -LiteralPath $PayloadDir)) {
         throw "Payload directory was not found: $PayloadDir"
     }
-    foreach ($payload in Get-ChildItem -LiteralPath $PayloadDir -File -Filter "*.dx11.mvgl" | Sort-Object Name) {
+    foreach ($payload in Get-ChildItem -LiteralPath $PayloadDir -File | Sort-Object Name) {
         $compilerArgs += "/resource:$($payload.FullName),DstsRuPayload.$($payload.Name)"
     }
 }

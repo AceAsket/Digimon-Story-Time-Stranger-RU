@@ -32,7 +32,7 @@ if (Test-Path -LiteralPath $gui) {
 
 $payloadRoot = Join-Path $RepoRoot "installer\payload"
 if (Test-Path -LiteralPath $payloadRoot) {
-    Get-ChildItem -LiteralPath $payloadRoot -File -Filter "*.dx11.mvgl" |
+    Get-ChildItem -LiteralPath $payloadRoot -File |
         Sort-Object Name |
         ForEach-Object { $files.Add($_) }
 }
@@ -42,7 +42,8 @@ if (Test-Path -LiteralPath $distRoot) {
     Get-ChildItem -LiteralPath $distRoot -File |
         Where-Object {
             $_.Name -match "^DSTS_RU_Installer_v\d+\.\d+\.\d+\.(zip|exe)$" -or
-            $_.Name -match "^DSTS_RU_Payload_v\d+\.\d+\.\d+\.zip$"
+            $_.Name -match "^DSTS_RU_Payload_v\d+\.\d+\.\d+\.zip$" -or
+            $_.Name -match "^DSTS_RU_Update_v\d+\.\d+\.\d+\.zip$"
         } |
         Sort-Object @{ Expression = { Get-VersionSortKey $_ } }, Name |
         ForEach-Object { $files.Add($_) }

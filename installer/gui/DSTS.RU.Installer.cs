@@ -8,6 +8,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Net;
 using System.Reflection;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -589,7 +590,7 @@ namespace DstsRuInstaller
             if (string.IsNullOrEmpty(fileName))
             {
                 fileName = info.IsPayloadPackage
-                    ? "DSTS_RU_Payload_" + info.Version + ".zip"
+                    ? "DSTS_RU_Update_" + info.Version + ".zip"
                     : "DSTS_RU_Installer_" + info.Version + ".exe";
             }
 
@@ -656,7 +657,8 @@ namespace DstsRuInstaller
                 string url = JsonUnescape(match.Groups[1].Value);
                 string file = FileNameFromUrl(url);
                 if (file.EndsWith(".zip", StringComparison.OrdinalIgnoreCase)
-                    && file.IndexOf("Payload", StringComparison.OrdinalIgnoreCase) >= 0)
+                    && (file.IndexOf("Payload", StringComparison.OrdinalIgnoreCase) >= 0
+                        || file.IndexOf("Update", StringComparison.OrdinalIgnoreCase) >= 0))
                 {
                     return new UpdateAsset(url, file, true);
                 }
@@ -741,11 +743,25 @@ namespace DstsRuInstaller
 
     internal sealed class InstallerCore
     {
-        private static readonly string[] RequiredPayloadFiles = new[]
+        private static readonly string[] RequiredGameDataPayloadFiles = new[]
         {
             "app_text01.dx11.mvgl",
             "patch_text01.dx11.mvgl"
         };
+
+        private static readonly string[] RequiredRootPayloadFiles = new[]
+        {
+            "dinput8.dll"
+        };
+
+        private static readonly string[] GameExecutableNames = new[]
+        {
+            "Digimon Story Time Stranger.exe",
+            "Digimon Story Time Stranger Demo.exe"
+        };
+
+        private static readonly string[] RequiredPayloadFiles =
+            RequiredGameDataPayloadFiles.Concat(RequiredRootPayloadFiles).ToArray();
 
         private static readonly string[] OptionalPayloadFiles = new[]
         {
@@ -758,9 +774,12 @@ namespace DstsRuInstaller
             "addcont_17_text01.dx11.mvgl"
         };
 
-        private static readonly string[] PayloadFiles = RequiredPayloadFiles.Concat(OptionalPayloadFiles).ToArray();
+        private static readonly string[] GameDataPayloadFiles =
+            RequiredGameDataPayloadFiles.Concat(OptionalPayloadFiles).ToArray();
         private const string PayloadResourcePrefix = "DstsRuPayload.";
         private const string InstalledVersionFileName = "_dsts_ru_translation_version.txt";
+        private const string NativeInputMarkerFileName = "_dsts_ru_input_fix.txt";
+        private const string CreatedFilesListName = "_dsts_ru_created_files.txt";
 
         public readonly string BaseDir;
         public readonly string PayloadDir;
@@ -820,7 +839,13 @@ namespace DstsRuInstaller
         public void ValidateGameDir(string root)
         {
             string fullRoot = Path.GetFullPath(root);
-            foreach (string file in RequiredPayloadFiles)
+            if (!GameExecutableNames.Any(file => File.Exists(Path.Combine(fullRoot, file))))
+            {
+                throw new InvalidOperationException(
+                    "В выбранной папке нет исполняемого файла Digimon Story Time Stranger. "
+                    + "Выберите корневую папку игры, а не gamedata и не родительский каталог.");
+            }
+            foreach (string file in RequiredGameDataPayloadFiles)
             {
                 FindTargetFile(fullRoot, file);
             }
@@ -887,12 +912,14 @@ namespace DstsRuInstaller
             string fullRoot = Path.GetFullPath(root);
             EnsurePayloadExists(payloadOverrideDir);
             ValidateGameDir(fullRoot);
+            ValidateNativeInputPayload(fullRoot, payloadOverrideDir);
 
             string backupDir = Path.Combine(fullRoot, "_dsts_ru_backups", DateTime.Now.ToString("yyyyMMdd-HHmmss"));
             Directory.CreateDirectory(backupDir);
 
             List<ManifestEntry> entries = new List<ManifestEntry>();
-            foreach (string file in PayloadFiles)
+            List<string> createdFiles = new List<string>();
+            foreach (string file in GameDataPayloadFiles)
             {
                 bool optional = OptionalPayloadFiles.Contains(file);
                 if (optional && !HasPayloadFile(file, payloadOverrideDir))
@@ -920,9 +947,37 @@ namespace DstsRuInstaller
             }
 
             string installedVersion = ResolvePayloadVersion(payloadOverrideDir);
-            File.WriteAllText(Path.Combine(backupDir, "manifest.json"), BuildManifest(fullRoot, entries), new UTF8Encoding(false));
+            foreach (string file in RequiredRootPayloadFiles)
+            {
+                string target = Path.Combine(fullRoot, file);
+                BackupOrRecordCreated(fullRoot, backupDir, target, entries, createdFiles, log);
+                Log(log, "Установка: " + file);
+                CopyPayloadFile(file, target, payloadOverrideDir);
+            }
+
+            string nativeMarker = Path.Combine(fullRoot, NativeInputMarkerFileName);
+            BackupOrRecordCreated(fullRoot, backupDir, nativeMarker, entries, createdFiles, log);
+            string nativeHash = ComputePayloadHash(RequiredRootPayloadFiles[0], payloadOverrideDir);
+            File.WriteAllText(
+                nativeMarker,
+                "version=" + installedVersion + Environment.NewLine
+                    + "sha256=" + nativeHash + Environment.NewLine,
+                new UTF8Encoding(false));
+
+            if (createdFiles.Count > 0)
+            {
+                File.WriteAllLines(
+                    Path.Combine(backupDir, CreatedFilesListName),
+                    createdFiles,
+                    new UTF8Encoding(false));
+            }
+            File.WriteAllText(
+                Path.Combine(backupDir, "manifest.json"),
+                BuildManifest(fullRoot, entries, createdFiles),
+                new UTF8Encoding(false));
             WriteInstalledVersion(fullRoot, installedVersion);
             Log(log, "Версия перевода: " + installedVersion);
+            Log(log, "Исправление ввода кириллического имени установлено.");
             Log(log, InstallerMetadata.DialogueHistoryNotice);
             Log(log, "Готово. Бэкап сохранён: " + backupDir);
         }
@@ -946,9 +1001,17 @@ namespace DstsRuInstaller
                 throw new InvalidOperationException("Бэкапы не найдены в " + backupRoot);
             }
 
+            string createdListPath = Path.Combine(latest.FullName, CreatedFilesListName);
+            List<string> createdFiles = File.Exists(createdListPath)
+                ? File.ReadAllLines(createdListPath, Encoding.UTF8)
+                    .Where(line => !string.IsNullOrWhiteSpace(line))
+                    .ToList()
+                : new List<string>();
+
             foreach (FileInfo file in EnumerateFilesSafe(latest.FullName, "*"))
             {
-                if (string.Equals(file.Name, "manifest.json", StringComparison.OrdinalIgnoreCase))
+                if (string.Equals(file.Name, "manifest.json", StringComparison.OrdinalIgnoreCase)
+                    || string.Equals(file.Name, CreatedFilesListName, StringComparison.OrdinalIgnoreCase))
                 {
                     continue;
                 }
@@ -960,8 +1023,132 @@ namespace DstsRuInstaller
                 File.Copy(file.FullName, target, true);
             }
 
+            foreach (string relative in createdFiles)
+            {
+                string target = SafePathBelowRoot(fullRoot, relative);
+                if (File.Exists(target))
+                {
+                    Log(log, "Удаление добавленного файла: " + relative);
+                    File.Delete(target);
+                }
+            }
+
             ClearInstalledVersion(fullRoot);
             Log(log, "Восстановлен бэкап: " + latest.FullName);
+        }
+
+        private void ValidateNativeInputPayload(string root, string payloadOverrideDir)
+        {
+            string target = Path.Combine(root, RequiredRootPayloadFiles[0]);
+            if (!File.Exists(target))
+            {
+                return;
+            }
+
+            string targetHash = ComputeFileHash(target);
+            string payloadHash = ComputePayloadHash(RequiredRootPayloadFiles[0], payloadOverrideDir);
+            if (string.Equals(targetHash, payloadHash, StringComparison.OrdinalIgnoreCase))
+            {
+                return;
+            }
+
+            string marker = Path.Combine(root, NativeInputMarkerFileName);
+            string recordedHash = null;
+            if (File.Exists(marker))
+            {
+                foreach (string line in File.ReadAllLines(marker, Encoding.UTF8))
+                {
+                    if (line.StartsWith("sha256=", StringComparison.OrdinalIgnoreCase))
+                    {
+                        recordedHash = line.Substring("sha256=".Length).Trim();
+                        break;
+                    }
+                }
+            }
+
+            if (!string.IsNullOrEmpty(recordedHash)
+                && string.Equals(targetHash, recordedHash, StringComparison.OrdinalIgnoreCase))
+            {
+                return;
+            }
+
+            throw new InvalidOperationException(
+                "В папке игры уже есть сторонний dinput8.dll. Установщик не будет его перезаписывать. "
+                + "Удалите конфликтующий мод вручную или восстановите его штатным способом, затем повторите установку.");
+        }
+
+        private static void BackupOrRecordCreated(
+            string root,
+            string backupDir,
+            string target,
+            List<ManifestEntry> entries,
+            List<string> createdFiles,
+            Action<string> log)
+        {
+            string relative = GetRelativePath(root, target);
+            if (!File.Exists(target))
+            {
+                createdFiles.Add(relative);
+                return;
+            }
+
+            string backupFile = Path.Combine(backupDir, relative);
+            Directory.CreateDirectory(Path.GetDirectoryName(backupFile));
+            Log(log, "Бэкап: " + relative);
+            File.Copy(target, backupFile, true);
+            entries.Add(new ManifestEntry(relative, backupFile));
+        }
+
+        private string ComputePayloadHash(string file, string payloadOverrideDir)
+        {
+            if (!string.IsNullOrEmpty(payloadOverrideDir))
+            {
+                return ComputeFileHash(Path.Combine(payloadOverrideDir, file));
+            }
+
+            if (HasEmbeddedPayload)
+            {
+                string resourceName = PayloadResourcePrefix + file;
+                using (Stream input = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName))
+                {
+                    if (input == null)
+                    {
+                        throw new InvalidOperationException("Во встроенном payload не найден файл: " + file);
+                    }
+                    return ComputeStreamHash(input);
+                }
+            }
+
+            return ComputeFileHash(Path.Combine(PayloadDir, file));
+        }
+
+        private static string ComputeFileHash(string path)
+        {
+            using (FileStream input = File.OpenRead(path))
+            {
+                return ComputeStreamHash(input);
+            }
+        }
+
+        private static string ComputeStreamHash(Stream input)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                return BitConverter.ToString(sha256.ComputeHash(input)).Replace("-", "").ToLowerInvariant();
+            }
+        }
+
+        private static string SafePathBelowRoot(string root, string relative)
+        {
+            string fullRoot = Path.GetFullPath(root)
+                .TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar)
+                + Path.DirectorySeparatorChar;
+            string candidate = Path.GetFullPath(Path.Combine(fullRoot, relative));
+            if (!candidate.StartsWith(fullRoot, StringComparison.OrdinalIgnoreCase))
+            {
+                throw new InvalidOperationException("Небезопасный путь в списке восстановления: " + relative);
+            }
+            return candidate;
         }
 
         private void EnsurePayloadExists(string payloadOverrideDir = null)
@@ -1248,7 +1435,10 @@ namespace DstsRuInstaller
             return Path.GetFileName(childPath);
         }
 
-        private static string BuildManifest(string gameDir, List<ManifestEntry> entries)
+        private static string BuildManifest(
+            string gameDir,
+            List<ManifestEntry> entries,
+            List<string> createdFiles)
         {
             StringBuilder builder = new StringBuilder();
             builder.AppendLine("{");
@@ -1264,6 +1454,17 @@ namespace DstsRuInstaller
                 builder.AppendLine("      \"backup_path\": \"" + JsonEscape(entry.BackupPath) + "\"");
                 builder.Append("    }");
                 if (i + 1 < entries.Count)
+                {
+                    builder.Append(",");
+                }
+                builder.AppendLine();
+            }
+            builder.AppendLine("  ],");
+            builder.AppendLine("  \"created_files\": [");
+            for (int i = 0; i < createdFiles.Count; i++)
+            {
+                builder.Append("    \"" + JsonEscape(createdFiles[i]) + "\"");
+                if (i + 1 < createdFiles.Count)
                 {
                     builder.Append(",");
                 }
