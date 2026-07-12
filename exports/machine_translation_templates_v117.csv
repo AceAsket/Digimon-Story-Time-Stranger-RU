@@ -79,14 +79,14 @@ source_aligned_pattern,low,59,58,33,really → действительно,addcon
 without you! | Wow, that Lillymon over there is really cute...
 Aren't you gonna go say hi? | Hehe. Timid hits from afar, huh? Does the enemy really
 scare you that much?","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,medium,45,45,31,actually → действительно/на самом деле,addcont_02_text01:d240_062_020 | addcont_03_text01:d310_040_090 | patch_text01:1120001024 | patch_text01:f_d0202_0020_0020 | patch_text01:f_d0401_0100_0030 | patch_text01:f_d0502_0350_0020,"You make it sound a lot more complicated than it actually is... | Never mind. I realize that was confusing.
-I'm rather confused myself, actually. | Glurp?! Whoa, seriously?! It's working?!
-It's actually glurpin' working! Not bad, glurp! | One of my pals is always there by himself, but who knows,
+source_aligned_pattern,medium,44,44,30,actually → действительно/на самом деле,addcont_02_text01:d240_062_020 | addcont_03_text01:d310_040_090 | patch_text01:f_d0202_0020_0020 | patch_text01:f_d0401_0100_0030 | patch_text01:f_d0502_0350_0020 | patch_text01:f_d0506_0220_0040,"You make it sound a lot more complicated than it actually is... | Never mind. I realize that was confusing.
+I'm rather confused myself, actually. | One of my pals is always there by himself, but who knows,
 Minervamon might actually be home. Go have a look.
  | But it seems the village is actually trying to improve.
 That's good to know. | It was actually a hero from somewhere else that saved the
-day! Get real...!","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,medium,44,44,29,right now → прямо сейчас,addcont_02_text01:d210_030_140 | addcont_02_text01:d220_030_120 | addcont_02_text01:banma_001_1_replay | patch_text01:arena01_f001_005_030 | patch_text01:1081020022 | patch_text01:2030183002,"""Hello, folks. This is OcculTokyo TV.
+day! Get real...! | I can't believe it actually happened! I never thought
+I'd live to see a grand slam victory!","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,medium,43,43,29,right now → прямо сейчас,addcont_02_text01:d210_030_140 | addcont_02_text01:d220_030_120 | addcont_02_text01:banma_001_1_replay | patch_text01:arena01_f001_005_030 | patch_text01:1081020022 | patch_text01:2030183002,"""Hello, folks. This is OcculTokyo TV.
 Am I... dreaming right now?"" | Bring us back to our own world, right now!
 Prepare yourself! | I need your help right now. | There are no lies to be told here... Okay, that was a lie!
 Yep, somebody's definitely lying right now! | The battery can only be used once. I should focus on the
@@ -97,11 +97,10 @@ precarious state for a while. | I see... So it is quite a difficult procedure to
 cell, is it...? | The one who created this space is quite tricky...
 I have a feeling we share a similar mindset. | You should go take a break. I mean... you've had
 quite the day, right? | But things have taken quite a turn since then...","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,low,22,22,8,various → различные,patch_text01:m070_040_110 | patch_text01:m180_050_110 | patch_text01:m420_010_170 | patch_text01:s095_077_490 | patch_text01:digimon_0130_profile | patch_text01:digimon_0184_profile,"I want to learn everything I can about their capabilities as living organisms.
+source_aligned_pattern,low,21,21,7,various → различные,patch_text01:m070_040_110 | patch_text01:m180_050_110 | patch_text01:m420_010_170 | patch_text01:digimon_0130_profile | patch_text01:digimon_0184_profile | patch_text01:digimon_0185_profile,"I want to learn everything I can about their capabilities as living organisms.
 Toward that end, I have various hypotheses I wish to test. | It wouldn't be a stretch to call our various mythologies the
 greatest anomalies in human history. | While bound by Chronomon's rage... I provided various things to
-the humans. | LoaderLeomon's back, and we can produce various
-metals now. Stop by if you need any. | An Ancient Fish Digimon with tough skin and
+the humans. | An Ancient Fish Digimon with tough skin and
 enormous claws. This Digimon is discovered in
 the Net Ocean whenever computer networks
 destroyed by malicious hackers are repaired.
@@ -131,8 +130,29 @@ from its horn, or Lightning Pile to drive a pile-shaped
 bolt down on the enemy from above, driving them
 into the ground. If this move pierces the enemy once,
 subsequently released piles then connect without
-fail, no matter where they're thrown.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
-source_aligned_pattern,low,19,19,16,some kind of → какой-то,addcont_02_text01:d220_090_080 | addcont_02_text01:d220_130_040 | patch_text01:f_d0201_0020_0070 | patch_text01:f_d0202_0420_0040 | patch_text01:f_d0404_0150_0030 | patch_text01:f_d0604_0270_0060,"A ""col""-what? What's that?
+fail, no matter where they're thrown. | A Deity Digimon that synthesizes the abilities of
+various species, using a human body as its base.
+This synthesis is said to have resulted from the
+pursuit of the ultimate goal of omnipotence,
+dramatically changing this Digimon's form to
+match its environment. This form is based on
+Evil-species data, which would ordinarily lie
+dormant within its body, centered around the
+crystal in its chest, but Aegiochusmon: Dark has
+allowed the Evil data to proliferate throughout its
+whole body. The malevolence of Evil types bubbles
+forth in both mind and body, causing it to treat
+everything it sees as prey to be hunted. A virus lurks
+within the red electricity discharged from its body,
+making this special Digimon a Vaccine-attribute type
+that also creates viruses. It injects the viruses it
+generates into the wounds it inflicts on enemies,
+making for a terrifying attack that destroys victims
+from within. Aegiochusmon: Dark uses its special
+moves Triangler to mince foes with three scythes
+and Plasmadness to shoot dark electricity gathered
+in both hands.","Системный буквальный шаблон; оценить выборку в разных сценах, не заменять автоматически."
+source_aligned_pattern,low,18,18,15,some kind of → какой-то,addcont_02_text01:d220_090_080 | addcont_02_text01:d220_130_040 | patch_text01:f_d0201_0020_0070 | patch_text01:f_d0202_0420_0040 | patch_text01:f_d0404_0150_0030 | patch_text01:f_d0604_0270_0060,"A ""col""-what? What's that?
 Some kind of super powerful move? | Some kind of rift opened up in the sky above the Tokyo
 Metropolitan Government Building, and there was a flash. | Lord Merukimon must have some kind of plan to stop them, right?
 I sure hope he does something soon... | But yes, things have been a bit tumultuous. I hope the

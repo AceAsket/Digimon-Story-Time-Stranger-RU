@@ -15,6 +15,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
+from fix_confirmed_calque_tail_v168 import UPDATES as CONFIRMED_CALQUE_UPDATES
+from fix_reported_scenes_v167 import UPDATES as REPORTED_SCENE_UPDATES
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV_ROOT = ROOT / "csv"
@@ -432,6 +435,30 @@ for relative in (
     )
 
 
+for package, relative, row_id, column, _, replacement in REPORTED_SCENE_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in CONFIRMED_CALQUE_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
 DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
     (
         "latin_HP_SP",
@@ -440,6 +467,7 @@ DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
     ("old_mechanorimon", re.compile(r"Меканоримон")),
     ("old_datamon", re.compile(r"Дейтамон")),
     ("broken_vamdemon_case", re.compile(r"ВаМдемон")),
+    ("broken_shogungekomon_name", re.compile(r"С(?:е|ё)гун(?:г|э)[ГгЕеЭэ]?комон", re.I)),
     ("old_central_town", re.compile(r"(?:Сентрал|Централ)[- ]Таун")),
     ("old_central_tower", re.compile(r"(?:Сентрал|Централ)[- ]Тауэр")),
     ("old_unconscious_line", re.compile(r"Ответа нет\.\.\.\s*Пиёмон")),
@@ -459,6 +487,18 @@ DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
         "old_digifarm_layout_text",
         re.compile(r"Используйте его, чтобы оформить Дигиферму по своему вкусу\."),
     ),
+    ("old_indulge_request_calque", re.compile(r"побаловать меня таким образом", re.I)),
+    ("old_indulge_reply_calque", re.compile(r"побаловать себя, я думаю", re.I)),
+    ("old_digimon_agreement", re.compile(r"были вызваны Дигимон", re.I)),
+    ("old_metal_objective", re.compile(r"Получают большое количество металла", re.I)),
+    ("old_digital_version_calque", re.compile(r"перешли на цифровую версию", re.I)),
+    ("old_blimpmon_gender", re.compile(r"я что-то сломала", re.I)),
+    ("old_blimpmon_travel_verb", re.compile(r"могу поехать куда угодно", re.I)),
+    ("old_material_production_calque", re.compile(r"сделать много материала", re.I)),
+    ("old_digimental_term", re.compile(r"цифров(?:ое|ые) яйц", re.I)),
+    ("old_what_gives_calque", re.compile(r"\bчто да[её]т\?", re.I)),
+    ("old_workshop_calque", re.compile(r"пожелания по поводу семинара", re.I)),
+    ("old_digitter_killer_story", re.compile(r"близ\w* к убийственной истории", re.I)),
 ]
 
 
@@ -476,6 +516,46 @@ DIALOGUE_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
     ("fellow_digimon_calque", re.compile(r"\bпарень\s*-?\s*дигимон\b", re.I)),
     ("costumes_calque", re.compile(r"\bвс[её] сделали костюмы\b", re.I)),
     ("lowered_eyes_calque", re.compile(r"\bопустил[аи]? глаза\b", re.I)),
+    ("break_started_backwards", re.compile(r"вот и начинается мой перерыв", re.I)),
+    ("new_order_calque", re.compile(r"новый порядок, на который", re.I)),
+    ("just_maybe_calque", re.compile(r"всего лишь возможно", re.I)),
+    ("so_much_for_calque", re.compile(r"вот и вс[её] для чемпиона", re.I)),
+    ("say_that_again_calque", re.compile(r"можешь сказать (?:это )?(?:ещ[её] раз|снова)", re.I)),
+    ("you_dont_say_calque", re.compile(r"^\s*ты не говоришь\?", re.I)),
+    ("do_or_die_calque", re.compile(r"сделай или умри", re.I)),
+    ("leave_it_to_calque", re.compile(r"предостав(?:ь|ьте) (?:это|их|вс[её]|битву|борьбу|остальное) (?:мне|нам)", re.I)),
+    ("leave_her_to_guide_calque", re.compile(r"предоставим ей вести", re.I)),
+    ("leave_catching_calque", re.compile(r"предоставь ловлю мне", re.I)),
+    ("hold_on_calque", re.compile(r"^\s*держись,? (?:ты|вы)!", re.I)),
+    ("be_my_guest_calque", re.compile(r"во что бы то ни стало,? буд(?:ь|ьте) моим гостем", re.I)),
+    ("what_for_calque", re.compile(r"покажи им,? зачем это нужно", re.I)),
+    ("you_bet_calque", re.compile(r"поэтому я купил это", re.I)),
+    ("butterfingers_calque", re.compile(r"осторожно,? пальчики оближешь", re.I)),
+    ("guess_what_calque", re.compile(r"^\s*угадай(?:те)? что\?", re.I)),
+    ("make_no_mistake_calque", re.compile(r"^\s*не совершай(?:те)? ошибок", re.I)),
+    ("far_from_scientific_calque", re.compile(r"далеко от научности", re.I)),
+    ("broken_possible_clause", re.compile(r"\bвозможно чтобы\b", re.I)),
+    ("broken_common_ground", re.compile(r"\bвообще можно найти\b", re.I)),
+    ("standing_out_calque", re.compile(r"\bстояние здесь\b", re.I)),
+    ("real_thing_calque", re.compile(r"\bнастоящ(?:ая|ей) вещ", re.I)),
+    ("unscientific_thing_calque", re.compile(r"самая ненаучная вещь", re.I)),
+    ("full_extent_calque", re.compile(r"в полной мере тех возможностей", re.I)),
+    ("all_things_connected_calque", re.compile(r"все вещи связаны", re.I)),
+    ("all_things_lost_calque", re.compile(r"все вещи, которые она потеряла", re.I)),
+    ("justice_constitutes_calque", re.compile(r"представляет собой справедливость", re.I)),
+    ("much_use_calque", re.compile(r"извлечь много пользы", re.I)),
+    ("show_your_stuff_calque", re.compile(r"покажи нам свои штучки", re.I)),
+    ("think_twice_calque", re.compile(r"дважды подумал бы,? прежде чем делиться", re.I)),
+    ("catch_on_existence_calque", re.compile(r"вышла на само существование", re.I)),
+    ("same_business_calque", re.compile(r"занимаемся одним и тем же бизнесом", re.I)),
+    ("middle_of_mission_calque", re.compile(r"\bв середине миссии\b", re.I)),
+    ("war_on_hands_calque", re.compile(r"война на (?:наших|ваших) руках|на руках будет .*война", re.I)),
+    ("see_it_done_calque", re.compile(r"сделаю так,? чтобы это было сделано", re.I)),
+    ("hard_no_calque", re.compile(r"тв[её]рд(?:ый|ое) [«\"]нет[»\"]", re.I)),
+    ("worth_my_time_calque", re.compile(r"если это стоит моего времени", re.I)),
+    ("shaking_calque", re.compile(r"что это была за дрожь", re.I)),
+    ("important_thing_template", re.compile(r"самая важная вещь из всех", re.I)),
+    ("many_things_unknown_template", re.compile(r"много-много вещей, которых я не знаю", re.I)),
 ]
 
 
