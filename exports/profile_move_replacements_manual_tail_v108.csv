@@ -1,0 +1,83 @@
+﻿package,file,row_id,source_move,old,new,mode,expected_count,note
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0779_profile,Aguichant Lèvres,Соблазнительные Губы,Агишан Левр,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0104_profile,Ama no Habakiri,Ама но Хабакири,Ама-но Хабакири,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0149_profile,Ame no Murakumo,Амэ но Муракумо,Амэ - но - Муракумо,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0669_profile,Atomic Inferno,Атомный Инферно,Атомное инферно,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0616_profile,Bind Red Trigger,Связывающий Красный Курок,Привязать Красный Триггер,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0106_profile,Black Rain,Блэк Рейн,Чёрный дождь,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0416_profile,Blade of the Dragon King,Блейд оф зе Драгон Кинг,Клинок короля драконов,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0614_profile,Blade of the True,Клинок Истины,Клинок Истинного,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0479_profile,Bowling Storm,Боулинг Шторм,Боулинг-шторм,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0019_profile,Brave Metal,Брэйв Метал,Храбрый металл,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0604_profile,Calydon Arcus,Калидонский Лук,Калидон Аркус,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0632_profile,Catastrophe Cannon,Пушка Катастрофы,Пушка-катастрофа,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0490_profile,Cool Edge,Крутой Край,Холодная кромка,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0626_profile,Crazy Giggle,Безумный Хихикс,Сумасшедшее Хихиканье,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0465_profile,Daredevil Break,Во время Лиходейского Прорыва,Во время приёма «Пробой сорвиголовы»,raw,1,preserve case agreement
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0630_profile,Data Crusher,Сокрушитель Данных,Дробилка данных,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0492_profile,Deep Forest,Глухой Лес,Дремучий Лес,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0704_profile,Destruction Crush,Сокрушительное Раздавливание,Разрушительный удар,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0617_profile,Destruction Trigger,Курок Разрушения,Триггер разрушения,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0573_profile,Downward Cleave,Нисходящий Рассекающий Удар,Нисходящий разрез,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0574_profile,Dual Swallow Reversal,Двойной Ласточкин Разворот,Двойной Разворот Ласточки,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0687_profile,Fifth Rush,используя Пятую Атаку,используя приём «Пятый Порыв»,raw,1,preserve syntax
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0683_profile,Flame Cannon,Пламенная Пушка,Огненная Пушка,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0049_profile,Flashy Boss Punch,Флэши Босс Панч,Эффектный удар босса,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0129_profile,Forbidden Trident,Форбидден Трайдент,Запрещенный Трезубец,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0515_profile,Fox Tail,Лисьий Хвост,Лисий Хвост,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0395_profile,Fox Tail Inferno,Фокс Тейл Инферно,Инферно лисьего хвоста,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0489_profile,Gaia Brave,Гайя Храбрец,Гея Храбрая,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0306_profile,Giga Blaster,Гига Бластер,Гига-бластер,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0629_profile,Glare Eye,Ослепляющий Глаз,Слепящий взгляд,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0614_profile,Golden Ripper,Золотой Разрыватель,Золотой Потрошитель,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0170_profile,Graceful Lance,Грейсфул Ланс,Изящное Копье,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0616_profile,Happy Bullet Showering,Ливень Счастливых Пуль,Счастливый ливень пуль,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0683_profile,Hard Rock Soul,С Твердой Каменной Душой,С помощью приёма «Хард-рок-душа»,raw,1,preserve case agreement
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0735_profile,Heaven's Judgment,Суд Небес,Небесный суд,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0774_profile,Heaven's Judgment,Суд Небес,Небесный суд,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0621_profile,Hyper Cannon,Гипер Пушка,Гиперпушка,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0422_profile,Hyper Infinity Cannon,Бесконечная Пушка,Гиперпушка бесконечности,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0702_profile,Kunai Wing,Крыло Куная,Крыло Кунаи,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0186_profile,Lightning Shower,Лайтнинг Шауэр,Ливень с Молнией,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0778_profile,Lightning Thrust,Удар Молнии,Молниеносный Удар,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0582_profile,Lullaby Bubble,Колыбельная Пузырь,Колыбельный Пузырь,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0678_profile,Machinegun Destroyer,Разрушитель Пулемета,Пулемётный разрушитель,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0912_profile,Marionette Abomination,Марионеточная мерзость,Мерзость Марионетки,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0466_profile,Metal Drop,Металлическая Капля,Падение металла,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0609_profile,Mini Scissor Claw,Мини Коготь-Ножницы,Мини-Ножничный Коготь,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0617_profile,Misery Bullet Rain,Ливень Пуль Страдания,Дождь пуль отчаяния,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0567_profile,Poison Bubbles,Ядовитые Пузыри,Ядовитые Пузырьки,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0610_profile,Pummel Peck,Долбежка Клювом,Дробящий клевок,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0117_profile,Purge Shine,Пёдж Шайн,Очищающий Блеск,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0117_profile,Purge Shine,Пёдж Шайна,Очищающего Блеска,raw,1,inflected repeated reference
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0677_profile,Pyro Dragons,Пиро Драконы,Поджигательные Драконы,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0676_profile,Pyro Punch,Пиро Удар,Огненный удар,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0688_profile,Quake! Blast! Fire! Father!,Тряси! Взрывай! Огонь! Отец!,Землетрясение! Взрыв! Огонь! Отец!,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0603_profile,Rage of Wyvern,Гнев Виверна,Ярость Виверны,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0611_profile,Rain of Pollen,Ливень Пыльцы,Дождь из пыльцы,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0489_profile,Red Reamer,Красное Сверло,Красный риммер,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0492_profile,Rodeo Bullet,Родео Пуля,Пуля родео,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0421_profile,Sefirot Crystal,Сефирот Кристалл,Кристалл Сфирот,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0126_profile,Shield of the Just,Шилд оф зе Джаст,Щит праведника,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0382_profile,Shining Gold Solar Storm,Шайнинг Голд Солар Сторм,Сияющая золотая солнечная буря,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0598_profile,Slamming Tusk,Сокрушающий Клык,Бьющий Бивень,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0173_profile,Sol Blaster,Сол Бластер,Солнечный Бластер,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0584_profile,Soul Chopper,Рассекатель Душ,Измельчитель Душ,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0564_profile,Sparkling Thunder,Искрящаяся Гроза,Сверкающий Гром,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0484_profile,Spike Buster,Шип Бастер,Спайк Бастер,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0594_profile,Spiral Edge,Спиральное Лезвие,Спиральный край,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0703_profile,Spiral Masquerade,Спиральная Маскарад,Спиральный Маскарад,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0491_profile,Spirited Claws,Воодушевленные Когти,Энергичные Когти,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0605_profile,Stinger Surprise,Хвост Смерти,Жало - Сюрприз,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0606_profile,Strike Fishing,Ударный Лов,Ударная рыбалка,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0390_profile,Strike of the Seven Stars,Страйк оф зе Севен Старз,Удар семи звезд,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0575_profile,Sunburst Dance,Танец Вспышки Солнца,Танец Солнечных Лучей,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0622_profile,Super Slap,Супер Пощечина,Супер-Пощечина,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0688_profile,Table Flip,Опрокидывание Стола,Переворачивание стола,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0701_profile,Terrier Tornado,Торнадо Терьера,Терьер Торнадо,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0790_profile,Terrier Tornado,Терьер-Торнадо,Терьер Торнадо,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0596_profile,Trick or Treat,Уловка или Угощение,Трюк или угощение,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0588_profile,Tusk Strikes,Удары Клыками,Удары Бивня,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0600_profile,Venom Infusion,Вливание Яда,Ядовитое вливание,bare,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0171_profile,Welcome Demise,Велком Демайз,Желанная Кончина,quote,1,manual source-context review
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0463_profile,Zeppelin Explosion,Цеппелин Взрыв,Взрыв Цеппелина,bare,1,manual source-context review

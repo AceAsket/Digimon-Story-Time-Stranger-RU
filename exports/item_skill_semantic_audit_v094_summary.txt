@@ -1,0 +1,8 @@
+Item and skill semantic audit v094
+rows_scanned=4998
+rows_linked=4710
+candidates=0
+
+By priority:
+
+By issue:

@@ -1,0 +1,66 @@
+﻿package,file,row_id,source_move,old,new,quoted,expected_count,note
+addcont_01_text01,text/digimon_profile_dlc01.mbe/000_Sheet1.csv,digimon_0691_profile,Supreme Sword,Гаруру-меч,Высший меч,yes,1,reviewed quoted-name match
+addcont_01_text01,text/digimon_profile_dlc01.mbe/000_Sheet1.csv,digimon_0691_profile,Transcendent Cannon,Серая пушка,Трансцендентная пушка,yes,1,reviewed quoted-name match
+addcont_02_text01,text/digimon_profile_dlc02.mbe/000_Sheet1.csv,digimon_0485_profile,Depth Charge Sky,Взрывная гроза,Небесная глубинная бомба,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0012_profile,Fox Fire,Фокс Файр,Лисий Огонь,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0017_profile,Darkside Quake,Дарксайд Квейк,Землетрясение тёмной стороны,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0021_profile,Tidal Wave,Тайдл Вейв,Приливная волна,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0078_profile,Exhaust Flame,Экзост Флейм,Выхлопное пламя,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0082_profile,Heat Wave,Хит Вейв,Тепловая волна,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0102_profile,Gauntlet Claw,Гонтлет Коготь,Коготь в Перчатке,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0128_profile,Bee Cyclone,Би Сайклон,Пчелиный Циклон,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0137_profile,Flame Dive,Флейм Дайв,Пламенное пикирование,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0148_profile,Celestial Arrow,Селестиал Эрроу,Небесная Стрела,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0168_profile,Punish Judge,Паниш Джадж,Карающий суд,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0170_profile,Needle Hive,Нидл Хайв,Игольчатый Улей,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0208_profile,Baby Breath,Бейби Бреф,Детское дыхание,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0209_profile,Green Flare Breath,Грин Флейр Бреф,Дыхание Зеленой Вспышки,yes,2,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0218_profile,Blue Flare Breath,Блю Флейр Бреф,Дыхание Голубой Вспышки,yes,2,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0348_profile,Poison Ivy,Пойзон Айви,Ядовитый Плющ,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0361_profile,Puppy Howl,Паппи Хаул,Щенячий Вой,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0363_profile,Fire Breath,Файр Бреф,Огненное Дыхание,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0371_profile,Icicle Rod,Айсикл Род,Стержень - Сосулька,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0383_profile,Rust Breath,Раст Бреф,Дыхание Ржавчины,yes,2,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0402_profile,Eradication Gears,Эрадикейшн Гирз,Механизмы Искоренения,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0451_profile,Brain Rupture,Брейн Рапчер,Разрыв мозга,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0601_profile,Baluluna Gale,Шквал Балулуны,Балулуна Гейл,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0607_profile,Fungus Crusher,Грибной Крушитель,Дробилка Грибов,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0706_profile,Feather Slash,Перьевой Удар,Косой Удар Пером,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0725_profile,Ultimate Blast,Альтимейт Взрыв,Высший взрыв,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0725_profile,Ultimate Quake,Альтимейт Тряска,Высшее землетрясение,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0727_profile,Nitro Stinger,Жало Нитрo,Нитро - Жало,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0729_profile,Hyper Smell,Гипер Запах,Сверхвонь,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0731_profile,Bunny Blades,Клинки Кролика,Кроличьи клинки,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0735_profile,Lightning Spear,Копьё Молнии,Молниеносное Копье,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0737_profile,Trinity Arm,Троичная Рука,Рука Троицы,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0739_profile,Extinction Wave,Волну Истребления,Волна Угасания,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0742_profile,Serpent Ruin,Змеиным Разрушением,Змеиная Погибель,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0754_profile,Taizoukai Mandala,Мандала Мира Великого Обители,Мандала Тайзукай,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0758_profile,Iceball Bomb,Ледяная Бомба,Бомба со льдом,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0767_profile,Reversal of the Dead,Разворот Мёртвых,Обращение мертвых вспять,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0770_profile,Striver Cannon,Пушка Стремящегося,Стремительная Пушка,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0772_profile,Dark Prominence,Тёмное Сияние,Тёмный протуберанец,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0774_profile,Lightning Spear,Копьё Молнии,Молниеносное Копье,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0775_profile,Chaos Flare,Хаос-Вспышка,Вспышка Хаоса,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0775_profile,Death Slinger,Смертельный Пращник,Смертоносец,yes,1,reviewed quoted-name match
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0740_profile,Spiral Raven Claw,Коготь Ворона-Спирали,Спиральный Коготь Ворона,yes,1,corrected automatic alignment
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0745_profile,Mach Stinger V,Махающее Жало V,Стингер Маха V,yes,1,corrected automatic alignment
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0181_profile,Madness Merry-Go-Round DX,"Маднесс
+Мерри-Го-Раунд DX",Безумная карусель DX,yes,1,corrected automatic alignment
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0225_profile,Vorpal Blade,"Ворпал
+Блейд",Клинок Ворпала,yes,1,corrected automatic alignment
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0315_profile,Strike of the Seven Stars,"Страйк оф зе Севен
+Старз",Удар семи звезд,yes,1,corrected automatic alignment
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0315_profile,Testament,Тестамент,Завещание,yes,1,corrected automatic alignment
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0075_profile,Vortex Penetration,"Вортекс
+Пенетрайшн",Пронзающий вихрь,yes,1,unambiguous quoted move
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0075_profile,Wave of Depth,"Вейв оф
+Дефс",Волна глубины,yes,1,unambiguous quoted move
+addcont_03_text01,text/digimon_profile_dlc03.mbe/000_Sheet1.csv,digimon_0358_profile,Lightning Joust,"Молниеносный
+турнирный удар",Молниеносный выпад,yes,1,DLC move-name consistency
+addcont_03_text01,text/digimon_profile_dlc03.mbe/000_Sheet1.csv,digimon_0358_profile,Shield of the Just,Финальный Элизион,Щит праведника,yes,1,DLC move-name consistency
+addcont_03_text01,text/digimon_profile_dlc03.mbe/000_Sheet1.csv,digimon_0418_profile,Victory Sword,Ульфорс-саблю,Меч победы,yes,1,DLC move-name consistency
+addcont_03_text01,text/digimon_profile_dlc03.mbe/000_Sheet1.csv,digimon_0418_profile,Tensegrity Shield,Tense-Great Shield,Тенсегрити-щит,yes,1,localized English-only equipment name
+addcont_03_text01,text/digimon_profile_dlc03.mbe/000_Sheet1.csv,digimon_0418_profile,The Ray of Victory,Сияющая V-сила,Луч победы,yes,1,DLC move-name consistency
+addcont_03_text01,text/digimon_profile_dlc03.mbe/000_Sheet1.csv,digimon_0468_profile,Ultimate Seibaken,"Совершенный боевой клинок
+Сэйбакен",«Высший Сэйбакен»,no,1,DLC move-name consistency

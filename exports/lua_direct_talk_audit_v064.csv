@@ -1,0 +1,7 @@
+file,direct_calls,classification,action
+battle_11200010.lua,1,scene_direct,patch Talk.MessageTalkSel with ResolveGenderedMessageId if the selected text is gendered
+function_common.lua,5,shared_wrapper,add resolver to Message/MessageAuto/MessageTalk/MessageTalkAuto/MessageTalkSel
+function_field.lua,4,shared_wrapper,add resolver to obj:Message and obj:Select helpers
+m360.lua,3,scene_direct,patch Talk.Message_Auto calls with ResolveGenderedMessageId
+m440.lua,1,scene_direct,patch Talk.Message_Auto call with ResolveGenderedMessageId
+t04prcs.lua,1,scene_direct,patch Talk.Message call with ResolveGenderedMessageId

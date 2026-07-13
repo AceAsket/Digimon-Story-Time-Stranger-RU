@@ -1,0 +1,5 @@
+﻿Source-linked rows: 2148
+Rows without matching extracted English source: 131
+Confirmed anomalies: 0
+Manual-review markers: 0
+Report: exports\skill_attack_name_audit_v086.csv

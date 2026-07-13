@@ -1,0 +1,8 @@
+Digimon gender context audit v103
+contexts=1408
+dialogue_rows=11106
+explicit_source_pronoun_contexts=55
+mixed_source_pronoun_contexts=2
+confirmed_conflicts=0
+registry=exports\digimon_gender_context_registry_v103.csv
+conflicts=exports\digimon_gender_context_conflicts_v103.csv

@@ -80,6 +80,30 @@ DIGIMON_FEMALE_CHARS = {
 }
 
 
+# Reviewed rows where the detected form belongs to a quoted speaker, another
+# named character or a noun, plus generated M/F aliases whose verb describes
+# the selected protagonist rather than the row's technical speaker ID.
+REVIEWED_NON_SPEAKER_FORMS = {
+    ("message/d09.mbe/000_Sheet1.csv", "f_d0903_0410_0020"),
+    ("message/d12.mbe/000_Sheet1.csv", "f_d1206_0040_0140"),
+    ("message/m040.mbe/000_Sheet1.csv", "m040_050_230"),
+    ("message/m060.mbe/000_Sheet1.csv", "m060_050_060"),
+    ("message/m090.mbe/000_Sheet1.csv", "m090_080_310"),
+    ("message/m140.mbe/000_Sheet1.csv", "m140_080_028"),
+    ("message/m160.mbe/000_Sheet1.csv", "m160_050_040"),
+    ("message/m180.mbe/000_Sheet1.csv", "m180_010_070"),
+    ("message/m230.mbe/000_Sheet1.csv", "m230_020_130"),
+    ("message/m285.mbe/000_Sheet1.csv", "m285_020_090"),
+    ("message/m285.mbe/000_Sheet1.csv", "m285_040_040"),
+    ("message/m420.mbe/000_Sheet1.csv", "m420_030_030__H"),
+    ("message/s010_156.mbe/000_Sheet1.csv", "s010_156_330"),
+    ("message/s910_169.mbe/000_Sheet1.csv", "s910_169_400"),
+    ("message/t03.mbe/000_Sheet1.csv", "f_t0304_0020_0060__F"),
+    ("message/t03.mbe/000_Sheet1.csv", "f_t0304_0040_0010__F"),
+    ("message/t04.mbe/000_Sheet1.csv", "f_t0403_0120_0010"),
+}
+
+
 MALE_FORMS = [
     "был",
     "хотел",
@@ -239,6 +263,10 @@ def main() -> None:
             if len(row) <= 2:
                 continue
             row_id, speaker_id = row[0], row[1]
+            if row_id.endswith(("__H", "__F")):
+                continue
+            if (relative, row_id) in REVIEWED_NON_SPEAKER_FORMS:
+                continue
             expected, confidence = gender_for(speaker_id)
             if not expected:
                 continue

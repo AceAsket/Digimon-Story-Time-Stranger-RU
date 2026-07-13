@@ -1,0 +1,15 @@
+Dialogue gender and style audit v065
+csv_root=D:\digimon\csv
+original_root=D:\digimon\verify\game_build_23514637\text_original
+dialogue_rows_scanned=25484
+source_rows_loaded=49996
+translated_rows_without_source=750
+audit_candidates=583
+
+By priority:
+- P4: 201
+- P2: 382
+
+By category:
+- style_review: 382
+- possible_player_address_gender: 201

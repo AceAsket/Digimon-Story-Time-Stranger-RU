@@ -1,0 +1,107 @@
+﻿package,file,row_id,source_move,approved_ru,current_fragment,replacement,basis,score,margin
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0048_profile,God Flame,Божественное Пламя,Год Флейм,Божественное Пламя,quoted_name_similarity,0.778,0.778
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0419_profile,Giga Death,Гигасмерть,Гига Дез,Гигасмерть,quoted_name_similarity,0.778,0.222
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0419_profile,Mega Death,Мегасмерть,Мега Дез,Мегасмерть,quoted_name_similarity,0.778,0.222
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0083_profile,Supersonic Voice,Сверхзвуковой голос,Суперсоник Войс,Сверхзвуковой голос,quoted_name_similarity,0.774,0.774
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0039_profile,Paradise Lost,Потерянный рай,Парадайз Лост,Потерянный рай,quoted_name_similarity,0.769,0.484
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0052_profile,Pointer Arrow,Стрелка Указателя,Пойнтер Эрроу,Стрелка Указателя,quoted_name_similarity,0.769,0.769
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0094_profile,GeoGrey Sword,Меч Гео Грея,ДжоГрей Сорд,Меч Гео Грея,quoted_name_similarity,0.769,0.538
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0168_profile,Wide Plasment,Всеохватная плазма,Вайд Пласмент,Всеохватная плазма,quoted_name_similarity,0.769,0.547
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0184_profile,Bolt Break Knockdown,"Разрыв болта, Нокдаун",Болт Брейк Наокдаун,"Разрыв болта, Нокдаун",quoted_name_similarity,0.769,0.527
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0719_profile,Desolation Claw,Коготь Запустения,Коготь Разрушения,Коготь Запустения,quoted_name_similarity,0.765,0.365
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0049_profile,Lion Slash,Львиный разрез,Лайон Слэш,Львиный разрез,quoted_name_similarity,0.762,0.512
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0422_profile,Hyper Infinity Cannon,Гиперпушка бесконечности,Гипер Инфинити Кэннон,Гиперпушка бесконечности,quoted_name_similarity,0.762,0.762
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0091_profile,Spiking Strike,Острый Удар,Спайкинг Страйк,Острый Удар,quoted_name_similarity,0.759,0.759
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0114_profile,Veemon Headbutt,Удар головой Ви-мона,Виимон Хедбатт,Удар головой Ви-мона,quoted_name_similarity,0.759,0.759
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0163_profile,Titanic Charge,Титанический заряд,Титаник Чардж,Титанический заряд,quoted_name_similarity,0.759,0.759
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0921_profile,Ruthless Charge,Безжалостный натиск,Безжалостная Атака,Безжалостный натиск,quoted_name_similarity,0.757,0.542
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0907_profile,All-Out Bombardment,Тотальная бомбардировка,Всеобщая Бомбардировка,Тотальная бомбардировка,quoted_name_similarity,0.756,0.756
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0035_profile,Double Impact,Двойной Удар,Дабл Импакт,Двойной Удар,quoted_name_similarity,0.750,0.477
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0096_profile,Air Shot,Воздушный Выстрел,Эйр Шот,Воздушный Выстрел,quoted_name_similarity,0.750,0.750
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0101_profile,Heaven's Gate,Врата рая,Хевенс Гейт,Врата рая,quoted_name_similarity,0.750,0.750
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0127_profile,Monkey Wrench,Разводной ключ,Манки Ренч,Разводной ключ,quoted_name_similarity,0.750,0.405
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0140_profile,Wolf Claw,Волчий Коготь,Вулф Коготь,Волчий Коготь,quoted_name_similarity,0.750,0.750
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0197_profile,Mystic Break,Мистический пробой,Мистик Брейк,Мистический пробой,quoted_name_similarity,0.750,0.590
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0223_profile,Mad Dog Fire,Огонь Бешеной Собаки,Мэд Дог Файр,Огонь Бешеной Собаки,quoted_name_similarity,0.750,0.750
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0224_profile,Mad Dog Fire,Огонь Бешеной Собаки,Мэд Дог Файр,Огонь Бешеной Собаки,quoted_name_similarity,0.750,0.397
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0237_profile,Mad Dog Fire,Огонь Бешеной Собаки,Мэд Дог Файр,Огонь Бешеной Собаки,quoted_name_similarity,0.750,0.550
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0316_profile,Little Iron Beads,Малые железные шарики,Литл Айрон Бидс,Малые железные шарики,quoted_name_similarity,0.750,0.750
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0376_profile,Musical Fist,Музыкальный Кулак,Мьюзикл Фист,Музыкальный Кулак,quoted_name_similarity,0.750,0.750
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0413_profile,Energy Bomb,Энергетическая бомба,Энерджи Бомб,Энергетическая бомба,quoted_name_similarity,0.750,0.311
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0777_profile,Final Mirage Burst,Последний миражный взрыв,Финальный Миражный Взрыв,Последний миражный взрыв,quoted_name_similarity,0.750,0.417
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0059_profile,Big Bang Voice,Голос Большого Взрыва,Биг Бэнг Войс,Голос Большого Взрыва,quoted_name_similarity,0.741,0.741
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0135_profile,Freezing Breath,Леденящее Дыхание,Фризинг Бреф,Леденящее Дыхание,quoted_name_similarity,0.741,0.534
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0172_profile,Peace Fantasia,Мирная Фантазия,Пис Фантазия,Мирная Фантазия,quoted_name_similarity,0.741,0.541
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0183_profile,Stun Beat Blow,Оглушающий Удар,Стан Бит Блоу,Оглушающий Удар,quoted_name_similarity,0.741,0.465
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0364_profile,Nuclear Laser,Ядерный лазер,Ньюклиар Лазер,Ядерный лазер,quoted_name_similarity,0.741,0.741
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0372_profile,Hunting Cannon,Охотничья пушка,Хантин Кэннон,Охотничья пушка,quoted_name_similarity,0.741,0.741
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0241_profile,Jamming Powder,Глушащий порошок,Джамминг Паудер,Глушащий порошок,quoted_name_similarity,0.733,0.733
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0369_profile,Volcanic Strike,Вулканический удар,Волканик Страйк,Вулканический удар,quoted_name_similarity,0.733,0.733
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0424_profile,Howling Crusher,Воющая Дробилка,Хаулинг Крашер,Воющая Дробилка,quoted_name_similarity,0.733,0.562
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0095_profile,Double Crescent Mirage,Мираж с Двойным Полумесяцем,Дабл Кресент Мираж,Мираж с Двойным Полумесяцем,quoted_name_similarity,0.732,0.439
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0777_profile,Full Moon Meteor Impact,Метеоритный удар полной луны,Удар Метеора Полной Луны,Метеоритный удар полной луны,quoted_name_similarity,0.731,0.346
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0009_profile,Cog Crusher,Зубчатая Дробилка,Ког Крашер,Зубчатая Дробилка,quoted_name_similarity,0.727,0.727
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0026_profile,Cross Blade,Крестовый клинок,Кросс Блейд,Крестовый клинок,quoted_name_similarity,0.727,0.247
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0173_profile,Phoebus Blow,Удар Феба,Фебус Блоу,Удар Феба,quoted_name_similarity,0.727,0.727
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0178_profile,Appropriate Works,Оружие на все случаи,Эпроприэйт Воркс,Оружие на все случаи,quoted_name_similarity,0.727,0.241
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0188_profile,Plant Zone Cradle,Колыбель Растительной зоны,Плант Зон Крейдл,Колыбель Растительной зоны,quoted_name_similarity,0.727,0.420
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0309_profile,Shadow Wing,Теневое Крыло,Шэдоу Винг,Теневое Крыло,quoted_name_similarity,0.727,0.727
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0409_profile,Fist of Ice,Ледяной кулак,Фист оф Айс,Ледяной кулак,quoted_name_similarity,0.727,0.727
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0744_profile,Will-O'-Wisp Slash,Разрез блуждающего огонька,Удар Блуждающего Огня,Разрез блуждающего огонька,quoted_name_similarity,0.723,0.432
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0370_profile,Sub-Zero Ice Punch,Ледяной удар абсолютного нуля,Саб-Зеро Айс Панч,Ледяной удар абсолютного нуля,quoted_name_similarity,0.722,0.722
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0037_profile,Biting Crush,Сокрушительный укус,Байтинг Краш,Сокрушительный укус,quoted_name_similarity,0.720,0.387
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0198_profile,Wheel Grinder,Колёсная дробилка,Уилл Гриндер,Колёсная дробилка,quoted_name_similarity,0.720,0.720
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0377_profile,Thunder Cloud,Грозовая Туча,Тандер Клауд,Грозовая Туча,quoted_name_similarity,0.720,0.720
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0440_profile,Phantom Blade,Призрачный Клинок,Фантом Блейд,Призрачный Клинок,quoted_name_similarity,0.720,0.276
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0458_profile,Knuckle Beater,Костоломный кулак,Накл Бейтер,Костоломный кулак,quoted_name_similarity,0.720,0.720
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0416_profile,Soul Digitalization,Оцифровка души,Соул Дигиталайзейшн,Оцифровка души,quoted_name_similarity,0.718,0.395
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0003_profile,Moon Night Bomb,Бомба Лунной Ночи,Мун Найт Бомб,Бомба Лунной Ночи,quoted_name_similarity,0.714,0.314
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0039_profile,Dead or Alive,Живой или мёртвый,Дед орайв Алайв,Живой или мёртвый,quoted_name_similarity,0.714,0.407
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0771_profile,Gigastick Lance,Копьё «Гигастик»,Гигастик Копьё,Копьё «Гигастик»,quoted_name_similarity,0.714,0.474
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0399_profile,Symphony Crusher,Симфоническая Дробилка,Симфони Крушер,Симфоническая Дробилка,quoted_name_similarity,0.710,0.710
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0737_profile,Justice Kick,Пинок правосудия,Удар Правосудия,Пинок правосудия,quoted_name_similarity,0.710,0.339
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0036_profile,Death Lure,Смертельная Приманка,Дез Лур,Смертельная Приманка,quoted_name_similarity,0.706,0.337
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0020_profile,Cheese Bomb,Сырная Бомба,Чиз Бомб,Сырная Бомба,quoted_name_similarity,0.700,0.518
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0045_profile,Holy Flare,Священная Вспышка,Холи Флейр,Священная Вспышка,quoted_name_similarity,0.700,0.380
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0046_profile,Holy Flare,Священная Вспышка,Холи Флейр,Священная Вспышка,quoted_name_similarity,0.700,0.700
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0085_profile,Night Raid,Ночной Рейд,Найт Рейд,Ночной Рейд,quoted_name_similarity,0.700,0.700
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0171_profile,Chain Lash,Цепная Плеть,Чейн Лэш,Цепная Плеть,quoted_name_similarity,0.700,0.700
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0177_profile,Cold Flame,Холодное Пламя,Колд Флейм,Холодное Пламя,quoted_name_similarity,0.700,0.700
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0239_profile,Grave Bone,Могильная Кость,Грейв Боун,Могильная Кость,quoted_name_similarity,0.700,0.700
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0034_profile,Phantom Pain,Фантомная Боль,Фантом Пейн,Фантомная Боль,quoted_name_similarity,0.696,0.376
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0317_profile,Acid Bubbles,Пузырьки с кислотой,Асид Бабблз,Пузырьки с кислотой,quoted_name_similarity,0.696,0.696
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0320_profile,Acid Bubbles,Пузырьки с кислотой,Асид Бабблз,Пузырьки с кислотой,quoted_name_similarity,0.696,0.453
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0437_profile,Acid Bubbles,Пузырьки с кислотой,Асид Бабблз,Пузырьки с кислотой,quoted_name_similarity,0.696,0.696
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0080_profile,Thousand Fists,Тысяча Кулаков,Саузенд Фист,Тысяча Кулаков,quoted_name_similarity,0.692,0.392
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0226_profile,Snake Bandage,Змеиная Повязка,Снейк Бандаж,Змеиная Повязка,quoted_name_similarity,0.692,0.329
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0186_profile,Circlet Defense,Защита обручем,Серклет Дифенс,Защита обручем,quoted_name_similarity,0.690,0.690
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0456_profile,Justice Bullet,Пуля Правосудия,Джастис Буллет,Пуля Правосудия,quoted_name_similarity,0.690,0.479
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0179_profile,Cook of the Abyss,Повар бездны,Кук оф зе Абисс,Повар бездны,quoted_name_similarity,0.688,0.688
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0006_profile,Nail Bone,Костяной коготь,Нейл Боун,Костяной коготь,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0043_profile,Lightning Paw,Молниеносная Лапа,Лайтнинг По,Молниеносная Лапа,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0055_profile,Double Backhand,Двойной удар тыльной стороной,Дабл Бэкхенд,Двойной удар тыльной стороной,quoted_name_similarity,0.667,0.396
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0088_profile,Supreme Cannon,Высшая пушка,Суприм Кэннон,Высшая пушка,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0092_profile,Lightning Paw,Молниеносная Лапа,Лайтнинг По,Молниеносная Лапа,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0150_profile,Judecca Prison,Тюрьма в Джудекке,Джудекка Призон,Тюрьма в Джудекке,quoted_name_similarity,0.667,0.308
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0184_profile,Lightning Pile,Громовая свая,Лайтнинг Пайл,Громовая свая,quoted_name_similarity,0.667,0.424
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0187_profile,Powered Ignition,Форсированное зажигание,Пауэрд Игнишн,Форсированное зажигание,quoted_name_similarity,0.667,0.417
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0190_profile,Iai Blade,Клинок Иаи,Иай Блейд,Клинок Иаи,quoted_name_similarity,0.667,0.452
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0195_profile,Hurricane Screw Shot,Ураганный Винтовой Выстрел,Харрикэн Скрю Шот,Ураганный Винтовой Выстрел,quoted_name_similarity,0.667,0.255
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0225_profile,Mystic Flame,Мистическое Пламя,Мистик Флейм,Мистическое Пламя,quoted_name_similarity,0.667,0.493
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0347_profile,Ice Blast,Ледяной взрыв,Айс Бласт,Ледяной взрыв,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0374_profile,Nightmare Syndrome,Синдром ночного кошмара,Найтмер Синдром,Синдром ночного кошмара,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0394_profile,Pummel Whack,Молотящий удар,Памел Вак,Молотящий удар,quoted_name_similarity,0.667,0.431
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0455_profile,Mature Poop,Зрелые Какашки,Мэтьюр Пуп,Зрелые Какашки,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0710_profile,Dumdum Uppercut,Апперкот «Дам-дам»,Апперкот Гатлинга,Апперкот «Дам-дам»,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0747_profile,Strike Roll,Ударный перекат,Ударный Кувырок,Ударный перекат,quoted_name_similarity,0.667,0.417
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0757_profile,Supreme Cannon,Высшая пушка,Верховная Пушка,Высшая пушка,quoted_name_similarity,0.667,0.381
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0772_profile,Bancho Blade,Лезвие Банчо,Клинок Банчо,Лезвие Банчо,quoted_name_similarity,0.667,0.427
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0920_profile,Dead Angle Horn,Рог мёртвой зоны,Рог Мёртвого Угла,Рог мёртвой зоны,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0076_profile,Kouyoujou: Hydro Descent,Коёдзё: гидроспуск,Коёджо: Гидро Десент,Коёдзё: гидроспуск,quoted_name_similarity,0.651,0.216
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0301_profile,Eradication Attack,Атака на Искоренение,Эрадикейшн Атак,Атака на Искоренение,quoted_name_similarity,0.647,0.647
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0126_profile,Lightning Joust,Молниеносный выпад,Лайтнинг Джауст,Молниеносный выпад,quoted_name_similarity,0.645,0.471
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0174_profile,Corona Sanctions,Коронные санкции,Корона Сэнкшнс,Коронные санкции,quoted_name_similarity,0.645,0.312
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0135_profile,Wolf Claw,Волчий Коготь,Айс Вулф Коготь,Волчий Коготь,quoted_name_similarity,0.643,0.452
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0058_profile,Sunshine Beam,Луч Солнечного Света,Саншайн Бим,Луч Солнечного Света,quoted_name_similarity,0.640,0.640
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0429_profile,Smile Warhead,Улыбающаяся Боеголовка,Смайл Ворхед,Улыбающаяся Боеголовка,quoted_name_similarity,0.640,0.640
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0452_profile,Hyper Heat,Сверхжар,Гипер Хит,Сверхжар,quoted_name_similarity,0.632,0.632

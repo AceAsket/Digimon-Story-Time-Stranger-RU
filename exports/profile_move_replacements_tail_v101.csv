@@ -1,0 +1,25 @@
+﻿package,file,row_id,source_move,approved_ru,current_fragment,replacement,basis,score,margin
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0234_profile,Bear Fist,Медвежий Кулак,Беар Фист,Медвежий Кулак,quoted_name_similarity,1.000,1.000
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0365_profile,Vee Laser,Ви-лазер,Вии Лазер,Ви-лазер,quoted_name_similarity,0.941,0.941
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0080_profile,Spiritual Enchantment,Духовные чары,Спиричуал Энчантмент,Духовные чары,quoted_name_similarity,0.930,0.708
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0069_profile,Platinum Burp,Платиновая Отрыжка,Платинум Бёрп,Платиновая Отрыжка,quoted_name_similarity,0.923,0.775
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0379_profile,Cherry Bomb,Вишневая Бомба,Черри Бомб,Вишневая Бомба,quoted_name_similarity,0.909,0.550
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0094_profile,Glorious Burst,Великолепная Вспышка,Глориус Бёрст,Великолепная Вспышка,quoted_name_similarity,0.889,0.889
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0044_profile,Miracle Bomb,Чудо-бомба,Миракл Бомб,Чудо-бомба,quoted_name_similarity,0.870,0.870
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0072_profile,Fist of the Beast King,Кулак короля зверей,Фист оф зе Бист Кинг,Кулак короля зверей,quoted_name_similarity,0.857,0.357
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0224_profile,Inferno Divide,Рассечение инферно,Инферно Дивайд,Рассечение инферно,quoted_name_similarity,0.857,0.579
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0453_profile,Fire Tornado,Огненный Торнадо,Файр Торнадо,Огненный Торнадо,quoted_name_similarity,0.833,0.833
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0749_profile,Judgment of the Blade,Суд клинка,Суждение Клинка,Суд клинка,quoted_name_similarity,0.800,0.600
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0230_profile,Time Unlimited,Неограниченное Время,Тайм Анлимитед,Неограниченное Время,quoted_name_similarity,0.786,0.786
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0341_profile,Destruction Grenade,Разрушительная Граната,Дэстройкшн Гренад,Разрушительная Граната,quoted_name_similarity,0.757,0.757
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0393_profile,Branch Drain,Высасывающая ветвь,Брэнч Дрейн,Высасывающая ветвь,quoted_name_similarity,0.750,0.750
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0032_profile,Crystal Revolution,Хрустальная Революция,Кристал Революшн,Хрустальная Революция,quoted_name_similarity,0.722,0.722
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0172_profile,LOVE YOU,ЛЮБЛЮ ТЕБЯ,ЛАВ Ю,ЛЮБЛЮ ТЕБЯ,quoted_name_similarity,0.714,0.714
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0349_profile,Needle Spray,Игольчатый Спрей,Ни?дл Спрей,Игольчатый Спрей,quoted_name_similarity,0.696,0.696
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0359_profile,Flower Cannon,Цветочная Пушка,Флауэр Кэннон,Цветочная Пушка,quoted_name_similarity,0.692,0.692
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0439_profile,Eternal Nightmare,Вечный Кошмар,Итернал Найтмер,Вечный Кошмар,quoted_name_similarity,0.688,0.688
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0145_profile,Oxygen Homing,Самонаводящийся кислород,Оксиджен Хоуминг,Самонаводящийся кислород,quoted_name_similarity,0.667,0.667
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0231_profile,Nightmare Syndrome,Синдром ночного кошмара,Найтмер Синдром,Синдром ночного кошмара,quoted_name_similarity,0.667,0.576
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0211_profile,Scrapless Claw,Сокрушающий коготь,Скраплэсс Коготь,Сокрушающий коготь,quoted_name_similarity,0.647,0.647
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0037_profile,Tail Strike,Удар Хвостом,Тейл Страйк,Удар Хвостом,quoted_name_similarity,0.636,0.329
+patch_text01,text/digimon_profile.mbe/000_Sheet1.csv,digimon_0310_profile,Starlight Explosion,Взрыв Звездного Света,Старлайт Эксплоужн,Взрыв Звездного Света,quoted_name_similarity,0.632,0.632

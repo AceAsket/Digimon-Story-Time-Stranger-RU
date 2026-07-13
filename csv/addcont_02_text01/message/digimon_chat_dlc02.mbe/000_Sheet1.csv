@@ -6,7 +6,7 @@ bango_001_1_reaction_char_BANCHOGOLEMON,char_BANCHOGOLEMON,"Тогда дейс�
 bango_001_2_replay,char_PLAYER_M,Что ты имеешь в виду под «волей»?,
 bango_001_2_reaction_char_BANCHOGOLEMON,char_BANCHOGOLEMON,"Вставать и бороться за свои убеждения,
 не ждать, пока битва сама придёт к тебе.",
-bango_001_3_replay,char_PLAYER_M,"Я думаю, что моя воля довольно слаба.",
+bango_001_3_replay,char_PLAYER_M,"Похоже, мне не хватает силы воли.",
 bango_001_3_reaction_char_BANCHOGOLEMON,char_BANCHOGOLEMON,"Хорошо, что ты это понимаешь. В этом нет стыда.
 Но теперь работай над собой и становись сильнее!",
 bango_001_4_replay,char_PLAYER_M,Я хочу иметь железную волю.,
@@ -45,13 +45,13 @@ omem_001_0_char_OMEGAMON:MERCIFUL MODE,,"Для некоторых единст�
 omem_001_1_replay,char_PLAYER_M,Я понимаю.,
 omem_001_1_reaction_char_OMEGAMON:MERCIFUL MODE,,"Такова моя форма милосердия. Благодарю за то,
 что понимаешь и не вмешиваешься.",
-omem_001_2_replay,char_PLAYER_M,"Довольно безжалостно, вам не кажется?",
+omem_001_2_replay,char_PLAYER_M,"Безжалостно, не находишь?",
 omem_001_2_reaction_char_OMEGAMON:MERCIFUL MODE,,"Поражение для таких существ — спасение.
 Я бы не назвал это безжалостностью.",
 omem_001_3_replay,char_PLAYER_M,Нет ли другого пути?,
 omem_001_3_reaction_char_OMEGAMON:MERCIFUL MODE,,"Нет, таков мой приговор.
 Если у тебя есть иной путь, я оставлю суд тебе.",
-omem_001_4_replay,char_PLAYER_M,Я хотел бы помочь.,
+omem_001_4_replay,char_PLAYER_M,Хочу помочь.,
 omem_001_4_reaction_char_OMEGAMON:MERCIFUL MODE,,"Боюсь, это невозможно.
 Всё, что тебе нужно, — наблюдать за моей работой.",
 banma_001_0_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Приходи ко мне, если у тебя когда-нибудь возникнут проблемы.",
@@ -61,9 +61,9 @@ banma_001_1_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Хорошо. Есл
 banma_001_2_replay,char_PLAYER_M,Проблема? Как что?,
 banma_001_2_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Например... что угодно! Вообще что угодно!
 Просто скажи — и я в деле.",
-banma_001_3_replay,char_PLAYER_M,Вы уже делаете более чем достаточно.,
+banma_001_3_replay,char_PLAYER_M,Ты и так делаешь более чем достаточно.,
 banma_001_3_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Рад это слышать. Цифровой мир — безумное место,
 но я прикрою тебя.",
-banma_001_4_replay,char_PLAYER_M,Я бы не хотел тебя беспокоить.,
+banma_001_4_replay,char_PLAYER_M,Не хочется тебя беспокоить.,
 banma_001_4_reaction_char_BANCHOMAMEMON,char_BANCHOMAMEMON,"Эй, не нужно так формально.
 Заботиться друг о друге — часть дружбы.",

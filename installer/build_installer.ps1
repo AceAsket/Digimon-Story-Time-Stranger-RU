@@ -7,7 +7,7 @@ $ErrorActionPreference = "Stop"
 $Root = Resolve-Path (Join-Path $PSScriptRoot "..")
 $Dist = Join-Path $Root "dist"
 $PackageName = "DSTS_RU_Installer_v$Version"
-$PayloadPackageName = "DSTS_RU_Payload_v$Version"
+$PayloadPackageName = "DSTS_RU_Update_v$Version"
 $Stage = Join-Path $Dist $PackageName
 $PayloadStage = Join-Path $Dist $PayloadPackageName
 $Archive = Join-Path $Dist "$PackageName.zip"
@@ -50,6 +50,8 @@ foreach ($item in $items) {
     $destination = Join-Path $Stage $item
     Copy-Item -LiteralPath $source -Destination $destination -Recurse -Force
 }
+
+Copy-Item -LiteralPath (Join-Path $Root "VERSION") -Destination (Join-Path $Stage "VERSION") -Force
 
 Compress-Archive -Path (Join-Path $Stage "*") -DestinationPath $Archive -CompressionLevel Optimal
 Remove-Item -LiteralPath $Stage -Recurse -Force

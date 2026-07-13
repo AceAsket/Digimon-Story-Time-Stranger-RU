@@ -12,16 +12,16 @@ string2 0,string 1
 12,{is28}{image(ui_icon_btlStatus_009)} Глубокий сон
 13,{is28}{image(ui_icon_btlStatus_010)} Кристаллизация
 14,{is28}{image(ui_icon_btlStatus_011)} Реверс
-15,Восстановление HP +
-16,Восстановление HP -
-17,Восстановление SP +
-18,Восстановление SP -
-19,{is28}{image(ui_icon_btlStatus_032)} Макс. HP +
-20,{is28}{image(ui_icon_btlStatus_034)} Макс. HP -
-21,{is28}{image(ui_icon_btlStatus_033)} Макс. SP +
-22,{is28}{image(ui_icon_btlStatus_035)} Макс. SP -
-23,{is28}{image(ui_icon_btlStatus_014)} Восстановление HP за ход
-24,{is28}{image(ui_icon_btlStatus_015)} Восстановление SP за ход
+15,Восстановление ОЗ +
+16,Восстановление ОЗ -
+17,Восстановление ОС +
+18,Восстановление ОС -
+19,{is28}{image(ui_icon_btlStatus_032)} Макс. ОЗ +
+20,{is28}{image(ui_icon_btlStatus_034)} Макс. ОЗ -
+21,{is28}{image(ui_icon_btlStatus_033)} Макс. ОС +
+22,{is28}{image(ui_icon_btlStatus_035)} Макс. ОС -
+23,{is28}{image(ui_icon_btlStatus_014)} Восстановление ОЗ за ход
+24,{is28}{image(ui_icon_btlStatus_015)} Восстановление ОС за ход
 25,{is28}{image(ui_icon_btlStatus_016)} АТК +
 26,{is28}{image(ui_icon_btlStatus_018)} ЗАЩ +
 27,{is28}{image(ui_icon_btlStatus_020)} ИНТ +

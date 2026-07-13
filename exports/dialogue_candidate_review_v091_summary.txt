@@ -1,0 +1,15 @@
+Dialogue candidate review v091
+current_candidates=316
+reviewed_or_source_confirmed=315
+deferred_unhooked_player_chat=1
+actionable_manual_review=0
+
+By disposition:
+- deferred_unhooked_player_chat: 1
+- reviewed_confirmed_style_rewrite: 1
+- reviewed_fixed_character_correction: 10
+- reviewed_fixed_context_keep: 57
+- reviewed_fixed_context_style_rewrite: 2
+- reviewed_player_address_variant: 111
+- reviewed_style_keep: 132
+- source_confirmed_keep: 2

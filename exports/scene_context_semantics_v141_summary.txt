@@ -1,0 +1,22 @@
+Scene context semantics audit v141
+message_files=164
+files_with_source=163
+files_without_source=1
+rows_seen=25806
+rows_with_source=24564
+rows_without_source=341
+excluded_dummy_or_service_key=512
+excluded_temporary_text=1
+excluded_selection_text=160
+excluded_tag_only=228
+source_patch_text01=22613
+source_app_text01_fallback=332
+entity_source_names=878
+entity_target_names=882
+speaker_gender_ids=56
+raw_candidates=0
+suppressed_repeated_entity_rows=0
+candidates=0
+high=0
+medium=0
+report=exports\scene_context_semantics_v141.csv

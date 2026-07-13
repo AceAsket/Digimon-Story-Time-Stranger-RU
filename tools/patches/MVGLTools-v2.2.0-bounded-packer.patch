@@ -1,0 +1,99 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 7f5842e..d58c2df 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -12,0 +13,4 @@ include(cmake/CPM.cmake)
++if(WIN32)
++  add_definitions("-D_WIN32_WINNT=0x0A00") # Windows 10
++endif()
++
+@@ -14 +18 @@ if(MSVC)
+-  add_definitions("-D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0A00") # Windows 10
++  add_definitions("-D_CRT_SECURE_NO_WARNINGS")
+diff --git a/MVGLTools/CMakeLists.txt b/MVGLTools/CMakeLists.txt
+index 0161f2e..9994943 100644
+--- a/MVGLTools/CMakeLists.txt
++++ b/MVGLTools/CMakeLists.txt
+@@ -19,0 +20,4 @@ target_link_libraries(MVGLTools PUBLIC doboz lz4 AriaCsvParser Boost::property_t
++
++if(WIN32 AND NOT MSVC)
++  target_link_libraries(MVGLTools PUBLIC ws2_32)
++endif()
+diff --git a/MVGLTools/include/MDB1.h b/MVGLTools/include/MDB1.h
+index 46dac46..a4f27fb 100644
+--- a/MVGLTools/include/MDB1.h
++++ b/MVGLTools/include/MDB1.h
+@@ -546,4 +546,7 @@ namespace mvgltools::mdb1
+-        // start compressing files
+-        std::map<std::string, std::promise<std::expected<CompressionResult, std::string>>> futureMap;
+-        // twice the core count to account for blocking threads
+-        auto threadCount = std::thread::hardware_concurrency() * 2;
++        // Start compressing files. Keep the queue bounded: large archives can contain
++        // multi-hundred-megabyte files, so posting the entire archive at once lets
++        // completed results consume several gigabytes while waiting to be written.
++        using CompressionFuture = std::future<std::expected<CompressionResult, std::string>>;
++        std::map<std::string, CompressionFuture> futureMap;
++        const auto availableThreads = std::max(1U, std::thread::hardware_concurrency());
++        const auto threadCount      = std::min(availableThreads, 4U);
+@@ -553 +556,2 @@ namespace mvgltools::mdb1
+-        for (const auto& file : tree)
++        auto nextFile = tree.cbegin();
++        auto scheduleNext = [&]() -> bool
+@@ -555,6 +559,34 @@ namespace mvgltools::mdb1
+-            if (file.compareBit == std::numeric_limits<decltype(file.compareBit)>::max()) continue;
+-
+-            futureMap[file.name.name] = std::promise<std::expected<CompressionResult, std::string>>();
+-
+-            auto lambda = [&]
+-            { futureMap[file.name.name].set_value(getFileData<typename MDB::Compressor>(file.name.path, compress)); };
++            while (nextFile != tree.cend() &&
++                   nextFile->compareBit == std::numeric_limits<decltype(nextFile->compareBit)>::max())
++                ++nextFile;
++
++            if (nextFile == tree.cend()) return false;
++
++            const auto name = nextFile->name.name;
++            const auto path = nextFile->name.path;
++            auto promise = std::make_shared<std::promise<std::expected<CompressionResult, std::string>>>();
++            auto [futureIt, inserted] = futureMap.try_emplace(name, promise->get_future());
++            if (!inserted) return false;
++            ++nextFile;
++
++            boost::asio::post(pool,
++                              [promise, path, compress]
++                              {
++                                  try
++                                  {
++                                      promise->set_value(
++                                          getFileData<typename MDB::Compressor>(path, compress));
++                                  }
++                                  catch (const std::exception& error)
++                                  {
++                                      promise->set_value(std::unexpected(std::format(
++                                          "Error while reading/compressing {}: {}", path.string(), error.what())));
++                                  }
++                                  catch (...)
++                                  {
++                                      promise->set_value(std::unexpected(std::format(
++                                          "Unknown error while reading/compressing {}", path.string())));
++                                  }
++                              });
++            return true;
++        };
+@@ -562,2 +594 @@ namespace mvgltools::mdb1
+-            boost::asio::post(pool, lambda);
+-        }
++        for (unsigned int i = 0; i < threadCount; ++i) scheduleNext();
+@@ -595 +626,7 @@ namespace mvgltools::mdb1
+-            auto data = futureMap[file.name.name].get_future().get();
++            auto futureIt = futureMap.find(file.name.name);
++            if (futureIt == futureMap.end())
++                return std::unexpected(std::format("Internal pack error: {} was not scheduled", file.name.name));
++
++            auto data = futureIt->second.get();
++            futureMap.erase(futureIt);
++            scheduleNext();
+@@ -639 +676 @@ namespace mvgltools::mdb1
+-} // namespace mvgltools::mdb1
+\ No newline at end of file
++} // namespace mvgltools::mdb1

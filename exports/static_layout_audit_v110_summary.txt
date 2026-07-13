@@ -1,0 +1,18 @@
+Static layout audit v110
+scanned_digimon_chat=5792
+scanned_digitter=638
+scanned_profile=478
+scanned_dialogue=20014
+scanned_tutorial=395
+scanned_explanation=1524
+scanned_system_text=10867
+technical_dummy_rows_excluded=502
+candidates=0
+digimon_chat_candidates=0
+digitter_candidates=0
+profile_candidates=0
+dialogue_candidates=0
+tutorial_candidates=0
+explanation_candidates=0
+system_text_candidates=0
+report=exports\static_layout_audit_v110.csv

@@ -72,6 +72,7 @@ FEMALE_SELF_WORDS = {
 
 ENGLISH_RE = re.compile(r"[A-Za-z]{2,}")
 WORD_RE = re.compile(r"[А-Яа-яЁё]+")
+TAG_RE = re.compile(r"\{[^{}]*\}")
 
 
 def unpack_text(s: str) -> str:
@@ -144,17 +145,24 @@ def main() -> None:
                 continue
             tags = row[3] if len(row) > 3 else ""
             text = unpack_text(row[2])
+            visible_text = TAG_RE.sub("", text)
             all_rows.append([speaker_id, relative, row_id, unpack_text(tags), text])
             counts[speaker_id] += 1
 
-            words = {word.lower() for word in WORD_RE.findall(text)}
-            for kind, word_set in (("male_self_form", MALE_SELF_WORDS), ("female_self_form", FEMALE_SELF_WORDS)):
-                for word in sorted(words & word_set):
-                    context = sentence_for_word(text, word)
-                    if has_self_context(context):
-                        audit_rows.append([kind, speaker_id, relative, row_id, word, context, text])
+            # Generated __H/__F rows are validated as pairs by the dynamic
+            # gender builder and Lua tests; auditing either side in isolation
+            # would intentionally report its gendered first-person forms.
+            if not row_id.endswith(("__H", "__F")):
+                words = {word.lower() for word in WORD_RE.findall(visible_text)}
+                for kind, word_set in (("male_self_form", MALE_SELF_WORDS), ("female_self_form", FEMALE_SELF_WORDS)):
+                    for word in sorted(words & word_set):
+                        context = sentence_for_word(visible_text, word)
+                        if has_self_context(context):
+                            audit_rows.append([kind, speaker_id, relative, row_id, word, context, text])
 
-            english_hits = sorted(set(ENGLISH_RE.findall(text)) - {"ADAMAS", "D", "SAT"})
+            # Formatting controls such as {player} and {fc9...} are not
+            # visible English text and must not become localization findings.
+            english_hits = sorted(set(ENGLISH_RE.findall(visible_text)) - {"ADAMAS", "D", "SAT"})
             if english_hits:
                 audit_rows.append([
                     "latin",

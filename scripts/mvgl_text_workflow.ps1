@@ -48,6 +48,11 @@ function Resolve-MvglTool {
         return (Resolve-Path -LiteralPath $env:MVGLTOOLS_CLI).Path
     }
 
+    $fixedCandidate = Join-Path $RepoRoot ".tools\MVGLTools-v2.2.0-fixed\MVGLToolsCLI.exe"
+    if (Test-Path -LiteralPath $fixedCandidate) {
+        return (Resolve-Path -LiteralPath $fixedCandidate).Path
+    }
+
     $candidate = Join-Path $RepoRoot ".tools\MVGLTools-v2.2.0\MVGLTools-v2.2.0-win64\MVGLToolsCLI.exe"
     if (Test-Path -LiteralPath $candidate) {
         return (Resolve-Path -LiteralPath $candidate).Path
@@ -68,7 +73,7 @@ function Pack-Package([string]$Name) {
     if (-not (Test-Path -LiteralPath $payload)) {
         throw "Payload not found: $payload"
     }
-    if (-not (Test-Path -LiteralPath $csvPackage)) {
+    if (-not (Test-Path -LiteralPath $csvPackage) -and $Name -ne "app_text01") {
         Write-Host "[skip] CSV package not found: $Name"
         return
     }
@@ -96,8 +101,62 @@ function Pack-Package([string]$Name) {
         Move-Item -LiteralPath $packedSection -Destination $baseSection
     }
 
-    Write-Host "[pack] ${Name}: pack MVGL -> $payload"
-    Invoke-MvglTool @("--game=dsts", "--mode=pack-mvgl", "--input", $baseDir, "--output", $payload)
+    if ($Name -eq "app_text01") {
+        $titleVersionRoot = Join-Path $RepoRoot "assets\title_version"
+        $titleVersionAsset = Join-Path $titleVersionRoot "ui_title_copyright_01.img"
+        $titleVersionMarker = Join-Path $titleVersionRoot "VERSION"
+        $releaseVersion = (Get-Content -LiteralPath (Join-Path $RepoRoot "VERSION") -Raw).Trim()
+        if (-not (Test-Path -LiteralPath $titleVersionAsset)) {
+            throw "Title version texture not found: $titleVersionAsset"
+        }
+        if (-not (Test-Path -LiteralPath $titleVersionMarker)) {
+            throw "Title version marker not found: $titleVersionMarker"
+        }
+        $assetVersion = (Get-Content -LiteralPath $titleVersionMarker -Raw).Trim()
+        if ($assetVersion -ne $releaseVersion) {
+            throw "Title texture version '$assetVersion' does not match release VERSION '$releaseVersion'."
+        }
+
+        $baseImage = Join-Path $baseDir "images\ui_title_copyright_01.img"
+        if (-not (Test-Path -LiteralPath $baseImage)) {
+            throw "Base title copyright texture not found in app_text01: $baseImage"
+        }
+        Copy-Item -LiteralPath $titleVersionAsset -Destination $baseImage -Force
+        Write-Host "[pack] ${Name}: injected title-screen translation version $assetVersion"
+    }
+
+    if ($Name -eq "patch_text01") {
+        $compiledLua = Join-Path $RepoRoot "verify\lua_gender_hook\compiled"
+        $baseLua = Join-Path $baseDir "lua"
+        $luaNames = @(
+            "function_common.lua",
+            "function_field.lua",
+            "battle_10810200.lua",
+            "battle_11200010.lua",
+            "m360.lua",
+            "m440.lua",
+            "t04prcs.lua",
+            "gender_message_map.lua"
+        )
+        foreach ($luaName in $luaNames) {
+            $sourceLua = Join-Path $compiledLua $luaName
+            if (-not (Test-Path -LiteralPath $sourceLua)) {
+                throw "Compiled Lua hook chunk not found: $sourceLua"
+            }
+            Copy-Item -LiteralPath $sourceLua -Destination (Join-Path $baseLua $luaName) -Force
+        }
+        Write-Host "[pack] ${Name}: injected $($luaNames.Count) compiled Lua hook chunks"
+    }
+
+    # Never let a failed/hung pack truncate the currently installable payload.
+    # Build beside the working tree and promote only a completed non-empty file.
+    $packedArchive = Join-Path $packageWork "$Name.dx11.mvgl.new"
+    Write-Host "[pack] ${Name}: pack MVGL -> $packedArchive"
+    Invoke-MvglTool @("--game=dsts", "--mode=pack-mvgl", "--input", $baseDir, "--output", $packedArchive)
+    if (-not (Test-Path -LiteralPath $packedArchive) -or (Get-Item -LiteralPath $packedArchive).Length -le 0) {
+        throw "MVGL pack produced no usable archive: $packedArchive"
+    }
+    Move-Item -LiteralPath $packedArchive -Destination $payload -Force
 
     if (-not $KeepWork) {
         Remove-DirectorySafe -Path $packageWork -AllowedParent $WorkRoot

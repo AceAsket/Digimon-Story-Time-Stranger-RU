@@ -1,16 +1,16 @@
 string2 0,string 1,string 2,string 3
 omea_001_0_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,Цифровой мир полон загадок.,
-omea_001_1_replay,char_PLAYER_M,Действительно.,
+omea_001_1_replay,char_PLAYER_M,Именно.,
 omea_001_1_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Возможно, я не смогу помочь напрямую, но уверен,
 по пути ты разгадаешь многие из них.",
-omea_001_2_replay,char_PLAYER_M,"Да, и ты один из них.",
+omea_001_2_replay,char_PLAYER_M,"Да, и ты в их числе.",
 omea_001_2_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Я лишь малая часть огромного Цифрового мира.
 Тебе стоит разгадать загадку куда больше.",
 omea_001_3_replay,char_PLAYER_M,Меня это не беспокоит.,
 omea_001_3_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Меня это тоже не тревожит.
 Меня волнует лишь одно — оставаться силой добра.",
 omea_001_4_replay,char_PLAYER_M,Не совсем.,
-omea_001_4_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Противостояние добра и зла довольно просто.
+omea_001_4_reaction_char_OMEGAMON_ALTER-S,char_OMEGAMON_ALTER-S,"Противостояние добра и зла устроено просто.
 Если это твоя цель, я не возражаю.",
 blgra_001_0_char_BLITZGREYMON,char_BLITZGREYMON,Лучше не подходи ко мне слишком близко.,
 blgra_001_1_replay,char_PLAYER_M,Но я хочу быть ближе к тебе.,
@@ -27,7 +27,7 @@ blgra_001_4_reaction_char_BLITZGREYMON,char_BLITZGREYMON,"Тогда отойд�
 Я не хочу, чтобы тебя ударило током.",
 kugul_001_0_char_CRESGARURUMON,char_CRESGARURUMON,"Когда говорят о золотом мечнике,
 они говорят обо мне.",
-kugul_001_1_replay,char_PLAYER_M,Я бы хотел иметь золотой меч!,
+kugul_001_1_replay,char_PLAYER_M,Вот бы и мне золотой меч!,
 kugul_001_1_reaction_char_CRESGARURUMON,char_CRESGARURUMON,"Один только меч победы не гарантирует, и пользоваться им
 могу только я. Делай то, что лучше всего подходит тебе.",
 kugul_001_2_replay,char_PLAYER_M,Любишь же ты блеск.,
@@ -43,10 +43,10 @@ omed_001_0_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,Тебе... не стоит
 omed_001_1_replay,char_PLAYER_M,Но я хочу быть ближе к тебе.,
 omed_001_1_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Подозреваю, даже ты представляешь,
 к чему может привести такой поступок...",
-omed_001_2_replay,char_PLAYER_M,"Я бы не стал, даже если бы ты меня об этом попросил.",
+omed_001_2_replay,char_PLAYER_M,Даже по твоей просьбе не соглашусь.,
 omed_001_2_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Мудрое решение. Так естественно поступит любой,
 кто распознает мою истинную природу.",
-omed_001_3_replay,char_PLAYER_M,"Что бы произошло, если бы я это сделал?",
+omed_001_3_replay,char_PLAYER_M,Что бы тогда произошло?,
 omed_001_3_reaction_char_OMEGAMONZWART_D,char_OMEGAMONZWART_D,"Скажем так, наши отношения
 окажутся на опасном распутье.",
 omed_001_4_replay,char_PLAYER_M,Но мы друзья.,

@@ -1,0 +1,9 @@
+﻿Digimon speaker IDs with dialogue: 403
+Digimon dialogue rows: 11161
+Curated source-confirmed speakers: 56
+Curated first-person gender conflicts: 0
+Mixed context-dependent speaker IDs: 0
+Context-only single-gender evidence: 154
+No explicit first-person form: 193
+Registry: exports\digimon_dialogue_gender_registry_v084.csv
+Conflicts: exports\digimon_dialogue_gender_conflicts_v084.csv
