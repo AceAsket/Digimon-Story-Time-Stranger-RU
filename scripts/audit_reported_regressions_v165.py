@@ -17,6 +17,7 @@ from typing import Optional
 
 from fix_confirmed_calque_tail_v168 import UPDATES as CONFIRMED_CALQUE_UPDATES
 from fix_character_creation_v170 import UPDATES as CHARACTER_CREATION_UPDATES
+from fix_issue_2_ui_v171 import UPDATES as ISSUE_2_UI_UPDATES
 from fix_reported_scenes_v167 import UPDATES as REPORTED_SCENE_UPDATES
 from fix_t01_npc_context_v169 import UPDATES as T01_NPC_CONTEXT_UPDATES
 
@@ -474,6 +475,18 @@ for package, relative, row_id, column, replacement in T01_NPC_CONTEXT_UPDATES:
 
 
 for package, relative, row_id, column, replacement in CHARACTER_CREATION_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in ISSUE_2_UI_UPDATES:
     FIXTURES.append(
         fixture(
             relative,

@@ -1,7 +1,7 @@
 Profile move-name audit v096
-linked_skill_rows=959
+linked_skill_rows=1007
 profile_rows=474
-source_move_mentions=598
+source_move_mentions=619
 candidates=0
 english_move_name_retained=0
 translation_mismatch=0

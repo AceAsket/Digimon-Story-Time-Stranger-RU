@@ -61,17 +61,39 @@ def normalize(text: str) -> str:
 
 def useful_move_name(name: str) -> bool:
     words = re.findall(r"[A-Za-z][A-Za-z'-]+", name)
-    if len(name.strip()) < 7:
+    if len(name.strip()) < 6:
         return False
     if len(words) >= 2:
         return True
-    return any(char in name for char in "-:/") and bool(words)
+    # The old audit discarded every one-word move.  That hid Bubbles,
+    # Bifrost, Triangler, Plasmadness, Eiseiryuojin, Hothead, Necromist and
+    # Weltgeist.  Keep distinctive single words and disambiguate them from
+    # longer move names at the profile-row level below.
+    return len(words) == 1
 
 
 def contains_name(text: str, name: str) -> bool:
+    return bool(name_spans(text, name))
+
+
+def compile_name_pattern(name: str) -> re.Pattern[str]:
     pieces = [re.escape(piece) for piece in name.split()]
     pattern = r"(?<![A-Za-z])" + r"\s+".join(pieces) + r"(?![A-Za-z])"
-    return bool(re.search(pattern, text, re.I))
+    # Case-sensitive matching for one-word names prevents ordinary words in
+    # prose from being mistaken for an attack merely because they coincide
+    # with a short skill name.  Multiword names keep the historical,
+    # case-insensitive behaviour.
+    flags = 0 if len(name.split()) == 1 else re.I
+    return re.compile(pattern, flags)
+
+
+def name_spans(
+    text: str,
+    name: str,
+    compiled: re.Pattern[str] | None = None,
+) -> list[tuple[int, int]]:
+    pattern = compiled or compile_name_pattern(name)
+    return [(match.start(), match.end()) for match in pattern.finditer(text)]
 
 
 def main() -> None:
@@ -103,6 +125,10 @@ def main() -> None:
     profile_rows = 0
     source_mentions = 0
     ordered_names = sorted(display_name, key=len, reverse=True)
+    compiled_patterns = {
+        name_key: compile_name_pattern(display_name[name_key])
+        for name_key in ordered_names
+    }
     for package_root in sorted(path for path in CSV_ROOT.iterdir() if path.is_dir()):
         for path in sorted((package_root / "text").rglob("000_Sheet1.csv")):
             relative = path.relative_to(package_root).as_posix()
@@ -120,12 +146,27 @@ def main() -> None:
                 profile_rows += 1
                 normalized_current = normalize(current_text)
                 seen: set[str] = set()
+                covered_source_spans: list[tuple[int, int]] = []
                 for name_key in ordered_names:
                     english = display_name[name_key]
-                    if name_key in seen or not contains_name(source_text, english):
+                    spans = name_spans(
+                        source_text,
+                        english,
+                        compiled_patterns[name_key],
+                    )
+                    if len(english.split()) == 1:
+                        spans = [
+                            span for span in spans
+                            if not any(
+                                outer_start <= span[0] and span[1] <= outer_end
+                                for outer_start, outer_end in covered_source_spans
+                            )
+                        ]
+                    if name_key in seen or not spans:
                         continue
                     seen.add(name_key)
                     source_mentions += 1
+                    covered_source_spans.extend(spans)
                     if (package_root.name, row_id, english) in ACCEPTED_INFLECTED_PROFILE_NAMES:
                         continue
                     if (package_root.name, row_id, english) in ACCEPTED_CONTEXTUAL_COLLISIONS:
@@ -168,6 +209,8 @@ def main() -> None:
     ]
     SUMMARY.write_text("\n".join(summary) + "\n", encoding="utf-8")
     print("\n".join(summary))
+    if findings:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

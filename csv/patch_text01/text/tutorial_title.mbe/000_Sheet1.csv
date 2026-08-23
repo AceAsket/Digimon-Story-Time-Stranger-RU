@@ -10,8 +10,8 @@ tutorial_title_OutoBattle_01,Расширенный бой: Автоматиче
 tutorial_title_HighSpeedMode_01,Расширенный бой: ускорение боя
 tutorial_title_Boss_01,КО врага
 tutorial_title_Boss_02,Заряд (изменение статуса врага)
-tutorial_title_CpAdd_01,Критические очки (CP)
-tutorial_title_CpFluctuation_01,Получение CP
+tutorial_title_CpAdd_01,Критические очки (КО)
+tutorial_title_CpFluctuation_01,Получение КО
 tutorial_title_Danger_01,ОЗ мигают красным
 tutorial_title_Dead_01,Нокаут
 tutorial_title_Zombi_01,Туман Жнеца (снижает макс. ОЗ)
@@ -36,7 +36,7 @@ tutorial_title_PartyAegiomon_01,Эгиомон: четвёртый боец
 tutorial_title_PartyAegiomon_02,Эгиомон: эволюция
 tutorial_title_Friendship_01,Техника эволюции 3: Связь
 tutorial_title_Talent_01,Техника эволюции 1: Талант
-tutorial_title_BondsPoint_01,Очки аномалии
+tutorial_title_BondsPoint_01,Очки аномалий
 tutorial_title_BondsSkill_01,Навыки агента
 tutorial_title_AgentLevel_01,Ранг агента
 tutorial_title_CrossArtsChange_01,Открытие и изменение кросс-артов

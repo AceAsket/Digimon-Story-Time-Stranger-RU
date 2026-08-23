@@ -109,6 +109,8 @@ if ($LASTEXITCODE -ne 0) {
 if (-not $SkipPayloadPack) {
     $workflowArgs = @{
         Mode = "pack"
+        PythonExe = $ResolvedPython
+        PythonPrefix = $PythonPrefix
     }
     if ($Package.Count -gt 0) {
         $workflowArgs.Package = $Package
