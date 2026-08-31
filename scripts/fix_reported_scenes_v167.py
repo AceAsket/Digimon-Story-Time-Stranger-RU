@@ -23,20 +23,20 @@ def add(relative: str, row_id: str, expected_hash: str, replacement: str, column
 # Aegiomon addresses the female Oracle/Junomon; remove the literal "indulge" calque.
 add("message/m160.mbe/000_Sheet1.csv", "m160_060_050",
     "9bb12f6da63909f9ea68b36ad81e69654c222d0c9719d6abe558cc30442b203e",
-    "В-Вся эта история про «Хрономона» и «Великого Стража»...\n"
-    "Как бы ты ни объясняла, я всё равно ничего не понимаю...")
+    "В-вся эта история про Хрономона и Великого Стража...\n"
+    "Как ни объясняй, я всё равно ничего не понимаю...")
 add("message/m160.mbe/000_Sheet1.csv", "m160_060_210",
     "44e6d0753298d8d80daca04b9ff3844f346cedafd300d2a96bdf775c78d991d3",
-    "Ты исполнишь мою просьбу, Эгиомон?")
+    "Ты выполнишь мою просьбу, Эгиомон?")
 add("message/m160.mbe/000_Sheet1.csv", "m160_060_220",
     "4c4753fdd1e6c5a053558093b71e3beef23985ad52f47f9fa6aeac992addd6b5",
-    "Д-да... Думаю, смогу.")
+    "Д-да... Думаю, выполню.")
 
 # Operator report.
 add("message/m170.mbe/000_Sheet1.csv", "m170_010_050",
     "2214289b6af83ee30c5912f56339f398bbd40b4bb522e73ef35c03785b6544ae",
-    "АДАМАС отслеживает ряд нераскрытых дел... Мы полагаем,\n"
-    "что за большинством из них могут стоять дигимоны.")
+    "В АДАМАС следят за рядом нераскрытых дел... По нашему мнению,\n"
+    "за большинством из них могут стоять дигимоны.")
 
 # Quest objectives: canonical item/name terminology and one consistent imperative.
 QUEST_STEPS = {

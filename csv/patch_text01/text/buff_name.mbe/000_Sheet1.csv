@@ -11,7 +11,7 @@ string2 0,string 1
 11,{is28}{image(ui_icon_btlStatus_008)} Обездвиживание
 12,{is28}{image(ui_icon_btlStatus_009)} Глубокий сон
 13,{is28}{image(ui_icon_btlStatus_010)} Кристаллизация
-14,{is28}{image(ui_icon_btlStatus_011)} Реверс
+14,{is28}{image(ui_icon_btlStatus_011)} Инверсия
 15,Восстановление ОЗ +
 16,Восстановление ОЗ -
 17,Восстановление ОС +

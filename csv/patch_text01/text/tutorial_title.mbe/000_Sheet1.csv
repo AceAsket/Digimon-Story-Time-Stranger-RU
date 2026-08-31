@@ -6,19 +6,19 @@ tutorial_title_BattleCrossarts_01,Кросс-арты
 tutorial_title_Escape_01,Побег (команда боя)
 tutorial_title_Guard_01,Защита (команда боя)
 tutorial_title_Analysis_01,Анализ (команда боя)
-tutorial_title_OutoBattle_01,Расширенный бой: Автоматический режим
+tutorial_title_OutoBattle_01,Расширенный бой: автоматический режим
 tutorial_title_HighSpeedMode_01,Расширенный бой: ускорение боя
 tutorial_title_Boss_01,КО врага
 tutorial_title_Boss_02,Заряд (изменение статуса врага)
 tutorial_title_CpAdd_01,Критические очки (КО)
-tutorial_title_CpFluctuation_01,Получение КО
+tutorial_title_CpFluctuation_01,Получение и потеря КО
 tutorial_title_Danger_01,ОЗ мигают красным
 tutorial_title_Dead_01,Нокаут
 tutorial_title_Zombi_01,Туман Жнеца (снижает макс. ОЗ)
 tutorial_title_AttackCategory_01,Физические и магические атаки
 tutorial_title_DigimonBasic_01,Дигимон
 tutorial_title_Status_01,"Характеристики, навыки и снаряжение"
-tutorial_title_Status_02,Атрибуты АТК/ЗАЩ/ИНТ/ДУХ/СКР/КРТ
+tutorial_title_Status_02,Характеристики: АТК/ЗАЩ/ИНТ/ДУХ/СКР/КРТ
 tutorial_title_Status_03,Атрибуты
 tutorial_title_Status_04,Совместимость атрибутов
 tutorial_title_Convert_01,Конвертация и уровень сканирования
@@ -28,9 +28,9 @@ tutorial_title_SkillChange_01,Дополнительные навыки
 tutorial_title_EquipmentChange_01,Снаряжение
 tutorial_title_Personality_01,Типы личности
 tutorial_title_PersonalityChange_01,Изменение типа личности
-tutorial_title_PersonalitySkill_01,Личн. навык
+tutorial_title_PersonalitySkill_01,Личный навык
 tutorial_title_PersonalitySkillChange_01,Изменение личных навыков
-tutorial_title_DataReturn_01,Возврат Дигимона к данным
+tutorial_title_DataReturn_01,Возврат дигимона к данным
 tutorial_title_Synthetic_01,Усиление синтезом
 tutorial_title_PartyAegiomon_01,Эгиомон: четвёртый боец
 tutorial_title_PartyAegiomon_02,Эгиомон: эволюция
@@ -42,23 +42,23 @@ tutorial_title_AgentLevel_01,Ранг агента
 tutorial_title_CrossArtsChange_01,Открытие и изменение кросс-артов
 tutorial_title_Encounter_01,Встречи
 tutorial_title_FieldAttack_01,Дигиатаки
-tutorial_title_FieldAttack_02,Цифровые атаки для конкретных элементов
+tutorial_title_FieldAttack_02,Дигиатаки разных стихий
 tutorial_title_BackAttack_01,Атаки со спины
-tutorial_title_Convert_02,Преобразование
+tutorial_title_Convert_02,Конвертация
 tutorial_title_Treasurechest_01,Сундуки с сокровищами и материалы
 tutorial_title_Theater_01,Промежуточный театр
 tutorial_title_Dungeon_01,Внешние подземелья
 tutorial_title_DigivaiceConstraints_01,Ограничения Дигивайса
-tutorial_title_PecmonRace_01,Правила Гонки Пекмон
-tutorial_title_PopPoints_01,Всплывающие Точки
-tutorial_title_DigimonRide_01,Дигирид
+tutorial_title_PecmonRace_01,Правила гонки Пекмона
+tutorial_title_PopPoints_01,Точки находок
+tutorial_title_DigimonRide_01,Дигирайд
 tutorial_title_GimmickRide_01,Диги-Кооп
 tutorial_title_OutoRecovery_01,Режим регенерации
 tutorial_title_FieldAnalysis_01,Режим анализа
 tutorial_title_HowToMove_01,Движение и использование камеры
 tutorial_title_Destination_01,Навигационная система
 tutorial_title_MiniMap_01,Расширение карты
-tutorial_title_DigimonHighlighting_01,Отображение карты Враждебного Дигимона
+tutorial_title_DigimonHighlighting_01,Враждебные дигимоны на карте
 tutorial_title_WorldMapRialWorld_01,Карта мира
 tutorial_title_WorldMapRokomon_01,Карта Локомона
 tutorial_title_WorldMapBlimpmon_01,Карта Блимпмона
@@ -72,20 +72,20 @@ tutorial_title_MiniQuest_01,Свободные миссии
 tutorial_title_ChangeQuest_01,Смена миссии
 tutorial_title_Digitter_01,Дигилайн
 tutorial_title_Shop_01,Основы магазина
-tutorial_title_FarmGoodsShop_01,Магазин синтеза предметов фермы
-tutorial_title_TutorialDescription_01,Руководства
+tutorial_title_FarmGoodsShop_01,Лавка синтеза предметов для фермы
+tutorial_title_TutorialDescription_01,Обучение
 tutorial_title_Player_01,Агенты
 tutorial_title_SystemDescription_01,Система
 tutorial_title_DigisterDescripution_01,Дигиферма
 tutorial_title_AddFarmIslandPanel_01,
 tutorial_title_AddFarmDigimon_01,Перенос дигимонов на Дигиферму
 tutorial_title_AddFarmGoods_01,Размещение предметов фермы
-tutorial_title_FarmSpecialTraining_01,Взаимодействие с Дигимонами
+tutorial_title_FarmSpecialTraining_01,Тренировка дигимонов
 tutorial_title_FarmDigicare_01,Дигиуход
 tutorial_title_FarmDevelopment_01,Производство
-tutorial_title_CardsDescription_01,Идеальная Карточная игра Джогмон
-tutorial_title_CardsRule_01,Правила Карточной игры
-tutorial_title_CardsOpponent_01,Поиск Карточных Боевых Противников
+tutorial_title_CardsDescription_01,Совершенная карточная игра «Джогмон»
+tutorial_title_CardsRule_01,Правила карточной игры
+tutorial_title_CardsOpponent_01,Поиск соперников для карточной игры
 tutorial_title_TriviaMisonoInori_01,
 tutorial_title_TriviaMisonoKousuke_01,
 tutorial_title_TriviaMisonoKousuke_02,
@@ -141,12 +141,12 @@ tutorial_title_WorldView_001,Аномальные явления
 tutorial_title_WorldView_002,АДАМАС (Бюро специальных расследований аномальных явлений)
 tutorial_title_WorldView_003,Дигимон (фазово-электронные формы жизни)
 tutorial_title_WorldView_004,Ваш Дигивайс
-tutorial_title_WorldView_005,История АДАМАСА
+tutorial_title_WorldView_005,История АДАМАС
 tutorial_title_Attribute_01,Элементы
-tutorial_title_Factor_01,Трейты
+tutorial_title_Factor_01,Черты
 tutorial_title_EvolutionTechnique_01,Техника деволюции 1: очки таланта
 tutorial_title_EvolutionTechnique_02,Техника деволюции 2: очки связи
-tutorial_title_ActionOrder_01,Порядок хода
+tutorial_title_ActionOrder_01,Порядок ходов
 tutorial_title_WeakPointAttack_01,Атаки на слабые места
 tutorial_title_SpecialSkills_01,Специальные навыки
 tutorial_title_FusionSkills_01,Навыки джогресс-эволюции
@@ -156,18 +156,18 @@ tutorial_title_BattleCommand_02,Навык (команда боя)
 tutorial_title_BattleCommand_03,Предмет (команда боя)
 tutorial_title_BattleCommand_04,Смена (команда боя)
 tutorial_title_BattleCommand_05,Просмотр информации о союзнике (команда боя)
-tutorial_title_SkillDisc_01,Диски с навыками
+tutorial_title_SkillDisc_01,Диски навыков
 tutorial_title_Items_01,Инвентарь
-tutorial_title_BuffDebuff_01,Баффы/дебаффы
+tutorial_title_BuffDebuff_01,Усиления и ослабления
 tutorial_title_AbnormalStatus_01,Аномалии состояния
-tutorial_title_AbnormalStatus_02,Реверс (Изменение состояния)
+tutorial_title_AbnormalStatus_02,Инверсия (изменение состояния)
 tutorial_title_AbnormalStatus_03,Травма (изменение статуса)
 tutorial_title_AbnormalStatus_04,Болезнь (изменение статуса)
-tutorial_title_AbnormalStatus_05,Храбрый (Изменение статуса)
-tutorial_title_AbnormalStatus_06,Сильный (Изменение статуса)
-tutorial_title_AbnormalStatus_07,Мужество (Изменение статуса)
+tutorial_title_AbnormalStatus_05,Храбрость (изменение состояния)
+tutorial_title_AbnormalStatus_06,Сила (изменение состояния)
+tutorial_title_AbnormalStatus_07,Стойкость (изменение состояния)
 tutorial_title_RushOut_01,Неожиданные встречи
-tutorial_title_Accumulation_01,Техника эволюции 2: Накопленные статы
+tutorial_title_Accumulation_01,Техника эволюции 2: накопленные характеристики
 tutorial_title_EvolutionTechnique_03,Техника деволюции 3: накопленные характеристики
-tutorial_title_AbnormalStatus_08,Типы и последствия Аномалий состояния
-tutorial_title_AbnormalStatus_09,Насмешка (Изменение статуса)
+tutorial_title_AbnormalStatus_08,Типы и эффекты аномалий состояния
+tutorial_title_AbnormalStatus_09,Провокация (изменение состояния)

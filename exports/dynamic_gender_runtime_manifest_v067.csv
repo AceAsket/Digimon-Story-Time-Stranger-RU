@@ -62,35 +62,16 @@ patch_text01,message/field_text.mbe/000_Sheet1.csv,g_shop313_0010_0020,g_shop313
 patch_text01,message/field_text.mbe/000_Sheet1.csv,g_shop313_0010_0030,g_shop313_0010_0030,player_address,direct,g_shop313_0010_0030,g_shop313_0010_0030__H,g_shop313_0010_0030__F
 patch_text01,message/h03.mbe/000_Sheet1.csv,f_h0310_0020_0060,f_h0310_0020_0060,player_address,direct,f_h0310_0020_0060,f_h0310_0020_0060__H,f_h0310_0020_0060__F
 patch_text01,message/m040.mbe/000_Sheet1.csv,m040_060_010,m040_060_010,player_address,direct,m040_060_010,m040_060_010__H,m040_060_010__F
-patch_text01,message/m050.mbe/000_Sheet1.csv,m050_010_072,m050_010_070,player,selection_group,m050_010_070 m050_010_071 m050_010_072,m050_010_070__H,m050_010_070__F
-patch_text01,message/m050.mbe/000_Sheet1.csv,m050_010_120,m050_010_120,player_address,direct,m050_010_120,m050_010_120__H,m050_010_120__F
-patch_text01,message/m060.mbe/000_Sheet1.csv,m060_150_100,m060_150_100,player,selection_group,m060_150_100 m060_150_101 m060_150_102,m060_150_100__H,m060_150_100__F
-patch_text01,message/m070.mbe/000_Sheet1.csv,m070_100_010,m070_100_010,operator,direct,m070_100_010,m070_100_010__F,m070_100_010__H
-patch_text01,message/m080.mbe/000_Sheet1.csv,m080_020_070,m080_020_070,player_address,direct,m080_020_070,m080_020_070__H,m080_020_070__F
-patch_text01,message/m080.mbe/000_Sheet1.csv,m080_040_030,m080_040_030,player,selection_group,m080_040_030 m080_040_031 m080_040_032,m080_040_030__H,m080_040_030__F
-patch_text01,message/m090.mbe/000_Sheet1.csv,m090_010_010,m090_010_010,operator,direct,m090_010_010,m090_010_010__F,m090_010_010__H
-patch_text01,message/m090.mbe/000_Sheet1.csv,m090_010_050,m090_010_050,operator,direct,m090_010_050,m090_010_050__F,m090_010_050__H
-patch_text01,message/m090.mbe/000_Sheet1.csv,m090_030_040,m090_030_040,player_address,direct,m090_030_040,m090_030_040__H,m090_030_040__F
-patch_text01,message/m100.mbe/000_Sheet1.csv,m100_060_020,m100_060_020,player_address,direct,m100_060_020,m100_060_020__H,m100_060_020__F
-patch_text01,message/m120.mbe/000_Sheet1.csv,m120_040_010,m120_040_010,operator,direct,m120_040_010,m120_040_010__F,m120_040_010__H
-patch_text01,message/m120.mbe/000_Sheet1.csv,m120_060_100,m120_060_100,player_address,direct,m120_060_100,m120_060_100__H,m120_060_100__F
 patch_text01,message/m130.mbe/000_Sheet1.csv,m130_010_042,m130_010_040,player,selection_group,m130_010_040 m130_010_041 m130_010_042,m130_010_040__H,m130_010_040__F
+patch_text01,message/m140.mbe/000_Sheet1.csv,m140_100_060,m140_100_060,operator,direct,m140_100_060,m140_100_060__F,m140_100_060__H
 patch_text01,message/m170.mbe/000_Sheet1.csv,m170_210_090,m170_210_090,player_address,direct,m170_210_090,m170_210_090__H,m170_210_090__F
 patch_text01,message/m210.mbe/000_Sheet1.csv,m210_030_120,m210_030_120,player_address,direct,m210_030_120,m210_030_120__H,m210_030_120__F
-patch_text01,message/m210.mbe/000_Sheet1.csv,m210_030_132,m210_030_130,player,selection_group,m210_030_130 m210_030_131 m210_030_132,m210_030_130__H,m210_030_130__F
 patch_text01,message/m210.mbe/000_Sheet1.csv,m210_033_020,m210_033_020,player_address,direct,m210_033_020,m210_033_020__H,m210_033_020__F
 patch_text01,message/m260.mbe/000_Sheet1.csv,m260_080_310,m260_080_310,player_address,direct,m260_080_310,m260_080_310__H,m260_080_310__F
 patch_text01,message/m300.mbe/000_Sheet1.csv,m300_010_060,m300_010_060,operator,direct,m300_010_060,m300_010_060__F,m300_010_060__H
-patch_text01,message/m340.mbe/000_Sheet1.csv,m340_020_160,m340_020_160,operator,direct,m340_020_160,m340_020_160__F,m340_020_160__H
-patch_text01,message/m360.mbe/000_Sheet1.csv,m360_070_100,m360_070_100,player_address,direct,m360_070_100,m360_070_100__H,m360_070_100__F
+patch_text01,message/m390.mbe/000_Sheet1.csv,m390_010_010,m390_010_010,player_address,direct,m390_010_010,m390_010_010__H,m390_010_010__F
+patch_text01,message/m390.mbe/000_Sheet1.csv,m390_060_030,m390_060_030,player_address,direct,m390_060_030,m390_060_030__H,m390_060_030__F
 patch_text01,message/m410.mbe/000_Sheet1.csv,m410_023_031,m410_023_030,player,selection_group,m410_023_030 m410_023_031 m410_023_032,m410_023_030__H,m410_023_030__F
-patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_020,m420_030_020,operator,direct,m420_030_020,m420_030_020__F,m420_030_020__H
-patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_030,m420_030_030,operator,direct,m420_030_030,m420_030_030__F,m420_030_030__H
-patch_text01,message/m420.mbe/000_Sheet1.csv,m420_030_050,m420_030_050,operator,direct,m420_030_050,m420_030_050__F,m420_030_050__H
-patch_text01,message/m420.mbe/000_Sheet1.csv,m420_070_030,m420_070_030,operator,direct,m420_070_030,m420_070_030__F,m420_070_030__H
-patch_text01,message/m420.mbe/000_Sheet1.csv,m420_080_070,m420_080_070,operator,direct,m420_080_070,m420_080_070__F,m420_080_070__H
-patch_text01,message/m420.mbe/000_Sheet1.csv,m420_100_080,m420_100_080,player_address,direct,m420_100_080,m420_100_080__H,m420_100_080__F
-patch_text01,message/m420.mbe/000_Sheet1.csv,m420_100_090,m420_100_090,player_address,direct,m420_100_090,m420_100_090__H,m420_100_090__F
 patch_text01,message/rumor_npc.mbe/000_Sheet1.csv,r_d1204_0010_0130,r_d1204_0010_0130,player_address,direct,r_d1204_0010_0130,r_d1204_0010_0130__H,r_d1204_0010_0130__F
 patch_text01,message/s010_001.mbe/000_Sheet1.csv,s010_001_430,s010_001_430,player_address,direct,s010_001_430,s010_001_430__H,s010_001_430__F
 patch_text01,message/s010_179.mbe/000_Sheet1.csv,s010_179_190,s010_179_190,player_address,direct,s010_179_190,s010_179_190__H,s010_179_190__F

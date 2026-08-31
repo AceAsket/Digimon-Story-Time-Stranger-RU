@@ -1,5 +1,5 @@
 Compact dialogue layout audit v125
-rows_scanned=25304
+rows_scanned=25250
 line_limit=65
 source_divergence_min=8
 candidates=0

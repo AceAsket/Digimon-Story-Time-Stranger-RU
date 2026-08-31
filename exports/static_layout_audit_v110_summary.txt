@@ -2,7 +2,7 @@ Static layout audit v110
 scanned_digimon_chat=5792
 scanned_digitter=638
 scanned_profile=478
-scanned_dialogue=20014
+scanned_dialogue=19960
 scanned_tutorial=395
 scanned_explanation=1524
 scanned_system_text=10867

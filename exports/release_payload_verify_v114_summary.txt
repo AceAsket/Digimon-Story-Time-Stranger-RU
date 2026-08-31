@@ -2,12 +2,12 @@ Release payload verification v114
 payload_packages=9
 csv_packages=8
 csv_files_compared=261
-csv_rows_compared=39708
+csv_rows_compared=39654
 lua_chunks_compared=8
 native_payloads=1
 title_assets_compared=1
-app_overlay_entries=258
-app_overlap_rows=94
+app_overlay_entries=4655
+app_overlap_rows=4524
 app_table_guards=213
 app_forbidden_hits=0
 app_critical_ids=9

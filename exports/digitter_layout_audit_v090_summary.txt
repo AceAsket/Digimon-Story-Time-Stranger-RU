@@ -1,8 +1,8 @@
 Digitter layout audit v090
-packages_scanned=1
-rows_scanned=616
+packages_scanned=2
+rows_scanned=1232
 max_visible_line=60
-candidates=0
-P4=0
-P3=0
+candidates=233
+P4=4
+P3=229
 report=exports\digitter_layout_audit_v090.csv

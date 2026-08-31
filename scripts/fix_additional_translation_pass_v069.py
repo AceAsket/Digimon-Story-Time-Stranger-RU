@@ -37,7 +37,7 @@ U: dict[tuple[str, str, str], str] = {
     ("patch_text01", "text/digitter_message.mbe/000_Sheet1.csv", "main_060_090_070"): "Похоже, канал начал расти около восьми лет назад.\nВозможно, толчком стали нынешние съёмки.",
     ("patch_text01", "text/digitter_message.mbe/000_Sheet1.csv", "recovery_start"): "Режим регенерации активирован. ОЗ и ОС дигимонов\nполностью восстановятся через {n0} сек...",
     ("patch_text01", "text/digitter_message.mbe/000_Sheet1.csv", "recovery_end"): "Режим регенерации завершён. ОЗ и ОС дигимонов\nполностью восстановлены.",
-    ("patch_text01", "message/m030.mbe/000_Sheet1.csv", "m030_010_090"): "Какое-то «правитмственное здание»... взорвалось?\nТы вообще о чём?",
+    ("patch_text01", "message/m030.mbe/000_Sheet1.csv", "m030_010_090"): "Какое-то «здание павительства»... взорвалось?\nТы вообще о чём?",
 
     # DLC story blocks with broken grammar or lost meaning.
     ("addcont_01_text01", "message/d120.mbe/000_Sheet1.csv", "d120_070_060"): "«Ничего особенного... Я лишь хочу и дальше заботиться\nо жене и дочери».",

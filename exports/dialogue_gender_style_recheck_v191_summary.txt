@@ -1,0 +1,16 @@
+Dialogue gender and style audit v191
+csv_root=csv
+original_root=D:\Digimon Story Time Stranger\analysis\_gender_empty_original_v191
+dialogue_rows_scanned=25484
+source_rows_loaded=0
+translated_rows_without_source=25484
+audit_candidates=295
+
+By priority:
+- P4: 176
+- P2: 119
+
+By category:
+- possible_player_address_gender: 174
+- style_review: 119
+- machine_phrase: 2

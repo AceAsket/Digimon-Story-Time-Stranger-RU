@@ -1,0 +1,12 @@
+package,file,row_id,disposition,review_note
+patch_text01,message/digimon_chat.mbe/000_Sheet1.csv,rapi_001_3_replay,fixed_context_keep,Реплика игрока обращена к Рэпидмону; Digimon Chat не использует подмену пола героя.
+patch_text01,message/m080.mbe/000_Sheet1.csv,m080_110_190,fixed_context_keep,Инори обращается к Эгиомону.
+patch_text01,message/m140.mbe/000_Sheet1.csv,m140_010_390,fixed_context_keep,Минервамон прямо обращается к Меркуримону.
+patch_text01,message/m170.mbe/000_Sheet1.csv,m170_065_280,fixed_context_keep,Октомон обращается к Шеллмон.
+patch_text01,message/m190.mbe/000_Sheet1.csv,m190_060_250,fixed_context_keep,Юномон обращается к Великому Стражу.
+patch_text01,message/m210.mbe/000_Sheet1.csv,m210_045_010,fixed_context_keep,Титамон реагирует на действие Эгиохусмона.
+patch_text01,message/m230.mbe/000_Sheet1.csv,m230_020_050,fixed_context_keep,Хироко обращается к Инори.
+patch_text01,message/m340.mbe/000_Sheet1.csv,m340_010_070,fixed_context_keep,Инори обращается к своему отцу Такэмии.
+patch_text01,message/m420.mbe/000_Sheet1.csv,m420_015_040,fixed_context_keep,Эгиомон обращается к Инори.
+patch_text01,message/m440.mbe/000_Sheet1.csv,m440_011_040,fixed_context_keep,Эгиомон обращается к Инори.
+patch_text01,message/s020_019.mbe/000_Sheet1.csv,s020_019_500,fixed_context_keep,Нептунмон прямо обращается к ДжамбоГамемону.

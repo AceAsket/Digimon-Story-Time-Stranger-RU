@@ -17,6 +17,29 @@ from typing import Optional
 
 from fix_confirmed_calque_tail_v168 import UPDATES as CONFIRMED_CALQUE_UPDATES
 from fix_character_creation_v170 import UPDATES as CHARACTER_CREATION_UPDATES
+from fix_common_message_dx11_proofread_v175 import UPDATES as COMMON_DX11_UPDATES
+from fix_common_message_proofread_v174 import UPDATES as COMMON_MESSAGE_UPDATES
+from fix_key_help_proofread_v176 import UPDATES as KEY_HELP_UPDATES
+from fix_system_messages_proofread_v177 import UPDATES as SYSTEM_MESSAGE_UPDATES
+from fix_tutorials_proofread_v178 import UPDATES as TUTORIAL_UPDATES
+from fix_effects_and_tamer_skills_proofread_v179 import UPDATES as EFFECTS_TAMER_UPDATES
+from fix_skill_names_and_descriptions_proofread_v180 import UPDATES as SKILL_PROOFREAD_UPDATES
+from fix_items_proofread_v181 import UPDATES as ITEM_PROOFREAD_UPDATES
+from fix_main_story_early_proofread_v182 import UPDATES as MAIN_STORY_EARLY_UPDATES
+from fix_main_story_middle_proofread_v183 import UPDATES as MAIN_STORY_MIDDLE_UPDATES
+from fix_main_story_late_proofread_v184 import UPDATES as MAIN_STORY_LATE_UPDATES
+from fix_main_story_final_proofread_v185 import UPDATES as MAIN_STORY_FINAL_UPDATES
+from fix_global_story_terms_v186 import REPLACEMENTS as GLOBAL_STORY_TERM_REPLACEMENTS
+from fix_side_npc_proofread_v187 import UPDATES as SIDE_NPC_TRANSFORMS
+from fix_chat_digiline_proofread_v188 import UPDATES as CHAT_DIGILINE_TRANSFORMS
+from fix_profiles_and_dlc_proofread_v189 import (
+    DLC_UPDATES,
+    PROFILE_UPDATES,
+    PROFILE_RELATIVE,
+    wrapped as wrap_profile,
+)
+from fix_final_crosscheck_v190 import UPDATES as FINAL_CROSSCHECK_TRANSFORMS
+from fix_gender_recheck_punctuation_v192 import REPLACEMENTS as GENDER_RECHECK_PUNCTUATION_UPDATES
 from fix_issue_2_ui_v171 import UPDATES as ISSUE_2_UI_UPDATES
 from fix_reported_scenes_v167 import UPDATES as REPORTED_SCENE_UPDATES
 from fix_t01_npc_context_v169 import UPDATES as T01_NPC_CONTEXT_UPDATES
@@ -45,6 +68,28 @@ def fixture(
 ) -> Fixture:
     if column is None:
         column = 2 if relative.startswith("message/") else 1
+    if package == "patch_text01":
+        for old, new, _ in GLOBAL_STORY_TERM_REPLACEMENTS:
+            expected = expected.replace(old, new)
+        for transform_relative, transform_row_id, old, new in SIDE_NPC_TRANSFORMS:
+            if relative == transform_relative and row_id == transform_row_id:
+                expected = expected.replace(old, new)
+        for transform_relative, transform_row_id, old, new in CHAT_DIGILINE_TRANSFORMS:
+            if relative == transform_relative and row_id == transform_row_id:
+                expected = expected.replace(old, new)
+        for transform_relative, transform_row_id, old, new in FINAL_CROSSCHECK_TRANSFORMS:
+            if relative == transform_relative and row_id == transform_row_id:
+                expected = expected.replace(old, new)
+        punctuation_text = GENDER_RECHECK_PUNCTUATION_UPDATES.get(relative, {}).get(row_id)
+        if punctuation_text is not None:
+            expected = punctuation_text
+        if relative == PROFILE_RELATIVE:
+            for profile_row_id, _, final_text in PROFILE_UPDATES:
+                if row_id == profile_row_id:
+                    expected = wrap_profile(final_text)
+    for dlc_package, dlc_relative, dlc_row_id, _, old, new in DLC_UPDATES:
+        if package == dlc_package and relative == dlc_relative and row_id == dlc_row_id:
+            expected = expected.replace(old, new)
     return Fixture(package, relative, row_id, column, expected)
 
 
@@ -115,7 +160,7 @@ FIXTURES: list[Fixture] = [
     fixture(
         "message/m030.mbe/000_Sheet1.csv",
         "m030_010_090",
-        "Какое-то «правитмственное здание»... взорвалось?\nТы вообще о чём?",
+        "Какое-то «здание павительства»... взорвалось?\nТы вообще о чём?",
     ),
     fixture(
         "message/rumor_npc.mbe/000_Sheet1.csv",
@@ -125,7 +170,7 @@ FIXTURES: list[Fixture] = [
     fixture(
         "message/m020.mbe/000_Sheet1.csv",
         "m020_130_022",
-        "Нападение произошло при странных обстоятельствах.",
+        "Произошло загадочное нападение.",
     ),
     fixture(
         "text/digitter_message.mbe/000_Sheet1.csv",
@@ -498,7 +543,163 @@ for package, relative, row_id, column, replacement in ISSUE_2_UI_UPDATES:
     )
 
 
+for package, relative, row_id, column, replacement in COMMON_MESSAGE_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in COMMON_DX11_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in KEY_HELP_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in SYSTEM_MESSAGE_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in TUTORIAL_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in EFFECTS_TAMER_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in SKILL_PROOFREAD_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in ITEM_PROOFREAD_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in MAIN_STORY_EARLY_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+for package, relative, row_id, column, replacement in MAIN_STORY_MIDDLE_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+for package, relative, row_id, column, replacement in MAIN_STORY_LATE_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+for package, relative, row_id, column, replacement in MAIN_STORY_FINAL_UPDATES:
+    FIXTURES.append(
+        fixture(
+            relative,
+            row_id,
+            replacement,
+            package=package,
+            column=column,
+        )
+    )
+
+
+# Generated M/F rows are governed by the reviewed gender dataset and audited
+# exhaustively by audit_dynamic_gender_inversion_v191.py.  Do not freeze their
+# older wording here: neutralized variants are intentionally removed by the
+# generator, and retained variants follow the current protagonist-oriented CSV.
+FIXTURES[:] = [
+    item for item in FIXTURES if not item.row_id.endswith(("__H", "__F"))
+]
+
+
 DISPLAY_FORBIDDEN: list[tuple[str, re.Pattern[str]]] = [
+    ("old_bacchusmon", re.compile(r"Бахусмон")),
+    ("old_sirenmon", re.compile(r"Сайренмон")),
+    ("old_current", re.compile(r"(?<![А-Яа-яЁё])Поток(?:а|у|ом|е)?(?![А-Яа-яЁё])")),
+    ("old_gear_forest_case", re.compile(r"Зубчатый Лес")),
+    ("old_cosmic_zone_case", re.compile(r"Космическ(?:ая|ую|ой) Зон(?:а|у|ы)")),
     (
         "latin_HP_SP",
         re.compile(r"(?<![A-Za-zА-Яа-яЁё])(?:HP|SP)(?![A-Za-zА-Яа-яЁё])"),
@@ -693,6 +894,115 @@ def main() -> int:
                     f"expected={context(expected)!r}"
                 )
 
+        for relative, row_id, _, expected_fragment in SIDE_NPC_TRANSFORMS:
+            marker = ("patch_text01", relative)
+            if marker not in documents:
+                path = CSV_ROOT / marker[0] / marker[1]
+                if not path.is_file():
+                    raise RuntimeError(f"fragment fixture file not found: {path}")
+                documents[marker] = read_rows(path)
+            matches = [row for row in documents[marker] if row and row[0] == row_id]
+            label = f"patch_text01/{relative}:{row_id}"
+            if len(matches) != 1:
+                issues.append(f"fragment_fixture_row_count {label}: expected 1, found {len(matches)}")
+                continue
+            row = matches[0]
+            if len(row) <= 2:
+                issues.append(f"fragment_fixture_missing_column {label}: column 2")
+                continue
+            actual = normalized(row[2])
+            expected = normalized(expected_fragment)
+            if expected not in actual:
+                issues.append(
+                    f"fragment_fixture_mismatch {label}: actual={context(actual)!r}; "
+                    f"expected_fragment={context(expected)!r}"
+                )
+
+        for relative, row_id, _, expected_fragment in CHAT_DIGILINE_TRANSFORMS:
+            marker = ("patch_text01", relative)
+            if marker not in documents:
+                path = CSV_ROOT / marker[0] / marker[1]
+                if not path.is_file():
+                    raise RuntimeError(f"fragment fixture file not found: {path}")
+                documents[marker] = read_rows(path)
+            matches = [row for row in documents[marker] if row and row[0] == row_id]
+            label = f"patch_text01/{relative}:{row_id}"
+            if len(matches) != 1:
+                issues.append(f"fragment_fixture_row_count {label}: expected 1, found {len(matches)}")
+                continue
+            column = 2 if relative.startswith("message/") else 1
+            row = matches[0]
+            if len(row) <= column:
+                issues.append(f"fragment_fixture_missing_column {label}: column {column}")
+                continue
+            actual = normalized(row[column])
+            expected = normalized(expected_fragment)
+            if expected not in actual:
+                issues.append(
+                    f"fragment_fixture_mismatch {label}: actual={context(actual)!r}; "
+                    f"expected_fragment={context(expected)!r}"
+                )
+
+        for row_id, _, final_text in PROFILE_UPDATES:
+            marker = ("patch_text01", PROFILE_RELATIVE)
+            if marker not in documents:
+                path = CSV_ROOT / marker[0] / marker[1]
+                if not path.is_file():
+                    raise RuntimeError(f"profile fixture file not found: {path}")
+                documents[marker] = read_rows(path)
+            matches = [row for row in documents[marker] if row and row[0] == row_id]
+            label = f"patch_text01/{PROFILE_RELATIVE}:{row_id}"
+            if len(matches) != 1:
+                issues.append(f"profile_fixture_row_count {label}: expected 1, found {len(matches)}")
+                continue
+            actual = normalized(matches[0][1])
+            expected = normalized(wrap_profile(final_text))
+            if actual != expected:
+                issues.append(
+                    f"profile_fixture_mismatch {label}: actual={context(actual)!r}; "
+                    f"expected={context(expected)!r}"
+                )
+
+        for package, relative, row_id, column, _, expected_fragment in DLC_UPDATES:
+            marker = (package, relative)
+            if marker not in documents:
+                path = CSV_ROOT / package / relative
+                if not path.is_file():
+                    raise RuntimeError(f"DLC fixture file not found: {path}")
+                documents[marker] = read_rows(path)
+            matches = [row for row in documents[marker] if row and row[0] == row_id]
+            label = f"{package}/{relative}:{row_id}"
+            if len(matches) != 1:
+                issues.append(f"DLC_fixture_row_count {label}: expected 1, found {len(matches)}")
+                continue
+            actual = normalized(matches[0][column])
+            expected = normalized(expected_fragment)
+            if expected not in actual:
+                issues.append(
+                    f"DLC_fixture_mismatch {label}: actual={context(actual)!r}; "
+                    f"expected_fragment={context(expected)!r}"
+                )
+
+        for relative, row_id, _, expected_fragment in FINAL_CROSSCHECK_TRANSFORMS:
+            marker = ("patch_text01", relative)
+            if marker not in documents:
+                path = CSV_ROOT / marker[0] / marker[1]
+                if not path.is_file():
+                    raise RuntimeError(f"final fixture file not found: {path}")
+                documents[marker] = read_rows(path)
+            matches = [row for row in documents[marker] if row and row[0] == row_id]
+            label = f"patch_text01/{relative}:{row_id}"
+            if len(matches) != 1:
+                issues.append(f"final_fixture_row_count {label}: expected 1, found {len(matches)}")
+                continue
+            actual = normalized(matches[0][2])
+            expected = normalized(expected_fragment)
+            if expected not in actual:
+                issues.append(
+                    f"final_fixture_mismatch {label}: actual={context(actual)!r}; "
+                    f"expected_fragment={context(expected)!r}"
+                )
+
         wanyamon = next(
             item for item in FIXTURES if item.row_id == "char_WANYAMON"
         )
@@ -804,7 +1114,10 @@ def main() -> int:
         return 2
 
     print("Reported localization regression audit v165")
-    print(f"fixture_assertions={len(FIXTURES)}")
+    print(
+        "fixture_assertions="
+        f"{len(FIXTURES) + len(SIDE_NPC_TRANSFORMS) + len(CHAT_DIGILINE_TRANSFORMS) + len(PROFILE_UPDATES) + len(DLC_UPDATES) + len(FINAL_CROSSCHECK_TRANSFORMS)}"
+    )
     print(f"csv_files_scanned={len(documents)}")
     print(f"csv_rows_scanned={rows_scanned}")
     print(f"display_cells_scanned={display_cells_scanned}")

@@ -86,8 +86,8 @@ add("text/skill_auto_explanation.mbe/000_Sheet1.csv", "97", "ОС")
 # The English source has exactly 20 CP-related rows.  Seven already use the
 # canonical Russian abbreviation "КО"; the 13 inconsistent rows are normalized
 # here.  Do not conflate Critical Points with SP (skill points).
-add("text/buff_message.mbe/000_Sheet1.csv", "133", "КО больше нельзя получить!")
-add("text/buff_message.mbe/000_Sheet1.csv", "100133", "КО больше нельзя получить!")
+add("text/buff_message.mbe/000_Sheet1.csv", "133", "КО больше не накапливаются!")
+add("text/buff_message.mbe/000_Sheet1.csv", "100133", "КО больше не накапливаются!")
 add("text/common_message.mbe/000_Sheet1.csv", "ui_battle_0060", "КО")
 add("text/common_message.mbe/000_Sheet1.csv", "ui_battle_evolution_0060", "КО")
 add(
@@ -103,16 +103,15 @@ add(
 add(
     "text/tamer_skill_explanation.mbe/000_Sheet1.csv",
     "201",
-    "Открывает Кросс-арт: Поле.\n"
-    "Эффект: значительно повышает все характеристики всех союзников\n"
-    "на 2 хода. Кросс-арты можно активировать,\n"
-    "когда шкала КО полностью заполнена.",
+    "Открывает кросс-арт «Поле».\n"
+    "Эффект: значительно повышает все характеристики союзников на 2 хода.\n"
+    "Активировать кросс-арт можно при полностью заполненной шкале КО.",
 )
 for row_id in ("203", "209", "219"):
     add(
         "text/tamer_skill_explanation.mbe/000_Sheet1.csv",
         row_id,
-        "В начале боя шкала КО заполнена на {d0} за каждый ранг агента.",
+        "В начале боя шкала КО заполняется на {d0} за каждый ранг агента.",
     )
 add(
     "text/tutorial_explanation.mbe/000_Sheet1.csv",
@@ -129,7 +128,7 @@ add(
 add(
     "text/tutorial_title.mbe/000_Sheet1.csv",
     "tutorial_title_CpFluctuation_01",
-    "Получение КО",
+    "Получение и потеря КО",
 )
 
 
@@ -137,16 +136,20 @@ add(
 add(
     "text/tutorial_explanation.mbe/000_Sheet1.csv",
     "tutorial_exp_Attribute_01_001",
-    "У каждого дигимона есть сродство с каждой стихией:\n\n"
-    "{is28}{image(ui_icon_skill_001)} Огонь, {is28}{image(ui_icon_skill_002)} Лёд, {is28}{image(ui_icon_skill_003)} Растение, {is28}{image(ui_icon_skill_004)} Вода, {is28}{image(ui_icon_skill_005)} Электричество,\n"
-    "{is28}{image(ui_icon_skill_006)} Сталь, {is28}{image(ui_icon_skill_007)} Ветер, {Is28}{image(ui_icon_skill_008)} Земля, {is28}{image(ui_icon_skill_009)} Свет, {is28}{image(ui_icon_skill_010)} Тьма и\n"
-    "{is28}{image(ui_icon_skill_000)} Нейтральная.\n\n"
-    "Они влияют на устойчивость к стихиям, как показано ниже:\n"
-    "{fc11◎}:{fc9 урон х2}\n"
-    "{fc11○}:{fc9 урон х1.5}\n"
-    "－: Нет эффекта\n"
-    "{fc2△}:{fc9 урон х0.5}\n"
-    "{fc2×}:{fc9 Нет урона}",
+    "Каждый дигимон имеет сродство со стихиями:\n\n"
+    "{is28}{image(ui_icon_skill_001)} Огонь, {is28}{image(ui_icon_skill_002)} Лёд, "
+    "{is28}{image(ui_icon_skill_003)} Растение, {is28}{image(ui_icon_skill_004)} Вода, "
+    "{is28}{image(ui_icon_skill_005)} Электричество,\n"
+    "{is28}{image(ui_icon_skill_006)} Сталь, {is28}{image(ui_icon_skill_007)} Ветер, "
+    "{Is28}{image(ui_icon_skill_008)} Земля, {is28}{image(ui_icon_skill_009)} Свет, "
+    "{is28}{image(ui_icon_skill_010)} Тьма и\n"
+    "{is28}{image(ui_icon_skill_000)} Нейтральный.\n\n"
+    "Сродство определяет сопротивление стихии:\n"
+    "{fc11◎}:{fc9 урон ×2}\n"
+    "{fc11○}:{fc9 урон ×1,5}\n"
+    "－: без изменений\n"
+    "{fc2△}:{fc9 урон ×0,5}\n"
+    "{fc2×}:{fc9 урона нет}",
 )
 add(
     "text/tutorial_explanation.mbe/000_Sheet1.csv",

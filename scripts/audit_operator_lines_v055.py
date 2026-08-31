@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CSV_ROOT = ROOT / "csv" / "patch_text01"
 OUT_ALL = ROOT / "exports" / "operator_lines_v055.csv"
 OUT_AUDIT = ROOT / "exports" / "operator_audit_v055.csv"
+GENDER_DATASET = ROOT / "exports" / "dynamic_gender_confirmed_variants_v066.csv"
 
 
 OPERATOR_IDS = {"char_OPERATOR_M", "char_OPERATOR_F", "char_OPERATOR"}
@@ -97,6 +98,15 @@ def read_rows(path: Path) -> list[list[str]]:
         return list(csv.reader(f))
 
 
+def reviewed_operator_rows() -> set[tuple[str, str]]:
+    with GENDER_DATASET.open("r", encoding="utf-8-sig", newline="") as handle:
+        return {
+            (row["file"], row["base_id"])
+            for row in csv.DictReader(handle)
+            if row["package"] == "patch_text01" and row["role"] == "operator"
+        }
+
+
 def sentence_for_word(text: str, word: str) -> str:
     text = text.replace("\r\n", "\n")
     lower = text.lower()
@@ -117,6 +127,7 @@ def has_self_context(context: str) -> bool:
 
 
 def main() -> None:
+    reviewed_operator = reviewed_operator_rows()
     all_rows = [[
         "speaker_id",
         "relative_path",
@@ -152,7 +163,10 @@ def main() -> None:
             # Generated __H/__F rows are validated as pairs by the dynamic
             # gender builder and Lua tests; auditing either side in isolation
             # would intentionally report its gendered first-person forms.
-            if not row_id.endswith(("__H", "__F")):
+            if (
+                not row_id.endswith(("__H", "__F"))
+                and (relative, row_id) not in reviewed_operator
+            ):
                 words = {word.lower() for word in WORD_RE.findall(visible_text)}
                 for kind, word_set in (("male_self_form", MALE_SELF_WORDS), ("female_self_form", FEMALE_SELF_WORDS)):
                     for word in sorted(words & word_set):

@@ -69,7 +69,7 @@ aigiod_001_2_replay,char_PLAYER_M,Что ты собираешься делат�
 aigiod_001_2_reaction_char_AEGIOCHUSMON_DARK,char_AEGIOCHUSMON_DARK,"Я никому не скажу. Кроме того, я не могу просто взять и
 придумать все это из ниоткуда, ты же знаешь.",
 aigiod_001_3_replay,char_PLAYER_M,"Пожалуйста, не надо.",
-aigiod_001_3_reaction_char_AEGIOCHUSMON_DARK,char_AEGIOCHUSMON_DARK,"Делать это, даже если ты говоришь не делать этого, - вот в чем
+aigiod_001_3_reaction_char_AEGIOCHUSMON_DARK,char_AEGIOCHUSMON_DARK,"Делать это, даже если ты говоришь не делать этого, — вот в чем
 весь смысл. Но, думаю, я могу пропустить это сегодня...",
 aigiod_001_4_replay,char_PLAYER_M,Это на тебя не похоже.,
 aigiod_001_4_reaction_char_AEGIOCHUSMON_DARK,char_AEGIOCHUSMON_DARK,"Пытаешься отговорить меня от этого? Извини, но как только ты
@@ -308,7 +308,7 @@ cerem_001_3_replay,char_PLAYER_M,Ты мне что-то предлагаешь?
 cerem_001_3_reaction_char_CERESMON_MEDIUM,,"У меня здесь есть плоды Карпоса Хуле, но они могут не подойти
 человеческому вкусу.",
 cerem_001_4_replay,char_PLAYER_M,Я умираю с голоду.,
-cerem_001_4_reaction_char_CERESMON_MEDIUM,,"Бедняжка. Будь ты Дигимоном, я мог бы помочь, но, боюсь, я
+cerem_001_4_reaction_char_CERESMON_MEDIUM,,"Бедняжка. Будь ты дигимоном, я мог бы помочь, но, боюсь, я
 ничего не смогу сделать. Прости меня.",
 pluto_001_0_char_PLUTOMON,char_PLUTOMON,Ты меня боишься?,
 pluto_001_1_replay,char_PLAYER_M,Ты потрясающая.,
@@ -360,9 +360,9 @@ gloco_001_3_replay,char_PLAYER_M,"Не заинтересован в том, ч�
 gloco_001_3_reaction_char_GROUNDLOCOMON,char_GROUNDLOCOMON,"Тогда освободи дорогу. Я не хочу врезаться в тебя и разбить
 вдребезги.",
 gloco_001_4_replay,char_PLAYER_M,Ты слишком быстр.,
-gloco_001_4_reaction_char_GROUNDLOCOMON,char_GROUNDLOCOMON,"Скорость - это все для машины. Я собираюсь становиться только
+gloco_001_4_reaction_char_GROUNDLOCOMON,char_GROUNDLOCOMON,"Скорость — это все для машины. Я собираюсь становиться только
 быстрее, так что тебе лучше не отставать!",
-omega_001_0_char_OMEGAMON,char_OMEGAMON,"Бой - это жестокая, болезненная вещь.",
+omega_001_0_char_OMEGAMON,char_OMEGAMON,"Бой — это жестокая, болезненная вещь.",
 omega_001_1_replay,char_PLAYER_M,Давай сражаться вместе.,
 omega_001_1_reaction_char_OMEGAMON,char_OMEGAMON,"Похоже, твоя решимость окрепла.
 Теперь мы товарищи, и наши сердца и помыслы едины.",
@@ -389,7 +389,7 @@ gob_001_4_replay,char_PLAYER_M,Скорее уж слабоват.,
 gob_001_4_reaction_char_GOBURIMON,char_GOBURIMON,"Раз так думаешь, тогда защищай меня.
 Мы ведь друзья, правда? Правда?",
 oga_001_0_char_ORGEMON,char_ORGEMON,"Что? Я выгляжу взбешенным? Я в отличном настроении, говорю тебе!",
-oga_001_1_replay,char_PLAYER_M,"Все, что я вижу, - это сердитую рожу.",
+oga_001_1_replay,char_PLAYER_M,"Все, что я вижу, — это сердитую рожу.",
 oga_001_1_reaction_char_ORGEMON,char_ORGEMON,"Я в лучшем настроении, когда злюсь!
 Разозли меня ещё сильнее — и я кого-нибудь отправлю в полёт!",
 oga_001_2_replay,char_PLAYER_M,Тогда давай споём.,
@@ -445,7 +445,7 @@ gray_001_4_reaction_char_GREYMON,char_GREYMON,"Э-э, да... Спасибо. М
 tita_001_0_char_TITAMON,char_TITAMON,"Кости побежденных принадлежат мне, и я могу претендовать на них.",
 tita_001_1_replay,char_PLAYER_M,Как жестоко.,
 tita_001_1_reaction_char_TITAMON,char_TITAMON,"Простое уничтожение павших может быть более милосердным, но мой
-долг - собрать их обиды.",
+долг — собрать их обиды.",
 tita_001_2_replay,char_PLAYER_M,Звучит как хорошая поминальная служба.,
 tita_001_2_reaction_char_TITAMON,char_TITAMON,"Да? Я навеки забираю на себя обиды падших. Несомненно, нет
 большего позора.",
@@ -504,7 +504,7 @@ otama_001_3_replay,char_PLAYER_M,"Я присоединюсь к тебе, ес�
 otama_001_3_reaction_char_OTAMAMON,char_OTAMAMON,"Ого! Как приятно это слышать! Давай споем дуэтом -
 только ты и я!",
 otama_001_4_replay,char_PLAYER_M,Просто пой от всего сердца!,
-otama_001_4_reaction_char_OTAMAMON,char_OTAMAMON,"Я понимаю, что ты имеешь в виду! Пение - это больше, чем просто
+otama_001_4_reaction_char_OTAMAMON,char_OTAMAMON,"Я понимаю, что ты имеешь в виду! Пение — это больше, чем просто
 умение. Это сердце!",
 syako_001_0_char_SHAKOMON,char_SHAKOMON,Интересно... Что во мне самое очаровательное?,
 syako_001_1_replay,char_PLAYER_M,Твои мощные атаки!,
@@ -562,7 +562,7 @@ seado_001_2_replay,char_PLAYER_M,Почему бы не разработать �
 seado_001_2_reaction_char_SEADRAMON,char_SEADRAMON,"Новый ход... Да, круто. Ты, помоги мне подумать...?",
 seado_001_3_replay,char_PLAYER_M,Я помогу тебе с тренировками.,
 seado_001_3_reaction_char_SEADRAMON,char_SEADRAMON,Совместные тренировки... Звучит весело. Я счастлив...,
-seado_001_4_replay,char_PLAYER_M,Красный цвет на кончике твоего хвоста - это круто.,
+seado_001_4_replay,char_PLAYER_M,Красный цвет на кончике твоего хвоста — это круто.,
 seado_001_4_reaction_char_SEADRAMON,char_SEADRAMON,"Да! Красная часть, круто! Ты... хорошо понимаешь!",
 octa_001_0_char_OCTMON,char_OCTMON,"Аррр! ""ты не заметил за последнее время какую-нибудь модную
 добычу?",
@@ -575,7 +575,7 @@ octa_001_2_reaction_char_OCTMON,char_OCTMON,"Йо-хо! Возможно, мы �
 octa_001_3_replay,char_PLAYER_M,Давай поищем что-нибудь вместе!,
 octa_001_3_reaction_char_OCTMON,char_OCTMON,"Ну, разве ты не загляденье! Удача растет только среди товарищей
 — как и веселье!",
-octa_001_4_replay,char_PLAYER_M,Ты - настоящее сокровище.,
+octa_001_4_replay,char_PLAYER_M,Ты — настоящее сокровище.,
 octa_001_4_reaction_char_OCTMON,char_OCTMON,"Разрази меня гром! Я об этом не подумал. Ты доставил
 удовольствие этому старому морскому волку сверх всякой меры.",
 gawa_001_0_char_GAWAPPAMON,char_GAWAPPAMON,"*вздох* Нужно найти мне несколько новых мелодий, чтобы
@@ -624,7 +624,7 @@ warus_001_2_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"Заставляет
 warus_001_3_replay,char_PLAYER_M,"Что это такое, мой ВарСидрамон.",
 warus_001_3_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"Звучит очень... дружелюбно. Да, мне нравится.",
 warus_001_4_replay,char_PLAYER_M,"Эй, малыш ВарСидрамон!",
-warus_001_4_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"""Малыш"" - полная противоположность классности! Это даже мило!
+warus_001_4_reaction_char_WARUSEADRAMON,char_WARUSEADRAMON,"""Малыш"" — полная противоположность классности! Это даже мило!
 Тем не менее... Не так уж плохо, я думаю.",
 dago_001_0_char_DAGOMON,char_DAGOMON,Темнота... это... успокаивает...,
 dago_001_1_replay,char_PLAYER_M,Давай прогуляемся на солнышке.,
@@ -636,7 +636,7 @@ dago_001_3_replay,char_PLAYER_M,Тогда давай отправимся на 
 dago_001_3_reaction_char_DAGOMON,char_DAGOMON,"Ты выбираешь тьму, как и я? Хм. Возможно, мне не повредит
 присоединиться к тебе на этот раз.",
 dago_001_4_replay,char_PLAYER_M,Тебя легко найти даже в темноте.,
-dago_001_4_reaction_char_DAGOMON,char_DAGOMON,"Найти меня во мраке - задача не из легких... За исключением,
+dago_001_4_reaction_char_DAGOMON,char_DAGOMON,"Найти меня во мраке — задача не из легких... За исключением,
 возможно, тебя...",
 shaw_001_0_char_SHAWUJINMON,char_SHAWUJINMON,Я хочу жить неторопливой жизнью на реке с чистыми водами.,
 shaw_001_1_replay,char_PLAYER_M,Почему бы нам не поискать эту твою реку?,
@@ -679,7 +679,7 @@ mari_001_0_char_MARINEANGEMON,char_MARINEANGEMON,"Интересно, как в�
 mari_001_1_replay,char_PLAYER_M,Набравшись смелости поговорить друг с другом.,
 mari_001_1_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Смелости... Уверена, именно её мне и не хватает. Но рядом
 с тобой я чувствую, что смогу её обрести!",
-mari_001_2_replay,char_PLAYER_M,Понимание друг друга - это ключ к успеху.,
+mari_001_2_replay,char_PLAYER_M,Понимание друг друга — это ключ к успеху.,
 mari_001_2_reaction_char_MARINEANGEMON,char_MARINEANGEMON,"Верно. Без сочувствия и понимания трудно быть вместе
 и даже просто разговаривать.",
 mari_001_3_replay,char_PLAYER_M,"Давай вместе придумаем, как это сделать.",
@@ -1041,7 +1041,7 @@ dera_001_2_replay,char_PLAYER_M,Книги для изучения?,
 dera_001_2_reaction_char_DELUMON,char_DELUMON,"Ку- Совершенно верно. Члены королевской семьи должны быть
 мудрыми... И я должен немного почитать.",
 dera_001_3_replay,char_PLAYER_M,"Закуски, которыми можно поделиться с друзьями!",
-dera_001_3_reaction_char_DELUMON,char_DELUMON,"Именно. Долг знати - помогать тем, кому повезло меньше!",
+dera_001_3_reaction_char_DELUMON,char_DELUMON,"Именно. Долг знати — помогать тем, кому повезло меньше!",
 dera_001_4_replay,char_PLAYER_M,"Может быть, написанные от руки стихи?",
 dera_001_4_reaction_char_DELUMON,char_DELUMON,"Именно. Грустные любовные сонеты, которые я каждую ночь...
 Стоп. Что за чушь я из-за тебя несу?",
@@ -1125,7 +1125,7 @@ syuri_001_2_replay,char_PLAYER_M,"Научи меня, как их бросат�
 syuri_001_2_reaction_char_SHURIMON,char_SHURIMON,"От этого мало пользы, если ты не умеешь вытягивать конечности,
 как я. Но всё же смотри!",
 syuri_001_3_replay,char_PLAYER_M,Одолжи мне один из твоих сюрикенов.,
-syuri_001_3_reaction_char_SHURIMON,char_SHURIMON,"Эти сюрикены - моя жизнь. Даже если я доверяю тебе, я не могу
+syuri_001_3_reaction_char_SHURIMON,char_SHURIMON,"Эти сюрикены — моя жизнь. Даже если я доверяю тебе, я не могу
 отдать их так легко.",
 syuri_001_4_replay,char_PLAYER_M,Хорошо. Я оставляю это на твое усмотрение.,
 syuri_001_4_reaction_char_SHURIMON,char_SHURIMON,"Очень хорошо. Клянусь на этих сюрикенах, я буду защищать своих
@@ -1139,11 +1139,11 @@ kuwa_001_2_replay,char_PLAYER_M,Твоя продуманная боевая с�
 kuwa_001_2_reaction_char_KUWAGAMON,char_KUWAGAMON,"Ты думаешь? Я больше из разряда ""сначала врывайся, потом задавай
 вопросы"".",
 kuwa_001_3_replay,char_PLAYER_M,"То, как ты держишь врагов подальше от своих союзников.",
-kuwa_001_3_reaction_char_KUWAGAMON,char_KUWAGAMON,Верно. Прятаться за мной - одно из самых безопасных мест.,
+kuwa_001_3_reaction_char_KUWAGAMON,char_KUWAGAMON,Верно. Прятаться за мной — одно из самых безопасных мест.,
 kuwa_001_4_replay,char_PLAYER_M,Этот несгибаемый боевой дух.,
 kuwa_001_4_reaction_char_KUWAGAMON,char_KUWAGAMON,"Чтобы защищать тех, кто нуждается в защите,
 тебе нужно самое сильное сердце на свете.",
-tyrant_001_0_char_TYRANTKABUTERIMON,char_TYRANTKABUTERIMON,Я - Монарх Насекомых!,
+tyrant_001_0_char_TYRANTKABUTERIMON,char_TYRANTKABUTERIMON,Я — Монарх Насекомых!,
 tyrant_001_1_replay,char_PLAYER_M,Я признаю твою силу.,
 tyrant_001_1_reaction_char_TYRANTKABUTERIMON,char_TYRANTKABUTERIMON,"Склонись в благоговении перед славой моей
 непробиваемой оболочки из хрондигизоида.",
@@ -1162,7 +1162,7 @@ roto_001_2_replay,char_PLAYER_M,Откуда берется эта аура?,
 roto_001_2_reaction_char_LOTOSMON,char_LOTOSMON,"Моя сила, дарующая мирные сны, которые позволяют тебе забыть о
 своих заботах.",
 roto_001_3_replay,char_PLAYER_M,"Дай мне немного этого блеска, почему бы тебе этого не сделать?",
-roto_001_3_reaction_char_LOTOSMON,char_LOTOSMON,"Бери столько, сколько захочешь. Все, чего я желаю, - это твоего
+roto_001_3_reaction_char_LOTOSMON,char_LOTOSMON,"Бери столько, сколько захочешь. Все, чего я желаю, — это твоего
 счастья.",
 roto_001_4_replay,char_PLAYER_M,Я не могу насытиться этим блеском.,
 roto_001_4_reaction_char_LOTOSMON,char_LOTOSMON,"Я рада. Продолжай любоваться мной — и я исполню
@@ -1191,7 +1191,7 @@ roseb_001_2_reaction_char_ROSEMON_BM,char_ROSEMON_BM,"Сначала хорош�
 roseb_001_3_replay,char_PLAYER_M,Я хочу красоты.,
 roseb_001_3_reaction_char_ROSEMON_BM,char_ROSEMON_BM,Тогда я отдам это тебе — в обмен на твою любовь.,
 roseb_001_4_replay,char_PLAYER_M,Я хочу любви.,
-roseb_001_4_reaction_char_ROSEMON_BM,char_ROSEMON_BM,Тогда я отдам его тебе - в обмен на твою красоту.,
+roseb_001_4_reaction_char_ROSEMON_BM,char_ROSEMON_BM,Тогда я отдам его тебе — в обмен на твою красоту.,
 hag_001_0_char_HAGURUMON,char_HAGURUMON,Джиджиги! Джиджиги!,
 hag_001_1_replay,char_PLAYER_M,"Подожди. Это значит, что ты хочешь драться?",
 hag_001_1_reaction_char_HAGURUMON,char_HAGURUMON,"Джиджиджи... Хотя я и люблю иногда расслабиться, у меня нет к
@@ -1290,7 +1290,7 @@ clock_001_4_replay,char_PLAYER_M,Я всегда найду время для н
 clock_001_4_reaction_char_CLOCKMON,char_CLOCKMON,"Что ж, приятно это слышать. Когда-нибудь я тоже уделю тебе свое
 время.",
 mame_001_0_char_MAMEMON,char_MAMEMON,Я хочу быть большим. Я имею в виду ПО-НАСТОЯЩЕМУ большим!,
-mame_001_1_replay,char_PLAYER_M,"Маленький и сильный - это достаточно хорошо, не так ли?",
+mame_001_1_replay,char_PLAYER_M,"Маленький и сильный — это достаточно хорошо, не так ли?",
 mame_001_1_reaction_char_MAMEMON,char_MAMEMON,"Я бы хотел быть большим и сильным, но, думаю, я могу начать с
 ""сильной"" части!",
 mame_001_2_replay,char_PLAYER_M,Просто врагам легче обнаружить большие размеры.,
@@ -1303,10 +1303,10 @@ mame_001_4_reaction_char_MAMEMON,char_MAMEMON,Т-ты правда так дум
 metma_001_0_char_METALMAMEMON,char_METALMAMEMON,Теперь я на 90% машина. Разве это не круто?!,
 metma_001_1_replay,char_PLAYER_M,Зависит от твоей силы.,
 metma_001_1_reaction_char_METALMAMEMON,char_METALMAMEMON,"Моя сила — не шутка. Я ещё покажу тебе, насколько я крут!",
-metma_001_2_replay,char_PLAYER_M,"Крутость - это все, что связано с навыками.",
+metma_001_2_replay,char_PLAYER_M,"Крутость — это все, что связано с навыками.",
 metma_001_2_reaction_char_METALMAMEMON,char_METALMAMEMON,"Тогда я очень крут! Моя энергетическая бомба обладает
 потрясающей разрушительной силой!",
-metma_001_3_replay,char_PLAYER_M,Механическое тело - это так круто!,
+metma_001_3_replay,char_PLAYER_M,Механическое тело — это так круто!,
 metma_001_3_reaction_char_METALMAMEMON,char_METALMAMEMON,"Можешь взглянуть поближе, если хочешь!",
 metma_001_4_replay,char_PLAYER_M,"Ты крут, с техникой или без нее.",
 metma_001_4_reaction_char_METALMAMEMON,char_METALMAMEMON,"Серьёзно? То есть, типа, круто внутри?! Вот это
@@ -1354,7 +1354,7 @@ megag_001_3_reaction_char_MEGAGROWLMON,char_MEGAGROWLMON,"Тебе не нужн
 megag_001_4_replay,char_PLAYER_M,Я не позволю тебе совершить ничего безрассудного.,
 megag_001_4_reaction_char_MEGAGROWLMON,char_MEGAGROWLMON,"Твое беспокойство необоснованно. Сила внутри меня намного
 больше, чем ты думаешь.",
-ulbra_001_0_char_ULTIMATEBRAKIMON,char_ULTIMATEBRAKIMON,Я самый гигантский Дигимон на земле.,
+ulbra_001_0_char_ULTIMATEBRAKIMON,char_ULTIMATEBRAKIMON,Я крупнейший дигимон на земле.,
 ulbra_001_1_replay,char_PLAYER_M,Твой вес немного пугает.,
 ulbra_001_1_reaction_char_ULTIMATEBRAKIMON,char_ULTIMATEBRAKIMON,"Не нужно меня бояться, но будь осторожен, чтобы тебя не
 затоптали ногами.",
@@ -1372,7 +1372,7 @@ mera_001_1_reaction_char_MERAMON,char_MERAMON,"Мило! Мне нравится
 mera_001_2_replay,char_PLAYER_M,Что подпитывает твой огонь?,
 mera_001_2_reaction_char_MERAMON,char_MERAMON,"Ну, я, конечно! Я могу поддерживать этот огонь вечно!",
 mera_001_3_replay,char_PLAYER_M,Гори еще ярче!,
-mera_001_3_reaction_char_MERAMON,char_MERAMON,"Черт возьми, да! Я - бушующее пламя!",
+mera_001_3_reaction_char_MERAMON,char_MERAMON,"Черт возьми, да! Я — бушующее пламя!",
 mera_001_4_replay,char_PLAYER_M,"Только осторожнее, не переусердствуй.",
 mera_001_4_reaction_char_MERAMON,char_MERAMON,"Ценю твою мысль! Но это пламя даже близко не дотягивает до моего
 максимума, приятель!",
@@ -1420,13 +1420,13 @@ kote_001_0_char_KOTEMON,char_KOTEMON,"Если ты хочешь стать си
 kote_001_1_replay,char_PLAYER_M,"Научи меня, пожалуйста!",
 kote_001_1_reaction_char_KOTEMON,char_KOTEMON,"Вот это настрой! Освой у меня все приёмы, какие только сможешь.",
 kote_001_2_replay,char_PLAYER_M,Как я могу стать сильнее?,
-kote_001_2_reaction_char_KOTEMON,char_KOTEMON,"Боюсь, тренировка - это единственный способ. Тем не менее, сила
+kote_001_2_reaction_char_KOTEMON,char_KOTEMON,"Боюсь, тренировка — это единственный способ. Тем не менее, сила
 - это еще не все.",
 kote_001_3_replay,char_PLAYER_M,Мне не хочется тренироваться...,
 kote_001_3_reaction_char_KOTEMON,char_KOTEMON,"И все же тренировки дают такие уникальные идеи! Возможно, это
 даже способ прочитать своего оппонента.",
-kote_001_4_replay,char_PLAYER_M,Сила - это еще не все.,
-kote_001_4_reaction_char_KOTEMON,char_KOTEMON,"Хорошо сказано. Если только эти слова - не просто кислый
+kote_001_4_replay,char_PLAYER_M,Сила — это еще не все.,
+kote_001_4_reaction_char_KOTEMON,char_KOTEMON,"Хорошо сказано. Если только эти слова — не просто кислый
 виноград.",
 bui_001_0_char_V-MON,char_V-MON,Я хочу сделать для тебя больше.,
 bui_001_1_replay,char_PLAYER_M,Тогда стань еще сильнее.,
@@ -1448,7 +1448,7 @@ gao_001_3_replay,char_PLAYER_M,Разве это не очевидно?,
 gao_001_3_reaction_char_GAOMON,char_GAOMON,"Да, конечно, я могу!",
 gao_001_4_replay,char_PLAYER_M,Не слишком здорово.,
 gao_001_4_reaction_char_GAOMON,char_GAOMON,"Нужно время от времени делать перерывы, да?",
-falco_001_0_char_FALCOMON,char_FALCOMON,Парить в небе - потрясающее ощущение!,
+falco_001_0_char_FALCOMON,char_FALCOMON,Парить в небе — потрясающее ощущение!,
 falco_001_1_replay,char_PLAYER_M,Я хочу полетать с тобой.,
 falco_001_1_reaction_char_FALCOMON,char_FALCOMON,"Если бы только у тебя были крылья, как у меня, а?",
 falco_001_2_replay,char_PLAYER_M,Я знаю.,
@@ -1464,7 +1464,7 @@ gal_001_1_reaction_char_GARGOMON,char_GARGOMON,"Я чувствую то же с
 gal_001_2_replay,char_PLAYER_M,Я не мог сказать.,
 gal_001_2_reaction_char_GARGOMON,char_GARGOMON,"Хорошо. Тогда в следующий раз делай заметки,
 пока я бегаю и летаю, а потом сравним.",
-gal_001_3_replay,char_PLAYER_M,Бег - это быстрее.,
+gal_001_3_replay,char_PLAYER_M,Бег — это быстрее.,
 gal_001_3_reaction_char_GARGOMON,char_GARGOMON,"Я бы выиграл у тебя гонку... Но просто бежать вместе, похоже,
 было бы весело.",
 gal_001_4_replay,char_PLAYER_M,Летать стало быстрее.,
@@ -1539,10 +1539,10 @@ shout_001_4_reaction_char_SHOUTMON,char_SHOUTMON,"Я не одолжу тебе 
 Это наша гармония, детка!",
 lena_001_0_char_RENAMON,char_RENAMON,Кого из дигимонов ты считаешь по-настоящему сильным?,
 lena_001_1_replay,char_PLAYER_M,Я не мог сказать.,
-lena_001_1_reaction_char_RENAMON,char_RENAMON,"Я тоже не мог, но если я продолжу побеждать сильного Дигимона, я
+lena_001_1_reaction_char_RENAMON,char_RENAMON,"Я тоже не мог, но если я продолжу побеждать сильных дигимонов, я
 уверен, что когда-нибудь разберусь с этим.",
 lena_001_2_replay,char_PLAYER_M,"Не думаю, что дело в тебе.",
-lena_001_2_reaction_char_RENAMON,char_RENAMON,"Это понятно. В конце концов, этот мир полон Дигимон, которых я
+lena_001_2_reaction_char_RENAMON,char_RENAMON,"Это понятно. В конце концов, этот мир полон дигимонов, которых я
 никогда не видел.",
 lena_001_3_replay,char_PLAYER_M,"Ты, конечно.",
 lena_001_3_reaction_char_RENAMON,char_RENAMON,"Спасибо. Я одолел немало сильных дигимонов и скопировал их
@@ -1566,10 +1566,10 @@ machg_001_0_char_MACHGAOGAMON,char_MACHGAOGAMON,Я уверен в своих д
 machg_001_1_replay,char_PLAYER_M,Тогда покажи мне.,
 machg_001_1_reaction_char_MACHGAOGAMON,char_MACHGAOGAMON,"Это не самое лучшее место для запуска моих ракетных
 двигателей...",
-machg_001_2_replay,char_PLAYER_M,Ракетные двигатели - дело рискованное.,
+machg_001_2_replay,char_PLAYER_M,Ракетные двигатели — дело рискованное.,
 machg_001_2_reaction_char_MACHGAOGAMON,char_MACHGAOGAMON,Тебе нечего бояться. Я полностью контролирую их. Вот увидишь.,
 machg_001_3_replay,char_PLAYER_M,"Не терпится увидеть, что ты с ними сделаешь.",
-machg_001_3_reaction_char_MACHGAOGAMON,char_MACHGAOGAMON,"Я тебя не подведу. Эти ракетные двигатели - как продолжение
+machg_001_3_reaction_char_MACHGAOGAMON,char_MACHGAOGAMON,"Я тебя не подведу. Эти ракетные двигатели — как продолжение
 моего собственного тела.",
 machg_001_4_replay,char_PLAYER_M,Теперь поосторожнее с ними.,
 machg_001_4_reaction_char_MACHGAOGAMON,char_MACHGAOGAMON,Я ценю твою заботу. Не терпится их продемонстрировать!,
@@ -1630,7 +1630,7 @@ aird_001_2_replay,char_PLAYER_M,Я хочу уехать куда-нибудь �
 aird_001_2_reaction_char_AIRDRAMON,char_AIRDRAMON,"Мы с тобой по-разному понимаем слово «далеко»,
 так что сначала стоит определиться.",
 aird_001_3_replay,char_PLAYER_M,Я не хочу никуда идти.,
-aird_001_3_reaction_char_AIRDRAMON,char_AIRDRAMON,"Возможно, я ошибся. Но тебе стоит знать: летать - это
+aird_001_3_reaction_char_AIRDRAMON,char_AIRDRAMON,"Возможно, я ошибся. Но тебе стоит знать: летать — это
 замечательно!",
 aird_001_4_replay,char_PLAYER_M,"Я не хочу, чтобы меня подвозили.",
 aird_001_4_reaction_char_AIRDRAMON,char_AIRDRAMON,"Что ж, если когда-нибудь настанет день, когда тебе понадобится
@@ -1696,19 +1696,19 @@ pro_001_4_reaction_char_PLOTMON,char_PLOTMON,"Симпатичный?! Знае�
 Какие приятные слова!",
 teri_001_0_char_TERRIERMON,char_TERRIERMON,Нам следовало бы относиться ко всему более непринужденно.,
 teri_001_1_replay,char_PLAYER_M,"По-моему, нам пора стать серьёзнее.",
-teri_001_1_reaction_char_TERRIERMON,char_TERRIERMON,"Ты - нечто особенное, не так ли? И все же, не изматывай себя
+teri_001_1_reaction_char_TERRIERMON,char_TERRIERMON,"Ты — нечто особенное, не так ли? И все же, не изматывай себя
 сейчас.",
 teri_001_2_replay,char_PLAYER_M,"Я уже беззаботен, детка!",
 teri_001_2_reaction_char_TERRIERMON,char_TERRIERMON,"Не с моей точки зрения, но если ты так говоришь. Я постараюсь
 последовать твоему примеру.",
 teri_001_3_replay,char_PLAYER_M,Немного серьезности еще никому не повредило.,
-teri_001_3_reaction_char_TERRIERMON,char_TERRIERMON,"Легкость и серьезность - это две стороны одной медали,
-понимаешь? Я - идеальный пример.",
+teri_001_3_reaction_char_TERRIERMON,char_TERRIERMON,"Легкость и серьезность — это две стороны одной медали,
+понимаешь? Я — идеальный пример.",
 teri_001_4_replay,char_PLAYER_M,Не слишком ли ты легкомысленна?,
 teri_001_4_reaction_char_TERRIERMON,char_TERRIERMON,"Для меня «слишком» — в самый раз.
 Вот умеешь сделать дигимону комплимент!",
 lop_001_0_char_LOPMON,char_LOPMON,"Я... Ты же знаешь, я не плакса!",
-lop_001_1_replay,char_PLAYER_M,Ты - словарное определение одного из них.,
+lop_001_1_replay,char_PLAYER_M,Ты — словарное определение одного из них.,
 lop_001_1_reaction_char_LOPMON,char_LOPMON,"Я говорил тебе, что это не так, но ты... Ты...! *шмыгаю носом*
 Я не буду плакать, черт возьми! Ты слышишь меня?!",
 lop_001_2_replay,char_PLAYER_M,"Только плаксы говорят, что они не плаксы.",
@@ -1847,26 +1847,26 @@ claan_001_3_reaction_char_CLAVISANGEMON,char_CLAVISANGEMON,"Это замеча�
 claan_001_4_replay,char_PLAYER_M,Я хочу помочь.,
 claan_001_4_reaction_char_CLAVISANGEMON,char_CLAVISANGEMON,"Я справлюсь с охраной Врат Зенита в одиночку.
 Но ценю твою заботу.",
-ofa_001_0_char_OPHANIMON,char_OPHANIMON,"Я Суперангел, один из трех Небесных Дигимонов, охраняющих Ядро
-Цифрового мира.",
+ofa_001_0_char_OPHANIMON,char_OPHANIMON,"Я — высший ангел, один из трёх небесных дигимонов,
+охраняющих Ядро Цифрового мира.",
 ofa_001_1_replay,char_PLAYER_M,Я могу чем-нибудь тебе помочь?,
 ofa_001_1_reaction_char_OPHANIMON,char_OPHANIMON,"Меня порадует, если ты расскажешь всему
 Цифровому миру о моей любви и милосердии.",
 ofa_001_2_replay,char_PLAYER_M,В чём твой долг?,
-ofa_001_2_reaction_char_OPHANIMON,char_OPHANIMON,"Мой долг - распространять любовь и сострадание по всему
-цифровому миру. Это то, кто я есть.",
-ofa_001_3_replay,char_PLAYER_M,Что такое Суперангел?,
-ofa_001_3_reaction_char_OPHANIMON,char_OPHANIMON,"Одна из ролей среди ангелов и относится к типу Дигимонов, очень
-похожих на ""Насекомых"" или ""Рептилий"".",
+ofa_001_2_reaction_char_OPHANIMON,char_OPHANIMON,"Мой долг — распространять любовь и сострадание по всему
+цифровому миру. Такова моя сущность.",
+ofa_001_3_replay,char_PLAYER_M,Что значит «высший ангел»?,
+ofa_001_3_reaction_char_OPHANIMON,char_OPHANIMON,"Это один из ангельских чинов — как типы «Насекомое» или
+«Рептилия» у других дигимонов.",
 ofa_001_4_replay,char_PLAYER_M,Для тебя нормально быть здесь?,
 ofa_001_4_reaction_char_OPHANIMON,char_OPHANIMON,"Я здесь не случайно: мне предстоит за чем-то наблюдать
 и чего-то добиться.",
-serap_001_0_char_SERAPHIMON,char_SERAPHIMON,"Я серафим Дигимон, тот, кто правит всеми Ангелами Дигимон.",
+serap_001_0_char_SERAPHIMON,char_SERAPHIMON,"Я — дигимон-серафим, правящий всеми ангелами-дигимонами.",
 serap_001_1_replay,char_PLAYER_M,Я могу чем-нибудь тебе помочь?,
 serap_001_1_reaction_char_SERAPHIMON,char_SERAPHIMON,Не позволяй злу существовать в этом мире.,
 serap_001_2_replay,char_PLAYER_M,Разве это делает тебя выдающимся?,
-serap_001_2_reaction_char_SERAPHIMON,char_SERAPHIMON,"Я принадлежу к высшему эшелону Ангелов-Дигимонов, но это просто
-роль, отведенная мне.",
+serap_001_2_reaction_char_SERAPHIMON,char_SERAPHIMON,"Я принадлежу к высшему чину ангелов-дигимонов, но это просто
+роль, отведённая мне.",
 serap_001_3_replay,char_PLAYER_M,Что такое Серафим?,
 serap_001_3_reaction_char_SERAPHIMON,char_SERAPHIMON,"Величайший из всех ангелов, говорят они. Это не меняет того
 факта, что мы друзья.",
@@ -1889,7 +1889,7 @@ pega_001_4_reaction_char_PEGASMON,char_PEGASMON,"Уверяю тебя, это �
 Но рядом с тобой он, возможно, и не сработает?",
 nefe_001_0_char_NEFERTIMON,char_NEFERTIMON,Позволь мне очаровать тебя светом моей улыбки.,
 nefe_001_1_replay,char_PLAYER_M,Ты не расстроен?,
-nefe_001_1_reaction_char_NEFERTIMON,char_NEFERTIMON,"Такие мысли - доказательство твоей нечистоты. Однажды я очищу
+nefe_001_1_reaction_char_NEFERTIMON,char_NEFERTIMON,"Такие мысли — доказательство твоей нечистоты. Однажды я очищу
 тебя своим обаянием.",
 nefe_001_2_replay,char_PLAYER_M,Подожди. Ты улыбаешься?,
 nefe_001_2_reaction_char_NEFERTIMON,char_NEFERTIMON,"Подожди. Ты не можешь сказать? Однажды я очищу тебя своим
@@ -1910,7 +1910,7 @@ mug_001_3_replay,char_PLAYER_M,Ни единого шанса.,
 mug_001_3_reaction_char_MAGNAMON,char_MAGNAMON,"Сила чудес реальна.
 Никогда не сдавайся, какой бы тяжёлой ни была ситуация.",
 mug_001_4_replay,char_PLAYER_M,"Я верю в тебя, Магнамон.",
-mug_001_4_reaction_char_MAGNAMON,char_MAGNAMON,Приятно это слышать. Верить в меня - значит верить в силу чудес.,
+mug_001_4_reaction_char_MAGNAMON,char_MAGNAMON,Приятно это слышать. Верить в меня — значит верить в силу чудес.,
 coro_001_0_char_CORONAMON,char_CORONAMON,"Ни у кого нет больше мужества, чем у меня!",
 coro_001_1_replay,char_PLAYER_M,А кроме смелости у тебя что-нибудь есть?,
 coro_001_1_reaction_char_CORONAMON,char_CORONAMON,"Солнце на моей стороне,
@@ -2060,7 +2060,7 @@ megi_001_3_reaction_char_MEGIDRAMON,char_MEGIDRAMON,"Итак, ты понима
 megi_001_4_replay,char_PLAYER_M,Мне жаль тебя.,
 megi_001_4_reaction_char_MEGIDRAMON,char_MEGIDRAMON,"Твоя попытка привлечь мое внимание бессмысленна. Ты достойна
 сожаления.",
-beow_001_0_char_BEOWOLFMON,char_BEOWOLFMON,Что выше - дикая природа или интеллект?,
+beow_001_0_char_BEOWOLFMON,char_BEOWOLFMON,Что выше — дикая природа или интеллект?,
 beow_001_1_replay,char_PLAYER_M,Дикая природа.,
 beow_001_1_reaction_char_BEOWOLFMON,char_BEOWOLFMON,"Да, возможно, моя необузданность и есть источник моего
 непоколебимого боевого духа.",
@@ -2124,7 +2124,7 @@ yuki_001_3_reaction_char_YUKIDARUMON,char_YUKIDARUMON,"Не выносишь х�
 yuki_001_4_replay,char_PLAYER_M,Тебе там не холодно?,
 yuki_001_4_reaction_char_YUKIDARUMON,char_YUKIDARUMON,"Конечно, я в порядке! Кроме того, мое сердце наполняется теплом,
 когда я с тобой.",
-moja_001_0_char_MOJYAMON,char_MOJYAMON,"Я слышал, меня называют ""Редким животным Дигимоном"". Что во мне
+moja_001_0_char_MOJYAMON,char_MOJYAMON,"Я слышал, меня называют «редким животным-дигимоном». Что во мне
 такого редкого?",
 moja_001_1_replay,char_PLAYER_M,Люди не так уж часто сталкиваются с тобой.,
 moja_001_1_reaction_char_MOJYAMON,char_MOJYAMON,"Встретиться со мной в глуши можно в любое время!
@@ -2201,10 +2201,10 @@ piko_001_3_reaction_char_PICODEVIMON,char_PICODEVIMON,"Да ладно, босс
 piko_001_4_replay,char_PLAYER_M,Ты и так делаешь более чем достаточно.,
 piko_001_4_reaction_char_PICODEVIMON,char_PICODEVIMON,"Не будь таким. Используй меня и оскорбляй сколько хочешь. Я
 готов и жду 24/7!",
-devi_001_0_char_DEVIMON,char_DEVIMON,Сила людей - это пустяк.,
+devi_001_0_char_DEVIMON,char_DEVIMON,Сила людей — это пустяк.,
 devi_001_1_replay,char_PLAYER_M,Сила людей безгранична.,
 devi_001_1_reaction_char_DEVIMON,char_DEVIMON,Интригующе. Я хотел бы увидеть проявление этой силы.,
-devi_001_2_replay,char_PLAYER_M,Сила Девимона - это пустяк.,
+devi_001_2_replay,char_PLAYER_M,Сила Девимона — это пустяк.,
 devi_001_2_reaction_char_DEVIMON,char_DEVIMON,"У тебя острый язычок. Однако однажды тебе понадобятся мои сила и
 интеллект.",
 devi_001_3_replay,char_PLAYER_M,Человеческий потенциал безграничен.,
@@ -2222,7 +2222,7 @@ vande_001_2_reaction_char_VAMDEMON,char_VAMDEMON,"Ты определенно с
 vande_001_3_replay,char_PLAYER_M,"Признаюсь, мне любопытно.",
 vande_001_3_reaction_char_VAMDEMON,char_VAMDEMON,"ДА. Ты подружился со мной, значит, у тебя должен быть какой-то
 интерес. Тем не менее, я выбираю, кого учить.",
-vande_001_4_replay,char_PLAYER_M,"Они - зло, и их нужно остановить.",
+vande_001_4_replay,char_PLAYER_M,"Они — зло, и их нужно остановить.",
 vande_001_4_reaction_char_VAMDEMON,char_VAMDEMON,"Ты и правда попытаешься перевоспитать такого порочного типа,
 как я? Смешно! Но жду твоей попытки.",
 ldevi_001_0_char_LADYDEVIMON,char_LADYDEVIMON,Я скажу вот что. Бои не выигрываются пустыми сантиментами!,
@@ -2252,7 +2252,7 @@ asta_001_4_reaction_char_ASTAMON,char_ASTAMON,"Вокруг не видно ни
 обойдусь без оружия и просто получу удовольствие.",
 skuba_001_0_char_SKULLBALUCHIMON,char_SKULLBALUCHIMON,ТЫ БОИШЬСЯ СМЕРТИ?,
 skuba_001_1_replay,char_PLAYER_M,Трудно сказать.,
-skuba_001_1_reaction_char_SKULLBALUCHIMON,char_SKULLBALUCHIMON,БОЯТЬСЯ СМЕРТИ - ЗНАЧИТ БЫТЬ НЕСПОСОБНЫМ БОРОТЬСЯ...,
+skuba_001_1_reaction_char_SKULLBALUCHIMON,char_SKULLBALUCHIMON,БОЯТЬСЯ СМЕРТИ — ЗНАЧИТ БЫТЬ НЕСПОСОБНЫМ БОРОТЬСЯ...,
 skuba_001_2_replay,char_PLAYER_M,Научи меня этому.,
 skuba_001_2_reaction_char_SKULLBALUCHIMON,char_SKULLBALUCHIMON,Я ТОЖЕ ХОЧУ ЗНАТЬ...,
 skuba_001_3_replay,char_PLAYER_M,Это ужасно.,
@@ -2279,7 +2279,7 @@ pie_001_1_replay,char_PLAYER_M,Теперь никакого жульничес�
 pie_001_1_reaction_char_PIEDMON,char_PIEDMON,"Вряд ли я нуждаюсь в твоей лекции. Такой сильный человек, как я,
 не нуждается в уловках.",
 pie_001_2_replay,char_PLAYER_M,"Нет, спасибо.",
-pie_001_2_reaction_char_PIEDMON,char_PIEDMON,"Умный ход. Избегать опрометчивой конкуренции - ключ к долгой
+pie_001_2_reaction_char_PIEDMON,char_PIEDMON,"Умный ход. Избегать опрометчивой конкуренции — ключ к долгой
 жизни.",
 pie_001_3_replay,char_PLAYER_M,Звучит забавно.,
 pie_001_3_reaction_char_PIEDMON,char_PIEDMON,"Да? Но я тот, кто получит удовольствие, ты же знаешь. Ты
@@ -2287,20 +2287,20 @@ pie_001_3_reaction_char_PIEDMON,char_PIEDMON,"Да? Но я тот, кто по�
 pie_001_4_replay,char_PLAYER_M,Звучит как зевок.,
 pie_001_4_reaction_char_PIEDMON,char_PIEDMON,"О, прошу прощения. Я бы не стал играть в такую скучную игру, в
 которой у тебя не было бы шансов на победу.",
-kelbi_001_0_char_KERPYMON_BAD,,"Я должен был быть хорошим... Небесный херувим Дигимон,
-охраняющий Ядро Цифрового мира.",
+kelbi_001_0_char_KERPYMON_BAD,,"Я должен был быть добрым... небесным дигимоном-херувимом,
+охраняющим Ядро Цифрового мира.",
 kelbi_001_1_replay,char_PLAYER_M,Я могу чем-нибудь помочь?,
 kelbi_001_1_reaction_char_KERPYMON_BAD,,"Если тебе хватит решимости провалиться во тьму вместе
 со мной, тогда да. Но я не позволю свернуть назад.",
 kelbi_001_2_replay,char_PLAYER_M,"Ты хочешь сказать, что сейчас тебе нехорошо?",
 kelbi_001_2_reaction_char_KERPYMON_BAD,,"Теперь я фанатично зол. В конечном счете, я никогда не был ничем
 большим, чем никчемным животным.",
-kelbi_001_3_replay,char_PLAYER_M,Что такое Херувим Дигимон?,
+kelbi_001_3_replay,char_PLAYER_M,Что такое дигимон-херувим?,
 kelbi_001_3_reaction_char_KERPYMON_BAD,,"Высокопоставленные ангелы. Теперь, когда я погрузился во тьму, я
 просто твой друг.",
 kelbi_001_4_replay,char_PLAYER_M,"Ты точно хочешь быть здесь, со мной?",
-kelbi_001_4_reaction_char_KERPYMON_BAD,,"Даже несмотря на то, что я пал жертвой разложения зла, это мой
-выбор - быть рядом с тобой.",
+kelbi_001_4_reaction_char_KERPYMON_BAD,,"Даже несмотря на то, что я пал жертвой разложения зла, я сам
+решил быть рядом с тобой.",
 aruda_001_0_char_ALDAMON,char_ALDAMON,"Мне часто говорят, что я на кого-то похожа, но кто бы это мог
 быть...?",
 aruda_001_1_replay,char_PLAYER_M,Вритрамон.,
@@ -2346,7 +2346,7 @@ elec_001_2_reaction_char_ELECMON,char_ELECMON,"У меня их девять! К
 одной!",
 elec_001_3_replay,char_PLAYER_M,Очень круто.,
 elec_001_3_reaction_char_ELECMON,char_ELECMON,"Можешь копировать меня, если хочешь!",
-elec_001_4_replay,char_PLAYER_M,"Твои хвосты - это не все, что в тебе есть классного.",
+elec_001_4_replay,char_PLAYER_M,"Твои хвосты — это не все, что в тебе есть классного.",
 elec_001_4_reaction_char_ELECMON,char_ELECMON,С-спасибо. Я не ожидал такого приятного комплимента...,
 chu_001_0_char_TYUMON,char_TYUMON,"Эй, тебе нравится, что мы теперь друзья?",
 chu_001_1_replay,char_PLAYER_M,Не знаю.,
@@ -2452,11 +2452,11 @@ hack_001_3_reaction_char_HACKMON,char_HACKMON,"Как ты смеешь! Про�
 hack_001_4_replay,char_PLAYER_M,Это должно быть мило?,
 hack_001_4_reaction_char_HACKMON,char_HACKMON,"Кто сказал, что я хочу быть милым?! Однажды ты назовешь меня
 крутым!",
-graw_001_0_char_GROWMON,char_GROWMON,Мое оружие - эти крутые клинки! А у тебя какое?,
+graw_001_0_char_GROWMON,char_GROWMON,Моё оружие — эти крутые клинки! А у тебя какое?,
 graw_001_1_replay,char_PLAYER_M,Смелость сразиться с любым противником.,
-graw_001_1_reaction_char_GROWMON,char_GROWMON,"Оружие, спрятанное внутри, где его никто не может увидеть, - это
+graw_001_1_reaction_char_GROWMON,char_GROWMON,"Оружие, спрятанное внутри, где его никто не видит, — это
 чертовски круто!",
-graw_001_2_replay,char_PLAYER_M,Мои знания в области Дигимон.,
+graw_001_2_replay,char_PLAYER_M,Мои знания о дигимонах.,
 graw_001_2_reaction_char_GROWMON,char_GROWMON,"Я не силен в таких вещах, но я знаю, что это важно. Ты будешь
 мозгами. Я мускулатура!",
 graw_001_3_replay,char_PLAYER_M,Мои надежные товарищи.,
@@ -2591,7 +2591,7 @@ cydora_001_1_reaction_char_CYBERDRAMON,char_CYBERDRAMON,Я стираю враг
 cydora_001_2_replay,char_PLAYER_M,Нет необходимости удалять их.,
 cydora_001_2_reaction_char_CYBERDRAMON,char_CYBERDRAMON,Вакцины уничтожают вирусы. Таков правильный ход вещей.,
 cydora_001_3_replay,char_PLAYER_M,Я знаю.,
-cydora_001_3_reaction_char_CYBERDRAMON,char_CYBERDRAMON,"Твои враги - мои враги. К тому времени, как ты заметишь, они уже
+cydora_001_3_reaction_char_CYBERDRAMON,char_CYBERDRAMON,"Твои враги — мои враги. К тому времени, как ты заметишь, они уже
 будут стерты.",
 cydora_001_4_replay,char_PLAYER_M,Неа.,
 cydora_001_4_reaction_char_CYBERDRAMON,char_CYBERDRAMON,"Невозможно. Я найду и сотру твоих врагов
@@ -2699,12 +2699,12 @@ ruche_001_2_replay,char_PLAYER_M,Мы так многому хотим науч�
 ruche_001_2_reaction_char_LUCEMON,char_LUCEMON,"Боже, но вы, люди, жадные. Вы хотите знать, что находится за
 пределами или вне поля зрения.",
 ruche_001_3_replay,char_PLAYER_M,"Мы хотим быть с друзьями, которые нам небезразличны.",
-ruche_001_3_reaction_char_LUCEMON,char_LUCEMON,"Друзья - это такая ценная вещь? В таком случае, попробуй
+ruche_001_3_reaction_char_LUCEMON,char_LUCEMON,"Друзья — это такая ценная вещь? В таком случае, попробуй
 подружиться со мной!",
 ruche_001_4_replay,char_PLAYER_M,"У нас есть вещи, которые мы хотим защитить.",
 ruche_001_4_reaction_char_LUCEMON,char_LUCEMON,"Защита чего-то настолько важна? Я не понимаю... и все же мне
 не претит эта концепция.",
-gabu_001_0_char_GABUMON,char_GABUMON,"Я собираюсь устроить вечеринку с моими друзьями из Дигимон! Чем
+gabu_001_0_char_GABUMON,char_GABUMON,"Я собираюсь устроить вечеринку с друзьями-дигимонами! Чем
 бы нам развлечься?",
 gabu_001_1_replay,char_PLAYER_M,Спой песню перед всеми!,
 gabu_001_1_reaction_char_GABUMON,char_GABUMON,"Хм... Думаю, я слишком застенчив для этого. Но это было бы
@@ -2764,10 +2764,10 @@ pec_001_2_replay,char_PLAYER_M,Это неправда.,
 pec_001_2_reaction_char_PECKMON,char_PECKMON,"Ты поймешь это, как только увидишь, как я бегу. Черт возьми,
 может быть, я даже подвезу тебя.",
 pec_001_3_replay,char_PLAYER_M,"Бег, должно быть, доставляет удовольствие.",
-pec_001_3_reaction_char_PECKMON,char_PECKMON,"Это точно. Летать по земле - самое лучшее! Присоединяйся ко мне.
+pec_001_3_reaction_char_PECKMON,char_PECKMON,"Это точно. Летать по земле — самое лучшее! Присоединяйся ко мне.
 Ты поймешь, что я имею в виду.",
 pec_001_4_replay,char_PLAYER_M,"Держу пари, летать еще приятнее.",
-pec_001_4_reaction_char_PECKMON,char_PECKMON,"Летать - это круто и все такое, но я в любой день совершу
+pec_001_4_reaction_char_PECKMON,char_PECKMON,"Летать — это круто и все такое, но я в любой день совершу
 хорошую пробежку. Присоединяйся ко мне как-нибудь в дороге!",
 sting_001_0_char_STINGMON,char_STINGMON,"Пожалуйста, скажи мне! За что ты сражаешься, чтобы защитить?!",
 sting_001_1_replay,char_PLAYER_M,Моя собственная гордость.,
@@ -2783,7 +2783,7 @@ sting_001_4_reaction_char_STINGMON,char_STINGMON,"Ты считаешь меня
 чтобы защитить тебя, партнер.",
 volf_001_0_char_WOLFMON,char_WOLFMON,Воин всегда должен идти путем праведности.,
 volf_001_1_replay,char_PLAYER_M,Иногда тебе позволено совершать ошибки.,
-volf_001_1_reaction_char_WOLFMON,char_WOLFMON,"Верно. Случается с каждым. Самое главное - признавать и
+volf_001_1_reaction_char_WOLFMON,char_WOLFMON,"Верно. Случается с каждым. Самое главное — признавать и
 исправлять свои ошибки.",
 volf_001_2_replay,char_PLAYER_M,Ты всегда поступаешь правильно.,
 volf_001_2_reaction_char_WOLFMON,char_WOLFMON,"Спасибо, но лучше не переоценивай меня. Если я допущу ошибку,
@@ -2791,7 +2791,7 @@ volf_001_2_reaction_char_WOLFMON,char_WOLFMON,"Спасибо, но лучше �
 volf_001_3_replay,char_PLAYER_M,Я постараюсь быть осторожным.,
 volf_001_3_reaction_char_WOLFMON,char_WOLFMON,"Это относилось не к тебе. Но всё же нет ничего лучше,
 чем идти по праведному пути.",
-volf_001_4_replay,char_PLAYER_M,"Ты стойкий Дигимон, ты знаешь это?",
+volf_001_4_replay,char_PLAYER_M,"Ты крепкий орешек, знаешь?",
 volf_001_4_reaction_char_WOLFMON,char_WOLFMON,"Я просто говорю то, что должен говорить воин. Тем не менее, я
 постараюсь соответствовать этим словам.",
 gall_001_0_char_GARURUMON,char_GARURUMON,"Я крутой или как? Я слышал, что есть разные типы крутости, так
@@ -2799,7 +2799,7 @@ gall_001_0_char_GARURUMON,char_GARURUMON,"Я крутой или как? Я сл
 gall_001_1_replay,char_PLAYER_M,Дикий вид крутизны.,
 gall_001_1_reaction_char_GARURUMON,char_GARURUMON,"Хехехе... Я так и знал! И я собираюсь показать всем, что я не
 просто выгляжу дико, я дикий!",
-gall_001_2_replay,char_PLAYER_M,Умный - это круто.,
+gall_001_2_replay,char_PLAYER_M,Умный — это круто.,
 gall_001_2_reaction_char_GARURUMON,char_GARURUMON,"Надо же, вот это наблюдательность!
 Моя главная прелесть — в моих знаниях!",
 gall_001_3_replay,char_PLAYER_M,Надежный вид крутизны.,
@@ -3125,10 +3125,10 @@ alfak_001_2_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Я не Ал
 я теперь клинок Альфамона.",
 alfak_001_3_replay,char_PLAYER_M,Могу я овладеть тобой?,
 alfak_001_3_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Только Альфамон может владеть мной. Это невозможно для любого
-другого Дигимона, не говоря уже о человеке.",
+другого дигимона, не говоря уже о человеке.",
 alfak_001_4_replay,char_PLAYER_M,"Извини, что тебя превратили в меч.",
-alfak_001_4_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Сожалеть не о чем. Такая форма - величайшая честь для прототипа
-Дигимон.",
+alfak_001_4_reaction_char_ALPHAMON_OURYUKEN,char_ALPHAMON_OURYUKEN,"Сожалеть не о чем. Такая форма — величайшая честь для
+дигимона-прототипа.",
 lokni_001_0_char_LOADKNIGHTMON,char_LOADKNIGHTMON,"У меня своя система правосудия. И я отказываюсь участвовать в
 дебатах по этому поводу.",
 lokni_001_1_replay,char_PLAYER_M,Это кажется неправильным.,
@@ -3143,8 +3143,8 @@ lokni_001_4_replay,char_PLAYER_M,"Я думаю, это один из спосо
 lokni_001_4_reaction_char_LOADKNIGHTMON,char_LOADKNIGHTMON,"А как иначе? Дерзость я не одобряю,
 но признаю: мне небезразлично твоё мнение.",
 duna_001_0_char_DYNASMON,char_DYNASMON,Я с радостью отдам свою жизнь за моего сеньора.,
-duna_001_1_replay,char_PLAYER_M,Даже если твой сеньор - зло?,
-duna_001_1_reaction_char_DYNASMON,char_DYNASMON,"Добро или зло - решать моему сеньору. Я просто служу своему
+duna_001_1_replay,char_PLAYER_M,Даже если твой сеньор — зло?,
+duna_001_1_reaction_char_DYNASMON,char_DYNASMON,"Добро или зло — решать моему сеньору. Я просто служу своему
 сеньору до конца.",
 duna_001_2_replay,char_PLAYER_M,Это безумные разговоры.,
 duna_001_2_reaction_char_DYNASMON,char_DYNASMON,"Я не призываю тебя расстаться с жизнью.
@@ -3155,7 +3155,7 @@ duna_001_3_reaction_char_DYNASMON,char_DYNASMON,"Многие люди этог�
 duna_001_4_replay,char_PLAYER_M,Тебе стоит больше ценить свою жизнь.,
 duna_001_4_reaction_char_DYNASMON,char_DYNASMON,"Твоя забота о моём благополучии радует меня,
 но мой сеньор превыше всего.",
-duft_001_0_char_DUFTMON,char_DUFTMON,"Стратегия - это все, когда дело доходит до управления сражением.",
+duft_001_0_char_DUFTMON,char_DUFTMON,"Стратегия — это все, когда дело доходит до управления сражением.",
 duft_001_1_replay,char_PLAYER_M,Мои стратегии лучше.,
 duft_001_1_reaction_char_DUFTMON,char_DUFTMON,"Превосходит мой? Интересно... Тогда давай посмотрим, на что ты
 способен.",
@@ -3199,7 +3199,7 @@ alfo_001_1_replay,char_PLAYER_M,Я могу сделать это со свер�
 alfo_001_1_reaction_char_ULFORCEVDRAMON,char_ULFORCEVDRAMON,"Такого понятия не существует. Словесные игры и дикий бред со
 мной не сработают.",
 alfo_001_2_replay,char_PLAYER_M,"Мне нужна божественная быстрота, чтобы я мог не отставать.",
-alfo_001_2_reaction_char_ULFORCEVDRAMON,char_ULFORCEVDRAMON,"Мечты, надежды и цели - это хорошо, но мы посмотрим, сможет ли
+alfo_001_2_reaction_char_ULFORCEVDRAMON,char_ULFORCEVDRAMON,"Мечты, надежды и цели — это хорошо, но мы посмотрим, сможет ли
 человеческий разум сравниться с моей скоростью.",
 alfo_001_3_replay,char_PLAYER_M,Ничто и никогда не могло быть быстрее.,
 alfo_001_3_reaction_char_ULFORCEVDRAMON,char_ULFORCEVDRAMON,"Ах, так ты понимаешь. Стремись совершенствоваться, но также знай
@@ -3236,7 +3236,7 @@ bel_001_4_reaction_char_BEELZEBUMON,char_BEELZEBUMON,"Ты странный че
 узнал обо мне.",
 belbl_001_0_char_BEELZEMON_BM,char_BEELZEMON_BM,Не пугайся так. Я почти никогда не сержусь.,
 belbl_001_1_replay,char_PLAYER_M,"Я хочу посмотреть, как ты выглядишь в гневе.",
-belbl_001_1_reaction_char_BEELZEMON_BM,char_BEELZEMON_BM,"Единственный раз, когда кто-то видит меня сердитым, - это перед
+belbl_001_1_reaction_char_BEELZEMON_BM,char_BEELZEMON_BM,"Единственный раз, когда кто-то видит меня сердитым, — это перед
 смертью.",
 belbl_001_2_replay,char_PLAYER_M,"Хорошо, тогда улыбнись.",
 belbl_001_2_reaction_char_BEELZEMON_BM,char_BEELZEMON_BM,"Я делаю это, если у меня есть на то причина. Так что давай.
@@ -3293,7 +3293,7 @@ ruches_001_3_reaction_char_LUCEMON_SM,char_LUCEMON_SM,"Ты хочешь соб�
 ruches_001_4_replay,char_PLAYER_M,Как я вообще мог?,
 ruches_001_4_reaction_char_LUCEMON_SM,char_LUCEMON_SM,"Конечно, тебе это не по силам. И все же нынешнее
 сосуществование меня устраивает.",
-freyd_001_0_char_FLAMEDRAMON,char_FLAMEDRAMON,Мое мужество - пылающий ад!,
+freyd_001_0_char_FLAMEDRAMON,char_FLAMEDRAMON,Мое мужество — пылающий ад!,
 freyd_001_1_replay,char_PLAYER_M,Пусть он разгорится еще жарче.,
 freyd_001_1_reaction_char_FLAMEDRAMON,char_FLAMEDRAMON,"Ни слова больше. Мое мужество вспыхнет прямо там, рядом с моим
 пламенем!",
@@ -3484,22 +3484,22 @@ common003_1_reaction_male_knowledge,,Вау! Я хочу быть похожим
 common003_1_reaction_female_knowledge,,Вау! Я хочу быть похожим на тебя!,
 common003_1_reaction_old_knowledge,,Вау! Я хочу быть похожим на тебя!,
 common003_2_replay,char_PLAYER_M,Я легко пугаюсь.,
-common003_2_reaction_child_courage,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_male_courage,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_female_courage,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_old_courage,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_child_love,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_male_love,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_female_love,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_old_love,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_child_friendship,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_male_friendship,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_female_friendship,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_old_friendship,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_child_knowledge,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_male_knowledge,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_female_knowledge,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
-common003_2_reaction_old_knowledge,,"Правда? Тогда, я думаю, бояться - это нормально... Фух.",
+common003_2_reaction_child_courage,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_male_courage,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_female_courage,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_old_courage,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_child_love,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_male_love,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_female_love,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_old_love,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_child_friendship,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_male_friendship,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_female_friendship,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_old_friendship,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_child_knowledge,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_male_knowledge,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_female_knowledge,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
+common003_2_reaction_old_knowledge,,"Правда? Тогда, я думаю, бояться — это нормально... Фух.",
 common004_0_child_courage,,"Думаешь, мне стоит накачать еще немного мышц?",
 common004_0_male_courage,,"Думаешь, мне стоит накачать еще немного мышц?",
 common004_0_female_courage,,"Думаешь, мне стоит накачать еще немного мышц?",
@@ -4077,37 +4077,37 @@ common012_0_male_knowledge,,"Не знаю почему, но рядом с то
 common012_0_female_knowledge,,"Не знаю почему, но рядом с тобой мне становится спокойнее.",
 common012_0_old_knowledge,,"Не знаю почему, но рядом с тобой мне становится спокойнее.",
 common012_1_replay,char_PLAYER_M,"Это потому, что мы приятели.",
-common012_1_reaction_child_courage,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_child_courage,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_male_courage,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_male_courage,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_female_courage,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_female_courage,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_old_courage,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_old_courage,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_child_love,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_child_love,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_male_love,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_male_love,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_female_love,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_female_love,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_old_love,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_old_love,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_child_friendship,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_child_friendship,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_male_friendship,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_male_friendship,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_female_friendship,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_female_friendship,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_old_friendship,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_old_friendship,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_child_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_child_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_male_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_male_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_female_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_female_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
-common012_1_reaction_old_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями - это
+common012_1_reaction_old_knowledge,,"О, так вот что такое приятель... Вау, быть приятелями — это
 здорово!",
 common012_2_replay,char_PLAYER_M,"Может быть, тебе все это мерещится?",
 common012_2_reaction_child_courage,,"Хм. Раз ты так говоришь, возможно, мне и правда показалось...",
@@ -4390,7 +4390,7 @@ common017_0_child_knowledge,,Схватка с кем-то сильнее мен
 common017_0_male_knowledge,,Схватка с кем-то сильнее меня заводит меня!,
 common017_0_female_knowledge,,Схватка с кем-то сильнее меня заводит меня!,
 common017_0_old_knowledge,,Схватка с кем-то сильнее меня заводит меня!,
-common017_1_replay,char_PLAYER_M,И у меня так же. Смелость - это сила!,
+common017_1_replay,char_PLAYER_M,И у меня так же. Смелость — это сила!,
 common017_1_reaction_child_courage,,С ней можно выйти за пределы обычных возможностей.,
 common017_1_reaction_male_courage,,С ней можно выйти за пределы обычных возможностей.,
 common017_1_reaction_female_courage,,С ней можно выйти за пределы обычных возможностей.,
@@ -4622,7 +4622,7 @@ common021_0_female_knowledge,,"Некоторые люди одержимы зн
 Как думаешь, дигимонам тоже стоит к этому стремиться?",
 common021_0_old_knowledge,,"Некоторые люди одержимы знаниями.
 Как думаешь, дигимонам тоже стоит к этому стремиться?",
-common021_1_replay,char_PLAYER_M,Конечно. Знание - это сила.,
+common021_1_replay,char_PLAYER_M,Конечно. Знание — это сила.,
 common021_1_reaction_child_courage,,"Понятно. Значит, чем больше знаешь, тем больше можешь?
 Пожалуй, возьму с людей пример!",
 common021_1_reaction_male_courage,,"Понятно. Значит, чем больше знаешь, тем больше можешь?
@@ -4672,22 +4672,22 @@ common021_2_reaction_child_knowledge,,То есть сила и мастерст
 common021_2_reaction_male_knowledge,,То есть сила и мастерство важнее ума? Ясно!,
 common021_2_reaction_female_knowledge,,То есть сила и мастерство важнее ума? Ясно!,
 common021_2_reaction_old_knowledge,,То есть сила и мастерство важнее ума? Ясно!,
-common022_0_child_courage,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_male_courage,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_female_courage,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_old_courage,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_child_love,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_male_love,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_female_love,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_old_love,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_child_friendship,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_male_friendship,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_female_friendship,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_old_friendship,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_child_knowledge,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_male_knowledge,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_female_knowledge,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
-common022_0_old_knowledge,,Знание врага - ключ к победе. Знания и стратегия важны в бою!,
+common022_0_child_courage,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_male_courage,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_female_courage,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_old_courage,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_child_love,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_male_love,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_female_love,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_old_love,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_child_friendship,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_male_friendship,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_female_friendship,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_old_friendship,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_child_knowledge,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_male_knowledge,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_female_knowledge,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
+common022_0_old_knowledge,,Знание врага — ключ к победе. Знания и стратегия важны в бою!,
 common022_1_replay,char_PLAYER_M,Точно.,
 common022_1_reaction_child_courage,,"В бою нужно думать головой. Хорошо, что наши мнения сходятся!",
 common022_1_reaction_male_courage,,"В бою нужно думать головой. Хорошо, что наши мнения сходятся!",
@@ -4820,22 +4820,22 @@ common023_2_reaction_female_knowledge,,"О, ты тоже, да?.. Но тепе
 Спасибо.",
 common023_2_reaction_old_knowledge,,"О, ты тоже, да?.. Но теперь я чувствую себя немного лучше.
 Спасибо.",
-common024_0_child_courage,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_male_courage,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_female_courage,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_old_courage,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_child_love,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_male_love,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_female_love,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_old_love,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_child_friendship,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_male_friendship,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_female_friendship,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_old_friendship,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_child_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_male_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_female_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
-common024_0_old_knowledge,,"Эй, тебе больше нравится умный Дигимон?",
+common024_0_child_courage,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_male_courage,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_female_courage,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_old_courage,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_child_love,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_male_love,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_female_love,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_old_love,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_child_friendship,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_male_friendship,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_female_friendship,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_old_friendship,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_child_knowledge,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_male_knowledge,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_female_knowledge,,"Эй, тебе больше нравится умный дигимон?",
+common024_0_old_knowledge,,"Эй, тебе больше нравится умный дигимон?",
 common024_1_replay,char_PLAYER_M,"Да, я думаю, можно и так сказать.",
 common024_1_reaction_child_courage,,"О, понятно... Хм. Спасибо, буду иметь в виду.",
 common024_1_reaction_male_courage,,"О, понятно... Хм. Спасибо, буду иметь в виду.",
@@ -4920,22 +4920,22 @@ common025_2_reaction_child_knowledge,,"Хм. Ну, думаю, не стоит �
 common025_2_reaction_male_knowledge,,"Хм. Ну, думаю, не стоит беспокоиться об этом.",
 common025_2_reaction_female_knowledge,,"Хм. Ну, думаю, не стоит беспокоиться об этом.",
 common025_2_reaction_old_knowledge,,"Хм. Ну, думаю, не стоит беспокоиться об этом.",
-common026_0_child_courage,,Это нормально - хотеть защитить своих друзей?,
-common026_0_male_courage,,Это нормально - хотеть защитить своих друзей?,
-common026_0_female_courage,,Это нормально - хотеть защитить своих друзей?,
-common026_0_old_courage,,Это нормально - хотеть защитить своих друзей?,
-common026_0_child_love,,Это нормально - хотеть защитить своих друзей?,
-common026_0_male_love,,Это нормально - хотеть защитить своих друзей?,
-common026_0_female_love,,Это нормально - хотеть защитить своих друзей?,
-common026_0_old_love,,Это нормально - хотеть защитить своих друзей?,
-common026_0_child_friendship,,Это нормально - хотеть защитить своих друзей?,
-common026_0_male_friendship,,Это нормально - хотеть защитить своих друзей?,
-common026_0_female_friendship,,Это нормально - хотеть защитить своих друзей?,
-common026_0_old_friendship,,Это нормально - хотеть защитить своих друзей?,
-common026_0_child_knowledge,,Это нормально - хотеть защитить своих друзей?,
-common026_0_male_knowledge,,Это нормально - хотеть защитить своих друзей?,
-common026_0_female_knowledge,,Это нормально - хотеть защитить своих друзей?,
-common026_0_old_knowledge,,Это нормально - хотеть защитить своих друзей?,
+common026_0_child_courage,,Это нормально — хотеть защитить своих друзей?,
+common026_0_male_courage,,Это нормально — хотеть защитить своих друзей?,
+common026_0_female_courage,,Это нормально — хотеть защитить своих друзей?,
+common026_0_old_courage,,Это нормально — хотеть защитить своих друзей?,
+common026_0_child_love,,Это нормально — хотеть защитить своих друзей?,
+common026_0_male_love,,Это нормально — хотеть защитить своих друзей?,
+common026_0_female_love,,Это нормально — хотеть защитить своих друзей?,
+common026_0_old_love,,Это нормально — хотеть защитить своих друзей?,
+common026_0_child_friendship,,Это нормально — хотеть защитить своих друзей?,
+common026_0_male_friendship,,Это нормально — хотеть защитить своих друзей?,
+common026_0_female_friendship,,Это нормально — хотеть защитить своих друзей?,
+common026_0_old_friendship,,Это нормально — хотеть защитить своих друзей?,
+common026_0_child_knowledge,,Это нормально — хотеть защитить своих друзей?,
+common026_0_male_knowledge,,Это нормально — хотеть защитить своих друзей?,
+common026_0_female_knowledge,,Это нормально — хотеть защитить своих друзей?,
+common026_0_old_knowledge,,Это нормально — хотеть защитить своих друзей?,
 common026_1_replay,char_PLAYER_M,Да. Это чувство сделает тебя сильнее.,
 common026_1_reaction_child_courage,,Так и есть! Друзья и правда придают мне сил!,
 common026_1_reaction_male_courage,,Так и есть! Друзья и правда придают мне сил!,
@@ -5267,37 +5267,37 @@ common030_2_reaction_male_knowledge,,"Значит, всё решают мощь
 common030_2_reaction_female_knowledge,,"Значит, всё решают мощь и мастерство? Понятно.",
 common030_2_reaction_old_knowledge,,"Значит, всё решают мощь и мастерство? Понятно.",
 common031_0_child_courage,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_male_courage,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_female_courage,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_old_courage,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_child_love,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_male_love,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_female_love,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_old_love,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_child_friendship,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_male_friendship,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_female_friendship,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_old_friendship,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_child_knowledge,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_male_knowledge,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_female_knowledge,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_0_old_knowledge,,"Тебе не кажется, что ты ведешь себя безрассудно? Знаешь, это
-нормально - сделать перерыв.",
+нормально — сделать перерыв.",
 common031_1_replay,char_PLAYER_M,Спасибо. Очень мило.,
 common031_1_reaction_child_courage,,"Н- Не совсем... Я просто не хочу попасть в затруднительное
 положение, если мой партнер упадет в обморок.",
@@ -5808,7 +5808,7 @@ common038_0_female_knowledge,,"Каждая новая встреча напом
 как мало я знаю об этом мире.",
 common038_0_old_knowledge,,"Каждая новая встреча напоминает мне,
 как мало я знаю об этом мире.",
-common038_1_replay,char_PLAYER_M,Изучение всего этого - часть удовольствия.,
+common038_1_replay,char_PLAYER_M,Изучение всего этого — часть удовольствия.,
 common038_1_reaction_child_courage,,"Точно! Чем больше загадок в мире, тем больше в нем веселья!",
 common038_1_reaction_male_courage,,"Точно! Чем больше загадок в мире, тем больше в нем веселья!",
 common038_1_reaction_female_courage,,"Точно! Чем больше загадок в мире, тем больше в нем веселья!",
@@ -5875,7 +5875,7 @@ common039_1_reaction_child_knowledge,,"О, понятно... Так что лу�
 common039_1_reaction_male_knowledge,,"О, понятно... Так что лучше иметь больше путей на выбор.",
 common039_1_reaction_female_knowledge,,"О, понятно... Так что лучше иметь больше путей на выбор.",
 common039_1_reaction_old_knowledge,,"О, понятно... Так что лучше иметь больше путей на выбор.",
-common039_2_replay,char_PLAYER_M,Потому что быть умным - это круто.,
+common039_2_replay,char_PLAYER_M,Потому что быть умным — это круто.,
 common039_2_reaction_child_courage,,"Хи-хи. Верно. Жаль только, что сказать легче, чем сделать.",
 common039_2_reaction_male_courage,,"Хи-хи. Верно. Жаль только, что сказать легче, чем сделать.",
 common039_2_reaction_female_courage,,"Хи-хи. Верно. Жаль только, что сказать легче, чем сделать.",
@@ -6516,22 +6516,22 @@ common047_1_reaction_male_knowledge,,"Конечно, я бы так и сдел
 common047_1_reaction_female_knowledge,,"Конечно, я бы так и сделал! Не исчезай из-за меня, ладно?",
 common047_1_reaction_old_knowledge,,"Конечно, я бы так и сделал! Не исчезай из-за меня, ладно?",
 common047_2_replay,char_PLAYER_M,"Я сделаю все, что в моих силах, чтобы остаться здесь.",
-common047_2_reaction_child_courage,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_male_courage,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_female_courage,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_old_courage,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_child_love,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_male_love,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_female_love,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_old_love,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_child_friendship,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_male_friendship,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_female_friendship,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_old_friendship,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_child_knowledge,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_male_knowledge,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_female_knowledge,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
-common047_2_reaction_old_knowledge,,Это так похоже на тебя - быть таким уклончивым. Хи-хи.,
+common047_2_reaction_child_courage,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_male_courage,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_female_courage,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_old_courage,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_child_love,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_male_love,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_female_love,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_old_love,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_child_friendship,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_male_friendship,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_female_friendship,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_old_friendship,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_child_knowledge,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_male_knowledge,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_female_knowledge,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
+common047_2_reaction_old_knowledge,,Это так похоже на тебя — быть таким уклончивым. Хи-хи.,
 common048_0_child_courage,,"Я беспокоюсь, что ты, возможно, слишком давишь на себя.",
 common048_0_male_courage,,"Я беспокоюсь, что ты, возможно, слишком давишь на себя.",
 common048_0_female_courage,,"Я беспокоюсь, что ты, возможно, слишком давишь на себя.",
@@ -6581,7 +6581,7 @@ common048_1_reaction_female_knowledge,,"Так и есть? Что ж, прос�
 тебе.",
 common048_1_reaction_old_knowledge,,"Так и есть? Что ж, просто знай, что я всегда буду беспокоиться о
 тебе.",
-common048_2_replay,char_PLAYER_M,"Ну, а я - нет.",
+common048_2_replay,char_PLAYER_M,"Ну, а я — нет.",
 common048_2_reaction_child_courage,,"Да, я знаю, что с тобой все в порядке... Я просто был немного
 обеспокоен, вот и все.",
 common048_2_reaction_male_courage,,"Да, я знаю, что с тобой все в порядке... Я просто был немного
@@ -6712,7 +6712,7 @@ common050_0_child_knowledge,,Я хочу спросить тебя кое о ч�
 common050_0_male_knowledge,,Я хочу спросить тебя кое о чем. Ты ценишь смелость?,
 common050_0_female_knowledge,,Я хочу спросить тебя кое о чем. Ты ценишь смелость?,
 common050_0_old_knowledge,,Я хочу спросить тебя кое о чем. Ты ценишь смелость?,
-common050_1_replay,char_PLAYER_M,Конечно. Смелость - это сила идти вперёд!,
+common050_1_replay,char_PLAYER_M,Конечно. Смелость — это сила идти вперёд!,
 common050_1_reaction_child_courage,,"Приятно слышать. Я тоже считаю, что смелость важнее всего.",
 common050_1_reaction_male_courage,,"Приятно слышать. Я тоже считаю, что смелость важнее всего.",
 common050_1_reaction_female_courage,,"Приятно слышать. Я тоже считаю, что смелость важнее всего.",
@@ -6927,37 +6927,37 @@ common053_0_male_knowledge,,"Я многое знаю. Как думаешь, м
 common053_0_female_knowledge,,"Я многое знаю. Как думаешь, мои знания тебе пригодятся?",
 common053_0_old_knowledge,,"Я многое знаю. Как думаешь, мои знания тебе пригодятся?",
 common053_1_replay,char_PLAYER_M,Знания — тоже оружие!,
-common053_1_reaction_child_courage,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_child_courage,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_male_courage,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_male_courage,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_female_courage,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_female_courage,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_old_courage,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_old_courage,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_child_love,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_child_love,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_male_love,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_male_love,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_female_love,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_female_love,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_old_love,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_old_love,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_child_friendship,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_child_friendship,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_male_friendship,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_male_friendship,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_female_friendship,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_female_friendship,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_old_friendship,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_old_friendship,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_child_knowledge,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_child_knowledge,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_male_knowledge,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_male_knowledge,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_female_knowledge,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_female_knowledge,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
-common053_1_reaction_old_knowledge,,"Знание - это оружие, да? Ты умеешь обращаться со словами! Мой
+common053_1_reaction_old_knowledge,,"Знание — это оружие, да? Ты умеешь обращаться со словами! Мой
 интеллект в твоем распоряжении!",
 common053_2_replay,char_PLAYER_M,Просто отойди и не переусердствуй.,
 common053_2_reaction_child_courage,,"Хм, значит, одних знаний мало?
@@ -7008,7 +7008,7 @@ common054_0_child_knowledge,,Не хочешь послушать мои рас�
 common054_0_male_knowledge,,Не хочешь послушать мои рассказы о былых временах?,
 common054_0_female_knowledge,,Не хочешь послушать мои рассказы о былых временах?,
 common054_0_old_knowledge,,Не хочешь послушать мои рассказы о былых временах?,
-common054_1_replay,char_PLAYER_M,Конечно! Прошлое - это сокровищница знаний!,
+common054_1_replay,char_PLAYER_M,Конечно! Прошлое — это сокровищница знаний!,
 common054_1_reaction_child_courage,,Знание — это сокровище? Очень приятно слышать это от тебя!,
 common054_1_reaction_male_courage,,Знание — это сокровище? Очень приятно слышать это от тебя!,
 common054_1_reaction_female_courage,,Знание — это сокровище? Очень приятно слышать это от тебя!,
@@ -7140,7 +7140,7 @@ common056_0_child_knowledge,,"Чем больше знаешь, тем лучш�
 common056_0_male_knowledge,,"Чем больше знаешь, тем лучше понимаешь, как мало тебе известно.",
 common056_0_female_knowledge,,"Чем больше знаешь, тем лучше понимаешь, как мало тебе известно.",
 common056_0_old_knowledge,,"Чем больше знаешь, тем лучше понимаешь, как мало тебе известно.",
-common056_1_replay,char_PLAYER_M,"Обучение - это процесс, длящийся всю жизнь.",
+common056_1_replay,char_PLAYER_M,"Обучение — это процесс, длящийся всю жизнь.",
 common056_1_reaction_child_courage,,"Да, именно так. Мои поиски просветления никогда не закончатся.",
 common056_1_reaction_male_courage,,"Да, именно так. Мои поиски просветления никогда не закончатся.",
 common056_1_reaction_female_courage,,"Да, именно так. Мои поиски просветления никогда не закончатся.",
@@ -7373,37 +7373,37 @@ common059_2_reaction_male_knowledge,,Не говори глупостей. Я г
 common059_2_reaction_female_knowledge,,Не говори глупостей. Я говорил о тебе.,
 common059_2_reaction_old_knowledge,,Не говори глупостей. Я говорил о тебе.,
 common060_0_child_courage,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_male_courage,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_female_courage,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_old_courage,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_child_love,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_male_love,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_female_love,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_old_love,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_child_friendship,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_male_friendship,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_female_friendship,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_old_friendship,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_child_knowledge,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_male_knowledge,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_female_knowledge,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_0_old_knowledge,,"Как ты думаешь, может ли дружба расцвести между человеком и
-Дигимоном?",
+дигимоном?",
 common060_1_replay,char_PLAYER_M,Это абсолютно возможно!,
 common060_1_reaction_child_courage,,"Безусловно, говоришь? Хо-хо-хо! Я тоже так думаю.",
 common060_1_reaction_male_courage,,"Безусловно, говоришь? Хо-хо-хо! Я тоже так думаю.",
